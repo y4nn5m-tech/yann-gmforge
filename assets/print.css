@@ -1,7 +1,7 @@
 /* ============================================================================
    print.css — charte visuelle du projet, sortie PDF (WeasyPrint).
    Reprise verbatim de la feuille canonique du socle, à trois différences près,
-   toutes signalées par /* [dépôt] */.
+   toutes signalées par un commentaire « [dépôt] ».
    ========================================================================== */
 
 /* [dépôt] La police est embarquée, pas empruntée au système : c'est LA
@@ -56,6 +56,11 @@ h4 { font-size:8.4pt; margin:2.5mm 0 1mm 0; text-transform:uppercase; letter-spa
 .head .use.consulter { background:#6a4bb0; }
 .head h2  { font-size:16pt; margin:0; color:#132c3c; letter-spacing:-0.2pt; line-height:1.05; }
 .head .sub{ font-size:8pt; color:#576872; font-style:italic; margin-top:0.6mm; }
+/* [dépôt] La feuille canonique écrit <span class="use"> directement dans .head ;
+   pandoc l'enveloppe dans un <p>, dont la marge par défaut coûte 12 mm par
+   unité — de quoi faire déborder une page sur quatre. Même calage que td p
+   et .loc .ln p. */
+.head p { margin:0; }
 
 /* ============ RÉGIME 2 — NOTE : sections qui coulent ============ */
 .brk { break-before: page; }
@@ -126,3 +131,8 @@ td p, th p { margin:0; }
 /* --- couverture (déplacé des styles en ligne vers la feuille) --- */
 .eyebrow  { font-size:7.4pt; letter-spacing:2pt; text-transform:uppercase; color:#7d8f9a; }
 .subtitle { font-size:12pt; color:#576872; font-style:italic; margin-top:1.5mm; }
+
+/* [dépôt] La légende des quatre couleurs de la couverture : le squelette du
+   socle les pose en style inline, on les nomme ici pour que le Markdown reste
+   lisible. Mêmes valeurs que les `.lab` correspondants. */
+.lg-dire{color:#14507c} .lg-jeu{color:#1e5c30} .lg-mj{color:#8f1e17} .lg-obj{color:#4b3283}

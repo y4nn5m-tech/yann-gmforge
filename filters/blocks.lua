@@ -22,6 +22,19 @@
 
 local BLOCS = { dire = true, jeu = true, mj = true, obj = true, warn = true }
 
+-- 4. En EPUB, pandoc compose lui-même une page de titre à partir des
+--    métadonnées. La couverture du premier fragment — surtitre, titre,
+--    sous-titre, filet — ferait alors doublon : le titre apparaîtrait sur la
+--    page de garde puis en tête du premier chapitre. On la retire de cette
+--    sortie-là, et d'elle seule : le PDF la compose (c'est sa couverture) et le
+--    site s'appuie dessus, `title` y étant vidé côté build.
+local EPUB = FORMAT:match("^epub") ~= nil
+local ORNEMENTS_DE_COUVERTURE = { eyebrow = true, subtitle = true, rule = true }
+
+function Header(el)
+  if EPUB and el.level == 1 then return {} end
+end
+
 local function a_classe(el, nom)
   for _, c in ipairs(el.classes) do if c == nom then return true end end
   return false
@@ -34,7 +47,9 @@ local function etiquette(div)
   local span = pandoc.Span(pandoc.Str(lab), pandoc.Attr("", {"lab"}, {}))
   div.attributes["lab"] = nil
   if div.content[1] and div.content[1].t == "Para" then
-    table.insert(div.content[1].content, 1, pandoc.LineBreak())
+    -- Pas de LineBreak après l'étiquette : `.lab` est display:block dans les
+    -- deux feuilles, donc le <br> ne sert à rien et coûte une ligne vide par
+    -- bloc coloré — cinq par unité de livret, de quoi la faire déborder.
     table.insert(div.content[1].content, 1, span)
   else
     table.insert(div.content, 1, pandoc.Plain({span}))
@@ -85,6 +100,11 @@ local function largeurs(div)
 end
 
 function Div(el)
+  if EPUB then
+    for _, c in ipairs(el.classes) do
+      if ORNEMENTS_DE_COUVERTURE[c] then return {} end
+    end
+  end
   for classe, _ in pairs(BLOCS) do
     if a_classe(el, classe) then return etiquette(el) or el end
   end

@@ -55,6 +55,7 @@ h4 { font-size: 0.92rem; text-transform: uppercase; letter-spacing: 0.04em;
              letter-spacing:0.1em; text-transform:uppercase; color:#fff;
              background:#34566b; padding:0.1rem 0.4rem; border-radius:2px; }
 .head h2 { font-size:1.5rem; background:none; border:none; padding:0; margin:0.3rem 0 0 0; }
+.head p { margin:0; }
 
 .card { border:1px solid #c3ccd2; border-radius:6px; padding:0.8rem 1rem; margin-bottom:1rem; }
 .card h3 { margin-top:0; border-bottom:1px solid #c3ccd2; font-size:1.05rem;
@@ -90,3 +91,5 @@ td p, th p { margin:0; }
 /* --- couverture --- */
 .eyebrow  { font-size:0.78rem; letter-spacing:0.18em; text-transform:uppercase; color:#7d8f9a; }
 .subtitle { font-size:1.15rem; color:#576872; font-style:italic; margin:0 0 0.2rem 0; }
+
+.lg-dire{color:#14507c} .lg-jeu{color:#1e5c30} .lg-mj{color:#8f1e17} .lg-obj{color:#4b3283}

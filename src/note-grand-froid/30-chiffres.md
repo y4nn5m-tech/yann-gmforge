@@ -1,122 +1,126 @@
 ## [3]{.num}Les chiffres à avoir en main {.sec}
 
-::: {.obj lab="Trois tableaux seulement"}
-Le profil du Wendigo, la chronologie des cinq morts et les caractéristiques des prétirés sont dans
-la source : rien à recopier. Ce qui manque, c'est ce qu'elle **ne rassemble pas** et ce qu'elle
-**n'a pas calculé**.
+### Les Points de Vie du Wendigo — le calcul, fait d'avance
+
+::: {.tight widths="30,16,54"}
++------------------------------+----------------+-----------------------------------------------------+
+| État de la liste             | PV · Armure    | Pourquoi                                            |
++==============================+================+=====================================================+
+| **Au lac** *(le seul cas,    | **34 · 4**     | 26 de base, +4 pour Sherlyn (lundi), +4 pour        |
+| voir A2)*                    |                | Stephen (mardi) — les deux seules âmes prises « à   |
+|                              |                | partir du lundi ». Tahlia étant vivante à leur      |
+|                              |                | arrivée, ce chiffre ne bouge plus                   |
++------------------------------+----------------+-----------------------------------------------------+
+| **Forme véritable**          | **18 · 0**     | Seulement si les PJ l'amènent à 0 sans feu ni       |
+|                              |                | explosion                                           |
++------------------------------+----------------+-----------------------------------------------------+
 :::
 
-### 3.1 — Ce que le groupe peut réellement infliger
+### Ce que le groupe peut réellement infliger
 
-::: {.jeu lab="À poser devant soi avant le lac — A2"}
-La ligne « Dégâts armé » est imprimée sur les cinq fiches. **Elle ne s'applique qu'à ceux qui ont
-une arme**, et la ligne « Équipement » dit qui en a une. Personne n'a fait la lecture croisée.
+::: {.tight widths="16,34,16,34"}
++---------------+-----------------------------+----------------+-------------------------------------+
+| PJ            | Arme au lac                 | Net après      | —                                   |
+|               |                             | armure 4       |                                     |
++===============+=============================+================+=====================================+
+| **Gabriel**   | fusil, revolver — **d10**   | ≈ **1,5**      | le seul tireur du groupe            |
++---------------+-----------------------------+----------------+-------------------------------------+
+| **Virginia**  | poings américains — **d8**  | ≈ **0,5**      | et il faut être au contact          |
++---------------+-----------------------------+----------------+-------------------------------------+
+| **Steven**    | aucune arme — 4 à mains     | **0**          | outils de crochetage, carte de      |
+|               | nues                        |                | visite                              |
++---------------+-----------------------------+----------------+-------------------------------------+
+| **Rosemary**  | aucune — 1 à mains nues     | **0**          | ordinateur portable, carnet         |
++---------------+-----------------------------+----------------+-------------------------------------+
+| **Manuel**    | aucune — 1 à mains nues     | **0**          | trousse de premiers soins,          |
+|               |                             |                | cigarettes                          |
++---------------+-----------------------------+----------------+-------------------------------------+
 :::
 
-::: {.tight widths="19,17,26,19,19"}
-+------------------+----------------+-------------------------+------------------+------------------+
-| PJ               | Fiche : armé   | Ce qu'il porte          | Dégâts réels     | Après l'armure 4 |
-+==================+================+=========================+==================+==================+
-| **Steven Brooks**| 6              | Outils de crochetage.   | **4** (sans      | **0**            |
-|                  |                | *Aucune arme*           | arme)            |                  |
-+------------------+----------------+-------------------------+------------------+------------------+
-| **Virginia       | 8              | **Poings américains**   | **8**            | **4**            |
-| Walker**         |                |                         |                  |                  |
-+------------------+----------------+-------------------------+------------------+------------------+
-| **Rosemary       | 6              | Ordinateur, carnet.     | **1** (sans      | **0**            |
-| Withers**        |                | *Aucune arme*           | arme)            |                  |
-+------------------+----------------+-------------------------+------------------+------------------+
-| **Manuel Yazzie**| 6              | Trousse de soins,       | **1** (sans      | **0**            |
-|                  |                | cigarettes. *Aucune     | arme)            |                  |
-|                  |                | arme*                   |                  |                  |
-+------------------+----------------+-------------------------+------------------+------------------+
-| **Gabriel Jones**| 10             | **Fusil** d6,           | **10**           | **6**            |
-|                  |                | **revolver** d6         |                  |                  |
-+------------------+----------------+-------------------------+------------------+------------------+
+::: {.warn lab="L'arithmétique du final, et c'est la conclusion la plus utile de cette note"}
+Le groupe inflige **environ 2 PV par Moment**. Il faut en retirer **52** (34 puis 18). Soit
+**vingt-six Moments**.\
+Le Wendigo inflige **jusqu'à 16 PV par Moment** — Gel 8, Griffes 4, Morsure 4 — sur un total de 60 PV
+pour les cinq personnages. Soit **quatre à six Moments**.\
+**Le combat au corps à corps est perdu d'un facteur cinq.** Ce n'est pas un final serré, c'est un
+final à une seule solution : le feu. Un MJ qui laisse la table découvrir ce rapport de force en
+jouant tue cinq prétirés. La conséquence tient en une phrase de pilotage : **les fusées éclairantes
+doivent être vues avant le premier Moment, pas trouvées au troisième.**
 :::
 
-::: {.warn lab="La conclusion, et c'est du pilotage"}
-Contre 4 Points d'Armure, **trois personnages sur cinq infligent zéro**. Il reste **10 Points de Vie
-par Moment**, et encore : à condition que Virginia et Gabriel touchent tous les deux, malgré le
-malus de **−4** au toucher.\
-En face : **34** Points de Vie sous la première forme (B4), puis **18** en forme véritable — et
-jusqu'à **16 Points de Vie par Moment** rendus (Gel 8, Griffes 4, Morsure 4) contre des
-personnages qui en ont **11 à 13**.\
-**Le rapport ne se rattrape pas au dé.** Il n'y a qu'une issue, et c'est le feu : dégâts doublés,
-armure ignorée. Une fusée éclairante entre les mains de Rosemary vaut plus que les poings de
-Virginia — c'est la seule chose de toute la scène qui rende ses trois personnages désarmés utiles.\
-[Le nombre exact de Moments dépend de la règle de toucher du livre de base, que le scénario ne
-rappelle pas. La conclusion, elle, ne dépend d'aucune règle : sans feu, c'est perdu.]{.small}
+### Le feu — les trois sources et leurs chiffres
+
+::: {.tight widths="26,20,54"}
++---------------------------+------------------+-------------------------------------------------------+
+| Source                    | Sur le Wendigo   | Ce qu'il faut pour s'en servir                        |
++===========================+==================+=======================================================+
+| **Fusées éclairantes**    | **6 → 12**       | Atteindre l'un des deux navires pris dans la glace.   |
+| *Matériel d6, non         | armure ignorée   | **Trois fusées suffisent** (36 > 34), et une mort par |
+| chiffrées — A7*           |                  | le feu supprime la forme véritable                    |
++---------------------------+------------------+-------------------------------------------------------+
+| **Réservoirs des          | **24 → 48**      | Un tir. La source dit que « l'explosion suffit à la   |
+| navires**                 |                  | détruire » : c'est une fin en un coup                 |
+| *« un tir bien placé »*   |                  |                                                       |
++---------------------------+------------------+-------------------------------------------------------+
+| **Cœur de glace**         | dégâts **×2**    | Regarder à travers un filtre — donc un test de Santé  |
+| *arbitrage A6*            | armure ignorée   | mentale — et attaquer avec Désavantage                |
++---------------------------+------------------+-------------------------------------------------------+
 :::
 
-### 3.2 — Les cinq filtres
-
-::: {.obj lab="Éparpillé sur cinq sections de la source, jamais réuni"}
-C'est le recoupement que **les joueurs** doivent faire — ne jamais le faire à leur place. Ce tableau
-sert à savoir, à chaque instant, ce que la table est en train de pouvoir reconstituer.
+::: {.warn lab="Le croisement que la source n'a pas fait — l'explosion tue Tahlia"}
+Les réservoirs infligent **24 dégâts de feu à toute personne Proche**, avec une Sauvegarde de
+Dextérité **avec Désavantage**. Or Tahlia est au pied du Wendigo, *paralysée par la peur* : elle ne
+bougera pas, elle ne lancera pas le dé.\
+Donc **la solution la plus efficace du scénario tue la personne qu'ils sont venus sauver**, et
+n'importe quel PJ à 12 PV avec elle. La source pose les deux faits à deux pages d'écart et ne les
+croise jamais.\
+**Retenu : il faut deux actions pour gagner proprement** — quelqu'un tire Tahlia hors de la zone
+(Force, sans jet si elle est portée à deux), et quelqu'un tire de loin. C'est exactement la
+répartition des fiches : Virginia a FOR 12, Gabriel a DEX 13+ et *Main sûre*. **Le final est une
+manœuvre à deux, et personne ne l'a écrit.**
 :::
 
-::: {.tight widths="22,26,30,22"}
-+---------------------+-------------------------+-------------------------------+---------------------+
-| Victime             | Le filtre               | Version officielle            | Qui peut le dire    |
-+=====================+=========================+===============================+=====================+
-| **Walter Nunez**    | Le miroir de            | Crise cardiaque, panne de     | Le voisin — visage  |
-| *samedi*            | l'ascenseur             | courant. Montre arrêtée à     | « effroyable »      |
-|                     |                         | 20 h 04                       |                     |
-+---------------------+-------------------------+-------------------------------+---------------------+
-| **Dorothea          | Le **rétroviseur        | Perte de contrôle à cause du  | **Le conducteur de  |
-| Brickford**         | intérieur**             | froid                         | la déneigeuse** —   |
-| *dimanche*          |                         |                               | « elle regardait    |
-|                     |                         |                               | dans le rétroviseur »|
-+---------------------+-------------------------+-------------------------------+---------------------+
-| **Sherlyn Moore**   | La **surface de l'eau** | L'eau a gelé en quelques      | **Monsieur Moore**  |
-| *lundi*             | de la piscine           | secondes — « impossible »,    | — le seul témoin    |
-|                     |                         | dit la société d'entretien    | **vivant** qui l'a  |
-|                     |                         |                               | vu à travers un     |
-|                     |                         |                               | filtre              |
-+---------------------+-------------------------+-------------------------------+---------------------+
-| **Stephen Barlow**  | Une **vitre** de la     | Incident de personne. Corps   | L'autopsie —        |
-| *mardi*             | rame                    | lacéré, gelé                  | « griffes géantes » |
-+---------------------+-------------------------+-------------------------------+---------------------+
-| **Tahlia Carodios** | Son **objectif**        | — *elle est encore vivante*   | —                   |
-| *à venir*           |                         |                               |                     |
-+---------------------+-------------------------+-------------------------------+---------------------+
+### Les Avantages et Désavantages, rassemblés
+
+La source les distribue sur huit pages ; ils tombent tous dans les mêmes six heures de jeu.
+
+::: {.tight widths="30,16,54"}
++------------------------------+----------------+-----------------------------------------------------+
+| Où                           | Lequel         | Portée                                              |
++==============================+================+=====================================================+
+| Crochetage — outils de       | **Avantage**   | Sauvegardes pour crocheter. L'appartement de        |
+| Steven                       |                | Walter, et le local technique de la villa           |
++------------------------------+----------------+-----------------------------------------------------+
+| Faire parler Monsieur Moore  | Désavantage    | Sauvegarde de Charisme, une fois. Puis test de      |
+|                              |                | Bagou pour obtenir le reflet                        |
++------------------------------+----------------+-----------------------------------------------------+
+| Bassin gelé de la villa      | Désavantage    | Sauvegarde de Constitution ; échec = toutes les     |
+| Moore                        |                | Sauvegardes physiques avec Désavantage pendant      |
+|                              |                | deux jours, **donc jusqu'au lac**                   |
++------------------------------+----------------+-----------------------------------------------------+
+| Bourrasque — bras fêlé (B3)  | Désavantage    | Tous les tests de combat et de Dextérité, jusqu'à   |
+|                              |                | la fin du scénario                                  |
++------------------------------+----------------+-----------------------------------------------------+
+| Tir sur les réservoirs       | Désavantage    | Sauvegarde de Dextérité pour esquiver l'explosion   |
++------------------------------+----------------+-----------------------------------------------------+
+| Viser le cœur de glace (A6)  | Désavantage    | L'attaque elle-même                                 |
++------------------------------+----------------+-----------------------------------------------------+
 :::
 
-::: {.mj lab="La phrase de secours, si la table n'a rien formulé avant le lac"}
-Rosemary, ou n'importe qui : « ils regardaient tous quelque chose. Un miroir, un rétroviseur, l'eau,
-une vitre. » Ne la sortir **qu'au lac**, et seulement si personne n'a prononcé le mot.
+::: {.warn lab="À voir d'un coup — trois Désavantages s'empilent sur le même corps"}
+Le bassin de la villa (deux jours), la bourrasque (jusqu'à la fin) et le tir sur les réservoirs
+portent tous les trois sur les Sauvegardes physiques et de Dextérité. **Un PJ qui rate le bassin le
+mardi et la bourrasque le mercredi arrive au lac avec un double Désavantage sur le seul jet qui gagne
+la partie.** C'est la raison pour laquelle B4 sépare les deux péripéties, et la raison pour laquelle
+il faut deux tireurs possibles dans le plan.
 :::
 
-### 3.3 — Les Désavantages semés, et où ils tombent
+### Les tests de Santé mentale du final
 
-::: {.obj lab="Ils sont sur six pages différentes et se donnent rendez-vous dans deux scènes"}
-La source ne les compte jamais ensemble. Deux d'entre eux frappent **le jet qui gagne la partie**.
-:::
-
-::: {.tight widths="34,30,36"}
-+-----------------------------------+------------------------------+-------------------------------+
-| Le Désavantage                    | Où il vient                  | Où il retombe                 |
-+===================================+==============================+===============================+
-| Faire parler **Monsieur Moore**   | Écrit dans la scène          | Le témoignage du bassin —     |
-| — Sauvegarde de Charisme          |                              | c'est le seul témoin vivant   |
-+-----------------------------------+------------------------------+-------------------------------+
-| **Bras fêlé** — combat et         | Péripétie climatique,        | **Le tir sur les réservoirs** |
-| Dextérité, *jusqu'à la fin*       | bourrasque                   | — déjà à Désavantage (A3)     |
-+-----------------------------------+------------------------------+-------------------------------+
-| **Malade** — toutes Sauvegardes   | Le bassin de la villa,       | **Le Gel du Wendigo**, qui    |
-| physiques, *deux jours*           | Sauvegarde de Sagesse ratée  | est une Sauvegarde de         |
-|                                   |                              | Constitution                  |
-+-----------------------------------+------------------------------+-------------------------------+
-| **Tir sur les réservoirs** —      | Écrit dans la scène finale   | Cumulé avec le bras fêlé, il  |
-| Sauvegarde de Dextérité           |                              | devient un **double**         |
-|                                   |                              | Désavantage. → A9             |
-+-----------------------------------+------------------------------+-------------------------------+
-:::
-
-::: {.jeu lab="Terry Campbell, sans filtre — ce n'est pas un second profil"}
-Mêmes Points de Vie, même armure, mêmes attaques que le Wendigo (B6). Ce qui change est
-**descriptif** : un vieil homme en manteau noir, lunettes de soleil en pleine nuit, qui se déplace
-avec une aisance impossible et ouvre des portes d'ascenseur à la main.\
-**Il ne parle pas.** Terry n'est plus là depuis trois semaines.
+::: {.jeu lab="Trois occasions, sur la même piste de dés"}
+**Un** — regarder le Wendigo à travers un filtre *(échec : fasciné 1d6 Moments, aucune action)*.
+**Deux** — voir les chairs de Terry se déchirer, si la créature passe en forme véritable. **Trois** —
+retirer ses lunettes noires à Terry chez les Campbell (A3).\
+**Croisé avec le Gel à 8 PV : un personnage fasciné meurt en deux Moments.** C'est le vrai danger du
+lac, et il ne figure dans aucun profil.
 :::

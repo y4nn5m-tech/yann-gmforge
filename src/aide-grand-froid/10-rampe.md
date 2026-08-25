@@ -3,51 +3,118 @@
 ::: {.head}
 [À dire]{.use}
 
-## Chicago, moins trente
+## Chicago
 :::
 
-::: {.obj lab="Objectif"}
-Faire sentir une ville qui s'est arrêtée, pas un décor d'hiver — et que le froid n'est pas une
-saison, c'est un événement. **Ne pas laisser les joueurs intervenir** : ce plan est à vous, et
-c'est le seul moment de la partie où vous parlerez sans être coupé.
+::: {.mj lab="À ne pas dire"}
+Ce froid n'est pas un hiver : c'est le Wendigo qui se nourrit, et il monte d'un cran à chaque âme
+prise. Quatre ont déjà été prises — la dernière il y a deux heures, dans une piscine chauffée.
 :::
-
-### Le plan large
 
 ::: {.say}
 - L'histoire se passe à **Chicago**.
-- Nous sommes le **lundi 28 janvier 2019**, il est dix heures et demie du matin. *— B1*
-- Il fait **moins trente**. Une vague de froid descendue du Canada s'est arrêtée sur les Grands Lacs
-  et ne repart pas.
-- Plusieurs villes du Nord sont plus froides que les pôles. On l'a dit à la radio ce matin, et
-  personne n'a ri.
+- Nous sommes le **lundi 28 janvier 2019**. Il est dix heures du matin.
+- Il fait **moins trente**.
 :::
 
-### La ville
+### Tout en haut — la vague
 
 ::: {.say}
-- Les chasse-neige ne fonctionnent plus : le froid enraye la mécanique.
-- Les trains sont annulés, et **on fait brûler les rails** pour qu'ils ne se brisent pas. Des lignes
-  de feu orange, à hauteur de rue, le long des voies.
+- Une vague de froid est descendue des terres canadiennes et couvre le nord du continent.
+- Plusieurs villes sont plus froides que les pôles. Chicago est dessous depuis quatre jours.
+:::
+
+### La ville, vue de haut
+
+::: {.say}
+- Les trains sont annulés. On brûle les rails pour qu'ils ne se brisent pas.
 - Le service postal est arrêté. Chacun est prié de rester chez soi.
-- Des centres de réchauffement ouvrent pour les démunis, et il y a la queue devant.
-- Les accidents mortels se comptent par dizaines — des voitures qui dérapent, des engins, et les
-  morts de froid.
+- Les chasse-neige ne fonctionnent plus : le froid enraye la mécanique. Les rues ne sont plus
+  dégagées.
 :::
 
-### Le lac
+### Entre les gratte-ciel
 
 ::: {.say}
-- Le lac Michigan a gelé sur des centaines de mètres. Près des berges, la glace s'est morcelée en
-  **milliers de pointes bleutées**.
-- Des navires sont pris dans la glace, immobiles, tournés dans des directions absurdes.
-- Sur Wacker Drive, entre deux tours, une **berline** remonte au pas sur une chaussée qui n'a pas
-  été dégagée.
+- La rivière charrie des plaques de glace qui se cognent et tournent sur elles-mêmes.
+- Au bout, le lac Michigan a commencé à geler. On ne voit pas où il s'arrête.
+- Des voitures qui dérapent, des accidents mortels — et des morts de froid, malgré les centres de
+  réchauffement ouverts pour les démunis.
 :::
 
-::: {.mj lab="Ce que le décor cache"}
-Le froid **n'est pas** la météo : il monte parce que le Wendigo se nourrit, et il montera encore.
-Chaque touche d'ambiance des pages suivantes est une graduation — jamais un compteur annoncé — A4.
+### Au ras du sol
+
+::: {.say}
+- Dans un hall d'immeuble, un poste de télévision. Un présentateur lit un tweet du président :
+- [« Que se passe-t-il donc avec le réchauffement climatique ? S'il te plaît, reviens vite, nous
+  avons besoin de toi ! »]{.q}
+- Personne ne rit. Les rues sont presque vides.
+- Presque. Sur Wacker Drive, une berline avance au pas, phares allumés en plein jour.
+:::
+
+
+:::
+
+::: {.unit}
+
+::: {.head}
+[À dire]{.use}
+
+## Dans la voiture
+:::
+
+::: {.say}
+- Onze heures et quart. La berline remonte Wacker Drive vers la tour Harold.
+- La chaufferette est à fond et ne suffit pas. Le pare-brise regivre par l'intérieur, en bas, en
+  dentelle.
+- Personne n'a quitté son manteau. On voit la buée de cinq respirations.
+- Steven conduit, à trente à l'heure, les deux mains sur le volant.
+:::
+
+::: {.obj lab="Chacun se présente après toi"}
+Tu dis les deux lignes, le joueur enchaîne d'une phrase, tu passes au suivant. **La voiture ne
+s'arrête pas pour eux.**
+:::
+
+::: {.say}
+- **Steven Brooks**, au volant. Imperméable beige, costume noir indémodable, la trentaine. Ancien
+  cambrioleur ; c'est lui qui a décroché le contrat, et *il veut le finir proprement*.
+- [« Je suis certain que cette affaire est plus simple qu'il n'y paraît. »]{.q}
+- **Rosemary Withers**, devant à droite, ordinateur portable ouvert sur les genoux. Vingt-huit ans,
+  codirige l'agence avec Steven, ami d'enfance. *Elle veut être celle qui résout, pas celle qui
+  assiste.*
+- [« Faisons une carte mentale de tout ce que l'on sait, nous y verrons plus clair. »]{.q}
+- **Virginia Walker**, derrière, occupe une place et demie. Boxeuse professionnelle, plus de deux
+  mètres, une croix au bout d'une chaîne. *Elle veut arrêter la boxe pour quelque chose de plus
+  calme.*
+- [« Tu es sûr de vouloir te battre ? Tu vas le regretter… »]{.q}
+- **Manuel Yazzie**, au milieu, un paquet de cigarettes qu'il ne peut pas allumer. Négociateur
+  freelance, d'origine amérindienne, travaille la plupart du temps avec la police. *Il veut qu'on lui
+  doive quelque chose à la fin.*
+- [« Je suis sûr que nous pouvons nous mettre d'accord sur un compromis. »]{.q}
+- **Gabriel Jones**, derrière à droite, regarde dehors. Chasseur de primes, né en Louisiane. Steven
+  l'appelle quand il faut poursuivre — ou abattre. *Il veut savoir sur qui il tire, cette fois.*
+- [« Dans la vie il y a les chasseurs et les proies. Moi je suis un chasseur. »]{.q}
+:::
+
+### Ce qu'ils savent, et c'est tout ce qu'ils savent
+
+::: {.say}
+- Le téléphone de l'agence a sonné il y a une heure. Une voix d'assistante, aucun nom donné au
+  téléphone.
+- Le client est **M. Harold**, président de la Harold Company — finance, gestion de fortunes,
+  trentième étage.
+- Deux conditions : **tout de suite**, et **discrètement**.
+- Le montant proposé a fait accepter Steven avant la fin de la phrase.
+- Ni pourquoi, ni qui est mort. Il a seulement dit : [« ce n'est pas au téléphone. »]{.q}
+:::
+
+::: {.mj lab="Pourquoi l'appel est arrivé ce matin, et pas hier"}
+**Sherlyn Moore est morte ce matin à huit heures** ; les pompiers ont mis deux heures à extraire son
+corps de la glace. C'est cette troisième mort qui a décidé Harold à appeler une agence. Les deux
+premières, il les avait encaissées.\
+C'est aussi **la première fois que les cinq sont ensemble** sur un même dossier : Steven et Rosemary
+codirigent Alter Investigation, les trois autres ne sont pas salariés. Le dire une fois, ici.
 :::
 
 :::
@@ -57,46 +124,51 @@ Chaque touche d'ambiance des pages suivantes est une graduation — jamais un co
 ::: {.head}
 [À dire]{.use}
 
-## Dans la berline — Alter Investigation
+## La tour Harold
 :::
 
-::: {.obj lab="Objectif"}
-Présenter les cinq **en roulant**, sans arrêter la scène : vous dites deux lignes, le joueur en
-ajoute une, vous passez au suivant. Obtenir d'eux une phrase chacun, pas une biographie.
-:::
-
-### Qui est où
+### Le trottoir
 
 ::: {.say}
-- **Steven Brooks** conduit. Imperméable beige, costume noir indémodable. C'est son agence, et c'est
-  lui qui a pris l'appel. *Aujourd'hui il veut un client qui paie comptant.*
-- **Rosemary Withers**, à côté, ordinateur sur les genoux, n'a pas levé les yeux depuis le départ.
-  Elle codirige l'agence avec Steven, qu'elle connaît depuis l'enfance. *Aujourd'hui elle veut
-  savoir pourquoi une société de trading appelle des privés au lieu de la police.*
-- **Virginia Walker** est derrière, elle occupe une place et demie. Ancienne cliente devenue amie,
-  elle vient quand l'affaire est importante, contre quelques billets. *Aujourd'hui elle veut que ce
-  soit sa dernière année sur un ring.*
-- **Manuel Yazzie** est au milieu, il n'a pas quitté son manteau. Freelance, il intervient sur les
-  grosses enquêtes et travaille le reste du temps avec la police. *Aujourd'hui il veut arriver à
-  l'heure.*
-- **Gabriel Jones** est derrière lui, contre la vitre, silencieux. Steven l'appelle quand il pense
-  qu'il y aura quelqu'un à pourchasser. *Aujourd'hui il ne sait pas pourquoi on l'a appelé.*
+- Onze heures et demie. Une tour de verre dont on ne voit pas le sommet : le brouillard de froid
+  commence au vingtième étage.
+- Le portier ouvre la porte de l'extérieur et referme aussitôt derrière eux. Il ne dit rien.
+- Le choc de chaleur pique les joues. Les lunettes de Rosemary se couvrent de buée d'un coup.
 :::
 
-### Ce qu'ils savent tous
+### Le hall
 
 ::: {.say}
-- Un certain **M. Harold**, président de la Harold Company, a demandé une enquête discrète.
-- Trois personnes de sa société sont mortes depuis samedi. Toutes d'accident.
-- Il ne veut pas de la police, et il n'a pas dit pourquoi au téléphone.
-- Devant vous, au bout de l'avenue : **la tour Harold**, trente étages, la moitié des fenêtres
-  éteintes.
+- Du marbre, un comptoir d'accueil, un mur d'écrans où défilent des cours de bourse.
+- Sur ces écrans, tout est rouge depuis vendredi. Personne ne les regarde.
+- Une hôtesse vérifie leurs noms sur une liste — cinq noms, déjà écrits. On les attendait.
 :::
 
-::: {.mj lab="À dire à la distribution des fiches, pas ici"}
-Steven, Rosemary, Manuel : **aucun des trois ne porte d'arme**, malgré la ligne « Dégâts armé »
-imprimée sur la fiche — A2. Et chacun a **une case de séquelle** — A9. Ces deux annonces se font
-sur les fiches, avant de monter en voiture.
+### L'ascenseur
+
+::: {.say}
+- Une cabine pour douze, ils sont cinq. Trente étages, et personne ne parle.
+- Une musique d'ambiance, très bas. Le chiffre qui monte au-dessus de la porte.
+- Le fond de la cabine est un **miroir**, du sol au plafond. Ils s'y voient tous les cinq, en
+  manteau, un peu ridicules.
+:::
+
+::: {.mj lab="Le miroir — un plant, à ne surtout pas appuyer"}
+Le premier mort a vu la chose dans le miroir d'un ascenseur. **Une ligne, sans insister, et on
+passe.** S'ils y reviennent en fin de partie, ils auront le vertige tout seuls. Rien ne s'y reflète
+d'anormal aujourd'hui.
+:::
+
+### Le trentième
+
+::: {.say}
+- Un plateau silencieux. Des bureaux à moitié vides : beaucoup ont renoncé à venir.
+- Deux radiateurs d'appoint branchés sous une table, les câbles en travers de l'allée. Des écharpes
+  sur les dossiers des chaises.
+- Quelqu'un a écrit au marqueur sur une vitre : **−31**.
+- Une secrétaire les fait attendre debout, quatre minutes, devant une porte fermée.
+- Personne ici n'a l'air de savoir que trois personnes sont mortes depuis samedi.
+- Puis la porte s'ouvre de l'intérieur.
 :::
 
 :::
@@ -106,80 +178,88 @@ sur les fiches, avant de monter en voiture.
 ::: {.head}
 [À dire]{.use}
 
-## La tour Harold — le rendez-vous
+## Le bureau de M. Harold
 :::
 
-::: {.mj lab="Sa théorie est fausse, et il y croit"}
-Harold pense qu'un concurrent assassine ses meilleurs éléments en maquillant les morts en accidents.
-Il a tort — mais il n'est pas fou, et il ne le dira pas comme ça pour ne pas en avoir l'air. **Le
-défendre honnêtement.**
+::: {.mj lab="Le tenir — et ne pas le trahir"}
+Il paie pour une conclusion, pas pour la vérité. *Vexé, pas fou.* Sa fausse hypothèse du concurrent
+est à défendre honnêtement : **ne jamais laisser entendre au groupe qu'il se trompe.**
 :::
 
 ::: {.obj lab="Objectif"}
-Donner la commande, les trois noms, et la lettre qui ouvre les portes. Obtenir qu'ils partent avec
+Donner la commande, les trois noms, et la lettre qui ouvre les portes. Obtenir qu'ils repartent avec
 une question : *pourquoi trois personnes de la même société en trois jours ?*
 :::
 
-### Le hall, puis l'ascenseur
+### En entrant — et c'est la dernière fois qu'on voit la ville
 
 ::: {.say}
-- Un hall surchauffé, du marbre, un vigile qui ne quitte pas son manteau.
-- La lettre de rendez-vous suffit. On vous fait signe vers la droite.
-- L'ascenseur est en verre et acier brossé, et le fond de la cabine est **un miroir**.
-- Trente étages. C'est long. Personne ne parle, et vous êtes cinq à vous regarder dedans.
+- Un bureau au design épuré. Des baies vitrées sur la moitié des murs. La moquette avale les pas.
+- Chicago sous la neige, du sol jusqu'à l'horizon. Le bruit de la ville ne monte pas jusqu'ici.
+- Le lac a commencé à geler. **Des navires sont pris dans la glace**, immobiles, orientés n'importe
+  comment.
+- M. Harold : la soixantaine, grand, sec, cheveux gris coupés court. Costume à mille dollars,
+  chaussures impeccables — et le col ouvert, la cravate desserrée, la seule chose de travers dans
+  toute la pièce.
+- Il ne s'est pas rasé. Il est ici depuis l'aube et ça se voit. Il serre les mains une par une, en
+  regardant chacun une seconde de trop.
 :::
 
-::: {.mj lab="Un plant — ne jamais y appuyer"}
-Walter Nunez est mort dans un ascenseur, et il a vu la chose **dans le miroir de la cabine**. Les
-joueurs viennent d'en traverser un, sans le savoir. **Ne pas insister, ne pas décrire deux fois.**
-Une ligne suffit — elle vaudra quelque chose dans deux heures.
-:::
-
-### Le trentième étage
+### À portée de main
 
 ::: {.say}
-- Un bureau épuré. Des baies vitrées sur la moitié des murs, et **Chicago sous la neige** en
-  dessous.
-- D'ici on voit le lac qui a commencé à geler, et **les navires pris dans la glace**.
-- Harold vous fait asseoir, pose sur son bureau un **petit boîtier noir** avec un bouton, et appuie
+- Il les fait asseoir. Sur le bureau, un petit boîtier électronique noir avec un bouton. Il appuie
   dessus.
-- [« Un brouilleur. Je veux que cet entretien n'existe nulle part. Je n'ai confiance en personne,
-  avec les temps qui courent. »]{.q}
-- Puis il ferme les volets et allume la lumière du bureau. Il est dix heures cinquante du matin.
+- [« Un brouilleur. Je souhaite que cet entretien se fasse sans possibilité d'enregistrement. Je n'ai
+  confiance en personne — avec les temps qui courent. »]{.q}
+- Il se lève, ferme les volets un par un, allume la lumière du bureau. La ville disparaît.
+- [« Je sais de quoi j'ai l'air. »]{.q}
 :::
 
-### Ce qu'il dit
+### La commande
 
 ::: {.say}
-- [« Deux de mes employés et une de mes clientes sont morts. Ce week-end, et ce matin. »]{.q}
-- [« Walter Nunez, trader senior — crise cardiaque dans son ascenseur, samedi soir. »]{.q}
-- [« Dorothea Brickford, département Statistiques — elle a foncé sur une déneigeuse dimanche, à
-  deux rues d'ici. »]{.q}
-- [« Sherlyn Moore, une cliente. Morte de froid dans sa piscine intérieure. **Ce matin.** »]{.q}
-- [« La police est débordée. Trois accidents, ça leur suffit. Moi, ça ne me suffit pas. »]{.q}
-- [« Soyez discrets. La plupart de mes employés ne savent rien. »]{.q}
+- [« Ma société est au bord de la crise. Deux employés et une cliente sont morts ce week-end et ce
+  matin. »]{.q}
+- [« Walter Nunez, trader senior. Une crise cardiaque dans l'ascenseur de son immeuble, samedi
+  soir. »]{.q}
+- [« Dorothea Brickford, du département Statistiques. Elle a foncé sur une déneigeuse à toute
+  vitesse, dimanche, à deux rues d'ici. »]{.q}
+- [« Sherlyn Moore, une cliente. Une millionnaire. Morte gelée dans sa piscine intérieure. Ce matin.
+  On m'a prévenu il y a deux heures. »]{.q}
+- [« La police est débordée, le froid multiplie les accidents. Personne n'enquêtera. »]{.q}
+- [« Mais quelqu'un a provoqué ces trois accidents. Un concurrent. Je ne donnerai pas de nom, je n'ai
+  aucune preuve, et je ne veux pas de procès. »]{.q}
+- Il pousse vers eux une **lettre signée de sa main** : accès à tous les bureaux du bâtiment,
+  entretiens avec qui bon leur semble.
+- [« La plupart de mes employés ignorent ces décès. Que ça reste ainsi. »]{.q}
 :::
 
-::: {.mj lab="La contradiction que sa réplique tranche — B1"}
-« Ce matin » ne peut être qu'un lundi, puisque Sherlyn meurt le lundi au petit matin. La date de
-« mardi 29 » imprimée dans le scénario est fausse : **on est le lundi 28, et le groupe a deux jours
-et demi.**
+::: {.jeu lab="La lettre"}
+Ouvre les portes de la Harold Company sans aucun jet, et sort le groupe d'affaire face à une
+patrouille de police (B5).
 :::
 
-### Le passage de main
+### S'ils posent des questions
 
 ::: {.say}
-- Il pousse vers vous une **lettre signée de sa main** : carte blanche dans le bâtiment, tous les
-  bureaux, tous les entretiens.
-- [« Trouvez qui a fait ça. »]{.q}
+- *Pourquoi nous ?* — [« Parce que la police classera. Et parce que vous, je vous paie. »]{.q}
+- *Ils se connaissaient ?* — [« Nunez managait Brickford. Madame Moore était cliente. C'est
+  tout. »]{.q}
+- *D'autres morts ?* — [« Chez moi, non. »]{.q}
 :::
 
-::: {.obj lab="La question à poser, mot pour mot — puis attendre"}
-**« Par où vous commencez ? »**\
-Trois portes sont ouvertes derrière cette phrase, et toutes marchent : le bureau de Walter, celui de
-Dorothea, ou la villa Moore. Ne pas orienter.\
-*Réserve, si la table hésite :* les RH ont les adresses personnelles · le brouilleur ronronne encore
-sur le bureau · quelqu'un pleure dans un open space en traversant l'étage.
+::: {.mj lab="Les deux trous dans ses réponses"}
+Il **ne mentionne jamais Alex Campbell** : il ne fait pas le lien, et il ne le fera pas.\
+Et « chez moi, non » ne compte pas ceux qui ne travaillent plus ici — c'est-à-dire Alex, et bientôt
+Stephen.
+:::
+
+::: {.obj lab="Le passage de main"}
+Redescendre avec eux, poser la question dans l'ascenseur, puis **se taire et compter jusqu'à cinq** :\
+**« Vous êtes dans la cabine qui redescend. Vous avez trois morts, une lettre, et deux jours et demi.
+Par où commencez-vous ? »**\
+S'ils hésitent, une seule suggestion : Steven a l'habitude, il propose le bureau du premier mort.
 :::
 
 :::

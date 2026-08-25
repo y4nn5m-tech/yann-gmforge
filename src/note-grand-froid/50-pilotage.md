@@ -1,92 +1,143 @@
 ## [5]{.num}Pilotage {.sec}
 
-### 5.1 — La charge, triée
+### La charge — ce qu'il faut tenir en même temps
 
-::: {.tight widths="30,35,35"}
-+------------------------------+-------------------------------+------------------------------------+
-| On ne peut pas le poser      | On peut l'alléger             | On peut l'oublier                  |
-+==============================+===============================+====================================+
-| **Les deux images** — avec   | **Les séquelles** : une seule | **Les prénoms secondaires** —      |
-| filtre, sans filtre. Il faut | case par personnage, effacée  | John, Maria Moon, Davis se         |
-| y penser à chaque            | à la nuit (A9)                | rejouent au besoin                 |
-| description                  |                               |                                    |
-+------------------------------+-------------------------------+------------------------------------+
-| **Terry agit hors champ.**   | **Le compte à rebours** :     | **L'appartement de Dorothea** — la |
-| Il est quelque part, chaque  | supprimé (A4). Trois touches  | source dit elle-même qu'il « ne    |
-| jour, en train de chasser un | d'ambiance le remplacent      | contient rien d'intéressant »      |
-| nom de la liste              |                               |                                    |
-+------------------------------+-------------------------------+------------------------------------+
-| **Qui a vu quoi, et par      | **Le trajet entre les lieux** | **Le brouilleur de Harold.** Un    |
-| quel filtre** (3.2)          | — Chicago est paralysée, on   | gag de caractérisation, aucune     |
-|                              | ne chronomètre pas            | conséquence                        |
-+------------------------------+-------------------------------+------------------------------------+
+::: {.tight widths="28,20,52"}
++------------------------------+--------------------+---------------------------------------------------+
+| À tenir                      | Verdict            | Comment                                           |
++==============================+====================+===================================================+
+| Les Points de Vie du Wendigo | **On ne peut pas   | 34 puis 18, armure 4 puis 0 (bloc 3). C'est le    |
+|                              | le poser**         | seul chiffre de la partie qu'il faut avoir en     |
+|                              |                    | tête avant de s'asseoir                           |
++------------------------------+--------------------+---------------------------------------------------+
+| La règle du filtre           | **On ne peut pas   | C'est la mécanique du final (A5). Se demander à   |
+|                              | le poser**         | chaque prise de parole : qui regarde à travers    |
+|                              |                    | quoi ?                                            |
++------------------------------+--------------------+---------------------------------------------------+
+| Les trois touches d'ambiance | À alléger          | Trois post-it, une seule sortie chacun (A2).      |
+|                              |                    | C'est tout ce qui remplace le minuteur, et c'est  |
+|                              |                    | volontaire                                        |
++------------------------------+--------------------+---------------------------------------------------+
+| Les Désavantages accumulés   | À alléger          | Une ligne par PJ sur une feuille, trois cases :   |
+|                              |                    | bassin · bourrasque · autre. Trois Désavantages   |
+|                              |                    | s'empilent sur les mêmes jets (bloc 3)            |
++------------------------------+--------------------+---------------------------------------------------+
+| L'état des cinq victimes et  | À alléger          | La chronologie de la source suffit, cochée au     |
+| des pistes ouvertes          |                    | crayon. Ne rien recopier                          |
++------------------------------+--------------------+---------------------------------------------------+
+| La fenêtre du mardi soir     | À oublier          | Une fois la scène jouée, elle n'existe plus, et   |
+| (le métro)                   |                    | la source le dit                                  |
++------------------------------+--------------------+---------------------------------------------------+
+| Le brouilleur de Harold, les | À oublier          | Du décor. Les lire si on y est, ne rien en tirer  |
+| adresses exactes             |                    |                                                   |
++------------------------------+--------------------+---------------------------------------------------+
 :::
 
-### 5.2 — Les risques de blocage
+### Les risques de blocage
 
-::: {.tight widths="27,33,40"}
-+--------------------------+---------------------------------+---------------------------------------+
-| Le risque                | Le symptôme à table             | Le remède                             |
-+==========================+=================================+=======================================+
-| **Ils n'obtiennent       | Ils ne savent pas ce qu'est la  | Les deux filets de **A1** : Rosemary  |
-| jamais Angen Tulo** —    | créature, encore moins qu'elle  | sait ce qu'est un wendigo ; Manuel    |
-| c'est le risque numéro   | craint le feu. Ils arrivent au  | fait parler Davis sans jet. Et Angen  |
-| un, et il ne se voit pas | lac pour se battre à mains      | Tulo **vient à eux** — ne jamais les  |
-| venir                    | nues                            | laisser le chercher                   |
-+--------------------------+---------------------------------+---------------------------------------+
-| **Ils ne relient pas les | Ils enquêtent victime par       | **Maria Moon**, le joker que la       |
-| victimes à Alex**        | victime sans hypothèse          | source fournit elle-même. La sortir   |
-|                          | commune                         | après la deuxième victime, pas avant  |
-+--------------------------+---------------------------------+---------------------------------------+
-| **Ils arrivent au métro  | La station Austin ne donne      | La **morgue** reste ouverte tout le   |
-| après le mardi**         | plus rien (B9)                  | scénario : l'autopsie porte les       |
-|                          |                                 | marques de griffes                    |
-+--------------------------+---------------------------------+---------------------------------------+
-| **Ils tuent Memengwaa    | Ils croient avoir gagné         | **A8** — le rituel est accompli. Le   |
-| et s'arrêtent**          |                                 | froid continue de monter, et c'est ce |
-|                          |                                 | qui le leur dit                       |
-+--------------------------+---------------------------------+---------------------------------------+
-| **Trois personnages sur  | Ils tapent, il ne se passe      | **A2** — les fusées éclairantes. Les  |
-| cinq ne peuvent rien     | rien, la table décroche         | poser dans la description des navires |
-| faire au lac**           |                                 | **avant** le premier Moment           |
-+--------------------------+---------------------------------+---------------------------------------+
+::: {.tight widths="24,32,44"}
++-----------------------+--------------------------------+-------------------------------------------+
+| Risque                | Symptôme à table               | Remède                                    |
++=======================+================================+===========================================+
+| **Angen Tulo          | Ils ont un tueur, ils n'ont    | A1, dans l'ordre : Manuel sur Davis       |
+| n'arrive jamais**     | pas de moyen de le tuer. Ou :  | (bloc 4), puis le test de Torche de       |
+| *le plus probable, et | ils arrivent au lac sans avoir | Rosemary, puis Memengwaa elle-même.       |
+| le plus grave*        | prononcé le mot « feu »        | Trois filets pour une conclusion          |
+|                       |                                | nécessaire                                |
++-----------------------+--------------------------------+-------------------------------------------+
+| **Ils restent dans le | Après trois morts, ils         | Trois entrées vers le surnaturel, sortir  |
+| polar**               | cherchent encore un homme de   | la plus proche : le gel « tout bonnement  |
+|                       | main du concurrent de Harold   | impossible » selon la société             |
+|                       |                                | d'entretien, l'autopsie de Stephen        |
+|                       |                                | (griffes géantes), le reflet vu par       |
+|                       |                                | Monsieur Moore. **La troisième est la     |
+|                       |                                | plus forte**                              |
++-----------------------+--------------------------------+-------------------------------------------+
+| **Ils n'atteignent    | Ils ont les cinq victimes et   | Deux accès seulement — le brouillon de    |
+| jamais les Campbell** | pas le sixième nom : celui     | lettre dans le bureau de Walter, et       |
+|                       | d'Alex                         | l'idée de chercher les proches d'Alex.    |
+|                       |                                | Filet : Maria Moon, qui côtoyait Alex et  |
+|                       |                                | se souvient de sa mère                    |
++-----------------------+--------------------------------+-------------------------------------------+
+| **Ils arrivent au lac | Le premier Moment se passe et  | B7 avant le départ, et l'*Œil de lynx* de |
+| sans miroir ni feu**  | personne n'a regardé à travers | Gabriel à l'arrivée. Si les deux ratent : |
+|                       | quoi que ce soit               | le Wendigo brise une vitre du phare en    |
+|                       |                                | approchant, et le reflet se propose de    |
+|                       |                                | lui-même                                  |
++-----------------------+--------------------------------+-------------------------------------------+
+| **Ils traînent, et    | Fin de journée, aucune piste   | Sortir une touche d'ambiance (A2), puis   |
+| rien ne les pousse**  | pressée, la table attend que   | Maria Moon, qui relie les victimes à Alex |
+| *le risque propre au  | tu fasses quelque chose        | à leur place. **Ne jamais inventer un     |
+| choix A2*             |                                | délai : le final les attend**             |
++-----------------------+--------------------------------+-------------------------------------------+
 :::
 
-### 5.3 — Les culs-de-sac, et ce qu'on en dit
+### Les culs-de-sac
 
-::: {.jeu lab="Voulus par la source — les refermer vite, sans mystère"}
-**La voiture de Dorothea** est partie à la casse : « ne permet pas de découvrir quoi que ce soit
-d'utile ». Le dire en une phrase, ne pas laisser fouiller.\
-**L'appartement de Dorothea** ne contient rien. Même traitement.\
-**Monsieur Moore muet** n'est pas un cul-de-sac, c'est un verrou : il parle, mais à Désavantage. Ne
-jamais le refermer — c'est le seul témoin vivant qui a vu à travers un filtre.
+::: {.jeu lab="Deux voulus, un par négligence"}
+**La voiture de Dorothea** — « partie à la casse », la source le dit. Refermer en cinq minutes : un
+employé répond que tout est passé au broyeur samedi. Ne pas laisser les joueurs négocier avec la
+casse.\
+**L'appartement de Dorothea** — « ne contient rien d'intéressant ». Cinq minutes. En revanche son
+bureau n'est pas un cul-de-sac : il donne le lien entre Alex et Sherlyn.\
+**Le crochetage raté chez Walter** — par négligence : la source envoie la police et ne dit pas ce qui
+se passe ensuite. Retenu : une patrouille, dix minutes de discussion, la lettre de Harold les sort
+d'affaire. Aucune arrestation, mais Davis l'apprend (B5).
 :::
 
-### 5.4 — Les cinq PNJ qui portent la séance
+### Les cinq notes de jeu
 
-::: {.mj lab="Comment les tenir — la source les décrit, elle ne le dit jamais"}
-**M. Harold** — inquiet pour sa société, pas pour ses morts. Il a une théorie fausse (un concurrent)
-et il y croit sincèrement. *La défendre honnêtement.*\
-**John, majordome** — il a déjà refoulé six journalistes ce matin. Ce n'est pas de l'arrogance,
-c'est de la fatigue. *Il cède à quelqu'un qui explique calmement, pas à quelqu'un qui insiste.*\
-**Monsieur Moore** — il a vu, il n'a rien fait, et il fumait en cachette pendant que sa femme
-mourait. *Ce n'est pas le chagrin qui le tient, c'est la honte.*\
-**Angen Tulo** — il trahit les siens et il le sait (X3). *Il regarde la porte, il parle vite, il
-part avant eux.*\
-**Memengwaa Campbell** — accueillante, calme, elle sert une tisane. Elle ne se défend pas et ne
-regrette rien. *Ne jamais la jouer folle : elle a fait exactement ce qu'elle voulait faire.*
+::: {.mj lab="Comment les tenir — une ligne chacun"}
+**M. Harold** — il paie pour une conclusion, pas pour la vérité. *Vexé, pas fou.*\
+**Memengwaa** — aimante, jamais menaçante. *Elle ne se cache pas : elle a fini son travail.*\
+**Monsieur Moore** — *pas muet de chagrin : muet de terreur.*\
+**Angen Tulo** — il sait, il ne prouve rien, et *c'est lui qui demande de l'aide.*\
+**John, le majordome** — *il protège, il n'obstrue pas.*
 :::
 
-### 5.5 — Le ton
+### Le réglage du ton
 
-::: {.obj lab="Ce qui ne doit pas être joué au premier degré"}
-**Le froid n'est pas un décor de série B.** C'est une ville qui s'arrête : on brûle les rails pour
-qu'ils ne cassent pas, le courrier ne part plus, on ouvre des centres de réchauffement. Tout se
-passe à l'intérieur, entre deux trajets trop longs.\
-**Le Wendigo n'est pas une bête.** C'est une faim qui grandit avec le corps qu'elle occupe. Terry
-Campbell ne rugit pas : il ouvre des portes d'ascenseur à la main et il attend, assis à l'arrière
-d'une voiture, pendant des heures.\
-**Et la fin n'est pas une victoire.** Ce qui reste à la table, c'est une vieille femme qui a perdu
-son fils, un mari dont le corps s'est déchiré, et cinq personnes mortes parce qu'un jeune homme a
-écrit cinq noms sur une lettre d'adieu.
+::: {.tight widths="24,76"}
++-------------------------+--------------------------------------------------------------------------+
+| Scène                   | Registre                                                                 |
++=========================+==========================================================================+
+| **Rendez-vous Harold**  | Thriller d'entreprise. Feutré, trentième étage, volets qu'on ferme,      |
+|                         | brouilleur sur le bureau. Personne n'a encore peur                       |
++-------------------------+--------------------------------------------------------------------------+
+| **Les trois premiers    | Procédure et fatigue. Le froid est le seul antagoniste visible ; le      |
+| lieux**                 | surnaturel n'est qu'une anomalie technique qu'un employé n'explique pas  |
++-------------------------+--------------------------------------------------------------------------+
+| **La villa Moore**      | La première fois qu'on a peur — et ce n'est pas le bassin, c'est un      |
+|                         | homme au premier étage qui n'a pas dit un mot depuis ce matin            |
++-------------------------+--------------------------------------------------------------------------+
+| **Le métro**            | La violence, en direct, derrière un cordon. On ne voit pas le corps ; on |
+|                         | entend une cellule psychologique                                         |
++-------------------------+--------------------------------------------------------------------------+
+| **Chez les Campbell**   | De la tendresse. Une tisane, une voix qui baisse pour ne pas réveiller   |
+|                         | son mari. **La scène la plus facile à abîmer** : jouée comme une scène   |
+|                         | de sorcière, elle perd tout le scénario                                  |
++-------------------------+--------------------------------------------------------------------------+
+| **Le lac Michigan**     | Beau. La source y insiste — les pointes bleutées, les stalactites en     |
+|                         | robe de dentelle au phare. Décrire **avant** de lancer le premier dé,    |
+|                         | jamais après                                                             |
++-------------------------+--------------------------------------------------------------------------+
+:::
+
+::: {.obj lab="Ce qui ne se joue pas au premier degré"}
+**Le suicide d'Alex.** La lettre F01 se lit à voix basse, sans effet de voix, et on la fait circuler.
+Elle n'est pas une pièce à conviction, c'est la dernière page d'un garçon de vingt-cinq ans.\
+**Le tweet de Trump.** Il est authentique, il est de janvier 2019, et il sonne comme un gag. Retenu :
+le garder, en une seule ligne de journal télévisé, sur fond de morgue — jamais comme une vanne. Si la
+table n'aime pas l'ancrage réel, le couper coûte une phrase.\
+**Le Wendigo.** Il ne parle pas, il ne se montre pas volontairement, il n'a aucune intention envers
+les PJ. **Il travaille.** C'est ce qui le rend effrayant.
+:::
+
+::: {.obj lab="Les plants pour la suite de la campagne"}
+**Le Midewiwin a fait taire une enquête de police** par « une demande en haut lieu » : c'est une
+société secrète capable d'atteindre un commissariat de Chicago. Deux touches, pas plus — la phrase de
+Davis, et le fait qu'Angen Tulo sache où les joindre sans qu'on lui ait donné d'adresse. **Ne jamais
+y appuyer, et laisser Angen Tulo vivant.**\
+**La récompense de fin s'exprime en niveaux de Santé mentale regagnés**, pas en argent : Harold paie
+de toute façon, et il ne saura jamais pour quoi.
 :::

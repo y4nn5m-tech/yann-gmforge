@@ -29,8 +29,13 @@ Dans l'ordre :
    `modele/MODELE-systemes.md` (selon le jeu).
 
 Après un scénario traité, le retour d'expérience se consigne dans `modele/JOURNAL-passages.md` —
-jamais dans le socle. Attention : ces fichiers sont une **copie** de docs qui vivent ailleurs, et la
-synchronisation est manuelle dans un seul sens. Voir `modele/README.md` avant d'en modifier un.
+jamais dans le socle. **Cette entrée s'écrit d'office, sans la demander** : dès que le dernier
+livrable est validé et que ses contrôles passent, l'écrire dans la même passe que le reste, avant de
+proposer le commit. Un passage sur un scénario déjà traité s'ajoute en `### Nième passage` sous sa
+section, et l'en-tête de la section est mis à jour ; il ne remplace jamais ce qui précède.
+Attention : ces fichiers sont une **copie** de docs qui vivent ailleurs, et la synchronisation est
+manuelle dans un seul sens — signaler qu'une reprise du modèle est à reporter à la main. Voir
+`modele/README.md` avant d'en modifier un.
 
 ## Dépouiller la source : la passe mécanique d'abord
 

@@ -389,7 +389,7 @@ volontaire, tout passe par des jets des PJ et un compteur de 20 dégâts sur le 
 gobelins de base sont en valeurs brutes quand leur chef est en modificateurs.
 
 ## Terra Insana
-**Cthulhu Hack · source 29 p. · rendu 18 p.**
+**Cthulhu Hack · source 29 p. · rendu 18 p. au premier passage ; puis, par la chaîne, note d'arbitrage 8 p. et aide de jeu 19 unités**
 
 Scénario d'ouverture d'un recueil (*Les dérapages de l'Histoire*). Alsace allemande, juin 1890 : une
 Couleur tombée du ciel possède un professeur de minéralogie, qui rapporte la météorite à pied vers
@@ -428,10 +428,88 @@ Détail de production, anecdotique : les deux seuls débordements ne portaient q
 bloc de trois lignes**. Fusionner deux blocs verts adjacents — un label et deux marges en moins —
 suffit à récupérer la page. Inutile de scinder pour si peu.
 
+### Second passage — les deux livrables par la chaîne, et un actual play pour source
+
+Le scénario a été redonné avec une pièce nouvelle : **la transcription d'une partie réellement jouée**
+— deux séances, 33 700 mots, dix-huit chapitres, avec cet avertissement en tête, écrit par Yannick :
+*« Le MJ a librement adapté et pris des libertés. Il ne faut pas reprendre mot pour mot ce qu'il a
+fait jouer mais piocher certaines idées. »*
+
+**Ce que vaut un actual play, et ce qu'il ne vaut pas.** C'est la leçon du passage, et elle se
+distingue nettement du cas de la vidéo d'auteur rencontré sur *Bun & Run*. Une vidéo d'auteur est une
+**autorité sur l'intention** : elle peut requalifier un arbitrage, et elle en a requalifié trois. Un
+actual play n'a **aucune autorité** — le MJ n'est pas l'auteur, et ce qu'il a tranché ne vaut pas plus
+que ce que nous tranchons. Ce qu'il apporte est d'une autre nature : **la liste des endroits où une
+table réelle s'est arrêtée**. Il ne dit pas quoi décider ; il dit **où il faudra avoir décidé**.
+Trois des cinq arbitrages bloquants de la note viennent de là, et aucun n'a repris la solution du MJ :
+
+- **les dix-huit heures manquantes de la chronologie.** Rose entend Émile partir à une heure du matin
+  le 12 ; l'article date l'accident du 12 « en début de soirée ». La source ne comble jamais
+  l'intervalle, et la table y a passé un long moment à reconstituer des trajets. Le MJ avait tranché
+  que la calèche remontait *vers* Strasbourg ; la note tranche l'inverse, parce que la version
+  descendante explique d'un coup le coffre vide, le cercle inutilisé et l'abandon de l'attelage ;
+- **le rituel à moins de quatre officiants.** Le prêtre en exige quatre, la description du sort n'impose
+  aucun minimum, et le carnet donne le bas de l'échelle — à un seul officiant, « quelques petits objets
+  pourront faire un voyage de quelques mètres ». Il manque le milieu, et c'est exactement là que la
+  table est arrivée : trois personnages debout, pas de cercle, la nuit. Le MJ a improvisé un portail
+  décalé de deux ou trois mètres qui a avalé un PJ ; la note en fait une **échelle de dégradation à
+  quatre paliers**, reconstruite sur les deux bouts que la source fournit. La forme retenue vaut mieux
+  qu'une réussite binaire : un rituel tout ou rien oblige le MJ à garder quatre PJ debout jusqu'à la
+  dernière minute, donc à retenir ses coups pendant tout le troisième acte ;
+- **libérer un possédé.** La source dit « le maîtriser et l'en éloigner » sans distance ni délai, alors
+  qu'elle est bien plus généreuse avec Philippe — « il peut reprendre ses esprits s'il subit un choc ».
+  Aligner les deux règles est un arbitrage gratuit que rien n'empêchait de faire avant, et que
+  personne n'avait fait.
+
+**Le croisement du décor final, dans une variante que la grille n'avait pas prévue.** La question de
+`MODELE-analyse.md` cherche si la ressource qui gagne la partie n'annule pas l'enjeu qu'on est venu
+protéger. Ici, ce sont **deux conditions de la fin qui s'excluent mutuellement** : pour rendre Émile à
+lui-même il faut éloigner la pierre de lui ; pour ouvrir le portail il faut la poser au centre du
+cercle, autour duquel il faut quatre personnes. Aucun ordre des opérations ne fonctionne — sauf un, et
+il passe par un objet **planté au premier acte comme un pur objet d'angoisse** : le coffre en plomb de
+la cave. La source pose le coffre page 10 et lâche, page 23, que le plomb neutralise tout ; elle ne
+relie jamais les deux. C'est devenu l'arbitrage A1 et l'axe du livret entier.
+*Si un second cas se présente, la question de la grille mérite d'être élargie : non seulement « la
+ressource annule-t-elle l'enjeu », mais **« les conditions de la fin sont-elles simultanément
+tenables »**.*
+
+**Un calcul d'affrontement qui conclut « ne proposez pas ce combat ».** La Couleur avait déjà été
+identifiée au premier passage comme le cas *chiffré mais sans attaque*. Ce qui manquait, c'est d'avoir
+fait l'arithmétique quand même : 26 Points de Vie, **3 Points d'Armure**, contre des dés de dégâts qui
+vont du d4 au d10. Après armure et Sauvegardes manquées, le groupe complet inflige **moins de trois
+points par Moment** — neuf Moments —, et **le seul porteur d'un d10 en fait plus de la moitié**. Sans
+lui, dix-neuf. La règle du socle demande de faire l'arithmétique de l'antagoniste ; le cas montre
+qu'elle vaut **aussi pour les adversaires qu'on n'est pas censé combattre**, parce que c'est le calcul
+qui autorise à écrire noir sur blanc « ce n'est pas un combat, c'est une erreur de lecture ».
+Corollaire pour le livret : l'adversaire le plus meurtrier du scénario est **un prétiré armé d'un
+revolver**, et la créature-titre ne peut blesser personne. Un MJ qui ne l'a pas vu avant de s'asseoir
+joue le final à l'envers.
+
+**Zéro croisement fait par la source, sur cinq prétirés** — même configuration que *Grand froid* : les
+fiches sont imprimées après la conclusion et aucune scène ne nomme personne. Deux personnages portent
+pourtant chacun une **condition nécessaire** que le scénario ignore : l'archéologue est la seule à lire
+le latin sans jet, et le rituel final est en latin ; le militaire est le seul à percer l'armure. Et
+l'étudiante à l'Institut de Minéralogie rend gratuite toute la scène de négociation avec le directeur
+que la source construit sur deux pages.
+
+**Détail de production, et c'est la deuxième prise du contrôle de charte.** Le contrôle « charte
+d'impression » — né du `@font-face` avalé par un commentaire imbriqué — a attrapé ici tout autre
+chose : `This table row has more columns than the table, ignored 1 cells`. Une ligne de tableau grid
+dont les barres étaient décalées d'un caractère, invisible au diff et invisible dans le HTML. La leçon
+de production : **les tableaux grid larges ne s'écrivent pas à la main**, ils se génèrent — un petit
+formateur qui pose les cellules aux positions du séparateur et enveloppe le texte a corrigé d'un coup
+les cinq planches trait × scène. Ce que WeasyPrint émet en avertissement, la CI l'aurait laissé passer
+sans le contrôle.
+
+**Volume : note 8 pages, livret 19 unités pour 19 pages.** Cinq arbitrages bloquants, six de table,
+cinq cosmétiques. La note est en dessous de la fourchette de neuf à douze, et ce n'est pas un manque :
+la source est bien écrite, encadrée, avec une chronologie et onze aides de jeu prêtes à distribuer —
+le test « la source est-elle lisible ? » y répond nettement oui, donc **pas de bloc de diff**.
+
 ## Bun & Run
-**Fevertown (kit de découverte v1.2) · source 22 p. + 5 fiches de prétirés · aide de jeu 22 p.
-(22 unités, après quatre refontes) · second livrable : dossier de préparation 29 p. puis 37 p., repris
-en note d'arbitrage de 8 p.**
+**Fevertown (kit de découverte v1.2) · source 22 p. + 5 fiches + le kit entier, 32 p. · aide de jeu
+22 p. (après quatre refontes) puis 25 p. · second livrable : dossier de préparation 29 p. puis 37 p.,
+repris en note d'arbitrage de 8 p. puis 9 p.**
 
 Scénario d'initiation du kit de découverte de *Fevertown*, comédie policière en uchronie années 80.
 **Premier passage sur un jeu à registre comique**, et **premier passage où les deux livrables ont été
@@ -468,7 +546,8 @@ Chapitre **Fevertown** créé dans `MODELE-systemes.md`. Les particularités qui
 - **profil en cinq lignes** : PV · Armure · Arme · Dégâts · Atout, dégâts fixes ;
 - dans un one-shot, les atouts « 1 fois par repos long » sont **1 fois par partie** : le dire.
 
-Le cas d'espèce du passage : **un profil absent par oubli, et non par choix**. Harvey Kitch, le
+Le cas d'espèce du passage : **un profil absent par oubli, et non par choix**. *Qualification
+démentie au troisième passage — l'auteur l'avait laissé vide exprès ; voir plus bas.* Harvey Kitch, le
 preneur d'otages, est armé, instable, et la source propose elle-même l'assaut — mais il n'a ni PV, ni
 armure, ni dégâts, alors que les deux hommes de main de la scène 4 sont chiffrés. La règle du socle sur
 les adversaires sans profil comptait deux cas (sans chiffres par choix, chiffré mais sans attaque) ;
@@ -700,6 +779,84 @@ Deux dernières promotions au socle, tirées de la production :
   WeasyPrint et relever le bas de la dernière `LineBox` de chaque page — **en excluant les boîtes de
   marge**, sinon le pied de page donne 102 % de remplissage sur les 39 pages. Deux pages ne portaient
   qu'une seule ligne ; l'œil ne les avait pas vues.
+
+### Troisième passage — repris de zéro, avec le kit
+
+Le scénario a été redonné depuis son dossier source complet, qui contenait cette fois **le kit de
+découverte entier**. Les deux passages précédents avaient travaillé sur les 22 pages du scénario et
+les fiches seules ; les 32 pages de règles changent la nature du travail. **Chaque chiffre devient
+vérifiable au lieu d'être supposé** — le seuil de situation, l'ordre des effets du gilet, le tableau
+des armes, le cadre légal et ses huit devoirs, la Réputation dont le kit dit lui-même qu'elle « existe
+mais n'est pas utilisée dans ce kit ».
+
+**Ce que la passe mécanique a fait de mieux, et c'est nouveau.** Les cinq fiches de prétirés et le
+tableau des armes du kit **n'extraient aucun caractère** : ce sont des images. `extraire.py` les a
+signalées correctement — 0 caractère, médiane 1 — et il a suffi de rendre six pages en PNG pour avoir
+toute la matière. C'est la première fois que le manifeste désigne **précisément** ce qu'il faut
+regarder, et que ça change le contenu du livrable plutôt que de confirmer ce qu'on savait déjà. À
+rapprocher du manque relevé sur *Grand froid* : là-bas, les aides à distribuer étaient manuscrites sur
+une page par ailleurs dense, et la densité médiane les avait masquées. Ici, la page entière est une
+image, et le signal est net.
+
+**Trois trouvailles que les deux passages précédents avaient manquées.**
+
+- **Aucune fiche ne porte d'équipement.** Le tableau *Matos* est imprimé sur les cinq — 9 mm, Taser,
+  Nunchaku, Bagarre, Gilet — et **pas une case n'est cochée**. Or cocher une arme vaut *arme de
+  prédilection*, donc un Avantage, et le gilet ne protège que coché. Le premier passage avait relevé
+  que Franck Rauston n'avait pas son arme, à partir d'une légende d'illustration ; il n'avait pas vu
+  que **personne** n'a d'équipement défini. C'est devenu un arbitrage bloquant à part entière, tranché
+  à la distribution des fiches.
+- **La conditionnelle qui ne se conditionne à rien.** La source propose de doubler les PV des hommes
+  de main « si ce scénario est un one-shot », alors qu'il *est* le one-shot d'initiation du kit.
+- **Le calcul du gilet, que personne n'avait fait.** À 8 dégâts, **tout le monde tombe en deux
+  balles** — les 12 PV comme les 16, parce que 8 divise les deux totaux de la même façon. Avec gilet,
+  quatre à six. Le gilet ne réduit pas le risque, **il le double ou le triple** : c'est la seule
+  décision d'équipement qui change quelque chose dans ce scénario, et elle se prend avant la première
+  scène, pas devant la vitrine du fast-food.
+
+**Le livret a gagné une unité en tête, et c'est une correction de Yannick.** La rampe s'ouvrait sur
+*Westwood, quinze heures* — il manquait la ville. C'est le scénario d'**initiation** du jeu : la table
+découvre l'univers en même temps que les règles, et le chapitre du livrable prescrit le plan large
+quand le monde est nouveau. Trois choses seulement méritent d'y rester : **une ville qui se filme
+elle-même** (N64 News et ses caméras sur les tableaux de bord, ce qui donne sa mécanique au compteur —
+une bavure coûte une étoile *devant témoin*, pas dans l'absolu), **une génération de flics légendaires
+qu'on n'égalera pas**, et **le fait qu'eux ne sont personne, pour l'instant**. L'uchronie tient en
+quatre lignes ; la mafia russe, les groupes écologistes et les quartiers Nord et Est ne servent pas ce
+scénario et n'y figurent pas.
+
+**Et une source inhabituelle : l'auteur explique son propre scénario en vidéo.** Yannick en a fourni
+la transcription. Elle a corrigé **trois arbitrages sur vingt-deux**, et donné un fait indéductible du
+kit. Le cas est trop rare pour en tirer une règle — il reste ici, et nulle part ailleurs.
+
+- **James Carter est le fils de Samuel Midnight**, le flic le plus légendaire du jeu et l'ancien
+  binôme de Calagan ; il porte le nom de sa mère. Rien dans le kit ne le dit : c'est du lore de gamme.
+  Toute sa fiche se relit à partir de là — le *badge de son père*, le *Good Cop* qui suit le protocole
+  à la lettre **quand son père tirait d'abord**. Et la carte collector qu'exige le preneur d'otages est
+  signée de la main de ce père : l'auteur autorise explicitement Carter à **reproduire la signature**.
+  La falsification cesse d'être un jet d'Astuce pour devenir une scène.
+- **Le profil manquant de Harvey Kitch était délibéré**, et non un oubli comme les deux passages
+  précédents l'avaient conclu — l'auteur a laissé la fiche vide exprès, pour que le MJ la calibre. Il
+  donne son chiffre, 12 PV, et l'autre moitié de la consigne : **il ne doit pas blesser les PJ pour de
+  vrai**. Son tir unique n'est pas une attaque mais un avertissement, déclenché par le franchissement
+  du périmètre, et la balle ne touche pas.
+  *Conséquence sur la règle du socle, et elle est plus fine qu'il n'y paraît.* Le signe qui identifie
+  le troisième cas — « le scénario chiffre ses seconds couteaux et oublie son antagoniste principal,
+  alors que celui-ci est armé et que le texte propose l'affrontement » — **a désigné juste** : il y a
+  bien un profil à fournir, et le document en fournit un. Ce qui était faux, c'est la **qualification** —
+  oubli plutôt que choix. La conséquence pratique ne change pas, mais l'assurance avec laquelle on
+  écrit « c'est un oubli, pas un choix éditorial » n'est pas justifiée — le signe dit qu'il manque un
+  profil, il ne dit pas pourquoi. **Écrire ce qu'on fournit, pas ce qu'on croit deviner de
+  l'intention.**
+- **Le critère pour durcir El Toro n'est pas le nombre de joueurs, c'est la suite** : si *Bun & Run*
+  enchaîne sur *ZOOMANji*, ne pas le durcir ; sinon 24 PV, et il devient le dernier boss.
+
+**Une chose n'a pas été suivie**, et c'est un arbitrage en soi : l'auteur dit en passant que Mei Davis
+« sort de l'école de police », alors que sa fiche coche *Légende du bitume*, qui désigne exactement le
+contraire. **La fiche l'emporte sur une phrase dite au fil de l'eau** — l'intention de l'auteur prime
+là où elle est explicite, pas là où elle contredit son propre matériel.
+
+**Volume : note 9 pages, livret 25 unités.** Le livret a gagné trois unités sur les 22 du premier
+passage — la ville, et le découpage plus fin de la prise d'otages, où l'unité est l'exigence.
 
 ## La Citadelle perdue du minotaure écarlate
 **Shadowdark · source 14 p. (extrait, pages 52-64 d'un recueil) + un plan livré séparément ·

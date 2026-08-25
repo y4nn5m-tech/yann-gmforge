@@ -3,6 +3,81 @@
 ::: {.head}
 [À dire]{.use}
 
+## Fevertown
+:::
+
+::: {.obj lab="Objectif — le monde en trois minutes, et c'est le seul moment pour le faire"}
+C'est le scénario d'initiation : la table découvre l'univers en même temps que le jeu. Trois choses
+seulement doivent rester — **une ville qui se filme elle-même**, **une génération de flics légendaires
+qu'on n'égalera pas**, et **le fait qu'eux ne sont personne, pour l'instant**.\
+Ne pas raconter l'uchronie en détail. Deux phrases suffisent, et on passe.
+:::
+
+### Le monde, en deux phrases
+
+::: {.say}
+- Nous sommes dans les **années 80**, sur la côte ouest des États-Unis. Mais pas tout à fait les
+  vôtres.
+- En 1945, la bombe n'est jamais tombée. L'Amérique et l'URSS ont pactisé au lieu de se regarder en
+  chiens de faïence — **pas de guerre froide, pas de rideau de fer**.
+- Les droits civiques ont gagné une génération d'avance, les ingénieurs russes ont injecté leur génie
+  dans le rêve californien, et le monde est allé plus vite.
+- Plus juste, peut-être. **Sûrement plus instable.**
+:::
+
+### La ville
+
+::: {.say}
+- **Fevertown.** Une mégacité de bord de mer, baignée de soleil, qui déborde de couleurs criardes et
+  de palmiers indolents.
+- Des voitures flashy filent le long des avenues bordées de néons. La ville vibre au rythme du disco,
+  de la funk et des talk-shows qui tournent en boucle sur les ondes.
+- **Ici, tout est exagéré, et personne ne fait les choses à moitié.**
+- Derrière les buildings, le crack a rongé les quartiers. Les gangs y ont imposé leur loi. Chaque
+  quartier a son identité, ses réseaux et ses secrets.
+:::
+
+### Les caméras, et la génération d'avant
+
+::: {.say}
+- Dans les années 60, les médias ont flairé le filon. La chaîne **N64 News** a installé des objectifs
+  sur les tableaux de bord des voitures de patrouille.
+- Les poursuites passaient au ralenti, avec des jingles sur les descentes de flics. **Le crime est
+  devenu du divertissement, et les commissariats des studios.**
+- De ce chaos en prime time est née une brigade pas comme les autres : la **Génération Miracle**.
+  Flamboyants, borderline, presque irréels. Ils tiraient d'abord et posaient les questions ensuite.
+- Les ados découpaient leurs photos dans les magazines. Le plus grand d'entre eux s'appelait
+  **Samuel Midnight**. Son binôme s'appelait **Logan Calagan** — et c'est votre commissaire.
+:::
+
+### Aujourd'hui
+
+::: {.say}
+- Presque une décennie a passé. Le crack a quasiment disparu des rues, les vieux gangs ne sont plus
+  que l'ombre d'eux-mêmes.
+- Les caméras de N64 sont désormais encadrées par la loi. **Elles tournent toujours.** Elles cherchent
+  juste de nouveaux formats.
+- Vous, vous avez grandi devant ces images. Vous avez une idée fixe : **faire mieux**. Mieux que vos
+  idoles télévisées, mieux que les flics parfaits d'avant.
+- Pour l'instant, vous faites des patrouilles ingrates dans un district qui s'appelle **Westwood**.
+:::
+
+::: {.mj lab="Ce que cette page installe, et qui servira toute la partie"}
+**Les caméras.** C'est pour ça qu'une bavure coûte une étoile *devant témoin* et non dans l'absolu
+(A6) — la honte est publique, et Calagan y pense avant de penser à la loi.\
+**Midnight.** Son nom reviendra dans deux heures, quand un forcené exigera une carte collector signée
+de sa main. Et le badge que James Carter porte en porte-bonheur vient de cette génération-là.\
+**Les Los Hijos.** Le réseau de cocaïne qu'ils traquent depuis une semaine est le leur. Le dire ici
+une fois, sans y appuyer.
+:::
+
+:::
+
+::: {.unit}
+
+::: {.head}
+[À dire]{.use}
+
 ## Westwood, quinze heures
 :::
 
@@ -20,8 +95,8 @@ Installer un quartier, pas un décor. Ils patrouillent depuis une semaine : ils 
 ### Le plan large
 
 ::: {.say}
-- L'histoire se passe à **Westwood**, district de Fevertown, côte ouest.
-- Il est **quinze heures**. Le ciel est bleu, le soleil cogne sur les immeubles gris.
+- **Westwood**, donc. Il est **quinze heures**, le ciel est bleu, et le soleil cogne sur les
+  immeubles gris.
 - Voilà une semaine que votre équipe ronge le bitume d'un district autrement plus brutal que la
   tranquille école de police.
 :::

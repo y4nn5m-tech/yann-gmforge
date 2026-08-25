@@ -1,123 +1,139 @@
-## [5]{.num}Pilotage {.sec .brk}
+## [5]{.num}Pilotage {.sec}
 
-### 5.1 — La charge : ce qu'il faut tenir en même temps
+### 5.1 — La charge, triée
 
-::: {.obj lab="Six choses, et elles ne se valent pas"}
-**Qu'on ne peut pas poser :**\
-**①** le **compteur de Réputation** des cinq PJ — sans lui, la scène finale n'a plus de branche et
-le MJ tranche au feeling devant les joueurs ;\
-**②** les **seuils de critique par PJ**, qui diffèrent tous — sans le tableau (3.1), la première
-bagarre s'arbitre au hasard.\
-**Qu'on peut alléger :**\
-**③** les **onze otages** → n'en nommer que quatre (l'enfant, son père, la vieille dame, Carl) et
-traiter le reste en bloc ;\
-**④** les atouts **« 1 fois par repos long »** → déléguer le suivi aux joueurs, c'est imprimé sur
-leurs fiches ;\
-**⑤** le **seuil de situation** → ne l'annoncer que quand il n'est pas neutre.\
-**Qu'on peut oublier sans dommage :**\
-**⑥** le **plant du Zoo** — trois touches suffisent, et si on n'en place aucune la séance ne perd
-rien. C'est la seule des six qui soit optionnelle.
+::: {.tight widths="28,20,52"}
++------------------------------+--------------------+---------------------------------------------------+
+| À tenir                      | Verdict            | Comment                                           |
++==============================+====================+===================================================+
+| **Le compteur de bavures**   | **On ne peut pas   | Les cinq étoiles, sur les fiches des joueurs      |
+|                              | le poser**         | (A6). C'est la seule chose qui traverse les cinq  |
+|                              |                    | scènes, et elle décide du ton de la dernière      |
++------------------------------+--------------------+---------------------------------------------------+
+| **Les seuils de critique     | **On ne peut pas   | Le tableau 3.1, sous les yeux. Ils ne sont pas    |
+| par PJ**                     | le poser**         | les mêmes sur le même jet                         |
++------------------------------+--------------------+---------------------------------------------------+
+| **Onze otages**              | À alléger          | Quatre suffisent à jouer : l'enfant, son père, la |
+|                              |                    | vieille dame, Carl. Les sept autres sont une      |
+|                              |                    | foule                                             |
++------------------------------+--------------------+---------------------------------------------------+
+| **Le seuil de situation**    | À alléger          | Le tableau 3.2 le fixe d'avance pour les quinze   |
+|                              |                    | moments du scénario. Ailleurs : 10                |
++------------------------------+--------------------+---------------------------------------------------+
+| **Les incidents de planque** | À alléger          | Sept sont proposés, **en jouer deux, trois au     |
+|                              |                    | maximum**, et la scène se termine sur l'arrivée   |
+|                              |                    | du coupé rouge — pas sur l'épuisement de la liste |
++------------------------------+--------------------+---------------------------------------------------+
+| **Les noms des PNJ de        | À oublier          | La source fournit une liste de huit noms          |
+| foule**                      |                    | d'improvisation. S'en servir, ne pas les retenir  |
++------------------------------+--------------------+---------------------------------------------------+
+| **L'hélicoptère**            | À oublier          | Impossible, définitivement (3.4). Ne pas laisser  |
+|                              |                    | la table construire dessus                        |
++------------------------------+--------------------+---------------------------------------------------+
 :::
 
-### 5.2 — Risques de blocage
+### 5.2 — Les risques de blocage
 
-::: {.tight widths="24,26,50"}
-+-------------------------+---------------------------+------------------------------------------+
-| Risque                  | Symptôme à table          | Remède                                   |
-+=========================+===========================+==========================================+
-| **Personne n'a compté   | La scène finale n'a plus  | Tenir la Réputation dès la scène 1,      |
-| les bavures**           | de branche : on ne sait   | **à voix haute** (A6). Le risque le plus |
-|                         | pas s'il sort la chemise  | probable, parce qu'il ne se voit pas     |
-|                         | jaune                     | venir                                    |
-+-------------------------+---------------------------+------------------------------------------+
-| **Carl meurt, ou reste  | Plus de rendez-vous ; les | Le rendez-vous tient au costume, pas à   |
-| inexploitable**         | scènes 3 à 5 tombent      | l'homme. Le manager du Blue Ananas et    |
-|                         |                           | Donut Joe peuvent le confirmer           |
-|                         |                           | séparément (A1)                          |
-+-------------------------+---------------------------+------------------------------------------+
-| La négociation s'enlise | « Il faut le calmer »,    | La liste ordonnée : temps → dialogue →   |
-|                         | répété, sans savoir ce    | **preuve de vie** → libérations.         |
-|                         | que ça produit            | **Harvey relance de lui-même**, exigence |
-|                         |                           | par exigence, puis un collègue propose   |
-|                         |                           | l'assaut à voix haute                    |
-+-------------------------+---------------------------+------------------------------------------+
-| Harvey est abattu au    | La scène 2 dure huit      | Notre profil (A2) tient deux tours. Pour |
-| premier tour            | minutes                   | prolonger : il révèle un gilet explosif  |
-|                         |                           | bricolé, ce qui interdit l'assaut        |
-+-------------------------+---------------------------+------------------------------------------+
-| Les joueurs refusent    | La scène 3 n'a plus de    | Little Latino ne voit jamais le visage   |
-| le costume              | dispositif                | de son contact, et sans marchandise sur  |
-|                         |                           | lui il n'y a pas de flagrant délit.      |
-|                         |                           | **Le faire dire par Carl**               |
-+-------------------------+---------------------------+------------------------------------------+
-| La scène d'attente      | Le gag tourne à vide      | **Deux incidents, plafond écrit**, puis  |
-| s'épuise                |                           | le coupé rouge, sèchement. La source     |
-|                         |                           | livre sept incidents sans dire combien   |
-|                         |                           | en tirer                                 |
-+-------------------------+---------------------------+------------------------------------------+
-| Un PJ tire sur          | Un enfant à terre, plus   | El Toro ne meurt pas pour un gosse : il  |
-| Little Latino           | de scénario               | fuit ou se rend. Et l'interdiction de    |
-|                         |                           | dégainer s'annonce **avant** (B7)        |
-+-------------------------+---------------------------+------------------------------------------+
+::: {.tight widths="24,32,44"}
++-----------------------+--------------------------------+-------------------------------------------+
+| Risque                | Symptôme à table               | Remède                                    |
++=======================+================================+===========================================+
+| **La négociation      | Vingt minutes de « il faut le  | La source ne prévoit **rien**. Retenu :   |
+| s'enlise**            | calmer » sans que rien ne      | **Harvey relance de lui-même**, exigence  |
+| *le plus probable*    | bouge. Personne ne sait ce que | par exigence, toutes les cinq minutes.    |
+|                       | « calmer » produit             | Et un collègue propose l'assaut à voix    |
+|                       |                                | haute — pour que le refus soit un choix   |
++-----------------------+--------------------------------+-------------------------------------------+
+| **L'assaut tue Carl** | Ils forcent la vitrine, ça     | Le filet de A1 : le rendez-vous tient au  |
+| *le plus grave*       | tourne mal, l'indic est mort   | costume, pas à l'homme. Ne jamais         |
+|                       | et il reste trois scènes       | l'annoncer — le sortir seulement si Carl  |
+|                       |                                | tombe                                     |
++-----------------------+--------------------------------+-------------------------------------------+
+| **Ils refusent le     | « Pourquoi on se déguiserait   | Le filet est dans la fiction : **Little   |
+| costume**             | en ananas ? »                  | Latino ne connaît que la mascotte.** Il   |
+|                       |                                | n'a jamais vu le visage de Carl. Sans     |
+|                       |                                | costume, il ne s'approche pas             |
++-----------------------+--------------------------------+-------------------------------------------+
+| **Harvey tire sur un  | La source le menace sans       | Retenu : **au premier échec critique      |
+| otage**               | jamais dire quand              | d'un PJ dans la négociation**, et sur la  |
+|                       |                                | jambe de la vieille dame, comme la source |
+|                       |                                | l'écrit. Une seule fois                   |
++-----------------------+--------------------------------+-------------------------------------------+
+| **La scène 1 traîne** | Trois incidents, et le vrai    | Elle n'est qu'une rampe. **L'appel de     |
+|                       | scénario n'a pas commencé      | Calagan tombe au bout de quinze minutes** |
+|                       |                                | de table, quoi qu'il arrive               |
++-----------------------+--------------------------------+-------------------------------------------+
 :::
 
-### 5.3 — Les trois culs-de-sac, à signaler comme tels
+### 5.3 — Les culs-de-sac
 
-::: {.mj lab="Pour ne pas laisser la table s'y enliser"}
-**L'hélicoptère** — Calagan refusera, toujours. C'est un cul-de-sac *voulu* : il mesure si les
-joueurs comprennent qu'on négocie en mentant. Il doit être marqué **impossible**, sinon la table y
-passe vingt minutes.\
-**Le tagueur** — la source écrit qu'il « sert uniquement de transition et n'interfère pas avec
-l'action principale ». Dix minutes maximum, et on n'attrape rien d'utile.\
-**Eddie Perkins** — aucun lien avec l'affaire. Il pleure dans la voiture, il sent l'alcool rance, et
-c'est tout.
+::: {.jeu lab="Un voulu, un par négligence"}
+**L'hélicoptère** — voulu, et c'est même le test de la scène : il mesure si les joueurs comprennent
+qu'on négocie en mentant. Calagan refuse, mais **prétendre que les démarches sont en cours** est
+écrit dans la source comme une manœuvre légitime. Ne jamais laisser croire qu'il arrivera.\
+**Le tagueur de la scène 1** — par négligence : la source dit qu'il « sert uniquement de transition et
+n'interfère pas avec l'action principale », mais lance quand même une course-poursuite. Retenu :
+**objectif 25 en séquence cumulative, deux tours maximum**, et l'appel de Calagan tombe pendant —
+qu'ils l'aient rattrapé ou non.
 :::
 
-### 5.4 — Comment jouer les cinq PNJ qui portent la séance
+### 5.4 — Les cinq notes de jeu
 
-::: {.mj lab="La source les décrit ; elle ne dit pas comment les tenir"}
-**Harvey Kitch** — **vexé, pas fou.** Un homme qui a pris onze personnes en otage parce qu'on a
-insulté son restaurant préféré, et qui trouve ça parfaitement raisonnable. Jouer la conviction,
-jamais la démence.\
-**Little Latino** — **deux registres, bascule instantanée et sans transition.** Devant la mascotte :
-un professionnel chaleureux qui parle métier. Dès qu'un adulte en uniforme paraît : un enfant. C'est
-le basculement, pas l'enfant, qui met la table mal à l'aise.\
-**El Toro** — **ne meurt pas pour un gosse.** Il fuit ou se rend. L'idée n'est pas de massacrer les
-joueurs, ni l'inverse.\
-**Ginny Genève** — **abattue, pas en colère.** Ce n'est pas une adversaire : c'est celle qui pose le
-problème que Calagan résoudra brutalement dix minutes plus tard.\
-**Logan Calagan** — il n'a pas besoin de hausser le ton : un froncement de sourcils suffit. Et il
-les engueule **parce qu'ils sont à lui**. La méthode est monstrueuse, la phrase est « nous, on est
-les gentils », et ça marche. Laisser un silence après « une vraie petite balance officielle ».
+::: {.mj lab="Comment les tenir — la source les décrit, elle ne dit jamais comment"}
+**Logan Calagan** — il gueule parce qu'ils sont à lui. *La colère est de l'attachement mal dit.*\
+**Harvey Kitch** — il est persuadé d'être le héros de sa propre histoire. *Vexé, pas fou* : il se
+braque au ridicule, il fond à la flatterie.\
+**Carl Cooler** — honteux et coopératif, pas hostile. *Il a merdé et il le sait* — il ne se défend
+jamais.\
+**Little Latino** — dix ans, et il dirige. *Ne jamais le jouer comme un enfant qui imite un adulte :*
+c'est un patron qui a dix ans.\
+**Ginny Genève** — clinique, pas hostile. *Elle ne les juge pas, elle constate les dégâts* — et c'est
+pire.
 :::
 
 ### 5.5 — Le réglage du ton
 
-::: {.obj lab="Ce que la source ne dit pas : où la comédie s'arrête"}
-**Sc. 1** — burlesque franc. C'est la scène où l'on rit, rien n'est protégé.\
-**Sc. 2** — comédie noire. Les exigences sont absurdes, la situation ne l'est pas : les onze otages,
-la vieille dame qu'il peut abattre et l'état réel de Carl ne sont jamais drôles.\
-**Sc. 3** — gêne physique et absurde. Rien n'est protégé, mais l'attente doit **peser**, sinon les
-incidents n'ont aucun relief.\
-**Sc. 4** — spectaculaire, puis malaise. **L'enfant est l'objectif de la scène**, pas un effet
-secondaire.\
-**Sc. finale** — sec, autoritaire, et presque tendre à la toute fin. La chemise jaune est réelle et
-déjà validée.
+::: {.tight widths="24,76"}
++-------------------------+--------------------------------------------------------------------------+
+| Scène                   | Registre                                                                 |
++=========================+==========================================================================+
+| **1 — Routine**         | Chronique de quartier. Chaud, bruyant, un peu sale. Rien n'est grave :   |
+|                         | c'est le seul moment du scénario où on peut rire sans que ça coûte       |
++-------------------------+--------------------------------------------------------------------------+
+| **2 — Hakuna Burger**   | **Le seul moment où la comédie doit s'arrêter.** Les exigences sont      |
+|                         | absurdes, la situation ne l'est pas : onze otages, un enfant, une arme.  |
+|                         | Jouer Harvey drôle rend la scène ridicule ; le jouer sincère la rend     |
+|                         | tendue                                                                   |
++-------------------------+--------------------------------------------------------------------------+
+| **3 — La planque**      | Comédie pure, et lenteur assumée. La chaleur, le costume, le burger      |
+|                         | qu'on n'a pas le droit de manger. C'est la récréation avant le choc      |
++-------------------------+--------------------------------------------------------------------------+
+| **4 — Little Latino**   | Bascule. Le gag de l'enfant dure trois secondes, puis la scène devient   |
+|                         | une poursuite et une baston. **Ne pas prolonger le comique** : c'est la  |
+|                         | surprise qui est drôle, pas la situation                                 |
++-------------------------+--------------------------------------------------------------------------+
+| **Finale — Le poste**   | Retour au calme, et jugement. Calagan n'est pas une punition, c'est un   |
+|                         | mentor brutal. Le ton dépend entièrement du compteur (A6)                |
++-------------------------+--------------------------------------------------------------------------+
 :::
 
-### 5.6 — Le plant du Zoo
+::: {.obj lab="Ce qui ne se joue pas au premier degré"}
+**Le braquage.** Les exigences font rire, la scène ne doit pas. Un forcené armé au milieu de onze
+civils, dont un enfant — c'est le seul endroit du scénario où quelqu'un peut mourir pour de bon.\
+**L'âge de Little Latino.** Le gag est dans la révélation, pas dans le personnage. Une fois qu'il a
+parlé, il est un trafiquant, et le malaise de l'arrestation d'un mineur est le vrai sujet de la scène
+finale.\
+**Eddie Perkins.** Il pisse sur un abribus et c'est drôle trente secondes. Puis, dans la voiture, il
+pleure sur sa femme partie et sur « le port qui est mort, et lui avec ». La source écrit les deux :
+**jouer les deux**.
+:::
 
-::: {.obj lab="Trois touches, et interdiction d'y appuyer"}
-L'accroche du scénario suivant se produit **pendant la scène 3**, à quelques mètres de la planque :
-Charlie, huit ans, fils du procureur, disparaît pendant la Zoo Night. **Les joueurs sont
-physiquement sur place et personne ne le sait.**\
-**①** Scène 1 : lire l'annonce radio **en entier** — c'est le seul élément du scénario qui prépare
-la suite, et il est déjà écrit. **②** Scène 3 : des lanternes qui montent très loin au-dessus des
-toits. Une phrase, jamais deux. **③** Scène 3 : un haut-parleur lointain, inintelligible.\
-**Aucun jet, aucun PNJ qui en parle, aucune insistance.** Si un joueur demande : « c'est la Zoo
-Night », et on passe.\
-**Le pont mécanique pour plus tard :** *Moondance* de Joan Crow déclenche un flashback sur un jet
-d'Astuce réussi. C'est exactement l'outil qui permettra à la table, dans *ZOOMANji!*, de se souvenir
-de ce qu'elle a vu sans le voir. Le plant n'a pas besoin d'être compris ce soir : il a besoin
-d'avoir eu lieu.
+::: {.obj lab="Les plants pour la suite — trois touches, et l'interdiction d'y appuyer"}
+**La Zoo Night** passe à la radio en scène 1, dans l'annonce des infos locales. C'est tout.\
+**Pendant la planque**, deux touches sensorielles, une seule sortie chacune : un lâcher de lanternes
+lumineuses à l'horizon, et un haut-parleur lointain qui annonce le dernier nourrissage.\
+**Ne jamais y revenir, ne jamais confirmer** si un joueur le relève. Le scénario suivant s'ouvre sur
+la disparition de Charlie **à quelques mètres de là, au moment exact** — et l'atout *Moondance* de
+Joan Crow (X3) est la mécanique qui permettra d'y revenir.\
+**La récompense de fin** n'est pas de l'argent : c'est le dossier que Calagan jette sur le bureau.
 :::

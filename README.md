@@ -45,7 +45,7 @@ Dans le **premier** fragment, et lui seul :
 title: "Bun & Run"
 subtitle: "Note d'arbitrage"
 scenario: "Bun & Run"        # groupe les documents d'un scénario sur l'index
-type: note                   # note | aide — arme le contrôle de volume
+type: note                   # note | aide — décide quels contrôles s'appliquent
 jeu: "Fevertown — kit de découverte v1.2"
 pied: "BUN & RUN — note d'arbitrage"
 lang: fr
@@ -98,6 +98,16 @@ Un tableau — **grille**, avec les largeurs déclarées, jamais déduites du de
 Les fusions de cellules sur plusieurs lignes marchent : il suffit d'omettre le trait horizontal
 entre deux rangées.
 
+Un bloc de lignes à dire (aide de jeu) — **une idée par ligne**, à piocher, jamais à lire d'un
+trait :
+
+```markdown
+::: {.say}
+- Le lac est gelé sur des centaines de mètres, plat et gris jusqu'à l'horizon.
+- [« Parlez doucement, s'il vous plaît. Mon mari dort. »]{.q}
+:::
+```
+
 Une micro-grille d'unité (aide de jeu) :
 
 ```markdown
@@ -131,12 +141,18 @@ python3 build.py && sha256sum out/*.pdf   # même empreinte
 `build.py` sort en code 1 si l'un échoue — c'est ce qui fait de la CI un garde-fou et non un
 simple compilateur.
 
-| Contrôle | Ce qu'il attrape |
-|---|---|
-| volume | une note d'arbitrage de plus de 15 pages : il y a de la recopie |
-| pages presque vides | une page qui ne porte qu'une ou deux lignes |
-| renvois d'arbitrage | un `(A4)` qui ne pointe sur aucun arbitrage défini |
-| numéros de page | un « voir page 12 » dans le corps du texte, interdit par le socle |
+| Contrôle | Sur quoi | Ce qu'il attrape |
+|---|---|---|
+| volume | note | une note d'arbitrage de plus de 15 pages : il y a de la recopie |
+| pages presque vides | note | une page qui ne porte qu'une ou deux lignes |
+| renvois d'arbitrage | note | un `(A4)` qui ne pointe sur aucun arbitrage défini |
+| numéros de page | les deux | un « voir page 12 » dans le corps du texte, interdit par le socle |
+| **une unité = une page** | **aide** | **une unité rendue seule qui tient sur deux pages** |
+
+Les trois premiers ne s'appliquent **qu'à la note**, et le dernier **qu'à l'aide de jeu** : dans un
+livret, une unité qui remplit la moitié de sa page est normale — ce qui s'y mesure, c'est le
+débordement. C'est aussi pourquoi les renvois `— A4` du livret, qui pointent vers la note, ne sont
+pas vérifiés.
 
 ## Chantiers ouverts
 
@@ -147,9 +163,10 @@ simple compilateur.
   restructure les cellules — et la CSS rencontre un arbre différent de celui pour lequel elle a été
   réglée. C'est un réglage unique à faire une fois, après quoi la sortie de la chaîne devient la
   référence. Ne pas chercher un coupable unique.
-- **La conversion de l'aide de jeu**, la partie difficile : sa règle centrale est « une unité = une
-  page », et elle demande **le contrôle unité par unité**, qui existe déjà comme script dans le
-  chapitre du livrable mais pas dans `build.py`.
+- **La conversion de l'aide de jeu.** Le régime `.unit`, les lignes à dire et le contrôle unité par
+  unité sont passés dans la chaîne avec *Grand froid* — c'est ce contrôle qui a attrapé la villa
+  Moore, qui débordait sur deux pages. Reste à éprouver sur une autre forme d'intrigue : le
+  découpage par victime est le seul qu'on ait fait tourner.
 
 ## Ce que le régime reflowable change
 

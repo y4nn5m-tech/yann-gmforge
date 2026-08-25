@@ -10,6 +10,13 @@
 --    Le filtre habille chaque puce en <div class="ln">, pour retrouver les
 --    filets horizontaux sans écrire de HTML à la main.
 --
+-- 2 bis. Un bloc de lignes à dire :  ::: {.say}
+--                                    - Une idée par ligne.
+--                                    - [« Une réplique. »]{.q}
+--    Même mécanique, mais chaque puce devient un <div> nu : la feuille cible
+--    `.say div` pour l'indentation négative. C'est ce qui distingue une pile
+--    de lignes qu'on pioche d'un paragraphe qu'on lit.
+--
 -- 3. Les paliers de test s'écrivent : ::: {.pal}
 --                                     Échec :   …    (liste de définitions)
 
@@ -35,13 +42,15 @@ local function etiquette(div)
   return div
 end
 
--- 2 — la micro-grille : chaque item de liste devient une ligne .ln
-local function micro_grille(div)
+-- 2 — chaque item de liste devient une ligne : .ln pour la micro-grille,
+--     un div nu pour les lignes à dire.
+local function enveloppe_items(div, classe)
   local lignes = {}
   for _, bloc in ipairs(div.content) do
     if bloc.t == "BulletList" then
       for _, item in ipairs(bloc.content) do
-        table.insert(lignes, pandoc.Div(item, pandoc.Attr("", {"ln"}, {})))
+        local classes = classe and {classe} or {}
+        table.insert(lignes, pandoc.Div(item, pandoc.Attr("", classes, {})))
       end
     else
       table.insert(lignes, bloc)
@@ -80,8 +89,10 @@ function Div(el)
     if a_classe(el, classe) then return etiquette(el) or el end
   end
   if a_classe(el, "loc") then
-    local d = etiquette(el) or el
-    return micro_grille(d)
+    return enveloppe_items(etiquette(el) or el, "ln")
+  end
+  if a_classe(el, "say") then
+    return enveloppe_items(etiquette(el) or el, nil)
   end
   if a_classe(el, "head") then return etiquette(el) or el end
   if el.attributes["widths"] then return largeurs(el) end

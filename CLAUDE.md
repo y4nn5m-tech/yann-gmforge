@@ -86,8 +86,8 @@ lang: fr
 ---
 ```
 
-**`type` n'est pas décoratif : c'est lui qui arme le contrôle de volume** (une note au-delà de 15
-pages échoue). Il a été deviné un temps en reniflant le mot « note » dans `pied`, si bien qu'un pied
+**`type` n'est pas décoratif : c'est lui qui décide des contrôles** — le volume et le remplissage
+pour une note, le débordement d'unité pour une aide de jeu. Il a été deviné un temps en reniflant le mot « note » dans `pied`, si bien qu'un pied
 libellé autrement désactivait l'alarme en silence ; le reniflage reste en repli, mais un document neuf
 déclare `type`.
 
@@ -122,7 +122,7 @@ Une fois le fond validé :
 python3 build.py <nom-du-document>
 ```
 
-Trois sorties dans `out/`, puis quatre contrôles. **C'est le seul but de cette compilation locale** :
+Trois sorties dans `out/`, puis les contrôles. **C'est le seul but de cette compilation locale** :
 les contrôles n'existent qu'au moment du build, et sans elle on découvrirait en CI, après le push,
 qu'une note fait 17 pages. Le PDF produit ne se montre pas et ne s'ouvre pas — il n'est là que pour
 être mesuré.
@@ -130,12 +130,17 @@ qu'une note fait 17 pages. Le PDF produit ne se montre pas et ne s'ouvre pas —
 **Un contrôle qui échoue signale un défaut du document, pas un défaut du script** — ne jamais le
 désactiver pour faire passer un build. Corriger les fragments, recompiler.
 
-| Contrôle | Ce qu'il attrape |
-|---|---|
-| volume | une note d'arbitrage de plus de 15 pages : il y a de la recopie |
-| pages presque vides | une page qui ne porte qu'une ou deux lignes |
-| renvois d'arbitrage | un `(A4)` qui ne pointe sur aucun arbitrage défini |
-| numéros de page | un « voir page 12 » dans le corps du texte |
+| Contrôle | Sur quoi | Ce qu'il attrape |
+|---|---|---|
+| volume | note | une note d'arbitrage de plus de 15 pages : il y a de la recopie |
+| pages presque vides | note | une page qui ne porte qu'une ou deux lignes |
+| renvois d'arbitrage | note | un `(A4)` qui ne pointe sur aucun arbitrage défini |
+| numéros de page | les deux | un « voir page 12 » dans le corps du texte |
+| une unité = une page | aide | une unité rendue seule qui tient sur deux pages |
+
+**Les contrôles ne sont pas les mêmes selon `type:`.** Une aide de jeu n'est pas mesurée au
+remplissage — une unité à moitié pleine y est normale — et ses renvois `— A4` pointent vers la note,
+donc ils ne sont pas vérifiés. Ce qui s'y mesure, c'est le débordement, et lui seul.
 
 Un avertissement (`·`) n'arrête pas le build : une page à 27 % est souvent une fin de section
 légitime. Un `ÉCHEC` sort en code 1.

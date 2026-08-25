@@ -70,6 +70,41 @@ def est_note(m):
     return "note" in m.get("pied", "").lower()
 
 
+def unites(corps_html):
+    """Les unités du livret, découpées sur leur div ouvrant."""
+    return re.findall(r'<div class="unit">.*?(?=<div class="unit">|\Z)', corps_html, re.S)
+
+
+def debordements(corps_html):
+    """Une unité = une page, et c'est LE contrôle du livret.
+
+    Chaque unité est rendue seule, avec la charte : si elle tient sur deux
+    pages, le MJ tourne la page au milieu d'un point de consultation et perd
+    le fil devant ses joueurs. On coupe le contenu, ou on scinde l'unité —
+    jamais on ne laisse filer.
+
+    Le contrôle vit ici plutôt que dans un script à côté parce qu'il doit
+    tourner après *chaque* retouche : quatre lignes ajoutées à une unité qui
+    tenait tout juste la font déborder, et le PDF complet ne le montre pas.
+    """
+    from weasyprint import HTML
+    tmp = ASSETS / "_controle.html"
+    trouvés = []
+    try:
+        for i, u in enumerate(unites(corps_html), 1):
+            tmp.write_text('<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">'
+                           '<link rel="stylesheet" href="print.css"></head><body>'
+                           f"{u}</body></html>", encoding="utf-8")
+            n = len(HTML(filename=str(tmp)).render().pages)
+            if n > 1:
+                t = re.search(r"<h2[^>]*>(.*?)</h2>", u, re.S)
+                titre = re.sub(r"<[^>]+>", "", t.group(1)).strip() if t else "couverture"
+                trouvés.append(f"l'unité {i} « {titre} » déborde sur {n} pages")
+    finally:
+        tmp.unlink(missing_ok=True)
+    return trouvés
+
+
 def html_fragment(fs):
     return subprocess.run(PANDOC_COMMUN + [*map(str, fs), "--to", "html5"],
                           capture_output=True, text=True, check=True).stdout
@@ -150,29 +185,42 @@ def controles(rendu, corps_html, m):
     if est_note(m) and len(pages) > 15:
         échecs.append(f"la note fait {len(pages)} pages : au-delà de 15, il y a de la recopie")
 
-    # 2 — pages presque vides
-    for i, p in enumerate(pages, 1):
-        b = bas_de_texte(p)
-        if b is None:
-            continue
-        taux = (b - 12) / (284 - 12) * 100
-        if taux < 20:
-            échecs.append(f"p.{i} ne porte qu'une ou deux lignes ({taux:.0f} %)")
-        elif taux < 62 and i not in (1, len(pages)):
-            avertis.append(f"p.{i} remplie à {taux:.0f} % — fin de section ?")
+    # 2 — pages presque vides. Seulement pour la note : dans le livret, une
+    #     unité qui remplit la moitié de sa page est normale et souvent
+    #     souhaitable (mesuré de 49 % à 87 % sur un livret validé). Ce qui s'y
+    #     mesure, c'est le débordement — contrôle 5.
+    if est_note(m):
+        for i, p in enumerate(pages, 1):
+            b = bas_de_texte(p)
+            if b is None:
+                continue
+            taux = (b - 12) / (284 - 12) * 100
+            if taux < 20:
+                échecs.append(f"p.{i} ne porte qu'une ou deux lignes ({taux:.0f} %)")
+            elif taux < 62 and i not in (1, len(pages)):
+                avertis.append(f"p.{i} remplie à {taux:.0f} % — fin de section ?")
 
-    # 3 — renvois d'arbitrage dans le vide
+    # 3 — renvois d'arbitrage dans le vide. Le livret, lui, renvoie à la note
+    #     par un tiret (« on retient Y — A4 ») : ces numéros-là sont définis
+    #     dans l'autre document, et les vérifier ici n'aurait aucun sens.
     définis = set(re.findall(r'class="lab">([ABC]\d)\s*—', corps_html))
     définis |= set(re.findall(r"<strong>([ABC]\d)</strong>", corps_html))
     définis |= set(re.findall(r"\b([ABC]\d) ·", corps_html))
     cités = set(re.findall(r"\(([ABC]\d)\)", corps_html))
-    orphelins = cités - définis
+    orphelins = (cités - définis) if est_note(m) else set()
     if orphelins:
         échecs.append(f"renvois vers un arbitrage inexistant : {', '.join(sorted(orphelins))}")
 
     # 4 — renvois à un numéro de page (interdit par le socle)
     if re.search(r"\bvoir (la )?page \d+", corps_html, re.I):
         échecs.append("renvoi à un numéro de page dans le corps du texte")
+
+    # 5 — une unité = une page (livret seulement)
+    if not est_note(m):
+        n_unités = len(unites(corps_html))
+        échecs += debordements(corps_html)
+        if n_unités and n_unités != len(pages):
+            avertis.append(f"{n_unités} unités pour {len(pages)} pages")
 
     return échecs, avertis
 

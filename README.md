@@ -21,6 +21,7 @@ python3 build.py note-bun-and-run
 ## Arborescence
 
 ```
+scripts/extraire.py   la passe mécanique : un PDF source → texte greppable + manifeste
 assets/print.css      charte d'impression — la feuille canonique du socle
 assets/screen.css     même identité, régime reflowable : site et EPUB
 assets/web.css        extras du site seul : mode sombre, tableaux qui défilent

@@ -32,6 +32,32 @@ Après un scénario traité, le retour d'expérience se consigne dans `modele/JO
 jamais dans le socle. Attention : ces fichiers sont une **copie** de docs qui vivent ailleurs, et la
 synchronisation est manuelle dans un seul sens. Voir `modele/README.md` avant d'en modifier un.
 
+## Dépouiller la source : la passe mécanique d'abord
+
+Quand la source est un PDF, **ne pas la lire page à page en image**. Lancer d'abord :
+
+```
+python3 scripts/extraire.py <le.pdf> --nom <nom-du-scenario>
+```
+
+Ça produit `sources/<nom>/texte.txt` — greppable, ce qui est le vrai bénéfice : toute la méthode du
+modèle repose sur des croisements que l'auteur n'a pas faits, et `grep -n` les rend exhaustifs au lieu
+de les faire dépendre de ce qu'on se rappelle avoir vu vingt pages plus tôt.
+
+Et surtout `sources/<nom>/manifeste.md`, qui **signale ce que l'extraction n'a pas su lire**. Une page
+dont la densité de texte s'effondre porte le plan ou une pleine page illustrée. Ces pages-là — et
+elles seules — se regardent en image :
+
+```
+python3 scripts/extraire.py <le.pdf> --nom <nom> --rendre
+```
+
+Le manifeste rappelle aussi ce qu'on **ne peut pas** trancher depuis le texte à plat : le niveau
+typographique (dont dépend le test « la source est-elle lisible ? »), les légendes d'illustration, les
+tableaux, les colonnes. Sur ces quatre points, revenir au PDF.
+
+`sources/` est ignoré par git : c'est le texte du scénario mot pour mot, pas une reformulation.
+
 ## Démarrer un document
 
 Un document est un répertoire `src/<nom>/` contenant des fragments Markdown. **La numérotation est le

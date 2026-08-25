@@ -174,6 +174,42 @@ le titre est le seul repère quand le MJ feuillette.
   la version officielle des faits. Pas plus — sauf sur la page du nœud, où l'historique complet est à
   sa place, parce que c'est là qu'on répond aux questions des joueurs.
 
+### L'ordre interne — l'unité se lit comme la scène se joue
+
+C'est la correction la plus utile apportée au chapitre : l'ancien « ordre interne fixe » — encart MJ,
+objectif, puis toute la description, puis le reste — produisait des pages où quatre encarts
+s'empilaient en pied. À table, le MJ cherche alors le jet trois écrans plus bas que la réplique qui
+l'appelle, et les inversions passent inaperçues à la relecture : *les trois façons d'entrer* écrites
+après *à l'intérieur*, *comment obtenir le rapport d'accident* après le récit de l'accident.
+
+**Trois zones, et la deuxième est celle qu'on oublie.**
+
+- **Avant d'ouvrir la bouche** — deux encarts au plus, et seulement ceux qui se lisent *avant* de
+  parler : le rouge qui donne le lien avec l'intrigue et la version officielle, le violet qui dit ce
+  qu'on cherche à obtenir. Un encart *comment le tenir* appartient ici : on ne joue pas un personnage
+  après l'avoir joué.
+- **Le corps coule par paliers, et chaque encart se pose au point exact où sa matière tombe** : le
+  jet vert juste après la phrase qui le déclenche, la vérité rouge juste après l'indice qu'elle
+  explique, le levier de fiche juste après le moment où le trait se joue. Un encart de mécanique se
+  place **là où l'action a lieu**, pas où l'on aimerait l'avoir rangé — entrer se lit avant d'être
+  entré.
+- **La sortie** — un seul encart : le passage de main, ce que la piste referme, ce qui reste à
+  trouver.
+
+**Le test qui tranche.** Un encart doit répondre à une phrase qui vient d'être dite. S'il peut
+remonter de trois paragraphes sans que rien ne se casse, il est mal placé ; **s'il ne dépend d'aucune
+phrase, ce n'est pas un encart mais de la matière à dire — donc un palier.** *Cas vécu : « Le
+plateau », encart rouge sur l'unité du bureau de Walter, ne commentait rien : c'était une rumeur à
+faire entendre. Devenu un palier avec sa réplique, il a cessé d'encombrer le pied de page.*
+
+**Ce qui échappe à la règle**, et il faut le déclarer plutôt que le tolérer : les unités qui ne
+descendent pas par paliers — la conclusion, un profil, une table de mécanique. Pas de progression,
+donc pas d'alternance. Une unité de combat garde légitimement son profil en tête, et une unité de
+rampe peut n'avoir qu'un encart, tout à la fin.
+
+*Le contrôle correspondant est automatisé côté dépôt : plus de deux encarts avant le premier palier ou
+en pied d'unité déclenche un avertissement, et les unités sans paliers en sont exclues.*
+
 ### Décrire — la descente par paliers
 
 Le socle interdit de découper une description par les sens. Dans l'aide de jeu, cela prend une forme
@@ -312,8 +348,8 @@ exact où ils se remettent.</div>
 </div>
 ```
 
-**Unité de jeu** — bandeau à deux éléments, puis ordre interne fixe : encart MJ → objectif → paliers de
-description → micro-grille → profil s'il y a lieu :
+**Unité de jeu** — bandeau à deux éléments, puis l'ordre des trois zones ci-dessus : ce qu'on lit
+avant de parler, la descente par paliers avec chaque encart au point où il sert, la sortie :
 
 ```html
 <div class="unit">

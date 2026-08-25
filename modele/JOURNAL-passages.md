@@ -25,8 +25,8 @@ bijoutier (George / « William D. » dans le dossier de police), les dates d'exp
 entre la plaque du musée et le dossier militaire.
 
 ## Grand froid
-**Cthulhu Hack · source 23 p. · aide de jeu 18 p. puis 13 p. puis 17 p. · note d'arbitrage 8 p. puis
-9 p. puis 10 p.**
+**Cthulhu Hack · source 23 p. · aide de jeu 18 p. puis 13 p. puis 22 p. · note d'arbitrage 8 p. puis
+9 p.**
 
 Scénario 5 de la campagne *Wendigo*. Chicago sous −30 °C, cinq victimes en cinq jours.
 
@@ -308,17 +308,59 @@ sa vérification.** Une note d'arbitrage ne vaut que par l'exactitude de ses chi
   toute la page existait pour faire parler le témoin. **Scinder plutôt que charcuter, une fois de
   plus.** Au passage, les contrôles se différencient maintenant par `type:` : le remplissage et les
   renvois d'arbitrage ne valent que pour la note, le débordement ne vaut que pour le livret.
-- **Le bloc ambre long, deuxième occurrence.** Le second passage avait noté qu'un bloc coloré de plus
-  d'une douzaine de lignes ne peut pas se couper, à cause du `break-inside: avoid` de la feuille
-  canonique, et laissait la promotion en suspens : « à promouvoir si le cas se reproduit ». **Il se
-  reproduit, sur le même scénario** — le bloc des neuf arbitrages de table laisse une page à 53 %.
-  Le document reste dans la fourchette et le build passe, donc rien n'a été touché ; mais la règle du
-  socle (« réserver `break-inside: avoid` aux blocs colorés ») est bien trop générale, et la
-  correction attend toujours : `.warn.long { break-inside: auto }`, ou scinder le bloc B.
+- **Le bloc ambre long : fausse piste.** Le second passage avait noté qu'un bloc coloré de plus d'une
+  douzaine de lignes ne peut pas se couper, et laissait la promotion en suspens : « à promouvoir si le
+  cas se reproduit ». Le cas s'est reproduit — une page de note à 53 % — et une classe
+  `.warn.long { break-inside: auto }` l'a fait disparaître. **Puis les deux bugs ci-dessous ont été
+  corrigés, et la rustine est devenue inutile : elle a été retirée.** Leçon : un symptôme de
+  pagination qui « se reproduit » n'est pas forcément une règle à promouvoir — ça peut être le même
+  défaut qui n'a jamais été trouvé. Chercher la cause avant d'écrire la règle.
 
-**Volume : 8 → 9 → 10 pages pour la note.** La page gagnée est celle des quatre croisements — la
-planche trait × scène a doublé, parce qu'elle porte maintenant les traits *et* les faits que la source
-n'a pas reliés entre eux. C'est le bon sens de l'échange.
+### Le chantier du calage CSS, et pourquoi il a duré si longtemps
+
+Ce passage a clos le **chantier n°1** du dépôt : « à la main, la note faisait 8 pages ; par la chaîne,
+10 — la cause est diffuse ». Elle n'était pas diffuse. Ce n'était pas non plus un réglage à refaire :
+c'étaient **deux bugs**, et ils se voyaient dès qu'on comparait un PDF composé hors chaîne à la même
+source compilée.
+
+**Un — un commentaire CSS imbriqué, en tête de `print.css`.** L'en-tête disait « … à trois différences
+près, toutes signalées par `/* [dépôt] */` ». Les commentaires CSS ne s'imbriquent pas : ce `*/`
+refermait l'en-tête, et le sélecteur invalide qui suivait **avalait le premier `@font-face`** — celui
+de la police régulière. `pdffonts` sur le PDF produit ne montrait que Bold, Italic et Bold-Italic ; le
+texte courant tombait sur une substitution système, plus large de deux caractères par ligne, et les
+unités du livret débordaient. C'était surtout **une bombe de reproductibilité** : le rendu dépendait
+des polices installées sur la machine de build, ce que le socle interdit précisément.
+
+**Deux — un `<br>` de trop dans le filtre.** Le filtre insérait un `LineBreak` après chaque étiquette
+de bloc, alors que `.lab` est `display:block` dans les deux feuilles. Une ligne vide par bloc coloré,
+cinq par unité de livret.
+
+**Plus un vrai calage**, celui-là légitime : `.head p { margin:0 }`. Pandoc enveloppe l'étiquette
+d'usage (`À dire`) dans un `<p>` que la feuille canonique n'a pas — 12 mm par unité. C'est la même
+famille que `td p` et `.loc .ln p`, déjà dans la feuille.
+
+**La vérification qui tranche :** *Bun & Run*, sans qu'une ligne de son contenu change, est passée de
+10 à 8 pages — exactement la valeur que ce journal attribuait à la composition « à la main ». La
+sortie de la chaîne est désormais la référence.
+
+**Un garde-fou est né du passage** : `build.py` échoue désormais sur tout avertissement de WeasyPrint
+concernant la charte d'impression. Aucun contrôle ne surveillait ce que le moteur de rendu disait — il
+l'écrivait sur la sortie d'erreur, et le build continuait. Vérifié en réintroduisant le bug : le build
+sort en 1, et la note de *Bun & Run* repasse de 8 à 9 pages, ce qui mesure exactement ce que coûtait la
+police manquante.
+
+→ **Méthode à retenir, et c'est la vraie leçon du passage.** Face à un document qui déborde, le
+réflexe a été de couper du texte, puis d'envisager de retoucher les corps et les marges de la charte.
+Les deux étaient faux. Ce qui a trouvé la cause, c'est une **mesure qui contredisait l'hypothèse** :
+les unités avaient *moins* de texte que le modèle de référence (−200 à −370 caractères) et débordaient
+quand même. À partir de là, comparer les deux PDF — nombre de lignes, caractères par ligne, polices
+embarquées, distribution des espacements verticaux — désigne le coupable en quelques minutes.
+**Ne jamais couper de la matière à dire pour faire tenir une page avant d'avoir vérifié que la chaîne
+compose juste** : le socle range la matière à dire parmi ce qui ne tombe jamais.
+
+**Volume : 8 → 9 pages pour la note, 13 → 22 pour le livret.** La note a gagné la page des quatre
+croisements ; le livret a gagné ses unités manquantes — *Le Wendigo, ce qu'on peut en dire*, *Terry*
+en `À LIRE AVANT`, *Le feu* et ses trois rôles pour cinq PJ.
 
 ## La Fille du Seigneur de l'Hiver
 **Chroniques Oubliées Fantasy · source 14 p. · rendu 17 p.**

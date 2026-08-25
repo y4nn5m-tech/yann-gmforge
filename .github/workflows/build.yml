@@ -21,13 +21,52 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Python est épinglé lui aussi — et il vient d'ici plutôt que du système :
+      # sur Ubuntu, le Python de la distribution refuse `pip install` (PEP 668,
+      # « externally-managed-environment »).
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
       # Versions épinglées : c'est la moitié de la reproductibilité.
       # L'autre moitié est la police embarquée dans assets/fonts/.
+      #
+      # pandoc vient de son .deb officiel et non d'apt : la version d'apt suit
+      # la distribution, si bien qu'un changement d'image de runner changerait
+      # pandoc sous nos pieds — et pandoc décide de l'arbre HTML, donc de la
+      # pagination.
       - name: Outils
+        env:
+          PANDOC_ATTENDU: "3.1"
         run: |
+          set -euo pipefail
           sudo apt-get update -qq
-          sudo apt-get install -y -qq pandoc=3.1.3* libpango-1.0-0 libpangoft2-1.0-0
+          sudo apt-get install -y -qq libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz0b
+
+          # Le .deb officiel d'abord, apt en repli. On ne devine pas le nom de
+          # l'asset : on le demande à l'API des releases.
+          url=$(curl -fsSL https://api.github.com/repos/jgm/pandoc/releases/tags/3.1.3 \
+                | grep -o 'https://[^"]*amd64\.deb' | head -1 || true)
+          if [ -n "$url" ] && curl -fsSL -o /tmp/pandoc.deb "$url"; then
+            sudo dpkg -i /tmp/pandoc.deb
+          else
+            echo "::warning::.deb pandoc 3.1.3 indisponible — repli sur apt"
+            sudo apt-get install -y -qq pandoc
+          fi
+
           pip install --quiet weasyprint==69.0
+
+          # Garde-fou : pandoc décide de la forme de l'arbre HTML, donc de la
+          # pagination. Une version inattendue doit s'arrêter ici, bruyamment,
+          # et non produire un PDF silencieusement différent.
+          v=$(pandoc --version | head -1 | awk '{print $2}')
+          echo "pandoc $v"
+          case "$v" in
+            ${PANDOC_ATTENDU}.*) : ;;
+            *) echo "::error::pandoc $v au lieu de ${PANDOC_ATTENDU}.x — la pagination va bouger.
+                     Recaler la charte, puis relever PANDOC_ATTENDU."; exit 1 ;;
+          esac
+          python3 -c "import weasyprint; print('weasyprint', weasyprint.__version__)"
 
       - name: Fabriquer
         run: |

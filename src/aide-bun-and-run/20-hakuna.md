@@ -26,13 +26,15 @@ commence pas dans l'action : elle commence dans le bruit et l'attente.
 ### En descendant de voiture
 
 ::: {.say}
-- Gyrophares rouges et bleus balayent la façade. Des rubans de sécurité, des badauds tenus à distance.
-- Un fast-food au style tropical criard : palmiers en plastique, néons verts et jaunes, et **une
-  musique insupportablement joyeuse** qui s'échappe encore de l'intérieur.
-- Le genre d'endroit où tout est censé respirer la détente. Sauf aujourd'hui.
-- Derrière les vitres, on distingue des silhouettes figées, mains levées, visages blêmes.
-- Ça fait presque trois heures. Des collègues en intervention, un journaliste, une ribambelle de
-  témoins.
+- Gyrophares rouges et bleus sur la façade.
+- Rubans de sécurité. Badauds tenus à distance.
+- Un fast-food au style tropical criard.
+- Palmiers en plastique, néons verts et jaunes.
+- Et **une musique insupportablement joyeuse**, encore audible de l'intérieur.
+- Le genre d'endroit censé respirer la détente. Sauf aujourd'hui.
+- Derrière les vitres : des silhouettes figées, mains levées, visages blêmes.
+- Presque trois heures déjà.
+- Des collègues en intervention. Un journaliste. Une ribambelle de témoins.
 :::
 
 ::: {.mj lab="Pourquoi c'est à eux de négocier — la première question que pose une table"}
@@ -92,11 +94,12 @@ lieu de ridicule.
 ### Ce qu'on entend de lui
 
 ::: {.say}
-- Les vitres tremblent sous ses cris. À l'intérieur, onze otages terrifiés.
+- Des vitres qui tremblent sous ses cris. Dedans, onze otages terrifiés.
 - [« Je veux cette merde de **Juicy P Burger** ! Le vrai ! »]{.q}
-- Il répète ses trois exigences en boucle, dans le désordre, avec la même urgence pour chacune.
-- Quand on lui parle enfin, il change de registre d'un coup : poli, presque mondain, comme s'il
-  recevait.
+- Ses trois exigences en boucle. Dans le désordre.
+- La même urgence pour chacune.
+- Dès qu'on lui parle, changement de registre.
+- Poli, presque mondain. En hôte qui reçoit.
 :::
 
 ::: {.jeu lab="S'il se sent ridiculisé"}
@@ -187,11 +190,13 @@ si l'assaut vaut le coup.
 ### Derrière la vitre
 
 ::: {.say}
-- Des silhouettes figées, mains levées. Une file d'attente devenue une file de gens accroupis.
-- Un enfant tient la main de son père. Il ne pleure pas — il regarde, et c'est pire.
-- Une femme âgée, assise sur une banquette en skaï orange, sa canne posée en travers des genoux.
-- Et au fond, écroulé contre le comptoir, **un homme en uniforme de mascotte à moitié retiré**,
-  livide, en sueur. **Carl Cooler.**
+- Des silhouettes figées, mains levées.
+- Une file d'attente devenue une file de gens accroupis.
+- Un enfant, la main dans celle de son père.
+- Pas une larme. Un regard, et c'est pire.
+- Une femme âgée sur une banquette en skaï orange, sa canne en travers des genoux.
+- Au fond, écroulé contre le comptoir : **un uniforme de mascotte à moitié retiré**.
+- Livide, en sueur. **Carl Cooler.**
 :::
 
 ::: {.mj lab="Le point faible de Carter se déclenche ici — et la source ne le signale pas"}
@@ -300,9 +305,9 @@ tienne.
 ### Quand on le récupère
 
 ::: {.say}
-- Il est dans un état lamentable : épuisé, nauséeux, encore sous l'emprise de substances.
-- Et **bourré jusqu'à l'écœurement de Hakuna Burgers** — quatre heures de dégustation forcée.
-- Il s'excuse avant même qu'on lui demande quoi que ce soit.
+- Un état lamentable. Épuisé, nauséeux, encore sous l'emprise de substances.
+- Et **bourré jusqu'à l'écœurement de Hakuna Burgers**. Quatre heures de dégustation forcée.
+- Des excuses avant la moindre question.
 - [« J'ai merdé. J'ai pas eu le temps de vous prévenir. »]{.q}
 :::
 

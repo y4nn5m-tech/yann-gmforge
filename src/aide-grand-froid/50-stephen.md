@@ -48,11 +48,11 @@ d'Intelligence** pour trouver un abri efficace — subit **4 dégâts**. Une seu
 ### En arrivant
 
 ::: {.say}
-- Mardi, fin d'après-midi. La ligne est arrêtée pour « incident de personne ». Les panneaux
-  clignotent, le quai est bouclé.
-- Il est parti de son travail il y a quelques dizaines de minutes. **On ne l'a pas raté de beaucoup.**
-- Un cordon de sécurité, et une cellule psychologique installée pour les témoins.
-- L'odeur du métro et du désinfectant. Des couvertures de survie sur les épaules de gens debout.
+- **Mardi, fin d'après-midi.** Ligne arrêtée pour « incident de personne ».
+- Panneaux clignotants, quai bouclé.
+- Parti de son travail il y a quelques dizaines de minutes. **On ne l'a pas raté de beaucoup.**
+- Un cordon de sécurité. Une cellule psychologique pour les témoins.
+- Odeur de métro et de désinfectant. Des couvertures de survie sur des épaules debout.
 :::
 
 ::: {.mj lab="Le plateau"}
@@ -71,9 +71,9 @@ Bagou)*. Les témoins, eux, sont sonnés et répètent les mêmes trois phrases 
 ### L'autopsie, à la morgue
 
 ::: {.say}
-- Les coups ont été portés par des armes tranchantes de grande taille, **comme des griffes
-  géantes** — ou une arme imitant des griffes.
-- Et le corps est gelé, comme s'il avait été mis dans un congélateur.
+- Des coups portés par des armes tranchantes de grande taille.
+- **Comme des griffes géantes.** Ou une arme qui les imite.
+- Et un corps gelé, comme sorti d'un congélateur.
 :::
 
 ::: {.mj lab="La fenêtre se ferme"}

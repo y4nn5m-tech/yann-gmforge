@@ -22,20 +22,21 @@ les granges le long de la route.
 ### Les fermiers, le long de la route
 
 ::: {.say}
-- On travaille aux champs de l'aube à la nuit ; tout le monde a vu passer quelqu'un.
-- *Test de Bagou.* [« Un homme voûté, mal rasé, sale. Il marchait au petit matin. Il tenait une espèce
-  de caisse contre son ventre, comme un enfant. »]{.q}
+- Aux champs de l'aube à la nuit : tout le monde a vu passer quelqu'un.
+- *Test de Bagou.*
+- [« Un homme voûté, mal rasé, sale. Il marchait au petit matin. »]{.q}
+- [« Il tenait une espèce de caisse contre son ventre. Comme un enfant. »]{.q}
 - [« Je lui ai dit bonjour. Il n'a pas tourné la tête. »]{.q}
 :::
 
 ### Quand ils le rejoignent
 
 ::: {.say}
-- Un homme de taille moyenne, les joues creusées, les cheveux hirsutes, les vêtements crasseux et
-  puants. Il pue la terre et la sueur froide.
-- Il avance d'un pas régulier qui ne ralentit pas, ne s'accélère pas.
-- **Il ne montre aucun signe de reconnaissance.** Ni pour un nom, ni pour un visage.
-- Il ne parle pas. Il ne s'arrête pas.
+- Taille moyenne. Les joues creusées, les cheveux hirsutes.
+- Vêtements crasseux et puants. Une odeur de terre et de sueur froide.
+- Un pas régulier. Ni plus lent, ni plus vif.
+- **Aucun signe de reconnaissance.** Ni pour un nom, ni pour un visage.
+- Pas un mot. Pas un arrêt.
 :::
 
 ::: {.jeu lab="Test de Santé mentale — Wolfgang, François, Eugénie"}
@@ -73,9 +74,11 @@ heureux**.
 ### Les vignes
 
 ::: {.say}
-- On est en juin, et les grappes sont **mûres**. Grosses, lourdes, presque le double de la taille
-  normale, prêtes à récolter trois mois trop tôt.
-- Le soleil chauffe, les insectes bourdonnent, et l'air a une douceur écœurante de moût.
+- Juin, et des grappes **mûres**.
+- Grosses, lourdes. Presque le double de la taille normale.
+- Bonnes à récolter, trois mois trop tôt.
+- Soleil de plomb. Bourdonnement d'insectes.
+- Une douceur écœurante de moût dans l'air.
 - Au milieu du coteau, un puits de pierre.
 :::
 
@@ -87,13 +90,13 @@ anormalement gros. Quasiment tous les raisins en contiennent. **Test de Santé m
 ### La ferme
 
 ::: {.say}
-- **Ernst Loess**, la quarantaine, trapu, les mains calleuses de celui qui a travaillé la terre toute
-  sa vie. Grave et ennuyeux comme un sermon, il finit presque chaque phrase par une citation.
-- [« Cette récolte est le fruit de ma piété sans faille et de mes prières. Loué soit le Seigneur. »]{.q}
-- **Maria**, sa femme, grande et mince, le regard vide. Elle répond à chaque question avec **quelques
-  secondes de retard**.
-- **Félix**, seize ans, qui sent parfaitement que quelque chose ne tourne pas rond — et dont le père
-  n'écoute pas un mot.
+- **Ernst Loess**, la quarantaine. Trapu, les mains calleuses.
+- Grave et ennuyeux comme un sermon. Une citation à la fin de chaque phrase.
+- [« Cette récolte est le fruit de ma piété sans faille. Loué soit le Seigneur. »]{.q}
+- **Maria**, sa femme. Grande, mince, le regard vide.
+- Chaque réponse avec **quelques secondes de retard**.
+- **Félix**, seize ans. Assez lucide pour sentir que rien ne tourne rond.
+- Et pas un mot écouté par son père.
 :::
 
 ::: {.dire lab="Ce que Félix ou un voisin finit par lâcher"}

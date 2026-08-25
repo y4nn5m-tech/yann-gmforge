@@ -24,8 +24,8 @@ depuis ce matin.
 ### En arrivant sur l'avenue
 
 ::: {.say}
-- Une grande maison en briques, un jardin boisé autour. La neige étouffe tous les sons et recouvre
-  tout le paysage.
+- Une grande maison en briques. Un jardin boisé autour.
+- La neige étouffe tous les sons et recouvre le paysage.
 - La grille de la propriété est ouverte. Personne ne l'a refermée.
 :::
 
@@ -41,13 +41,15 @@ parade aussi.*
 ### La porte, puis le hall
 
 ::: {.say}
-- Le majordome ouvre avant qu'on ait sonné deux fois. Il a déjà refoulé des journalistes ce matin.
-- **John** : soixante ans, veste noire boutonnée jusqu'au col, gants blancs qu'il n'a pas retirés. Le
-  visage fermé d'un homme qui tient la maison debout parce que plus personne d'autre ne le fait.
+- Le majordome ouvre avant qu'on ait sonné deux fois.
+- Il a déjà refoulé des journalistes ce matin.
+- **John**, soixante ans. Veste noire boutonnée jusqu'au col.
+- Des gants blancs qu'il n'a pas retirés.
+- Le visage fermé d'un homme qui tient la maison debout. Parce que plus personne ne le fait.
 - [« Je déteste les charognards qui viennent se repaître du malheur des puissants. »]{.q}
-- Derrière lui, une maison chaude, immense et complètement silencieuse.
-- Plus loin, la piscine intérieure, vidée par les pompiers — ils ont mis deux heures à extraire le
-  corps de la glace.
+- Derrière lui : une maison chaude, immense, complètement silencieuse.
+- Plus loin, la piscine intérieure, vidée par les pompiers.
+- Deux heures pour extraire le corps de la glace.
 :::
 
 ::: {.mj lab="John, et ce qu'il laisse voir"}

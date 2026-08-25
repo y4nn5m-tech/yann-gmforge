@@ -24,12 +24,12 @@ la plupart du temps avec la police ». **C'est le croisement le plus important d
 ### Davis, au commissariat
 
 ::: {.say}
-- Un bureau surchargé, trois affaires d'accidents mortels ouvertes sur la même table.
-- Davis : la cinquantaine lourde, chemise froissée, gobelet de café froid. Il parle sans lever les
-  yeux de ses dossiers, et il a la voix de quelqu'un qui n'a dit non à personne aujourd'hui.
+- Un bureau surchargé. Trois affaires d'accidents mortels sur la même table.
+- **Davis** : la cinquantaine lourde, chemise froissée, gobelet de café froid.
+- Il parle sans lever les yeux. La voix de quelqu'un qui n'a dit non à personne aujourd'hui.
 - [« Vous savez combien de morts j'ai eu ce week-end à cause du froid ? Alors non. »]{.q}
-- [« Et de toute façon on m'a demandé de boucler. Une demande qui vient de très haut. Ne me demandez
-  pas d'où. »]{.q}
+- [« Et de toute façon on m'a demandé de boucler. Une demande qui vient de très haut. »]{.q}
+- [« Ne me demandez pas d'où. »]{.q}
 :::
 
 ::: {.mj lab="Ce qui déclenche la suite"}
@@ -42,9 +42,9 @@ Manuel : un flic lui transmet un mot.
 ### La rencontre — un centre de réchauffement, le soir
 
 ::: {.say}
-- Des lits de camp alignés, des gobelets de café, une chaleur qui sent le linge humide.
-- Un homme d'une cinquantaine d'années, d'origine amérindienne, assis au bout d'une table. Il ne se
-  lève pas.
+- Des lits de camp alignés, des gobelets de café. Une chaleur à odeur de linge humide.
+- Au bout d'une table, un homme d'une cinquantaine d'années, d'origine amérindienne.
+- Toujours assis.
 - [« Vous avez posé des questions qu'on vous a demandé d'arrêter de poser. »]{.q}
 - [« Racontez-moi ce que vous avez vu. »]{.q}
 :::
@@ -100,43 +100,42 @@ Tulo dit les mêmes choses, en moins de mots et avec plus de peur.
 ### Le nom, et la faim
 
 ::: {.say}
-- *Wiindigoo* chez les Ojibwés, *witiko* chez les Cris. Les Anishinaabe le placent au cœur de
-  l'hiver, là où la famine commence.
-- C'est l'esprit de la faim — et du tabou qu'on ne franchit pas : manger de l'homme.
-- [« Plus il dévore, plus il grossit. Sa faim grandit avec lui. Il ne peut donc jamais être
-  rassasié. »]{.q}
+- *Wiindigoo* chez les Ojibwés, *witiko* chez les Cris.
+- Chez les Anishinaabe, au cœur de l'hiver. Là où la famine commence.
+- L'esprit de la faim. Et du tabou qu'on ne franchit pas : manger de l'homme.
+- [« Plus il dévore, plus il grossit. Sa faim grandit avec lui. »]{.q}
+- [« Jamais rassasié, donc. »]{.q}
 :::
 
 ### Le corps
 
 ::: {.say}
-- Les descriptions ojibwées le donnent géant et décharné : la peau grise tendue sur les os.
-- Les yeux enfoncés dans des orbites sanglantes, les lèvres en lambeaux.
-- Une odeur de pourriture et de mort qui le précède.
-- Le ventre distendu que Monsieur Moore a vu est de la même famille : un corps qui enfle sans se
-  nourrir.
+- Les descriptions ojibwées : géant et décharné. La peau grise tendue sur les os.
+- Les yeux enfoncés dans des orbites sanglantes. Les lèvres en lambeaux.
+- Une odeur de pourriture et de mort, qui le précède.
+- Le ventre distendu vu par Monsieur Moore : même famille.
+- Un corps qui enfle sans se nourrir.
 :::
 
 ### Comment on le tue
 
 ::: {.say}
-- Dans plusieurs versions, ce qu'il a au milieu de la poitrine n'est plus un cœur : c'est un bloc de
-  glace.
-- [« On ne le tue pas. On fait fondre son cœur. Puis on brûle le corps et on disperse les cendres,
-  pour qu'il ne se relève pas. »]{.q}
+- Dans plusieurs versions, au milieu de la poitrine : plus un cœur, un bloc de glace.
+- [« On ne le tue pas. On fait fondre son cœur. »]{.q}
+- [« Puis on brûle le corps et on disperse les cendres, pour qu'il ne se relève pas. »]{.q}
 :::
 
 ### Ce que Rosemary ajoute d'elle-même, et qui est vrai
 
 ::: {.say}
-- Les ethnologues ont décrit un « syndrome du wendigo » : des gens persuadés de se changer en l'un
-  d'eux.
-- Un chaman oji-cri, **Jack Fiddler**, s'était fait une réputation de tueur de wendigos. Lui et son
-  frère ont été jugés par la justice canadienne en 1907 pour avoir tué une femme qu'ils disaient en
-  train de se transformer.
-- Côté fiction, le texte de référence est la nouvelle d'Algernon Blackwood, *The Wendigo* (1910) :
-  l'odeur, les pas dans la neige qui s'élargissent, l'homme emporté par le vent — « mes pieds, mes
-  pieds de feu ! »
+- Un « syndrome du wendigo » décrit par les ethnologues.
+- Des gens persuadés de se changer en l'un d'eux.
+- **Jack Fiddler**, chaman oji-cri, réputé tueur de wendigos.
+- Lui et son frère, jugés par la justice canadienne en 1907.
+- Le motif : une femme tuée, qu'ils disaient en train de se transformer.
+- Côté fiction, le texte de référence : *The Wendigo*, d'Algernon Blackwood (1910).
+- L'odeur. Les pas dans la neige qui s'élargissent. L'homme emporté par le vent.
+- [« Mes pieds, mes pieds de feu ! »]{.q}
 :::
 
 ::: {.mj lab="Ce qu'elle n'obtient pas"}

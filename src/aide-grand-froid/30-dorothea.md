@@ -23,11 +23,10 @@ par le décor, pas par une phrase de MJ.
 ### Son bureau — l'exact contraire de celui de Walter
 
 ::: {.say}
-- On croirait qu'une tempête est passée. C'est pourtant son état habituel.
-- Des feuilles par terre, des affiches de tableaux de données, des posters remplis de courbes sur les
-  murs.
-- Pas d'ordinateur sur le bureau — elle l'avait pris avec elle le soir de l'accident.
-- Ses collègues la disent bordélique et brillante, et ils le disent au présent.
+- L'air d'une tempête passée. Son état habituel, pourtant.
+- Des feuilles par terre. Des affiches de tableaux de données, des posters de courbes aux murs.
+- Pas d'ordinateur sur le bureau : emporté le soir de l'accident.
+- Bordélique et brillante, disent ses collègues. Au présent.
 :::
 
 ::: {.mj lab="Ce que ses documents relient"}
@@ -49,10 +48,10 @@ Manuel et son atout *Réseau*.\
 
 ::: {.say}
 - Une déneigeuse à l'arrêt, garée en travers, le pare-chocs enfoncé.
-- La neige a été balayée puis retassée. Il ne reste rien à voir.
+- La neige balayée puis retassée. Plus rien à voir.
 - [« J'étais dans mon véhicule. J'ai vu une voiture foncer droit sur moi, je n'ai rien pu faire. »]{.q}
-- [« Un détail bizarre : la conductrice avait l'air effrayée, et elle ne regardait pas la route. Elle
-  regardait dans le rétroviseur intérieur. »]{.q}
+- [« Un détail bizarre : elle avait l'air effrayée, et elle ne regardait pas la route. »]{.q}
+- [« Elle regardait dans le rétroviseur intérieur. »]{.q}
 :::
 
 ::: {.mj lab="Les deux culs-de-sac — cinq minutes chacun"}
@@ -86,10 +85,10 @@ Jouer le deuil discret, pas le mur : ils cèdent vite, et c'est plus triste ains
 
 ::: {.say}
 - 1330 W Monroe Street, appartement 12, rez-de-chaussée.
-- Un appartement chic, décoré avec goût, très chaud — le chauffage à fond.
-- Un couple de soixantenaires. Elle a les yeux rouges, il fait le service. Personne ne pleure devant
-  eux.
-- Dans l'entrée, un carton d'affaires personnelles que la police a rapporté, encore fermé.
+- Un appartement chic, décoré avec goût. Très chaud, chauffage à fond.
+- Un couple de soixantenaires. Elle, les yeux rouges ; lui, au service.
+- Aucune larme devant eux.
+- Dans l'entrée, un carton d'affaires personnelles rapporté par la police. Encore fermé.
 - Des photos d'elle enfant sur le buffet. **Aucune d'elle adulte.**
 :::
 
@@ -111,10 +110,10 @@ mauvais prénom, personne d'autre.
 ### L'ordinateur, dans le carton *(test de Bagou — il n'y a pas besoin d'insister)*
 
 ::: {.say}
-- Fichiers récents : la bourse s'affole avec le froid, les investissements deviennent impossibles,
-  elle croulait sous le travail.
-- Et une messagerie instantanée restée ouverte. La dernière personne contactée, **dimanche à
-  23 h 00**, est une dénommée **« Tahlia »**.
+- Fichiers récents : une bourse qui s'affole avec le froid.
+- Des investissements devenus impossibles. Une charge de travail écrasante.
+- Et une messagerie instantanée restée ouverte.
+- Dernier contact, **dimanche à 23 h 00** : une dénommée **« Tahlia »**.
 :::
 
 ::: {.dire lab="La conversation, à lire à voix haute — c'est un couple"}

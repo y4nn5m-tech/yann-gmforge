@@ -16,50 +16,47 @@ Ne pas raconter l'uchronie en détail. Deux phrases suffisent, et on passe.
 ### Le monde, en deux phrases
 
 ::: {.say}
-- Nous sommes dans les **années 80**, sur la côte ouest des États-Unis. Mais pas tout à fait les
-  vôtres.
-- En 1945, la bombe n'est jamais tombée. L'Amérique et l'URSS ont pactisé au lieu de se regarder en
-  chiens de faïence — **pas de guerre froide, pas de rideau de fer**.
-- Les droits civiques ont gagné une génération d'avance, les ingénieurs russes ont injecté leur génie
-  dans le rêve californien, et le monde est allé plus vite.
-- Plus juste, peut-être. **Sûrement plus instable.**
+- Les **années 80**, côte ouest des États-Unis. Mais pas tout à fait les vôtres.
+- En 1945, aucune bombe tombée.
+- L'Amérique et l'URSS en pacte. **Pas de guerre froide, pas de rideau de fer.**
+- Les droits civiques avec une génération d'avance.
+- Le génie des ingénieurs russes injecté dans le rêve californien.
+- Un monde allé plus vite. Plus juste, peut-être. **Sûrement plus instable.**
 :::
 
 ### La ville
 
 ::: {.say}
-- **Fevertown.** Une mégacité de bord de mer, baignée de soleil, qui déborde de couleurs criardes et
-  de palmiers indolents.
-- Des voitures flashy filent le long des avenues bordées de néons. La ville vibre au rythme du disco,
-  de la funk et des talk-shows qui tournent en boucle sur les ondes.
-- **Ici, tout est exagéré, et personne ne fait les choses à moitié.**
-- Derrière les buildings, le crack a rongé les quartiers. Les gangs y ont imposé leur loi. Chaque
-  quartier a son identité, ses réseaux et ses secrets.
+- **Fevertown.** Mégacité de bord de mer, baignée de soleil.
+- Couleurs criardes, palmiers indolents, néons le long des avenues.
+- Disco, funk, talk-shows en boucle sur les ondes.
+- **Tout est exagéré. Rien à moitié.**
+- Derrière les buildings, des quartiers rongés par le crack. Et des gangs pour y faire la loi.
+- Chaque quartier son identité, ses réseaux, ses secrets.
 :::
 
 ### Les caméras, et la génération d'avant
 
 ::: {.say}
-- Dans les années 60, les médias ont flairé le filon. La chaîne **N64 News** a installé des objectifs
-  sur les tableaux de bord des voitures de patrouille.
-- Les poursuites passaient au ralenti, avec des jingles sur les descentes de flics. **Le crime est
-  devenu du divertissement, et les commissariats des studios.**
-- De ce chaos en prime time est née une brigade pas comme les autres : la **Génération Miracle**.
-  Flamboyants, borderline, presque irréels. Ils tiraient d'abord et posaient les questions ensuite.
-- Les ados découpaient leurs photos dans les magazines. Le plus grand d'entre eux s'appelait
-  **Samuel Midnight**. Son binôme s'appelait **Logan Calagan** — et c'est votre commissaire.
+- Années 60 : les médias flairent le filon.
+- **N64 News** sur les tableaux de bord des voitures de patrouille.
+- Poursuites au ralenti, jingles sur les descentes de flics.
+- **Le crime en divertissement. Les commissariats en studios.**
+- De ce chaos en prime time, une brigade à part : la **Génération Miracle**.
+- Flamboyants, borderline, presque irréels. Le tir d'abord.
+- Le plus grand d'entre eux : **Samuel Midnight**.
+- Son binôme, **Logan Calagan**. Votre commissaire.
 :::
 
 ### Aujourd'hui
 
 ::: {.say}
-- Presque une décennie a passé. Le crack a quasiment disparu des rues, les vieux gangs ne sont plus
-  que l'ombre d'eux-mêmes.
-- Les caméras de N64 sont désormais encadrées par la loi. **Elles tournent toujours.** Elles cherchent
-  juste de nouveaux formats.
-- Vous, vous avez grandi devant ces images. Vous avez une idée fixe : **faire mieux**. Mieux que vos
-  idoles télévisées, mieux que les flics parfaits d'avant.
-- Pour l'instant, vous faites des patrouilles ingrates dans un district qui s'appelle **Westwood**.
+- Presque une décennie de plus. Les vieux gangs, une ombre.
+- Les caméras de N64 encadrées par la loi. **Toujours en marche.**
+- En quête de nouveaux formats.
+- Vous, grandis devant ces images. Une idée fixe : **faire mieux**.
+- Mieux que vos idoles télévisées. Mieux que les flics parfaits d'avant.
+- Pour l'instant : patrouilles ingrates, dans un district nommé **Westwood**.
 :::
 
 ::: {.mj lab="Ce que cette page installe, et qui servira toute la partie"}
@@ -95,33 +92,35 @@ Installer un quartier, pas un décor. Ils patrouillent depuis une semaine : ils 
 ### Le plan large
 
 ::: {.say}
-- **Westwood**, donc. Il est **quinze heures**, le ciel est bleu, et le soleil cogne sur les
-  immeubles gris.
-- Voilà une semaine que votre équipe ronge le bitume d'un district autrement plus brutal que la
-  tranquille école de police.
+- **Westwood**, donc. **Quinze heures.**
+- Ciel bleu, soleil de plomb sur les immeubles gris.
+- Une semaine à ronger le bitume.
+- Un district autrement plus brutal que la tranquille école de police.
 :::
 
 ### La rue
 
 ::: {.say}
-- Les façades croulent sous les affiches déchirées. Les lampadaires clignotent au ralenti. Les
-  ruelles sentent la pisse.
-- Le béton brûle sous le soleil, et les secrets s'étalent sur les murs en graffitis crasseux :
-  [« Marcelo est une poucave. »]{.q}
-- Des supérettes ouvertes vingt-quatre heures sur vingt-quatre, des gangs de quartier, des immeubles
-  saturés d'habitants.
-- Ici, rien n'est gratuit. Tout a un prix. Et il y a toujours du boulot.
+- Des façades croulantes sous les affiches déchirées.
+- Des lampadaires au ralenti. Des ruelles à odeur de pisse.
+- Du béton brûlant.
+- Et les secrets étalés sur les murs, en graffitis crasseux :
+- [« Marcelo est une poucave. »]{.q}
+- Des supérettes ouvertes vingt-quatre heures sur vingt-quatre.
+- Des gangs de quartier. Des immeubles saturés d'habitants.
+- Rien de gratuit ici. Un prix à tout.
+- Et du boulot, toujours.
 :::
 
 ### À portée de main
 
 ::: {.say}
-- Devant le **Chibrolino**, un food truck dégage une odeur mêlée de steak grillé et de tabac froid.
-- Vous êtes garés là, moteur au ralenti, à tuer le temps.
-- La radio grésille les infos locales d'une voix monotone : les Tigers de Westwood affrontent les
-  Rockets de North Hills pour une place en finale…
+- Devant le **Chibrolino**, un food truck. Steak grillé et tabac froid.
+- Vous, garés là. Moteur au ralenti, à tuer le temps.
+- La radio grésille les infos locales, d'une voix monotone.
+- Les Tigers de Westwood contre les Rockets de North Hills, pour une place en finale.
 - [« Aussi, le Zoo de Fevertown accueille ce soir la deuxième édition de la **Zoo Night** — animaux
-  nocturnes, nourrissage en milieu naturel et lâcher de lanternes lumineuses au-dessus du parc… »]{.q}
+  nocturnes, nourrissage en milieu naturel, lâcher de lanternes au-dessus du parc… »]{.q}
 :::
 
 ::: {.mj lab="La Zoo Night — un plant, à ne surtout pas appuyer"}
@@ -146,28 +145,33 @@ pas pour eux.** Et tu ne dis rien de leurs atouts : ça, c'est pour la distribut
 :::
 
 ::: {.say}
-- **James Carter**, dit *Le Bleu*. Sorti de l'école, jamais patrouillé, il applique le protocole à la
-  lettre — les six étapes, dans l'ordre. *Aujourd'hui il veut prouver que la méthode marche.*
-- **Mei Davis**, dite *Mayday*. Montée du bitume, binôme de Carter, elle connaît tous les fast-foods
-  de la ville et le personnel qui va avec. *Aujourd'hui elle veut que ça aille vite.*
-- **Franck Rauston**, dit *Le Français*. Monté du bitume lui aussi, il connaît Westwood mieux que le
-  cadastre. *Aujourd'hui il veut récupérer son arme de service.*
-- **Darell Kenneth**, binôme de Rauston. Sorti de l'école, une carrure de déménageur et un carnet
-  d'adresses qui couvre la moitié du district. *Aujourd'hui il veut que personne ne soit blessé.*
-- **Joan Crow**, dite *Moondance*. Sans binôme, par choix. Elle voit les choses avant les autres et le
-  dit rarement. *Aujourd'hui elle veut comprendre pourquoi leur indic a disparu.*
+- **James Carter**, dit *Le Bleu*. Sorti de l'école, jamais patrouillé.
+- Le protocole à la lettre : les six étapes, dans l'ordre.
+- *Aujourd'hui : prouver que la méthode marche.*
+- **Mei Davis**, dite *Mayday*. Montée du bitume, binôme de Carter.
+- Tous les fast-foods de la ville, et le personnel qui va avec.
+- *Aujourd'hui : que ça aille vite.*
+- **Franck Rauston**, dit *Le Français*. Monté du bitume lui aussi.
+- Westwood mieux que le cadastre.
+- *Aujourd'hui : récupérer son arme de service.*
+- **Darell Kenneth**, binôme de Rauston. Sorti de l'école.
+- Une carrure de déménageur, un carnet d'adresses sur la moitié du district.
+- *Aujourd'hui : personne de blessé.*
+- **Joan Crow**, dite *Moondance*. Sans binôme, par choix.
+- Les choses vues avant les autres, et rarement dites.
+- *Aujourd'hui : comprendre pourquoi leur indic a disparu.*
 :::
 
 ### Ce qu'ils savent, et c'est tout ce qu'ils savent
 
 ::: {.say}
-- Le commissaire **Logan Calagan** leur a confié leur première vraie enquête : faire tomber un acteur
-  clé du trafic de cocaïne des **Los Hijos**.
-- Leur piste, c'était **Carl Cooler**, un indic de terrain au profil idéal.
-- Il savait tout, ou presque. Peut-être la seule piste sérieuse qu'ils aient.
+- Du commissaire **Logan Calagan**, leur première vraie enquête.
+- Faire tomber un acteur clé du trafic de cocaïne des **Los Hijos**.
+- Leur piste : **Carl Cooler**. Un indic de terrain au profil idéal.
+- Tout, ou presque, dans sa tête. Peut-être leur seule piste sérieuse.
 - **Depuis vingt-quatre heures, Carl Cooler a disparu.**
-- Ce dossier pourrait être celui qui les sort enfin des caves administratives et des rapports
-  estampillés « classé sans suite ».
+- De quoi les sortir des caves administratives.
+- Et des rapports estampillés « classé sans suite ».
 :::
 
 ::: {.mj lab="À dire à la distribution des fiches, pas ici"}
@@ -199,15 +203,16 @@ montrer qu'à Fevertown tout dégénère en trente secondes. Ils vont y arriver 
 ### L'abribus
 
 ::: {.say}
-- Une dizaine de passants se sont tassés sous l'abri métallique d'un arrêt de bus. Regards fuyants,
-  malaise palpable.
-- Devant eux, jambes écartées, braguette ouverte, un homme aviné soulage sa vessie contre la vitre
-  ruisselante.
-- La cinquantaine, il titube, bouteille vide à la main. Ses cheveux gras collent à son crâne, son jean
-  élimé est trempé d'urine. **Il fait son show.**
-- Les passants murmurent. Certains ricanent. D'autres détournent les yeux.
-- Il vous toise à moitié, toujours en train de pisser : [« Quoi ? Vous avez jamais vu un homme faire
-  ses besoins ? Foutez-moi la paix ! »]{.q}
+- Une dizaine de passants tassés sous l'abri métallique d'un arrêt de bus.
+- Regards fuyants. Malaise palpable.
+- Devant eux, jambes écartées, braguette ouverte : un homme aviné.
+- Sa vessie contre la vitre ruisselante.
+- La cinquantaine, titubant, bouteille vide à la main.
+- Cheveux gras collés au crâne, jean élimé trempé d'urine.
+- **En plein show.**
+- Des murmures. Quelques ricanements. Des yeux détournés.
+- Un regard vers vous, à moitié, sans s'interrompre :
+- [« Quoi ? Vous avez jamais vu un homme faire ses besoins ? Foutez-moi la paix ! »]{.q}
 :::
 
 ::: {.jeu lab="Trois façons, et la source les chiffre par leurs conséquences"}
@@ -251,12 +256,12 @@ y est, hurlé.
 ### Sur le trottoir
 
 ::: {.say}
-- Un mouvement attire l'attention. Un jeune, blouson trop grand, capuche rabattue, bombe de peinture à
-  la main.
-- S'ils sont vigilants, il tague un mur voisin. **S'ils sont occupés avec Eddie, c'est leur voiture qui
-  trinque.**
+- Un mouvement, sur le côté.
+- Un jeune. Blouson trop grand, capuche rabattue, bombe de peinture à la main.
+- Vigilants, ils le voient taguer un mur voisin.
+- **Occupés avec Eddie : c'est leur voiture qui trinque.**
 - Un sifflement d'aérosol. Un message clair sur la portière : **« FUCK COPS »**.
-- À la vue des flics, le jeune lâche un [« Merde ! »]{.q} et détale entre les voitures.
+- À la vue des flics, un [« Merde ! »]{.q} et une cavale entre les voitures.
 :::
 
 ::: {.jeu lab="La course-poursuite — séquence cumulative"}
@@ -281,9 +286,10 @@ Jefferson Avenue, frontière Westwood / Feverly Hills !** »]{.q}
 ### Le trajet
 
 ::: {.say}
-- Vous foncez dans les rues de Westwood. Les passants s'écartent. Les néons des supérettes défilent.
-  Le moteur hurle.
-- Chaque carrefour vous rapproche du Hakuna Burger, et de la merde monumentale qui vous attend.
+- Plein gaz dans les rues de Westwood.
+- Des passants qui s'écartent. Des néons de supérettes qui défilent. Un moteur qui hurle.
+- À chaque carrefour, le Hakuna Burger plus proche.
+- Et la merde monumentale qui attend.
 :::
 
 ::: {.obj lab="La question, puis se taire"}

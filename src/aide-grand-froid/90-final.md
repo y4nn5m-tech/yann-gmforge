@@ -34,24 +34,25 @@ villa : un PJ peut arriver au tir final avec un **double** Désavantage.
 ### Au loin
 
 ::: {.say}
-- Le lac Michigan est en grande partie gelé. On ne voit pas où il s'arrête.
-- Près des berges, la glace s'est morcelée en des milliers de **pointes bleutées**.
-- Des centaines de stalactites accrochées au phare, comme une robe de dentelle blanche acérée.
+- Le lac Michigan gelé jusqu'à l'horizon.
+- Près des berges, la glace morcelée en des milliers de **pointes bleutées**.
+- Des centaines de stalactites au phare. Une robe de dentelle blanche, acérée.
 :::
 
 ### Sur la glace
 
 ::: {.say}
-- Deux navires pris dans la glace, gîtés, immobiles. Le métal craque tout seul dans le froid.
-- Aucun bruit d'oiseau. Aucun bruit de ville. On entend sa propre respiration.
+- Deux navires pris dans la glace. Gîtés, immobiles.
+- Le métal qui craque tout seul dans le froid.
+- Pas un oiseau. Pas un bruit de ville. Sa propre respiration, et rien d'autre.
 :::
 
 ### Sur les ponts, pour qui regarde
 
 ::: {.say}
-- Les coques sont prises jusqu'aux hublots : on monte à bord sans échelle.
-- Du matériel abandonné sous une couche de givre. Des **fusées éclairantes** dans un coffre de
-  secours.
+- Des coques prises jusqu'aux hublots. À bord sans échelle.
+- Du matériel abandonné sous une couche de givre.
+- Des **fusées éclairantes** dans un coffre de secours.
 - Des **réservoirs** le long du bastingage.
 :::
 
@@ -59,9 +60,9 @@ villa : un PJ peut arriver au tir final avec un **double** Désavantage.
 
 ::: {.say}
 - Une femme seule, à genoux au bord de la glace, un appareil photo devant le visage.
-- Elle photographie les navires piégés. Elle ne bouge plus. Elle ne bouge plus du tout.
-- À une dizaine de mètres d'elle, un vieil homme en noir marche vers elle, sans canne, avec une
-  aisance étonnante.
+- Les navires piégés dans son viseur. Plus un geste. Plus rien.
+- À dix mètres, un vieil homme en noir. Il marche vers elle.
+- Sans canne, avec une aisance étonnante.
 :::
 
 ::: {.jeu lab="Ce qui le retient — un pas par Moment, et il lui en faut trois"}
@@ -123,16 +124,17 @@ devient un acte volontaire.
 
 ::: {.say}
 - Seulement **Terry Campbell**, le père d'Alex. Un vieil homme aveugle en manteau noir.
-- Il se déplace avec une aisance étonnante, et il a une force surhumaine.
-- Derrière les lunettes noires, ses yeux rouges trahissent sa possession.
+- Une aisance étonnante. Et une force surhumaine.
+- Derrière les lunettes noires, des yeux rouges. La possession.
 :::
 
 ### Avec un filtre — un miroir, de l'eau, un objectif
 
 ::: {.say}
-- Il semble mesurer deux mètres, et son ventre est horriblement distendu.
-- Des scarifications parcourent son corps. Son visage est un crâne recouvert de peau, sans chair.
-- Ses yeux rougeoient. Et au niveau du torse, **un cœur de glace palpite**.
+- Deux mètres, semble-t-il. Le ventre horriblement distendu.
+- Des scarifications sur tout le corps.
+- Un visage de crâne recouvert de peau, sans chair. Des yeux rougeoyants.
+- Et au torse, **un cœur de glace qui palpite**.
 :::
 
 ::: {.jeu lab="La règle du filtre — deux effets, pas un de plus (A5)"}

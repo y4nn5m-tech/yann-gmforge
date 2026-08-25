@@ -19,16 +19,16 @@ deux bouts de papier.
 ### En entrant
 
 ::: {.say}
-- Quelqu'un d'ordonné. Rien ne traîne, rien n'est de travers.
-- Les diplômes fièrement encadrés au mur, dorés : école de commerce, école de gestion.
-- Un grand bureau en ébène — trop grand pour le poste, exactement à la mesure de ce qu'il en pensait.
-- Le fauteuil est encore reculé, comme s'il allait revenir.
+- Quelqu'un d'ordonné. Rien qui traîne, rien de travers.
+- Des diplômes encadrés au mur, dorés : école de commerce, école de gestion.
+- Un grand bureau en ébène. Trop grand pour le poste — à la mesure de ce qu'il en pensait.
+- Le fauteuil encore reculé. Comme avant un retour.
 :::
 
 ### À portée de main
 
 ::: {.say}
-- Des dossiers alignés. Il gérait des dizaines de personnes ; il n'en supervisait vraiment aucune.
+- Des dossiers alignés. Des dizaines de personnes gérées, aucune vraiment supervisée.
 - Une pile de justificatifs de notes de frais, à plat, la plus récente sur le dessus.
 :::
 
@@ -51,8 +51,8 @@ laisser tomber tout seul.
 ### Le plateau, en repartant
 
 ::: {.say}
-- Les collègues ignorent que Walter est mort. Personne ne parle des trois morts.
-- Mais quelqu'un chuchote, et un PJ attentif capte la rumeur *(Sauvegarde de Sagesse)* :
+- Les collègues ignorent la mort de Walter. Aucun mot sur les trois morts.
+- Mais un chuchotement, capté par un PJ attentif *(Sauvegarde de Sagesse)* :
 - [« Il paraît qu'il y en a eu deux autres ce week-end. »]{.q}
 :::
 
@@ -80,10 +80,7 @@ Sans jet, sans qu'on l'ait cherchée — elle passe dans le couloir. **C'est le 
 ::: {.mj lab="Comment il a été tué"}
 **Samedi 26, vingt heures.** Il rentre d'un centre commercial et monte chez lui. Terry fait
 dysfonctionner le système électrique par le gel, force les portes de la cabine, et l'absorbe.
-**Walter a vu le Wendigo dans le miroir.** Il est reparti sans être inquiété.\
-[*Adresse remontée : la source le loge au 4540 S Union Avenue, loin au sud. Un haut manager de la
-Harold Company habite à deux rues de sa tour, dans un immeuble avec gardien — et ce gardien change la
-scène.*]{.small}
+**Walter a vu le Wendigo dans le miroir.** Il est reparti sans être inquiété.
 :::
 
 ::: {.obj lab="Objectif"}
@@ -94,28 +91,26 @@ ouvre la porte ; c'est la bande vidéo qui fait le reste.
 ### Deux rues au nord de la tour
 
 ::: {.say}
-- Une résidence récente, verre et béton lissé. Un auvent, et sous l'auvent un tapis chauffant qui
-  fait fondre la neige sur trois mètres — le seul trottoir noir du quartier.
+- Une résidence récente. Verre et béton lissé.
+- Sous l'auvent, un tapis chauffant : le seul trottoir noir du quartier.
 - Derrière la vitre du hall, un comptoir éclairé, et quelqu'un derrière. **Il y a un gardien.**
 :::
 
 ### Le hall, et Ruben
 
 ::: {.say}
-- Du marbre, des plantes vertes, une chaleur qui fait ouvrir les manteaux d'un coup. Une pièce à
-  colis derrière le comptoir.
-- **Ruben**, gardien, la cinquantaine, blazer de la résidence. Il connaît le nom et l'étage de chaque
-  occupant.
-- Un écriteau plastifié sur le comptoir : « Ascenseur B — remise en service ce jour. »
+- Du marbre, des plantes vertes. Une chaleur à ouvrir les manteaux d'un coup.
+- **Ruben**, gardien. La cinquantaine, blazer de la résidence.
+- Le nom et l'étage de chaque occupant, de mémoire.
+- Un écriteau : « Ascenseur B — remise en service ce jour. »
 :::
 
 ### La cabine — c'est celle-là
 
 ::: {.say}
-- Étroite, un **miroir** sur toute la paroi du fond.
-- Ça sent le désinfectant. On a nettoyé récemment, et mal : il reste une trace sombre dans l'angle du
-  sol.
-- Vingt-deuxième étage. La montée dure assez longtemps pour que chacun se regarde.
+- Étroite. Un **miroir** sur toute la paroi du fond.
+- Odeur de désinfectant. Un nettoyage récent, et mal fait : une trace sombre dans l'angle.
+- Vingt-deuxième étage. Une montée assez longue pour que chacun se regarde.
 :::
 
 ::: {.jeu lab="Entrer — trois façons, une seule laisse des traces"}
@@ -131,18 +126,15 @@ appelle la police, patrouille en dix minutes. La lettre les sort d'affaire, mais
 ### À l'intérieur
 
 ::: {.say}
-- Il vivait seul. Un appartement de célibataire tenu comme un bureau : propre, ordonné, sans photo
-  aux murs.
-- Depuis la baie vitrée, on voit la tour Harold éclairée. Il rentrait à pied, huit minutes.
-- L'ordinateur fixe est allumé. Pas de mot de passe.
+- Une vie solitaire. Un appartement tenu comme un bureau : propre, ordonné, sans une photo aux murs.
+- Depuis la baie vitrée, la tour Harold éclairée. Huit minutes à pied.
+- L'ordinateur fixe allumé, sans mot de passe.
 :::
 
 ::: {.mj lab="Ce qu'il y a dans ses mails"}
-*(test de Torche)* Il s'en voulait de n'avoir pas soutenu Alex, de n'avoir pas vu les signes de la
-dépression. **Il ne comprenait pas pourquoi Alex s'était suicidé.** Il s'était inscrit sur des forums
-d'aide psychologique.\
-**Un homme rongé, pas un coupable.** C'est le deuxième document qui dit qu'Alex est le centre de
-l'affaire.
+*(test de Torche)* Des remords : n'avoir pas soutenu Alex, n'avoir pas vu les signes. **Aucune
+explication au suicide**, et une inscription sur des forums d'aide psychologique.\
+**Un homme rongé, pas un coupable** — et le deuxième document qui met Alex au centre.
 :::
 
 ### Ce que Ruben raconte *(test de Bagou)*

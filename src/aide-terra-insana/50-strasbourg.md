@@ -15,24 +15,27 @@ piste lui-même.
 ### La boutique — rue des Tonneliers
 
 ::: {.say}
-- Une devanture étroite dans la Küfer-Gasse. À l'intérieur, l'air est lourd et sent le tanin, la
-  naphtaline et quelque chose d'un peu doux qu'on préfère ne pas identifier.
-- À droite : un renard, des sangliers, une biche. Suspendus au plafond par des fils, **une cigogne et
-  d'autres oiseaux figés en plein vol**.
-- À gauche et devant vous, **un ours et trois loups**, babines retroussées, campés dans une posture de
-  chasse — comme prêts à bondir.
-- Un vieil homme boiteux vient à vous en souriant.
+- Une devanture étroite dans la Küfer-Gasse.
+- Dedans, l'air lourd. Tanin, naphtaline.
+- Et quelque chose d'un peu doux qu'on préfère ne pas identifier.
+- À droite : un renard, des sangliers, une biche.
+- Au plafond, pendus à des fils : **une cigogne et d'autres oiseaux, figés en plein vol**.
+- À gauche, devant vous : **un ours et trois loups**.
+- Babines retroussées, posture de chasse. Prêts à bondir.
+- Un vieil homme boiteux, souriant, vers vous.
 :::
 
 ### Le fils
 
 ::: {.say}
-- Grand, maigre, très droit et un peu gauche. L'air absent. Une poignée de main fuyante.
-- Avant qu'on ait pu poser une question, il désigne les bêtes d'un geste large.
-- [« Ils ont vraiment l'air vivants, non ? Vous avez trouvé la bonne boutique, on ne travaille pas
-  mieux l'animal ailleurs. Quel animal cherchez-vous ? J'ai quelques pièces rares — un ours, un
-  loup. À moins que vous ne préfériez plus simple : une biche, un petit oiseau ? »]{.q}
-- Parlez-lui d'un autre monde ou d'une menace, et il vous prendra pour des fous. Poliment.
+- Grand, maigre, très droit et un peu gauche. L'air absent.
+- Une poignée de main fuyante.
+- Avant la moindre question, un geste large vers les bêtes.
+- [« Ils ont vraiment l'air vivants, non ? »]{.q}
+- [« Vous avez trouvé la bonne boutique. On ne travaille pas mieux l'animal ailleurs. »]{.q}
+- [« Quel animal cherchez-vous ? J'ai des pièces rares — un ours, un loup. »]{.q}
+- [« À moins que vous ne préfériez plus simple : une biche, un petit oiseau ? »]{.q}
+- Un mot sur un autre monde, et vous passez pour des fous. Poliment.
 :::
 
 ::: {.obj lab="Ce qui referme la piste, et c'est lui qui le dit"}
@@ -87,11 +90,13 @@ mois d'avance cette année. → **aide T9**.
 ### Sur place
 
 ::: {.say}
-- Une route large, plate, bien entretenue. Des branches cassées sur le bas-côté, l'herbe couchée, des
-  traces piétinées là où on a tiré le véhicule du fossé.
-- La calèche est abîmée **d'un seul côté**. Personne ne l'a poussée. Rien ne l'a fait dévier.
+- Une route large, plate, bien entretenue.
+- Des branches cassées sur le bas-côté. L'herbe couchée.
+- Des traces piétinées, là où on a tiré le véhicule du fossé.
+- La calèche abîmée **d'un seul côté**.
+- Aucune poussée. Rien pour la faire dévier.
 - Un cheval indemne, dételé, ramené au village.
-- À l'intérieur, sur la banquette : **du sang séché**. Pas beaucoup. Assez.
+- Sur la banquette : **du sang séché**. Pas beaucoup. Assez.
 :::
 
 ::: {.jeu lab="Test de Torche — dans la calèche"}

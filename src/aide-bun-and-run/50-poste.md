@@ -21,23 +21,26 @@ qui transforme la victoire en question.
 ### Le commissariat de Westwood
 
 ::: {.say}
-- Massif, anguleux, en béton gris foncé, percé de larges vitres teintées. Pas de fioritures. Ici,
-  c'est la loi.
-- À l'intérieur, un tumulte permanent : ça circule, ça rit, ça gueule. Les rapports s'empilent sur des
-  bureaux séparés par des cloisons semi-vitrées qui n'isolent rien.
-- Des couloirs étroits, une lumière jaune fatiguée. Le carrelage gris absorbe les pas, mais pas la
-  tension.
-- Un patchwork d'époques : terminaux IBM, téléphones d'un autre âge, écrans cathodiques. Un grand
-  tableau électronique clignote, affichant la position des patrouilles **comme un cœur battant**.
+- Massif, anguleux. Béton gris foncé, larges vitres teintées.
+- Pas de fioritures. Ici, la loi.
+- Dedans, un tumulte permanent. Ça circule, ça rit, ça gueule.
+- Des rapports empilés sur des bureaux, entre des cloisons semi-vitrées.
+- Aucun isolement.
+- Couloirs étroits. Lumière jaune fatiguée.
+- Un carrelage gris qui absorbe les pas. Pas la tension.
+- Un patchwork d'époques : terminaux IBM, téléphones d'un autre âge, écrans cathodiques.
+- Un grand tableau électronique clignotant, la position des patrouilles dessus.
+- **Comme un cœur battant.**
 :::
 
 ### Dans son bureau
 
 ::: {.say}
-- [« Expliquez-moi tout. Maintenant. Qui ? Quoi ? **Comment ce gamin est devenu votre suspect
-  principal ?** »]{.q}
-- Pendant qu'ils exposent les faits, elle prend des notes avec une précision chirurgicale.
-- Puis son regard dérive vers la salle d'interrogatoire attenante.
+- [« Expliquez-moi tout. Maintenant. Qui ? Quoi ? »]{.q}
+- [« **Comment ce gamin est devenu votre suspect principal ?** »]{.q}
+- Pendant leur exposé, des notes.
+- D'une précision chirurgicale.
+- Puis un regard vers la salle d'interrogatoire attenante.
 :::
 
 ::: {.dire lab="Ce qu'elle voit, et ce qui la fait s'arrêter d'écrire"}
@@ -77,10 +80,11 @@ minutes, qu'il y ait des aveux ou non.**
 ### La salle
 
 ::: {.say}
-- Étroite, écrasée par une lumière blanche et froide.
-- Little Latino continue son numéro : dos voûté, regard fuyant, sanglots intermittents.
-- Derrière la vitre sans tain, Genève observe, bras croisés, visage impassible.
-- **Vous avez cinq minutes avant la fin de votre service.**
+- Étroite, écrasée d'une lumière blanche et froide.
+- Little Latino toujours à son numéro.
+- Dos voûté, regard fuyant, sanglots intermittents.
+- Derrière la vitre sans tain, Genève. Bras croisés, visage impassible.
+- **Cinq minutes avant la fin de votre service.**
 :::
 
 ::: {.obj lab="Poser un vrai minuteur sur la table"}
@@ -99,12 +103,13 @@ ait une vraie chance.\
 ### Calagan entre
 
 ::: {.say}
-- Chaussures cirées. Pantalon taillé au millimètre. Chemise impeccable. Cravate noire fine, droite
-  comme une lame.
-- Cheveux grisonnants, coupés courts. **Un regard qui glace la pièce.**
-- Il sort lentement un vieux briquet des années 60, qu'il manipule machinalement. **Il ne l'allume
-  pas.**
-- Puis il s'assoit face à l'enfant, sans dire un mot.
+- Chaussures cirées. Pantalon taillé au millimètre.
+- Chemise impeccable. Cravate noire fine, droite comme une lame.
+- Cheveux grisonnants, coupés courts.
+- **Un regard à glacer la pièce.**
+- Un vieux briquet des années 60 sorti de sa poche, manipulé machinalement.
+- **Jamais allumé.**
+- Puis une chaise face à l'enfant, et pas un mot.
 :::
 
 ::: {.mj lab="Joan Crow — le croisement que la source ne fait pas"}
@@ -118,18 +123,19 @@ tient la chemise jaune.
 ::: {.say}
 - [« Alors comme ça… tu veux rentrer chez ta maman ? »]{.q} — *l'enfant baisse les yeux.*
 - [« Tu sais, gamin… j'en ai vu des durs. Des vrais. Tu sais ce qui les faisait flipper ? »]{.q}
-- [« — Les flics ? »]{.q} *répond Little Latino avec un sourire nerveux.*
+- [« — Les flics ? »]{.q} *répond Little Latino, sourire nerveux.*
 - [« Non. Les flics, c'est les gentils. **Nous, on est les gentils.** »]{.q}
 - Il pose les mains sur la table.
-- [« Et aujourd'hui, t'as de la chance. Je vais t'aider. Tu vas être libéré. Tout de suite. Je vais
-  envoyer deux agents chez ta maman. Chez tes cousins. Chez tous tes potes. **Tout le monde va savoir
-  que t'es protégé par la police.** »]{.q}
+- [« Aujourd'hui, t'as de la chance. Je vais t'aider. Tu vas être libéré. »]{.q}
+- [« J'envoie deux agents chez ta maman. Chez tes cousins. Chez tous tes potes. »]{.q}
+- [« **Tout le monde va savoir que t'es protégé par la police.** »]{.q}
 - Il sourit. [« Un témoin protégé. Une vraie petite balance officielle. »]{.q}
-- *Le visage du gamin blanchit.* [« Non… attendez… j'ai rien dit… j' veux pas d'emmerdes ! »]{.q}
-- Calagan se penche. [« Oh, mais t'en as déjà, petit con. Tu parles. Ou tout ton quartier saura que la
-  police protège ta mère… comme si t'avais balancé le chef des Los Hijos. »]{.q}
-- *Little Latino craque.* Calagan se lève. [« Ginny. Prends sa déposition. »]{.q} Puis, aux PJ :
-  [« **Vous. Bureau. Maintenant.** »]{.q}
+- *Le gamin blanchit.* [« Non… attendez… j' veux pas d'emmerdes ! »]{.q}
+- Calagan se penche. [« Oh, mais t'en as déjà, petit con. Tu parles. »]{.q}
+- [« Ou tout ton quartier saura que la police protège ta mère. »]{.q}
+- [« Comme si t'avais balancé le chef des Los Hijos. »]{.q}
+- *Little Latino craque.* [« Ginny. Prends sa déposition. »]{.q}
+- Puis, aux PJ : [« **Vous. Bureau. Maintenant.** »]{.q}
 :::
 
 ::: {.mj lab="S'il y a déjà des aveux"}
@@ -156,16 +162,15 @@ Lire le compteur (A6), et passer la main au scénario suivant. **Le ton de toute
 ### Le second étage
 
 ::: {.say}
-- Ils montent l'escalier. D'en haut, ils dominent le hall principal. **Ici, c'est un autre monde : La
-  Crim'.**
-- Les bureaux sont disposés en binômes, chacun marqué par son occupant : **Bobby Magic**, enseveli
-  sous les cartons de pizza et des nunchakus ; **Brody Kane**, haltères sous le bureau, posters de
-  musculation dédicacés ; **Desmoines** et son arsenal médiéval bricolé ; **Lisa Green** et sa jungle
-  végétale incontrôlable.
-- La salle est vide. Tout au fond, derrière les stores vénitiens, **le bureau vitré de Calagan**.
-- L'air y est plus lourd. C'est le territoire du vieux lion.
-- Sur le bureau usé, deux photos seulement : **Calagan et Samuel Midnight** entourés de la génération
-  miracle — et **sa femme et ses deux filles adolescentes**.
+- Ils montent l'escalier. D'en haut, ils dominent le hall.
+- **Ici, c'est un autre monde : La Crim'.**
+- Des bureaux en binômes, chacun marqué par son occupant.
+- **Bobby Magic** et ses cartons de pizza. **Brody Kane** et ses haltères.
+- **Desmoines** et son arsenal médiéval. **Lisa Green** et sa jungle végétale.
+- La salle est vide. Au fond, derrière les stores : **le bureau vitré de Calagan**.
+- L'air y est plus lourd. Le territoire du vieux lion.
+- Deux photos sur le bureau usé. **Lui et Samuel Midnight**, la génération miracle.
+- Et **sa femme, ses deux filles adolescentes**.
 - **Il ne leur propose pas de s'asseoir.**
 :::
 

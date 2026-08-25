@@ -20,22 +20,23 @@ docte, la procédure — puis céder dès que l'un d'eux trouve le bon angle.
 ### Le bâtiment
 
 ::: {.say}
-- Construit il y a trois ans, encore neuf. Chauffage central, **lumière électrique** — on le fait
-  remarquer aux visiteurs.
-- Rez-de-chaussée : la carte géologique d'Alsace-Lorraine, et de grandes portes à double battant par
-  où passent les calèches de livraison. Premier étage : les collections, les laboratoires, la
-  bibliothèque, les salles de cours.
+- Trois ans d'âge. Encore neuf.
+- Chauffage central, **lumière électrique**. Signalé aux visiteurs.
+- Rez-de-chaussée : la carte géologique d'Alsace-Lorraine.
+- De grandes portes à double battant, pour les calèches de livraison.
+- Premier étage : collections, laboratoires, bibliothèque, salles de cours.
 - → **aide T6**, le plan de l'université.
 :::
 
 ### Hugo Bücking, directeur
 
 ::: {.say}
-- Un homme de la vieille école qui place tout son ego dans chacune de ses phrases. Docte, pédant,
-  ennuyeux, et un peu cocasse à force de procédure.
-- [« Une disparition ? Deux disparitions, monsieur. L'homme *et* la pièce. Vous imaginez le préjudice
-  pour cet établissement ? »]{.q}
-- Il refuse d'abord. Une raison bien argumentée et une **Sauvegarde de Charisme** le font céder.
+- La vieille école. Tout son ego dans chacune de ses phrases.
+- Docte, pédant, ennuyeux. Un peu cocasse à force de procédure.
+- [« Une disparition ? *Deux* disparitions, monsieur. L'homme et la pièce. »]{.q}
+- [« Vous imaginez le préjudice pour cet établissement ? »]{.q}
+- Un refus d'abord.
+- Puis une raison bien argumentée et une **Sauvegarde de Charisme**, et il cède.
 :::
 
 ::: {.jeu lab="Trois clés pour cette porte — ne pas les laisser toutes inutilisées"}
@@ -53,11 +54,11 @@ prendre une mule — qui montrait, elle aussi, d'étranges signes d'inquiétude.
 ### Tomi Stella, le secrétaire
 
 ::: {.say}
-- Petit bureau attenant. Un homme sincèrement inquiet, pas un obstacle : sans autorisation il refuse,
-  avec autorisation il ouvre et il parle.
-- [« Il ne dormait plus. Il écrivait la nuit. Et il y a eu cette visite, la semaine dernière… »]{.q}
-- [« Un prêtre. Celui-là, il avait vraiment l'air d'un illuminé ! Enfin, il faut de tout pour faire un
-  monde, comme on dit. »]{.q}
+- Petit bureau attenant. Un homme sincèrement inquiet, pas un obstacle.
+- Sans autorisation, refus net. Avec, la porte et la parole.
+- [« Il ne dormait plus. Il écrivait la nuit. »]{.q}
+- [« Et il y a eu cette visite, la semaine dernière… Un prêtre. »]{.q}
+- [« Celui-là, il avait vraiment l'air d'un illuminé ! Enfin, il faut de tout pour faire un monde. »]{.q}
 :::
 
 ::: {.mj lab="La piste du vol se referme ici, et elle livre quelque chose"}
@@ -85,11 +86,11 @@ seulement s'ils le trouvent **tranquillement**.
 ### La pièce
 
 ::: {.say}
-- Un fouillis de livres, de documents, de notes et de mémoires d'étudiants sur tous les sujets, empilés
-  jusque sur les chaises.
-- Une seconde table, plus petite, contre le mur : le plan de travail de son assistant. Personne n'y a
-  touché depuis des jours.
-- Des boîtes vides, des présentoirs vides, des instruments de mesure.
+- Un fouillis. Livres, documents, notes, mémoires d'étudiants sur tous les sujets.
+- Empilés jusque sur les chaises.
+- Contre le mur, une seconde table, plus petite : le plan de travail de l'assistant.
+- Intact depuis des jours.
+- Des boîtes vides. Des présentoirs vides. Des instruments de mesure.
 :::
 
 ::: {.jeu lab="Test de Torche — pour le trouver à l'aise"}
@@ -114,10 +115,12 @@ comment un homme seul transporte à pied une pierre qu'il a fallu une calèche e
 ### Terra Insana, et où il n'est pas
 
 ::: {.say}
-- Le livre n'est **pas** dans ce bureau. Le nom, lui, fait sourire à l'étage.
-- [« Oser supposer qu'une météorite puisse, après s'être écrasée sur Terre, détruire quoi que ce soit !
-  Quelle idée insensée ! Il faudrait radier cet esprit dérangé de la liste des scientifiques ! »]{.q}
-- Poussé un peu, le chercheur admet qu'il ne l'a **pas lu**. Il s'est contenté de la rumeur.
+- Pas de livre dans ce bureau.
+- Le nom, lui, fait sourire à l'étage.
+- [« Oser supposer qu'une météorite puisse détruire quoi que ce soit ! Quelle idée insensée ! »]{.q}
+- [« Il faudrait radier cet esprit dérangé de la liste des scientifiques ! »]{.q}
+- Poussé un peu, l'aveu : il ne l'a **pas lu**.
+- Rien que la rumeur.
 :::
 
 ::: {.obj lab="La sortie"}
@@ -148,10 +151,11 @@ C'est la première démonstration de la possession, et elle est gratuite : perso
 :::
 
 ::: {.say}
-- Un homme de taille moyenne, de petites lunettes rondes, une fine moustache qui le vieillit.
-- Il n'a **pas changé de vêtements depuis des jours**. Sa chemise est raide de poussière ; il en a
-  jusque dans les cheveux.
-- Il ne dit rien. Il ne répond pas. Il serre quelque chose dans ses poings fermés.
+- Taille moyenne. De petites lunettes rondes. Une fine moustache qui le vieillit.
+- **Les mêmes vêtements depuis des jours.**
+- Chemise raide de poussière. Jusque dans les cheveux.
+- Pas un mot. Pas de réponse.
+- Quelque chose de serré au creux des poings.
 - Puis il se jette sur le plus proche.
 :::
 

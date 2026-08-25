@@ -14,15 +14,17 @@ scène commence, sinon la description ne s'adresse à personne.
 ### En arrivant sur Feverly Hills
 
 ::: {.say}
-- Le soleil descend. Ce n'est pas encore la nuit, juste ce moment où la ville change de couleur.
-- La lumière orange glisse sur les façades, fait briller l'asphalte, allonge les ombres entre les
-  immeubles.
-- L'air est encore lourd, saturé de chaleur et d'odeurs : viande grillée, friture, sucre caramélisé.
-- Au coin de la rue, un immeuble de trois étages, propre sans être chic. **Au-dessus de l'enseigne, un
-  énorme ananas bleu en plastique domine le quartier.** Inratable.
-- Devant, des tables en métal à même le trottoir. Des clients traînent, soda à la main. Des rires.
-- **Feverly Hills n'est pas un quartier dangereux.** C'est un lieu où les choses restent calmes… la
-  plupart du temps.
+- Le soleil qui descend. Pas encore la nuit.
+- Juste ce moment où la ville change de couleur.
+- Lumière orange sur les façades, asphalte qui brille.
+- Des ombres qui s'allongent entre les immeubles.
+- Un air lourd. Viande grillée, friture, sucre caramélisé.
+- Au coin de la rue, un immeuble de trois étages. Propre sans être chic.
+- **Au-dessus de l'enseigne, un énorme ananas bleu en plastique.** Inratable.
+- Devant, des tables en métal à même le trottoir.
+- Des clients qui traînent, soda à la main. Des rires.
+- **Feverly Hills n'a rien d'un quartier dangereux.**
+- Des choses calmes. La plupart du temps.
 :::
 
 ::: {.jeu lab="La table des postes — la source la fournit, s'en servir telle quelle"}
@@ -63,11 +65,12 @@ aussi celui qui décide de la scène 4.
 :::
 
 ::: {.say}
-- Le costume sent la sueur de quelqu'un d'autre et le plastique chaud.
-- **Vision périphérique inexistante** : deux fentes, et le reste est un mur de mousse jaune.
-- La respiration est difficile. La chaleur, à l'intérieur, est infernale.
-- On voit ses pieds. On ne voit pas ses mains. On n'entend qu'à moitié.
-- Sur le trottoir, les gens passent et personne ne le regarde — sauf les enfants.
+- Un costume à odeur de sueur d'un autre et de plastique chaud.
+- **Vision périphérique inexistante.** Deux fentes, et un mur de mousse jaune.
+- Une respiration difficile. Une chaleur infernale.
+- Ses pieds visibles. Ses mains, non. Le son à moitié.
+- Sur le trottoir, pas un regard.
+- Sauf les enfants.
 :::
 
 ::: {.jeu lab="Agir sous le costume"}
@@ -99,14 +102,14 @@ plant du scénario suivant.
 :::
 
 ::: {.say}
-- La climatisation tourne à fond, sans vraiment réussir à chasser l'atmosphère poisseuse.
-- Les chewing-gums sont mâchés jusqu'à l'amertume. Les regards scrutent chaque client qui entre ou
-  sort.
-- Sur la portière, un **« FUCK COPS »** mal effacé, s'ils n'ont pas eu le temps de faire nettoyer.
-- À l'arrière, **Carl Cooler est allongé, livide**. Il transpire, il gémit, et il regrette chaque
-  bouchée de sa vie.
-- Ils ont le **portrait-robot** : beau gosse, tatouages voyants, sourire carnassier. Impossible à
-  confondre.
+- Climatisation à fond, atmosphère poisseuse quand même.
+- Des chewing-gums mâchés jusqu'à l'amertume.
+- Un œil sur chaque client qui entre ou sort.
+- Sur la portière, un **« FUCK COPS »** mal effacé — faute de nettoyage.
+- À l'arrière, **Carl Cooler allongé, livide**.
+- En sueur, gémissant, à regretter chaque bouchée de sa vie.
+- En main, le **portrait-robot**. Beau gosse, tatouages voyants, sourire carnassier.
+- Impossible à confondre.
 :::
 
 ::: {.mj lab="Le plant — deux touches, et pas une de plus"}
@@ -140,11 +143,13 @@ griller.
 :::
 
 ::: {.say}
-- Une table près de la vitre, lunettes de soleil sur le nez, posture faussement détendue.
-- Devant lui trône un **Juicy P Burger Suprême**, débordant d'ananas grillé et de sauce secrète.
-- **Il n'y a pas encore touché.** Il sait que lorsqu'il croquera dedans, leur cible débarquera. C'est
-  toujours comme ça.
-- L'odeur est insoutenable. La musique est la même que celle du Hakuna, à peine transposée.
+- Une table près de la vitre. Lunettes de soleil, posture faussement détendue.
+- Devant lui, un **Juicy P Burger Suprême**.
+- Débordant d'ananas grillé et de sauce secrète.
+- **Intact.**
+- Une certitude : à la première bouchée, leur cible débarque. Comme toujours.
+- Une odeur insoutenable.
+- La même musique qu'au Hakuna, à peine transposée.
 :::
 
 ::: {.mj lab="Le manager, et Mei Davis"}

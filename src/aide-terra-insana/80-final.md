@@ -128,19 +128,20 @@ attendait un effet qui ne vient pas. Son désarroi est contagieux, et c'est exac
 ### Le silence
 
 ::: {.say}
-- Des bougies, un cercle de craie, une pierre minuscule au milieu — presque mignonne.
-- La formule est un mélange de latin et de syllabes dont on ne peut pas déterminer l'origine. Elle ne
-  se parle pas : elle se prononce.
-- Puis plus rien. Quelques interminables minutes où il ne se passe absolument rien.
+- Des bougies. Un cercle de craie.
+- Au milieu, une pierre minuscule. Presque mignonne.
+- La formule : du latin mêlé de syllabes sans origine identifiable.
+- Rien à parler. Tout à prononcer.
+- Puis plus rien. Quelques interminables minutes de silence.
 :::
 
 ### Le sol
 
 ::: {.say}
-- Une brume épaisse, laiteuse, **irisée**, se forme au milieu du cercle.
-- Le sol commence à fondre. Littéralement.
-- Quand la fumée se dissipe, il y a là une surface sombre qui ferait penser à **un lac** — si ce n'était
-  impossible.
+- Une brume épaisse, laiteuse, **irisée**, au milieu du cercle.
+- Le sol qui fond. Littéralement.
+- La fumée se dissipe.
+- À la place : une surface sombre. **Un lac**, si c'était possible.
 :::
 
 ::: {.jeu lab="Test de Santé mentale — pour chacun de ceux qui le voient"}
@@ -152,14 +153,14 @@ terre ?\
 ### Ce qui remonte
 
 ::: {.say}
-- La pierre coule et disparaît au fond de l'eau noire.
-- Des petites bulles montent, lentement, du fond.
-- Puis des **grognements**, quand les bulles éclatent. Des reflets de **griffes de grande taille** qui
-  s'agitent sous la surface.
-- Une minuscule patte sort de l'eau. Puis **un louveteau désorienté**, trempé, qui s'ébroue sur la terre
-  battue.
-- La brume se reforme, puis s'efface. Le sol est redevenu du sol. **Il n'y a plus rien à la place de la
-  météorite.**
+- La pierre coule, jusqu'au fond de l'eau noire.
+- De petites bulles, lentes, qui montent.
+- Puis des **grognements**, à chaque éclatement.
+- Sous la surface, des reflets de **griffes de grande taille**.
+- Une minuscule patte hors de l'eau.
+- Puis **un louveteau désorienté**, trempé, à s'ébrouer sur la terre battue.
+- La brume se reforme, puis s'efface. Du sol, redevenu du sol.
+- **Plus rien à la place de la météorite.**
 :::
 
 ::: {.mj lab="Ne pas expliquer le louveteau"}
@@ -192,19 +193,22 @@ cette nature-là se faire vider à son tour ?**
 ### En sortant de la brume
 
 ::: {.say}
-- L'impression d'avoir été noyé, puis l'air : humide, froid, et une odeur nette de **viande pourrie**.
-- Il fait sombre. Si la pierre est passée avant vous, une lumière **qui semble contenir toutes les
-  couleurs à la fois** sort de ses minuscules fentes. Sinon, il n'y a rien.
-- Les parois sont de roche suintante, parsemée de mousse. Une seule ouverture. → **aide T11**.
+- L'impression d'une noyade. Puis l'air : humide, froid.
+- Une odeur nette de **viande pourrie**.
+- Il fait sombre.
+- Si la pierre est passée avant vous : une lumière par ses minuscules fentes.
+- Une lumière **de toutes les couleurs à la fois**.
+- Sinon, rien.
+- Roche suintante, parsemée de mousse. Une seule ouverture. → **aide T11**.
 :::
 
 ### Au fond
 
 ::: {.say}
 - De faibles gémissements, avant même de les voir.
-- **Une portée de louveteaux**, qui ressembleraient parfaitement à des peluches s'ils n'avaient déjà de
-  solides crocs.
-- Leurs grognements craintifs portent loin.
+- **Une portée de louveteaux.**
+- Des peluches, s'ils n'avaient déjà de solides crocs.
+- Des grognements craintifs qui portent loin.
 :::
 
 ::: {.jeu lab="Profil — la louve, qui arrive en quelques minutes"}

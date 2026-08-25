@@ -23,20 +23,20 @@ précise — et l'un d'eux donne le nom complet de Tahlia.
 ### Le bureau, resté en l'état
 
 ::: {.say}
-- On a mis un carton dessus et on ne l'a jamais vidé. La chaise a été retirée.
-- La fenêtre a été condamnée par une plaque de contreplaqué. Personne n'en parle dans l'étage.
+- Un carton posé dessus, jamais vidé. La chaise retirée.
+- La fenêtre condamnée par une plaque de contreplaqué. Pas un mot dans l'étage.
 :::
 
 ### Ce qu'il y a dans le carton *(test de Torche)*
 
 ::: {.say}
-- Un **selfie de groupe** en soirée, au **Tropical Bar** : Stephen, Dorothea, Tahlia et Alex. Quatre
-  visages heureux, et trois sont morts.
-- Des **enregistrements audio** tirés de son répondeur : Sherlyn Moore hurle, et les mots sont très
-  durs.
+- Un **selfie de groupe** en soirée, au **Tropical Bar**.
+- Stephen, Dorothea, Tahlia et Alex. Quatre visages heureux — trois morts.
+- Des **enregistrements audio** tirés de son répondeur.
+- Sherlyn Moore y hurle, et les mots sont très durs.
 - Un SMS de Tahlia : [« Je suis désolée… »]{.q}
-- Des **coupures de journaux** sur les déboires du dirigeant de Max Omnium. La première date de
-  décembre 2018, et elle est **signée Stephen Barlow**.
+- Des **coupures de journaux** sur les déboires du dirigeant de Max Omnium.
+- La première, de décembre 2018, **signée Stephen Barlow**.
 :::
 
 ::: {.mj lab="Les deux portes que ça ouvre"}
@@ -49,11 +49,11 @@ Le selfie mène au **Tropical Bar**, et le Tropical Bar au **nom complet de Tahl
 
 ::: {.say}
 - Un bar à cocktails avec des palmiers en plastique, à moins trente dehors. Trois clients.
-- Les serveurs reconnaissent le selfie tout de suite *(test de Bagou)*.
+- Le selfie reconnu tout de suite par les serveurs *(test de Bagou)*.
 - [« Ils venaient souvent, tous les quatre. C'est ici qu'Alex et Tahlia se sont rencontrés. »]{.q}
 - [« Ils filaient le parfait amour. Enfin — jusqu'à ces derniers mois. »]{.q}
-- [« Franchement ? Dorothea et Tahlia avaient l'air plus proches que de simples amies. Tahlia le
-  cachait à Alex, ça se voyait. »]{.q}
+- [« Franchement ? Dorothea et Tahlia avaient l'air plus proches que de simples amies. »]{.q}
+- [« Tahlia le cachait à Alex, ça se voyait. »]{.q}
 - Et le videur, lui, a vérifié sa carte d'identité : [« Carodios. Tahlia Carodios. »]{.q}
 :::
 
@@ -103,31 +103,32 @@ dont la table se souviendra.
 
 ::: {.say}
 - 5514 S Shield Avenue, dans le sud de Chicago.
-- Une petite maison mal entretenue. La peinture cloque. La boîte aux lettres débordait, il y a
-  longtemps.
-- On frappe. Rien ne bouge pendant plusieurs minutes.
-- Puis la porte s'ouvre sur une vieille dame qui sourit.
+- Une petite maison mal entretenue. La peinture cloque.
+- Une boîte aux lettres débordante, il y a longtemps.
+- On frappe. Rien pendant plusieurs minutes.
+- Puis la porte, et une vieille dame qui sourit.
 :::
 
 ### À l'intérieur — chaud, et très silencieux
 
 ::: {.say}
-- Elle propose une tisane, ou un café. Elle insiste gentiment. Elle va la chercher avant qu'on
-  réponde.
+- Une tisane, ou un café. Proposé gentiment, insisté, servi avant la réponse.
 - [« Ne parlez pas trop fort, s'il vous plaît. Mon mari dort. »]{.q}
-- Dans le fauteuil près de la fenêtre, un vieux monsieur. Une canne d'aveugle posée contre
-  l'accoudoir, des lunettes noires sur les yeux. **Il ne bouge pas.**
-- Des plantes séchées suspendues dans la cuisine. Une odeur d'herbes et de poussière chaude.
+- Dans le fauteuil près de la fenêtre, un vieux monsieur.
+- Une canne d'aveugle contre l'accoudoir, des lunettes noires sur les yeux.
+- **Immobile.**
+- Des plantes séchées suspendues dans la cuisine.
+- Une odeur d'herbes et de poussière chaude.
 :::
 
 ### Quand elle parle de son fils
 
 ::: {.say}
-- Elle en parle avec beaucoup d'amour, au présent, puis au passé, puis au présent.
+- Beaucoup d'amour dans sa voix. Au présent, puis au passé, puis au présent.
 - [« Il était mon petit rayon de soleil. »]{.q}
 - [« Le capitalisme rend avide d'argent. Il corrompt les âmes. »]{.q}
 - [« Chicago est une ville qui a sombré. Ici, tout le monde a perdu ses valeurs. »]{.q}
-- Elle ne dit jamais qu'il s'est suicidé. Elle dit : [« le capitalisme l'a tué. »]{.q}
+- Jamais un mot sur le suicide. Seulement : [« le capitalisme l'a tué. »]{.q}
 :::
 
 ::: {.jeu lab="La lettre — Sauvegarde de Charisme"}
@@ -170,9 +171,10 @@ sont jouables, et l'une raccourcit le scénario de deux heures.
 :::
 
 ::: {.say}
-- Il respire lentement. Un plaid sur les genoux. La canne d'aveugle contre l'accoudoir.
-- Ses mains sont énormes, et abîmées comme celles d'un homme qui a travaillé le métal.
-- Il est assis face à la fenêtre, alors qu'il ne voit rien.
+- Une respiration lente. Un plaid sur les genoux.
+- La canne d'aveugle contre l'accoudoir.
+- Des mains énormes, abîmées comme celles d'un homme qui a travaillé le métal.
+- Assis face à la fenêtre. Sans rien y voir.
 :::
 
 ::: {.jeu lab="Les trois choses qui peuvent arriver"}

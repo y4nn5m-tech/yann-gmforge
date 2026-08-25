@@ -14,36 +14,35 @@ et **la nuit, à la campagne, il n'y a rien**. Le reste s'installera tout seul.
 ### Le pays
 
 ::: {.say}
-- Nous sommes le **jeudi 12 juin 1890**, en Alsace. Le soir tombe tard, il fait doux, les foins sont
-  coupés.
-- Depuis vingt ans, l'Alsace n'est plus française : c'est le **Reichsland**, terre d'Empire. On y
-  parle alsacien entre soi et allemand à l'administration.
-- Personne n'en fait un drame à voix haute. On s'est arrangé.
+- **Jeudi 12 juin 1890.** L'Alsace.
+- Soir doux, nuit tardive. Les foins coupés.
+- Depuis vingt ans, plus française : le **Reichsland**, terre d'Empire.
+- Alsacien entre soi, allemand à l'administration.
+- Aucun drame à voix haute.
 :::
 
 ### Strasbourg
 
 ::: {.say}
-- La ville s'est mise à pousser vers le nord. Des avenues larges, des façades neuves, des chantiers :
-  on appelle ça la **Neustadt**.
-- L'**université Kaiser-Wilhelm** y est flambant neuve, avec ses instituts alignés autour d'un jardin
-  botanique. On y fait de la science comme ailleurs on fait la guerre.
-- L'**Institut de Minéralogie** a le chauffage central et **l'électricité** — ce qui, en 1890, se
-  raconte dans les dîners.
-- Il possède la deuxième collection de météorites de France.
+- La ville vers le nord : avenues larges, façades neuves, chantiers.
+- Un quartier neuf, la **Neustadt**.
+- L'**université Kaiser-Wilhelm**, flambant neuve. Ses instituts autour d'un jardin botanique.
+- La science comme ailleurs la guerre.
+- À l'**Institut de Minéralogie** : chauffage central et **électricité**.
+- En 1890, matière à conversation de dîner.
+- Deuxième collection de météorites de France.
 :::
 
 ### La campagne
 
 ::: {.say}
-- Passé les faubourgs, il n'y a plus que des villages à colombages, des vergers et, vers le sud, les
-  coteaux du vignoble.
-- Pas de voiture : le train, le cheval, la calèche. Pour prévenir quelqu'un, un **télégramme** — et
-  encore, il faut que quelqu'un du village aille porter le message.
-- La nuit, il n'y a **rien**. Pas un lampadaire hors des villes. On s'éclaire à la lampe à pétrole et
-  on rentre avant le noir.
-- Sur la route de **Hoerdt**, au nord de Strasbourg, une calèche de louage remonte au pas dans le
-  soir.
+- Passé les faubourgs : colombages, vergers.
+- Au sud, les coteaux du vignoble.
+- Pas de voiture. Le train, le cheval, la calèche.
+- Pour prévenir quelqu'un : un **télégramme**, et un gamin du village pour porter le message.
+- La nuit, **rien**. Pas un lampadaire hors des villes.
+- Lampe à pétrole, retour avant le noir.
+- Sur la route de **Hoerdt**, une calèche de louage, au pas.
 :::
 
 ::: {.mj lab="Ce que cette page installe et qui servira toute la partie"}
@@ -79,21 +78,23 @@ compte sur eux.*
 ### Dans la calèche
 
 ::: {.say}
-- Dans cette calèche, vous êtes **cinq**. Vous vous êtes reconnus au relais, tout à l'heure : cinq
-  personnes convoquées le même soir par le même homme, et aucune qui sache pourquoi.
-- **François Tixier**, chimiste, descendu de Lorraine en première classe. Huit ans de faculté avec
-  Émile, et huit ans de beuveries estudiantines. Il ne l'a pas vu depuis deux ans et se demande
-  surtout dans quel troquet finira la nuit.
-- **Wolfgang Schuler**, capitaine, Croix de Fer de 1870. Il protégeait Émile dans la cour de l'école
-  primaire pendant qu'Émile faisait ses devoirs de mathématiques. Il a répondu sans réfléchir.
-- **Samuel Farbe**, détective privé, sans affaire en cours et sans le sou. Un camarade de lycée de
-  1865 — il lui a fallu dix bonnes minutes pour remettre un visage sur ce prénom-là.
-- **Eugénie Laterre**, vingt-six ans, étudiante à l'Institut de Minéralogie. Émile est **le seul
-  professeur qui l'écoute** quand elle parle d'ondes et de pierres qui soignent. Elle croit que
-  l'invitation vient de là.
-- **Aurore Dubosc**, archéologue, assistante à l'université. Elle ne l'a rencontré que deux fois, pour
-  faire analyser des échantillons rapportés d'Égypte. Elle suppose que c'est son goût du danger qui
-  l'a fait convoquer.
+- Dans cette calèche, **cinq** passagers.
+- Reconnus au relais tout à l'heure. Convoqués le même soir, par le même homme.
+- Aucun ne sait pourquoi.
+- **François Tixier**, chimiste. Descendu de Lorraine, première classe.
+- Huit ans de faculté avec Émile, et de beuveries. Deux ans sans le voir.
+- *Sa question du jour : dans quel troquet finira la nuit.*
+- **Wolfgang Schuler**, capitaine. Croix de Fer de 1870.
+- Son protecteur dans la cour de l'école, du temps des devoirs de mathématiques.
+- *Il a répondu sans réfléchir.*
+- **Samuel Farbe**, détective privé. Sans affaire, sans le sou.
+- Un camarade de lycée de 1865. Dix minutes pour remettre un visage sur ce prénom.
+- **Eugénie Laterre**, vingt-six ans. Étudiante à l'Institut de Minéralogie.
+- Émile, **le seul professeur à l'écouter** parler d'ondes et de pierres qui soignent.
+- *Pour elle, l'invitation vient de là.*
+- **Aurore Dubosc**, archéologue. Assistante à l'université.
+- Deux rencontres, pour des échantillons rapportés d'Égypte.
+- *Son hypothèse : son goût du danger.*
 :::
 
 ::: {.mj lab="À qui ça coûtera cher, et il faut le savoir dès maintenant"}
@@ -104,8 +105,8 @@ rappeler ici, en une phrase, quand elle se présente.
 :::
 
 ::: {.say}
-- La route tourne, et la calèche s'arrête devant une maison à colombages, un peu à l'écart du village.
-- Il y a de la lumière aux fenêtres du bas.
+- La route tourne. Une maison à colombages, un peu à l'écart du village.
+- De la lumière aux fenêtres du bas.
 :::
 
 :::
@@ -135,27 +136,27 @@ Rose craque et le demande — en leur offrant toutes ses économies.
 ### En entrant
 
 ::: {.say}
-- Une femme d'une cinquantaine d'années ouvre avant qu'on ait frappé. Elle a un tablier propre et les
-  mains qui ne tiennent pas en place.
+- Une femme d'une cinquantaine d'années, sur le seuil avant qu'on ait frappé.
+- Tablier propre. Les mains qui ne tiennent pas en place.
 - [« Il ne devrait pas tarder, ne vous inquiétez pas. Le rôti est au chaud et n'en sera que
   meilleur. »]{.q}
-- Elle sert à boire. Elle regarde la porte. Elle recommence.
-- **Trois chats** — deux noirs, un roux — se frottent aux jambes de tout le monde et **fixent la porte
-  du vestibule** qui descend à la cave.
+- Une tournée de boissons. Un œil sur la porte. Encore une tournée.
+- **Trois chats** — deux noirs, un roux. À se frotter aux jambes.
+- Et l'œil sur **la porte du vestibule**, celle de la cave.
 :::
 
 ### Ce qu'elle finit par lâcher, si on l'y encourage
 
 ::: {.say}
 - [« Voilà une semaine qu'il ne dort presque plus. Excité comme un enfant. »]{.q}
-- [« Il m'a dit qu'il allait faire une découverte ca-pi-ta-le. Il a répété le mot en détachant les
-  syllabes. Il parlait de *cohénite*, ou quelque chose d'approchant. »]{.q}
-- [« Et puis il est devenu sombre. J'ai voulu le distraire en lui reparlant de sa cohénite, et il
-  s'est refermé d'un coup. Ça m'a fait peur. »]{.q}
+- [« Il allait faire une découverte ca-pi-ta-le. Il a détaché les syllabes. »]{.q}
+- [« Il parlait de *cohénite*, ou quelque chose d'approchant. »]{.q}
+- [« Et puis il est devenu sombre. Je lui ai reparlé de sa cohénite : il s'est refermé d'un coup. Ça
+  m'a fait peur. »]{.q}
 - [« Il est parti cette nuit avec la calèche. Une heure du matin. Ce n'est pas dans ses habitudes. »]{.q}
 - [« Il a laissé un mot : préparer un repas pour **cinq personnes**. »]{.q}
-- [« L'Institut a téléphoné il y a quelques heures. Ils demandaient s'il était malade. Et si monsieur
-  savait qu'on avait **volé une météorite** cette nuit. »]{.q}
+- [« L'Institut a téléphoné. Ils demandaient s'il était malade. »]{.q}
+- [« Et si monsieur savait qu'on avait **volé une météorite** cette nuit. »]{.q}
 :::
 
 ::: {.mj lab="Ce qu'elle croit et qui est faux"}

@@ -39,10 +39,11 @@ de se bloquer ici.
 ### Son appartement, s'ils y vont
 
 ::: {.say}
-- Le studio d'une femme qui n'y dort presque plus. Du matériel photo partout, des tirages punaisés.
-- Sur le frigo, une photo d'Alex qu'elle n'a pas décrochée.
-- Le calendrier au mur, une case par jour, une ville ou un lieu écrit dedans. Aujourd'hui : **Lac
-  Michigan**.
+- Le studio d'une femme qui n'y dort presque plus.
+- Du matériel photo partout, des tirages punaisés.
+- Sur le frigo, une photo d'Alex, jamais décrochée.
+- Au mur, un calendrier. Une case par jour, une ville ou un lieu dedans.
+- Aujourd'hui : **Lac Michigan**.
 :::
 
 ::: {.obj lab="Avant de les laisser partir — l'annonce du reflet (B7)"}

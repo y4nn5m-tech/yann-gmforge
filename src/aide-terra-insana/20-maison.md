@@ -19,19 +19,21 @@ emporteront, et il ouvre **deux** portes — c'est ça qui est bon.
 ### La pièce
 
 ::: {.say}
-- Un bureau de travail, pas de représentation. Des livres partout, empilés à même le sol, et l'odeur
-  du papier et de la pipe froide.
-- Des papiers épars, des notes, des mémoires d'étudiants annotés d'une écriture serrée.
-- Une chaise repoussée en arrière, comme si on s'était levé vite.
+- Un bureau de travail, pas de représentation.
+- Des livres partout, empilés à même le sol.
+- Odeur de papier et de pipe froide.
+- Papiers épars, notes, mémoires d'étudiants annotés d'une écriture serrée.
+- Une chaise repoussée en arrière. Un départ précipité.
 :::
 
 ### Sur le sous-main
 
 ::: {.say}
-- Des lettres reçues **cette semaine**. Une correspondance suivie, et sur un sujet qui n'a rien de
-  scientifique : le correspondant y parle de la possibilité **d'atteindre un autre monde**, et propose
-  à Émile de venir le voir.
-- Aucune signature lisible. Une seule indication, dans l'en-tête : **« Mennonite »**.
+- Des lettres reçues **cette semaine**. Une correspondance suivie.
+- Le sujet n'a rien de scientifique : **atteindre un autre monde**.
+- Une invitation à venir sur place.
+- Aucune signature lisible.
+- Une seule indication, dans l'en-tête : **« Mennonite »**.
 - [« Est-ce le nom d'un lieu, ou d'un homme ? »]{.q}
 - **→ aide T5** — la lettre elle-même, à leur mettre en main.
 :::
@@ -76,38 +78,41 @@ Puis, quand ils repartent : **s'assurer qu'ils comprennent qu'on peut l'emporter
 ### L'escalier
 
 ::: {.say}
-- Des marches de bois irrégulières, qui grincent chacune sur une note différente. Rose descend
-  derrière vous et ne dit rien.
-- La lampe qu'on a allumée en haut n'éclaire qu'à trois pas. En dessous, l'air est froid et sent la
-  terre.
+- Des marches de bois irrégulières. Une note différente sous chaque pas.
+- Rose derrière vous, silencieuse.
+- La lampe porte à trois pas.
+- En dessous : air froid, odeur de terre.
 :::
 
 ### Au bas des marches
 
 ::: {.say}
-- Le sol est en terre battue, tassée, balayée récemment.
-- Au milieu, tracé à la **craie blanche** : un grand cercle. Il est **déformé** — des ronds plus petits
-  y sont posés à intervalles réguliers, comme des perles enfilées sur un fil.
-- Comptez-les devant eux. Il y en a **six**. Cinq invités, et un de plus.
+- Terre battue. Tassée, balayée de frais.
+- Au milieu : un grand cercle à la **craie blanche**.
+- **Déformé.** Des ronds plus petits, à intervalles réguliers.
+- Comme des perles enfilées sur un fil.
+- Comptez-les devant eux. **Six.** Cinq invités — et un de plus.
 :::
 
 ### À portée de main
 
 ::: {.say}
-- À côté du cercle, **un coffre en plomb**. Gris mat, sans ornement, un numéro de série estampé sur le
-  flanc — une pièce manufacturée, commandée à une fonderie.
-- Les parois font trois à cinq centimètres d'épaisseur. Il faut être deux pour le soulever.
-- Il est fermé.
+- À côté du cercle, **un coffre en plomb**.
+- Gris mat, sans ornement. Un numéro de série estampé sur le flanc.
+- Pièce manufacturée, commandée à une fonderie.
+- Parois de trois à cinq centimètres. Deux hommes pour le soulever.
+- Fermé.
 :::
 
 ### S'ils l'ouvrent
 
 ::: {.say}
 - Demander qui pose les mains dessus. Attendre la réponse.
-- Le couvercle est lourd. Il vient d'un coup.
-- **Un souffle d'air chaud passe sur les mains.** *Ce n'est que la différence de température entre le
-  plomb et la cave — ne pas le dire.*
-- À l'intérieur : rien. Pas un résidu, pas une poussière. **Il n'a jamais servi.**
+- Un couvercle lourd, qui vient d'un coup.
+- **Un souffle d'air chaud sur les mains.**
+- *Rien qu'une différence de température entre le plomb et la cave. Ne pas le dire.*
+- Dedans : rien. Pas un résidu, pas une poussière.
+- **Jamais servi.**
 :::
 
 ::: {.warn lab="A1 — le seul arbitrage qui décide de la partie"}

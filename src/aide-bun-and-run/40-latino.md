@@ -14,14 +14,16 @@ lequel les trois sortent.
 ### L'arrivée
 
 ::: {.say}
-- L'attente devient interminable. Les minutes s'étirent, collantes, lourdes. Personne ne parle plus.
-- Puis un bruit de moteur fend l'air. **Un petit coupé rouge**, cabossé mais encore élégant, ralentit
-  et se gare non loin de la planque.
-- Le moteur tousse, s'éteint. Les portières claquent.
-- Le premier est impossible à rater : **une montagne de graisse et de muscles**, tatouages apparents,
-  regard froid. Il dépasse largement les deux mètres.
-- Le second est plus discret. Un peu plus grand que la moyenne, bonnet enfoncé, **gilet épais malgré la
-  chaleur**. Il ne dit rien, mais ses yeux bougent sans cesse.
+- Une attente interminable.
+- Des minutes qui s'étirent, collantes, lourdes. Plus un mot.
+- Puis un bruit de moteur dans l'air.
+- **Un petit coupé rouge**, cabossé mais encore élégant, garé non loin de la planque.
+- Un moteur qui tousse, s'éteint. Des portières qui claquent.
+- Le premier, impossible à rater : **une montagne de graisse et de muscles**.
+- Tatouages apparents, regard froid. Bien plus de deux mètres.
+- Le second, plus discret. Un peu plus grand que la moyenne.
+- Bonnet enfoncé, **gilet épais malgré la chaleur**.
+- Pas un mot. Des yeux sans cesse en mouvement.
 - Et puis… **un enfant.**
 :::
 
@@ -73,13 +75,14 @@ qui a dix ans. Détendu, familier, un peu traînant. Il ne force rien — il n'e
 ### Ce qu'il dit
 
 ::: {.say}
-- Il s'arrête à quelques pas de l'ananas. Jette un coup d'œil vers le restaurant, revient vers la
-  mascotte. **Il veut d'abord manger.**
+- Un arrêt à quelques pas de l'ananas.
+- Un coup d'œil vers le restaurant, puis vers la mascotte.
+- **La faim d'abord.**
 - [« Yo Carl… j' peux pas dealer l'estomac vide. Tu m' connais. »]{.q}
-- Il tapote son ventre en souriant.
-- [« On s' pose à l'intérieur ? J' t'offre un burger. On bouffe, on cause, et on fait l'affaire
-  peinard. »]{.q}
-- Il pousse la porte d'un coup de hanche et se retourne.
+- Une tape sur son ventre, un sourire.
+- [« On s' pose à l'intérieur ? J' t'offre un burger. »]{.q}
+- [« On bouffe, on cause, et on fait l'affaire peinard. »]{.q}
+- La porte poussée d'un coup de hanche, et un dernier regard en arrière.
 - [« J' bosse mieux avec un Juicy P ananas-bacon dans les mains. »]{.q}
 :::
 
@@ -133,11 +136,11 @@ suite qui suit qui.**
 
 ::: {.say}
 - Les hommes de main bondissent. **Les chaises volent.** Les clients hurlent.
-- Little Latino se met à courir en criant, semant la panique :
+- Little Latino, en course et en cris, la panique derrière lui :
 - [« À l'aide ! **C'est des kidnappeurs d'enfants !** »]{.q}
-- La salle devient un chaos total. Les employés tentent de protéger le matériel, les clients se
-  bousculent vers la sortie.
-- El Toro et Leon cherchent une issue de secours, une porte de service, un accès vers les toits.
+- Un chaos total dans la salle.
+- Des employés sur leur matériel. Des clients en bousculade vers la sortie.
+- El Toro et Leon en quête d'une issue. Porte de service, accès aux toits.
 :::
 
 ::: {.jeu lab="Le premier tour après la bascule"}
@@ -194,9 +197,11 @@ les joueurs. »**
 
 ::: {.say}
 - Gravier, gaines de ventilation, une enseigne au néon vue de dos.
-- **L'ananas bleu en plastique**, énorme, à trois mètres — vu d'ici, il est encore plus absurde.
-- Le soleil est presque couché. La ville est orange et le béton rend encore sa chaleur.
-- El Toro fait craquer sa nuque et sourit. Il attend.
+- **L'ananas bleu en plastique**, énorme, à trois mètres.
+- D'ici, plus absurde encore.
+- Soleil presque couché. Une ville orange.
+- Et du béton qui rend sa chaleur.
+- El Toro fait craquer sa nuque et sourit. En attente.
 :::
 
 ::: {.jeu lab="Ce que ça coûte de le mettre à terre"}
@@ -242,10 +247,12 @@ un groupe de rollers lumineux, la terrasse d'un glacier, un arroseur automatique
 ### Ce qu'on traverse
 
 ::: {.say}
-- Il détale vers les rues plus chics, là où les trottoirs sont larges et les gens bien habillés.
-- Les passants s'écartent en criant. Quelqu'un filme avec un caméscope.
-- Il bouscule un présentoir de lunettes de soleil qui s'effondre en cascade.
-- Il jette un regard en arrière — **et c'est là qu'on voit qu'il a peur, pas qu'il est dangereux**.
+- Une cavale vers les rues plus chics.
+- Trottoirs larges, gens bien habillés.
+- Des passants qui s'écartent en criant. Quelqu'un au caméscope.
+- Un présentoir de lunettes de soleil bousculé, effondré en cascade.
+- Un regard en arrière.
+- **Et là, la peur sur son visage. Pas le danger.**
 :::
 
 ::: {.mj lab="S'il est coincé"}

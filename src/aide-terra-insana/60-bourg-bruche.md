@@ -27,21 +27,23 @@ Il ne parle qu'à des gens qui lui paraissent **sincèrement** décidés à fair
 ### L'église
 
 ::: {.say}
-- Une vallée reculée, à soixante kilomètres de Strasbourg. Un orage vient de passer ; la journée a
-  avancé et il fait déjà sombre sous les arbres.
-- Une église simple, sans statue ni dorure. On entend la porte grincer dans tout le bâtiment.
-- Un homme vient presque aussitôt, les bras ouverts, comme on accueille des fidèles égarés. Vous
-  n'êtes pas habillés comme ses fidèles.
+- Une vallée reculée. Soixante kilomètres de Strasbourg.
+- Un orage vient de passer. Déjà sombre sous les arbres.
+- Une église simple, sans statue ni dorure.
+- Une porte qui grince dans tout le bâtiment.
+- Un homme presque aussitôt, les bras ouverts. L'accueil des fidèles égarés.
+- Vos vêtements ne sont pas ceux de ses fidèles.
 :::
 
 ### L'homme
 
 ::: {.say}
-- Grand, chauve, une longue barbe, la soixantaine. Des yeux d'un bleu insondable, avec une lueur
-  dedans qui met mal à l'aise sans qu'on sache pourquoi.
-- Il **finit ses phrases en perdant son regard dans le lointain**, et il faut attendre qu'il revienne.
-- Il s'anime dès qu'on parle du monde des esprits. Il serait passionnant s'il ne se perdait pas sans
-  cesse — dans ses phrases comme sur les routes.
+- Grand, chauve, une longue barbe. La soixantaine.
+- Des yeux d'un bleu insondable. Une lueur dedans, désagréable.
+- **Chaque phrase finie le regard dans le lointain.**
+- Un temps d'attente avant son retour.
+- Une flamme dès qu'il est question du monde des esprits.
+- Passionnant, s'il ne se perdait pas sans cesse. Dans ses phrases comme sur les routes.
 :::
 
 ::: {.mj lab="Sa vision — à placer sur un PJ, une fois"}
@@ -52,14 +54,14 @@ il s'interrompt, fixe l'un d'eux et dit ce qu'il voit. **Ne pas expliquer, ne pa
 ### Ce qu'il dit, et qui est vrai
 
 ::: {.say}
-- [« Une créature qui n'est pas de ce monde est arrivée sous la forme d'une météorite. J'ai senti
-  l'équilibre rompu avant même qu'on m'en parle. Quand Cohen me l'a décrite, il n'a fait que confirmer
-  mes soupçons. »]{.q}
-- [« Je lui ai donné la formule. Il fallait quatre esprits forts autour de l'objet. Il devait faire venir
-  ses amis. Vous. »]{.q}
-- [« Nous autres mennonites sommes dépositaires des secrets anciens de la vraie Église. À la fin, quand
-  l'apocalypse révélera ce monde impie, nous serons les purs parmi les purs. »]{.q}
-- [« Je n'ai plus l'âge, ni l'énergie, pour ce genre de rituel. Ce serait ma mort. »]{.q}
+- [« Une créature qui n'est pas de ce monde est arrivée sous la forme d'une météorite. »]{.q}
+- [« J'ai senti l'équilibre rompu avant même qu'on m'en parle. »]{.q}
+- [« Quand Cohen me l'a décrite, il n'a fait que confirmer mes soupçons. »]{.q}
+- [« Je lui ai donné la formule. Il fallait quatre esprits forts autour de l'objet. »]{.q}
+- [« Il devait faire venir ses amis. Vous. »]{.q}
+- [« Nous autres mennonites sommes dépositaires des secrets anciens de la vraie Église. »]{.q}
+- [« À la fin, quand l'apocalypse révélera ce monde impie, nous serons les purs parmi les purs. »]{.q}
+- [« Je n'ai plus l'âge, ni l'énergie. Ce serait ma mort. »]{.q}
 :::
 
 ::: {.jeu lab="Ce qu'il donne, et ce qu'il exige"}

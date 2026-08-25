@@ -1,0 +1,128 @@
+/* ============================================================================
+   print.css — charte visuelle du projet, sortie PDF (WeasyPrint).
+   Reprise verbatim de la feuille canonique du socle, à trois différences près,
+   toutes signalées par /* [dépôt] */.
+   ========================================================================== */
+
+/* [dépôt] La police est embarquée, pas empruntée au système : c'est LA
+   condition de reproductibilité. Une DejaVu absente ou différente sur la
+   machine de build décale les retours à la ligne, et une unité qui tenait
+   tout juste déborde. */
+@font-face { font-family:"DejaVuVendored"; font-weight:normal; font-style:normal;
+             src:url("fonts/DejaVuSans.ttf") format("truetype"); }
+@font-face { font-family:"DejaVuVendored"; font-weight:bold;   font-style:normal;
+             src:url("fonts/DejaVuSans-Bold.ttf") format("truetype"); }
+@font-face { font-family:"DejaVuVendored"; font-weight:normal; font-style:italic;
+             src:url("fonts/DejaVuSans-Oblique.ttf") format("truetype"); }
+@font-face { font-family:"DejaVuVendored"; font-weight:bold;   font-style:italic;
+             src:url("fonts/DejaVuSans-BoldOblique.ttf") format("truetype"); }
+
+@page {
+  size: A4; margin: 12mm 12mm 13mm 12mm;
+  /* [dépôt] le titre du pied de page est injecté par le build depuis les
+     métadonnées du document, au lieu d'être substitué à la main. */
+  @bottom-left  { content: var(--pied, "");
+                  font-family:"DejaVuVendored"; font-size:6.8pt; color:#93a0a8; }
+  @bottom-right { content: "p. " counter(page);
+                  font-family:"DejaVuVendored"; font-size:6.8pt; color:#93a0a8; }
+}
+@page :first { @bottom-left{content:""} @bottom-right{content:""} }
+
+* { box-sizing:border-box; }
+body { font-family:"DejaVuVendored","DejaVu Sans",sans-serif; font-size:8.6pt;
+       line-height:1.34; color:#1a1f23; margin:0; }
+
+h1 { font-size:31pt; margin:0; color:#132c3c; letter-spacing:-0.8pt; line-height:1.02; }
+h3 { font-size:8pt; margin:3mm 0 1mm 0; text-transform:uppercase; letter-spacing:0.9pt;
+     color:#2d5f80; break-after:avoid; }
+h4 { font-size:8.4pt; margin:2.5mm 0 1mm 0; text-transform:uppercase; letter-spacing:0.5pt;
+     color:#4a5a64; break-after:avoid; }
+.small { font-size:7.4pt; color:#57646c; }
+.rule  { height:1.2mm; background:#34566b; width:44mm; margin:4mm 0; }
+.quote { font-style:italic; color:#4a5a64; font-size:8.6pt;
+         border-left:0.4mm solid #c3cfd7; padding-left:3mm; margin:3mm 0; }
+
+/* ============ RÉGIME 1 — AIDE DE JEU : une unité = une page ============ */
+.unit { break-before: page; }
+.unit:first-of-type { break-before: auto; }
+
+.head { background:#eef2f5; border-left:1.8mm solid #34566b; border-bottom:0.3mm solid #c3cfd7;
+        padding:2mm 3mm 2.2mm 3mm; margin:0 0 2.5mm 0; break-after:avoid; }
+.head .act { font-size:6.6pt; text-transform:uppercase; letter-spacing:1.4pt; color:#7d8f9a; }
+.head .use { display:inline-block; font-size:6.2pt; font-weight:bold; letter-spacing:1pt;
+             text-transform:uppercase; color:#fff; background:#34566b; padding:0.4mm 1.8mm;
+             border-radius:0.6mm; margin-bottom:1.2mm; }
+.head .use.avant     { background:#b8860b; }
+.head .use.consulter { background:#6a4bb0; }
+.head h2  { font-size:16pt; margin:0; color:#132c3c; letter-spacing:-0.2pt; line-height:1.05; }
+.head .sub{ font-size:8pt; color:#576872; font-style:italic; margin-top:0.6mm; }
+
+/* ============ RÉGIME 2 — NOTE : sections qui coulent ============ */
+.brk { break-before: page; }
+h2.sec { font-size:13pt; margin:7mm 0 2.5mm 0; padding:1.4mm 0 1.4mm 3mm;
+         color:#132c3c; background:#eef2f5; border-left:1.6mm solid #34566b;
+         border-bottom:0.3mm solid #c3cfd7; break-after:avoid; }
+h2.sec .num { color:#8aa4b2; margin-right:2.5mm; font-weight:normal; }
+.card { border:0.3mm solid #c3ccd2; border-radius:1.5mm; padding:2mm 2.5mm; margin-bottom:2.5mm; }
+.card h3 { margin-top:0; border-bottom:0.3mm solid #c3ccd2; font-size:9.5pt;
+           text-transform:none; letter-spacing:0; color:#132c3c; }
+.tag { display:inline-block; font-size:6.6pt; font-weight:bold; text-transform:uppercase;
+       letter-spacing:0.6pt; background:#6a4bb0; color:#fff; padding:0.5mm 1.6mm;
+       border-radius:3mm; vertical-align:middle; margin-left:2mm; }
+.tag.lieu{background:#1f6fa8} .tag.pnj{background:#a8641f}
+.tag.evt{background:#b3271e}  .tag.sc{background:#2e7d43}
+.cols2 { column-count:2; column-gap:5mm; }
+.pal dt { font-weight:bold; font-size:7.4pt; text-transform:uppercase; letter-spacing:0.4pt;
+          margin-top:1.2mm; }
+.pal dd { margin:0; padding-left:3mm; }
+.e{color:#8a6d3b} .r{color:#1e5c30} .x{color:#1f6fa8}
+
+/* ============ COMMUN — les cinq blocs couleur ============ */
+.dire,.jeu,.mj,.obj,.warn { padding:1.6mm 2.4mm 1.6mm 2.8mm; margin:0 0 2mm 0;
+     border-left:1.3mm solid; border-radius:0 1mm 1mm 0; break-inside:avoid; }
+.lab { display:block; font-size:6.3pt; font-weight:bold; letter-spacing:1pt;
+       text-transform:uppercase; margin-bottom:0.7mm; }
+.dire{background:#e8f1f8;border-color:#1f6fa8} .dire .lab{color:#14507c} .dire b,.dire strong{color:#103d5e}
+.jeu {background:#e9f4ea;border-color:#2e7d43} .jeu  .lab{color:#1e5c30} .jeu  b,.jeu strong{color:#1e5c30}
+.mj  {background:#fdecec;border-color:#b3271e;font-style:italic}
+      .mj .lab{color:#8f1e17;font-style:normal} .mj b,.mj strong{color:#8f1e17}
+.obj {background:#f1ecf9;border-color:#6a4bb0} .obj  .lab{color:#4b3283} .obj  b,.obj strong{color:#4b3283}
+.warn{background:#fff8e1;border-color:#c9a227} .warn .lab{color:#8a6d3b} .warn b,.warn strong{color:#8a6d3b}
+
+/* [dépôt] pandoc enveloppe le contenu d'un bloc dans <p> : on annule les
+   marges pour retrouver exactement la compacité du HTML écrit à la main. */
+.dire p,.jeu p,.mj p,.obj p,.warn p { margin:0; }
+.dire p + p,.jeu p + p,.mj p + p,.obj p + p,.warn p + p { margin-top:1.2mm; }
+.dire ul,.jeu ul,.mj ul,.obj ul,.warn ul { margin:0.8mm 0 0 0; padding-left:4mm; }
+
+/* --- lignes à dire : une idée par ligne (aide de jeu) --- */
+.say { margin:0 0 2.5mm 0; }
+.say div { padding:0.35mm 0 0.35mm 3mm; text-indent:-3mm; }
+.say .q  { color:#103d5e; }
+
+/* --- micro-grille de l'unité (aide de jeu) --- */
+.loc { margin:0 0 2.5mm 0; }
+.loc .ln { padding:0.5mm 0 0.5mm 0; border-top:0.2mm solid #dfe4e8; }
+.loc .ln:first-child { border-top:none; }
+.loc .ln p { margin:0; }
+.g { font-weight:bold; font-size:7.4pt; letter-spacing:0.3pt; }
+.g.d { color:#1f6fa8; }
+.g.i { color:#a8641f; }
+.g.p { color:#2e7d43; }
+i.m, em.m  { color:#3c6b48; font-style:italic; }
+
+/* --- tableaux : table-layout FIXED, largeurs en % sur TOUTES les colonnes --- */
+/* [dépôt] les tableaux de grille de pandoc produisent le <colgroup> tout seuls,
+   à partir de la largeur des colonnes dessinées dans la source Markdown.
+   Le !important neutralise le width inline que pandoc pose sur <table>. */
+table { width:100% !important; border-collapse:collapse; table-layout:fixed;
+        font-size:7.8pt; margin-bottom:2mm; }
+th { background:#dce4ea; color:#132c3c; text-align:left; padding:1mm 1.6mm; font-size:6.8pt;
+     text-transform:uppercase; letter-spacing:0.4pt; border-bottom:0.4mm solid #34566b; }
+td { padding:1mm 1.6mm; border-bottom:0.2mm solid #d5dbe0; vertical-align:top; }
+td p, th p { margin:0; }
+.tight, .tight table { font-size:7.2pt; } .tight td, .tight th { padding:0.7mm 1.2mm; }
+
+/* --- couverture (déplacé des styles en ligne vers la feuille) --- */
+.eyebrow  { font-size:7.4pt; letter-spacing:2pt; text-transform:uppercase; color:#7d8f9a; }
+.subtitle { font-size:12pt; color:#576872; font-style:italic; margin-top:1.5mm; }

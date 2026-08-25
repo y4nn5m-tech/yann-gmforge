@@ -1,0 +1,18 @@
+/* web.css — extras réservés au site, hors EPUB : mode sombre et tableaux qui
+   défilent sur téléphone. Chargé après screen.css. */
+.table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+@media (max-width: 40rem) { table { font-size: 0.78rem; } }
+
+@media (prefers-color-scheme: dark) {
+  body { background:#14181b; color:#dfe4e8; }
+  h1, h2, .card h3, .head h2 { color:#cfe0ec; }
+  h2 { background:#1d262c; border-bottom-color:#2c3a44; }
+  .card, .head { border-color:#2c3a44; }
+  .head { background:#1d262c; }
+  th { background:#202a31; color:#cfe0ec; border-bottom-color:#4a6a80; }
+  td { border-bottom-color:#2c3a44; }
+  .dire{background:#12222e} .jeu{background:#132417} .mj{background:#2a1414}
+  .obj{background:#1e1830} .warn{background:#2a2312}
+  .dire strong{color:#8fc4e8} .jeu strong{color:#8fd6a0} .mj strong{color:#f0a0a0}
+  .obj strong{color:#c0aaf0} .warn strong{color:#e8cf80}
+}

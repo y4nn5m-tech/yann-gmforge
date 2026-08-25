@@ -1,0 +1,92 @@
+/* ============================================================================
+   screen.css — même identité, régime reflowable : site HTML et EPUB.
+   Sous-ensemble volontairement conservateur : ni variables CSS, ni position
+   sticky, ni grid — les liseuses EPUB en supportent une partie seulement.
+   Les extras du site (mode sombre, sommaire latéral) sont dans web.css.
+   ========================================================================== */
+
+body { font-family: "DejaVu Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+       Roboto, sans-serif;
+       font-size: 1rem; line-height: 1.55; color: #1a1f23; background: #fff;
+       margin: 0 auto; padding: 1.2rem; max-width: 44rem; }
+
+h1 { font-size: 2.1rem; line-height: 1.1; color: #132c3c; letter-spacing: -0.02em;
+     margin: 0 0 0.2rem 0; }
+h2 { font-size: 1.3rem; color: #132c3c; background: #eef2f5;
+     border-left: 4px solid #34566b; border-bottom: 1px solid #c3cfd7;
+     padding: 0.45rem 0 0.45rem 0.7rem; margin: 2.4rem 0 0.9rem 0; }
+h2 .num { color: #8aa4b2; margin-right: 0.5rem; font-weight: normal; }
+h3 { font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.09em;
+     color: #2d5f80; margin: 1.6rem 0 0.4rem 0; }
+h4 { font-size: 0.92rem; text-transform: uppercase; letter-spacing: 0.04em;
+     color: #4a5a64; margin: 1.2rem 0 0.4rem 0; }
+.small { font-size: 0.82rem; color: #57646c; }
+.rule  { height: 4px; background: #34566b; width: 9rem; margin: 1rem 0 1.4rem 0; }
+
+/* --- les cinq blocs : mêmes teintes, plus d'air --- */
+.dire, .jeu, .mj, .obj, .warn {
+  padding: 0.7rem 0.9rem; margin: 0 0 0.9rem 0;
+  border-left: 5px solid; border-radius: 0 4px 4px 0; }
+.lab { display: block; font-size: 0.68rem; font-weight: bold; letter-spacing: 0.11em;
+       text-transform: uppercase; margin-bottom: 0.35rem; }
+.dire { background:#e8f1f8; border-color:#1f6fa8; } .dire .lab{color:#14507c}
+.jeu  { background:#e9f4ea; border-color:#2e7d43; } .jeu  .lab{color:#1e5c30}
+.mj   { background:#fdecec; border-color:#b3271e; font-style:italic; }
+        .mj .lab{color:#8f1e17; font-style:normal}
+.obj  { background:#f1ecf9; border-color:#6a4bb0; } .obj  .lab{color:#4b3283}
+.warn { background:#fff8e1; border-color:#c9a227; } .warn .lab{color:#8a6d3b}
+.dire strong{color:#103d5e} .jeu strong{color:#1e5c30} .mj strong{color:#8f1e17}
+.obj strong{color:#4b3283} .warn strong{color:#8a6d3b}
+.dire p, .jeu p, .mj p, .obj p, .warn p { margin: 0 0 0.5rem 0; }
+.dire p:last-child, .jeu p:last-child, .mj p:last-child,
+.obj p:last-child, .warn p:last-child { margin-bottom: 0; }
+
+/* --- l'unité de l'aide de jeu : plus une page, une section --- */
+/* C'est LA différence de fond avec le PDF : en reflowable, « une unité = une
+   page » devient « une unité = une section ». Elle est ici marquée par un
+   filet et une respiration, et par un saut de chapitre dans l'EPUB. */
+.unit { border-top: 3px solid #34566b; padding-top: 1.2rem; margin-top: 2.6rem; }
+.unit:first-of-type { border-top: none; margin-top: 0; }
+.head { background:#eef2f5; border-left:5px solid #34566b;
+        border-bottom:1px solid #c3cfd7; padding:0.6rem 0.9rem; margin-bottom:1rem; }
+.head .act { display:block; font-size:0.68rem; text-transform:uppercase;
+             letter-spacing:0.14em; color:#7d8f9a; }
+.head .use { display:inline-block; font-size:0.64rem; font-weight:bold;
+             letter-spacing:0.1em; text-transform:uppercase; color:#fff;
+             background:#34566b; padding:0.1rem 0.4rem; border-radius:2px; }
+.head h2 { font-size:1.5rem; background:none; border:none; padding:0; margin:0.3rem 0 0 0; }
+
+.card { border:1px solid #c3ccd2; border-radius:6px; padding:0.8rem 1rem; margin-bottom:1rem; }
+.card h3 { margin-top:0; border-bottom:1px solid #c3ccd2; font-size:1.05rem;
+           text-transform:none; letter-spacing:0; color:#132c3c; padding-bottom:0.3rem; }
+.tag { display:inline-block; font-size:0.66rem; font-weight:bold; text-transform:uppercase;
+       letter-spacing:0.07em; background:#6a4bb0; color:#fff; padding:0.12rem 0.4rem;
+       border-radius:10px; margin-left:0.4rem; vertical-align:middle; }
+.tag.lieu{background:#1f6fa8} .tag.pnj{background:#a8641f}
+.tag.evt{background:#b3271e}  .tag.sc{background:#2e7d43}
+
+.say div { padding:0.1rem 0 0.1rem 1rem; text-indent:-1rem; }
+.say .q  { color:#103d5e; }
+.loc .ln { padding:0.35rem 0; border-top:1px solid #dfe4e8; }
+.loc .ln:first-child { border-top:none; }
+.loc .ln p { margin:0; }
+.g { font-weight:bold; font-size:0.82rem; }
+.g.d{color:#1f6fa8} .g.i{color:#a8641f} .g.p{color:#2e7d43}
+em.m { color:#3c6b48; }
+.pal dt { font-weight:bold; font-size:0.8rem; text-transform:uppercase;
+          letter-spacing:0.04em; margin-top:0.5rem; }
+.pal dd { margin:0; padding-left:1rem; }
+.e{color:#8a6d3b} .r{color:#1e5c30} .x{color:#1f6fa8}
+
+/* --- tableaux : ils débordent sur téléphone, donc ils défilent --- */
+table { width:100% !important; border-collapse:collapse; font-size:0.86rem;
+        margin: 0 0 1rem 0; }
+th { background:#dce4ea; color:#132c3c; text-align:left; padding:0.4rem 0.5rem;
+     font-size:0.7rem; text-transform:uppercase; letter-spacing:0.06em;
+     border-bottom:2px solid #34566b; }
+td { padding:0.4rem 0.5rem; border-bottom:1px solid #d5dbe0; vertical-align:top; }
+td p, th p { margin:0; }
+
+/* --- couverture --- */
+.eyebrow  { font-size:0.78rem; letter-spacing:0.18em; text-transform:uppercase; color:#7d8f9a; }
+.subtitle { font-size:1.15rem; color:#576872; font-style:italic; margin:0 0 0.2rem 0; }

@@ -16,6 +16,9 @@ scène 2. La faire signer « S. Midnight » d'une écriture trop appliquée\
 ☐ La **chemise jaune** — « PROPOSITION DE RECLASSEMENT ADMINISTRATIF », cinq noms, en face
 Circulation / Archives / Scellés. Ce sont trois des six sanctions du kit : la menace est crédible\
 ☐ Le **portrait-robot de Little Latino** : tatouages, sourire carnassier, **et surtout pas l'âge**\
+☐ Un **plan du Hakuna Burger**, même grossier — salle, comptoir, cuisine, réserve, accès de service.
+L'auteur confirme qu'il n'a pas été mis dans le kit et conseille de le tracer soi-même : sans lui, la
+scène 2 se joue à l'aveugle dès que quelqu'un cherche un accès secondaire\
 ☐ Cinq **crayons**, parce que les étoiles de Réputation se cochent et se décochent sur leur fiche
 :::
 
@@ -55,6 +58,13 @@ Circulation / Archives / Scellés. Ce sont trois des six sanctions du kit : la m
 | Combien de séances ?                    | Un après-midi de fiction, une soirée de table. Point  |
 |                                         | de coupure naturel : la fin de la scène 2, quand ils  |
 |                                         | ont Carl et le rendez-vous                            |
++-----------------------------------------+-------------------------------------------------------+
+| **Enchaîner sur *ZOOMANji* ?** C'est le | **Si oui** : garder la scène finale jouée, et ne pas  |
+| choix qui décide le plus de choses      | durcir El Toro (B9). **Si non** : El Toro passe à 24  |
+|                                         | PV et devient le dernier boss, et toute la scène du   |
+|                                         | poste peut se **raconter en post-générique** au lieu  |
+|                                         | de se jouer — le scénario s'arrête alors sur la       |
+|                                         | baston, et c'est une vraie fin                        |
 +-----------------------------------------+-------------------------------------------------------+
 :::
 

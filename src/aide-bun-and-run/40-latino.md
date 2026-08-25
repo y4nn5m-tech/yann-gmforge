@@ -92,9 +92,18 @@ Puis, plus bas :\
 
 ::: {.jeu lab="S'il entre dans le restaurant"}
 Little Latino lui demandera de **retirer son casque** pour manger tranquillement. Ou pire : **le
-manager interviendra** pour lui demander de faire son travail — ce qui fera ressortir le côté gangster
-de l'enfant.\
+manager interviendra** pour lui demander de faire son travail — « c'est pas l'heure de ta pause,
+Carl ».\
 *Tenir le rôle sans casque : situation chaotique — 12.*
+:::
+
+::: {.dire lab="Et là, le tempo change — le moment où ce sont de vrais gangsters"}
+Little Latino ne hausse pas la voix. Il tourne à peine la tête.\
+[« El Toro. »]{.q}\
+**Une claque. Le patron du restaurant s'allonge par terre**, entre deux tables, devant ses propres
+clients.\
+Personne ne dit rien. Little Latino se retourne vers l'ananas comme si de rien n'était.\
+*C'est ici que le gag de l'enfant s'arrête et que la scène devient sérieuse. Ne pas commenter.*
 :::
 
 ::: {.mj lab="Quoi qu'il arrive, la scène bascule — mais pas à cause d'eux (A4)"}
@@ -138,6 +147,13 @@ fast-food en train de se vider, c'est écrit pour elle.\
 **Rappel B7 :** dégainer ici, au milieu des civils et sans justification, est une bavure. −1 étoile.
 :::
 
+::: {.jeu lab="Si Little Latino est plaqué — le paquet se répand"}
+La cocaïne sort de ses vêtements et **couvre le policier qui l'a plaqué**.\
+**Avantage sur tous ses jets jusqu'à la fin de la scène.** Il est survolté, il parle trop vite, il ne
+sent plus ses mains. C'est drôle, et c'est mécaniquement vrai.\
+*Ça compte aussi comme une scène à raconter au rapport. Calagan adorera.*
+:::
+
 ::: {.mj lab="Le chassé-croisé — deux directions, dans le déroulé classique"}
 **Little Latino et El Toro gagnent le toit** du restaurant. El Toro reste en arrière pour couvrir la
 fuite de son jeune patron, offrant une baston cinématographique en hauteur.\
@@ -158,8 +174,9 @@ course-poursuite nerveuse.\
 
 ::: {.jeu lab="Profil"}
 **PV 12 · Armure 1 · Poings, dégâts 3 · Atout *Bagarre*.**\
-*Ne pas doubler ses PV* (B9) : la source dit qu'« il ne cherchera pas à mourir pour un gosse », et il
-doit pouvoir fuir ou se rendre.
+**24 PV si ce scénario est une fin en soi** — il devient alors le dernier boss, et l'auteur invite à
+se lâcher. **12 s'il enchaîne sur *ZOOMANji*** : les PJ doivent arriver entiers au scénario suivant
+(B9).
 :::
 
 ::: {.mj lab="Ce qu'il est, et ce qu'il n'est pas"}
@@ -209,7 +226,9 @@ Face à un cogneur professionnel, c'est exactement ce qu'il faut.
 :::
 
 ::: {.obj lab="Objectif"}
-Une poursuite, pas une fusillade. **Il fuit, il ne se retourne pas** — sauf si on le coince.
+Une poursuite, pas un duel. **Il tire à perte de vue en fuyant** — il vide son chargeur un peu
+partout, sans viser. C'est du **tir de couverture** : pas de jet, une zone dangereuse, et un
+rechargement au tour suivant qui le ralentit.
 :::
 
 ::: {.jeu lab="La course — séquence cumulative"}

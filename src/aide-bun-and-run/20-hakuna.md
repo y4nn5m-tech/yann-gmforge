@@ -47,6 +47,13 @@ Mégaphone · téléphone · appareil glissé sous la porte · contact visuel pa
 *Seuil neutre — 10 tant que le périmètre est calme.*
 :::
 
+::: {.obj lab="Les médias — donner le rôle à quelqu'un, tout de suite"}
+**N64 News est sur place.** C'est la chaîne qui a fait la Génération Miracle, et elle filme.\
+**Désigner un PJ pour parler devant la caméra** dès l'arrivée : ça occupe un joueur qui n'a rien à
+faire pendant la négociation, ça donne corps au compteur d'étoiles (A6), et **tout ce qui se passera
+d'humiliant devant le périmètre sera filmé** — le gag du strip compris.
+:::
+
 :::
 
 ::: {.unit}
@@ -57,14 +64,16 @@ Mégaphone · téléphone · appareil glissé sous la porte · contact visuel pa
 ## Harvey Kitch
 :::
 
-::: {.jeu lab="Profil — le nôtre, la source n'en donne aucun (A2)"}
-**PV 10 · Armure 0 · 9 mm, dégâts 8.**\
+::: {.jeu lab="Profil — laissé nu par l'auteur, à calibrer (A2)"}
+**PV 12 · Armure 0 · 9 mm, dégâts 8.**\
 Atout **Imprévisible** — *menace majeure* : il agit **sans attendre l'échec d'un PJ**. C'est ce qui le
 rend dangereux malgré ses 10 PV, dans un système où les adversaires ne réagissent qu'aux échecs.\
 Point faible **Sensible à la flatterie** — Désavantage sur ses actions pendant un tour si un PJ vient
 de le flatter sans ironie.\
-[Calibré sur les deux profils que la source fournit à la scène 4 : El Toro 12 PV / 1 d'armure, Leon
-Edwards 8 PV / 1 d'armure. Harvey se place entre les deux et n'a pas de gilet.]{.small}
+**Il ne doit pas blesser les PJ pour de vrai.** Menaçant, oui ; létal, non. En scène narrative, il se
+neutralise en un ou deux coups.\
+[Le chiffre vient de l'auteur : la fiche a été laissée vide exprès, pour que le MJ la remplisse selon
+sa table.]{.small}
 :::
 
 ::: {.mj lab="Tant qu'on parle, ce profil ne sert pas"}
@@ -136,11 +145,13 @@ Sans cette liste, la scène tourne en rond : les joueurs répètent « il faut l
 que calmer produit.
 :::
 
-::: {.mj lab="Le badge de Carter — le croisement que la source ne fait pas"}
-Harvey réclame une carte **signée par l'inspecteur Midnight**. Et James Carter porte sur lui, comme
-porte-bonheur, **le badge de son père** — un objet de la génération Midnight, celle de Calagan.\
-**Ce n'est pas une clef** : le badge ne remplace pas la carte. C'est le moment où le joueur comprend
-que son porte-bonheur a une valeur pour quelqu'un d'autre. Il décidera seul s'il le montre.
+::: {.mj lab="Carter est le fils de Midnight — et Harvey réclame la signature de son père"}
+Le kit ne le dit nulle part : **Samuel Midnight est le père de James Carter**, qui porte le nom de sa
+mère et son badge en porte-bonheur.\
+**Carter peut reproduire la signature de son père**, ou se servir du lien pour se mettre en avant.
+La falsification cesse d'être un jet d'Astuce et devient une scène : un fils qui imite la signature
+de son père pour sauver un otage, devant les caméras de la chaîne qui a fait de ce père une légende.\
+**Ne pas le lui souffler.** Poser l'exigence de Harvey, prononcer le nom, et attendre.
 :::
 
 ::: {.jeu lab="Le Réseau de Darell Kenneth — quatre contacts, un usage chacun"}
@@ -197,9 +208,11 @@ titubant, salue vaguement, vomit. Raté, Harvey refuse et **le seuil monte à 12
 compris qu'on s'intéresse à quelqu'un en particulier.
 :::
 
-::: {.mj lab="Quand Harvey tire — une seule fois, et pas au hasard"}
-**Au premier échec critique d'un PJ dans la négociation**, et sur la jambe de la vieille dame. Pas
-avant, pas deux fois. La source menace sans jamais dire quand : voilà quand.
+::: {.mj lab="Quand Harvey tire — une seule fois, et il ne touche pas"}
+**Si un PJ franchit le périmètre de sécurité de plus de trois pas.** La balle passe juste à côté de
+la tête, elle **ne fait aucun dégât**, et il hurle qu'au prochain pas il tue la vieille dame.\
+C'est un avertissement, pas une attaque. La source menace sans jamais dire quand ; l'auteur, lui, est
+formel : **évitez de leur mettre une vraie balle.**
 :::
 
 :::
@@ -238,6 +251,15 @@ reconnaissance, et c'est ce que *Fast-Food Queen* de Mei Davis permet de trouver
 « Installer un climat de confiance pour préparer une embuscade » est l'une des trois manœuvres
 listées. C'est **mot pour mot** l'atout *L'art de rentrer sans bruit* : **dégâts doublés si elle n'est
 pas détectée**. À mains nues, ça fait 12 — Harvey tombe en un coup.
+:::
+
+::: {.dire lab="Le gag de l'auteur — si quelqu'un veut entrer négocier"}
+Harvey accepte, à une condition.\
+[« D'accord. Mais tu te mets à poil. »]{.q}\
+Il veut être certain que le négociateur n'est pas armé. **En slip, ou entièrement — au choix.**\
+Le dilemme social est le vrai contenu de la scène : y aller en sécurité mais tout nu, devant ses
+collègues et devant les caméras de N64, ou trouver autre chose. *L'auteur raconte qu'une joueuse a
+caché son badge entre ses fesses et marché comme ça jusqu'à la porte. C'est le ton juste.*
 :::
 
 ::: {.mj lab="Les deux complications de réserve — une seule, jamais les deux"}

@@ -18,18 +18,22 @@ Ce filet ne rend pas Carl inutile : sans lui, personne ne sait **qui** vient, ni
 l'oseille.
 :::
 
-::: {.warn lab="A2 — Harvey Kitch n'a aucun profil"}
-Armé, instable, l'assaut est offert — et il n'a ni Points de Vie, ni armure, ni dégâts, **alors que
-les deux hommes de main de la scène 4 sont chiffrés** (El Toro 12 · 1 · Poings 3 · *Bagarre* ;
-Leon Edwards 8 · 1 · 9 mm 7 · *Sprint*). C'est un oubli, pas un choix éditorial : la source chiffre
-ses seconds couteaux et laisse son antagoniste de scène nu.\
-**Retenu, calibré sur les profils qu'elle donne par ailleurs : PV 10 · Armure 0 · 9 mm, dégâts 8.**\
+::: {.warn lab="A2 — Harvey Kitch n'a aucun profil, et c'est volontaire"}
+Armé, instable, l'assaut est offert — et il n'a ni Points de Vie, ni armure, ni dégâts, alors que les
+deux hommes de main de la scène 4 sont chiffrés. **Ce n'est pas un oubli : l'auteur l'a laissé nu
+exprès**, pour que le MJ le calibre selon sa table.\
+**Retenu, sur le chiffre que l'auteur donne : PV 12 · Armure 0 · 9 mm, dégâts 8** — et l'autre moitié
+de sa consigne compte autant : **il ne doit pas blesser les PJ pour de vrai.** Menaçant, oui ; létal,
+non.\
 Atout **Imprévisible** — *menace majeure* : il agit **sans attendre l'échec d'un PJ**. C'est ce qui le
 rend dangereux malgré ses 10 PV, dans un système où les adversaires ne réagissent normalement qu'aux
 échecs.\
 Point faible **Sensible à la flatterie** — Désavantage sur ses actions pendant un tour si un PJ vient
 de le flatter sans ironie. La source le décrit « sensible à la flatterie, se braque s'il se sent
 ridiculisé » : c'est la même chose, mécanisée.\
+**Quand il tire, et il tire une fois :** si un PJ franchit le périmètre de plus de trois pas. **La
+balle passe à côté de la tête et ne touche pas** — il hurle qu'au prochain pas, il tue la vieille
+dame. Un avertissement, pas une attaque.\
 **Tant qu'on parle, ce profil ne sert pas.** Ce qui le remplace, un jet par attribut : *Social* le
 flatter, obtenir une preuve de vie, négocier une libération · *Astuce* falsifier la carte, comprendre
 le restaurant · *Adresse* glisser un appareil sous la porte, repérer un accès · *Physique* l'assaut,
@@ -104,10 +108,10 @@ assaut.
 ::: {.warn lab="B1 → B5"}
 **B1 · Basic Cops ou inspecteurs ?** Les cinq fiches disent *Archétype : Basic Cop* ; le kit affirme
 que les joueurs « sont déjà au sommet, ils incarnent l'élite, des inspecteurs » ; les cinq scènes
-disent « les inspecteurs ». → **Basic Cops en mission d'inspecteurs, à l'essai.** C'est ce qui rend
-cohérentes la menace de reclassement et l'absence de négociateur. *Prolongement : trois fiches cochent
-« Crack de l'académie », qui dit « n'a jamais patrouillé », alors que la source les donne tous en
-patrouille → deux montés du bitume, trois sortis de l'école, tous à l'essai.*\
+disent « les inspecteurs ». → **Basic Cops qui aspirent à devenir inspecteurs, à l'essai**, ce qui
+rend cohérentes la menace de reclassement et l'absence de négociateur. *Et pour deux d'entre eux
+c'est un retour :* **Kenneth et Rauston sont d'anciens inspecteurs rétrogradés** à force de
+boulettes — d'où leur binôme, et tout le sel de la chemise jaune.\
 **B2 · Le gilet.** Le tableau du kit énonce **1 d'armure** en colonne D/A *et* « **/2 les dégâts
 d'armes à feu** » en effets, sur la même ligne, sans ordre — et les cinq fiches recopient les deux. →
 **diviser d'abord** (arrondi au supérieur, règle absolue du kit), **puis retirer 1**. Un 9 mm à 8
@@ -126,9 +130,10 @@ objectif jouable en scène finale**, face au commissaire qui la lui a confisqué
 
 ::: {.warn lab="B6 → B9"}
 **B6 · Dix ans d'âge, dix ans de métier.** Carl dit que Little Latino est « dans le circuit depuis dix
-ans » ; l'enfant en a dix ou onze. → **gag assumé, jamais expliqué.** La formule qui préserve les deux
-répliques : **« Little Latino » est un nom qui se transmet**, une franchise. Avoir la phrase prête —
-un joueur demandera dans les dix secondes.\
+ans » ; l'enfant en a dix ou onze. → **gag assumé, jamais expliqué**, et l'auteur joue justement sur ce
+flou. Si la table insiste, une formule qui préserve les deux répliques : *« Little Latino » est un nom
+qui se transmet*, une franchise. **C'est notre invention, pas la source** : ne la sortir que si
+quelqu'un exige une réponse.\
 **B7 · Dégainer en pleine rue est interdit** sans justification valable. La source l'écrit dans un
 seul encart, **à la quatrième scène**, alors que ça gouverne tout le scénario. → s'applique **dès la
 scène 1**, et chaque écart est une bavure (A6). L'annoncer après la première infraction, c'est punir
@@ -138,11 +143,10 @@ et la scène 3 se joue à **Feverly Hills**. → Avantage aux scènes 1, 2 et 4 
 frontière, ce que la source précise (« 114 Jefferson Avenue, frontière Westwood / Feverly Hills ») —
 **pas** à l'intérieur du Blue Ananas en scène 3. À dire à l'attribution des postes, avant qu'il
 bâtisse un plan dessus.\
-**B9 · Doubler les PV de Leon ou El Toro ?** La source le propose « si ce scénario est un one-shot » —
-or il **est** le one-shot d'initiation du kit, la conditionnelle ne se conditionne à rien. → **oui
-pour Leon** (8 → 16) à partir de quatre joueurs, sinon la course-poursuite finit au premier tour.
-**Non pour El Toro**, qui doit pouvoir fuir ou se rendre : la source dit qu'« il ne cherchera pas à
-mourir pour un gosse ».
+**B9 · Doubler les PV d'El Toro ?** La source le propose « si ce scénario est un one-shot », et
+l'auteur tranche : **le critère n'est pas le nombre de joueurs, c'est la suite.** S'il enchaîne sur
+*ZOOMANji*, ne pas le durcir — les PJ doivent arriver entiers. **Sinon, 24 PV**, et il devient le
+dernier boss. Leon reste à 8 : il fuit, il ne tient pas.
 :::
 
 ### C — Cosmétique : corrigé en silence

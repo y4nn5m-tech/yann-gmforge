@@ -83,6 +83,12 @@ minutes, qu'il y ait des aveux ou non.**
 - **Vous avez cinq minutes avant la fin de votre service.**
 :::
 
+::: {.obj lab="Poser un vrai minuteur sur la table"}
+L'auteur le recommande, et ça marche : **dix minutes réelles, un minuteur visible**. La contrainte
+cesse d'être une phrase et devient une pression. Les joueurs cherchent plus vite et plus mal — c'est
+exactement ce qu'il faut pour que Calagan ait le dernier mot.
+:::
+
 ::: {.jeu lab="Le faire craquer"}
 *Situation chaotique — 12* : il est mineur, il est malin, il pleure, et Genève regarde.\
 *Copain Copain* donne l'Avantage à Darell Kenneth sur **tous** ses jets de Social — c'est le seul qui

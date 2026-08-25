@@ -151,7 +151,8 @@ griller.
 Le manager harcèle le joueur installé : **soit il consomme, soit il dégage**. S'il comprend que c'est
 un flic, il devient obséquieux et paniqué pour la réputation de sa franchise.\
 *Fast-Food Queen* de Mei Davis désamorce ça sans jet — elle sait exactement quoi commander et à qui
-parler. Si elle est à ce poste, le manager devient un allié.
+parler. **Elle est connue de tout le personnel de la ville** : où qu'elle entre, quelqu'un la
+reconnaît et veut l'aider. Si elle est à ce poste, le manager devient un allié.
 :::
 
 ::: {.jeu lab="Tenir son poste"}

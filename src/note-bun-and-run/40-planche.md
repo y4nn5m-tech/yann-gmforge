@@ -12,6 +12,13 @@ La troisième colonne est celle qui compte.
 
 ### James Carter — Le Bleu · 12 PV · Crack de l'académie
 
+::: {.mj lab="Ce que sa fiche ne dit pas, et qui change sa partie"}
+**James Carter est le fils de Samuel Midnight**, le flic le plus légendaire de Fevertown et l'ancien
+binôme de Calagan. Il porte le nom de sa mère. Le kit ne l'écrit nulle part — c'est le lore du jeu.\
+Toute sa fiche se relit à partir de là : le *badge de son père*, le *Good Cop* qui suit le protocole
+à la lettre **quand son père tirait d'abord**. **C'est le héros de ce scénario, et il l'ignore.**
+:::
+
 ::: {.tight widths="26,18,56"}
 +---------------------------+------------------+---------------------------------------------------+
 | Trait                     | Où ça tombe      | Ce qu'on dit, et quand                            |
@@ -35,10 +42,10 @@ La troisième colonne est celle qui compte.
 |                           |                  | formation, maintenant ». ② Quand Little Latino    |
 |                           |                  | sort de la voiture                                |
 +---------------------------+------------------+---------------------------------------------------+
-| *Porte-bonheur : le badge | partout, et      | 13 et plus = critique. Et c'est un **objet        |
-| de son père*              | **sc. 2** à part | authentique de la génération Midnight**, dans la  |
-|                           |                  | scène précise où un forcené réclame une carte     |
-|                           |                  | signée Midnight. Voir X1                          |
+| *Porte-bonheur : le badge | partout, et      | 13 et plus = critique. Et **son père est Samuel   |
+| de son père*              | **sc. 2** à part | Midnight** : c'est son badge, dans la scène où un |
+|                           |                  | forcené réclame une carte signée de sa main.      |
+|                           |                  | Voir X1                                           |
 +---------------------------+------------------+---------------------------------------------------+
 | *Good Cop Plan*           | **Sc. 2** ou     | *Human Shield* si un otage est visé — c'est le    |
 | — 1 fois par partie       | **4**, puis      | geste que Calagan respecte sans réserve.          |
@@ -189,13 +196,15 @@ La troisième colonne est celle qui compte.
 
 ### Les croisements que la source n'a pas faits
 
-::: {.warn lab="X1 — Le badge de Midnight est sur la fiche de Carter, et Harvey en réclame la signature"}
+::: {.warn lab="X1 — Harvey réclame la signature du père de Carter"}
 Harvey exige « une carte Hakuna Burger édition collector, **signée par l'inspecteur Midnight** ». Et
-James Carter porte sur lui, comme porte-bonheur, **le badge de son père** — un objet de la génération
-Midnight, celle de Calagan.\
-La source pose les deux à deux scènes d'écart et ne fait jamais le lien. **Ce n'est pas une clef** :
-le badge ne remplace pas la carte. C'est mieux — c'est le moment où le joueur comprend que son
-porte-bonheur a une valeur pour quelqu'un d'autre, et il décidera seul s'il le montre.
+**Samuel Midnight est le père de James Carter**, dont il porte le badge en porte-bonheur.\
+Le kit ne fait jamais le lien, parce qu'il ne dit pas de qui Carter est le fils. **C'est pourtant une
+clef, et l'auteur l'autorise explicitement :** Carter peut reproduire la signature de son père sur
+une carte, ou se servir du lien de parenté pour se mettre en avant.\
+**Ce que ça vaut à table :** la falsification cesse d'être un jet d'Astuce et devient une scène — un
+fils qui imite la signature de son père pour sauver un otage, devant les caméras de la chaîne qui a
+fait de ce père une légende.
 :::
 
 ::: {.warn lab="X2 — Le Réseau de copains résout trois problèmes du scénario"}

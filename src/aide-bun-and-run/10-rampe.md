@@ -186,10 +186,14 @@ pas pour eux.** Et tu ne dis rien de leurs atouts : ça, c'est pour la distribut
 ## Eddie Perkins
 :::
 
-::: {.obj lab="Objectif"}
+::: {.obj lab="Objectif — et la consigne de l'auteur : tout en même temps"}
 Leur donner une action minuscule et sans enjeu, pour qu'ils s'installent dans leurs personnages avant
 que ça compte. **Quinze minutes de table, pas plus** — l'appel de Calagan tombe ensuite quoi qu'il
-arrive.
+arrive.\
+**Ne pas dérouler les incidents l'un après l'autre : les empiler.** Eddie pisse, il tente de fuir, il
+tombe au milieu de la chaussée, deux voitures se percutent, les conducteurs sortent en s'insultant —
+**et pendant tout ce bordel, le tagueur arrive**. Le but n'est pas de résoudre proprement : c'est de
+montrer qu'à Fevertown tout dégénère en trente secondes. Ils vont y arriver quoi qu'ils fassent.
 :::
 
 ### L'abribus

@@ -152,8 +152,9 @@ et les unités débordaient. WeasyPrint le disait en avertissement, et le build 
 | renvois d'arbitrage | note | un `(A4)` qui ne pointe sur aucun arbitrage défini |
 | numéros de page | les deux | un « voir page 12 » dans le corps du texte |
 | charte d'impression | les deux | un avertissement de WeasyPrint : sélecteur invalide, police introuvable |
-| une unité = une page | aide | une unité rendue seule qui tient sur deux pages |
+| budget de densité | aide | une unité rendue seule qui tient sur deux pages : elle a enflé |
 | encarts à leur place | aide | plus de deux encarts avant le premier palier, ou en pied d'unité |
+| lignes à dire | aide | une ligne à dire de plus de 110 signes : elle est rédigée au lieu d'être notée |
 
 **Les contrôles ne sont pas les mêmes selon `type:`.** Une aide de jeu n'est pas mesurée au
 remplissage — une unité à moitié pleine y est normale — et ses renvois `— A4` pointent vers la note,
@@ -161,6 +162,12 @@ donc ils ne sont pas vérifiés. Ce qui s'y mesure, c'est le débordement, et lu
 
 Un avertissement (`·`) n'arrête pas le build : une page à 27 % est souvent une fin de section
 légitime. Un `ÉCHEC` sort en code 1.
+
+**Le budget de densité est un avertissement, pas une faute.** Les documents se mènent sur écran, où
+l'unité est une section et non une page : ce qui reste dur, c'est « une unité = un point de
+consultation ». Quand une unité déborde, chercher d'abord ce qui a enflé — prose d'encart, aparté de
+production, redondance avec la voisine —, puis scinder. **Ne jamais rogner la matière à dire pour
+récupérer une page** : le PDF a le droit de couper une unité en deux, personne ne l'imprime.
 
 ## Commit, push, et c'est la CI qui publie
 
@@ -225,8 +232,17 @@ la dernière `LineBox` de chaque page — **en excluant les boîtes dont le nom 
 `Margin`**. Sans cette exclusion, le pied de page est compté et toutes les pages sortent à 102 %. La
 méthode a été fausse deux fois avant d'être juste ; ne pas la « simplifier ».
 
-## Ce que le régime reflowable ne peut pas rendre
+## Le site est le support de jeu
 
-En HTML et en EPUB, la règle centrale de l'aide de jeu — « une unité = une page », `.unit
-{ break-before: page }` — n'existe pas : `screen.css` la traduit en « une unité = une section ». C'est
-une refonte assumée, pas un bug à corriger.
+En HTML, `.unit { break-before: page }` n'existe pas : `screen.css` traduit l'unité en section. Ce
+n'est pas une dégradation — c'est le régime dans lequel les documents se mènent réellement.
+
+Ce qui remplace la page : **le panneau de navigation**, construit par `build.py` après pandoc — un
+bouton flottant l'ouvre depuis n'importe où, il s'épingle en colonne sur grand écran, et il se referme
+seul quand on clique une entrée. Le mécanisme est `:target`, **sans une ligne de JavaScript**. Plus
+**les tableaux défilants** sur petit écran et une media query sous 40 rem.
+Le panneau ne vient pas de `--toc` : pandoc ne remonte pas les titres imbriqués à deux niveaux
+(`.unit` > `.head`), et sortir le `<h2>` de son bandeau casserait la charte d'impression pour rien.
+
+L'EPUB reste une conversion : ni sommaire injecté, ni tableaux défilants — `web.css`, qui les porte,
+n'est chargé que par le site.

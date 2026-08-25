@@ -153,13 +153,19 @@ simple compilateur.
 | renvois d'arbitrage | note | un `(A4)` qui ne pointe sur aucun arbitrage défini |
 | numéros de page | les deux | un « voir page 12 » dans le corps du texte, interdit par le socle |
 | **charte d'impression** | **les deux** | **un avertissement de WeasyPrint : sélecteur invalide, police introuvable** |
-| **une unité = une page** | **aide** | **une unité rendue seule qui tient sur deux pages** |
+| **budget de densité** | **aide** | **une unité rendue seule qui tient sur deux pages : elle a enflé** |
 | **encarts à leur place** | **aide** | **plus de deux encarts avant le premier palier, ou en pied d'unité** |
+| **lignes à dire** | **aide** | **une ligne à dire trop longue : la description est rédigée au lieu d'être notée** |
 
-Les trois premiers ne s'appliquent **qu'à la note**, et le dernier **qu'à l'aide de jeu** : dans un
-livret, une unité qui remplit la moitié de sa page est normale — ce qui s'y mesure, c'est le
-débordement. C'est aussi pourquoi les renvois `— A4` du livret, qui pointent vers la note, ne sont
-pas vérifiés.
+Les trois premiers ne s'appliquent **qu'à la note**, les trois derniers **qu'à l'aide de jeu** : dans un
+livret, une unité qui remplit la moitié de sa page est normale. C'est aussi pourquoi les renvois `— A4`
+du livret, qui pointent vers la note, ne sont pas vérifiés.
+
+**Le budget de densité est un avertissement, et c'est une décision.** Les documents se mènent sur
+écran — ordinateur, tablette, téléphone —, où l'unité est une section et non une page. Ce qui reste
+dur, c'est « une unité = un point de consultation » ; la page A4 n'en est plus que la mesure, et le
+seul signal automatique qu'une unité a enflé. Conséquence assumée : **le PDF peut désormais couper une
+unité en deux.** Il reste juste et lisible ; il n'est plus soigné, et personne ne l'imprime.
 
 **Le contrôle des encarts est le seul qui porte sur l'éditorial**, et c'est un avertissement : une
 unité se lit dans l'ordre où la scène se joue — ce qu'il faut savoir avant de parler, puis la descente
@@ -168,6 +174,15 @@ pied de page est le signe qu'on a rédigé la description d'abord et rangé le r
 MJ cherche alors le jet trois écrans plus bas que la réplique qui l'appelle. Les unités qui ne
 descendent pas par paliers — la conclusion, un profil, une table de mécanique — en sont exclues
 automatiquement.
+
+**Le contrôle des lignes à dire mesure une longueur pour protéger un style.** Une ligne à dire se
+note — un sujet, des adjectifs, une matière — et le MJ compose sa phrase ; une ligne rédigée, avec son
+verbe conjugué et sa subordonnée, se lit à voix haute telle quelle et lui retire son travail. Le style
+ne se mesure pas sans se tromper ; la longueur, si — et une ligne rédigée est presque toujours longue.
+Le plafond est de **110 signes** pour une description, **190** pour une réplique, qu'un PNJ prononce
+mot pour mot. La médiane est un simple repère de facture, en avertissement.
+*Le contrôle est né d'une dérive mesurée sur trois livrets : médiane passée de 16 à 19 mots par ligne
+sans qu'aucune ligne ne paraisse fautive à la relecture.*
 
 **Le contrôle de la charte est celui qui protège la reproductibilité en amont.** WeasyPrint signale
 les défauts de feuille en avertissement *et produit le PDF quand même* : un sélecteur invalide, une
@@ -200,11 +215,29 @@ ignore (`@media`, `overflow-x`).
   Moore, qui débordait sur deux pages. Reste à éprouver sur une autre forme d'intrigue : le
   découpage par victime est le seul qu'on ait fait tourner.
 
-## Ce que le régime reflowable change
+## Le site, et pourquoi c'est lui qu'on mène
 
-Le PDF et l'EPUB ne sont pas le même document.
+Le HTML n'est pas une sortie de courtoisie : c'est le support de jeu. Trois choses l'en rendent
+capable, et aucune n'existait avant qu'on les écrive.
 
-- La **note d'arbitrage** passe sans dommage : ce sont des sections qui coulent.
-- L'**aide de jeu** perd sa règle centrale. « Une unité = une page » n'existe pas en reflowable :
-  `screen.css` la traduit en « une unité = une section », et `--split-level=2` en fait un chapitre
-  d'EPUB. C'est jouable sur une tablette, mais c'est une refonte, pas une conversion.
+- **Le panneau de navigation**, construit par `build.py` après pandoc. `--toc` est bien passé, et
+  pandoc ne produit rien : les titres d'unité sont imbriqués à deux niveaux (`.unit` > `.head`), et il
+  ne remonte pas des titres si profonds. Sortir le `<h2>` de son bandeau casserait la charte
+  d'impression pour un gain identique — la liste se construit donc à partir du rendu.
+  **Un panneau, et non un sommaire en tête de document** : un sommaire en tête oblige à remonter tout
+  le document à chaque changement d'unité, ce qui n'est pas de la navigation mais un aller-retour. Un
+  bouton flottant l'ouvre depuis n'importe quel point ; sur grand écran il est épinglé en colonne et
+  le bouton disparaît. Le mécanisme est `:target`, donc **du CSS pur** — cliquer une entrée déplace la
+  cible vers l'unité, ce qui referme le panneau tout seul.
+  **Le panneau est à l'écran ce que la page est au papier** : sans lui, un livret de vingt unités n'a
+  pas de points de consultation, il a un seul long défilement.
+- **Les tableaux défilent** sur petit écran. `.table-scroll` était définie dans `web.css` depuis
+  toujours et n'était **jamais posée sur un tableau** : une note d'arbitrage à dix-sept tableaux, dont
+  un à cinq colonnes, débordait de la fenêtre d'un téléphone. L'enveloppe se pose en post-traitement du
+  site, et non dans le filtre Lua : le PDF est composé depuis le même HTML, et une div de plus dans son
+  flux serait un risque de pagination pour un gain nul.
+- **Une media query** sous 40 rem : gouttières réduites, sommaire sur une colonne, cibles tactiles.
+
+L'EPUB, lui, reste une conversion : `screen.css` y traduit l'unité en section et `--split-level=2` en
+fait un chapitre. Jouable sur une liseuse, mais sans sommaire ni tableaux défilants — ceux-là sont
+propres au site.

@@ -16,3 +16,95 @@
   .dire strong{color:#8fc4e8} .jeu strong{color:#8fd6a0} .mj strong{color:#f0a0a0}
   .obj strong{color:#c0aaf0} .warn strong{color:#e8cf80}
 }
+
+/* --- panneau de navigation (site seul) ---------------------------------
+   Sur le papier, le MJ atteint son point de consultation en tournant une
+   page. Sur un écran, il l'atteint ici — et depuis n'importe où dans le
+   document, sans avoir à remonter en tête.
+
+   Mécanique : `:target`, donc du CSS pur. Le bouton flottant vise le panneau ;
+   cliquer une entrée déplace la cible vers l'unité, ce qui referme le panneau
+   tout seul. Sur grand écran il est épinglé, et le bouton disparaît. */
+
+.toc-open { position: fixed; right: 0.9rem; bottom: 0.9rem; z-index: 30;
+            display: flex; align-items: center; gap: 0.4rem;
+            padding: 0.7rem 0.9rem; border-radius: 2rem;
+            background: #34566b; color: #fff; text-decoration: none;
+            font-size: 0.9rem; font-weight: bold; letter-spacing: 0.02em;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.28); }
+.toc-open:hover, .toc-open:focus { background: #24404f; }
+
+.toc { position: fixed; top: 0; right: 0; bottom: 0; z-index: 40;
+       width: min(22rem, 88vw); overflow-y: auto;
+       background: #f7f9fa; border-left: 1px solid #c3ccd2;
+       box-shadow: -4px 0 18px rgba(0,0,0,0.18);
+       transform: translateX(102%); visibility: hidden;
+       transition: transform 0.18s ease, visibility 0.18s; }
+.toc:target { transform: none; visibility: visible; }
+
+/* Barre de fermeture, sans libellé : le compte d'unités ne sert à personne
+   au moment où l'on cherche une page. Elle disparaît avec la croix sur grand
+   écran, où le panneau est épinglé. */
+.toc-head { position: sticky; top: 0; z-index: 1; margin: 0;
+            display: flex; justify-content: flex-end;
+            padding: 0.4rem 0.6rem; background: #eef2f5;
+            border-bottom: 1px solid #c3ccd2; }
+.toc a.toc-close { display: block; text-decoration: none; color: #57646c;
+                   font-size: 1.5rem; line-height: 1; padding: 0 0.3rem;
+                   background: none; }
+.toc a.toc-close:hover { color: #b3271e; background: none; }
+
+.toc ol { list-style: none; margin: 0; padding: 0.6rem 0.8rem 1.6rem 0.8rem; }
+.toc li { margin: 0.1rem 0; }
+.toc a { display: block; padding: 0.45rem 0.4rem; border-radius: 3px;
+         text-decoration: none; color: #1a1f23; font-size: 0.9rem;
+         line-height: 1.3; overflow-wrap: anywhere; }
+.toc a:hover, .toc a:focus { background: #e6edf2; }
+/* Dans le panneau, l'étiquette d'usage se réduit à un chevron coloré.
+   Répétée en pastille pleine sur dix-huit entrées d'un livret qui en compte
+   dix-neuf, elle pesait sans rien apprendre — c'est la couleur qui porte
+   l'information, pas le mot. */
+.toc .use { display: inline-block; font-size: 0; margin: 0 0.5rem 0 0;
+            padding: 0; background: none; }
+.toc .use::before { content: "\203A"; font-size: 1.05rem; line-height: 1;
+                    font-weight: bold; color: #34566b; }
+.toc .use.avant::before     { color: #b8860b; }
+.toc .use.consulter::before { color: #6a4bb0; }
+.toc .use.nul::before       { color: #9db4c4; }
+
+/* --- grand écran : le panneau est épinglé, le bouton disparaît ---------- */
+@media (min-width: 64rem) {
+  .toc { left: 0; right: auto; width: 19rem;
+         border-left: none; border-right: 1px solid #c3ccd2; box-shadow: none;
+         transform: none; visibility: visible; }
+  /* `.toc a` (0,1,1) l'emporterait sur `.toc-close` (0,1,0) : on qualifie */
+  .toc-open, .toc-head { display: none; }
+  /* `box-sizing` explicite : le body est en content-box, et sans lui la
+     largeur maximale porterait sur le contenu seul — le padding du panneau
+     s'ajoutant par-dessus, elle ne contraindrait rien. */
+  body { box-sizing: border-box; max-width: 64rem; margin: 0 auto;
+         padding-left: 20.2rem; }
+}
+
+/* --- petit écran -------------------------------------------------------- */
+@media (max-width: 40rem) {
+  body { padding: 0.7rem; }
+  /* Sans plancher de largeur, `table-layout: fixed` comprime les colonnes au
+     lieu de faire défiler : mesuré sur une note, un tableau de 15 lignes
+     s'étirait sur 1076 px de haut, chaque cellule sur quatre lignes de texte.
+     Le tableau déborde donc volontairement de son enveloppe, qui défile. */
+  .table-scroll table { min-width: 36rem; }
+}
+
+@media (prefers-color-scheme: dark) {
+  .toc { background: #1a2126; border-color: #2c3a44; }
+  .toc-head { background: #202a31; border-bottom-color: #2c3a44; color: #8fc4e8; }
+  .toc a { color: #dfe4e8; }
+  .toc .use::before { color: #7fb0d0; }
+  .toc .use.avant::before { color: #d8a92e; }
+  .toc .use.consulter::before { color: #b49cf0; }
+  .toc .use.nul::before { color: #5a6b76; }
+  .toc a:hover, .toc a:focus { background: #243039; }
+  .toc-open { background: #2c4a5e; }
+  .toc-open:hover, .toc-open:focus { background: #3a5f76; }
+}

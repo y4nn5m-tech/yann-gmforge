@@ -100,7 +100,7 @@ def debordements(corps_html):
             if n > 1:
                 t = re.search(r"<h2[^>]*>(.*?)</h2>", u, re.S)
                 titre = re.sub(r"<[^>]+>", "", t.group(1)).strip() if t else "couverture"
-                trouvés.append(f"l'unité {i} « {titre} » déborde sur {n} pages")
+                trouvés.append(f"l'unité {i} « {titre} » tient sur {n} pages — elle a enflé")
     finally:
         tmp.unlink(missing_ok=True)
     return trouvés
@@ -151,7 +151,80 @@ def site(doc, fs, m):
                                     "--metadata", "title=",
                                     "--metadata", f"pagetitle={m.get('title','')}",
                                     "-o", str(cible)], check=True)
+    page = tableaux_defilants(cible.read_text(encoding="utf-8"))
+    cible.write_text(sommaire(page, not est_note(m)), encoding="utf-8")
     return cible
+
+
+def tableaux_defilants(html):
+    """Chaque tableau du site devient défilant sur petit écran.
+
+    `web.css` définit `.table-scroll` depuis toujours — et rien ne la posait
+    jamais sur un tableau. Sur un téléphone, une note d'arbitrage à dix-sept
+    tableaux, dont un à cinq colonnes, débordait donc de la fenêtre.
+
+    L'enveloppe se pose ici et non dans le filtre Lua : le PDF est composé
+    depuis le même HTML, et une div de plus dans son flux est un risque de
+    pagination pour un gain nul. `.table-scroll` n'existe que pour le site.
+    """
+    return re.sub(r"<table>(.*?)</table>",
+                  lambda m: f'<div class="table-scroll"><table>{m.group(1)}</table></div>',
+                  html, flags=re.S)
+
+
+def sommaire(html, est_livret):
+    """Le panneau de navigation du site — la seule façon d'atteindre une unité.
+
+    Il n'existe pas sans nous : `--toc` est bien passé à pandoc, mais les titres
+    d'unité sont imbriqués à deux niveaux (`.unit` > `.head`) et pandoc ne
+    remonte pas des titres si profonds. Plutôt que de sortir le `<h2>` de son
+    bandeau — ce qui casserait la charte d'impression pour un gain identique —
+    la liste se construit ici, à partir du rendu.
+
+    **Un panneau, et non un sommaire en tête de document.** Un sommaire en tête
+    oblige à remonter tout le document à chaque changement d'unité : ce n'est
+    pas de la navigation, c'est un aller-retour. Le panneau reste joignable d'un
+    geste depuis n'importe quel point du document.
+
+    Le mécanisme est `:target`, donc du CSS pur — pas une ligne de JavaScript.
+    Le bouton flottant ouvre le panneau ; cliquer une entrée déplace la cible
+    vers l'unité, ce qui le referme tout seul. Sur grand écran il est épinglé
+    ouvert en colonne, et le bouton disparaît.
+
+    C'est la contrepartie écran de « une unité = une page » : sur le papier, le
+    MJ atteint son point de consultation en tournant une page ; sur un écran, il
+    l'atteint ici.
+    """
+    entrées = []
+    if est_livret:
+        for u in unites(html):
+            t = (re.search(r'<h2 id="([^"]+)"[^>]*>(.*?)</h2>', u, re.S)
+                 or re.search(r'<h1 id="([^"]+)"[^>]*>(.*?)</h1>', u, re.S))
+            if not t:
+                continue
+            usage = re.search(r'<span class="use([^"]*)">(.*?)</span>', u, re.S)
+            titre = " ".join(re.sub(r"<[^>]+>", "", t.group(2)).split())
+            cls = "use" + usage.group(1) if usage else ""
+            lab = " ".join(re.sub(r"<[^>]+>", "", usage.group(2)).split()) if usage else ""
+            # la couverture n'a pas d'étiquette d'usage : on lui donne quand
+            # même un marqueur, sinon elle se désaligne de toutes les autres
+            puce = f'<span class="{cls}">{lab}</span>' if lab else '<span class="use nul"></span>'
+            entrées.append(f'<li><a href="#{t.group(1)}">{puce}{titre}</a></li>')
+    else:
+        # la note n'a pas d'unités : ses sections coulent, marquées par h2.sec
+        for i, titre in re.findall(r'<h2 class="sec" id="([^"]+)"[^>]*>(.*?)</h2>', html, re.S):
+            entrées.append(f'<li><a href="#{i}">'
+                           + " ".join(re.sub(r"<[^>]+>", "", titre).split()) + "</a></li>")
+    if len(entrées) < 3:
+        return html
+    panneau = (
+        '<a class="toc-open" href="#sommaire" aria-label="Ouvrir le sommaire">'
+        "\u2630<span> Sommaire</span></a>"
+        '<nav id="sommaire" class="toc" aria-label="Sommaire">'
+        '<p class="toc-head">'
+        '<a class="toc-close" href="#_" aria-label="Fermer le sommaire">\u00d7</a></p>'
+        "<ol>" + "".join(entrées) + "</ol></nav>")
+    return html.replace("<body>", "<body>\n" + panneau, 1)
 
 
 def epub(doc, fs, m):
@@ -222,6 +295,78 @@ def grappes_d_encarts(corps_html):
     return trouvés
 
 
+PLAFOND_LIGNE = 110         # caractères — au-delà, la ligne est rédigée, pas notée
+PLAFOND_REPLIQUE = 190      # une réplique se prononce telle quelle : plus de marge
+MEDIANE_MAX = 60            # caractères — repère de facture, signalé sans faire échouer
+
+# Marqueurs de phrase construite. Volontairement courts et sans ambiguïté :
+# ce sont les tournures qui transforment une notation en récit rédigé. Les
+# impératifs adressés au MJ (« Comptez-les devant eux ») n'en font pas partie,
+# et c'est voulu — ce sont des consignes, pas de la narration.
+
+
+
+def _divs(html, ouvrant):
+    """Contenu de chaque div ouvert par ce motif, imbrication comptée."""
+    res = []
+    for m in re.finditer(ouvrant, html):
+        prof = 1
+        for t in re.finditer(r"</?div\b[^>]*>", html[m.end():]):
+            prof += 1 if t.group(0).startswith("<div") else -1
+            if prof == 0:
+                res.append(html[m.end():m.end() + t.start()])
+                break
+    return res
+
+
+def lignes_a_dire(corps_html):
+    """Les lignes des blocs bleus, en (nombre de signes, réplique ?, texte)."""
+    lignes = []
+    for bloc in _divs(corps_html, r'<div class="say">'):
+        for texte in re.findall(r"<div>\n(.*?)\n</div>", bloc, re.S):
+            nu = " ".join(re.sub(r"<[^>]+>", " ", texte).split())
+            if nu:
+                # la réplique porte .q sur un span, à l'intérieur de la ligne
+                lignes.append((len(nu), 'class="q"' in texte, nu))
+    return lignes
+
+
+def lignes_a_piocher(corps_html):
+    """Une ligne à dire se note, elle ne se rédige pas.
+
+    Le MJ pioche dans une pile de fragments et **fabrique** sa phrase ; il ne
+    récite pas la nôtre. La forme qui le permet est nominale — un sujet, des
+    adjectifs, une matière : « Terre battue, tassée, balayée de frais. » La
+    forme qui l'en empêche est la phrase construite, avec son verbe conjugué
+    et sa subordonnée : « Le sol est en terre battue, qui a été balayée
+    récemment. » La seconde se lit à voix haute telle quelle, et c'est
+    exactement le moment où le livret cesse de servir.
+
+    **Le vrai critère est le style, pas la longueur** — une ligne courte mais
+    rédigée est déjà de la narration prête à réciter. La longueur reste
+    mesurée parce qu'elle attrape les débordements francs, mais c'est le taux
+    de phrases construites qui fait échouer.
+
+    Les répliques sont hors mesure : entre guillemets, elles sont faites pour
+    être prononcées mot pour mot, et un PNJ parle avec des verbes. Les
+    consignes adressées au MJ à l'impératif non plus ne sont pas visées.
+    """
+    lignes = lignes_a_dire(corps_html)
+    if not lignes:
+        return [], []
+    échecs, avertis = [], []
+    for n, repl, texte in lignes:
+        if n > (PLAFOND_REPLIQUE if repl else PLAFOND_LIGNE):
+            échecs.append(f"ligne à dire de {n} signes : « {texte[:60]}… »")
+    ns = sorted(n for n, repl, _ in lignes if not repl)
+    if ns:
+        med = ns[len(ns) // 2] if len(ns) % 2 else (ns[len(ns) // 2 - 1] + ns[len(ns) // 2]) / 2
+        if med > MEDIANE_MAX:
+            avertis.append(f"médiane des lignes à dire : {med:.0f} signes "
+                           f"(repère de facture : {MEDIANE_MAX})")
+    return échecs, avertis
+
+
 def bas_de_texte(page):
     """Bas de la dernière ligne de texte, en mm — hors boîtes de marge."""
     fonds = []
@@ -288,10 +433,21 @@ def controles(rendu, corps_html, m):
     if not est_note(m):
         avertis += grappes_d_encarts(corps_html)
 
-    # 7 — une unité = une page (livret seulement)
+    # 7 — les lignes à dire restent de la matière à piocher (livret seulement)
+    if not est_note(m):
+        e, a = lignes_a_piocher(corps_html)
+        échecs += e
+        avertis += a
+
+    # 8 — le budget de densité d'une unité (livret seulement).
+    #     Avertissement, et non échec : les documents se mènent sur écran, où
+    #     l'unité est une section et non une page. Ce qui reste dur, c'est
+    #     « une unité = un point de consultation » ; la page A4 n'en est plus
+    #     que la mesure — le seul budget automatique qui signale qu'une unité
+    #     a enflé.
     if not est_note(m):
         n_unités = len(unites(corps_html))
-        échecs += debordements(corps_html)
+        avertis += debordements(corps_html)
         if n_unités and n_unités != len(pages):
             avertis.append(f"{n_unités} unités pour {len(pages)} pages")
 

@@ -506,6 +506,141 @@ cinq cosmétiques. La note est en dessous de la fourchette de neuf à douze, et 
 la source est bien écrite, encadrée, avec une chronologie et onze aides de jeu prêtes à distribuer —
 le test « la source est-elle lisible ? » y répond nettement oui, donc **pas de bloc de diff**.
 
+### La dérive des lignes à dire, et le contrôle qui la rattrape
+
+*Passage transverse : ne porte pas sur un scénario mais sur les trois livrets déjà produits.*
+
+**Le constat vient de Yannick, et il était juste :** les lignes des blocs bleus étaient devenues des
+phrases. La mesure a confirmé et daté la dérive — médiane de **16 mots** par ligne de description sur
+*Grand froid* et *Bun & Run*, **19** sur *Terra Insana*, avec 43 % de lignes au-delà de vingt mots
+contre 21 et 26 % pour les deux premiers.
+
+**Ce qui l'a laissée passer, c'est la formulation de la règle.** Le chapitre disait « une ligne = une
+idée » — ce qui autorise une idée longue, et n'interdit rien. La règle réelle, celle que la mesure a
+mise au jour, porte sur le **style** et non sur la taille : une ligne à dire se **note** — un sujet,
+des adjectifs, une matière — et le MJ compose sa phrase ; une ligne **rédigée**, avec verbe conjugué
+et subordonnée, se lit à voix haute telle quelle et lui retire son travail. *« Le sol est en terre
+battue, tassée, balayée récemment »* contre *« Terre battue. Tassée, balayée de frais. »* Le chapitre
+de l'aide de jeu porte désormais la règle, son tableau d'exemples avant/après, et ses trois exceptions
+— répliques, consignes à l'impératif, et la première ligne d'une unité de rampe.
+
+**Le contrôle, lui, ne mesure pas le style — et c'est une décision, pas un renoncement.** Une première
+version comptait les verbes conjugués par liste de formes ; elle produisait des faux positifs dès le
+premier essai, et un contrôle qui crie au loup ne sert à rien. La mesure retenue est la **longueur en
+signes** : 110 pour une description, 190 pour une réplique. Ce n'est pas la règle, c'est son
+symptôme le plus fiable — une ligne rédigée est presque toujours longue. *Proposition de Yannick, et
+c'est la bonne : la règle de style pour écrire, la règle de longueur pour contrôler.*
+
+**Les trois livrets repris.** Médianes ramenées à 48, 52 et 60 signes, plus aucune ligne au-dessus de
+98. Quatre unités ont débordé au passage, pour une raison qui vaut d'être notée : **découper une ligne
+en deux coûte de la hauteur**, parce que chaque ligne à dire porte son propre interlignage. Une unité
+qui tenait tout juste ne tient plus une fois notée. Ce qui a récupéré la page, dans les quatre cas :
+regrouper les fragments qui forment une seule idée, et couper dans la **prose des encarts** — jamais
+dans la matière à dire.
+
+**Une prise annexe, et elle valide une règle du socle.** L'unité de Walter portait, dans son encart
+rouge, un aparté sur l'adresse remontée depuis la source — un commentaire sur notre propre travail de
+production. Le socle interdit qu'un document se commente lui-même ; l'aparté est tombé, et c'est lui
+qui a fait rentrer l'unité dans sa page.
+
+### Le support réel est l'écran, et ce que ça déplace
+
+*Passage transverse, à la suite du précédent : ne porte pas sur un scénario mais sur la chaîne.*
+
+**La question est venue de Yannick, et elle était juste :** *« est-ce qu'on ne se met pas des barrières
+inutiles en essayant de faire tenir les choses dans une seule page, sachant que la norme va être la
+page HTML ? »* Elle arrivait au bout d'une session passée à fusionner des lignes pour récupérer dix
+millimètres sur une unité — donc au meilleur moment pour être posée.
+
+**La réponse tient à une distinction que le modèle ne faisait pas.** « Une unité = une page »
+recouvrait deux règles de valeur très inégale :
+
+- **une unité = un point de consultation** — la règle qui a produit le découpage par victime, par
+  exigence, l'unité flottante. Elle ne dépend d'aucun support, et elle reste dure ;
+- **une unité tient dans une hauteur donnée** — vraie sur le papier, où le MJ tourne une page ; sans
+  objet sur un écran, où l'unité est une section et où rien ne se coupe.
+
+Ce que la seconde continue de valoir, en revanche, c'est un **budget** : une unité qui déborde a
+presque toujours enflé — absorbé sa voisine, ou commencé à raconter au lieu de servir. C'est le seul
+signal automatique de densité qu'on ait. Le contrôle est donc passé **d'échec à avertissement** plutôt
+que d'être supprimé. Conséquence assumée et écrite : *le PDF peut désormais couper une unité en deux.*
+
+**Mais le point important n'était pas là, et c'est la découverte du passage.** Avant de relâcher la
+page, il fallait regarder ce que le HTML offrait à la place. Rien :
+
+- **aucun sommaire.** `--toc` était bien passé à pandoc depuis toujours, et pandoc ne produisait rien.
+  Cause trouvée en réduisant le cas : **il ne remonte pas les titres imbriqués à deux niveaux**. Nos
+  titres d'unité sont dans `.unit` > `.head`. Un `<h2>` dans une seule div donne un sommaire ; dans
+  deux, aucun. Un livret de dix-neuf unités déployé sur GitHub Pages était donc **soixante-cinq
+  kilo-octets à faire défiler**, sans un seul point d'entrée ;
+- **`.table-scroll` définie et jamais posée.** La classe existait dans `web.css` depuis sa création,
+  et aucune balise ne la portait. Sur un téléphone, une note d'arbitrage à dix-sept tableaux, dont un
+  à cinq colonnes, débordait de la fenêtre ;
+- **aucune media query** dans `screen.css` : `max-width: 44rem` et `padding: 1.2rem`, identiques sur
+  un vingt-sept pouces et sur un téléphone.
+
+Autrement dit, la contrainte de page n'était pas la barrière : **elle était la seule chose qui tenait
+lieu de navigation**, et la relâcher sans rien mettre à la place aurait produit des unités plus longues
+dans un document où l'on ne savait déjà pas se déplacer. D'où l'ordre retenu — d'abord rendre le HTML
+menable, ensuite seulement desserrer le budget.
+
+**Ce qui a été construit**, et la règle de conception qui s'en dégage : le sommaire et l'enveloppe des
+tableaux se posent **en post-traitement du site**, jamais dans le filtre Lua. Le PDF est composé depuis
+le même HTML que le site : tout ce qu'on ajoute au flux commun est un risque de pagination pour un gain
+qui ne concerne que l'écran. *Vérifié : les six documents ont gardé leur empreinte au bit près après
+l'ajout.* Même raisonnement pour le sommaire : sortir le `<h2>` de son bandeau `.head` aurait débloqué
+`--toc` — et cassé la charte d'impression pour un résultat identique à ce qu'on obtient en le
+construisant nous-mêmes.
+
+**Deux pièges de mesure, tombés dans la foulée, et tous deux coûteux à diagnostiquer.**
+
+- **Un conteneur multicolonne à hauteur bornée fabrique ses colonnes horizontalement.** Le sommaire
+  utilisait `column-width` ; sous 40 rem il passait à une colonne, avec `max-height` et
+  `overflow-y: auto` — et débordait de l'écran par la droite. Ce n'est pas un bug de navigateur,
+  c'est le fonctionnement du multicolonne. Remplacé par une grille, qui n'a pas ce comportement.
+- **Chrome headless impose un viewport minimal de 500 px**, quelle que soit `--window-size`. Une
+  capture demandée à 390 px découpe une image de 390 px dans une page rendue à 500 : tout paraît
+  coupé à droite, et on croit à un débordement qui n'existe pas. J'y ai perdu trois diagnostics.
+  **La seule mesure fiable sous 500 px passe par l'émulation d'appareil** (`Emulation.setDeviceMetrics`
+  via CDP, ou `emulate` côté outillage), pas par la taille de fenêtre. Vérifié ensuite à 390 px réels :
+  aucun débordement.
+
+Troisième mesure, éditoriale celle-là : **`table-layout: fixed` comprime au lieu de faire défiler.**
+Sans plancher de largeur, un tableau de quinze lignes s'étirait sur **1076 px de haut**, chaque cellule
+sur quatre lignes de texte, plutôt que de déborder de son enveloppe défilante. Un `min-width` sous
+40 rem règle le cas. Reste un constat qu'il ne faut pas masquer : **les tableaux à cinq colonnes de la
+note demandent un défilement horizontal sur téléphone.** C'est acceptable parce que la note se lit
+avant la partie, souvent sur un écran large ; le livret, lui, qui se mène sur téléphone, n'en a que
+deux.
+
+**Un sommaire en tête de document ne suffisait pas, et c'est Yannick qui l'a vu :** *« je remonte tout
+en haut pour utiliser le sommaire ? Pas très pratique non ? »* La première version posait le sommaire
+en tête et un lien « ↑ sommaire » en pied de chaque unité — c'est-à-dire un aller-retour à chaque
+changement de page, pas de la navigation. Refait en **panneau latéral** : un bouton flottant l'ouvre
+depuis n'importe quel point du document, il s'épingle en colonne sur grand écran, et il se referme
+seul quand on clique une entrée. Le tout en `:target`, **sans une ligne de JavaScript** — la contrainte
+« pas de dépendance JavaScript » porte sur la chaîne, mais l'esprit vaut aussi pour la page.
+
+*Une correction de facture, et elle porte un principe.* Les entrées du panneau reprenaient d'abord
+l'étiquette d'usage en pastille pleine, comme dans le bandeau des unités. Sur un livret de dix-neuf
+unités dont **dix-huit portent la même étiquette**, la pastille pesait sans rien apprendre : la
+répétition était le bruit, et l'information était dans l'exception. Réduite à un **chevron coloré** —
+bleu par défaut, ambre pour `À LIRE AVANT`, gris pour la couverture qui n'a pas d'étiquette. La
+couleur porte l'information ; le mot ne servait qu'à la redire.
+
+*Deux pièges de spécificité au passage, tous deux invisibles au diff.* `.toc a { display: block }`
+(0,1,1) écrasait `.toc-close { display: none }` (0,1,0) : le bouton de fermeture restait visible là où
+il ne servait plus. Et le `body` est en **`content-box`** : `max-width` y portait sur le contenu seul,
+le padding du panneau s'ajoutant par-dessus — la largeur maximale ne contraignait donc rien, et la
+colonne de lecture s'étalait sur tout l'écran. Les deux ont été trouvés en mesurant les styles
+calculés, pas en relisant la feuille.
+
+**Promotion au chapitre de l'aide de jeu :** la règle d'or est réécrite autour du point de
+consultation, la contrainte de hauteur devient sa mesure, et une phrase s'y ajoute qui n'existait
+nulle part — **le panneau de navigation est à l'écran ce que la page est au papier**. Sans lui, un
+livret de vingt unités n'a pas de points de consultation : il a un seul long défilement, et tout le
+travail de découpage ne sert plus à rien.
+
 ## Bun & Run
 **Fevertown (kit de découverte v1.2) · source 22 p. + 5 fiches + le kit entier, 32 p. · aide de jeu
 22 p. (après quatre refontes) puis 25 p. · second livrable : dossier de préparation 29 p. puis 37 p.,

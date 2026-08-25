@@ -80,13 +80,34 @@ dans l'aide de jeu : ce n'est pas un document où l'on écrit.
 
 ## Règle d'or de mise en page
 
-**Une unité = une page. Jamais de débordement.**
+**Une unité = un point de consultation.** Une scène, un lieu, un personnage central, un moment de
+parole, le final. C'est la règle dure, et elle ne dépend d'aucun support.
 
-Une unité, c'est un point de consultation : une scène, un lieu, un personnage central, un moment de
-parole, le final. Si le contenu dépasse la page, **on coupe le contenu** ou **on scinde l'unité** — on
-ne laisse jamais filer sur la page suivante. Une page qui se termine à moitié est un bon signe ; une
-unité coupée en deux par un saut de page est une faute : au moment où le MJ tourne la page, il perd le
-fil devant ses joueurs.
+**« Une unité = une page » en est la mesure, pas la définition** — et c'est une distinction qui a
+coûté cher avant d'être faite. Sur le papier, le MJ atteint son point de consultation en tournant une
+page, et une unité coupée en deux lui fait perdre le fil devant ses joueurs : la contrainte de hauteur
+*est* alors la règle. Sur un écran, elle ne l'est plus. L'unité y devient une section, on l'atteint par
+un sommaire, et rien ne se coupe.
+
+**Ce que la contrainte de page continue de valoir, quel que soit le support, c'est un budget.** Une
+unité qui déborde a presque toujours enflé : elle a absorbé ce qui appartenait à sa voisine, ou elle
+s'est mise à raconter au lieu de servir. Le débordement reste donc **le signal automatique de la
+densité d'une unité**, et il n'y en a pas d'autre. Le traiter en avertissement plutôt qu'en faute :
+le regarder toujours, y céder quand la page a raison, l'ignorer quand elle a tort.
+
+**Quand une unité déborde, l'ordre des recours ne change pas.** Chercher d'abord ce qui a enflé et
+n'aurait pas dû : la prose des encarts, un aparté de production, une redondance avec l'unité voisine.
+Puis **scinder plutôt que charcuter** — deux unités claires valent mieux qu'une unité comprimée.
+**Ne jamais rogner la matière à dire pour récupérer une page** : c'est le socle, et c'est la seule
+chose du livret qui ne se remplace pas.
+
+Corollaire du support : **si le document se mène sur écran, il faut qu'on puisse y naviguer.** Un
+livret de vingt unités sans navigation n'a pas de points de consultation — il a un seul long
+défilement, et le découpage ne sert plus à rien. **Le panneau de navigation est à l'écran ce que la
+page est au papier.**
+Un sommaire posé en tête de document n'y suffit pas : il oblige à remonter tout le document à chaque
+changement d'unité, ce qui est un aller-retour et non une navigation. Ce qu'il faut, c'est un accès
+joignable **depuis n'importe quel point** du document.
 
 **Scinder plutôt que charcuter**, quand le contenu résiste. Deux unités claires valent mieux qu'une
 unité comprimée.
@@ -150,6 +171,29 @@ le titre est le seul repère quand le MJ feuillette.
 - **Une ligne = une idée.** Les blocs à dire s'écrivent en **lignes courtes empilées** (`.say`), pas en
   paragraphes. Un paragraphe se lit ; une pile de lignes se pioche. C'est toute la différence à la
   table, et c'est ce qui distingue le plus nettement l'aide de jeu de la note.
+- **Et une ligne se note, elle ne se rédige pas.** C'est la règle la plus facile à perdre de vue, parce
+  qu'elle ne se voit pas ligne à ligne : chacune reste défendable, et le document entier glisse.
+  Le MJ **compose** sa phrase à partir de ce qu'il lit ; il ne récite pas la nôtre. Ce qui le lui
+  permet, c'est la **notation nominale** — un sujet, des adjectifs, une matière. Ce qui le lui
+  interdit, c'est la phrase construite : un verbe conjugué, une subordonnée, une chute. Elle se lit à
+  voix haute telle quelle, et c'est précisément le moment où le livret cesse de servir.
+
+  | Rédigé — le MJ n'a plus qu'à lire | Noté — le MJ compose |
+  |---|---|
+  | Le sol est en terre battue, tassée, balayée récemment. | Terre battue. Tassée, balayée de frais. |
+  | La nuit, il n'y a rien. On s'éclaire à la lampe à pétrole et on rentre avant le noir. | La nuit, **rien**. Lampe à pétrole, retour avant le noir. |
+  | Il n'a pas changé de vêtements depuis des jours. | **Les mêmes vêtements depuis des jours.** |
+  | Une femme d'une cinquantaine d'années ouvre avant qu'on ait frappé. | Une femme d'une cinquantaine d'années, sur le seuil avant qu'on ait frappé. |
+
+  **Trois exceptions, et elles sont nettes.** Les **répliques** entre guillemets : un PNJ parle avec
+  des verbes, et elles sont faites pour être prononcées mot pour mot. Les **consignes au MJ** glissées
+  dans un bloc à dire (« Comptez-les devant eux »), qui sont à l'impératif et s'adressent à lui. Et le
+  **premier vers d'une unité de rampe**, où l'on pose le lieu et l'heure — « L'histoire se passe à
+  Chicago » se dit ainsi et pas autrement.
+
+  *Le contrôle du dépôt mesure la longueur en signes, pas le style : c'est le seul critère qu'une
+  machine tranche sans se tromper, et une ligne rédigée est presque toujours longue. Il attrape la
+  dérive franche ; c'est à la relecture de tenir le reste.*
 - **Les répliques s'écrivent entre guillemets, prêtes à prononcer** (`.say .q`). Ne jamais décrire ce
   qu'un PNJ explique quand on peut écrire ce qu'il dit. Trois à cinq répliques valent mieux qu'un
   paragraphe de synthèse. Les scénarios en fournissent souvent d'excellentes : les recopier telles
@@ -376,7 +420,9 @@ avant de parler, la descente par paliers avec chaque encart au point où il sert
 
 ## Contrôle obligatoire avant livraison
 
-Rendre chaque unité isolément et vérifier qu'elle tient sur une page :
+Rendre chaque unité isolément et regarder combien de pages elle occupe. **Un avertissement, pas une
+faute** : ce qui se corrige, c'est une unité qui a enflé, pas une unité qui dépasse de trois lignes un
+format qu'on n'imprime plus.
 
 ```python
 import re
@@ -392,8 +438,7 @@ for i, u in enumerate(units, 1):
         print(f"DÉBORDE unité {i}: {re.sub(r'<[^>]+>', '', t.group(1)) if t else '?'} ({n} p.)")
 ```
 
-Puis vérifier que **le nombre de pages du PDF égale le nombre d'unités**. Tout écart est un
-débordement à corriger — en coupant, ou en scindant l'unité.
+Puis comparer **le nombre de pages du PDF au nombre d'unités**. L'écart mesure ce qui a enflé.
 
 **Ne pas appliquer au livret le seuil de remplissage de la note.** Le contrôle des pages à moitié vides
 vaut pour un document dont les sections coulent ; ici, une unité qui remplit la moitié de sa page est

@@ -12,6 +12,7 @@ Produit dans out/ :
 Puis lance les contrôles du modèle et sort en code 1 si l'un échoue.
 """
 import hashlib
+import json
 import os
 import re
 import shutil
@@ -53,6 +54,20 @@ def meta(fs):
                 k, v = ligne.split(":", 1)
                 d[k.strip()] = v.strip().strip('"')
     return d
+
+
+def est_note(m):
+    """Le type du document est déclaré, pas deviné.
+
+    Il l'a été un temps : le contrôle de volume reniflait le mot « note » dans
+    le pied de page, si bien qu'un pied libellé autrement désactivait l'alarme
+    des 15 pages en silence. `type:` tranche ; le reniflage reste en repli pour
+    les documents écrits avant.
+    """
+    t = (m.get("type") or "").strip().lower()
+    if t:
+        return t.startswith("note")
+    return "note" in m.get("pied", "").lower()
 
 
 def html_fragment(fs):
@@ -132,7 +147,7 @@ def controles(rendu, corps_html, m):
     pages = rendu.pages
 
     # 1 — volume (règle du chapitre de la note)
-    if "note" in m.get("pied", "").lower() and len(pages) > 15:
+    if est_note(m) and len(pages) > 15:
         échecs.append(f"la note fait {len(pages)} pages : au-delà de 15, il y a de la recopie")
 
     # 2 — pages presque vides
@@ -175,6 +190,13 @@ def main():
 
     corps = html_fragment(fs)
     échecs, avertis = controles(rendu, corps, m)
+
+    # Le nombre de pages ne se relit pas d'un PDF sans outil supplémentaire ;
+    # on le dépose ici pour que scripts/index.py l'affiche sans dépendance.
+    (OUT / f"{doc}.meta.json").write_text(json.dumps({
+        "titre": m.get("title", ""), "type": m.get("type", ""),
+        "scenario": m.get("scenario", ""), "pages": len(rendu.pages),
+    }, ensure_ascii=False), encoding="utf-8")
 
     empreinte = hashlib.sha256(f_pdf.read_bytes()).hexdigest()[:16]
     print(f"  PDF   {len(rendu.pages):2d} p.  {f_pdf.stat().st_size // 1024:4d} Ko  sha {empreinte}")

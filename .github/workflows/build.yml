@@ -44,21 +44,10 @@ jobs:
           sha256sum out/*.pdf > /tmp/second
           diff /tmp/premier /tmp/second && echo "PDF reproductible"
 
+      # La page d'accueil se reconstruit entièrement à chaque passage : ajouter
+      # un scénario, c'est ajouter un répertoire dans src/, rien de plus.
       - name: Index du site
-        run: |
-          {
-            echo '<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">'
-            echo '<meta name="viewport" content="width=device-width,initial-scale=1">'
-            echo '<title>Aides de jeu</title>'
-            echo '<link rel="stylesheet" href="assets/screen.css">'
-            echo '<link rel="stylesheet" href="assets/web.css"></head><body><h1>Aides de jeu</h1><ul>'
-            for f in out/*.html; do
-              n=$(basename "$f" .html)
-              [ "$n" = "index" ] && continue
-              echo "<li><a href=\"$n.html\">$n</a> — <a href=\"$n.pdf\">PDF</a> · <a href=\"$n.epub\">EPUB</a></li>"
-            done
-            echo '</ul></body></html>'
-          } > out/index.html
+        run: python3 scripts/index.py
 
       - uses: actions/upload-artifact@v4
         with:

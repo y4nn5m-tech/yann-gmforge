@@ -1,6 +1,9 @@
 ---
 title: "Bun & Run"
 subtitle: "Note d'arbitrage"
+scenario: "Bun & Run"
+type: note
+jeu: "Fevertown — kit de découverte v1.2"
 pied: "BUN & RUN — note d'arbitrage"
 lang: fr
 ---

@@ -78,14 +78,21 @@ L'en-tête YAML va dans le **premier** fragment, et lui seul :
 ---
 title: "Bun & Run"
 subtitle: "Note d'arbitrage"
+scenario: "Bun & Run"        # groupe les documents d'un même scénario sur l'index
+type: note                   # note | aide — déclare le type, ne le laisse pas deviner
+jeu: "Fevertown — kit de découverte v1.2"
 pied: "BUN & RUN — note d'arbitrage"
 lang: fr
 ---
 ```
 
-**`pied` n'est pas décoratif : il déclare le type du document.** Le contrôle de volume ne se déclenche
-que si `pied` contient le mot « note ». Écrire `pied: "GRAND FROID — arbitrages"` désactive
-silencieusement l'alarme des 15 pages. Pour une note d'arbitrage, le mot doit y être.
+**`type` n'est pas décoratif : c'est lui qui arme le contrôle de volume** (une note au-delà de 15
+pages échoue). Il a été deviné un temps en reniflant le mot « note » dans `pied`, si bien qu'un pied
+libellé autrement désactivait l'alarme en silence ; le reniflage reste en repli, mais un document neuf
+déclare `type`.
+
+`scenario` et `jeu` ne servent qu'à la page d'accueil du site : ils regroupent les documents d'un même
+scénario et nomment le jeu au-dessus. Les omettre ne casse rien — le titre sert alors de groupe.
 
 ## Écrire
 
@@ -98,14 +105,30 @@ sont dans `README.md`, avec un exemple de chacune. Deux rappels qui coûtent che
 - **ne jamais renvoyer à un numéro de page** dans le corps du texte : la pagination bouge à chaque
   reprise. Renvoyer par le titre. Un contrôle le vérifie.
 
-## Compiler et lire les contrôles
+## Valider le fond avant de compiler
+
+**L'échange sur le contenu se fait sur le Markdown, en conversation.** Ne pas compiler pour montrer le
+résultat, ne pas ouvrir de navigateur, ne rien rendre en local pour faire valider : ce qui se discute
+à cette étape, c'est le fond — les arbitrages retenus, les chiffres, les croisements, le découpage.
+La mise en forme est arrêtée depuis longtemps et n'a pas besoin d'être revue à chaque document.
+
+Tant que le fond n'est pas validé, on itère sur les fragments. Rien d'autre.
+
+## Puis compiler — comme un lint, pas comme un aperçu
+
+Une fois le fond validé :
 
 ```
 python3 build.py <nom-du-document>
 ```
 
-Trois sorties dans `out/`, puis quatre contrôles. **Un contrôle qui échoue signale un défaut du
-document, pas un défaut du script** — ne jamais le désactiver pour faire passer un build.
+Trois sorties dans `out/`, puis quatre contrôles. **C'est le seul but de cette compilation locale** :
+les contrôles n'existent qu'au moment du build, et sans elle on découvrirait en CI, après le push,
+qu'une note fait 17 pages. Le PDF produit ne se montre pas et ne s'ouvre pas — il n'est là que pour
+être mesuré.
+
+**Un contrôle qui échoue signale un défaut du document, pas un défaut du script** — ne jamais le
+désactiver pour faire passer un build. Corriger les fragments, recompiler.
 
 | Contrôle | Ce qu'il attrape |
 |---|---|
@@ -116,6 +139,19 @@ document, pas un défaut du script** — ne jamais le désactiver pour faire pas
 
 Un avertissement (`·`) n'arrête pas le build : une page à 27 % est souvent une fin de section
 légitime. Un `ÉCHEC` sort en code 1.
+
+## Commit, push, et c'est la CI qui publie
+
+**Ne jamais committer ni pousser sans accord explicite.** Le fond validé et les contrôles passés, le
+demander, puis committer les fragments (`src/`) — jamais `out/`, ni `sources/`, tous deux ignorés.
+
+Le push déclenche la CI, qui recompile, rejoue les contrôles, **vérifie la reproductibilité** en
+compilant deux fois et en comparant les empreintes, reconstruit la page d'accueil et déploie sur
+GitHub Pages. C'est **là** que le document se regarde : sur le site déployé, pas en local.
+
+La page d'accueil (`scripts/index.py`) se reconstruit entièrement à chaque passage, en lisant les
+en-têtes YAML de `src/`. Il n'y a aucune liste à tenir à jour : ajouter un scénario, c'est ajouter un
+répertoire.
 
 ---
 

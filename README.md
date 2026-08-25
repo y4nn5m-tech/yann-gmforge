@@ -22,6 +22,7 @@ python3 build.py note-bun-and-run
 
 ```
 scripts/extraire.py   la passe mécanique : un PDF source → texte greppable + manifeste
+scripts/index.py      la page d'accueil du site, reconstruite à chaque build
 assets/print.css      charte d'impression — la feuille canonique du socle
 assets/screen.css     même identité, régime reflowable : site et EPUB
 assets/web.css        extras du site seul : mode sombre, tableaux qui défilent
@@ -34,6 +35,32 @@ modele/               le modèle lui-même, versionné — voir modele/README.md
 
 `modele/` est une **copie** des docs du projet claude.ai, pas leur source : le dépôt ne les charge pas,
 il les historise. La synchronisation est manuelle et le projet fait foi.
+
+## L'en-tête YAML
+
+Dans le **premier** fragment, et lui seul :
+
+```yaml
+---
+title: "Bun & Run"
+subtitle: "Note d'arbitrage"
+scenario: "Bun & Run"        # groupe les documents d'un scénario sur l'index
+type: note                   # note | aide — arme le contrôle de volume
+jeu: "Fevertown — kit de découverte v1.2"
+pied: "BUN & RUN — note d'arbitrage"
+lang: fr
+---
+```
+
+`type` est le seul champ dont l'absence a une conséquence silencieuse : sans lui, le type est deviné en
+cherchant le mot « note » dans `pied`, et un pied libellé autrement laisse passer une note de 20 pages.
+
+## La page d'accueil
+
+`scripts/index.py` lit les en-têtes YAML de `src/`, regarde ce qui existe dans `out/`, et écrit
+`out/index.html` : un bloc par scénario, ses documents en dessous, chacun avec ses trois formats et son
+nombre de pages. **Aucune liste à tenir à jour** — ajouter un scénario, c'est ajouter un répertoire
+dans `src/`. La CI la reconstruit à chaque passage avant de déployer.
 
 ## Conventions d'écriture
 

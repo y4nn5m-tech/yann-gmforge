@@ -1,4 +1,8 @@
-# Chaîne de fabrication — aides de jeu et notes d'arbitrage
+# yann-gmforge
+
+Transformer un scénario du commerce en documents menables : un **livret de table** (l'aide de jeu) et
+une **note d'arbitrage**. Le dépôt contient le modèle éditorial qui les définit et la chaîne qui les
+fabrique.
 
 Une source Markdown, trois sorties : **PDF** (charte d'impression), **HTML** (GitHub Pages),
 **EPUB** (tablette).

@@ -110,8 +110,18 @@ simple compilateur.
 | renvois d'arbitrage | un `(A4)` qui ne pointe sur aucun arbitrage défini |
 | numéros de page | un « voir page 12 » dans le corps du texte, interdit par le socle |
 
-Reste à ajouter pour l'aide de jeu : **le contrôle unité par unité** (une unité = une page), qui
-existe déjà comme script dans le chapitre du livrable.
+## Chantiers ouverts
+
+*Instantané, à relire d'un œil méfiant — cette section vieillit, contrairement à `CLAUDE.md`.*
+
+- **Le calage de la CSS sur l'arbre de pandoc.** À la main, la note faisait 8 pages ; par la chaîne,
+  10. La cause est diffuse : pandoc normalise l'arbre — enveloppe dans des `<p>`, ajoute des id,
+  restructure les cellules — et la CSS rencontre un arbre différent de celui pour lequel elle a été
+  réglée. C'est un réglage unique à faire une fois, après quoi la sortie de la chaîne devient la
+  référence. Ne pas chercher un coupable unique.
+- **La conversion de l'aide de jeu**, la partie difficile : sa règle centrale est « une unité = une
+  page », et elle demande **le contrôle unité par unité**, qui existe déjà comme script dans le
+  chapitre du livrable mais pas dans `build.py`.
 
 ## Ce que le régime reflowable change
 

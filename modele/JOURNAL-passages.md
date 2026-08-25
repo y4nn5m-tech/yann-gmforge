@@ -25,7 +25,8 @@ bijoutier (George / « William D. » dans le dossier de police), les dates d'exp
 entre la plaque du musée et le dossier militaire.
 
 ## Grand froid
-**Cthulhu Hack · source 23 p. · aide de jeu 18 p. puis 13 p. · note d'arbitrage 8 p. puis 9 p.**
+**Cthulhu Hack · source 23 p. · aide de jeu 18 p. puis 13 p. puis 17 p. · note d'arbitrage 8 p. puis
+9 p. puis 10 p.**
 
 Scénario 5 de la campagne *Wendigo*. Chicago sous −30 °C, cinq victimes en cinq jours.
 
@@ -240,6 +241,84 @@ n'a rien recopié, jamais qu'on a bien lu.
 
 Volume : **8 → 9 pages**. Le document a grossi d'une page en perdant une mécanique et en gagnant de la
 matière : c'est exactement l'échange que le passage cherchait.
+
+### Quatrième passage — les deux livrables par la chaîne
+
+Premier passage **entièrement dans le dépôt**, et le premier où l'aide de jeu passe par `build.py`.
+Le scénario a été redonné à neuf, sans rouvrir les trois arbitrages que Yannick avait tranchés
+(A2 supprimé, A1 enrichi, B6 remplacé) : ils sont repris tels quels sous leurs nouveaux numéros.
+Rendu **note 10 pages, livret 17 unités / 17 pages**.
+
+**Ce que l'extraction mécanique a confirmé, et ce qu'elle a raté.** `scripts/extraire.py` n'a signalé
+qu'une page creuse — une pleine page illustrée sans fait unique. En revanche il n'a **pas** signalé
+les deux aides de jeu à distribuer, F01 et F02, dont le texte est manuscrit et n'existe donc pas dans
+`texte.txt` : elles partagent leur page avec de la prose dense, et la densité médiane les masque.
+Il a fallu rendre les pages 4 et 8 en image pour les lire. → **candidat à la promotion dans
+`MODELE-analyse.md`** : la liste des pièces à réclamer mentionne les aides citées par un code ; il
+faut ajouter que **le manifeste ne les trouvera pas** quand elles sont manuscrites sur une page par
+ailleurs bien remplie — les chercher par leur code (« aide F0… ») dans le texte, puis rendre ces
+pages-là.
+
+**Quatre arbitrages nouveaux, tous nés d'un croisement que personne n'avait fait.**
+
+- **Les deux séquelles tombent exactement sur les jets du final.** La bourrasque fêle un bras et donne
+  un Désavantage « à tous les tests de combat ou de Dextérité *jusqu'à la fin du scénario* » — or le
+  tir sur les réservoirs est une Sauvegarde de Dextérité **déjà à Désavantage**. Et le bassin de la
+  villa rend malade « pendant deux jours » sur les Sauvegardes physiques, quand le scénario en dure
+  deux et demi et que le Gel est une Sauvegarde de Constitution. La source distribue ces deux
+  séquelles à six pages de sa propre scène finale et ne les croise jamais. Retenu, pour une table
+  débutante : **une seule case de séquelle par personnage, effacée à la nuit**, et jamais de bras
+  fêlé sur le tireur avant le lac. → **candidat à `MODELE-formes.md`, chapitre C** : dans une enquête
+  sérielle, relever les séquelles à durée longue **et vérifier sur quel jet du final elles
+  retombent** — c'est la même famille d'erreur que le croisement du décor final, mais côté PJ.
+- **L'ordre de la lettre est l'ordre des morts.** *Walter, Dorothea, Sherlyn, Stephen, Tahlia* —
+  exactement la chronologie, sur une aide de jeu qu'on pose physiquement sur la table, et la source ne
+  le signale nulle part. C'est la meilleure minute de la partie et elle est gratuite. → **candidat à
+  `MODELE-analyse.md`** : quand une source fournit un document à distribuer qui **liste** des noms,
+  vérifier si l'ordre de la liste porte une information — les auteurs écrivent la liste et la
+  chronologie séparément.
+- **Terry Campbell est « ancien serrurier », et la porte du local technique a été crochetée.** Sept
+  pages d'écart, lien jamais fait, et c'est la preuve matérielle qui relie le mari de Memengwaa à la
+  mort de Sherlyn **avant** qu'on sache qu'il existe un Wendigo. C'est aussi exactement ce que
+  l'atout *Crochetage* de Steven Brooks permet de lire — son atout ne sert pas à entrer, il sert à
+  lire le travail d'un autre.
+- **La fascination est une spirale, pas un état.** 1d6 Moments sans action, réveil sur Sauvegarde de
+  Charisme, et **l'échec double la durée** : à cinq joueurs, deux échecs enchaînés arrêtent le final.
+  Retenu : réveil par contact physique sans jet, et jamais plus de deux fascinés à la fois.
+
+**Un chiffre que je n'ai pas refait, et il faut le dire.** Le troisième passage concluait que le corps
+à corps est perdu d'un facteur cinq, et le calcul a été vérifié page par page à l'époque. Ici, sans le
+livre de base sous la main, la règle de toucher n'était pas vérifiable : la note pose donc les chiffres
+certains — 34 puis 18 Points de Vie, 4 d'armure, **trois prétirés sur cinq sans arme donc à zéro après
+armure**, jusqu'à 16 Points de Vie rendus par Moment — et s'arrête avant le nombre de Moments, avec la
+réserve écrite en petit. La conclusion (« sans feu, c'est perdu ») ne dépend d'aucune règle.
+→ **candidat au socle**, en complément de « avant de livrer une affirmation forte, retourner à la
+page » : **quand la page ne suffit pas, livrer le calcul sans son résultat plutôt que le résultat sans
+sa vérification.** Une note d'arbitrage ne vaut que par l'exactitude de ses chiffres.
+
+**Trois leçons de production, et elles portent sur la chaîne.**
+
+- **Le régime `.unit` manquait un bloc.** Les lignes à dire (`.say`) sortaient en paragraphes, que la
+  charte ne sait pas rendre : le filtre Lua les habille désormais en `<div>`, sur la même mécanique
+  que la micro-grille. La note recompile au bit près après la modification — c'est le seul contrôle
+  qui prouve qu'on n'a rien cassé.
+- **Le contrôle unité par unité est passé du chapitre à `build.py`.** Il a immédiatement servi : la
+  villa Moore débordait sur deux pages, et il l'a nommée. Scindée en *le jardin et John* d'un côté,
+  *Monsieur Moore — le premier reflet* de l'autre — ce qui était déjà l'objectif de l'unité, puisque
+  toute la page existait pour faire parler le témoin. **Scinder plutôt que charcuter, une fois de
+  plus.** Au passage, les contrôles se différencient maintenant par `type:` : le remplissage et les
+  renvois d'arbitrage ne valent que pour la note, le débordement ne vaut que pour le livret.
+- **Le bloc ambre long, deuxième occurrence.** Le second passage avait noté qu'un bloc coloré de plus
+  d'une douzaine de lignes ne peut pas se couper, à cause du `break-inside: avoid` de la feuille
+  canonique, et laissait la promotion en suspens : « à promouvoir si le cas se reproduit ». **Il se
+  reproduit, sur le même scénario** — le bloc des neuf arbitrages de table laisse une page à 53 %.
+  Le document reste dans la fourchette et le build passe, donc rien n'a été touché ; mais la règle du
+  socle (« réserver `break-inside: avoid` aux blocs colorés ») est bien trop générale, et la
+  correction attend toujours : `.warn.long { break-inside: auto }`, ou scinder le bloc B.
+
+**Volume : 8 → 9 → 10 pages pour la note.** La page gagnée est celle des quatre croisements — la
+planche trait × scène a doublé, parce qu'elle porte maintenant les traits *et* les faits que la source
+n'a pas reliés entre eux. C'est le bon sens de l'échange.
 
 ## La Fille du Seigneur de l'Hiver
 **Chroniques Oubliées Fantasy · source 14 p. · rendu 17 p.**

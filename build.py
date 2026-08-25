@@ -13,6 +13,7 @@ Puis lance les contrôles du modèle et sort en code 1 si l'un échoue.
 """
 import hashlib
 import json
+import logging
 import os
 import re
 import shutil
@@ -123,6 +124,7 @@ def pdf(doc, fs, m):
             f"</head><body>{corps}</body></html>")
     tmp = ASSETS / "_build.html"
     tmp.write_text(page, encoding="utf-8")
+    AVERTISSEMENTS.messages.clear()
     try:
         rendu = HTML(filename=str(tmp)).render()
         cible = OUT / f"{doc}.pdf"
@@ -138,10 +140,15 @@ def site(doc, fs, m):
     for f in ("screen.css", "web.css"):
         shutil.copy(ASSETS / f, css / f)
     cible = OUT / f"{doc}.html"
+    # `title` vidé : le document porte déjà son titre dans le premier fragment
+    # (c'est lui que le PDF compose). Sans ça, pandoc ajoute son propre
+    # title-block et le titre apparaît deux fois sur le site. Le `<title>` de
+    # l'onglet vient de `pagetitle`, qui n'alimente pas ce bloc.
     subprocess.run(PANDOC_COMMUN + [*map(str, fs), "--to", "html5", "--standalone",
                                     "--toc", "--toc-depth=2",
                                     "--css", "assets/screen.css",
                                     "--css", "assets/web.css",
+                                    "--metadata", "title=",
                                     "--metadata", f"pagetitle={m.get('title','')}",
                                     "-o", str(cible)], check=True)
     return cible
@@ -159,6 +166,61 @@ def epub(doc, fs, m):
 
 
 # ------------------------------------------------------------------ contrôles
+
+class _Avertissements(logging.Handler):
+    """WeasyPrint signale les défauts de feuille de style en WARNING, et continue.
+
+    Un sélecteur invalide, une propriété inconnue, une police introuvable : le
+    PDF sort quand même, silencieusement dégradé. C'est ainsi qu'un commentaire
+    CSS imbriqué a fait tomber le `@font-face` de la police régulière sans que
+    personne le voie — le texte passait sur une police système, plus large, et
+    les unités débordaient d'une ligne. Trois pages de trop sur un livret, et un
+    rendu qui dépendait de la machine de build.
+
+    Ici, un avertissement est un échec : c'est le seul contrôle qui protège la
+    reproductibilité en amont du diff d'empreintes.
+    """
+
+    def __init__(self):
+        super().__init__(level=logging.WARNING)
+        self.messages = []
+
+    def emit(self, record):
+        self.messages.append(" ".join(record.getMessage().split())[:150])
+
+
+AVERTISSEMENTS = _Avertissements()
+logging.getLogger("weasyprint").addHandler(AVERTISSEMENTS)
+
+
+def grappes_d_encarts(corps_html):
+    """Les encarts se posent où ils servent, pas en pile à la fin de l'unité.
+
+    Une unité se lit comme la scène se joue : ce qu'on doit savoir avant de
+    parler, puis la descente par paliers avec chaque encart au point où sa
+    matière tombe, puis la sortie. Une grappe de quatre encarts en pied de page
+    est le signe qu'on a rédigé la description d'abord et rangé le reste après —
+    à table, le MJ cherche alors le jet trois écrans plus bas que la phrase qui
+    le déclenche.
+
+    Le contrôle ne vaut que pour les unités qui **descendent par paliers** :
+    une page de référence (la conclusion, un profil, une table de mécanique)
+    n'a pas de progression, donc pas d'alternance à respecter.
+    """
+    trouvés = []
+    for i, u in enumerate(unites(corps_html), 1):
+        jalons = re.findall(r'<h3[^>]*>|<div class="(?:dire|jeu|mj|obj|warn)\b', u)
+        if sum(1 for j in jalons if j.startswith("<h3")) < 2:
+            continue
+        seq = "".join("T" if j.startswith("<h3") else "E" for j in jalons)
+        tête, pied = len(seq) - len(seq.lstrip("E")), len(seq) - len(seq.rstrip("E"))
+        if tête > 2 or pied > 2:
+            t = re.search(r"<h2[^>]*>(.*?)</h2>", u, re.S)
+            titre = " ".join(re.sub(r"<[^>]+>", "", t.group(1)).split()) if t else f"unité {i}"
+            trouvés.append(f"« {titre} » : {tête} encart(s) avant le premier palier, "
+                           f"{pied} en pied — les poser où ils servent")
+    return trouvés
+
 
 def bas_de_texte(page):
     """Bas de la dernière ligne de texte, en mm — hors boîtes de marge."""
@@ -215,7 +277,18 @@ def controles(rendu, corps_html, m):
     if re.search(r"\bvoir (la )?page \d+", corps_html, re.I):
         échecs.append("renvoi à un numéro de page dans le corps du texte")
 
-    # 5 — une unité = une page (livret seulement)
+    # 5 — la charte d'impression parse-t-elle sans faute ?
+    #     Ne porte que sur print.css, la seule feuille que WeasyPrint rende :
+    #     screen.css et web.css visent un navigateur et utilisent légitimement
+    #     des règles qu'il ne connaît pas (@media, overflow-x).
+    for a in dict.fromkeys(AVERTISSEMENTS.messages):
+        échecs.append(f"charte d'impression : {a}")
+
+    # 6 — les encarts se posent où ils servent (livret seulement)
+    if not est_note(m):
+        avertis += grappes_d_encarts(corps_html)
+
+    # 7 — une unité = une page (livret seulement)
     if not est_note(m):
         n_unités = len(unites(corps_html))
         échecs += debordements(corps_html)

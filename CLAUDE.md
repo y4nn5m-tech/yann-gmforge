@@ -103,7 +103,12 @@ sont dans `README.md`, avec un exemple de chacune. Deux rappels qui coûtent che
   joueurs) · `jeu` (mécanique) · `mj` (réservé au MJ) · `obj` (pilotage de scène) · `warn`
   (arbitrage). N'en ajoute aucune, n'en détourne aucune ;
 - **ne jamais renvoyer à un numéro de page** dans le corps du texte : la pagination bouge à chaque
-  reprise. Renvoyer par le titre. Un contrôle le vérifie.
+  reprise. Renvoyer par le titre. Un contrôle le vérifie ;
+- **dans l'aide de jeu, un encart se pose où sa matière sert**, pas en pile à la fin de l'unité. Ce
+  qu'on lit avant de parler en tête (deux au plus), la descente par paliers ensuite avec le jet juste
+  après la phrase qui le déclenche et la vérité juste après l'indice qu'elle explique, la sortie en
+  pied. Test : un encart doit répondre à une phrase qui vient d'être dite ; s'il n'en dépend
+  d'aucune, c'est un palier. Un contrôle l'avertit.
 
 ## Valider le fond avant de compiler
 
@@ -130,13 +135,20 @@ qu'une note fait 17 pages. Le PDF produit ne se montre pas et ne s'ouvre pas —
 **Un contrôle qui échoue signale un défaut du document, pas un défaut du script** — ne jamais le
 désactiver pour faire passer un build. Corriger les fragments, recompiler.
 
+Une exception à connaître : **le contrôle « charte d'impression » signale un défaut de la feuille**,
+pas du document. Il existe parce qu'un commentaire CSS imbriqué a fait tomber le `@font-face` de la
+police régulière sans rien casser visiblement — le texte passait sur une police système, plus large,
+et les unités débordaient. WeasyPrint le disait en avertissement, et le build l'ignorait.
+
 | Contrôle | Sur quoi | Ce qu'il attrape |
 |---|---|---|
 | volume | note | une note d'arbitrage de plus de 15 pages : il y a de la recopie |
 | pages presque vides | note | une page qui ne porte qu'une ou deux lignes |
 | renvois d'arbitrage | note | un `(A4)` qui ne pointe sur aucun arbitrage défini |
 | numéros de page | les deux | un « voir page 12 » dans le corps du texte |
+| charte d'impression | les deux | un avertissement de WeasyPrint : sélecteur invalide, police introuvable |
 | une unité = une page | aide | une unité rendue seule qui tient sur deux pages |
+| encarts à leur place | aide | plus de deux encarts avant le premier palier, ou en pied d'unité |
 
 **Les contrôles ne sont pas les mêmes selon `type:`.** Une aide de jeu n'est pas mesurée au
 remplissage — une unité à moitié pleine y est normale — et ses renvois `— A4` pointent vers la note,

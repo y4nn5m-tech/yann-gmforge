@@ -98,6 +98,11 @@ Un tableau — **grille**, avec les largeurs déclarées, jamais déduites du de
 Les fusions de cellules sur plusieurs lignes marchent : il suffit d'omettre le trait horizontal
 entre deux rangées.
 
+**Où placer un encart :** un encart doit répondre à une phrase qui vient d'être dite. S'il peut
+remonter de trois paragraphes sans que rien ne se casse, il est mal placé ; s'il n'est rattaché à
+aucune phrase, ce n'est pas un encart mais de la matière à dire, donc un palier. Un contrôle le
+vérifie.
+
 Un bloc de lignes à dire (aide de jeu) — **une idée par ligne**, à piocher, jamais à lire d'un
 trait :
 
@@ -147,22 +152,49 @@ simple compilateur.
 | pages presque vides | note | une page qui ne porte qu'une ou deux lignes |
 | renvois d'arbitrage | note | un `(A4)` qui ne pointe sur aucun arbitrage défini |
 | numéros de page | les deux | un « voir page 12 » dans le corps du texte, interdit par le socle |
+| **charte d'impression** | **les deux** | **un avertissement de WeasyPrint : sélecteur invalide, police introuvable** |
 | **une unité = une page** | **aide** | **une unité rendue seule qui tient sur deux pages** |
+| **encarts à leur place** | **aide** | **plus de deux encarts avant le premier palier, ou en pied d'unité** |
 
 Les trois premiers ne s'appliquent **qu'à la note**, et le dernier **qu'à l'aide de jeu** : dans un
 livret, une unité qui remplit la moitié de sa page est normale — ce qui s'y mesure, c'est le
 débordement. C'est aussi pourquoi les renvois `— A4` du livret, qui pointent vers la note, ne sont
 pas vérifiés.
 
+**Le contrôle des encarts est le seul qui porte sur l'éditorial**, et c'est un avertissement : une
+unité se lit dans l'ordre où la scène se joue — ce qu'il faut savoir avant de parler, puis la descente
+par paliers avec **chaque encart au point où sa matière tombe**, puis la sortie. Une pile d'encarts en
+pied de page est le signe qu'on a rédigé la description d'abord et rangé le reste après ; à table, le
+MJ cherche alors le jet trois écrans plus bas que la réplique qui l'appelle. Les unités qui ne
+descendent pas par paliers — la conclusion, un profil, une table de mécanique — en sont exclues
+automatiquement.
+
+**Le contrôle de la charte est celui qui protège la reproductibilité en amont.** WeasyPrint signale
+les défauts de feuille en avertissement *et produit le PDF quand même* : un sélecteur invalide, une
+police introuvable, et le document sort silencieusement dégradé. Il ne porte que sur `print.css` —
+`screen.css` et `web.css` visent un navigateur et utilisent légitimement des règles que WeasyPrint
+ignore (`@media`, `overflow-x`).
+
 ## Chantiers ouverts
 
 *Instantané, à relire d'un œil méfiant — cette section vieillit, contrairement à `CLAUDE.md`.*
 
-- **Le calage de la CSS sur l'arbre de pandoc.** À la main, la note faisait 8 pages ; par la chaîne,
-  10. La cause est diffuse : pandoc normalise l'arbre — enveloppe dans des `<p>`, ajoute des id,
-  restructure les cellules — et la CSS rencontre un arbre différent de celui pour lequel elle a été
-  réglée. C'est un réglage unique à faire une fois, après quoi la sortie de la chaîne devient la
-  référence. Ne pas chercher un coupable unique.
+- ~~**Le calage de la CSS sur l'arbre de pandoc.**~~ **Clos.** La cause n'était pas diffuse, et ce
+  n'était pas un problème de réglage : c'étaient **deux bugs**, trouvés en comparant un PDF écrit
+  hors chaîne à la même source compilée.
+  1. Un **commentaire CSS imbriqué** en tête de `print.css` (`… signalées par /* [dépôt] */.`) : les
+     commentaires CSS ne s'imbriquent pas, ce `*/` refermait l'en-tête, et le sélecteur invalide qui
+     s'ensuivait **avalait le premier `@font-face`** — celui de la police régulière. `pdffonts` ne
+     montrait que Bold, Italic et Bold-Italic ; le texte courant tombait sur une substitution
+     système, plus large, et les unités débordaient. C'était aussi une bombe de reproductibilité :
+     le rendu dépendait des polices de la machine de build.
+  2. Le filtre insérait un **`<br>` après chaque étiquette de bloc**, alors que `.lab` est
+     `display:block` dans les deux feuilles — une ligne vide par bloc coloré, cinq par unité de
+     livret.
+  Plus un calage réel, celui-là : `.head p { margin:0 }`, parce que pandoc enveloppe l'étiquette
+  d'usage dans un `<p>` que la feuille canonique n'a pas (même famille que `td p` et `.loc .ln p`).
+  **Vérification** : *Bun & Run*, sans qu'une ligne change, est passée de 10 à 8 pages — la valeur
+  que le journal attribuait à la composition « à la main ».
 - **La conversion de l'aide de jeu.** Le régime `.unit`, les lignes à dire et le contrôle unité par
   unité sont passés dans la chaîne avec *Grand froid* — c'est ce contrôle qui a attrapé la villa
   Moore, qui débordait sur deux pages. Reste à éprouver sur une autre forme d'intrigue : le

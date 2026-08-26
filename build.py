@@ -57,8 +57,8 @@ def meta(fs):
     return d
 
 
-def est_note(m):
-    """Le type du document est déclaré, pas deviné.
+def type_doc(m):
+    """`note` · `aide` · `annote` — déclaré, jamais deviné.
 
     Il l'a été un temps : le contrôle de volume reniflait le mot « note » dans
     le pied de page, si bien qu'un pied libellé autrement désactivait l'alarme
@@ -66,9 +66,28 @@ def est_note(m):
     les documents écrits avant.
     """
     t = (m.get("type") or "").strip().lower()
-    if t:
-        return t.startswith("note")
-    return "note" in m.get("pied", "").lower()
+    if t.startswith("annot"):
+        return "annote"
+    if t.startswith("note"):
+        return "note"
+    if t.startswith("aide"):
+        return "aide"
+    return "note" if "note" in m.get("pied", "").lower() else "aide"
+
+
+def est_note(m):
+    return type_doc(m) == "note"
+
+
+def coule(m):
+    """Les documents dont les sections coulent, par opposition au livret.
+
+    La note et le scénario annoté partagent le même régime de mise en page —
+    `h2.sec` et `.card` — donc les mêmes contrôles de remplissage et de renvois.
+    Ce qui les sépare est le volume : la note complète la source en huit à douze
+    pages, l'annoté la **remplace** et pèse forcément davantage.
+    """
+    return type_doc(m) in ("note", "annote")
 
 
 def unites(corps_html):
@@ -152,7 +171,7 @@ def site(doc, fs, m):
                                     "--metadata", f"pagetitle={m.get('title','')}",
                                     "-o", str(cible)], check=True)
     page = tableaux_defilants(cible.read_text(encoding="utf-8"))
-    cible.write_text(sommaire(page, not est_note(m)), encoding="utf-8")
+    cible.write_text(sommaire(page, not coule(m)), encoding="utf-8")
     return cible
 
 
@@ -295,6 +314,7 @@ def grappes_d_encarts(corps_html):
     return trouvés
 
 
+PLAFOND_EXPLICATION = 3000  # signes — l'explication de texte tient sur une page, pas deux
 PLAFOND_LIGNE = 110         # caractères — au-delà, la ligne est rédigée, pas notée
 PLAFOND_REPLIQUE = 190      # une réplique se prononce telle quelle : plus de marge
 MEDIANE_MAX = 60            # caractères — repère de facture, signalé sans faire échouer
@@ -367,6 +387,38 @@ def lignes_a_piocher(corps_html):
     return échecs, avertis
 
 
+def explication(corps_html):
+    """L'explication de texte en tête de note — sa longueur, et rien d'autre.
+
+    Elle répond à la question qu'on se pose en refermant la source : *et
+    maintenant, comment je mène ça ?* Elle ne redit donc rien de ce qu'on vient
+    de lire — elle nomme l'espèce du scénario, le verbe des joueurs, les
+    compteurs à tenir, et les points de rupture.
+
+    **Le seul garde-fou automatisable est la longueur**, et il n'est pas
+    décoratif : c'est exactement ce bloc qui, laissé libre, a produit une note
+    de 37 pages sur « Bun & Run » en racontant l'intrigue au lieu de l'exposer.
+    On ne raconte pas une histoire en une page ; on ne peut qu'en exposer la
+    charpente. Le reste — ne rien redire de la source — se relit à la main.
+
+    Mesuré : tout ce qui précède la première section, hors titre, sous-titre et
+    table de routage.
+    """
+    i, j = corps_html.find("<body>"), corps_html.find('<h2 class="sec"')
+    tete = corps_html[:j] if j > 0 else ""
+    if i >= 0:
+        tete = tete[i:]
+    for cls in ("eyebrow", "subtitle", "rule"):
+        tete = re.sub(rf'<div class="{cls}">.*?</div>', "", tete, flags=re.S)
+    tete = re.sub(r"<h1.*?</h1>", "", tete, flags=re.S)
+    tete = re.sub(r"<table>.*?</table>", "", tete, flags=re.S)
+    n = len(" ".join(re.sub(r"<[^>]+>", " ", tete).split()))
+    if n > PLAFOND_EXPLICATION:
+        return [f"l'explication de texte fait {n} signes (max {PLAFOND_EXPLICATION}) — "
+                "elle raconte au lieu d'exposer"]
+    return []
+
+
 def bas_de_texte(page):
     """Bas de la dernière ligne de texte, en mm — hors boîtes de marge."""
     fonds = []
@@ -391,12 +443,15 @@ def controles(rendu, corps_html, m):
     # 1 — volume (règle du chapitre de la note)
     if est_note(m) and len(pages) > 15:
         échecs.append(f"la note fait {len(pages)} pages : au-delà de 15, il y a de la recopie")
+    if type_doc(m) == "annote" and len(pages) > 24:
+        échecs.append(f"le scénario annoté fait {len(pages)} pages : au-delà de 24, il ne remplace "
+                      "plus la source, il la double")
 
     # 2 — pages presque vides. Seulement pour la note : dans le livret, une
     #     unité qui remplit la moitié de sa page est normale et souvent
     #     souhaitable (mesuré de 49 % à 87 % sur un livret validé). Ce qui s'y
     #     mesure, c'est le débordement — contrôle 5.
-    if est_note(m):
+    if coule(m):
         for i, p in enumerate(pages, 1):
             b = bas_de_texte(p)
             if b is None:
@@ -407,14 +462,21 @@ def controles(rendu, corps_html, m):
             elif taux < 62 and i not in (1, len(pages)):
                 avertis.append(f"p.{i} remplie à {taux:.0f} % — fin de section ?")
 
+    # 2 bis — l'explication de texte tient sur une page (note seulement)
+    if est_note(m):
+        échecs += explication(corps_html)
+
     # 3 — renvois d'arbitrage dans le vide. Le livret, lui, renvoie à la note
     #     par un tiret (« on retient Y — A4 ») : ces numéros-là sont définis
     #     dans l'autre document, et les vérifier ici n'aurait aucun sens.
     définis = set(re.findall(r'class="lab">([ABC]\d)\s*—', corps_html))
     définis |= set(re.findall(r"<strong>([ABC]\d)</strong>", corps_html))
+    # les arbitrages de table sont groupés dans un seul bloc, chacun ouvert par
+    # « **B1 — titre** » : c'est la forme que prescrit le chapitre de la note
+    définis |= set(re.findall(r"<strong>([ABC]\d)\s*—", corps_html))
     définis |= set(re.findall(r"\b([ABC]\d) ·", corps_html))
     cités = set(re.findall(r"\(([ABC]\d)\)", corps_html))
-    orphelins = (cités - définis) if est_note(m) else set()
+    orphelins = (cités - définis) if coule(m) else set()
     if orphelins:
         échecs.append(f"renvois vers un arbitrage inexistant : {', '.join(sorted(orphelins))}")
 
@@ -430,11 +492,11 @@ def controles(rendu, corps_html, m):
         échecs.append(f"charte d'impression : {a}")
 
     # 6 — les encarts se posent où ils servent (livret seulement)
-    if not est_note(m):
+    if not coule(m):
         avertis += grappes_d_encarts(corps_html)
 
     # 7 — les lignes à dire restent de la matière à piocher (livret seulement)
-    if not est_note(m):
+    if not coule(m):
         e, a = lignes_a_piocher(corps_html)
         échecs += e
         avertis += a
@@ -445,7 +507,7 @@ def controles(rendu, corps_html, m):
     #     « une unité = un point de consultation » ; la page A4 n'en est plus
     #     que la mesure — le seul budget automatique qui signale qu'une unité
     #     a enflé.
-    if not est_note(m):
+    if not coule(m):
         n_unités = len(unites(corps_html))
         avertis += debordements(corps_html)
         if n_unités and n_unités != len(pages):

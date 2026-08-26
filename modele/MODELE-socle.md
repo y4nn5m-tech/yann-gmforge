@@ -12,14 +12,19 @@ Une conversation de ce projet suit toujours le même ordre. Ne pas sauter d'éta
    d'ici là.
 2. **L'analyse, en conversation seulement.** Dépouiller le scénario en profondeur — structure, formes,
    scènes, lieux, PNJ, événements, contexte, mécaniques, zones floues — et **répondre en conversation,
-   sans produire aucun document**. La grille de lecture est dans `claude/MODELE-analyse.md`.
-3. **Demander le livrable.** Aide de jeu, **note d'arbitrage** (le « dossier de préparation » des
-   instructions), ou les deux. **Ne jamais deviner.**
-4. **Produire.** Si les deux sont demandés, la note d'abord.
+   sans produire aucun document**. La grille de lecture est dans `modele/MODELE-analyse.md`.
+3. **Demander le livrable.** Aide de jeu · **note d'arbitrage** (le « dossier de préparation » des
+   instructions) · **scénario annoté**, qui remplace la note quand la source est en prose dense · ou
+   plusieurs. **Ne jamais deviner.**
+4. **Produire.** Si plusieurs sont demandés, **ce qui se lit avant vient d'abord** — la note ou
+   l'annoté —, parce que ses arbitrages déterminent le découpage du livret.
 
 L'analyse de l'étape 2 ne se réécrit pas dans les livrables : elle sert à décider le découpage en
 unités, à trier les arbitrages, et à mesurer ce que la note aura à dire. Elle reste dans la
-conversation.
+conversation — **à une exception près, et elle a coûté cher à découvrir** : ce que l'analyse établit
+sur la **forme** du scénario ne survit nulle part. Trois semaines plus tard, la conversation a
+disparu, et il reste une note qui s'ouvre sur « A1 » sans avoir dit de quoi elle parle. C'est
+l'**explication de texte** en tête de note qui recueille cette part-là — voir son chapitre.
 
 ## Les deux livrables
 
@@ -27,8 +32,9 @@ Le projet produit deux documents distincts, qui ne se remplacent pas.
 
 | Livrable | À quoi il sert | Quand on l'ouvre | Chapitre |
 |---|---|---|---|
-| **Aide de jeu** | Mener la partie. Un point de consultation par page, la matière pour *dire* le scénario. | Pendant la séance, le doigt sur la page. | `claude/MODELE-livrable-aide-de-jeu.md` |
-| **Note d'arbitrage** | Trancher ce que la source ne tranche pas, rassembler ce qu'elle éparpille, croiser ce qu'elle n'a pas croisé. **Huit à douze pages.** | Une fois, avant la séance, **à côté du scénario**. | `claude/MODELE-livrable-dossier-prep.md` |
+| **Aide de jeu** | Mener la partie. Un point de consultation par page, la matière pour *dire* le scénario. | Pendant la séance, le doigt sur la page. | `modele/MODELE-livrable-aide-de-jeu.md` |
+| **Note d'arbitrage** | Trancher ce que la source ne tranche pas, rassembler ce qu'elle éparpille, croiser ce qu'elle n'a pas croisé. **Huit à douze pages.** | Une fois, avant la séance, **à côté du scénario**. | `modele/MODELE-livrable-dossier-prep.md` |
+| **Scénario annoté** | La source ramenée à son ossature, dans son ordre, avec ce qu'elle ne dit pas. **Il absorbe la note.** | Plusieurs fois avant la séance, **à la place du scénario**. | `modele/MODELE-livrable-annote.md` |
 
 **La frontière n'a pas deux côtés, mais trois : la source, le livret, la note.** Le MJ a le scénario
 sous les yeux — c'est le premier destinataire de tout ce qu'on n'écrit pas. Ce qui reste se répartit
@@ -44,12 +50,13 @@ parce que ce qui est dans la source n'y entre pas.
 
 | Fichier | Quand |
 |---|---|
-| `claude/MODELE-analyse.md` | **Toujours, et en premier** : la grille de lecture et les typologies servent dès l'étape 2, avant de savoir quel livrable est demandé. |
-| `claude/MODELE-livrable-aide-de-jeu.md` | Si l'aide de jeu est demandée. |
-| `claude/MODELE-livrable-dossier-prep.md` | Si la note d'arbitrage est demandée. |
-| `claude/MODELE-formes.md` | Toujours, pour les deux livrables. Lire le ou les chapitres correspondant à la forme du scénario. **Un scénario cumule souvent plusieurs formes.** |
-| `claude/MODELE-systemes.md` | Toujours, pour les deux livrables. Lire le chapitre du système joué. |
-| `claude/JOURNAL-passages.md` | Seulement pour auditer l'historique. Aucune utilité au moment de rédiger. |
+| `modele/MODELE-analyse.md` | **Toujours, et en premier** : la grille de lecture et les typologies servent dès l'étape 2, avant de savoir quel livrable est demandé. |
+| `modele/MODELE-livrable-aide-de-jeu.md` | Si l'aide de jeu est demandée. |
+| `modele/MODELE-livrable-dossier-prep.md` | Si la note d'arbitrage est demandée. |
+| `modele/MODELE-livrable-annote.md` | Si le scénario annoté est demandé. **Le mesurer d'abord** : sur une source déjà écrite en mots-clés, il n'apporte rien. |
+| `modele/MODELE-formes.md` | Toujours, pour les deux livrables. Lire le ou les chapitres correspondant à la forme du scénario. **Un scénario cumule souvent plusieurs formes.** |
+| `modele/MODELE-systemes.md` | Toujours, pour les deux livrables. Lire le chapitre du système joué. |
+| `modele/JOURNAL-passages.md` | Seulement pour auditer l'historique. Aucune utilité au moment de rédiger. |
 
 Si la forme ou le système n'a pas encore de chapitre : rédiger avec le socle seul, puis **créer le
 chapitre** à partir de ce que le scénario a appris.
@@ -180,14 +187,15 @@ ses repères d'un document à l'autre.
 Ce qui change d'un document à l'autre : le titre, le sous-titre de couverture, le texte du pied de
 page. Rien d'autre.
 
-**Une seule feuille de style pour les deux livrables**, avec deux régimes de mise en page :
-l'aide de jeu utilise `.unit` (une unité = une page), la note utilise `h2.sec` et `.card`
-(sections qui coulent librement sur plusieurs pages).
+**Une seule feuille de style pour les trois livrables**, avec deux régimes de mise en page :
+l'aide de jeu utilise `.unit` (une unité = une page) ; la note **et le scénario annoté** utilisent
+`h2.sec` et `.card` (sections qui coulent librement sur plusieurs pages).
 
-> **Note du dépôt.** Depuis la mise en place de la chaîne de fabrication, la feuille canonique
-> ci-dessous vit dans `assets/print.css`, versionnée. La recopier à la main n'est plus nécessaire —
-> mais elle reste ici tant que des documents sont produits hors dépôt, et **les deux doivent rester
-> identiques**.
+> **Note du dépôt.** La feuille canonique ci-dessous vit dans `assets/print.css`, versionnée, et
+> c'est elle que la chaîne applique. Sa présence ici servait à produire des documents hors dépôt ;
+> plus aucun ne l'est. **La duplication n'a donc plus d'emploi, et la retirer est une décision à
+> prendre.** Tant qu'elle reste, les deux doivent être identiques — aux trois écarts près marqués
+> `[dépôt]`.
 
 ## Feuille de style canonique
 
@@ -330,7 +338,7 @@ section** ou au **repère de l'élément** (« voir l'arbitrage A6 ») : cela su
 
 ## Entretien du modèle
 
-Le retour d'expérience s'écrit dans **`claude/JOURNAL-passages.md`** — jamais ailleurs.
+Le retour d'expérience s'écrit dans **`modele/JOURNAL-passages.md`** — jamais ailleurs.
 
 Ensuite, et seulement si c'est généralisable, promouvoir la leçon dans le bon fichier :
 
@@ -355,6 +363,8 @@ le second passage de Bun & Run). Une définition trop généreuse produit des di
 sans qu'aucune règle particulière soit enfreinte. Quand un livrable devient lourd, relire d'abord sa
 définition.
 
-**Toujours relire un fichier du modèle juste avant de l'écrire.** `project_write` remplace le fichier
-entier, sans fusion : deux conversations qui éditent le modèle en parallèle s'écrasent mutuellement,
-en silence. Ne jamais écrire depuis une copie qu'on croit fraîche — relire, puis reporter.
+**Toujours relire un fichier du modèle juste avant de l'écrire.** La raison d'origine a disparu — le
+modèle vivait en double, et deux conversations qui l'éditaient en parallèle s'écrasaient en silence ;
+il n'existe plus qu'en un seul endroit, versionné. La règle tient pour une autre raison, plus banale
+et plus fréquente : **une règle qu'on croit se rappeler a presque toujours bougé depuis**, et on
+réécrit alors une version antérieure par-dessus la bonne.

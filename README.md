@@ -33,8 +33,8 @@ out/                  les trois sorties
 modele/               le modèle lui-même, versionné — voir modele/README.md
 ```
 
-`modele/` est une **copie** des docs du projet claude.ai, pas leur source : le dépôt ne les charge pas,
-il les historise. La synchronisation est manuelle et le projet fait foi.
+`modele/` **est** le modèle, et le dépôt en est la seule source. La chaîne ne le charge pas : elle
+l'applique. Voir `modele/README.md`.
 
 ## L'en-tête YAML
 
@@ -45,7 +45,7 @@ Dans le **premier** fragment, et lui seul :
 title: "Bun & Run"
 subtitle: "Note d'arbitrage"
 scenario: "Bun & Run"        # groupe les documents d'un scénario sur l'index
-type: note                   # note | aide — décide quels contrôles s'appliquent
+type: note                   # note | aide | annote — décide quels contrôles s'appliquent
 jeu: "Fevertown — kit de découverte v1.2"
 pied: "BUN & RUN — note d'arbitrage"
 lang: fr
@@ -149,6 +149,8 @@ simple compilateur.
 | Contrôle | Sur quoi | Ce qu'il attrape |
 |---|---|---|
 | volume | note | une note d'arbitrage de plus de 15 pages : il y a de la recopie |
+| **explication de texte** | **note** | **plus d'une page en tête de note : elle raconte au lieu d'exposer** |
+| **volume de l'annoté** | **annoté** | **plus de 24 pages : il ne remplace plus la source, il la double** |
 | pages presque vides | note | une page qui ne porte qu'une ou deux lignes |
 | renvois d'arbitrage | note | un `(A4)` qui ne pointe sur aucun arbitrage défini |
 | numéros de page | les deux | un « voir page 12 » dans le corps du texte, interdit par le socle |
@@ -174,6 +176,13 @@ pied de page est le signe qu'on a rédigé la description d'abord et rangé le r
 MJ cherche alors le jet trois écrans plus bas que la réplique qui l'appelle. Les unités qui ne
 descendent pas par paliers — la conclusion, un profil, une table de mécanique — en sont exclues
 automatiquement.
+
+**Le contrôle de l'explication de texte protège le seul bloc de la note qui parle du scénario.** Elle
+ouvre le document et répond à la question qu'on se pose en refermant la source : *et maintenant,
+comment je mène ça ?* Elle nomme l'espèce du scénario, le verbe des joueurs, les compteurs à tenir et
+les points de rupture — jamais l'intrigue, que le MJ vient de lire. Le plafond de **3 000 signes**
+n'est pas décoratif : c'est ce bloc qui, laissé libre, a produit une note de 37 pages sur *Bun & Run*.
+On ne raconte pas une histoire en une page.
 
 **Le contrôle des lignes à dire mesure une longueur pour protéger un style.** Une ligne à dire se
 note — un sujet, des adjectifs, une matière — et le MJ compose sa phrase ; une ligne rédigée, avec son

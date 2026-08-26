@@ -641,6 +641,56 @@ nulle part — **le panneau de navigation est à l'écran ce que la page est au 
 livret de vingt unités n'a pas de points de consultation : il a un seul long défilement, et tout le
 travail de découpage ne sert plus à rien.
 
+### Troisième passage — le scénario annoté, et la refonte du livret
+
+Deux essais commandés en même temps, et le premier décide du second.
+
+**Le scénario annoté** — un troisième livrable. La source ramenée à son ossature, **dans son ordre**,
+avec les annotations posées là où la question se pose. Le MJ lit le scénario une fois ; ensuite il
+relit ce document, autant de fois qu'il veut.
+
+*Ce qui a permis de trancher, et il fallait le mesurer avant d'écrire :* **l'utilité de ce format est
+inversement proportionnelle à la qualité d'écriture de la source.** Terra Insana fait 80 500 signes de
+prose narrative avec des règles noyées dedans → l'annoté en fait 35 000, soit **44 %**, et le gain de
+relecture est réel. *La Citadelle perdue*, elle, est déjà écrite en mots-clés et sépare même ce qui se
+dit de ce qui se garde : son livret y est **plus long que la source** (137 %). Un annoté y serait la
+source. **Le mesurer avant de l'écrire est donc la première règle du chapitre.**
+
+*La frontière avec le livret n'est pas dans le contenu, elle est dans l'ordre.* L'annoté suit l'ordre
+de la source et se lit ; le livret suit l'ordre de la table et se pioche. Écrire l'un dans l'ordre de
+l'autre, c'est refaire l'autre en moins bon. Conséquence de facture : **l'annoté a droit à la prose**,
+courte mais suivie — le style noté du livret y serait illisible sur onze pages.
+
+*Il absorbe la note.* Les arbitrages ne vivent plus dans une liste à part : ils sont posés dans le fil
+du scénario, en gardant leurs numéros pour les renvois du livret. Ce qui ne peut pas fondre dans une
+lecture linéaire — profils, calculs, planches, checklist — va dans une section finale, **« à poser sur
+la table »**, parce que ce ne sont pas des choses qu'on lit.
+
+Nouveau `type: annote` dans la chaîne, régime de mise en page de la note, contrôle de volume à
+**24 pages**.
+
+**La couverture du livret, refondue** — et c'est l'annoté qui l'a permis. Elle portait six blocs rangés
+**par nature** (légende, vérité, pilotage, règles, ton) ; elle est désormais rangée **par moment
+d'usage** : *trente secondes avant de jouer* (cinq questions, cinq réponses d'une ligne) · *les cinq
+choses à ne pas oublier*, spécifiques · le pense-bête matériel · les règles permanentes · la légende,
+en bas. La vérité, le pilotage et le ton sont partis dans l'annoté.
+
+**Et une proposition écartée, pour une raison qui vaut d'être notée.** Yannick proposait aussi une
+checklist générique de quinze cases — *relire les PNJ · repérer les lieux · préparer les statistiques ·
+identifier les jets qui risquent d'être oubliés*. Écartée sur trois motifs, dont le troisième est le
+vrai : c'est une **consigne de lecture** que le socle interdit · elle est **identique pour tous les
+scénarios**, donc muette sur celui-ci · et surtout **elle demande au MJ de refaire à la main ce qu'on
+lui a livré fait** — les statistiques sont dans le bloc des profils, l'ambiance et le danger dans la
+micro-grille, les jets dans la liste d'annonces.
+
+> **Le test qui en sort, et il est général : une case à cocher qui dit « relis le document » n'a pas
+> sa place dans le document.** Ne survit que ce qui pointe **hors** du document — le livre de base, les
+> handouts, le matériel.
+
+*Détail de fabrication, vérifié :* les emoji ne passent pas. La police embarquée ne contient pas 🧠
+(absent de DejaVu) ; ⚠ et ☐ y sont. Les étiquettes en petites capitales de la charte font office de
+pictogramme, et elles rendent partout.
+
 ## Bun & Run
 **Fevertown (kit de découverte v1.2) · source 22 p. + 5 fiches + le kit entier, 32 p. · aide de jeu
 22 p. (après quatre refontes) puis 25 p. · second livrable : dossier de préparation 29 p. puis 37 p.,
@@ -995,13 +1045,23 @@ passage — la ville, et le découpage plus fin de la prise d'otages, où l'unit
 
 ## La Citadelle perdue du minotaure écarlate
 **Shadowdark · source 14 p. (extrait, pages 52-64 d'un recueil) + un plan livré séparément ·
-aucun document produit**
+aucun document au premier passage ; puis, au second, note d'arbitrage 7 p. et aide de jeu 22 unités**
 
 Passage entièrement consacré à l'outillage du modèle : Yannick a demandé explicitement de ne rien
 générer et de ne se servir du scénario que pour améliorer le modèle. C'est le **premier scénario
-d'exploration de site** du projet, et le premier sur **Shadowdark**. Un donjon de vingt-huit salles,
-trois factions vivantes (hobgobelins, gobelins, le minotaure), un magma de lave qui monte, et une
-citadelle naine engloutie dont l'histoire est gravée sur les murs.
+d'exploration de site** du projet, et le premier sur **Shadowdark**. Un donjon de **vingt-sept
+zones**, trois factions (**hommes-bêtes**, **ettercaps**, et le minotaure), et une citadelle de
+rois-guerriers vouée au dieu taureau Oros, dont l'histoire est gravée sur les piliers de la salle du
+trône.
+
+> **Correction apportée au second passage.** La première rédaction de cette entrée décrivait
+> « vingt-huit salles », « hobgobelins, gobelins », « un magma de lave qui monte » et une « citadelle
+> naine engloutie ». Vérifié sur le texte de la source : **aucune de ces choses n'existe** — zéro
+> occurrence de lave, magma, hobgobelin, gobelin ou nain, et vingt-sept zones. Les leçons promues aux
+> chapitres G et Shadowdark, elles, étaient justes : elles citent les vraies valeurs du plan et les
+> vraies mécaniques. **Le journal avait été écrit de mémoire, pas d'après la source** — et c'est
+> précisément ce qu'il ne doit jamais être, puisque c'est lui qui fait foi quand la source n'est plus
+> sous la main.
 
 ### Ce qui a changé le modèle
 
@@ -1093,6 +1153,111 @@ d'école :
   premier point perdu ;
 - **aucune accroche.** Rien n'explique pourquoi le groupe descend. C'est le seul trou qu'un document
   doit obligatoirement combler avant la partie.
+
+### Second passage — les deux livrables, et le premier test des chapitres nés ici
+
+Le scénario revient, cette fois avec **les deux PDF dès le départ** — le texte et le plan — et la
+demande de produire. C'est donc le premier test grandeur nature des chapitres **G. Exploration de
+site** et **Shadowdark**, tous deux nés du premier passage sans qu'aucun document n'ait été écrit
+pour les éprouver.
+
+**Ils tiennent.** La micro-grille `Décor / Danger / Butin` est le bon découpage — elle absorbe sans
+reste les mots-clés que la source marque comme partageables et les listes à puces qu'elle réserve au
+MJ, c'est-à-dire notre code couleur écrit avant nous. Les unités « factions » et « horloges » se sont
+remplies toutes seules. Et la règle « ne pas re-découper ce que la source a numéroté » s'est révélée
+trop stricte d'un cran : **vingt-sept zones font vingt-sept pages presque vides**. Ce qui marche, c'est
+de **regrouper par adjacence sur le plan** — 1-2, 3-4, 5-6, 20-21 — et de faire une seule unité des
+**trois statues de taureau**, qui partagent la même mécanique à trois endroits. Dix-sept unités de
+zones au lieu de vingt-sept, et chacune reste un point de consultation.
+
+**Quatre croisements que la source ne fait pas, et le premier passage n'en avait vu aucun** — parce
+qu'il n'avait pas produit de document, et que c'est l'écriture qui les fait apparaître.
+
+- **La minuterie est datable.** Le malus cumulatif de −2 sur la table de rencontres, avec « les
+  résultats inférieurs à 1 comptant comme des 1 », donne : 1-8, puis 1-6, 1-4, 1-2, et **au cinquième
+  test le 1 est garanti**. Le 1 est le minotaure. À « Risqué », le test tombe tous les deux rounds
+  d'exploration : **dix rounds, et il est là**. Le premier passage avait vu la spirale, pas sa date.
+  *Arbitrage retenu : le compteur se réinitialise aussi à la sortie de la citadelle — sans quoi la
+  prudence coûte plus cher que l'imprudence.*
+- **La salle du trône est un cul-de-sac à accès unique**, et c'est le plan qui le prouve : une seule
+  porte, verrouillée, dont la clef unique dort en zone 5 — et elle ne s'ouvre que depuis la salle dont
+  la mosaïque cache une gelée ocre. La règle des deux accès du chapitre G est violée. *Arbitrage : le
+  chef des hommes-bêtes porte une seconde clef au cou — ce qui donne du prix à l'alliance au lieu
+  d'ajouter une porte au plan.*
+- **La table de rencontres peut produire plus d'ennemis que le donjon n'en contient** : jusqu'à seize
+  hommes-bêtes et dix ettercaps tirés, contre vingt-et-un et six en tout. Le premier passage l'avait
+  noté ; le compte exact, non.
+- **L'accroche était sous nos yeux.** La source pose en zone 17 un cadavre d'aventurier avec, dans son
+  sac, « un médaillon d'argent contenant le portrait d'une femme rousse qui sourit (5 po) » — et n'en
+  fait rien. C'est l'accroche que le chapitre G réclame : **cette femme paie le groupe pour retrouver
+  son frère.** Elle donne d'un coup une raison d'entrer, un objectif de sortie mesurable, et le seul
+  moment d'émotion possible dans un donjon de pillage. *Généralisable : avant d'inventer une accroche,
+  chercher dans le site l'objet sentimental que la source a posé sans l'utiliser. Les auteurs en
+  laissent presque toujours un.*
+
+**Le butin totalisé pour la première fois : ≈ 1 495 po**, plus huit objets non chiffrés dont trois
+armes +1. En Shadowdark l'or est l'expérience — ce total est donc le compteur de progression, et il
+n'existe nulle part dans la source. Le chapitre le demandait ; personne ne l'avait fait.
+
+**Détail de production.** Le contrôle des renvois d'arbitrage a échoué à tort sur `B1` : les
+arbitrages de table sont groupés dans un seul bloc, chacun ouvert par `**B1 — titre**`, et la regex ne
+reconnaissait que `<strong>B1</strong>` seul. **Lacune du contrôle, pas du document** — la forme
+incriminée est celle que prescrit le chapitre de la note. Regex élargie.
+
+**Volume : note 7 pages, livret 22 unités pour 22 pages.** La note est sous la fourchette de huit à
+douze, et c'est le signe attendu : la source est courte, bien écrite, et elle sépare déjà ce qui se
+dit de ce qui se garde.
+
+### L'explication de texte, et la part de l'analyse qui ne survivait à rien
+
+*Passage transverse, déclenché par la note de la Citadelle : porte sur les quatre notes.*
+
+**Le constat vient de Yannick :** *« cette note n'est pas très lisible pour moi humain. »* Elle
+s'ouvre sur « Cinq arbitrages bloquants (A), six de table (B) », puis « A1 — Aucune accroche » — sans
+qu'une seule phrase ait dit de quoi elle parle. Elle est écrite pour quelqu'un qui vient de fermer la
+source **à l'instant**, et c'est un lecteur qui n'existe pas.
+
+**Ce que la demande n'était pas.** Un résumé — que les instructions interdisent depuis l'épisode des
+37 pages de *Bun & Run*, et à juste titre. **Ce qu'elle était vraiment** : la partie de l'analyse qui
+porte sur la **forme** du scénario, et que le socle condamnait à mourir avec la conversation. Trois
+semaines plus tard, la conversation n'existe plus.
+
+**La question qui a tout tranché, et il fallait la poser :** *lis-tu la note avant ou après avoir relu
+la source ?* Réponse : **la source d'abord**. Ce qui rend toute explication descriptive vide — lui dire
+qu'il y a vingt-sept zones n'apprend rien à quelqu'un qui sort de la page. D'où le test retenu, plus
+dur que celui de la quatrième de couverture :
+
+> **Chaque phrase doit apprendre quelque chose à quelqu'un qui vient de refermer le scénario.**
+> Si elle ne fait que confirmer ce qu'il a lu, elle sort.
+
+Et sa conséquence, qui est la vraie découverte du passage : **une explication de texte est un avis,
+pas un exposé.** Sans jugement, elle est vide. « Ce scénario compte vingt-sept zones » ne vaut rien ;
+« c'est une exploration de site, donc ton travail est d'arbitrer des déplacements et non de distribuer
+des indices » ne figure nulle part dans la source et change la façon de mener.
+
+**Quatre temps, deux blocs, une page** — promus au chapitre de la note en bloc 0 : *ce que tu viens de
+lire* (l'espèce, et la qualité de la source dite franchement) · *ce que les joueurs vont faire* (le
+verbe, le degré de liberté réel, l'objectif de sortie ou son absence) · *ce que ça va te demander*
+(les compteurs simultanés, et lesquels ne peuvent pas être posés) · *où ça casse* (trois ou quatre
+points, chacun renvoyant à son arbitrage).
+
+**Écrit sur les quatre notes existantes, et l'exercice a été révélateur** : quatre scénarios, quatre
+espèces différentes, et à chaque fois une phrase qui n'était nulle part. *Grand froid* — « l'unité de
+découpage n'est pas le lieu mais la victime, et la source ne le dit nulle part ». *Bun & Run* — « deux
+scènes sur cinq ne se jouent ni en avançant ni en choisissant où aller ». *Terra Insana* — « la vérité
+n'est pas cachée longtemps : ce qui reste ensuite n'est plus une énigme, c'est une course ». *La
+Citadelle* — « ton travail n'est pas de distribuer des indices, c'est d'arbitrer des déplacements et
+de tenir des compteurs ».
+
+**Un contrôle, et il est éprouvé.** La longueur en signes de tout ce qui précède la première section,
+hors titre et table de routage. Plafond **3 000** ; les quatre notes tiennent entre 1 700 et 2 200.
+Vérifié en abaissant le seuil à 1 500 : le contrôle sort en échec. Ce n'est pas un garde-fou
+décoratif — c'est exactement ce bloc qui, laissé libre, a produit les 37 pages.
+
+**Effet de bord à noter.** L'ajout coûte une page à chaque note, et *Terra Insana* est passée de 8 à 9
+avec une dernière page à 7 %. La récupérer a demandé de couper **après** le dernier grand trou de
+pagination : les coupes en amont sont absorbées par les blocs indivisibles qui ne rentraient déjà pas.
+*Règle de calage : pour gagner une page, couper après le dernier bloc qui a débordé, jamais avant.*
 
 ## L'Île du D. Raslov
 **PbtA / Escape from Dino Island · source 13 p. (10 de contenu) · aucun document produit**

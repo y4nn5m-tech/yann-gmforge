@@ -141,21 +141,18 @@ Sans le coffre, il n'existe aucun ordre des opérations qui fonctionne. C'est ç
 :::
 
 ::: {.obj lab="2 — Deux PJ rendent tout le deuxième acte gratuit"}
-Eugénie **étudie à l'Institut** et François a *Réseau* : la négociation avec Bücking, le refus du
-secrétaire, la Sauvegarde de Charisme — tout l'appareil que la source construit sur deux pages tombe
-si l'un des deux ouvre la bouche. Ne pas le combattre : **le rendre au groupe et gagner une demi-heure
-pour la nuit chez Philippe**, qui vaut bien mieux.
+Eugénie **étudie à l'Institut**, François a *Réseau* : la négociation avec Bücking, le refus du
+secrétaire, la Sauvegarde de Charisme — deux pages d'appareil tombent si l'un des deux ouvre la
+bouche. **Le rendre au groupe et gagner une demi-heure pour la nuit chez Philippe.**
 :::
 
 ::: {.obj lab="3 — La plaque ouvre l'enquête et ferme la fin"}
-Elle marche partout jusqu'à Bourg-Bruche. Là, le prêtre ne parle qu'à ceux « qui lui paraissent
-sincèrement désireux de faire disparaître la menace » — et une plaque de police devant un mennonite de
-1890 produit exactement l'inverse. **Le sortir devant lui coûte le rituel.** À faire sentir, pas à
-interdire.
+Elle marche partout jusqu'à Bourg-Bruche. Là, le prêtre ne parle qu'à des gens « sincèrement désireux
+de faire disparaître la menace » — et une plaque de police devant un mennonite de 1890 produit
+l'inverse. **La sortir devant lui coûte le rituel.**
 :::
 
 ::: {.obj lab="4 — Un seul lecteur, un seul tireur"}
-Aurore est la seule à lire le latin sans jet ; Wolfgang le seul à percer l'armure. **Deux PJ sur cinq
-portent chacun une condition nécessaire, et le scénario ne le sait pas.** S'ils tombent tous les deux,
-il reste le plomb — encore lui.
+Aurore seule lit le latin sans jet ; Wolfgang seul perce l'armure. **Deux PJ sur cinq portent chacun
+une condition nécessaire.** S'ils tombent, il reste le plomb — encore lui.
 :::

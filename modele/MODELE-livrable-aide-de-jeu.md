@@ -1,6 +1,6 @@
 # Livrable 1 — L'aide de jeu
 
-Chapitre du livrable. Complète `claude/MODELE-socle.md`, qui prime.
+Chapitre du livrable. Complète `modele/MODELE-socle.md`, qui prime.
 Charger aussi `MODELE-formes.md` (forme du scénario) et `MODELE-systemes.md` (jeu).
 
 ## Ce que c'est
@@ -276,12 +276,34 @@ précise, parce que les `h3` d'une unité **sont** les paliers de la descente :
 
 L'ossature commune. Les unités propres à une forme d'intrigue sont dans `MODELE-formes.md`.
 
-1. **Couverture** — titre, système, lieu, époque, format (nombre de PJ, place dans une campagne).
-   Puis la légende des quatre couleurs, compacte. Puis, **si la note existe** : l'encart rouge (la
-   vérité en bref), l'encart violet (le pilotage), l'encart vert (les trois ou quatre règles
-   permanentes), et le cas échéant l'encart de ton. Plus **une ligne** disant où sont les aides à
-   distribuer. **Si l'aide de jeu est livrée seule**, garder à la place une unité `À LIRE AVANT`
-   complète et des planches de rappels en fin de livret.
+1. **Couverture — et elle s'ordonne par moment d'usage, pas par nature.** C'est la correction la plus
+   récente de ce chapitre : elle portait six blocs rangés par catégorie, et le MJ devait y chercher.
+   L'ordre qui sert :
+
+   - **« Trente secondes avant de jouer »**, en tête et en tableau. Cinq questions, cinq réponses
+     d'une ligne : *où sont les PJ · que veulent-ils · que se passe-t-il réellement · ce qui va
+     probablement se passer · à surveiller*. C'est la dernière chose qu'on lit avant de parler, et la
+     seule qui serve à cet instant-là.
+   - **« Les cinq choses à ne pas oublier »**, spécifiques au scénario. Ce que les PJ ignorent · ce
+     qu'ils doivent découvrir · ce qu'il ne faut pas bloquer derrière un seul accès · le déclencheur à
+     ne pas rater · les fins possibles. **Écrire la réponse, jamais le gabarit** : « les PJ ne savent
+     pas que ______ » est une matrice de rédaction, pas un texte livrable.
+   - **Le pense-bête matériel** — ce qu'il faut avoir sous la main, et rien qui soit déjà dans le
+     document. Musiques et lumières · le plan de table et qui joue qui · les aides à distribuer, les
+     planches à fabriquer · **une réserve de noms** quand la source n'en fournit pas.
+   - **Les trois ou quatre règles qui reviennent toutes les cinq minutes.**
+   - **La légende des couleurs**, en bas, compacte.
+
+   **Ce qui n'y est plus, quand un annoté existe** : la vérité en bref, le pilotage et le ton y sont
+   développés bien plus longuement. Une ligne suffit à le dire. **Si l'aide de jeu est livrée seule**,
+   ces trois encarts restent, plus une unité `À LIRE AVANT` et des planches de rappels en fin de
+   livret.
+
+   > **Le test qui écarte le reste : une case à cocher qui dit « relis le document » n'a pas sa place
+   > dans le document.** Une checklist générique — *relire les PNJ · repérer les lieux · préparer les
+   > statistiques* — décrit le travail que le livret a déjà fait, elle est identique d'un scénario à
+   > l'autre, et c'est une consigne de lecture, que le socle interdit. Ne survit que ce qui pointe
+   > **hors** du document : le livre de base, les handouts, le matériel.
 
 2. **La rampe de lancement** `À DIRE` — **trois à cinq unités, et c'est un seul mouvement, pas trois à
    cinq fiches.** C'est la partie la plus développée du livret : le MJ y parle longtemps, seul, avant

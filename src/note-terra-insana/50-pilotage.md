@@ -78,33 +78,25 @@
 ### 5.4 — Les notes de jeu
 
 ::: {.mj lab="Cinq PNJ portent la séance — une ligne chacun"}
-**Rose Selavy** — *amoureuse, pas gouvernante.* Elle offre toutes ses économies ; ce n'est pas de la
-loyauté de service.\
-**Hugo Bücking** — *pompeux parce qu'il a peur d'avoir tort.* Cohen ne lui a rien dit pour ne pas
-perdre son poste ; Bücking le sent, et ça le rend odieux.\
-**Philippe** — *il ne sent pas ce qui lui arrive.* Amnésique, sale, épuisé, il croit avoir glissé et
-s'être cogné. Le montrer par le corps, jamais par le discours.\
-**Paul-Thomas Bruckheilig** — *doux, illuminé, et il a raison.* Il finit ses phrases le regard dans le
-lointain, il se perd sur les routes, et tout ce qu'il dit du danger est exact.\
-**Ernst Loess** — *il remercie Dieu de ce qui le tue.* Une citation biblique par phrase, et sa récolte
-est maudite.
+**Rose Selavy** — *amoureuse, pas gouvernante.* · **Hugo Bücking** — *pompeux parce qu'il a peur
+d'avoir tort.* · **Philippe** — *il ne sent pas ce qui lui arrive* : le montrer par le corps, jamais
+par le discours. · **Paul-Thomas Bruckheilig** — *doux, illuminé, et il a raison.* ·
+**Ernst Loess** — *il remercie Dieu de ce qui le tue.*
 :::
 
 ### 5.5 — Le réglage du ton
 
 ::: {.obj lab="Un seul décrochage comique, et il est prévu"}
-Le scénario est de l'horreur lente : une région qui s'empoisonne pendant que trois personnes
-raisonnables cherchent un ami. **La boutique du taxidermiste est le seul moment franchement drôle**,
-et il est écrit pour l'être — les animaux empaillés, le fils absent, le quiproquo. Le jouer à fond.\
-**Ce qui ne doit jamais l'être :** Maria Loess qui erre autour du puits en récitant une langue qu'elle
-ne connaît pas · Ernst qui se pend dans sa grange la nuit où on lui apprend que sa récolte est morte ·
-Philippe qui ne sent pas ses blessures · et le PJ possédé, dont le joueur regarde ses camarades tomber
-sans pouvoir arrêter son bras.
+De l'horreur lente : une région qui s'empoisonne pendant que trois hommes raisonnables cherchent un
+ami. **La boutique du taxidermiste est le seul moment franchement drôle**, et il est écrit pour
+l'être. Le jouer à fond.\
+**Ce qui ne doit jamais l'être :** Maria qui erre autour du puits en récitant une langue qu'elle ne
+connaît pas · Ernst qui se pend la nuit où on lui apprend que sa récolte est morte · Philippe qui ne
+sent pas ses blessures · le PJ possédé, dont le joueur regarde ses camarades tomber.
 :::
 
 ::: {.obj lab="Le plant, et l'interdiction d'appuyer"}
-La vraie récompense n'est ni l'argent ni la Santé mentale : c'est **la formule du portail**, que les PJ
-peuvent recopier. C'est un objet de campagne pour tout le recueil. **Le mentionner une fois**, au
-moment où le carnet change de mains, et ne jamais y revenir. Si un joueur pense à le copier avant le
-final, ne pas commenter — c'est déjà gagné.
+La vraie récompense n'est ni l'or ni la Santé mentale : c'est **la formule du portail**, objet de
+campagne pour tout le recueil. **Le mentionner une fois**, quand le carnet change de mains, et ne
+jamais y revenir.
 :::

@@ -15,7 +15,7 @@ LES DEUX LIVRABLES :
 
 - l'AIDE DE JEU : le livret de table, pour mener la partie. Un point de consultation par page, la matière pour dire le scénario.
 
-- la NOTE D'ARBITRAGE : à lire une fois avant la séance, À CÔTÉ DU SCÉNARIO et non à sa place. Elle ne contient QUE ce que la source ne dit pas : ce qu'elle ne tranche pas, les chiffres qu'elle oublie ou éparpille, les croisements qu'elle n'a pas faits entre ses fiches et ses scènes, et la charge de pilotage. RÈGLE ABSOLUE : si c'est dans la source, ce n'est pas dedans. Ni résumé, ni récit, ni décor recopié, ni scène par scène, ni répertoire de PNJ. Huit à douze pages ; au-delà de quinze, c'est qu'on réécrit le scénario.
+- la NOTE D'ARBITRAGE : à lire une fois avant la séance, À CÔTÉ DU SCÉNARIO et non à sa place. Elle ne contient QUE ce que la source ne dit pas : ce qu'elle ne tranche pas, les chiffres qu'elle oublie ou éparpille, les croisements qu'elle n'a pas faits entre ses fiches et ses scènes, et la charge de pilotage. RÈGLE ABSOLUE : si c'est dans la source, ce n'est pas dedans. Ni résumé, ni récit, ni décor recopié, ni scène par scène, ni répertoire de PNJ. Huit à douze pages ; au-delà de quinze, c'est qu'on réécrit le scénario. SEULE EXCEPTION, et elle ouvre le document : une EXPLICATION DE TEXTE d'une page, qui ne raconte rien mais dit de quelle espèce est le scénario, ce que les joueurs vont y faire, ce que ça demande au MJ et où c'est fragile — voir le chapitre de la note.
 
 L'AIDE DE JEU présente les choses de la manière suivante :
 Titre du scénario
@@ -24,7 +24,7 @@ Introduction du contexte et présentation des personnages joueurs
 Les parties linéaires peuvent être découpées en scènes
 Les parties non linéaires (selon choix des joueurs) doivent être plutôt découpées en lieux, personnages non joueurs et évènements (indépendants des personnages/joueurs)
 
-La NOTE D'ARBITRAGE, elle, n'a ni résumé ni introduction ni page de garde : un titre, une table de routage de six lignes, et le travail commence à la première page.
+La NOTE D'ARBITRAGE, elle, n'a ni résumé ni page de garde : un titre, l'explication de texte, une table de routage de six lignes, et le travail commence à la première page.
 
 Le document ne raconte pas le scénario, il donne la matière pour la dire. Phrases courtes, adjectifs, mot-clés, détails sensoriels : à piocher, jamais à lire d'un trait. Le document doit utiliser des codes couleurs pour les différents éléments à utiliser par le MJ:
 
@@ -37,8 +37,8 @@ Un paragraphe (pnj, lieux, scène, évènements) peut comporter plusieurs sectio
 
 AUCUN DOCUMENT NE SE COMMENTE LUI-MÊME : ni encart « mode d'emploi », ni tableau expliquant ses propres étiquettes, ni règle du document, ni note sur la version de la source. Seule exception : la légende des couleurs.
 
-Avant toute chose, lire le doc projet claude/MODELE-socle.md : c'est le socle commun, il contient le déroulé, le code couleur, la charte visuelle à appliquer sans variation et la chaîne de production, et il indique en tête les autres docs à charger — claude/MODELE-analyse.md (toujours, et en premier : la grille de lecture et les typologies servent dès l'étape 2), claude/MODELE-livrable-aide-de-jeu.md ou claude/MODELE-livrable-dossier-prep.md (le chapitre de la note d'arbitrage) selon le document demandé, claude/MODELE-formes.md selon le type d'intrigue, claude/MODELE-systemes.md selon le jeu.
+Avant toute chose, lire le doc projet modele/MODELE-socle.md : c'est le socle commun, il contient le déroulé, le code couleur, la charte visuelle à appliquer sans variation et la chaîne de production, et il indique en tête les autres docs à charger — modele/MODELE-analyse.md (toujours, et en premier : la grille de lecture et les typologies servent dès l'étape 2), modele/MODELE-livrable-aide-de-jeu.md ou modele/MODELE-livrable-dossier-prep.md (le chapitre de la note d'arbitrage) selon le document demandé, modele/MODELE-formes.md selon le type d'intrigue, modele/MODELE-systemes.md selon le jeu.
 
-Après chaque scénario traité, consigner le retour d'expérience dans claude/JOURNAL-passages.md — jamais dans le socle. N'en promouvoir dans les autres docs que ce qui est généralisable : le socle pour ce qui vaut pour les deux livrables, tout scénario et tout système, le chapitre du livrable pour ce qui ne vaut que pour lui, MODELE-formes.md pour ce qui dépend du type d'intrigue, MODELE-systemes.md pour ce qui dépend du jeu, MODELE-analyse.md pour un type de PNJ, de scène, de lieu ou d'événement jamais rencontré — jamais de type sans occurrence réelle.
+Après chaque scénario traité, consigner le retour d'expérience dans modele/JOURNAL-passages.md — jamais dans le socle. N'en promouvoir dans les autres docs que ce qui est généralisable : le socle pour ce qui vaut pour les deux livrables, tout scénario et tout système, le chapitre du livrable pour ce qui ne vaut que pour lui, MODELE-formes.md pour ce qui dépend du type d'intrigue, MODELE-systemes.md pour ce qui dépend du jeu, MODELE-analyse.md pour un type de PNJ, de scène, de lieu ou d'événement jamais rencontré — jamais de type sans occurrence réelle.
 
 En cas de conflit entre ces docs et les présentes instructions, ces instructions priment.

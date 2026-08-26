@@ -150,8 +150,7 @@ tests**. C'est le seul objet du scénario qui protège de quoi que ce soit.
 :::
 
 ::: {.mj lab="Qui doit le test à la vue d'Émile — la source dit « qui l'a intimement connu »"}
-**Wolfgang** (ami d'enfance, il le protégeait à l'école) et **François** (huit ans de faculté ensemble)
-: oui, sans discussion. **Eugénie** : son professeur, le seul qui l'écoutait — oui, et c'est le plus
-cruel des trois. **Samuel** : un camarade de lycée de 1865 dont il a mis dix minutes à retrouver le
-visage — non. **Aurore** : elle l'a rencontré deux fois — non.
+**Oui** — Wolfgang (il le protégeait à l'école), François (huit ans de faculté), Eugénie (son
+professeur, le seul qui l'écoutait — et c'est le plus cruel des trois).\
+**Non** — Samuel (un camarade de lycée de 1865), Aurore (deux rencontres).
 :::

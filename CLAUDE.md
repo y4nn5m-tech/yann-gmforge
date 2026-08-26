@@ -33,9 +33,8 @@ jamais dans le socle. **Cette entrée s'écrit d'office, sans la demander** : d�
 livrable est validé et que ses contrôles passent, l'écrire dans la même passe que le reste, avant de
 proposer le commit. Un passage sur un scénario déjà traité s'ajoute en `### Nième passage` sous sa
 section, et l'en-tête de la section est mis à jour ; il ne remplace jamais ce qui précède.
-Attention : ces fichiers sont une **copie** de docs qui vivent ailleurs, et la synchronisation est
-manuelle dans un seul sens — signaler qu'une reprise du modèle est à reporter à la main. Voir
-`modele/README.md` avant d'en modifier un.
+Ces fichiers **sont** le modèle : le dépôt en est la seule source, il n'y a rien à reporter ailleurs.
+Une règle qui change se modifie ici, une fois. Voir `modele/README.md`.
 
 ## Dépouiller la source : la passe mécanique d'abord
 
@@ -84,12 +83,22 @@ L'en-tête YAML va dans le **premier** fragment, et lui seul :
 title: "Bun & Run"
 subtitle: "Note d'arbitrage"
 scenario: "Bun & Run"        # groupe les documents d'un même scénario sur l'index
-type: note                   # note | aide — déclare le type, ne le laisse pas deviner
+type: note                   # note | aide | annote — déclare le type, ne le laisse pas deviner
 jeu: "Fevertown — kit de découverte v1.2"
 pied: "BUN & RUN — note d'arbitrage"
 lang: fr
 ---
 ```
+
+**Trois livrables, et `type:` décide des contrôles.** `aide` — le livret de table, une unité par page.
+`note` — huit à douze pages qui complètent la source. `annote` — **le scénario annoté**, la source
+ramenée à son ossature dans son ordre, qui **remplace** la note quand la source est de la prose dense.
+Le mesurer avant de l'écrire : sur une source déjà en mots-clés, il ne fait que doubler le scénario.
+
+**La note s'ouvre par une explication de texte**, d'une page au plus : elle ne raconte rien du
+scénario — le MJ vient de le lire — mais nomme son espèce, le verbe des joueurs, les compteurs à tenir
+et les points de rupture. Le test : *chaque phrase doit apprendre quelque chose à quelqu'un qui vient
+de refermer la source.*
 
 **`type` n'est pas décoratif : c'est lui qui décide des contrôles** — le volume et le remplissage
 pour une note, le débordement d'unité pour une aide de jeu. Il a été deviné un temps en reniflant le mot « note » dans `pied`, si bien qu'un pied
@@ -148,6 +157,7 @@ et les unités débordaient. WeasyPrint le disait en avertissement, et le build 
 | Contrôle | Sur quoi | Ce qu'il attrape |
 |---|---|---|
 | volume | note | une note d'arbitrage de plus de 15 pages : il y a de la recopie |
+| explication de texte | note | plus de 3 000 signes en tête de note : elle raconte au lieu d'exposer |
 | pages presque vides | note | une page qui ne porte qu'une ou deux lignes |
 | renvois d'arbitrage | note | un `(A4)` qui ne pointe sur aucun arbitrage défini |
 | numéros de page | les deux | un « voir page 12 » dans le corps du texte |

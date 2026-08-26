@@ -1,5 +1,12 @@
 ## [6]{.num}Checklist {.sec}
 
+### À réclamer
+
+::: {.warn lab="Une seule chose manque, et elle n'est pas dans le scénario"}
+☐ **Le livre de base** — cinq capacités dont le scénario ne donne que le nom : *Érudite*, *Médecin de
+terrain*, *Débrouillard*, *Déduction*, *Poussée d'adrénaline*. **Deux décident du final.**
+:::
+
 ### À fabriquer
 
 ::: {.jeu lab="Deux pièces, et la source ne les fournit ni l'une ni l'autre"}
@@ -52,12 +59,4 @@ Désavantage.*
 ☐ **Ce coffre est transportable** — à la cave, A1\
 ☐ **Elle ne rend jamais un coup** — dès qu'on l'ajuste, A5\
 ☐ **Le mettre à terre le réveille ; le tuer, non** — à la seconde où un PJ est possédé, A4
-:::
-
-### À réclamer
-
-::: {.warn lab="Une seule chose manque, et elle n'est pas dans le scénario"}
-☐ **Le livre de base**, pour le texte exact de cinq capacités : *Érudite*, *Médecin de terrain*,
-*Débrouillard*, *Déduction*, *Poussée d'adrénaline*. Le scénario n'en donne que les noms, et **deux
-d'entre elles décident du final** — la lecture du latin et le soin du PJ abattu.
 :::

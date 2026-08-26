@@ -1,6 +1,6 @@
 # Livrable 2 — La note d'arbitrage
 
-Chapitre du livrable. Complète `claude/MODELE-socle.md`, qui prime.
+Chapitre du livrable. Complète `modele/MODELE-socle.md`, qui prime.
 Charger aussi `MODELE-formes.md` (forme du scénario) et `MODELE-systemes.md` (jeu).
 
 > **Sur le nom.** Les instructions du projet appellent ce livrable « dossier de préparation », et le
@@ -55,10 +55,48 @@ plupart du temps, ça retourne à la source, qui l'avait déjà.
 scénario** — relancer le test ligne par ligne, il y a de la recopie quelque part. Une note plus courte
 que huit pages n'est pas un problème : ça veut dire que la source était bonne.
 
-## Plan type — six blocs
+## Plan type — une explication, puis six blocs
 
-Un titre compact, une table de routage de six lignes, et le travail commence à la première page. **Pas
-de page de garde.**
+Un titre compact, **l'explication de texte**, une table de routage de six lignes, et le travail
+commence à la première page. **Pas de page de garde.**
+
+### 0. L'explication de texte — une page, et elle ouvre le document
+
+**Elle ne dit pas ce que le scénario raconte. Elle dit comment il est fait, et ce qu'il va demander.**
+
+Elle répond à la question qu'on se pose en refermant la source : *et maintenant, comment je mène ça ?*
+Le MJ a lu le scénario — lui redire l'intrigue ne lui apprend rien. Ce qu'une lecture ne donne jamais,
+même bonne, c'est **l'espèce** du scénario, la **forme réelle du choix** qu'il laisse, le **verbe** des
+joueurs, le **nombre de compteurs** à tenir, et les **points de rupture** — qui ne se voient qu'en
+croisant.
+
+> **Le test, et il tranche seul :** chaque phrase doit apprendre quelque chose à quelqu'un qui vient
+> de refermer le scénario. Si elle ne fait que confirmer ce qu'il a lu, elle sort.
+
+Conséquence directe : **c'est un avis, pas un exposé.** « Ce scénario compte vingt-sept zones » est
+inutile — il vient de les lire. « C'est une exploration de site : il n'y a pas de vérité à
+reconstituer, donc ton travail est d'arbitrer des déplacements et non de distribuer des indices » ne
+figure nulle part dans la source, et change sa façon de mener.
+
+Quatre temps, deux blocs, **une page maximum** :
+
+| Temps | Ce qu'il donne |
+|---|---|
+| **Ce que tu viens de lire** | L'espèce, et ce qu'elle implique pour le MJ. La qualité de la source, dite franchement |
+| **Ce que les joueurs vont faire** | Le verbe dominant, le degré de liberté **réel**, et l'objectif de sortie — ou son absence |
+| **Ce que ça va te demander** | Les compteurs simultanés, et lesquels ne peuvent pas être posés |
+| **Où ça casse** | Trois ou quatre points, chacun renvoyant à son arbitrage |
+
+Les trois premiers tiennent dans un bloc violet, le quatrième dans un bloc ambre.
+
+**Ce qu'elle ne contient jamais** : l'intrigue, les décors, le détail des scènes ou des zones, les PNJ
+un par un, les chiffres — ils ont leur bloc. Et **aucune phrase qui commence par « puis »** : dès
+qu'on enchaîne des événements, on raconte.
+
+*Le plafond d'une page n'est pas décoratif. C'est exactement ce bloc qui, laissé libre, a produit une
+note de 37 pages sur « Bun & Run ». On ne raconte pas une histoire en une page ; on ne peut qu'en
+exposer la charpente. Le contrôle du dépôt mesure sa longueur en signes — le reste se relit à la
+main.*
 
 ### 1. Ce que la source ne tranche pas
 
@@ -179,8 +217,8 @@ chapitre encourageait.
 - **Les descriptions n'ont pas leur place ici**, sauf les deux ou trois lignes qui portent une note de
   jeu. La règle des paliers de distance (socle) concerne l'aide de jeu.
 - **Aucune section ne se commente elle-même** (socle) : ni règle du document, ni note sur la version de
-  la source, ni justification de la méthode. La table de routage de six lignes est la seule concession,
-  et elle route — elle n'explique pas.
+  la source, ni justification de la méthode. Deux concessions, et elles ne parlent pas du document mais
+  du scénario : la table de routage, qui route, et l'explication de texte, qui diagnostique.
 
 ## Squelettes HTML
 
@@ -206,6 +244,8 @@ Ce que dit la source.<br><b>Retenu :</b> la décision.</div>
 
 - **Relancer le test ligne par ligne** sur le document fini : chercher tout ce qui pourrait se trouver
   en ouvrant le scénario. C'est le seul contrôle qui compte, et il attrape toujours quelque chose.
+  **Le passer aussi sur l'explication de texte**, où il prend sa forme la plus dure : une phrase qui ne
+  fait que confirmer ce que le MJ vient de lire n'y a pas sa place.
 - **Vérifier le volume.** Au-delà de quinze pages, il y a de la recopie.
 - Vérifier qu'aucune page n'est **à moitié vide** — symptôme d'un `break-inside: avoid` posé par erreur
   sur une carte longue, ou d'un `brk` de trop. Exception normale : la dernière page d'une section. Une

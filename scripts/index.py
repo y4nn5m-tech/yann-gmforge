@@ -24,7 +24,8 @@ TITRE = "Documents de table"
 CHAPEAU = ("Scénarios du commerce transformés en documents menables : un livret de table "
            "et une note d'arbitrage.")
 
-LIBELLES = {"note": "Note d'arbitrage", "aide": "Aide de jeu"}
+LIBELLES = {"annote": "Le scénario annoté", "note": "Note d'arbitrage",
+            "aide": "Aide de jeu"}
 FORMATS = [("pdf", "PDF"), ("html", "Lire en ligne"), ("epub", "EPUB")]
 
 STYLE = """
@@ -92,7 +93,7 @@ def grouper(docs):
     for d in docs:
         groupes.setdefault(d["scenario"], []).append(d)
     # Les documents d'un scénario dans un ordre stable : la note se lit avant.
-    ordre = {"note": 0, "aide": 1}
+    ordre = {"annote": 0, "note": 1, "aide": 2}   # l'ordre de lecture réel
     for v in groupes.values():
         v.sort(key=lambda d: (ordre.get(d["type"], 9), d["titre"]))
     return sorted(groupes.items(), key=lambda kv: kv[0].lower())

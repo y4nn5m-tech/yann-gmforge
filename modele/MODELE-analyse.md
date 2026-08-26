@@ -1,6 +1,6 @@
 # Analyse d'un scénario — grille de lecture et typologies
 
-Complète `claude/MODELE-socle.md`, qui prime. **À charger toujours, avant tout autre chapitre** :
+Complète `modele/MODELE-socle.md`, qui prime. **À charger toujours, avant tout autre chapitre** :
 l'analyse précède le choix du livrable, et c'est elle qui détermine le découpage.
 
 **Statut : version provisoire.** Tirée de sept passages. Chaque entrée des typologies est adossée à un

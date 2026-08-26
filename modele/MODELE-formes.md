@@ -1,6 +1,6 @@
 # Formes d'intrigue — chapitres à charger selon le scénario
 
-Complète `claude/MODELE-socle.md`, qui prime. **Sert aux deux livrables** : le chapitre détermine
+Complète `modele/MODELE-socle.md`, qui prime. **Sert aux deux livrables** : le chapitre détermine
 l'unité de découpage de l'aide de jeu, et il fournit au dossier de préparation le vocabulaire de son
 analyse de structure.
 **Les chapitres se cumulent** : un scénario en quatre actes dont l'acte trois est un whodunit charge

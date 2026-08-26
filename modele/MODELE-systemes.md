@@ -1,6 +1,6 @@
 # Systèmes — chapitres à charger selon le jeu
 
-Complète `claude/MODELE-socle.md`, qui prime. **Sert aux deux livrables.**
+Complète `modele/MODELE-socle.md`, qui prime. **Sert aux deux livrables.**
 Ce fichier ne contient que ce qui change **la façon d'écrire les mécaniques** : le vocabulaire, le
 format des profils, les sous-systèmes qu'un scénario suppose connus.
 

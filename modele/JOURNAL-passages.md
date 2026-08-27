@@ -1590,3 +1590,84 @@ de scénarios du commerce. Les notes et les livrets sont solidement transformati
 chapitre dit lui-même qu'il « remplace la relecture de la source », pour 40 à
 50 % de son volume et dans son ordre. C'est un substitut, et il est publié. Signalé,
 non traité.
+
+---
+
+## L'Onirographe
+
+*Cthulhu Hack, Strasbourg 1920. Scénario 2 d'un recueil, dix-huit pages de corps.
+Note d'arbitrage puis aide de jeu.*
+
+**La source la plus claire des huit traitées.** Encadrés nets et nommés, texte à dire distingué du
+reste, fin rassemblée en un seul endroit avec son tableau de résultats, titres qui décrivent la
+structure. Trois « oui » sur quatre au test de lisibilité — donc **pas de bloc de diff, et surtout
+pas d'annoté** : sur dix-huit pages déjà bien tenues, il aurait doublé le scénario. Signalé à
+Yannick avant qu'il choisisse ; il a pris les deux autres.
+
+Conséquence directe sur le volume : **note de 9 pages**, la plus courte du dépôt. Une source bonne
+produit une note courte, et c'est le résultat attendu.
+
+### Ce que le dépouillement a rapporté
+
+**Deux Germaine, à trente pages d'écart, jamais reliées.** Le PJ est jugé pour tentative de meurtre
+sur *Germaine Letillon*, « une vieille femme pauvre ». Trente pages plus loin, l'immeuble du cabinet
+a une logeuse nommée *Germaine*, que le scénario fait monter avec sa clef. Rien ne dit que c'est la
+même, rien ne dit le contraire. Retenu que oui — et ça change la scène du cabinet : **le PJ a agressé
+la logeuse de son bourreau**, elle le reconnaît, elle crie. C'est le meilleur croisement du scénario
+et il ne coûte rien.
+Le grep l'a trouvé, pas la lecture : deux occurrences d'un prénom banal, à cinq cents lignes d'écart.
+
+**Zéro croisement trait × scène sur cinq fiches**, comme dans *Grand froid*. Les dix capacités
+spéciales n'apparaissent qu'une fois chacune, sur leur propre fiche. Et pourtant : une **infirmière**
+dans une ville de tuberculeux, alors que la source verrouille une entrevue derrière « à moins que
+l'un d'eux ne se fasse passer pour un médecin » ; une **Sagesse 18** en face d'une **Sagesse 5** dans
+un scénario qui demande deux Sauvegardes de Sagesse ; un **Crochetage** devant trois portes fermées.
+Quatorze croisements écrits, tous gratuits.
+
+**Une horloge sans un seul nombre.** La source pose un test de Santé mentale « chaque matin », puis,
+trente pages plus loin, menace de tuer le PJ si la table piétine. Ni durée, ni cadence, ni effet en
+bas de l'échelle. C'est le seul moteur du scénario et il est vide — arbitrage A1, trois matins, et
+**le fond de l'échelle ne tue pas : il retire le sommeil**.
+
+**Un final qui récompense la mauvaise action.** Tuer l'antagoniste laisse une chance sur deux de
+vider définitivement le PJ ; le négocier donne une restitution propre. Rien ne le dit au MJ. Le
+calcul d'affrontement conclut d'ailleurs qu'on ne gagne pas ce combat : treize coups au but pour
+l'abattre, contre 39 à 78 dégâts distribués par le décor, sur un groupe qui a 55 PV. **Le calcul
+conclut, et sa conclusion est du pilotage** — c'est la règle du socle, et c'est la troisième fois
+qu'elle rapporte.
+
+### Un type de PNJ qui n'était pas dans les tableaux
+
+**Le bénéficiaire.** Une victime que le crime a *guérie*, et qui refusera qu'on la répare. Lucien
+Maler a donné le plus de rêves de tous, il va très bien, il remercie sincèrement l'homme qui l'a vidé
+— et la source précise qu'il ne voudra « retrouver ses cauchemars pour rien au monde ». Il n'est ni
+innocent tragique (rien ne le menace) ni faux coupable : il est **la preuve que la solution des
+joueurs n'en est pas une pour tout le monde**. C'est lui qui porte le dilemme final, et la source le
+range dans une puce au milieu d'une liste de huit.
+→ à promouvoir dans `MODELE-analyse.md` si on le recroise. Une occurrence, pas de promotion.
+
+### Ce que la production a coûté
+
+Le livret est sorti à **19 unités pour 19 pages**, aucune ne débordant. Deux passes de correction ont
+été nécessaires, toutes deux sur des avertissements du dépôt :
+
+- **quatre unités avec trois encarts en pied.** À chaque fois, le même geste : ce qui était un
+  encart en bas de page était en réalité **de la matière à dire**, donc un palier. Le livre de
+  comptes des Delamarre, la rumeur de Kadathéron, les répliques de Jean Firmin maîtrisé. Le test du
+  chapitre fonctionne — *un encart qui ne dépend d'aucune phrase est un palier* ;
+- **médiane des lignes à dire à 70 signes** pour un repère à 60. La correction est mécanique et
+  toujours la même : couper les lignes à deux propositions en deux lignes, et retirer les verbes de
+  liaison. « La ville est française depuis vingt mois, avant elle était allemande pendant
+  quarante-huit ans » devient « Française depuis vingt mois. Allemande les quarante-huit années
+  d'avant. » Trente-cinq lignes reprises, médiane repassée sous le repère.
+
+**Le manifeste d'extraction a manqué deux pages.** Il signale trois pages sous le seuil de densité
+(10, 13, 14) ; deux autres portaient des aides de jeu pleine page avec du texte autour, et
+passaient donc le seuil — l'article de journal et la note sur la kampa. Le seuil de densité attrape
+la page **entièrement** illustrée, pas la demi-page. **Regarder aussi les pages sous la médiane, pas
+seulement celles qui s'effondrent.**
+
+**Et un plan qui n'existe pas.** Huit adresses renvoient à un « n° sur le plan » absent du chapitre,
+et les numéros 1 et 2 ne sont jamais cités — il appartient à un autre scénario du recueil. Remplacé
+par un tableau d'adresses, qui suffit : dans une ville où l'on va à pied, le plan ne portait aucune
+information de règle.

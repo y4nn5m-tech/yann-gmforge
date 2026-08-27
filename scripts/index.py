@@ -21,15 +21,20 @@ sys.path.insert(0, str(RACINE))
 from build import SRC, OUT, ASSETS, meta  # noqa: E402
 
 TITRE = "Documents de table"
-CHAPEAU = ("Scénarios du commerce transformés en documents menables : un livret de table "
-           "et une note d'arbitrage.")
+CHAPEAU = ("Scénarios du commerce transformés en documents menables : une note d'arbitrage, "
+           "un scénario annoté, un livret de table.")
+DEMARCHE = "La démarche, et le modèle à récupérer"
 
 LIBELLES = {"annote": "Le scénario annoté", "note": "Note d'arbitrage",
             "aide": "Aide de jeu"}
 FORMATS = [("pdf", "PDF"), ("html", "Lire en ligne"), ("epub", "EPUB")]
 
 STYLE = """
-.chapeau { font-size: 1.05rem; color: #46555f; margin: 0 0 2.2rem 0; max-width: 34rem; }
+.chapeau { font-size: 1.05rem; color: #46555f; margin: 0 0 1rem 0; max-width: 34rem; }
+.demarche { margin: 0 0 2.4rem 0; font-size: 0.92rem; }
+.demarche a { color: #2d5f80; text-decoration: none;
+              border-bottom: 1px solid #c3cfd7; padding-bottom: 1px; }
+.demarche a:hover { color: #132c3c; border-bottom-color: #34566b; }
 .scenario { border-top: 1px solid #c3cfd7; padding-top: 1.1rem; margin-top: 2rem; }
 .scenario h2 { background: none; border: none; padding: 0; margin: 0 0 0.1rem 0;
                font-size: 1.45rem; }
@@ -47,6 +52,8 @@ STYLE = """
 .doc .liens a:hover { color: #132c3c; border-bottom-color: #34566b; }
 @media (prefers-color-scheme: dark) {
   .chapeau { color: #9fb0bb; }
+  .demarche a { color: #8fc4e8; border-bottom-color: #2c3a44; }
+  .demarche a:hover { color: #cfe0ec; border-bottom-color: #4a6a80; }
   .scenario { border-top-color: #2c3a44; }
   .doc { border-bottom-color: #1d262c; }
   .doc .quoi { color: #cfe0ec; }
@@ -107,7 +114,8 @@ def rendre(groupes):
          '<link rel="stylesheet" href="assets/web.css">',
          f"<style>{STYLE}</style></head><body>",
          f"<h1>{escape(TITRE)}</h1>", '<div class="rule"></div>',
-         f'<p class="chapeau">{escape(CHAPEAU)}</p>']
+         f'<p class="chapeau">{escape(CHAPEAU)}</p>',
+         f'<p class="demarche"><a href="demarche.html">{escape(DEMARCHE)} \u2192</a></p>']
 
     if not groupes:
         h.append('<p class="vide">Aucun document publié pour l\'instant.</p>')

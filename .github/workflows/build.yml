@@ -83,6 +83,12 @@ jobs:
           sha256sum out/*.pdf > /tmp/second
           diff /tmp/premier /tmp/second && echo "PDF reproductible"
 
+      # Le modèle mis à disposition — les deux formes de téléchargement, plus
+      # la page qui présente la démarche. Indépendant des documents : ne lit
+      # que modele/ et web/.
+      - name: Modèle et page de démarche
+        run: python3 scripts/modele.py
+
       # La page d'accueil se reconstruit entièrement à chaque passage : ajouter
       # un scénario, c'est ajouter un répertoire dans src/, rien de plus.
       - name: Index du site

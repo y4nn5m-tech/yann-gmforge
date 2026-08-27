@@ -1533,3 +1533,60 @@ Et une trouvaille de pilotage, promue en type d'événement : **le plan de coupe
 Chasseur est littéralement « révéler l'horreur de ses préparatifs en **déplaçant la caméra sur lui** ».
 Une scène montrée aux joueurs mais pas aux personnages : de la peur gratuite, et le seul moyen de
 rendre présent un antagoniste qu'on ne rencontre pas.
+
+---
+
+## Le modèle, publié
+
+*Passage de chaîne, pas de scénario.* Le dépôt sert désormais aussi à **donner
+le modèle**, et non plus seulement à fabriquer des documents avec.
+
+Ce qui a été construit tient en un script — `scripts/modele.py` — qui écrit dans
+`out/` la page de présentation et deux formes du modèle. **Deux formes, parce
+qu'il y a deux façons de travailler**, et c'est le socle qui l'impose : il
+indique en tête les chapitres à charger, et on ne charge celui d'un système que
+si on joue ce système. Dans une conversation, où tout entre d'un coup, cette
+économie n'a plus d'objet — le fichier unique convient. Avec un assistant qui
+ouvre les fichiers, le découpage se paie en place laissée au scénario.
+
+**Un garde-fou vaut d'être noté :** le script échoue si un fichier de `modele/`
+n'est rangé dans aucun ordre de chargement. Sans lui, un chapitre ajouté un jour
+sortirait du modèle publié sans que rien ne le signale — le genre de manque qui
+ne se voit qu'au moment où quelqu'un s'en sert.
+
+### Ce que la rédaction de la page a appris sur le modèle lui-même
+
+La page a été écrite pour des meneurs qui ne connaissent rien au dépôt, et cette
+contrainte a été plus instructive que prévu.
+
+- **Le vocabulaire du dépôt ne passe pas la porte.** « Régime nominal », « régime
+  dégradé », « compilation », « chaîne », « outillage », « contrôles », « renvois
+  d'arbitrage » : tout a dû être traduit. Le mot qui a le plus résisté est
+  **« outillage »** — il annonçait qu'il fallait installer quelque chose sans
+  jamais dire quoi, ce qui est la formule la plus décourageante possible. Nommer
+  les outils a suffi.
+- **Neuf contrôles listés valent moins qu'un exemple.** La grille complète —
+  volume, remplissage, densité, encarts, lignes à dire — se lit comme une fiche
+  technique. Trois exemples au fil du texte disent la même chose et se
+  retiennent.
+- **Une phrase fausse a tenu plusieurs versions** : « le scénario est transformé
+  en texte » comme si ce n'était pas le cas dans une conversation. C'est faux —
+  il l'est toujours. La vraie différence est entre **se souvenir et chercher** :
+  en conversation le modèle répond depuis ce qu'il a lu, avec l'outillage il
+  interroge un fichier et reçoit une liste. Formulation à retenir : elle dit en
+  deux mots ce que « croisements exhaustifs » ne disait qu'aux initiés.
+
+### Ce qui reste ouvert
+
+**Il n'existe aucune mesure comparative entre les deux façons de faire.** Tout ce
+qui est écrit sur la perte en conversation est un raisonnement sur les
+mécanismes, pas un résultat. Le test existe et n'a jamais été fait : reprendre un
+scénario déjà traité en conversation seule, et compter ce qui manque par rapport
+à la note existante. Ce serait le meilleur contenu que la page puisse porter.
+
+**Et la question de fond n'est pas tranchée** : le site publie des dérivés nommés
+de scénarios du commerce. Les notes et les livrets sont solidement transformatifs
+— ils ne servent à rien sans la source. L'annoté l'est beaucoup moins : le
+chapitre dit lui-même qu'il « remplace la relecture de la source », pour 40 à
+50 % de son volume et dans son ordre. C'est un substitut, et il est publié. Signalé,
+non traité.

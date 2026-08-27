@@ -226,6 +226,26 @@ ignore (`@media`, `overflow-x`).
 
 ## Le site, et pourquoi c'est lui qu'on mène
 
+## Le modèle, mis à disposition
+
+`scripts/modele.py` écrit dans `out/` la page qui présente la démarche
+(`demarche.html`, source dans `web/`) et **deux formes du même modèle** :
+`modele-complet.md`, les chapitres concaténés dans l'ordre de chargement, et
+`modele.zip`, les mêmes séparés. Deux formes parce qu'il y a deux façons de
+travailler — dans une conversation tout est chargé d'un coup et le chargement
+conditionnel du socle n'a plus d'objet ; avec un assistant qui ouvre les
+fichiers, le découpage se paie en place.
+
+Le script **ne transforme rien** : `modele/` n'est pas du code, les chapitres
+sont concaténés tels quels et l'archive les reprend octet pour octet. Il échoue
+si un fichier de `modele/` n'est pas rangé dans son ordre de chargement — sans
+ce garde-fou, un chapitre ajouté sortirait du modèle publié sans que personne le
+voie. Le journal des passages est laissé de côté : c'est le retour d'expérience
+de ce dépôt, pas une règle applicable ailleurs.
+
+L'archive est horodatée à `SOURCE_DATE_EPOCH`, comme le PDF : deux exécutions
+donnent le même fichier.
+
 Le HTML n'est pas une sortie de courtoisie : c'est le support de jeu. Trois choses l'en rendent
 capable, et aucune n'existait avant qu'on les écrive.
 

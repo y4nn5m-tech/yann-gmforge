@@ -1,0 +1,520 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>La démarche — documents de table</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Public+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap">
+
+<style>
+/* ---------------------------------------------------------------------------
+   Palette reprise telle quelle de assets/screen.css et assets/web.css :
+   c'est la charte du site, pas une proposition. Seules les faces de caractère
+   sont propres à cette page — les documents, eux, restent en DejaVu.
+   --------------------------------------------------------------------------- */
+:root {
+  --ground:  #fbfcfd;
+  --surface: #ffffff;
+  --voile:   #eef2f5;
+  --corps:   #1a1f23;
+  --encre:   #132c3c;
+  --bleu:    #34566b;
+  --lien:    #2d5f80;
+  --sourd:   #6b7c88;
+  --tres-sourd: #8aa4b2;
+  --regle:   #c3cfd7;
+  --filet:   #dfe6eb;
+
+  --dire-f: #e8f1f8; --dire-b: #1f6fa8; --dire-t: #14507c;
+  --jeu-f:  #e9f4ea; --jeu-b:  #2e7d43; --jeu-t:  #1e5c30;
+  --mj-f:   #fdecec; --mj-b:   #b3271e; --mj-t:   #8f1e17;
+  --obj-f:  #f1ecf9; --obj-b:  #6a4bb0; --obj-t:  #4b3283;
+  --warn-f: #fff8e1; --warn-b: #c9a227; --warn-t: #8a6d3b;
+  --dang:   #a8641f;
+
+  --display: "Newsreader", Georgia, "Times New Roman", serif;
+  --texte: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground:  #151b20;
+    --surface: #1a2126;
+    --voile:   #202a31;
+    --corps:   #dfe4e8;
+    --encre:   #cfe0ec;
+    --bleu:    #6f9cba;
+    --lien:    #8fc4e8;
+    --sourd:   #93a5b1;
+    --tres-sourd: #7b8c99;
+    --regle:   #2c3a44;
+    --filet:   #26313a;
+
+    --dire-f: #16303f; --dire-b: #3d8dc4; --dire-t: #9dcdf0;
+    --jeu-f:  #17301d; --jeu-b:  #4e9e63; --jeu-t:  #9ed8ac;
+    --mj-f:   #331716; --mj-b:   #d1554c; --mj-t:   #f0a8a2;
+    --obj-f:  #241d38; --obj-b:  #9078d8; --obj-t:  #c5b4f0;
+    --warn-f: #302713; --warn-b: #d9b644; --warn-t: #e2c98a;
+    --dang:   #d99a4e;
+  }
+}
+
+:root[data-theme="dark"] {
+  --ground:  #151b20;
+  --surface: #1a2126;
+  --voile:   #202a31;
+  --corps:   #dfe4e8;
+  --encre:   #cfe0ec;
+  --bleu:    #6f9cba;
+  --lien:    #8fc4e8;
+  --sourd:   #93a5b1;
+  --tres-sourd: #7b8c99;
+  --regle:   #2c3a44;
+  --filet:   #26313a;
+
+  --dire-f: #16303f; --dire-b: #3d8dc4; --dire-t: #9dcdf0;
+  --jeu-f:  #17301d; --jeu-b:  #4e9e63; --jeu-t:  #9ed8ac;
+  --mj-f:   #331716; --mj-b:   #d1554c; --mj-t:   #f0a8a2;
+  --obj-f:  #241d38; --obj-b:  #9078d8; --obj-t:  #c5b4f0;
+  --warn-f: #302713; --warn-b: #d9b644; --warn-t: #e2c98a;
+  --dang:   #d99a4e;
+}
+
+body {
+  background: var(--ground);
+  color: var(--corps);
+  font-family: var(--texte);
+  font-size: 1.02rem;
+  line-height: 1.62;
+  margin: 0;
+  padding: 0 1.2rem 6rem 1.2rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page { max-width: 46rem; margin: 0 auto; }
+.lecture { max-width: 34rem; }
+
+p { margin: 0 0 1.1rem 0; }
+a { color: var(--lien); text-decoration: none;
+    border-bottom: 1px solid var(--regle); padding-bottom: 1px; }
+a:hover, a:focus-visible { color: var(--encre); border-bottom-color: var(--bleu); }
+a:focus-visible { outline: 2px solid var(--bleu); outline-offset: 3px; border-radius: 2px; }
+strong { color: var(--encre); font-weight: 700; }
+
+/* --- ouverture ----------------------------------------------------------- */
+
+.hero { padding: 4.5rem 0 0 0; }
+.eyebrow { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.16em;
+           color: var(--tres-sourd); margin: 0 0 1.1rem 0; font-weight: 500; }
+h1 { font-family: var(--display); font-optical-sizing: auto;
+     font-size: clamp(2.6rem, 7vw, 4.1rem); font-weight: 500; line-height: 1.02;
+     letter-spacing: -0.025em; color: var(--encre);
+     margin: 0 0 1.2rem 0; text-wrap: balance; }
+.accroche { font-family: var(--display); font-size: clamp(1.15rem, 2.6vw, 1.42rem);
+            line-height: 1.45; color: var(--sourd); max-width: 30rem;
+            margin: 0 0 2rem 0; text-wrap: pretty; }
+.accroche em { color: var(--encre); font-style: italic; }
+/* la signature du site : une barre de 4px sur 9rem */
+.rule { height: 4px; width: 9rem; background: var(--bleu); margin: 0 0 3.5rem 0; }
+
+/* --- une unité de livret, reprise de la charte des documents ------------- */
+
+.unit-demo { background: var(--surface); border: 1px solid var(--filet);
+             border-radius: 3px; padding: 1.3rem 1.4rem 1.4rem 1.4rem; }
+.head { background: var(--voile); border-left: 5px solid var(--bleu);
+        border-bottom: 1px solid var(--regle); padding: 0.6rem 0.9rem;
+        margin: 0 0 1.1rem 0; }
+.head .use { display: inline-block; font-size: 0.64rem; font-weight: 700;
+             letter-spacing: 0.1em; text-transform: uppercase;
+             color: var(--surface); background: var(--bleu);
+             padding: 0.1rem 0.4rem; border-radius: 2px; }
+.head .titre { font-family: var(--display); font-optical-sizing: auto;
+               font-size: 1.38rem; font-weight: 500; line-height: 1.15;
+               color: var(--encre); margin: 0.35rem 0 0 0; }
+.zone { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.11em;
+        color: var(--lien); font-weight: 700; margin: 1.5rem 0 0.3rem 0; }
+.loc { margin: 0 0 1.1rem 0; }
+.loc .ln { padding: 0.42rem 0; border-top: 1px solid var(--filet);
+           font-size: 0.89rem; line-height: 1.5; color: var(--sourd); }
+.loc .ln:first-child { border-top: none; }
+.g { font-weight: 700; font-size: 0.82rem; }
+.g.d { color: var(--dire-b); }
+.g.i { color: var(--dang); }
+.g.p { color: var(--jeu-b); }
+
+/* --- les cinq blocs, repris de la charte des documents ------------------- */
+
+.bloc { border-left: 5px solid; border-radius: 0 4px 4px 0;
+        padding: 0.75rem 0.95rem; margin: 0 0 0.75rem 0; font-size: 0.93rem;
+        line-height: 1.5; }
+.bloc:last-child { margin-bottom: 0; }
+.bloc .lab { display: block; font-size: 0.63rem; font-weight: 700;
+             letter-spacing: 0.12em; text-transform: uppercase;
+             margin-bottom: 0.35rem; }
+.bloc p { margin: 0; }
+.dire { background: var(--dire-f); border-color: var(--dire-b); }
+.dire .lab, .dire strong { color: var(--dire-t); }
+.jeu  { background: var(--jeu-f);  border-color: var(--jeu-b); }
+.jeu .lab, .jeu strong { color: var(--jeu-t); }
+.mj   { background: var(--mj-f);   border-color: var(--mj-b); font-style: italic; }
+.mj .lab { color: var(--mj-t); font-style: normal; }
+.mj strong { color: var(--mj-t); }
+.obj  { background: var(--obj-f);  border-color: var(--obj-b); }
+.obj .lab, .obj strong { color: var(--obj-t); }
+.warn { background: var(--warn-f); border-color: var(--warn-b); }
+.warn .lab, .warn strong { color: var(--warn-t); }
+
+.legende { display: flex; flex-wrap: wrap; gap: 0.35rem 1.1rem;
+           font-size: 0.74rem; color: var(--sourd); margin: 1.1rem 0 0 0;
+           padding: 0; list-style: none; }
+.legende li { display: flex; align-items: baseline; gap: 0.4rem; }
+.legende i { display: inline-block; width: 0.62rem; height: 0.62rem;
+             border-radius: 2px; flex: none; }
+.apres-demo { font-size: 0.85rem; line-height: 1.55; color: var(--sourd);
+              margin: 1rem 0 0 0; }
+
+/* --- sections ------------------------------------------------------------ */
+
+section { margin: 0 0 4rem 0; }
+h2 { font-family: var(--display); font-optical-sizing: auto;
+     font-size: 1.72rem; font-weight: 500; line-height: 1.15;
+     letter-spacing: -0.015em; color: var(--encre);
+     background: var(--voile); border-left: 4px solid var(--bleu);
+     padding: 0.5rem 0.9rem 0.55rem 0.85rem;
+     margin: 0 0 1.5rem 0; text-wrap: balance; }
+h3 { font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.11em;
+     color: var(--lien); font-weight: 700; margin: 2.2rem 0 0.5rem 0; }
+
+/* --- les trois livrables ------------------------------------------------- */
+
+.livrables { display: grid; gap: 1.1rem; grid-template-columns: 1fr; margin: 0; }
+@media (min-width: 46rem) { .livrables { grid-template-columns: repeat(3, 1fr); } }
+.livrable { background: var(--surface); border: 1px solid var(--filet);
+            border-top: 3px solid var(--teinte); border-radius: 3px;
+            padding: 1.2rem 1.25rem 1.35rem 1.25rem;
+            display: flex; flex-direction: column; }
+.livrable h3 { margin: 0 0 0.15rem 0; color: var(--teinte);
+               font-size: 0.68rem; letter-spacing: 0.13em; }
+.livrable .nom { font-family: var(--display); font-size: 1.28rem; font-weight: 500;
+                 line-height: 1.2; color: var(--encre); margin: 0 0 0.15rem 0; }
+.livrable .mesure { font-family: var(--mono); font-size: 0.72rem;
+                    color: var(--tres-sourd); font-variant-numeric: tabular-nums;
+                    margin: 0 0 0.7rem 0; }
+.livrable p { font-size: 0.9rem; line-height: 1.5; margin: 0; color: var(--sourd); }
+.livrable p + p { margin-top: 0.6rem; }
+
+/* --- les deux régimes ---------------------------------------------------- */
+
+.regimes { display: grid; gap: 1.2rem; grid-template-columns: 1fr; }
+@media (min-width: 50rem) { .regimes { grid-template-columns: 1fr 1fr; gap: 1.6rem; } }
+.regime { border-top: 1px solid var(--regle); padding-top: 1rem; }
+.regime .quoi { font-family: var(--display); font-size: 1.18rem; font-weight: 500;
+                color: var(--encre); margin: 0 0 0.1rem 0; }
+.regime .qui { font-size: 0.82rem; letter-spacing: 0.01em;
+               color: var(--tres-sourd); margin: 0 0 0.8rem 0; }
+.regime p { font-size: 0.93rem; line-height: 1.55; margin: 0 0 0.7rem 0; }
+
+/* --- récupérer ----------------------------------------------------------- */
+
+.formes { display: grid; gap: 1rem; grid-template-columns: 1fr; margin: 0 0 1.6rem 0; }
+@media (min-width: 46rem) { .formes { grid-template-columns: 1fr 1fr; } }
+/* colonne : le bouton se pose en pied, quelle que soit la longueur du texte,
+   pour que les deux cartes se répondent au lieu de se décaler */
+.forme { background: var(--surface); border: 1px solid var(--filet);
+         border-radius: 3px; padding: 1.3rem 1.4rem;
+         display: flex; flex-direction: column; }
+.forme .pour { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.13em;
+               color: var(--tres-sourd); font-weight: 700; margin: 0 0 0.5rem 0; }
+.forme .nom { font-family: var(--display); font-optical-sizing: auto;
+              font-size: 1.22rem; font-weight: 500; line-height: 1.2;
+              color: var(--encre); margin: 0 0 0.6rem 0; }
+.forme p { font-size: 0.9rem; line-height: 1.5; color: var(--sourd);
+           margin: 0 0 1.2rem 0; }
+.bouton { display: inline-block; margin-top: auto; align-self: flex-start;
+          font-size: 0.82rem; font-weight: 700; letter-spacing: 0.04em;
+          color: var(--surface); background: var(--bleu);
+          padding: 0.5rem 1rem; border-radius: 3px; border: none;
+          text-decoration: none; }
+.bouton:hover, .bouton:focus-visible { background: var(--encre); color: var(--surface); }
+
+/* --- pied ---------------------------------------------------------------- */
+
+footer { border-top: 1px solid var(--regle); padding-top: 1.6rem;
+         font-size: 0.85rem; color: var(--sourd); }
+footer p { margin: 0 0 0.7rem 0; }
+footer .droits { font-size: 0.8rem; color: var(--tres-sourd); }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+
+/* --- sous-parties de « La solution » ------------------------------------ */
+
+h3.sous { font-family: var(--display); font-optical-sizing: auto;
+          font-size: 1.3rem; font-weight: 500; line-height: 1.2;
+          letter-spacing: -0.01em; color: var(--encre); text-transform: none;
+          margin: 3rem 0 1.1rem 0; padding-top: 1.1rem;
+          border-top: 1px solid var(--filet); }
+</style></head><body>
+
+<div class="page">
+
+  <header class="hero">
+    <p class="eyebrow">Jeu de rôle sur table · éprouvé sur sept scénarios</p>
+    <h1>Le scénario que vous avez acheté n'est pas fait pour être mené.</h1>
+    <p class="accroche">Il est fait pour être <em>lu</em>. Ce modèle le reprend et
+       en tire les documents qui manquent : ce que la source ne tranche pas, les
+       chiffres qu'elle disperse, et le livret qu'on garde ouvert pendant la partie.</p>
+    <div class="rule"></div>
+  </header>
+
+  <section class="lecture">
+    <h2>Le problème est le même pour tout le monde</h2>
+    <p>Un scénario publié se déroule en prose, dans l'ordre de la fiction, avec les
+       informations à l'endroit où l'auteur les a pensées. C'est ce qu'il faut pour
+       donner envie de le jouer.</p>
+    <p>À table, vous ne lisez pas : vous cherchez. Combien de points de vie a cette
+       créature, et est-ce que l'armure compte ? Qu'est-ce que je peux dire, là,
+       maintenant, sans mentir sur ce qui suit ? Cette porte, elle s'ouvre avec quoi —
+       et si personne ne trouve la clef ? Le scénario contient les réponses. Il les
+       contient dispersées sur quatorze pages, dans un ordre qui n'est pas celui de
+       vos questions.</p>
+    <p>Préparer une séance, c'est donc <strong>refaire les croisements que l'auteur
+       n'a pas faits</strong>. Les chiffres qui se contredisent d'une page à l'autre.
+       Le compteur qu'il faut tenir mais que personne n'a nommé. La règle glissée
+       entre parenthèses au milieu d'un texte à lire à voix haute. La salle finale qui
+       n'a qu'un seul accès, et qu'on découvre bloquée en pleine partie.</p>
+    <p>Ce travail se refait à chaque scénario, et il se fait mal — parce qu'on le fait
+       de mémoire, à minuit, la veille de la partie.</p>
+  </section>
+
+  <section class="solution">
+    <h2>La solution</h2>
+    <div class="lecture">
+      <p>Vous donnez votre scénario à une IA, et le modèle lui dit quoi en faire : ce
+         qu'il faut en extraire, ce qu'il faut laisser, et sous quelle forme le rendre.
+         Ce n'est pas « résume-moi ce scénario » — c'est un texte de consignes écrit au
+         fil de sept scénarios menés à table.</p>
+      <p>En sortie, <strong>trois documents</strong>, et chacun répond à un moment
+         différent de votre préparation.</p>
+    </div>
+
+    <h3 class="sous">Trois documents, trois moments</h3>
+    <div class="livrables">
+      <article class="livrable" style="--teinte: var(--warn-b)">
+        <h3>Avant la séance</h3>
+        <p class="nom">La note d'arbitrage</p>
+        <p class="mesure">8 à 12 pages</p>
+        <p>Elle ne raconte rien : vous venez de lire le scénario. Elle nomme ce que
+           la source ne tranche pas, et le tranche.</p>
+        <p>Elle s'ouvre par une explication de texte d'une page — l'espèce du
+           scénario, ce que les joueurs vont concrètement faire, les compteurs à
+           tenir, les points de rupture.</p>
+      </article>
+      <article class="livrable" style="--teinte: var(--obj-b)">
+        <h3>À la place de la note</h3>
+        <p class="nom">Le scénario annoté</p>
+        <p class="mesure">40 à 50 % du volume de la source</p>
+        <p>La source ramenée à son ossature, dans son ordre à elle, sans la prose.</p>
+        <p>Il remplace la note quand le scénario est dense et qu'il faut pouvoir y
+           revenir en séance. Sur une source déjà écrite en mots-clés, il ne fait que
+           la doubler — et il ne sert alors à rien.</p>
+      </article>
+      <article class="livrable" style="--teinte: var(--dire-b)">
+        <h3>Pendant la partie</h3>
+        <p class="nom">L'aide de jeu</p>
+        <p class="mesure">1 unité = 1 point de consultation</p>
+        <p>Le livret qu'on garde ouvert devant soi : les lignes à dire, les jets à
+           demander, ce que les joueurs découvrent et à quel prix.</p>
+        <p>On y va pour trouver une chose, jamais pour lire.</p>
+      </article>
+    </div>
+
+    <h3 class="sous">Le garde-fou</h3>
+    <div class="lecture">
+      <p>Demandez à une IA de vous préparer un scénario, et elle vous rendra quarante
+         pages. Ce sera le scénario recopié, avec des couleurs. Le défaut est traître :
+         <strong>un document trop long a l'air complet</strong>, et vous ne vous en
+         apercevez qu'à table, en y cherchant un chiffre.</p>
+      <p>Alors le document est mesuré avant de vous être rendu, et il n'est pas produit
+         tant qu'il ne passe pas. Trop long, une phrase à dire qu'on va se mettre à
+         lire au lieu de jouer, un renvoi qui ne mène nulle part : il repart en
+         correction.</p>
+      <div class="bloc jeu">
+        <span class="lab">Et la règle ne se négocie pas</span>
+        <p>Une vérification qui échoue signale <strong>un défaut du document, jamais un
+           défaut de l'outil</strong>. On corrige le document, et on recommence.</p>
+      </div>
+    </div>
+
+    <h3 class="sous">Ce que ça ne fait pas</h3>
+    <div class="lecture">
+    <div class="bloc mj">
+      <span class="lab">Lire le scénario à votre place</span>
+      <p>La méthode suppose que vous l'avez lu. La note ne raconte pas l'histoire,
+         l'annoté ne remplace pas une première lecture. Un document produit sur une
+         source qu'on n'a pas ouverte est invérifiable — <strong>et il aura l'air
+         parfaitement crédible</strong>.</p>
+    </div>
+    <div class="bloc mj">
+      <span class="lab">Garantir le fond</span>
+      <p>Les vérifications mesurent la forme : la longueur, le remplissage, la taille des
+         lignes, la validité des renvois. <strong>Aucun ne compare le document à la
+         source.</strong> Un document peut passer les neuf et affirmer une chose que
+         le scénario ne dit nulle part. C'est arrivé ici, sur une source pourtant
+         relue. La vérification reste à vous.</p>
+    </div>
+    <div class="bloc mj">
+      <span class="lab">Vous éviter de décider</span>
+      <p>Le modèle ne tranche rien à votre place : il vous montre ce qui doit être
+         tranché. <strong>C'est le point.</strong></p>
+    </div>
+    </div>
+
+    <h3 class="sous">À quoi ça ressemble</h3>
+    <div class="lecture">
+      <p>Une page du livret de table — ce qu'on ouvre au moment où les joueurs
+         poussent la porte, et rien d'autre.</p>
+    </div>
+
+    <div class="unit-demo">
+      <div class="head">
+        <span class="use">À dire</span>
+        <p class="titre">7 · La grande salle — 8 · L'escalier est</p>
+      </div>
+
+      <div class="bloc mj">
+        <span class="lab">Ce qui relie les deux</span>
+        <p><strong>La clef n'est pas dans la salle.</strong> Elle est en haut de
+           l'escalier est. Tant qu'ils fouillent le rez-de-chaussée, ils tournent — et
+           la bête finit par se réveiller toute seule.</p>
+      </div>
+
+      <div class="bloc obj">
+        <span class="lab">Objectif — les faire choisir entre le silence et le temps</span>
+        <p>Deux façons de traverser : lentement sans réveiller la bête, ou vite en
+           payant le bruit. <strong>Ne pas trancher à leur place.</strong></p>
+      </div>
+
+      <p class="zone">7 · La grande salle</p>
+      <div class="loc">
+        <div class="ln"><span class="g d">Décor —</span> Braises dans l'âtre. Odeur de
+          suif froid. Une masse qui respire, contre le mur nord.</div>
+        <div class="ln"><span class="g i">Danger —</span> La bête. <strong>26 points de
+          vie, armure 3.</strong> Endormie. L'armure retire 3 à chaque coup : à mains
+          nues, on ne l'entame pas.</div>
+        <div class="ln"><span class="g p">Butin —</span> Rien à portée. Ce qui vaut
+          quelque chose est à l'étage.</div>
+      </div>
+
+      <p class="zone">8 · L'escalier est</p>
+      <div class="loc">
+        <div class="ln"><span class="g d">Décor —</span> Marches creusées au centre,
+          poussière intacte sur les bords. Personne n'est monté depuis longtemps.</div>
+        <div class="ln"><span class="g i">Danger —</span> La quatrième marche cède.
+          <em>Jet d'agilité, sinon le bruit réveille la bête.</em></div>
+        <div class="ln"><span class="g p">Butin —</span> La clef de la porte du fond,
+          sur un crochet, dans la première pièce.</div>
+      </div>
+
+      <div class="bloc jeu">
+        <span class="lab">Si la bête se réveille</span>
+        <p>Elle ne poursuit pas hors de la salle : <strong>sortir suffit</strong>. Le
+           vrai coût n'est pas le combat, c'est qu'ils devront repasser.</p>
+      </div>
+    </div>
+
+    <div class="lecture">
+      <ul class="legende">
+        <li><i style="background:var(--dire-b)"></i> à dire</li>
+        <li><i style="background:var(--jeu-b)"></i> mécanique</li>
+        <li><i style="background:var(--mj-b)"></i> réservé au meneur</li>
+        <li><i style="background:var(--obj-b)"></i> pilotage</li>
+        <li><i style="background:var(--warn-b)"></i> arbitrage</li>
+      </ul>
+      <p class="apres-demo">Cinq couleurs, et ce sont cinq usages : on sait avant de
+         lire si ce qu'on a sous les yeux se dit aux joueurs, se garde pour soi, ou se
+         décide avant la séance. Ce qui se dit s'écrit en mots, pas en phrases —
+         <strong>le meneur fabrique la description, il ne la récite pas</strong>.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>S'en servir</h2>
+    <div class="lecture">
+      <p>Le modèle est un texte. Vous le donnez à une IA avec votre scénario, et vous
+         travaillez avec elle. Deux façons de faire, et elles ne se valent pas.</p>
+    </div>
+    <div class="regimes">
+      <div class="regime">
+        <p class="quoi">Dans une conversation</p>
+        <p class="qui">ChatGPT · Gemini · Claude</p>
+        <p>Vous déposez le modèle et votre scénario dans une conversation, et vous
+           avancez au fil de la discussion. <strong>Rien à installer</strong>, et ça
+           donne des documents utiles.</p>
+        <p>Deux limites, et il vaut mieux les connaître. L'IA a bien lu votre scénario,
+           mais elle vous répond <strong>de mémoire de lecture</strong> : quand vous
+           cherchez tous les endroits où un chiffre apparaît, elle vous donne ceux dont
+           elle se souvient. Elle peut en oublier un, et rien ne vous le signale. Et
+           rien ne mesure ce qu'elle vous rend — c'est à vous de vous apercevoir que la
+           note fait dix-sept pages.</p>
+      </div>
+      <div class="regime">
+        <p class="quoi">Avec une IA qui ouvre vos fichiers</p>
+        <p class="qui">Claude Code · Codex · Gemini CLI</p>
+        <p>Ce sont des assistants qui s'installent sur l'ordinateur et travaillent
+           directement dans vos documents. Votre scénario y est extrait dans un fichier
+           que l'IA peut <strong>interroger</strong> : au lieu de se souvenir, elle
+           cherche, et reçoit la liste complète. C'est comme ça que sortent les
+           contradictions que l'auteur n'a pas vues.</p>
+        <p>L'extraction signale au passage les pages qu'elle n'a pas su lire — un plan,
+           une illustration pleine page — pour que vous alliez les regarder vous-même.
+           Et à la fin, le document est mesuré avant de vous être rendu.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Récupérer le modèle</h2>
+    <div class="lecture">
+      <p>Le même modèle, en deux versions. Prenez celle qui correspond à la façon dont
+         vous comptez travailler.</p>
+    </div>
+    <div class="formes">
+      <div class="forme">
+        <p class="pour">Pour une conversation</p>
+        <p class="nom">Un seul fichier</p>
+        <p>Tout est dedans, dans l'ordre. Vous le déposez dans ChatGPT, Gemini ou
+           Claude avec votre scénario, et vous pouvez commencer.</p>
+        <a class="bouton" href="modele-complet.md" download>Télécharger le fichier</a>
+      </div>
+      <div class="forme">
+        <p class="pour">Pour une IA qui ouvre vos fichiers</p>
+        <p class="nom">Un dossier de chapitres</p>
+        <p>Le modèle découpé : un chapitre par document à produire, un par famille de
+           scénario, un par jeu. L'assistant n'ouvre que ceux dont il a besoin, ce qui
+           lui laisse de la place pour votre scénario.</p>
+        <a class="bouton" href="modele.zip" download>Télécharger le dossier</a>
+      </div>
+    </div>
+    <div class="lecture">
+      <p style="font-size:0.9rem;color:var(--sourd)">Le reste — de quoi extraire votre
+         scénario et faire tourner les vérifications — est <a href="https://github.com/y4nn5m-tech/yann-gmforge">sur GitHub</a>,
+         avec la marche à suivre. C'est ce qu'installe la seconde façon de travailler ;
+         le modèle seul n'en a pas besoin.</p>
+    </div>
+  </section>
+
+  <footer class="lecture">
+    <p><strong>Le modèle éditorial est sous CC BY-SA</strong> : servez-vous en,
+       adaptez-le, et si vous l'améliorez, que l'amélioration reste partageable. La
+       chaîne de compilation est sous MIT.</p>
+    <p class="droits">Les documents produits à partir d'un scénario du commerce sont
+       des œuvres dérivées de ce scénario. Ils sont à vous et à votre table. Ce modèle
+       ne donne aucun droit sur la source, et rien ici n'autorise à redistribuer le
+       travail d'un éditeur.</p>
+  </footer>
+
+</div>
+
+</body></html>

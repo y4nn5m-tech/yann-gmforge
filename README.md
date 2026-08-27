@@ -229,10 +229,14 @@ ignore (`@media`, `overflow-x`).
 Le HTML n'est pas une sortie de courtoisie : c'est le support de jeu. Trois choses l'en rendent
 capable, et aucune n'existait avant qu'on les écrive.
 
-- **Le panneau de navigation**, construit par `build.py` après pandoc. `--toc` est bien passé, et
-  pandoc ne produit rien : les titres d'unité sont imbriqués à deux niveaux (`.unit` > `.head`), et il
-  ne remonte pas des titres si profonds. Sortir le `<h2>` de son bandeau casserait la charte
-  d'impression pour un gain identique — la liste se construit donc à partir du rendu.
+- **Le panneau de navigation**, construit par `build.py` après pandoc, et **`--toc` n'est plus
+  passé**. Sur un livret, pandoc ne produisait rien de toute façon : les titres d'unité sont imbriqués
+  à deux niveaux (`.unit` > `.head`), et il ne remonte pas des titres si profonds. Mais la note et le
+  scénario annoté ont leurs `h2` à la racine — son sommaire s'y affichait donc en tête de document, en
+  doublon du panneau. La liste se construit à partir du rendu, pour les trois livrables.
+  *Piège de fabrication rencontré là : pandoc **coupe la ligne entre deux attributs** quand elle est
+  longue. Une regex qui cherche `class="sec" id="…"` avec une simple espace rate le premier titre —
+  et lui seul. Lire les attributs séparément.*
   **Un panneau, et non un sommaire en tête de document** : un sommaire en tête oblige à remonter tout
   le document à chaque changement d'unité, ce qui n'est pas de la navigation mais un aller-retour. Un
   bouton flottant l'ouvre depuis n'importe quel point ; sur grand écran il est épinglé en colonne et

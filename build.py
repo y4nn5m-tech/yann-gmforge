@@ -159,12 +159,16 @@ def site(doc, fs, m):
     for f in ("screen.css", "web.css"):
         shutil.copy(ASSETS / f, css / f)
     cible = OUT / f"{doc}.html"
+    # Pas de `--toc` : le panneau de navigation est construit par `sommaire()`,
+    # et le sommaire de pandoc ferait doublon en tête de document. Il ne se
+    # voyait pas tant que les seuls documents concernés étaient des livrets —
+    # pandoc ne remonte pas leurs titres, imbriqués à deux niveaux — mais la
+    # note et l'annoté ont leurs `h2` à la racine, et il s'y affichait.
     # `title` vidé : le document porte déjà son titre dans le premier fragment
     # (c'est lui que le PDF compose). Sans ça, pandoc ajoute son propre
     # title-block et le titre apparaît deux fois sur le site. Le `<title>` de
     # l'onglet vient de `pagetitle`, qui n'alimente pas ce bloc.
     subprocess.run(PANDOC_COMMUN + [*map(str, fs), "--to", "html5", "--standalone",
-                                    "--toc", "--toc-depth=2",
                                     "--css", "assets/screen.css",
                                     "--css", "assets/web.css",
                                     "--metadata", "title=",
@@ -222,7 +226,9 @@ def sommaire(html, est_livret):
             if not t:
                 continue
             usage = re.search(r'<span class="use([^"]*)">(.*?)</span>', u, re.S)
-            titre = " ".join(re.sub(r"<[^>]+>", "", t.group(2)).split())
+            # une espace, pas rien : sinon « <span class="num">2</span>Lundi »
+            # devient « 2Lundi »
+            titre = " ".join(re.sub(r"<[^>]+>", " ", t.group(2)).split())
             cls = "use" + usage.group(1) if usage else ""
             lab = " ".join(re.sub(r"<[^>]+>", "", usage.group(2)).split()) if usage else ""
             # la couverture n'a pas d'étiquette d'usage : on lui donne quand
@@ -231,9 +237,23 @@ def sommaire(html, est_livret):
             entrées.append(f'<li><a href="#{t.group(1)}">{puce}{titre}</a></li>')
     else:
         # la note n'a pas d'unités : ses sections coulent, marquées par h2.sec
-        for i, titre in re.findall(r'<h2 class="sec" id="([^"]+)"[^>]*>(.*?)</h2>', html, re.S):
-            entrées.append(f'<li><a href="#{i}">'
-                           + " ".join(re.sub(r"<[^>]+>", "", titre).split()) + "</a></li>")
+        # une entrée vers le haut du document : la note et l'annoté n'ont pas
+        # d'unité de couverture qui la fournirait toute seule
+        tête = re.search(r'<h1 id="([^"]+)"[^>]*>(.*?)</h1>', html, re.S)
+        if tête:
+            entrées.append(f'<li><a href="#{tête.group(1)}">'
+                           + " ".join(re.sub(r"<[^>]+>", " ", tête.group(2)).split())
+                           + "</a></li>")
+        # les attributs se lisent séparément : pandoc coupe la ligne entre eux
+        # quand elle est longue, et « class="sec" id="…" » n'est alors plus
+        # séparé par une simple espace
+        for m in re.finditer(r"<h2\b([^>]*)>(.*?)</h2>", html, re.S):
+            attrs, titre = m.group(1), m.group(2)
+            ident = re.search(r'id="([^"]+)"', attrs)
+            if "sec" not in attrs or not ident:
+                continue
+            entrées.append(f'<li><a href="#{ident.group(1)}">'
+                           + " ".join(re.sub(r"<[^>]+>", " ", titre).split()) + "</a></li>")
     if len(entrées) < 3:
         return html
     panneau = (

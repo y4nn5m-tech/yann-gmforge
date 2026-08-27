@@ -678,6 +678,29 @@ nulle part — **le panneau de navigation est à l'écran ce que la page est au 
 livret de vingt unités n'a pas de points de consultation : il a un seul long défilement, et tout le
 travail de découpage ne sert plus à rien.
 
+### Trois défauts du panneau, et un piège de pandoc
+
+*Relevés par Yannick à l'usage, une fois deux annotés produits.*
+
+- **Le sommaire de pandoc s'affichait en doublon.** `--toc` était passé depuis toujours et ne
+  produisait rien — mais seulement sur les **livrets**, dont les titres sont imbriqués à deux niveaux.
+  La note et l'annoté ont leurs `h2` à la racine : pandoc y générait son propre sommaire, en tête de
+  document, sous le panneau qui fait déjà le travail. **Le diagnostic d'origine était juste et
+  incomplet** — il avait été posé sur un livret, et généralisé sans être revérifié quand un document à
+  sections coulantes est arrivé. `--toc` retiré.
+- **Le numéro de section collait au titre** : « 2Lundi — le trentième étage ». Les balises étaient
+  remplacées par la chaîne vide, ce qui soude le `<span class="num">` au texte qui suit. Une espace,
+  puis normalisation.
+- **Aucune entrée vers le haut du document.** Le livret n'en avait pas besoin — sa première unité est
+  la couverture. La note et l'annoté, qui n'ont pas d'unité, n'avaient aucun retour au titre. Une
+  entrée bâtie sur le `<h1>`.
+
+*Piège de fabrication, et il ne se voit qu'à l'œil :* **pandoc coupe la ligne entre deux attributs**
+quand elle est longue. Le premier `h2` du document sortait en
+`<h2 class="sec"\nid="ce-qui-sest-passé…">`, et la regex qui cherchait `class="sec" id="…"` avec une
+simple espace le ratait — **lui seul**, ce qui donnait un menu commençant à la section 2 sans que rien
+n'ait l'air cassé. Les attributs se lisent séparément, jamais comme une chaîne.
+
 ### Troisième passage — le scénario annoté, et la refonte du livret
 
 Deux essais commandés en même temps, et le premier décide du second.

@@ -251,8 +251,9 @@ Ce qui remplace la page : **le panneau de navigation**, construit par `build.py`
 bouton flottant l'ouvre depuis n'importe où, il s'épingle en colonne sur grand écran, et il se referme
 seul quand on clique une entrée. Le mécanisme est `:target`, **sans une ligne de JavaScript**. Plus
 **les tableaux défilants** sur petit écran et une media query sous 40 rem.
-Le panneau ne vient pas de `--toc` : pandoc ne remonte pas les titres imbriqués à deux niveaux
-(`.unit` > `.head`), et sortir le `<h2>` de son bandeau casserait la charte d'impression pour rien.
+Le panneau ne vient pas de `--toc`, qui n'est plus passé : sur un livret pandoc ne remontait pas les
+titres, imbriqués à deux niveaux (`.unit` > `.head`) ; sur la note et l'annoté, dont les `h2` sont à la
+racine, son sommaire s'affichait en doublon du panneau.
 
 L'EPUB reste une conversion : ni sommaire injecté, ni tableaux défilants — `web.css`, qui les porte,
 n'est chargé que par le site.

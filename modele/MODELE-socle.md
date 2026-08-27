@@ -191,111 +191,35 @@ page. Rien d'autre.
 l'aide de jeu utilise `.unit` (une unité = une page) ; la note **et le scénario annoté** utilisent
 `h2.sec` et `.card` (sections qui coulent librement sur plusieurs pages).
 
-> **Note du dépôt.** La feuille canonique ci-dessous vit dans `assets/print.css`, versionnée, et
-> c'est elle que la chaîne applique. Sa présence ici servait à produire des documents hors dépôt ;
-> plus aucun ne l'est. **La duplication n'a donc plus d'emploi, et la retirer est une décision à
-> prendre.** Tant qu'elle reste, les deux doivent être identiques — aux trois écarts près marqués
-> `[dépôt]`.
+## La feuille de style
 
-## Feuille de style canonique
+**Elle vit dans `assets/print.css`, versionnée, et nulle part ailleurs.**
 
-À recopier **verbatim**. Seul le titre du pied de page est à substituer.
+Ce fichier était recopié ici en entier, du temps où des documents se composaient hors dépôt. Il n'y en
+a plus. La copie a survécu à sa raison d'être, et elle a fait ce que font toutes les duplications :
+elle a divergé. **Quatre-vingt-cinq lignes d'écart au moment où on l'a retirée**, alors que le modèle
+en annonçait trois — dont les calages pandoc (`.head p`, les marges de `p` et `ul` dans les blocs) et
+l'ajout de `strong` à côté de `b`, sans lesquels un document composé d'après le socle sortait
+différent de ceux du dépôt.
 
-```css
-@page {
-  size: A4; margin: 12mm 12mm 13mm 12mm;
-  @bottom-left  { content: "TITRE DU SCÉNARIO — aide de jeu MJ";
-                  font-family:"DejaVu Sans"; font-size:6.8pt; color:#93a0a8; }
-  @bottom-right { content: "p. " counter(page);
-                  font-family:"DejaVu Sans"; font-size:6.8pt; color:#93a0a8; }
-}
-@page :first { @bottom-left{content:""} @bottom-right{content:""} }
+Ce qui reste ici, c'est ce qui relève d'une **décision éditoriale** et non d'une déclaration technique.
+Ces valeurs ont été réglées à l'usage, sur des documents imprimés et menés en partie : les changer est
+une décision, pas un réglage.
 
-* { box-sizing:border-box; }
-body { font-family:"DejaVu Sans",sans-serif; font-size:8.6pt; line-height:1.34;
-       color:#1a1f23; margin:0; }
+| Ce qui est arrêté | Valeur |
+|---|---|
+| Format et marges | A4, 12 mm de marge, 13 mm en pied |
+| Corps du texte | **8,6 pt**, interligne 1,34 |
+| Tableaux | 7,8 pt · en régime `.tight`, **7,2 pt** |
+| Titre de couverture · titre d'unité · titre de section | 31 pt · 16 pt · 13 pt |
+| Étiquette d'un bloc coloré | 6,3 pt, petites capitales, `letter-spacing` 1 pt |
+| Les cinq teintes | voir le tableau du code couleur, plus haut |
+| Étiquettes d'usage | `À DIRE` ardoise · `À LIRE AVANT` **ambre** · `À CONSULTER` **violet** |
+| Les deux régimes | `.unit { break-before: page }` pour le livret · `h2.sec` et `.card` pour ce qui coule |
 
-h1 { font-size:31pt; margin:0; color:#132c3c; letter-spacing:-0.8pt; line-height:1.02; }
-h3 { font-size:8pt; margin:3mm 0 1mm 0; text-transform:uppercase; letter-spacing:0.9pt;
-     color:#2d5f80; break-after:avoid; }
-h4 { font-size:8.4pt; margin:2.5mm 0 1mm 0; text-transform:uppercase; letter-spacing:0.5pt;
-     color:#4a5a64; break-after:avoid; }
-.small { font-size:7.4pt; color:#57646c; }
-.rule  { height:1.2mm; background:#34566b; width:44mm; margin:4mm 0; }
-.quote { font-style:italic; color:#4a5a64; font-size:8.6pt;
-         border-left:0.4mm solid #c3cfd7; padding-left:3mm; margin:3mm 0; }
-
-/* ============ RÉGIME 1 — AIDE DE JEU : une unité = une page ============ */
-.unit { break-before: page; }
-.unit:first-of-type { break-before: auto; }
-
-.head { background:#eef2f5; border-left:1.8mm solid #34566b; border-bottom:0.3mm solid #c3cfd7;
-        padding:2mm 3mm 2.2mm 3mm; margin:0 0 2.5mm 0; break-after:avoid; }
-.head .act { font-size:6.6pt; text-transform:uppercase; letter-spacing:1.4pt; color:#7d8f9a; }
-.head .use { display:inline-block; font-size:6.2pt; font-weight:bold; letter-spacing:1pt;
-             text-transform:uppercase; color:#fff; background:#34566b; padding:0.4mm 1.8mm;
-             border-radius:0.6mm; margin-bottom:1.2mm; }
-.head .use.avant     { background:#b8860b; }   /* À LIRE AVANT */
-.head .use.consulter { background:#6a4bb0; }   /* À CONSULTER  */
-.head h2  { font-size:16pt; margin:0; color:#132c3c; letter-spacing:-0.2pt; line-height:1.05; }
-.head .sub{ font-size:8pt; color:#576872; font-style:italic; margin-top:0.6mm; }
-
-/* ============ RÉGIME 2 — NOTE : sections qui coulent ============ */
-.brk { break-before: page; }
-h2.sec { font-size:13pt; margin:7mm 0 2.5mm 0; padding:1.4mm 0 1.4mm 3mm;
-         color:#132c3c; background:#eef2f5; border-left:1.6mm solid #34566b;
-         border-bottom:0.3mm solid #c3cfd7; break-after:avoid; }
-h2.sec .num { color:#8aa4b2; margin-right:2.5mm; font-weight:normal; }
-.card { border:0.3mm solid #c3ccd2; border-radius:1.5mm; padding:2mm 2.5mm; margin-bottom:2.5mm; }
-.card h3 { margin-top:0; border-bottom:0.3mm solid #c3ccd2; font-size:9.5pt;
-           text-transform:none; letter-spacing:0; color:#132c3c; }
-.tag { display:inline-block; font-size:6.6pt; font-weight:bold; text-transform:uppercase;
-       letter-spacing:0.6pt; background:#6a4bb0; color:#fff; padding:0.5mm 1.6mm;
-       border-radius:3mm; vertical-align:middle; margin-left:2mm; }
-.tag.lieu{background:#1f6fa8} .tag.pnj{background:#a8641f}
-.tag.evt{background:#b3271e}  .tag.sc{background:#2e7d43}
-.cols2 { column-count:2; column-gap:5mm; }
-/* paliers de test (systèmes qui en ont) */
-.pal dt { font-weight:bold; font-size:7.4pt; text-transform:uppercase; letter-spacing:0.4pt;
-          margin-top:1.2mm; }
-.pal dd { margin:0; padding-left:3mm; }
-.e{color:#8a6d3b} .r{color:#1e5c30} .x{color:#1f6fa8}
-
-/* ============ COMMUN — les cinq blocs couleur ============ */
-.dire,.jeu,.mj,.obj,.warn { padding:1.6mm 2.4mm 1.6mm 2.8mm; margin:0 0 2mm 0;
-     border-left:1.3mm solid; border-radius:0 1mm 1mm 0; break-inside:avoid; }
-.lab { display:block; font-size:6.3pt; font-weight:bold; letter-spacing:1pt;
-       text-transform:uppercase; margin-bottom:0.7mm; }
-.dire{background:#e8f1f8;border-color:#1f6fa8} .dire .lab{color:#14507c} .dire b{color:#103d5e}
-.jeu {background:#e9f4ea;border-color:#2e7d43} .jeu  .lab{color:#1e5c30} .jeu  b{color:#1e5c30}
-.mj  {background:#fdecec;border-color:#b3271e;font-style:italic}
-      .mj .lab{color:#8f1e17;font-style:normal} .mj b{color:#8f1e17}
-.obj {background:#f1ecf9;border-color:#6a4bb0} .obj  .lab{color:#4b3283} .obj  b{color:#4b3283}
-.warn{background:#fff8e1;border-color:#c9a227} .warn .lab{color:#8a6d3b} .warn b{color:#8a6d3b}
-
-/* --- lignes à dire : une idée par ligne (aide de jeu) --- */
-.say { margin:0 0 2.5mm 0; }
-.say div { padding:0.35mm 0 0.35mm 3mm; text-indent:-3mm; }
-.say .q  { color:#103d5e; }                    /* réplique à prononcer */
-
-/* --- micro-grille de l'unité (aide de jeu) --- */
-.loc { margin:0 0 2.5mm 0; }
-.loc .ln { padding:0.5mm 0 0.5mm 0; border-top:0.2mm solid #dfe4e8; }
-.loc .ln:first-child { border-top:none; }
-.g { font-weight:bold; font-size:7.4pt; letter-spacing:0.3pt; }
-.g.d { color:#1f6fa8; }   /* 1re étiquette — Décor / Ce qui l'accuse */
-.g.i { color:#a8641f; }   /* 2e étiquette  — Indices / Sa défense    */
-.g.p { color:#2e7d43; }   /* 3e étiquette  — PNJ / Point de rupture  */
-i.m  { color:#3c6b48; font-style:italic; }     /* mécanique inline */
-
-/* --- tableaux : table-layout FIXED, largeurs en % sur TOUTES les colonnes --- */
-table { width:100%; border-collapse:collapse; table-layout:fixed;
-        font-size:7.8pt; margin-bottom:2mm; }
-th { background:#dce4ea; color:#132c3c; text-align:left; padding:1mm 1.6mm; font-size:6.8pt;
-     text-transform:uppercase; letter-spacing:0.4pt; border-bottom:0.4mm solid #34566b; }
-td { padding:1mm 1.6mm; border-bottom:0.2mm solid #d5dbe0; vertical-align:top; }
-.tight { font-size:7.2pt; } .tight td, .tight th { padding:0.7mm 1.2mm; }
-```
+**Aucune adaptation de la palette au thème du scénario**, et aucune règle de mise en forme qui
+n'existerait que d'un côté : la charte est identique pour les trois livrables, et c'est ce qui fait
+qu'on les reconnaît.
 
 ## Chaîne de production
 

@@ -212,8 +212,8 @@ chapitre encourageait.
   titre de bloc fabrique des pages à un quart pleines. *Cas vécu sur « Grand froid » : 10 pages dont
   trois remplies à 21 %, 53 % et 14 % ; les trois sauts retirés, 8 pages toutes au-dessus de 85 %, sans
   qu'une ligne change.*
-- **Retirer la règle `@page :first`** de la feuille canonique : elle supprime le pied de page de la
-  couverture, et la note n'a pas de couverture — sa première page perdrait sa pagination.
+- **La règle `@page :first` ne s'applique pas.** Elle supprime le pied de page de la couverture, et la
+  note n'a pas de couverture : sa première page perdrait sa pagination.
 - **Les descriptions n'ont pas leur place ici**, sauf les deux ou trois lignes qui portent une note de
   jeu. La règle des paliers de distance (socle) concerne l'aide de jeu.
 - **Aucune section ne se commente elle-même** (socle) : ni règle du document, ni note sur la version de

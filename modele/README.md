@@ -40,22 +40,15 @@ coller dans les réglages du projet ; il n'a plus de réglages où aller. Il res
 été sur le fond — le déroulé d'une demande en quatre étapes, qui prime sur le socle — et c'est à ce
 titre que `CLAUDE.md` le fait lire en premier.
 
-## Le seul point de contact réel avec la chaîne
+## Le point de contact avec la chaîne
 
-`assets/print.css` est la feuille canonique du socle, versionnée, et c'est elle que la chaîne
-applique. Le socle en garde une copie dans son texte — **une survivance** : elle servait à produire
-des documents hors dépôt, et il n'y en a plus. Tant qu'elle est là, les deux doivent rester
-identiques :
+`assets/print.css` **est** la charte, et il n'en existe plus de copie. Le socle en portait une, du
+temps où des documents se composaient hors dépôt ; elle avait divergé de quatre-vingt-cinq lignes
+avant qu'on la retire. Ce que le socle garde à la place, ce sont les **valeurs arrêtées** — corps,
+marges, teintes, régimes —, c'est-à-dire ce qui relève d'une décision éditoriale et non d'une
+déclaration technique.
 
-```
-diff <(sed -n '/^```css/,/^```/p' modele/MODELE-socle.md | sed '1d;$d') assets/print.css
-```
-
-La sortie n'est pas vide, et elle ne le sera jamais : `assets/print.css` porte trois écarts assumés,
-chacun marqué `/* [dépôt] */` — la police embarquée en `@font-face` (qui entraîne le renommage de la
-famille partout où elle est appelée), le pied de page injecté par le build depuis les métadonnées, et
-la largeur de tableau neutralisée pour pandoc. **Ce sont les seules divergences admises.** Toute règle
-de mise en forme qui apparaît d'un côté sans l'autre est une dérive : la charte visuelle est arrêtée.
-**Le plus simple serait de retirer le bloc CSS du socle et d'y renvoyer vers `assets/print.css`** —
-cent lignes de moins à tenir en double, et plus aucun risque de dérive. C'est une décision à prendre,
-pas un nettoyage à faire en passant.
+La règle qui reste, et elle vaut toujours : **`assets/print.css` ne se modifie pas sans demande
+explicite.** Les corps, les couleurs, les marges ont été réglés à l'usage, sur des documents imprimés
+et menés en partie. Et surtout pas au nom de la lisibilité à l'écran : `screen.css` et `web.css` sont
+là pour ça.

@@ -23,7 +23,7 @@ python3 build.py note-bun-and-run
 ```
 scripts/extraire.py   la passe mécanique : un PDF source → texte greppable + manifeste
 scripts/index.py      la page d'accueil du site, reconstruite à chaque build
-assets/print.css      charte d'impression — la feuille canonique du socle
+assets/print.css      charte d'impression — la charte elle-même, sans copie ailleurs
 assets/screen.css     même identité, régime reflowable : site et EPUB
 assets/web.css        extras du site seul : mode sombre, tableaux qui défilent
 assets/fonts/         DejaVu embarquée — voir « reproductibilité »

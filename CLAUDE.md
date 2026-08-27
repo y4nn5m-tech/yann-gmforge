@@ -224,10 +224,10 @@ python3 build.py <doc> && sha256sum out/*.pdf   # doit être identique
   les marges, la taille du texte ont été réglés à l'usage, sur des documents imprimés et menés en
   partie. Ne pas y toucher sans demande explicite — et surtout pas au nom de la lisibilité à l'écran :
   ce fichier ne sert qu'à l'impression.
-- **`assets/print.css` doit rester identique à la feuille canonique** recopiée dans
-  `modele/MODELE-socle.md`, aux trois écarts près marqués `/* [dépôt] */` (police embarquée, pied
-  injecté par le build, largeur de tableau neutralisée pour pandoc). C'est le seul couplage réel entre
-  le modèle et la chaîne.
+- **`assets/print.css` est la charte, et il n'en existe pas de copie.** Le socle en portait une, du
+  temps où des documents se composaient hors dépôt ; elle avait divergé de 85 lignes avant qu'on la
+  retire. Le socle garde les **valeurs arrêtées** — corps, marges, teintes, régimes — et renvoie ici
+  pour le reste. Une règle de mise en forme ne s'écrit donc qu'à un seul endroit.
 - **L'arborescence est stable**, et la numérotation des fragments est le plan des documents.
 - **Pas de dépendance JavaScript.** La chaîne est Python + pandoc + un filtre Lua. Il n'y a pas de
   `package.json` et il n'en faut pas : un lanceur de tâches ne justifie pas un toolchain Node. Si un

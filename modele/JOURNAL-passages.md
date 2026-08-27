@@ -26,7 +26,7 @@ entre la plaque du musée et le dossier militaire.
 
 ## Grand froid
 **Cthulhu Hack · source 23 p. · aide de jeu 18 p. puis 13 p. puis 22 p. · note d'arbitrage 8 p. puis
-9 p.**
+9 p. puis 10 p. · scénario annoté 11 p.**
 
 Scénario 5 de la campagne *Wendigo*. Chicago sous −30 °C, cinq victimes en cinq jours.
 
@@ -315,6 +315,43 @@ sa vérification.** Une note d'arbitrage ne vaut que par l'exactitude de ses chi
   corrigés, et la rustine est devenue inutile : elle a été retirée.** Leçon : un symptôme de
   pagination qui « se reproduit » n'est pas forcément une règle à promouvoir — ça peut être le même
   défaut qui n'a jamais été trouvé. Chercher la cause avant d'écrire la règle.
+
+### Cinquième passage — le scénario annoté
+
+Deuxième application du chapitre, après *Terra Insana*, et **premier cas où la mesure préalable
+hésite** : la source est de la prose, ce qui plaide pour l'annoté, mais le livret y était déjà à 69 %
+d'elle — contre 52 % sur *Terra Insana*. Résultat : **36 700 signes pour 81 700, soit 45 %**, dans la
+fourchette.
+
+**Ce qui a rendu le condensé facile, et ça mérite d'être noté comme un signe positif** : la source est
+de la prose, mais **très gabaritée**. Chaque victime suit les mêmes six rubriques — *son lien avec
+Alex · pourquoi il est sur la liste · comment il a réagi à sa mort · comment il a été tué · comment il
+a vu le Wendigo · les pistes*. Le journal avait déjà relevé ce gabarit comme un signe de bonne
+écriture, à propos de la quatrième question de la grille d'analyse. **Six rubriques deviennent six
+lignes**, et la régularité se voit d'un coup dans le document annoté — cinq fois le même bloc.
+
+**Deux croisements que ni la note ni le livret n'avaient vus**, et l'ordre linéaire est ce qui les a
+fait apparaître :
+
+- **Les navires du final sont à la fenêtre du premier bureau.** Harold reçoit les PJ au trentième
+  étage : « le lac Michigan a commencé à geler, et des navires sont pris dans la glace ». Ce sont les
+  mêmes dont les réservoirs, trois jours plus tard, sont la seule arme qui tue le Wendigo. La source
+  les pose à deux pages du début et n'y revient jamais. **Dans une note rangée par arbitrages, ça ne
+  se voit pas ; dans l'ordre de lecture, c'est évident.**
+- **Dorothea avertit la victime suivante une heure avant de mourir.** Sa dernière conversation,
+  dimanche à 23 h : « Sois prudente, fais attention avec ce froid, ne va pas dans des lieux
+  dangereux. » C'est adressé à Tahlia, qui sera la cinquième. Le seul moment du scénario où une
+  victime essaie de protéger la suivante.
+
+**Et un déséquilibre que l'annoté rend visible d'un coup d'œil : quatre chemins mènent à la dernière
+victime — fournisseur téléphonique, piratage de messagerie, videur du bar, recherche Internet — et un
+seul mène au point faible** (A1). La source multiplie les accès à la personne à sauver et n'en donne
+qu'un à l'information qui permet de la sauver. C'est la règle des trois indices appliquée à l'endroit
+où elle ne sert à rien, et oubliée là où elle compte.
+
+*Confirmation du chapitre :* l'annoté se lit dans l'ordre de la source, et c'est ce qui le rend utile.
+Ce qu'il trouve, ce sont des **rapports de distance** — ce qui est posé loin de ce qui s'en sert. Une
+note ne peut pas les voir, parce qu'elle range par nature et non par ordre.
 
 ### Le chantier du calage CSS, et pourquoi il a duré si longtemps
 
@@ -690,6 +727,49 @@ micro-grille, les jets dans la liste d'annonces.
 *Détail de fabrication, vérifié :* les emoji ne passent pas. La police embarquée ne contient pas 🧠
 (absent de DejaVu) ; ⚠ et ☐ y sont. Les étiquettes en petites capitales de la charte font office de
 pictogramme, et elles rendent partout.
+
+### La charte en double, et ce qu'une duplication finit toujours par faire
+
+*Passage transverse : porte sur le socle et la chaîne, pas sur un scénario.*
+
+Le socle recopiait la feuille de style en entier — une centaine de lignes de CSS, sous le titre
+« feuille de style canonique, à recopier verbatim ». La raison était réelle au départ : des documents
+se composaient hors dépôt, à la main, et il fallait bien que la charte soit quelque part. **Cette
+raison a disparu sans que la copie disparaisse avec elle.**
+
+Le `CLAUDE.md` affirmait que les deux versions étaient identiques **aux trois écarts près** marqués
+`[dépôt]` — police embarquée, pied injecté, largeur de tableau. Le diff, lancé au moment de trancher :
+
+> **85 lignes divergentes.**
+
+Et pas des broutilles. `assets/print.css` porte au moins quatre calages que le socle ignorait :
+`.head p { margin:0 }`, l'ajout de `strong` à côté de `b` sur les cinq blocs colorés — pandoc produit
+`<strong>`, jamais `<b>` —, les marges de `p` et `ul` à l'intérieur des blocs, et les commentaires de
+fin de ligne. Dans l'autre sens, le socle gardait une règle `.pal` que la chaîne applique et
+qu'**aucun document n'utilise**.
+
+Autrement dit : **la charte que le modèle présentait comme canonique n'était plus celle qui produisait
+les documents.** Un document composé d'après le socle serait sorti différent de ceux du dépôt — ce que
+la duplication était précisément censée empêcher.
+
+**Retenu : le bloc CSS sort du socle.** `assets/print.css` est la charte, sans copie. Ce que le socle
+garde à la place tient en un tableau d'une quinzaine de lignes : les **valeurs arrêtées** — A4, marges
+de 12 mm, corps à 8,6 pt, tableaux à 7,8 et 7,2, les trois tailles de titre, les teintes, les deux
+régimes de mise en page. C'est-à-dire ce qui relève d'une **décision éditoriale** et non d'une
+déclaration technique. Le socle passe de 360 à 294 lignes.
+
+> **La règle qui en sort, et elle vaut au-delà de ce cas :** une duplication survit toujours à la
+> raison qui l'a créée, et elle diverge en silence. Quand la raison disparaît, la copie ne devient pas
+> inutile — elle devient **fausse**, et d'autant plus dangereuse qu'elle continue de s'annoncer comme
+> la référence.
+
+*Ce qui n'a pas changé :* `assets/print.css` reste une charte arrêtée, qu'on ne modifie pas sans
+demande explicite, et surtout pas au nom de la lisibilité à l'écran — `screen.css` et `web.css` sont
+là pour ça.
+
+*Chantier laissé ouvert, repéré au passage :* les chapitres des livrables portent encore des
+**squelettes HTML** donnés en exemple de balisage, alors que les documents s'écrivent en markdown avec
+des divs balisées. Même famille de problème, moindre gravité.
 
 ## Bun & Run
 **Fevertown (kit de découverte v1.2) · source 22 p. + 5 fiches + le kit entier, 32 p. · aide de jeu

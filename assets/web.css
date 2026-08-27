@@ -89,8 +89,12 @@
   .toc { left: 0; right: auto; width: 19rem;
          border-left: none; border-right: 1px solid #c3ccd2; box-shadow: none;
          transform: none; visibility: visible; }
-  /* `.toc a` (0,1,1) l'emporterait sur `.toc-close` (0,1,0) : on qualifie */
-  .toc-open, .toc-head { display: none; }
+  /* Seule la fermeture disparaît : le panneau est épinglé, il n'y a plus rien
+     à fermer. La barre, elle, reste — elle porte le retour à l'accueil, et la
+     masquer entière avait fait disparaître ce lien sur tout écran large.
+     `.toc a` (0,1,1) l'emporterait sur `.toc-close` (0,1,0) : on qualifie. */
+  .toc-open, .toc a.toc-close { display: none; }
+  .toc-head { justify-content: flex-start; }
   /* `box-sizing` explicite : le body est en content-box, et sans lui la
      largeur maximale porterait sur le contenu seul — le padding du panneau
      s'ajoutant par-dessus, elle ne contraindrait rien. */

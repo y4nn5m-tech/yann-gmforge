@@ -1,4 +1,4 @@
-## [1]{.num}Ce qui s'est passé avant que la partie commence {.sec}
+## Ce qui s'est passé avant que la partie commence {.sec}
 
 ::: {.dire lab="La série noire, en huit lignes"}
 **2014.** Sherlyn Moore, riche dilettante, confie ses investissements à la Harold Company. Walter

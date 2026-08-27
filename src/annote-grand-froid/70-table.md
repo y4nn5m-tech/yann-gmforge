@@ -1,4 +1,4 @@
-## [11]{.num}Les cinq prétirés, et ce qu'ils portent {.sec}
+## Les cinq prétirés, et ce qu'ils portent {.sec}
 
 ::: {.obj lab="Zéro croisement fait par la source"}
 Les fiches sont imprimées **après la conclusion** et reliées à aucune scène — alors que chacune a
@@ -37,7 +37,7 @@ Leur piste de dés porte une **case noircie** à la place du d6 : de d8, ils tom
 À dire à la distribution des fiches, pas au premier échec.
 :::
 
-## [12]{.num}À poser sur la table {.sec}
+## À poser sur la table {.sec}
 
 ::: {.jeu lab="Les Points de Vie du Wendigo — le calcul, fait d'avance"}
 **Au lac : 34 PV · Armure 4.** 26 de base, +4 pour Sherlyn (lundi), +4 pour Stephen (mardi) — les deux

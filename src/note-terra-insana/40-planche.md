@@ -1,4 +1,4 @@
-## [4]{.num}La planche trait × scène {.sec}
+## La planche trait × scène {.sec}
 
 ::: {.obj lab="Zéro croisement fait par la source"}
 Les cinq prétirés sont imprimés **après la conclusion**, et aucune scène ne nomme jamais un

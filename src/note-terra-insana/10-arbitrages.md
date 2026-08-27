@@ -1,4 +1,4 @@
-## [1]{.num}Ce que la source ne tranche pas {.sec}
+## Ce que la source ne tranche pas {.sec}
 
 Cinq arbitrages bloquants (A), six de table (B), cinq cosmétiques (C). Les rappels par numéro valent
 aussi pour l'aide de jeu.
@@ -91,7 +91,7 @@ Sans (a) et (b), la seule sortie d'un PJ possédé est de l'abattre — et le sc
 :::
 
 ::: {.warn lab="A5 — Le combat contre la Couleur est un piège arithmétique : ne pas le proposer"}
-26 Points de Vie, **3 Points d'Armure**, et « Attaque : aucune ». Le calcul complet est au bloc 3 ; sa
+26 Points de Vie, **3 Points d'Armure**, et « Attaque : aucune ». Le calcul complet est au bloc *Les chiffres à avoir en main* ; sa
 conclusion est ici : **le groupe entier lui inflige trois à quatre points par Moment, et un seul PJ
 perce vraiment l'armure.** Sept à huit Moments contre un adversaire qui ne rend jamais un coup, pendant
 que l'horloge du 14 juin tourne.\

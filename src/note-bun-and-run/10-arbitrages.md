@@ -1,4 +1,4 @@
-## [1]{.num}Ce que la source ne tranche pas {.sec}
+## Ce que la source ne tranche pas {.sec}
 
 Sept arbitrages bloquants (A), neuf de table (B), six cosmétiques (C). Les rappels par numéro valent
 aussi pour l'aide de jeu.
@@ -69,7 +69,7 @@ le morceau de bravoure du scénario.
 Quatre fiches déplacent les seuils, dans les deux sens, et **rien ne les rassemble**. Un critique
 manqué ou accordé à tort est l'erreur d'arbitrage la plus probable de la séance, parce que le seuil
 n'est pas le même d'un joueur à l'autre **sur le même jet**.\
-Tableau au bloc 3. Et rappel du kit, qui rend l'affaire plus piégeuse : **les critiques ne sont jamais
+Tableau au bloc *Les chiffres à avoir en main*. Et rappel du kit, qui rend l'affaire plus piégeuse : **les critiques ne sont jamais
 annulés** — un 1 naturel reste un échec critique même avec Avantage, un 20 naturel reste une réussite
 critique même avec Désavantage.
 :::

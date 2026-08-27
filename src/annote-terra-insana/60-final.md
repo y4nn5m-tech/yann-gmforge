@@ -1,4 +1,4 @@
-## [7]{.num}Être un danger pour soi-même {.sec}
+## Être un danger pour soi-même {.sec}
 
 ::: {.obj lab="Le point de bascule, et c'est le sujet du scénario"}
 La source l'annonce dès son introduction : *« le climax devrait se situer lorsque les investigateurs
@@ -66,7 +66,7 @@ Deux jours de retard, c'est deux points sur chacune des six Sauvegardes. Une Sau
 final**. C'est le vrai minuteur du scénario, et il est invisible.
 :::
 
-## [8]{.num}Le rituel, et l'autre monde {.sec}
+## Le rituel, et l'autre monde {.sec}
 
 ::: {.dire lab="La préparation, si Bruckheilig les accompagne"}
 Il les emmène dans la forêt par un petit sentier qui serpente sur **quatre kilomètres**, jusqu'à une

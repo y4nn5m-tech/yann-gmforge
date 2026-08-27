@@ -1,4 +1,4 @@
-## [9]{.num}Les cinq prétirés, et ce qu'ils portent {.sec}
+## Les cinq prétirés, et ce qu'ils portent {.sec}
 
 ::: {.obj lab="Zéro croisement fait par la source"}
 Les fiches sont imprimées **après la conclusion**, et aucune scène ne nomme jamais personne. Chacune a
@@ -42,7 +42,7 @@ marche, et qui n'est écrite nulle part :\
 et se placer → **ouvrir au dernier moment** → réciter.
 :::
 
-## [10]{.num}À poser sur la table {.sec}
+## À poser sur la table {.sec}
 
 ::: {.jeu lab="Ce que l'armure 3 laisse passer, par PJ — A5"}
 Les dés de dégâts sont sur cinq fiches ; l'armure de la Couleur est vingt pages plus loin. Personne ne

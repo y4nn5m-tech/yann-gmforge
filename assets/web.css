@@ -46,9 +46,13 @@
    au moment où l'on cherche une page. Elle disparaît avec la croix sur grand
    écran, où le panneau est épinglé. */
 .toc-head { position: sticky; top: 0; z-index: 1; margin: 0;
-            display: flex; justify-content: flex-end;
+            display: flex; align-items: center; justify-content: space-between;
             padding: 0.4rem 0.6rem; background: #eef2f5;
             border-bottom: 1px solid #c3ccd2; }
+.toc a.toc-home { display: block; padding: 0.2rem 0.3rem; border-radius: 3px;
+                  font-size: 0.78rem; font-weight: bold; letter-spacing: 0.04em;
+                  color: #34566b; text-decoration: none; }
+.toc a.toc-home:hover, .toc a.toc-home:focus { background: #dde6ec; }
 .toc a.toc-close { display: block; text-decoration: none; color: #57646c;
                    font-size: 1.5rem; line-height: 1; padding: 0 0.3rem;
                    background: none; }
@@ -56,17 +60,25 @@
 
 .toc ol { list-style: none; margin: 0; padding: 0.6rem 0.8rem 1.6rem 0.8rem; }
 .toc li { margin: 0.1rem 0; }
-.toc a { display: block; padding: 0.45rem 0.4rem; border-radius: 3px;
+/* `text-indent` négatif : sur une entrée qui passe à la ligne, la suite du
+   titre s'aligne sous le titre et non sous le chevron. Sans lui, les titres
+   longs de l'annoté repartaient à gauche du repère. */
+.toc a { display: block; padding: 0.45rem 0.4rem 0.45rem 1.4rem;
+         text-indent: -1rem; border-radius: 3px;
          text-decoration: none; color: #1a1f23; font-size: 0.9rem;
          line-height: 1.3; overflow-wrap: anywhere; }
+.toc a.toc-home, .toc a.toc-close { text-indent: 0; }
 .toc a:hover, .toc a:focus { background: #e6edf2; }
 /* Dans le panneau, l'étiquette d'usage se réduit à un chevron coloré.
    Répétée en pastille pleine sur dix-huit entrées d'un livret qui en compte
    dix-neuf, elle pesait sans rien apprendre — c'est la couleur qui porte
-   l'information, pas le mot. */
+   l'information, pas le mot.
+   La note et l'annoté n'ont pas d'usage à signaler : le chevron y est un simple
+   repère de tête d'entrée, du même bleu partout. Il a remplacé un numéro de
+   section — numéroter six blocs qu'on atteint d'un clic ne servait à rien. */
 .toc .use { display: inline-block; font-size: 0; margin: 0 0.5rem 0 0;
             padding: 0; background: none; }
-.toc .use::before { content: "\203A"; font-size: 1.05rem; line-height: 1;
+.toc .use::before { content: "\203A"; font-size: 1.15rem; line-height: 1;
                     font-weight: bold; color: #34566b; }
 .toc .use.avant::before     { color: #b8860b; }
 .toc .use.consulter::before { color: #6a4bb0; }
@@ -100,6 +112,8 @@
   .toc { background: #1a2126; border-color: #2c3a44; }
   .toc-head { background: #202a31; border-bottom-color: #2c3a44; color: #8fc4e8; }
   .toc a { color: #dfe4e8; }
+  .toc a.toc-home { color: #8fc4e8; }
+  .toc a.toc-home:hover, .toc a.toc-home:focus { background: #243039; }
   .toc .use::before { color: #7fb0d0; }
   .toc .use.avant::before { color: #d8a92e; }
   .toc .use.consulter::before { color: #b49cf0; }

@@ -257,8 +257,15 @@ regarder. Pour l'aide de jeu, le contrôle unité par unité est en plus **oblig
 son chapitre.
 
 **Ne jamais renvoyer à un numéro de page dans le corps du texte.** La pagination bouge à chaque
-recompilation, et un « voir page 20 » devient faux sans qu'on s'en aperçoive. Renvoyer au **numéro de
-section** ou au **repère de l'élément** (« voir l'arbitrage A6 ») : cela survit à toutes les révisions.
+recompilation, et un « voir page 20 » devient faux sans qu'on s'en aperçoive. Renvoyer au **titre du
+bloc** (« voir le bloc *Les chiffres à avoir en main* ») ou au **repère de l'élément** (« voir
+l'arbitrage A6 ») : cela survit à toutes les révisions.
+
+**Les blocs ne sont pas numérotés.** Ils ne l'ont été qu'un temps, et le numéro ne servait à rien : à
+l'écran on atteint un bloc par le panneau de navigation, pas en comptant. Un « bloc 3 » oblige à
+retenir une correspondance qui ne dit rien du contenu, et il se périme au premier bloc inséré. Seuls
+gardent un numéro les **repères d'arbitrage** (A1, B3…), qui sont des identifiants et non un ordre.
+Ce qui vaut pour les blocs vaut pour leurs sous-sections.
 
 ## Entretien du modèle
 

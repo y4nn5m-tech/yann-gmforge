@@ -78,7 +78,7 @@ Classes disponibles : `dire` · `jeu` · `mj` · `obj` · `warn`.
 Un titre de section :
 
 ```markdown
-## [1]{.num}Ce que la source ne tranche pas {.sec .brk}
+## Ce que la source ne tranche pas {.sec .brk}
 ```
 
 `.brk` force un saut de page à l'impression, et n'a aucun effet à l'écran.
@@ -234,6 +234,12 @@ capable, et aucune n'existait avant qu'on les écrive.
   à deux niveaux (`.unit` > `.head`), et il ne remonte pas des titres si profonds. Mais la note et le
   scénario annoté ont leurs `h2` à la racine — son sommaire s'y affichait donc en tête de document, en
   doublon du panneau. La liste se construit à partir du rendu, pour les trois livrables.
+  Chaque entrée porte un **chevron en gras** — coloré par l'étiquette d'usage dans le livret, du même
+  bleu partout ailleurs, puisque la note et l'annoté n'ont pas d'usage à signaler. Il a remplacé un
+  numéro de section : numéroter six blocs qu'on atteint d'un clic n'apprenait rien et se périmait au
+  premier bloc inséré. Sur une entrée qui passe à la ligne, un `text-indent` négatif aligne la suite
+  du titre sous le titre, et non sous le chevron. Et la barre du panneau porte **un lien vers la page
+  d'accueil du site**, à côté de la fermeture.
   *Piège de fabrication rencontré là : pandoc **coupe la ligne entre deux attributs** quand elle est
   longue. Une regex qui cherche `class="sec" id="…"` avec une simple espace rate le premier titre —
   et lui seul. Lire les attributs séparément.*

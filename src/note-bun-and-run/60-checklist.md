@@ -1,11 +1,11 @@
-## [6]{.num}Checklist {.sec}
+## Checklist {.sec}
 
 ::: {.warn lab="À réclamer — rien, et c'est assez rare pour le dire"}
 Le kit de découverte fournit **toutes** les règles que le scénario utilise : seuils, Avantage,
 critiques, armes, blessures, repos, cadre légal. Les cinq fiches sont complètes, atouts et points
 faibles rédigés en toutes lettres.\
 ☐ **Une seule vérification** : les cases **Matos** sont vierges sur les cinq fiches (A7). Ce n'est pas
-une pièce manquante, c'est une décision à prendre — elle est prise au bloc 1.
+une pièce manquante, c'est une décision à prendre — elle est prise au bloc *Ce que la source ne tranche pas*.
 :::
 
 ::: {.jeu lab="À imprimer et à préparer"}
@@ -26,7 +26,7 @@ scène 2 se joue à l'aveugle dès que quelqu'un cherche un accès secondaire\
 ☐ Les **seuils de critique par PJ** (3.1) — c'est celui qu'on oublie\
 ☐ Les **seuils de situation** (3.2)\
 ☐ Le **tableau des exigences** (3.4), pour la scène 2\
-☐ La **planche trait × scène** (bloc 4), pliée sur la page du PJ dont c'est le tour\
+☐ La **planche trait × scène** (bloc *La planche trait × scène*), pliée sur la page du PJ dont c'est le tour\
 ☐ Une ligne avec les **cinq noms et leur compteur** d'étoiles
 :::
 

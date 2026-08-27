@@ -1,4 +1,4 @@
-## [8]{.num}Les Campbell {.sec}
+## Les Campbell {.sec}
 
 ::: {.obj lab="Le pivot du scénario, et la source le dit en une phrase"}
 *« Toutes les victimes sont reliées, de près ou de loin, à Alex Campbell. Les personnages devront

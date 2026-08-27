@@ -46,26 +46,26 @@ est mathématiquement garanti — soit dix rounds d'exploration (A2).\
 **La salle du trône est un cul-de-sac** à accès unique, derrière un monstre caché, avec une clef unique
 à l'autre bout du donjon (A4).\
 **La table de rencontres peut produire plus d'ennemis que le donjon n'en contient** — jusqu'à vingt-six
-tirés, contre vingt-sept habitants (bloc 3).\
+tirés, contre vingt-sept habitants (bloc *Les chiffres à avoir en main*).\
 **Le bassin de la zone 27 retire de la Sagesse définitivement**, et rien n'avertit avant le premier
 point perdu (A5).
 :::
 
-::: {.tight widths="6,36,58"}
-+------+--------------------------------------+---------------------------------------------------+
-|      | Bloc                                 | Quand on l'ouvre                                  |
-+======+======================================+===================================================+
-| **1**| Ce que la source ne tranche pas      | Avant la séance, en entier. Cinq décisions        |
-|      |                                      | bloquantes, dont l'accroche et la minuterie       |
-+------+--------------------------------------+---------------------------------------------------+
-| **2**| La liste d'annonces                  | À côté de toi pendant toute la partie             |
-+------+--------------------------------------+---------------------------------------------------+
-| **3**| Les chiffres à avoir en main         | La veille, pour sortir les treize profils. Puis à |
-|      |                                      | chaque test de rencontre                          |
-+------+--------------------------------------+---------------------------------------------------+
-| **4**| Pilotage                             | La veille. Les notes de jeu se relisent avant     |
-|      |                                      | l'antre des hommes-bêtes                          |
-+------+--------------------------------------+---------------------------------------------------+
-| **5**| Checklist                            | Une heure avant                                   |
-+------+--------------------------------------+---------------------------------------------------+
+::: {.tight widths="38,62"}
++----------------------------------------+----------------------------------------------------------+
+| Bloc                                   | Quand on l'ouvre                                         |
++========================================+==========================================================+
+| **Ce que la source ne tranche pas**    | Avant la séance, en entier. Cinq décisions bloquantes,   |
+|                                        | dont l'accroche et la minuterie                          |
++----------------------------------------+----------------------------------------------------------+
+| **La liste d'annonces**                | À côté de toi pendant toute la partie                    |
++----------------------------------------+----------------------------------------------------------+
+| **Les chiffres à avoir en main**       | La veille, pour sortir les treize profils. Puis à chaque |
+|                                        | test de rencontre                                        |
++----------------------------------------+----------------------------------------------------------+
+| **Pilotage**                           | La veille. Les notes de jeu se relisent avant l'antre    |
+|                                        | des hommes-bêtes                                         |
++----------------------------------------+----------------------------------------------------------+
+| **Checklist**                          | Une heure avant                                          |
++----------------------------------------+----------------------------------------------------------+
 :::

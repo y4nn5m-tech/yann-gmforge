@@ -1,4 +1,4 @@
-## [3]{.num}Première victime — Walter Nunez {.sec}
+## Première victime — Walter Nunez {.sec}
 
 ::: {.dire lab="Les six rubriques de la source, condensées"}
 **Son lien avec Alex** — il était son manager.\
@@ -47,7 +47,7 @@ remarqué que **son visage était effroyable, comme s'il avait vu la mort en fac
 Et la montre de Walter **s'était arrêtée à 20 h 04**.
 :::
 
-## [4]{.num}Deuxième victime — Dorothea Brickford {.sec}
+## Deuxième victime — Dorothea Brickford {.sec}
 
 ::: {.dire lab="Les six rubriques"}
 **Son lien avec Alex** — collègue, elle lui fournissait les rapports statistiques. Amie de soirées,
@@ -101,7 +101,7 @@ essaie de protéger la suivante**, et personne à table ne le remarquera si tu n
 après l'avoir lue.
 :::
 
-## [5]{.num}Troisième victime — Sherlyn Moore {.sec}
+## Troisième victime — Sherlyn Moore {.sec}
 
 ::: {.dire lab="Les six rubriques"}
 **Son lien avec Alex** — cliente de la Harold Company, portefeuille géré par lui.\

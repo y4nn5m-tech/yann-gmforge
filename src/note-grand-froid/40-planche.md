@@ -1,4 +1,4 @@
-## [4]{.num}La planche trait × scène {.sec}
+## La planche trait × scène {.sec}
 
 ::: {.obj lab="Croisements faits par la source : zéro"}
 Les cinq fiches sont imprimées **après la conclusion**, et aucune ligne du scénario ne relie un trait
@@ -103,8 +103,9 @@ base avant la séance. Deux méritent une lecture attentive, parce que leur nom 
 |                           |                  | échecs. C'est elle qui reste au contact           |
 +---------------------------+------------------+---------------------------------------------------+
 | FOR 12                    | **Explosion**    | Tirer Tahlia hors de la zone pendant que Gabriel  |
-|                           |                  | vise le réservoir (bloc 3). C'est sa scène, et la |
-|                           |                  | source ne l'a pas écrite                          |
+|                           |                  | vise le réservoir (bloc *Les chiffres à avoir en  |
+|                           |                  | main*). C'est sa scène, et la source ne l'a pas   |
+|                           |                  | écrite                                            |
 +---------------------------+------------------+---------------------------------------------------+
 | *Retour de flamme*,       | **Le lac**       | Lire les trois textes avant la séance. *Retour de |
 | *Pugiliste*, *Force de    |                  | flamme* face à une créature dont le point faible  |
@@ -169,8 +170,8 @@ base avant la séance. Deux méritent une lecture attentive, parce que leur nom 
 +---------------------------+------------------+---------------------------------------------------+
 | *Œil de lynx*             | **Arrivée au     | Repérer les fusées éclairantes sur les navires    |
 |                           | lac**            | **avant le premier Moment**. Voir l'arithmétique  |
-|                           |                  | du bloc 3 : cette seule information décide du     |
-|                           |                  | combat                                            |
+|                           |                  | du bloc *Les chiffres à avoir en main* : cette    |
+|                           |                  | seule information décide du combat                |
 +---------------------------+------------------+---------------------------------------------------+
 | *Agile*                   | **Bourrasque ·   | Les deux Sauvegardes de Dextérité qui comptent    |
 |                           | explosion**      |                                                   |

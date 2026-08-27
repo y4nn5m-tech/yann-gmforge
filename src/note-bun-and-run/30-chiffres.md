@@ -1,4 +1,4 @@
-## [3]{.num}Les chiffres à avoir en main {.sec}
+## Les chiffres à avoir en main {.sec}
 
 ::: {.obj lab="Quatre tableaux seulement"}
 Les armes, les PV et les deux profils d'hommes de main sont sur les fiches et dans le scénario : rien
@@ -6,7 +6,7 @@ Les armes, les PV et les deux profils d'hommes de main sont sur les fiches et da
 chiffré.
 :::
 
-### 3.1 — Les seuils de critique, par PJ
+### Les seuils de critique, par PJ
 
 ::: {.jeu lab="À poser devant soi avant le premier jet — A5"}
 :::
@@ -39,7 +39,7 @@ critique double les dégâts**. Au nunchaku, un 13 fait **10 dégâts** — le c
 table, et il tombe **une fois sur trois**.
 :::
 
-### 3.2 — Le seuil de situation, moment par moment
+### Le seuil de situation, moment par moment
 
 ::: {.obj lab="C'est le seul curseur que tu règles dans ce système"}
 Chaotique **12** · neutre **10** · bénéfique **8**. **Indépendant de l'Avantage** : le contexte modifie
@@ -93,7 +93,7 @@ l'avoir décidé.
 +-----------------------------------------------+--------+---------------------------------------+
 :::
 
-### 3.3 — Ce qu'une balle coûte, et ce que le gilet change
+### Ce qu'une balle coûte, et ce que le gilet change
 
 ::: {.jeu lab="Le seul calcul du scénario, et il décide de la scène 2"}
 Le 9 mm fait **8** (B3). Le gilet divise puis retire 1, soit **3** (B2).
@@ -119,7 +119,7 @@ Et dans l'autre sens : **Harvey à 10 PV tombe en deux balles lui aussi.** Un as
 C'est un assaut *raté* qui coûte l'indic.
 :::
 
-### 3.4 — Le tableau des exigences
+### Le tableau des exigences
 
 ::: {.obj lab="Trois exigences, et une seule est impossible — la source ne le dit pas clairement"}
 La colonne du milieu est celle qui manque : sans elle, la table passe vingt minutes sur

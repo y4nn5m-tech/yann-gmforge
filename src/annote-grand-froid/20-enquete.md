@@ -1,4 +1,4 @@
-## [2]{.num}Lundi — le trentième étage {.sec}
+## Lundi — le trentième étage {.sec}
 
 ::: {.dire lab="Le bureau de M. Harold"}
 Tour Harold, trentième et dernier étage. Un bureau au design épuré, des baies vitrées sur la moitié

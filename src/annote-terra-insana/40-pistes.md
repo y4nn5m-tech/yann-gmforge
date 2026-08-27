@@ -1,4 +1,4 @@
-## [4]{.num}Sur les traces d'Émile — les deux Mennonite {.sec}
+## Sur les traces d'Émile — les deux Mennonite {.sec}
 
 ::: {.dire lab="Mennonite et fils, taxidermiste — rue des Tonneliers"}
 *Un **test de Bagou** en se renseignant sur le mot « Mennonite » donne les deux pistes à la fois.*\

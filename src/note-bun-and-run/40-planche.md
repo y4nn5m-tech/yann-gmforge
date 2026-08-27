@@ -1,4 +1,4 @@
-## [4]{.num}La planche trait × scène {.sec}
+## La planche trait × scène {.sec}
 
 ::: {.obj lab="Croisements faits par la source : trois, et tous sur deux personnages"}
 La source en signale **trois**, et il faut les connaître pour ne pas croire qu'ils sont de nous :

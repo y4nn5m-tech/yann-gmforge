@@ -1,4 +1,4 @@
-## [6]{.num}Quatrième victime — Stephen Barlow {.sec}
+## Quatrième victime — Stephen Barlow {.sec}
 
 ::: {.dire lab="Les six rubriques"}
 **Son lien avec Alex** — ancien ami. Il faisait les quatre cents coups avec Dorothea, Tahlia et lui.\
@@ -57,7 +57,7 @@ des griffes géantes — ou une arme imitant des griffes.**\
 *En réalité, ce sont bien des griffes.*
 :::
 
-## [7]{.num}L'inspecteur Davis, et l'homme qui les attend {.sec}
+## L'inspecteur Davis, et l'homme qui les attend {.sec}
 
 ::: {.dire lab="Davis"}
 Il s'arrache les cheveux sur cette affaire. **Rapidement, on lui demande de boucler le dossier.**

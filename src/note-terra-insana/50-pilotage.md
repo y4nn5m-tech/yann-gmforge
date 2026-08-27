@@ -1,6 +1,6 @@
-## [5]{.num}Pilotage {.sec}
+## Pilotage {.sec}
 
-### 5.1 — Ce qu'il faut tenir en même temps
+### Ce qu'il faut tenir en même temps
 
 ::: {.tight widths="30,70"}
 +------------------------------+--------------------------------------------------------------------+
@@ -19,7 +19,7 @@
 +------------------------------+--------------------------------------------------------------------+
 :::
 
-### 5.2 — Les risques de blocage
+### Les risques de blocage
 
 ::: {.tight widths="26,34,40"}
 +----------------------+-----------------------------------+------------------------------------+
@@ -53,7 +53,7 @@
 +----------------------+-----------------------------------+------------------------------------+
 :::
 
-### 5.3 — Les culs-de-sac, et quand les refermer
+### Les culs-de-sac, et quand les refermer
 
 ::: {.tight widths="30,16,54"}
 +------------------------------+------------+----------------------------------------------------+
@@ -75,7 +75,7 @@
 +------------------------------+------------+----------------------------------------------------+
 :::
 
-### 5.4 — Les notes de jeu
+### Les notes de jeu
 
 ::: {.mj lab="Cinq PNJ portent la séance — une ligne chacun"}
 **Rose Selavy** — *amoureuse, pas gouvernante.* · **Hugo Bücking** — *pompeux parce qu'il a peur
@@ -84,7 +84,7 @@ par le discours. · **Paul-Thomas Bruckheilig** — *doux, illuminé, et il a ra
 **Ernst Loess** — *il remercie Dieu de ce qui le tue.*
 :::
 
-### 5.5 — Le réglage du ton
+### Le réglage du ton
 
 ::: {.obj lab="Un seul décrochage comique, et il est prévu"}
 De l'horreur lente : une région qui s'empoisonne pendant que trois hommes raisonnables cherchent un

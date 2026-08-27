@@ -1,4 +1,4 @@
-## [6]{.num}Checklist {.sec}
+## Checklist {.sec}
 
 ::: {.warn lab="À réclamer — deux pièces manquantes"}
 ☐ **La page 116 du recueil** — la fin de la scène du lac. Reconstituée en A7, à revoir si tu la
@@ -21,10 +21,10 @@ Désavantages, et une colonne PV. Rien d'autre à cocher — c'est l'intérêt d
 :::
 
 ::: {.jeu lab="À poser devant soi — quatre tableaux, et rien d'autre"}
-☐ Le **calcul des Points de Vie du Wendigo** (bloc 3) — la bonne ligne entourée d'avance.\
-☐ La **planche des Avantages et Désavantages** (bloc 3).\
-☐ La **liste d'annonces** (bloc 2).\
-☐ La **planche trait × scène** (bloc 4), pliée sur la page du PJ dont c'est le tour.
+☐ Le **calcul des Points de Vie du Wendigo** (bloc *Les chiffres à avoir en main*) — la bonne ligne entourée d'avance.\
+☐ La **planche des Avantages et Désavantages** (bloc *Les chiffres à avoir en main*).\
+☐ La **liste d'annonces** (bloc *La liste d'annonces*).\
+☐ La **planche trait × scène** (bloc *La planche trait × scène*), pliée sur la page du PJ dont c'est le tour.
 :::
 
 ### À décider avant de commencer

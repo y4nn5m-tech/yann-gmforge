@@ -1,4 +1,4 @@
-## [1]{.num}Ce qui s'est passé avant que la partie commence {.sec}
+## Ce qui s'est passé avant que la partie commence {.sec}
 
 ::: {.dire lab="Le contexte, en six lignes"}
 **6 juin 1890.** Une météorite tombe dans un puits, au milieu des vignes de la famille Loess, à Barr.\

@@ -1,4 +1,4 @@
-## [3]{.num}Les chiffres à avoir en main {.sec}
+## Les chiffres à avoir en main {.sec}
 
 ### Les Points de Vie du Wendigo — le calcul, fait d'avance
 

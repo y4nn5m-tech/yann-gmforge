@@ -1,12 +1,12 @@
-## [5]{.num}Checklist {.sec}
+## Checklist {.sec}
 
 ### À fabriquer
 
 ::: {.jeu lab="Trois pièces, et la source n'en fournit aucune"}
-☐ **La liste des treize profils**, recopiée du bestiaire — bloc 3.1. C'est le plus long, et ça se fait
+☐ **La liste des treize profils**, recopiée du bestiaire — bloc *Les chiffres à avoir en main*, *Les treize créatures à sortir du bestiaire*. C'est le plus long, et ça se fait
 la veille.\
 ☐ **Le compteur d'effectifs** : 21 cases hommes-bêtes, 6 cases ettercaps. Sans lui, la table de
-rencontres ressort des morts — bloc 3.4.\
+rencontres ressort des morts — bloc *Les chiffres à avoir en main*, *Les effectifs, et pourquoi il faut les cocher*.\
 ☐ **Le médaillon**, si tu joues l'accroche (A1) : un portrait de femme rousse, à montrer avant d'entrer
 et à reconnaître en zone 17.
 :::
@@ -46,7 +46,7 @@ fin de la partie\
 
 ### À ne pas oublier de dire
 
-::: {.jeu lab="Le bloc 2 en entier — et ces quatre-là avant tout"}
+::: {.jeu lab="La liste d'annonces en entier — et ces quatre-là avant tout"}
 ☐ **Tout ce qui vit ici voit dans le noir** — avant d'entrer, B1\
 ☐ **L'or est l'expérience** — au premier trésor, B6\
 ☐ **Ils sont méfiants, pas hostiles** — au premier homme-bête, B2\

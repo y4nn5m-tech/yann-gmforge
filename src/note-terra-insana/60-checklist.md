@@ -1,4 +1,4 @@
-## [6]{.num}Checklist {.sec}
+## Checklist {.sec}
 
 ### À réclamer
 
@@ -54,7 +54,7 @@ Désavantage.*
 
 ### À ne pas oublier de dire
 
-::: {.jeu lab="Le bloc 2 en entier — et ces quatre-là avant tout"}
+::: {.jeu lab="La liste d'annonces en entier — et ces quatre-là avant tout"}
 ☐ **Vous êtes cinq**, et le repas est pour cinq — dès la première réplique de Rose\
 ☐ **Ce coffre est transportable** — à la cave, A1\
 ☐ **Elle ne rend jamais un coup** — dès qu'on l'ajuste, A5\

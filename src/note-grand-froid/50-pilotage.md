@@ -1,4 +1,4 @@
-## [5]{.num}Pilotage {.sec}
+## Pilotage {.sec}
 
 ### La charge — ce qu'il faut tenir en même temps
 
@@ -6,9 +6,10 @@
 +------------------------------+--------------------+---------------------------------------------------+
 | À tenir                      | Verdict            | Comment                                           |
 +==============================+====================+===================================================+
-| Les Points de Vie du Wendigo | **On ne peut pas   | 34 puis 18, armure 4 puis 0 (bloc 3). C'est le    |
-|                              | le poser**         | seul chiffre de la partie qu'il faut avoir en     |
-|                              |                    | tête avant de s'asseoir                           |
+| Les Points de Vie du Wendigo | **On ne peut pas   | 34 puis 18, armure 4 puis 0 (bloc *Les chiffres à |
+|                              | le poser**         | avoir en main*). C'est le seul chiffre de la      |
+|                              |                    | partie qu'il faut avoir en tête avant de          |
+|                              |                    | s'asseoir                                         |
 +------------------------------+--------------------+---------------------------------------------------+
 | La règle du filtre           | **On ne peut pas   | C'est la mécanique du final (A5). Se demander à   |
 |                              | le poser**         | chaque prise de parole : qui regarde à travers    |
@@ -20,7 +21,8 @@
 +------------------------------+--------------------+---------------------------------------------------+
 | Les Désavantages accumulés   | À alléger          | Une ligne par PJ sur une feuille, trois cases :   |
 |                              |                    | bassin · bourrasque · autre. Trois Désavantages   |
-|                              |                    | s'empilent sur les mêmes jets (bloc 3)            |
+|                              |                    | s'empilent sur les mêmes jets (bloc *Les chiffres |
+|                              |                    | à avoir en main*)                                 |
 +------------------------------+--------------------+---------------------------------------------------+
 | L'état des cinq victimes et  | À alléger          | La chronologie de la source suffit, cochée au     |
 | des pistes ouvertes          |                    | crayon. Ne rien recopier                          |
@@ -39,11 +41,11 @@
 +-----------------------+--------------------------------+-------------------------------------------+
 | Risque                | Symptôme à table               | Remède                                    |
 +=======================+================================+===========================================+
-| **Angen Tulo          | Ils ont un tueur, ils n'ont    | A1, dans l'ordre : Manuel sur Davis       |
-| n'arrive jamais**     | pas de moyen de le tuer. Ou :  | (bloc 4), puis le test de Torche de       |
-| *le plus probable, et | ils arrivent au lac sans avoir | Rosemary, puis Memengwaa elle-même.       |
-| le plus grave*        | prononcé le mot « feu »        | Trois filets pour une conclusion          |
-|                       |                                | nécessaire                                |
+| **Angen Tulo n'arrive | Ils ont un tueur, ils n'ont    | A1, dans l'ordre : Manuel sur Davis (bloc |
+| jamais** *le plus     | pas de moyen de le tuer. Ou :  | *La planche trait × scène*), puis le test |
+| probable, et le plus  | ils arrivent au lac sans avoir | de Torche de Rosemary, puis Memengwaa     |
+| grave*                | prononcé le mot « feu »        | elle-même. Trois filets pour une          |
+|                       |                                | conclusion nécessaire                     |
 +-----------------------+--------------------------------+-------------------------------------------+
 | **Ils restent dans le | Après trois morts, ils         | Trois entrées vers le surnaturel, sortir  |
 | polar**               | cherchent encore un homme de   | la plus proche : le gel « tout bonnement  |

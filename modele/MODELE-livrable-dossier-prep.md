@@ -43,7 +43,7 @@ plupart du temps, ça retourne à la source, qui l'avait déjà.
 |---|---|
 | La table des scènes détaillée, le tableau de bord | **La source.** Le livret garde ses deux encarts de couverture, la note n'en porte rien |
 | Le catalogue de décor permanent | **La source.** Le livret garde ses réserves locales |
-| Le répertoire des PNJ, les noms d'improvisation | **La source** — sauf les **notes de jeu** (voir bloc 5) |
+| Le répertoire des PNJ, les noms d'improvisation | **La source** — sauf les **notes de jeu** (voir le bloc *Pilotage*) |
 | Les profils regroupés | **La source**, sauf ceux que nous avons fournis |
 | Le récapitulatif des règles du système | **Le livre de base.** Le livret garde son encart des trois ou quatre règles permanentes |
 | La planche trait × scène | **La note.** Elle n'existe nulle part ailleurs |
@@ -60,7 +60,7 @@ que huit pages n'est pas un problème : ça veut dire que la source était bonne
 Un titre compact, **l'explication de texte**, une table de routage de six lignes, et le travail
 commence à la première page. **Pas de page de garde.**
 
-### 0. L'explication de texte — une page, et elle ouvre le document
+### L'explication de texte — une page, et elle ouvre le document
 
 **Elle ne dit pas ce que le scénario raconte. Elle dit comment il est fait, et ce qu'il va demander.**
 
@@ -98,7 +98,7 @@ note de 37 pages sur « Bun & Run ». On ne raconte pas une histoire en une page
 exposer la charpente. Le contrôle du dépôt mesure sa longueur en signes — le reste se relit à la
 main.*
 
-### 1. Ce que la source ne tranche pas
+### Ce que la source ne tranche pas
 
 Les arbitrages, **numérotés et rangés en trois niveaux**, parce qu'ils ne demandent pas la même action.
 Le niveau dit *quoi faire*, pas *à quel point c'est grave*.
@@ -114,7 +114,7 @@ jeu. Terminer par un bloc vert **« ce qui n'est pas un arbitrage »** : les rè
 clairement et qu'il faut seulement annoncer. Les mélanger aux arbitrages gonfle la liste et fait perdre
 de vue ce qui demande réellement une décision.
 
-### 2. La liste d'annonces
+### La liste d'annonces
 
 Les arbitrages de niveau B ne se contentent pas d'être décidés : ils doivent être **prononcés, à un
 moment précis**. Un tableau *quand · ce qu'on dit · de quel arbitrage ça vient*, dans l'ordre
@@ -125,7 +125,7 @@ Cette liste vit **dans les deux livrables**, et ce n'est pas une duplication fau
 complète, pour préparer ; dans l'aide de jeu, **chaque annonce à l'endroit où elle se dit** (rampe de
 lancement, tête de la première scène dangereuse). Même partage que la planche trait × scène.
 
-### 3. Les chiffres à avoir en main
+### Les chiffres à avoir en main
 
 Uniquement ce que la source **ne chiffre pas, chiffre deux fois, ou éparpille**. Typiquement :
 
@@ -144,7 +144,7 @@ Uniquement ce que la source **ne chiffre pas, chiffre deux fois, ou éparpille**
 
 Ne pas recopier la table d'armes, les PV, ni les profils que la source donne.
 
-### 4. La planche trait × scène — le cœur du document
+### La planche trait × scène — le cœur du document
 
 Quand la source fournit des prétirés, ou quand elle ouvre par des **questions posées aux PJ** (socle).
 Un tableau par personnage : *trait recopié verbatim · où ça tombe · ce que le MJ dit, et quand*. La
@@ -162,7 +162,7 @@ croyant qu'ils sont de nous.
 **la scène où il tombe** : c'est notre travail, et il ne dépend pas de l'effet. Le dire en une ligne, et
 désigner les deux ou trois traits dont le nom peut changer le final — ceux-là, il faut aller les lire.
 
-### 5. Pilotage
+### Pilotage
 
 - **La charge de pilotage** : ce qu'il faut tenir en même temps, trié en trois — ce qu'on ne peut pas
   poser, ce qu'on peut alléger et comment, ce qu'on peut oublier sans dommage. Le point 12 de la grille
@@ -179,11 +179,11 @@ désigner les deux ou trois traits dont le nom peut changer le final — ceux-l�
 - **Les plants** semés pour la suite : combien de touches, et l'interdiction d'y appuyer. Plus la
   mécanique par laquelle les joueurs pourront y revenir.
 
-### 6. Checklist
+### Checklist
 
 Quatre listes à cocher, dans cet ordre : **à fabriquer** (les aides à distribuer que la source ne
-fournit pas, les accessoires qui valent la peine) · **à poser devant soi** (les tableaux du bloc 3, la
-planche du bloc 4) · **à décider avant de commencer** (les choix que la note laisse ouverts au MJ, avec
+fournit pas, les accessoires qui valent la peine) · **à poser devant soi** (les tableaux du bloc *Les chiffres à avoir en main*,
+la planche du bloc *La planche trait × scène*) · **à décider avant de commencer** (les choix que la note laisse ouverts au MJ, avec
 la recommandation) · **à ne pas oublier de dire**.
 
 Quand des pièces manquent — une page absente du PDF, le texte des capacités renvoyé au livre de base —
@@ -225,7 +225,7 @@ chapitre encourageait.
 **Section** — sans `brk`, sauf raison précise :
 
 ```html
-<h2 class="sec"><span class="num">1</span>Ce que la source ne tranche pas</h2>
+<h2 class="sec">Ce que la source ne tranche pas</h2>
 <div class="warn"><span class="lab">A1 — titre de l'arbitrage</span>
 Ce que dit la source.<br><b>Retenu :</b> la décision.</div>
 ```
@@ -251,6 +251,7 @@ Ce que dit la source.<br><b>Retenu :</b> la décision.</div>
   sur une carte longue, ou d'un `brk` de trop. Exception normale : la dernière page d'une section. Une
   page qui ne porte qu'**une ou deux lignes** n'est pas une exception : c'est à resserrer.
 - Vérifier que les **renvois d'arbitrage** (A1, B3…) pointent tous sur un arbitrage existant, et que
-  les compteurs annoncés en tête de bloc 1 correspondent au nombre réel d'entrées. Ce contrôle
+  les compteurs annoncés en tête du bloc *Ce que la source ne tranche pas*
+  correspondent au nombre réel d'entrées. Ce contrôle
   s'automatise : extraire les numéros définis, extraire les numéros cités, comparer les deux ensembles.
 - Rasteriser la première page de chaque bloc (`pdftoppm -png -r 55`) et regarder.

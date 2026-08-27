@@ -1,4 +1,4 @@
-## [9]{.num}Cinquième victime — Tahlia Carodios {.sec}
+## Cinquième victime — Tahlia Carodios {.sec}
 
 ::: {.dire lab="Les six rubriques"}
 **Son lien avec Alex** — sa petite amie.\
@@ -41,7 +41,7 @@ Memengwaa, si elle a été jouée : *« il en manque une »*.\
 **Et surtout : ne pas punir la lenteur.** Ils ne peuvent pas arriver trop tard.
 :::
 
-## [10]{.num}Le lac Michigan {.sec}
+## Le lac Michigan {.sec}
 
 ::: {.dire lab="Le décor"}
 Le lac est en grande partie gelé. Près des berges, **la glace s'est morcelée en des milliers de

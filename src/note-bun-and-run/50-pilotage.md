@@ -1,6 +1,6 @@
-## [5]{.num}Pilotage {.sec}
+## Pilotage {.sec}
 
-### 5.1 — La charge, triée
+### La charge, triée
 
 ::: {.tight widths="28,20,52"}
 +------------------------------+--------------------+---------------------------------------------------+
@@ -32,7 +32,7 @@
 +------------------------------+--------------------+---------------------------------------------------+
 :::
 
-### 5.2 — Les risques de blocage
+### Les risques de blocage
 
 ::: {.tight widths="24,32,44"}
 +-----------------------+--------------------------------+-------------------------------------------+
@@ -65,7 +65,7 @@
 +-----------------------+--------------------------------+-------------------------------------------+
 :::
 
-### 5.3 — Les culs-de-sac
+### Les culs-de-sac
 
 ::: {.jeu lab="Un voulu, un par négligence"}
 **L'hélicoptère** — voulu, et c'est même le test de la scène : il mesure si les joueurs comprennent
@@ -77,7 +77,7 @@ n'interfère pas avec l'action principale », mais lance quand même une course-
 qu'ils l'aient rattrapé ou non.
 :::
 
-### 5.4 — Les cinq notes de jeu
+### Les cinq notes de jeu
 
 ::: {.mj lab="Comment les tenir — la source les décrit, elle ne dit jamais comment"}
 **Logan Calagan** — il gueule parce qu'ils sont à lui. *La colère est de l'attachement mal dit.*\
@@ -91,7 +91,7 @@ c'est un patron qui a dix ans.\
 pire.
 :::
 
-### 5.5 — Le réglage du ton
+### Le réglage du ton
 
 ::: {.tight widths="24,76"}
 +-------------------------+--------------------------------------------------------------------------+

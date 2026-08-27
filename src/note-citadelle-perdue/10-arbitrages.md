@@ -1,4 +1,4 @@
-## [1]{.num}Ce que la source ne tranche pas {.sec}
+## Ce que la source ne tranche pas {.sec}
 
 Cinq arbitrages bloquants (A), six de table (B), cinq cosmétiques (C). Les rappels par numéro valent
 aussi pour l'aide de jeu.
@@ -21,7 +21,7 @@ torches.\
 ::: {.warn lab="A2 — La minuterie est cachée dans une note de bas de page, et elle est datable"}
 Le texte dit : « à partir de la 2ᵉ fois où vous tirez sur la table de rencontre aléatoire, ajoutez un
 malus cumulatif de **−2** au résultat (considérez les résultats inférieurs à 1 comme des 1).
-Réinitialisez le malus à chaque rencontre avec le Minotaure Écarlate. » Le calcul est au bloc 3 ; sa
+Réinitialisez le malus à chaque rencontre avec le Minotaure Écarlate. » Le calcul est au bloc *Les chiffres à avoir en main* ; sa
 conclusion est ici : **au cinquième test, le résultat 1 est garanti, et le résultat 1 est le
 minotaure.** À « Risqué », le test tombe tous les deux rounds d'exploration.\
 **Retenu : c'est la minuterie du scénario, pas un défaut — mais elle doit devenir lisible.**\

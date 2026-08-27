@@ -1,11 +1,11 @@
-## [3]{.num}Les chiffres à avoir en main {.sec}
+## Les chiffres à avoir en main {.sec}
 
 ::: {.obj lab="Rien de recopié"}
 Les descriptions de zones sont dans la source, et elles sont bonnes. Ce qui suit est ce qu'elle **ne
 chiffre pas, ne totalise pas, ou ne calcule pas** — et qui décide de la partie.
 :::
 
-### 3.1 — Les treize créatures à sortir du bestiaire
+### Les treize créatures à sortir du bestiaire
 
 ::: {.jeu lab="La veille, pas à table — aucune n'est chiffrée sur place"}
 Le scénario ne donne **pas un seul profil**. C'est le choix de la gamme, mais le travail nous revient :
@@ -59,7 +59,7 @@ lumière s'éteint elles infligent 1d8 par round à chaque PJ**. Ce n'est pas un
 condition de survie.
 :::
 
-### 3.2 — La minuterie, tirage par tirage
+### La minuterie, tirage par tirage
 
 ::: {.warn lab="Le calcul que la source ne fait pas — A2"}
 Le malus de −2 s'ajoute à partir du deuxième test, et les résultats inférieurs à 1 comptent comme 1.
@@ -94,7 +94,7 @@ quand le groupe ressort de la citadelle** (A2) — sans quoi la prudence se paie
 l'imprudence.
 :::
 
-### 3.3 — Le butin, zone par zone, et ce que ça vaut
+### Le butin, zone par zone, et ce que ça vaut
 
 ::: {.jeu lab="En Shadowdark, l'or est l'expérience — donc ce total est le compteur de progression"}
 :::
@@ -149,7 +149,7 @@ Les **bols de sang** de la zone 8 ne sont pas du butin : remplis de sang frais, 
 s'effritent. Six usages, une seule fois chacun.
 :::
 
-### 3.4 — Les effectifs, et pourquoi il faut les cocher
+### Les effectifs, et pourquoi il faut les cocher
 
 ::: {.tight widths="30,18,52"}
 +------------------------------+------------+----------------------------------------------------+
@@ -174,7 +174,7 @@ ettercaps** — jusqu'à **dix**. Le donjon en contient vingt-et-un et six.\
 Cocher, ou ressortir des morts.
 :::
 
-### 3.5 — Ce que le plan porte et que le texte ne dit nulle part
+### Ce que le plan porte et que le texte ne dit nulle part
 
 ::: {.mj lab="Quatre mécaniques, uniquement dans la légende de la carte"}
 **V — Verrouillé** : DEX ND 20 pour crocheter, **FOR ND 18** pour forcer.\

@@ -1,4 +1,4 @@
-## [3]{.num}13 juin — l'Institut de Minéralogie {.sec}
+## 13 juin — l'Institut de Minéralogie {.sec}
 
 ::: {.dire lab="Le lieu"}
 Bâtiment neuf, construit entre 1887 et 1890, **chauffage central et lumière électrique** — fait rare

@@ -695,11 +695,37 @@ travail de découpage ne sert plus à rien.
   la couverture. La note et l'annoté, qui n'ont pas d'unité, n'avaient aucun retour au titre. Une
   entrée bâtie sur le `<h1>`.
 
+*Trois ajouts de confort dans la foulée, tous demandés à l'usage :* le **numéro de section en gras**
+et détaché du titre, qui joue dans la note et l'annoté le rôle que le chevron coloré joue dans le
+livret — un repère qui se voit sans se lire ; le **chevron un peu plus gros** ; et **un lien vers la
+page d'accueil du site** dans la barre du panneau. Ce dernier manquait depuis le début : dix documents
+déployés côte à côte, et aucun moyen de passer de l'un à l'autre sans le bouton retour.
+
 *Piège de fabrication, et il ne se voit qu'à l'œil :* **pandoc coupe la ligne entre deux attributs**
 quand elle est longue. Le premier `h2` du document sortait en
 `<h2 class="sec"\nid="ce-qui-sest-passé…">`, et la regex qui cherchait `class="sec" id="…"` avec une
 simple espace le ratait — **lui seul**, ce qui donnait un menu commençant à la section 2 sans que rien
 n'ait l'air cassé. Les attributs se lisent séparément, jamais comme une chaîne.
+
+*Puis le numéro de section a été retiré, le lendemain de son passage en gras.* Yannick : « je trouve
+inutile de numéroter les chapitres ». Il avait raison, et le repère qu'on venait de soigner était le
+symptôme : **un numéro qu'on met en gras pour qu'il se voie est un numéro qui n'apprend rien.** Sur le
+papier il aidait à retrouver un bloc en feuilletant ; à l'écran on l'atteint d'un clic, et la
+correspondance « 3 = les chiffres » est une chose de plus à retenir, périmée au premier bloc inséré.
+Le chevron du livret le remplace partout — du même bleu dans la note et l'annoté, qui n'ont pas
+d'usage à signaler.
+
+Ce qui a coûté le travail, ce n'est pas le titre : ce sont les **vingt-deux renvois internes** en
+« bloc 3 », « bloc 3.4 », dont cinq à l'intérieur de cellules de tableaux à largeur fixe, à
+reformater. Ils sont devenus des renvois par titre — la règle qui valait déjà contre les numéros de
+page vaut contre les numéros de bloc, et pour la même raison. La table de routage de la couverture a
+perdu sa colonne de numéros : le titre du bloc y était déjà, la colonne ne portait qu'un indice de
+lecture. Deux pièges de reformatage, tous deux invisibles au diff : `textwrap` cadré sur `w-1` colle
+le texte à la barre de droite de la cellule, et `break_on_hyphens` coupe « Bourg-Bruche » en deux —
+pandoc rejoint les lignes d'une cellule par une espace, et le trait d'union survit au milieu.
+
+**Une seule numérotation reste, et elle n'est pas un ordre :** les repères d'arbitrage (A1, B3…) sont
+des identifiants. → promu à `MODELE-socle.md`, à la règle des renvois.
 
 ### Troisième passage — le scénario annoté, et la refonte du livret
 

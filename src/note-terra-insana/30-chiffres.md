@@ -1,4 +1,4 @@
-## [3]{.num}Les chiffres à avoir en main {.sec}
+## Les chiffres à avoir en main {.sec}
 
 ::: {.obj lab="Rien de recopié"}
 Les profils, les armes et les Points de Vie sont dans la source, chacun à sa place. Ce qui suit est ce
@@ -6,7 +6,7 @@ qu'elle **ne calcule pas** : ce que l'armure de la Couleur laisse passer, ce que
 font sur deux jours, et où se trouve Émile heure par heure.
 :::
 
-### 3.1 — Ce que l'armure 3 laisse passer, par PJ
+### Ce que l'armure 3 laisse passer, par PJ
 
 ::: {.jeu lab="À poser devant soi avant le troisième acte — A5"}
 Les dés de dégâts sont sur cinq fiches différentes ; l'armure de la Couleur est vingt pages plus loin.
@@ -41,7 +41,7 @@ n'est pas un combat, c'est du concassage. Elle n'est pas faite pour être abattu
 en un geste, le cercle l'expulse en une minute.**
 :::
 
-### 3.2 — Ce qui est vraiment dangereux, et ça n'est pas la Couleur
+### Ce qui est vraiment dangereux, et ça n'est pas la Couleur
 
 ::: {.tight widths="26,20,20,34"}
 +--------------------------+-----------------+---------------+----------------------------------+
@@ -72,7 +72,7 @@ prétiré armé d'un revolver**. Tout le troisième acte tient là-dessus : le d
 MJ ne l'a pas vu avant de s'asseoir, il jouera le final à l'envers.
 :::
 
-### 3.3 — Le suivi des séquelles
+### Le suivi des séquelles
 
 ::: {.jeu lab="Une case par occurrence et par PJ — B3"}
 Rien de tout ça ne se voit dans un profil, et rien ne se récupère. Sans planche, la table oublie, et
@@ -108,7 +108,7 @@ moment exact du final. **Le scénario punit la lenteur par la mécanique, pas pa
 vrai minuteur, et il est invisible.
 :::
 
-### 3.4 — Où est Émile, heure par heure
+### Où est Émile, heure par heure
 
 ::: {.obj lab="Vingt kilomètres par nuit, trois nuits — le reste est de nous"}
 La source donne la vitesse et le tracé sur la carte T3 ; elle ne donne jamais la position à un moment
@@ -139,7 +139,7 @@ donné. Il marche en début de soirée et aux aurores, dort le jour dans une gra
 +------------------+----------------------------------+----------------------------------------+
 :::
 
-### 3.5 — Les tests de Santé mentale, rassemblés
+### Les tests de Santé mentale, rassemblés
 
 ::: {.jeu lab="Sept occasions, éparpillées sur tout le scénario"}
 Voir Émile réduit à cet état — **et seulement pour qui l'a intimement connu** · goûter un raisin et

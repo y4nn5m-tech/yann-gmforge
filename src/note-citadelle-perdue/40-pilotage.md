@@ -1,6 +1,6 @@
-## [4]{.num}Pilotage {.sec}
+## Pilotage {.sec}
 
-### 4.1 — Ce qu'il faut tenir en même temps
+### Ce qu'il faut tenir en même temps
 
 ::: {.tight widths="30,70"}
 +------------------------------+--------------------------------------------------------------------+
@@ -18,7 +18,7 @@
 +------------------------------+--------------------------------------------------------------------+
 :::
 
-### 4.2 — Les risques de blocage
+### Les risques de blocage
 
 ::: {.tight widths="26,34,40"}
 +----------------------+-----------------------------------+------------------------------------+
@@ -47,7 +47,7 @@
 +----------------------+-----------------------------------+------------------------------------+
 :::
 
-### 4.3 — Le levier, et il est unique
+### Le levier, et il est unique
 
 ::: {.mj lab="Rogath et Brell — la seule chose qui transforme le pillage en histoire"}
 **Rogath veut le minotaure mort pour régner sur la citadelle.** Il envoie au casse-pipe, gaiement, son
@@ -61,7 +61,7 @@ qu'ils croient postés dehors pour les dévorer. Personne n'est jamais sorti.\
 chef qui trahira, et un petit frère qui ne trahira jamais.
 :::
 
-### 4.4 — Les notes de jeu
+### Les notes de jeu
 
 ::: {.mj lab="Cinq façons de tenir ceux qui portent la séance"}
 **Rogath** — *énorme, fainéant, et redouté.* Il ne se lève pas. Il envoie.\
@@ -74,7 +74,7 @@ zone 16. Il veut un trésor et n'a aucune intention de se battre pour l'obtenir.
 de tête aux piliers. Il ne bat jamais en retraite, et il perd les gens de vue.
 :::
 
-### 4.5 — Le réglage du ton
+### Le réglage du ton
 
 ::: {.obj lab="Un donjon qui a peur de lui-même"}
 Rien ici n'est héroïque. Les habitants sont **terrifiés** : les hommes-bêtes par des dragons qui

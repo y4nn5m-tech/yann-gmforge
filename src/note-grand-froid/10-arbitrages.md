@@ -1,4 +1,4 @@
-## [1]{.num}Ce que la source ne tranche pas {.sec}
+## Ce que la source ne tranche pas {.sec}
 
 Sept arbitrages bloquants (A), neuf de table (B), six cosmétiques (C). Les rappels par numéro valent
 aussi pour l'aide de jeu.
@@ -55,7 +55,7 @@ de manière. Or c'est la scène qui décide de la fin.\
 l'affaire est « une demande en haut lieu, venue du **Midewiwin** ». Angen Tulo trahit sa propre
 société. Il n'est pas un informateur, c'est un homme qui a choisi entre les siens et une ville. Tout
 le reste en découle.\
-**Le déclencheur :** ils insistent auprès de Davis, ou Manuel le retourne (bloc 4). Aucun jet — **il
+**Le déclencheur :** ils insistent auprès de Davis, ou Manuel le retourne (bloc *La planche trait × scène*). Aucun jet — **il
 vient à eux.** Ils n'ont pas à le trouver, et il ne faut surtout pas les laisser le chercher.\
 **Où :** un centre de réchauffement du sud de la ville, le soir, parmi les lits de camp et les
 gobelets de café — l'intro en installe partout. Variante si le groupe est déjà rentré : il attend
@@ -154,7 +154,7 @@ Tahlia à l'appareil photo. Deux navires exploitables : **fusées éclairantes**
 **réservoirs** (24 dégâts de feu à toute personne Proche, Sauvegarde de Dextérité avec
 Désavantage).\
 **Les fusées ne sont pas chiffrées — le d6 est un dé d'usage, pas des dégâts.** Retenu : **6 dégâts
-de feu, donc 12 sur le Wendigo, armure ignorée.** Voir le calcul du bloc 3 : c'est cette valeur qui
+de feu, donc 12 sur le Wendigo, armure ignorée.** Voir le calcul du bloc *Les chiffres à avoir en main* : c'est cette valeur qui
 décide de l'issue du combat.\
 Si tu récupères la page 116, c'est le seul endroit de la note à revoir.
 :::
@@ -184,7 +184,7 @@ Retenu : **la grêle le mardi** (4 dégâts, Sauvegarde d'Intelligence pour trou
 bourrasque le mercredi matin**, avant le lac.\
 **B5 · Le piratage raté ne met personne en garde à vue.** La source lance la police sur le pirate et
 n'en fait rien. Retenu : un cran de pression — un inspecteur rappelle l'agence, Davis se ferme d'un
-cran. Au second échec, Davis coupe l'accès au dossier, et Angen Tulo passe alors par Manuel (bloc 4).
+cran. Au second échec, Davis coupe l'accès au dossier, et Angen Tulo passe alors par Manuel (bloc *La planche trait × scène*).
 :::
 
 ::: {.warn lab="B6 → B9"}

@@ -241,7 +241,7 @@ def sommaire(html, est_livret):
         # d'unité de couverture qui la fournirait toute seule
         tête = re.search(r'<h1 id="([^"]+)"[^>]*>(.*?)</h1>', html, re.S)
         if tête:
-            entrées.append(f'<li><a href="#{tête.group(1)}">'
+            entrées.append(f'<li><a href="#{tête.group(1)}"><span class="use"></span>'
                            + " ".join(re.sub(r"<[^>]+>", " ", tête.group(2)).split())
                            + "</a></li>")
         # les attributs se lisent séparément : pandoc coupe la ligne entre eux
@@ -252,7 +252,7 @@ def sommaire(html, est_livret):
             ident = re.search(r'id="([^"]+)"', attrs)
             if "sec" not in attrs or not ident:
                 continue
-            entrées.append(f'<li><a href="#{ident.group(1)}">'
+            entrées.append(f'<li><a href="#{ident.group(1)}"><span class="use"></span>'
                            + " ".join(re.sub(r"<[^>]+>", " ", titre).split()) + "</a></li>")
     if len(entrées) < 3:
         return html
@@ -261,6 +261,7 @@ def sommaire(html, est_livret):
         "\u2630<span> Sommaire</span></a>"
         '<nav id="sommaire" class="toc" aria-label="Sommaire">'
         '<p class="toc-head">'
+        '<a class="toc-home" href="index.html">\u2190 Tous les documents</a>'
         '<a class="toc-close" href="#_" aria-label="Fermer le sommaire">\u00d7</a></p>'
         "<ol>" + "".join(entrées) + "</ol></nav>")
     return html.replace("<body>", "<body>\n" + panneau, 1)

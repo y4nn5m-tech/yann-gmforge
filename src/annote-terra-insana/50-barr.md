@@ -1,4 +1,4 @@
-## [5]{.num}Sur les coteaux — ce que la pierre fait à une région {.sec}
+## Sur les coteaux — ce que la pierre fait à une région {.sec}
 
 ::: {.dire lab="Les vignes de Barr"}
 On est en juin, et les raisins sont **exceptionnellement gros — presque le double de la taille
@@ -37,7 +37,7 @@ Elle est donc facultative pour l'intrigue et essentielle pour l'enjeu. Si la tab
 l'horloge, on peut la sauter : on perd alors la seule raison viscérale de se dépêcher.
 :::
 
-## [6]{.num}La traque — un homme qui marche {.sec}
+## La traque — un homme qui marche {.sec}
 
 ::: {.dire lab="Ce qu'il fait, exactement"}
 Émile parcourt **environ vingt kilomètres par nuit** et dort le jour dans une grange ou tout lieu qui

@@ -1,4 +1,4 @@
-## [2]{.num}12 juin au soir — le souper sans hôte {.sec}
+## 12 juin au soir — le souper sans hôte {.sec}
 
 ::: {.dire lab="Ce que la source donne"}
 Une petite maison à colombages, à Hoerdt. **Rose Selavy**, la gouvernante, accueille les invités et

@@ -1671,3 +1671,187 @@ seulement celles qui s'effondrent.**
 et les numéros 1 et 2 ne sont jamais cités — il appartient à un autre scénario du recueil. Remplacé
 par un tableau d'adresses, qui suffit : dans une ville où l'on va à pied, le plan ne portait aucune
 information de règle.
+
+## Magnitogorsk
+
+*Cthulhu Hack, Oural 1932. Source de 80 pages, qualité professionnelle, trois actes et un épilogue
+pour 12 à 21 h annoncées. Note d'arbitrage puis livret de l'acte 1 seul.*
+
+**Premier scénario dont l'entrée n'est pas seulement la source.** Yannick a fourni le scénario, les
+aides de l'auteur, **et un document d'aides produit antérieurement avec une IA, hors modèle**, avec
+la consigne de le reprendre largement. C'est ce qui rend ce passage différent des huit précédents, et
+ce qu'il a appris tient surtout à ça.
+
+**Premier livret partiel du dépôt.** Douze à vingt et une heures de jeu ne tiennent pas dans un
+livret : le découpage retenu est un livret par acte, l'acte 1 d'abord. La note, elle, couvre le
+scénario entier — ses arbitrages sont transverses, et celui du calendrier doit être tranché avant la
+séance 1.
+
+### Un document antérieur se dépouille comme une source, pas comme un brouillon
+
+Le document d'aides fourni était riche : quatre scènes d'ouverture individuelles entièrement
+inventées, une table « qui sait quoi au départ », des cartes de personnage, des handouts, des
+générateurs de PNJ, un tableau de victimes qui rend l'empoisonnement jouable. Beaucoup a été repris.
+
+Mais il fallait lui appliquer **le même test ligne par ligne qu'à une source**, et je ne l'ai pas
+fait assez tôt :
+
+- **trois divergences avec le scénario**, dont une qui compte : Borislav y est « ingénieur des mines »
+  alors que la source en fait **le bureaucrate juriste** — et c'est précisément ce métier qui ouvre la
+  moitié des portes administratives du scénario. Je l'avais absorbée dans l'analyse avant de la
+  rattraper en écrivant la planche trait × scène ;
+- **ses trois générateurs 1d10 étaient le même tableau écrit trois fois** (poste, lieu de vie,
+  apparence, attitude), un par dossier. Fusionnés en une table transverse `À CONSULTER` plus une
+  colonne « ce qu'il sait » par dossier — c'est exactement le cas que le chapitre du livret autorise,
+  une table aléatoire tirée à chaque scène ;
+- **ses dix-sept fiches d'ambiance par lieu et ses huit fiches de peuples** sont un catalogue central,
+  que le chapitre interdit. Le décor est reparti dans les unités où il se dit.
+
+**Il se disait lui-même inachevé** — un tableau porte la mention « envoie-les-moi et j'ajoute » — et
+trois dossiers sur dix seulement y étaient traités. Le vérifier avant de promettre de le « reprendre
+largement » est le premier travail.
+
+### Les fiches de prétirés étaient des images dans un PDF entrelacé
+
+Le manifeste d'extraction a signalé les pages 1, 3, 5, 7 et 9 du PDF des prétirés comme illisibles.
+J'ai d'abord conclu à une pièce manquante, parce que le texte extrait ne contient que les biographies
+— celles du scénario, recopiées. **Les pages impaires étaient les fiches Cthulhu Hack complètes** :
+caractéristiques, dés d'usage, points de vie, équipement, et quinze capacités spéciales.
+
+Deux leçons de dépouillement :
+
+- **quand un PDF alterne régulièrement page-image et page-texte, ce sont deux documents entrelacés**,
+  et les pages-image sont le contenu, pas l'illustration. Le manifeste le dit ; il faut le croire ;
+- **le rendu à 100 dpi ne suffit pas pour un glyphe**. Les dés d'usage sont dessinés en polyèdres, les
+  crans dépensés barrés d'une croix. Il a fallu recadrer la colonne à 300 dpi (`pdftoppm -x -y -W -H`)
+  pour lire d10 plutôt que d12. Un chiffre faux ici aurait faussé tout le budget de lumière.
+
+### Le calendrier que la source ne tire jamais de son propre mandat
+
+Trois chiffres qui ne tiennent pas ensemble : un mandat de « trois semaines aller-retour compris »,
+un voyage d'« une bonne semaine », et un épilogue qui affirme qu'« il faut 5 jours pour se rendre à
+Moscou » et que le rapport est dû « dans deux jours ». **Le seul chiffre manquant est celui dont le
+MJ a besoin** : combien de jours les personnages ont sur place, et combien la boucle temporelle leur
+en vole.
+
+Retenu : sept jours sur place, la boucle en rend cinq, trois jours de retard irrattrapables. Un
+tableau jour par jour, du 26 avril au 20 mai. Et le « 5 jours » écarté comme faux — c'est le même
+train qu'à l'aller.
+
+**Candidat au socle** : *quand la source date le mandat sans écrire le calendrier, l'écrire. Elle ne
+le fait presque jamais, et tout son dénouement en dépend.* Une occurrence ici ; à vérifier au
+prochain scénario à échéance.
+
+### Le dé d'usage était déjà l'horloge, et personne ne les avait reliés
+
+L'acte 2 se joue **entièrement dans le noir**. La source écrit « il leur faudra à minima des sources
+de lumière », puis, cinquante pages plus loin, « leurs sources de lumière les lâchent les unes après
+les autres ». Entre les deux, aucun décompte. Et aucun des cinq prétirés n'a de lanterne.
+
+Or Cthulhu Hack a exactement le dé qu'il faut : la **Torche**. Retenu qu'elle porte la lampe, un test
+par étape de la descente, seize étapes du campement au Nexus. Le calcul d'espérance — un cran perdu
+sur 1 ou 2, échelle d10 → d8 → d6 → d4 → épuisé — donne : le porteur de d6 dans le noir au milieu de
+la deuxième strate, les d8 à l'entrée de la Grande Galerie, les d10 juste avant le Nexus. **C'est mot
+pour mot ce que la source décrit en prose sans l'avoir chiffré.**
+
+C'est le meilleur croisement système × scénario du dépôt, et il ne coûte aucune règle nouvelle.
+→ à porter dans le chapitre Cthulhu Hack de `MODELE-systemes.md` : *un dé d'usage qui s'épuise est
+une horloge gratuite ; chercher, dans le scénario, la ressource qu'il mesure déjà.*
+
+### Sept croisements sur dix-huit — et le premier trait qui ne tombe nulle part
+
+Meilleure moisson que *Grand froid* et *L'Onirographe*, qui étaient à zéro : la source relie bien
+Kassym au tengrisme et à sa famille, Sergei au conduit, Mikhaïl aux explosifs et à l'étroitesse de la
+sortie. Mais **les quinze capacités spéciales n'apparaissent qu'une fois chacune, sur leur propre
+fiche**, et quatre d'entre elles ont manifestement été écrites pour ce scénario : *Inquisiteur*
+(détecter le mensonge) face à quatre menteurs nommés, *Méticuleux* (avantage à lire un document) face
+à une page retirée d'un dossier, *Jargon juridique* face à cinq portes administratives, *Naturaliste*
+face à une créature.
+
+**Nouveauté : une capacité qui ne tombe nulle part.** *Entraîné* — réussite automatique du premier
+test de combat de la session — sur un scénario où **il n'y a pas un seul combat**, où toute agression
+tue l'agresseur, et où l'expédition punitive de l'épilogue est fatale. La bonne réponse n'est pas de
+fabriquer une bagarre : c'est de l'écrire dans la planche, à la ligne du trait, et de compenser
+ailleurs (*Athlète*, chez le même personnage, tombe cinq fois).
+→ **la planche trait × scène doit porter ses cases vides**, et pas seulement ses correspondances.
+
+### Une sur-lecture, corrigée par Yannick
+
+J'avais écrit que livrer Larissa Kazakova — la seule saboteuse réelle, avouée, que l'épilogue ne
+mentionne jamais — était « la sortie propre du scénario ». C'était faux, et Yannick l'a arrêté : elle
+n'explique **ni le noyé, ni la machine, ni l'empoisonnement, ni le pêcheur**, c'est-à-dire aucun des
+incidents qui ont fait appeler Moscou, et elle ne dit rien du second objet de la mission — le rapport
+sur le chef de la police. Elle ferme un dossier sur cinq.
+
+La trouvaille tenait (l'épilogue oublie sa propre coupable et compte quatre dossiers là où il y en a
+cinq) ; la conclusion, non. **Ce qu'elle achète, c'est de la crédibilité pour le reste du rapport,
+mensonge compris** — ce qui la rend bien plus intéressante que si elle résolvait quoi que ce soit.
+
+→ **Test à ajouter** : *quand un arbitrage propose une sortie au dilemme central, vérifier qu'il ferme
+tous les objets de la mission, pas seulement le plus visible.* Ici la mission en avait deux, et la
+source l'écrit dès sa première page.
+
+### Onze unités de rampe, quand le chapitre en prescrit trois à cinq
+
+Le scénario ouvre par **une scène individuelle par personnage** — quatre convocations parallèles, sec
+et administratif, chacune donnant la main à un seul joueur pendant quinze à vingt minutes. Ce ne sont
+pas des unités de rampe au sens du chapitre (le MJ n'y parle pas seul) : ce sont des **moments de
+parole**, et le chapitre dit lui-même qu'un moment de parole mérite sa page.
+
+La séance 1 entière est donc la rampe : le monde, les quatre convocations, le compartiment, le voyage
+en deux temps, l'arrivée, le quai, le briefing. Onze unités sur trente-quatre.
+→ à porter dans le chapitre du livret : *quand la source ouvre par une scène par personnage, chacune
+est une unité — le plafond de trois à cinq vaut pour une rampe où le MJ parle seul.*
+
+### Trois types que les tableaux n'ont pas
+
+- **L'antagoniste indifférent.** Les larves amorphes ne veulent rien aux personnages, tuent par
+  curiosité ou par inadvertance, ne peuvent être ni négociées ni vaincues, et **leur neutralisation
+  est inutile par construction** — la source le dit à l'épilogue. Ce n'est ni l'instigateur non
+  combattant (pas d'instigation) ni l'adversaire à besoins (rien à donner). C'est le propos du
+  scénario : l'horreur cosmique est indifférente, l'horreur sociale est délibérée.
+- **La coupable légitime.** Larissa. Réellement coupable des faits reprochés, et ses motifs retournent
+  l'accusation contre le commanditaire. La livrer est une victoire d'enquête et une défaite morale.
+- **Le lieu à péage administratif.** Cinq occurrences dans le même scénario : les archives,
+  l'exhumation, le droit de visite au condamné, le matériel de spéléologie, les explosifs. Contenu
+  acquis d'avance, accès payé en temps, formulaires et faveurs. C'est **le verrou réel de l'acte 1**,
+  et il est social, pas informationnel.
+
+→ trois candidats, une seule source. Pas de promotion tant qu'on ne les recroise pas — mais le
+troisième est le plus fort : cinq occurrences valent mieux qu'une.
+
+### Ce que la production a coûté
+
+**Note : 12 pages** — haut de la fourchette, et c'est justifié par 80 pages de source et vingt heures
+de jeu. **Livret : 34 unités pour 35 pages**, aucune ne débordant à la livraison.
+
+Quatre passes de correction, toutes sur des avertissements du dépôt :
+
+- **quatre lignes à dire au-dessus du plafond**, toutes des consignes « main au joueur » à trois
+  clauses ;
+- **cinq unités avec trois encarts ou plus en pied.** Même geste qu'à *L'Onirographe* : ce qui était
+  un encart en bas de page était de la matière à dire, donc un palier — les trois paliers de Sacha
+  Orloff, la visite à Maxim, le train de vie d'Igor à Berezki ;
+- **cinq unités qui débordaient**, toutes scindées plutôt que rognées. Le Komsomol est passé de une à
+  quatre unités : lire le dossier, innocenter les deux suspects, reconstituer l'après-midi, trouver la
+  témoin. Quatre moments de table distincts, et c'était le bon découpage depuis le début ;
+- **médiane des lignes à dire à 65 signes** pour un repère à 60. La correction est la même que la fois
+  précédente, mais cette fois **scriptée** : découper sur la ponctuation de fin de phrase à
+  l'intérieur d'un item de bloc bleu. Cent vingt lignes scindées, médiane repassée sous le repère du
+  premier coup.
+  **Piège du script, et il a mordu trois fois** : il faut exclure les lignes qui portent du balisage
+  inline, pas seulement les répliques. Un découpage au milieu d'un `**gras**` ou d'un `*(italique)*`
+  laisse deux moitiés invalides que le rendu n'a pas signalées. Vérifier après coup l'équilibre des
+  marqueurs sur chaque ligne produite.
+
+### Ce que la source a déjà fait pour nous, et qu'il ne faut pas refaire
+
+L'auteur fournit ses propres aides de maîtrise : une timeline des incidents, un digest par dossier au
+gabarit constant, **une fiche de maîtrise en grille** (dix pistes en lignes, les étapes en colonnes,
+des cases à cocher), une carte mentale des pistes, un schéma de la descente en seize étapes, et deux
+plans — MJ et joueur.
+
+C'est la première fois qu'une source fournit la table de synthèse que nous aurions écrite. **Elle se
+pose à côté, elle ne se recopie pas** : la checklist de la note dit « à poser devant soi », et le
+livret n'en porte rien. C'est l'application la plus simple de la règle des trois destinations — et la
+plus facile à manquer, parce que ces documents sont bons et qu'on a envie de les refaire mieux.

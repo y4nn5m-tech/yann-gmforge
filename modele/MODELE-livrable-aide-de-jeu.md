@@ -319,6 +319,18 @@ L'ossature commune. Les unités propres à une forme d'intrigue sont dans `MODEL
    progression du récit entre ces parties ». Les quatre pages étaient correctes une par une et fausses
    ensemble.*
 
+   **Le plafond de trois à cinq vaut pour une rampe où le MJ parle seul. Quand la source ouvre par une
+   scène individuelle par personnage, chacune est une unité** — et le compte explose légitimement. Ce
+   ne sont pas des unités de rampe : ce sont des **moments de parole**, le joueur y répond, et la règle
+   du chapitre s'applique déjà (*un moment de parole mérite sa page*). Elles ne s'enchaînent pas non
+   plus, puisqu'elles sont parallèles : ce qui les tient ensemble est le **contraste**, à écrire dans
+   leur bloc violet — la même convocation jouée de nuit puis en plein jour, encadrée puis libre.
+   Le test pour ne pas s'autoriser n'importe quoi : **une unité par personnage joué, pas une par lieu
+   traversé**. Le trajet, le véhicule, la gare et l'attente restent une seule unité chacun.
+   *Cas vécu, dans* Magnitogorsk *: quatre convocations parallèles de quinze à vingt minutes chacune,
+   plus le monde, le compartiment, le voyage, l'arrivée, le quai et le briefing — onze unités sur
+   trente-quatre, parce que la séance 1 **est** la rampe.*
+
    Ce que le mouvement traverse, dans cet ordre :
    - **le où et le quand, en première ligne à dire.** Pas un encart, pas une unité : les trois
      premières lignes du récit. « L'histoire se passe à Chicago. » · « Nous sommes le lundi 28 janvier

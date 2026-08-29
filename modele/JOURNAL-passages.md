@@ -1755,7 +1755,7 @@ la deuxième strate, les d8 à l'entrée de la Grande Galerie, les d10 juste ava
 pour mot ce que la source décrit en prose sans l'avoir chiffré.**
 
 C'est le meilleur croisement système × scénario du dépôt, et il ne coûte aucune règle nouvelle.
-→ à porter dans le chapitre Cthulhu Hack de `MODELE-systemes.md` : *un dé d'usage qui s'épuise est
+→ **promu** dans le chapitre Cthulhu Hack de `MODELE-systemes.md` : *un dé d'usage qui s'épuise est
 une horloge gratuite ; chercher, dans le scénario, la ressource qu'il mesure déjà.*
 
 ### Sept croisements sur dix-huit — et le premier trait qui ne tombe nulle part
@@ -1773,7 +1773,8 @@ test de combat de la session — sur un scénario où **il n'y a pas un seul com
 tue l'agresseur, et où l'expédition punitive de l'épilogue est fatale. La bonne réponse n'est pas de
 fabriquer une bagarre : c'est de l'écrire dans la planche, à la ligne du trait, et de compenser
 ailleurs (*Athlète*, chez le même personnage, tombe cinq fois).
-→ **la planche trait × scène doit porter ses cases vides**, et pas seulement ses correspondances.
+→ **promu** dans `MODELE-livrable-dossier-prep.md` : *la planche trait × scène porte ses cases vides*,
+et compense sur le même personnage.
 
 ### Une sur-lecture, corrigée par Yannick
 
@@ -1800,8 +1801,9 @@ parole**, et le chapitre dit lui-même qu'un moment de parole mérite sa page.
 
 La séance 1 entière est donc la rampe : le monde, les quatre convocations, le compartiment, le voyage
 en deux temps, l'arrivée, le quai, le briefing. Onze unités sur trente-quatre.
-→ à porter dans le chapitre du livret : *quand la source ouvre par une scène par personnage, chacune
-est une unité — le plafond de trois à cinq vaut pour une rampe où le MJ parle seul.*
+→ **promu** dans `MODELE-livrable-aide-de-jeu.md` : *quand la source ouvre par une scène par
+personnage, chacune est une unité — le plafond de trois à cinq vaut pour une rampe où le MJ parle
+seul.*
 
 ### Trois types que les tableaux n'ont pas
 
@@ -1855,3 +1857,151 @@ C'est la première fois qu'une source fournit la table de synthèse que nous aur
 pose à côté, elle ne se recopie pas** : la checklist de la note dit « à poser devant soi », et le
 livret n'en porte rien. C'est l'application la plus simple de la règle des trois destinations — et la
 plus facile à manquer, parce que ces documents sont bons et qu'on a envie de les refaire mieux.
+
+---
+
+## L'Or de La Rochelle
+
+*L'Appel de Cthulhu transposé en Cthulhu Hack, La Rochelle assiégée 1628. Source de 25 pages,
+auto-éditée, 53 600 signes. Scénario annoté (13 p.) puis livret (22 p., 22 unités).*
+
+**Premier passage où le système joué n'est pas celui de la source.** Yannick a fourni un scénario écrit
+pour L'Appel de Cthulhu en demandant de le mener en Cthulhu Hack. Rien dans le modèle ne couvrait ce
+cas : `grep -rn "transpos\|Appel de Cthulhu\|BRP\|d100" modele/` ne rendait rien sur neuf passages.
+D'où une section neuve, **« Transposer un scénario écrit pour un autre système »**, en tête de
+`MODELE-systemes.md`.
+
+### Ce que la transposition a appris, et qui n'était pas prévisible
+
+Le réflexe est de chercher une formule de conversion. C'est le mauvais réflexe, et deux découvertes
+l'ont montré :
+
+- **la première question n'est pas « quelle Sauvegarde ? » mais « y a-t-il un jet ? »** Un système à
+  compétences chiffrées écrit un test par obstacle parce que c'est sa façon de décrire un obstacle.
+  L'acte 1 de cette source aligne quatre « défis » — le garde, le lieutenant, le terrain découvert, les
+  tunneliers — et **aucun des quatre n'a de conséquence d'échec écrite**. Convertis ligne à ligne, ils
+  faisaient une heure de dés qui ne décidait de rien. Un seul a survécu ;
+- **la destination la plus fréquente d'une compétence n'est pas un jet, c'est un fait de fiche.** Latin,
+  Histoire, Médecine, Navigation, et surtout la règle maison « compétence de Métier à 65 % » de cette
+  source : le personnage sait, on ne jette pas. Le scénario y gagne.
+
+Et une coïncidence heureuse, vérifiée avant d'être écrite : **BRP teste une caractéristique à `car × 5`
+sur d100, Cthulhu Hack réussit `N × 5 %` en lançant sous N au d20.** Force 13 = 65 % des deux côtés. La
+recopie est exacte — mais elle sort de l'échelle, et c'est là que deux règles sont nées.
+
+### Deux règles de plafonnement, nées d'un aplatissement
+
+Yannick a fourni la fourchette manquante (Sauvegardes entre 8 et 15). Le plafonnement brut à 15 a
+aussitôt produit un défaut visible : **Montfaucon, Force 18 · Constitution 16 · Dextérité 15, sortait à
+15/15/15** — infaillible dans tout un registre, et quatre prétirés sur six touchaient le plafond.
+Retenu : **la plus haute passe à 15, toutes les autres sont plafonnées à 14**. Chaque personnage garde
+une Sauvegarde qui le définit.
+
+Symétriquement au bas de l'échelle : Montfaucon a *Négocier 20 %*, ce qui donnait un Bagou d4 —
+c'est-à-dire une ressource épuisée en deux jets. **Plancher d6, et la faiblesse portée en Désavantage
+permanent.** Un petit dé retire la ressource ; le Désavantage décrit le personnage.
+
+### Une source dont le titre promet ce que le texte oublie
+
+`grep -n "\bor\b\|trésor" sources/or-rochelle/texte.txt` : **trois occurrences, toutes avant la page 3**,
+puis plus rien sur vingt-deux pages. L'or est l'objectif de mission des personnages, et il n'a ni lieu,
+ni quantité, ni moyen d'être emporté, ni sortie.
+
+Ce n'est pas une case vide de la grille de `MODELE-analyse.md` — l'accroche est là, l'objectif de sortie
+aussi. C'est **l'objet de la quête qui manque**, ce qu'aucun des neuf passages précédents n'avait
+rencontré. Retenu : le dépôt est dans les alcôves de la cache, il pèse le chargement de quatre hommes,
+**et il ne sort pas d'une ville bloquée par terre et par mer**. Ce qui en fait la dernière question du
+scénario au lieu d'un butin : le laisser, tenter la brèche, ou le donner à la ville qui meurt de faim
+au-dessus.
+
+### Quatre fois, la source avait déjà écrit la solution
+
+C'est le meilleur rendement de ce passage, et il n'a rien coûté :
+
+- **la jonction de l'acte 3 à l'acte 4**, que la source escamote en écrivant « *les PJs, ayant compris
+  que le dernier acte aura lieu à la cathédrale* » : elle écrit ailleurs que des souterrains partent du
+  hall de la cache et « plongent profondément sous la ville ». L'un monte à la crypte. Les personnages
+  n'ont rien à comprendre, ils suivent un tunnel ;
+- **le moyen d'emporter les textes** : Benjamin Girard, tanneur, « approché pour fabriquer une série de
+  sacs spéciaux, peut-être pour transporter des objets précieux » — dans la liste des informateurs, à
+  quinze pages de l'endroit où ça sert ;
+- **l'arme du final** : « sensibles à l'eau douce — un seau leur inflige 1D6 », enterré dans un profil,
+  jamais rappelé dans la scène finale, dans une ville pleine de citernes et de cuves de pluie. Et c'est
+  l'arme du personnage qui n'en a aucune ;
+- **l'horloge de l'acte 1** : un acte entier sous terre, et exactement deux sources de lumière sur six
+  fiches. Même configuration que Magnitogorsk, et la même réponse — la Torche portait déjà le décompte.
+
+### Douze informateurs sans lieu ni heure
+
+Le meilleur matériel de la source, et le plus inutilisable en l'état : douze gens du peuple, un métier
+et un fait chacun, tous pointant vers la famille recherchée — trop de pain, des herbes pour dormir, des
+robes de cérémonie, une clé forgée, des sacs pour du lourd, des chants sous terre. **Aucun n'a d'endroit
+où on le rencontre.**
+
+Deux gestes ont suffi : leur donner un lieu et une heure, et **rattacher chaque événement de la
+chronologie à celui qu'il met devant les personnages**. C'est ce qui répare le moteur, parce que les
+neuf événements des trois jours sont sept touches d'ambiance et deux plans de coupe — **pas un ne livre
+d'indice**, et l'horloge tournait à vide.
+
+Type ajouté à `MODELE-analyse.md` : **le vivier d'informateurs**. Distinct du sachant (aucun ne détient
+la clé) et du survivant de la table (ils ne meurent pas, ils savent).
+
+*Cas laissé de côté faute d'une seconde occurrence :* **Madelaine**, la fille de l'antagoniste — seule
+parente approchable, chiffrée par la source et sans aucun emploi, et qui ouvre la seule fin où quelqu'un
+survit dans cette famille. Proche du « levier politique » sans s'y confondre : elle n'achète pas une
+faction, elle ouvre une issue. À confirmer au prochain passage avant d'en faire un type.
+
+### La règle de la réplique qui date la scène a servi telle quelle
+
+La source écrit « 1627 en automne » et décrit dans la même page la famine, la digue de Richelieu, et
+« depuis quelques mois, aucun navire n'a percé le blocus ». Le siège commence en septembre 1627 : rien
+de cela n'a eu lieu à l'automne 1627. C'est la réplique de Martial, l'homme de la rue, qui tranche —
+**automne 1628**, la dernière saison du siège.
+
+C'est la première fois qu'une règle née d'un scénario (*Grand froid*, la chronologie arbitrée par ce
+qu'un PNJ prononce à voix haute) résout un cas sur un autre scénario sans adaptation.
+
+### Un piège de source que les tableaux ne listaient pas
+
+**Deux prétirés portent le nom de deux antagonistes** : Thibault Deschamps / Thibault de Saint-Pierre,
+Guillaume de Montfaucon / Guillaume de Saint-Pierre. Plus une troisième collision plus loin, Élise de
+Bellevue / Élise Moreau la fleuriste. Retenu : renommer les PNJ, jamais les personnages — les joueurs
+ont leur fiche sous les yeux.
+
+### Le ratio de l'annoté ne vaut que pour une source dense
+
+Le chapitre vise **40 à 50 %** de la source. Ce document sort à **84 %** en signes nets, et la coupe n'y
+a rien changé. La ventilation par couleur dit pourquoi :
+
+| Bleu — source condensée | Ambre — arbitrages | Vert — mécanique | Violet | Rouge |
+|---|---|---|---|---|
+| **16 %** | 36 % | 22 % | 11 % | 6 % |
+
+**Le bleu ne pèse que 13 % de la source**, parce qu'il n'y a presque rien à condenser : quarante lieux
+en puces d'une ligne, douze figures historiques décoratives, deux pages de contexte. Les 84 % restants
+sont de l'ajout — vingt arbitrages, une conversion de système complète, six fiches, douze informateurs
+replacés. Le ratio mesure une condensation ; une source maigre n'en offre pas, et le contrôle qui compte
+(24 pages) passait à 13.
+
+**La mesure a quand même servi**, et c'est la raison de la garder : en cherchant pourquoi le bleu était
+si faible, il est apparu qu'il ne portait **aucune autorité de la ville**, alors qu'un arbitrage
+proposait de négocier avec le commandant Valois. Cinq noms ajoutés — Guiton, Valois, Dumont qui traque
+les espions, Montfort, Boulanger.
+
+### Ce que la production a coûté
+
+Annoté 13 pages, livret 22 pages pour 22 unités — **aucune unité n'a débordé**, ce qui n'était jamais
+arrivé du premier coup. Les deux PDF sont reproductibles au bit près.
+
+Trois défauts attrapés par les contrôles, tous réels :
+
+- **une page à 9 %** dans l'annoté après la passe de condensation : un arbitrage isolé en fin de
+  section. Il était surtout mal placé — la question de l'historique de Jacques se pose là où Jacques est
+  présenté. Déplacé dans « ce qui s'est passé avant », et renuméroté ;
+- **trois encarts en pied** sur l'unité des toits. Le profil de la créature se lit au moment où on la
+  voit, pas après la montée : remonté au premier palier ;
+- **un bloc violet qui parlait de la page** — « descendre les paliers sans interruption » est une
+  consigne de lecture, que le socle interdit. Reformulé en consigne de table.
+
+Non corrigé, et assumé : **médiane des lignes à dire à 64 signes** pour un repère à 60. Le repère est un
+avertissement de facture, et le découpage scripté de Magnitogorsk n'aurait rien gagné ici.

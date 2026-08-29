@@ -162,6 +162,17 @@ croyant qu'ils sont de nous.
 **la scène où il tombe** : c'est notre travail, et il ne dépend pas de l'effet. Le dire en une ligne, et
 désigner les deux ou trois traits dont le nom peut changer le final — ceux-là, il faut aller les lire.
 
+**La planche porte aussi ses cases vides.** Un trait qui ne tombe nulle part est une information de
+pilotage, pas un oubli de rédaction : sans elle, le MJ passe la partie à guetter le moment de le
+sortir, ou pire, il fabrique la scène qui manque. L'écrire à la ligne du trait — *« nulle part, et
+c'est voulu »* — et **compenser sur le même personnage** en désignant celui de ses traits qui tombe le
+plus souvent. La compensation est la moitié utile de la remarque : dire à un joueur que sa capacité ne
+servira pas sans lui dire laquelle servira est une punition.
+*Cas vécu, dans* Magnitogorsk *:* Entraîné *— réussite automatique du premier test de combat de la
+session — dans un scénario où il n'y a pas un seul combat, où toute agression tue l'agresseur, et où
+la source déclare l'expédition punitive fatale. Le même personnage porte* Athlète*, qui tombe cinq
+fois.*
+
 ### Pilotage
 
 - **La charge de pilotage** : ce qu'il faut tenir en même temps, trié en trois — ce qu'on ne peut pas

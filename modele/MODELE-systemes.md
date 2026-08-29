@@ -25,6 +25,179 @@ sont elles qui seront sur la table — et l'annoncer avant le premier tir.
 
 ---
 
+## Transposer un scénario écrit pour un autre système
+
+La règle ci-dessus interdit d'importer une convention d'un système dans un autre. Elle ne dit pas quoi
+faire quand **la source entière est dans l'autre système** — un scénario de L'Appel de Cthulhu qu'on
+veut mener en Cthulhu Hack, un module D&D qu'on veut mener en Shadowdark. C'est le même principe poussé
+à son terme : **on ne traduit pas, on reconstruit.** Le document livré ne doit garder **aucune trace**
+du système d'origine — ni un pourcentage, ni un nom de compétence, ni une valeur de dégâts. Un seul
+« Discrétion 55 % » survivant dans un livret arrête le MJ en pleine scène, exactement comme une
+« Sauvegarde » dans une partie de Chroniques Oubliées.
+
+*Section née de « L'Or de La Rochelle » (L'Appel de Cthulhu → Cthulhu Hack).*
+
+### 1. Chercher d'abord les équivalents exacts — il y en a toujours
+
+Avant de convertir quoi que ce soit, **lire les règles maison de la source**. Elles tombent souvent pile
+sur une mécanique du jeu cible et se transposent alors sans rien perdre. C'est le travail le moins cher,
+et il faut le faire en premier parce qu'il réduit ce qu'il restera à arbitrer.
+
+*Cas vécu, dans* L'Or de La Rochelle *: les « traits de personnalité » qui font lancer 2d100 et garder
+le meilleur **sont** l'Avantage, mot pour mot ; les cinq d6 posés sur la table dont on retire chaque 6
+**sont** un compte à rebours (livre de base, pp. 31-32). Deux des trois règles maison du scénario n'ont
+demandé aucun arbitrage.*
+
+### 2. La première question n'est pas « quelle Sauvegarde ? » mais « y a-t-il un jet ? »
+
+C'est l'erreur qui coûte le plus cher, et elle est invisible. Un système à compétences chiffrées écrit
+**un test par obstacle**, parce que c'est sa façon de décrire un obstacle. Converti ligne à ligne, cela
+produit une partie où l'on jette dix fois par scène dans un jeu qui en demande deux.
+
+Règle : **un obstacle de la source devient un jet seulement si la source y attache une conséquence
+d'échec.** Sinon il devient de la fiction, et le personnage réussit.
+
+*Cas vécu : l'acte 1 de* L'Or de La Rochelle *aligne quatre « défis » — convaincre le garde, tenir sa
+couverture devant le lieutenant, traverser un kilomètre à découvert, convaincre les tunneliers.
+**Aucun des quatre n'a de conséquence d'échec écrite.** Transposés en quatre Sauvegardes, ils font une
+heure de dés pour rien.*
+
+### 3. Trois destinations pour une compétence chiffrée, et le test qui les sépare
+
+Une compétence en pourcentage ne devient pas mécaniquement un jet. Elle a trois destinations, et
+**la plus fréquente est la troisième** :
+
+- **une Sauvegarde** — quand c'est le corps ou la volonté du personnage qui décide, une fois, avec un
+  échec qui coûte ;
+- **un dé d'usage** — quand c'est une **ressource qui s'épuise**, c'est-à-dire quand le scénario fait
+  tester la même chose plusieurs fois de suite. Chercher, repérer, se remémorer → Torche. Convaincre,
+  baratiner, intimider dans la durée → Bagou ;
+- **rien du tout, et c'est un fait de fiche** — quand la compétence dit ce que le personnage **sait** :
+  Latin, Histoire, Bibliothèque, Médecine, Navigation, Occultisme. Le personnage sait, on ne jette pas.
+
+Le test tient en une question : **la compétence dit-elle ce que le personnage sait, ou ce qu'il
+tente ?** Sait → fait de fiche. Tente une fois → Sauvegarde. Tente plusieurs fois sur la durée → dé
+d'usage.
+
+**Le tri se double d'un second, sur les indices, et c'est lui qui décide du rythme d'une enquête** :
+un **indice essentiel** — celui sans lequel la suite est injouable — **s'obtient automatiquement**, par
+la profession du personnage ou par le simple fait qu'il soit sur place. On ne le fait jamais dépendre
+d'un jet. Un **indice périphérique** se gagne sur une action décrite par le joueur, et c'est là que
+tombent les dés d'usage : Torche pour ce qui se cherche dans le monde physique, Bagou pour ce qui
+s'obtient de quelqu'un. Un scénario en pourcentages ignore cette distinction — il met un seuil partout,
+y compris devant sa propre conclusion.
+
+Corollaire : **une règle maison qui donne la même compétence à tout le monde est un fait de fiche
+déguisé.** *La « compétence de Métier à 65 % » de* L'Or de La Rochelle *ne devient pas un jet : elle
+devient la ligne « ce que ce personnage fait sans jeter ». Le scénario y gagne.*
+
+### 4. Les profils d'adversaires ne se convertissent pas : ils se recalculent
+
+C'est le piège le plus dangereux, parce que les Points de Vie portent le même nom dans les deux jeux et
+invitent à la recopie. Ils ne mesurent pas la même chose : ce qui compte n'est pas le nombre, c'est
+**combien de Moments le combat va durer**.
+
+Méthode, dans cet ordre :
+
+1. **chiffrer le débit du groupe réel** — la somme des dégâts que les PJ infligent par Moment, armure
+   déduite. Le faire sur les fiches, jamais de mémoire ;
+2. **décider combien de Moments le combat doit durer** — c'est une décision de pilotage, pas un calcul ;
+3. **fixer les PV à partir des deux.** Le nombre de la source n'entre jamais dans l'opération.
+
+Une heuristique donne le point de départ, jamais le résultat : **un profil au-delà de 20 PV se divise
+par deux**, et l'on vérifie ensuite par les trois étapes ci-dessus. Les humains de Cthulhu Hack tiennent
+**10 à 20 PV**, ce qui est aussi le plafond d'un adversaire ordinaire.
+
+Repères attestés dans ce dépôt : un PJ de Cthulhu Hack tient **10 à 13 PV** ; un groupe mal armé inflige
+**environ 2 PV par Moment** (*Grand froid*, cinq détectives dont un à mains nues — c'est un plancher,
+pas une moyenne) ; un adversaire de fin de scénario est à **26 PV et 3 d'armure** (la Couleur) ou
+**60 PV en deux phases** (le Wendigo).
+
+*Cas vécu : les Abîmes de Khéopsie sont données à 30 Points de Vie. Recopiées, elles deviennent chacune
+l'équivalent d'un adversaire de fin de scénario — alors que la source les fait apparaître **en groupe**
+et à répétition. Un profil recopié transforme une créature de meute en climax. L'heuristique les met à
+15 ; c'est le débit réel du groupe qui dit si ce chiffre tient.*
+
+**Les dégâts se calent sur une échelle fixe, arme par arme, et non sur les dés de la source.** Un pistolet
+inflige un dé standard ; tout le reste se range autour. Une source qui écrit `3D4` a chiffré pour une
+autre courbe de probabilités, et reporter ses dés déséquilibre l'échelle du jeu cible sans qu'on le voie.
+
+### 5. Ce qui n'a pas d'équivalent se refond ou se coupe — jamais ne se porte
+
+Une règle sans équivalent laissée telle quelle est une règle que le MJ cherchera dans son livre de base
+et n'y trouvera pas. Deux issues, et il faut **en choisir une** :
+
+- **la refondre** dans une ressource existante du jeu cible, et la signaler comme notre règle maison ;
+- **la couper**, et dire ce qui la remplace.
+
+*Cas vécu : le « Golpe de la Fortuna » — sacrifier 1d6 points de Santé mentale pour tester la compétence
+Chance. Cthulhu Hack n'a ni Chance ni points de Santé mentale. Refonte retenue : **dépenser un cran de
+Santé mentale pour qu'un coup du sort intervienne**, une fois par personnage et par partie. La mécanique
+d'origine — payer sa raison pour acheter un miracle — est intacte ; ses deux chiffres ont disparu.*
+
+### 6. La Santé mentale : convertir la gradation en fréquence, jamais en ampleur
+
+Un total de points et un dé d'usage ne sont pas des grandeurs comparables : le total disparaît, et **ce
+qui compte n'est plus la taille d'une perte mais le nombre de tests**. Une source qui gradue ses
+horreurs en `1d4 SAN` et `1d8 SAN` a écrit une gradation réelle qu'il ne faut pas perdre — mais elle se
+reporte sur la **fréquence**, pas sur l'ampleur.
+
+Correspondance retenue : une vision unique = **un test** · une horreur majeure = **un test à
+Désavantage** · une exposition continue = **un test par étape**. Jamais « plus de dégâts » : un dé
+d'usage n'en inflige pas.
+
+### 7. La table — L'Appel de Cthulhu (BRP) → Cthulhu Hack
+
+| Source (BRP) | Cthulhu Hack | Comment |
+|---|---|---|
+| Caractéristique | **Sauvegarde, bornée 8-15** | Deux éditions, deux chemins, le même chiffre. Sur l'échelle **3-18** (6ᵉ éd., celle de cette source) : **recopier** — BRP teste à `car × 5` sur d100, CH réussit `N × 5 %` en lançant 1d20 sous N, donc Force 13 = 65 % des deux côtés. En **pourcentages** (7ᵉ éd.) : **diviser par 5**. Puis plafonner |
+| Taille · Éducation | **rien** | Aucun équivalent. Éducation devient un fait de fiche |
+| Apparence | fondue dans **Charisme** | |
+| Pouvoir | fondu dans **Sagesse** | |
+| Compétence en % | Sauvegarde · dé d'usage · **fait de fiche** | Le test du §3. Ne jamais convertir le pourcentage lui-même |
+| Compétence de métier | **fait de fiche** | |
+| Points de Vie | **recalculés** | §4. Ne jamais recopier le nombre |
+| Dégâts `3D4`, `1D6` | **échelle fixe du jeu cible** | Recalibrés arme par arme sur le débit du groupe, jamais transposés |
+| Attaque à `55 %` | **malus au toucher** | Le pourcentage disparaît |
+| SAN en points · `1d4` / `1d8` | dé de **Santé mentale** | §6 : la gradation devient une fréquence |
+| Compétence Chance | **rien** | Refondre ou couper — §5 |
+| Bonus et malus en % | **Avantage / Désavantage** | Le seul modificateur du jeu cible |
+
+**Plafonner, toujours — la conversion donne l'ordre de grandeur, pas l'échelle.** Les Sauvegardes de
+Cthulhu Hack tiennent entre **8 et 15** : 11-12 pour un personnage moyen, 14-15 pour un point fort. Une
+conversion fidèle sort régulièrement au-dessus, et il faut l'y ramener — une Sauvegarde à 18 réussit
+neuf fois sur dix, ce qui retire au jeu son seul levier de tension.
+*Cas vécu : les prétirés de* L'Or de La Rochelle *portent Force 18 et Éducation 20 — la seconde hors même
+de l'échelle 3-18 que la source utilise partout ailleurs. Éducation et Taille n'ayant pas de Sauvegarde,
+seule la Force pose question : elle descend à 15.*
+
+**Et n'autoriser qu'un seul plafond par personnage.** Tronquer à 15 aplatit le haut de la fiche : une
+source qui donne 18, 16 et 15 produit trois Sauvegardes identiques, et le personnage devient infaillible
+dans tout un registre. Règle : **la plus haute caractéristique passe à 15, toutes les autres sont
+plafonnées à 14**, leur ordre d'origine étant conservé. Chaque personnage garde ainsi exactement une
+Sauvegarde qui le définit. *Cas vécu : Montfaucon — Force 18, Constitution 16, Dextérité 15 — sortait à
+15/15/15 ; il sort à 15/14/14, reste le corps du groupe et cesse d'être imbattable.*
+
+**Un écart extrême ne se convertit pas en petit dé, mais en Désavantage.** Une compétence sociale à 20 %
+donnerait un Bagou d4, c'est-à-dire une ressource épuisée en deux jets — le personnage perd son dé au
+lieu d'être mauvais avec. Plancher à **d6**, et porter la faiblesse en **Désavantage permanent** sur ce
+dé. *Cas vécu : Montfaucon, Négocier 20 %, garde un Bagou d6 qu'il lance à Désavantage.*
+
+### 8. Ordre de travail, et le contrôle qui termine
+
+1. relever les **règles maison** de la source et leurs équivalents exacts (§1) ;
+2. lister **tous les jets** que la source demande, et couper ceux qui n'ont pas de conséquence
+   d'échec (§2) ;
+3. trier les **compétences** en trois tas (§3) ;
+4. chiffrer le **débit du groupe**, puis les profils (§4) ;
+5. traiter les **orphelines** — refonte ou coupe, jamais report (§5) ;
+6. reporter la **gradation d'horreur** en fréquence (§6) ;
+7. **relire le document en cherchant `%`, les noms de compétences de la source et ses dés d'origine.**
+   Il ne doit rien en rester. C'est le seul contrôle mécanique de cette section, et il attrape ce que
+   la relecture laisse passer.
+
+---
+
 ## Cthulhu Hack
 
 - **Résolution** : « Sauvegarde de <caractéristique> » — Force, Dextérité, Constitution, Sagesse,
@@ -49,6 +222,19 @@ sont elles qui seront sur la table — et l'annoncer avant le premier tir.
   des cases « perdu » et des cases « regagné » — c'est le seul endroit où le MJ fera le solde.
 - **Malus au toucher noté « 0 » et « −0 »** selon les profils d'un même scénario : c'est la même chose,
   aucun malus. Harmoniser dans le livret.
+- **Un dé d'usage qui s'épuise est une horloge gratuite : chercher, dans le scénario, la ressource
+  qu'il mesure déjà.** Torche, Bagou et Santé mentale descendent d10 → d8 → d6 → d4 → épuisé, un cran
+  sur 1 ou 2 ; c'est un compte à rebours par personnage, déjà chiffré, que les sources ne relient
+  jamais à ce qu'elles décrivent en prose. Vérifier d'abord si le scénario impose une contrainte
+  continue — la lumière, la crédibilité d'une couverture, la raison — puis la faire porter par le dé
+  correspondant, en annonçant **un test par étape**. Ne rien inventer : le dé existe, il suffit de
+  nommer ce qu'il compte.
+  *Cas vécu, dans* Magnitogorsk *: un acte entier joué sous terre, « il leur faudra à minima des
+  sources de lumière » d'un côté et « leurs sources de lumière les lâchent les unes après les autres »
+  cinquante pages plus loin, aucun décompte entre les deux, et aucun prétiré équipé d'une lanterne. La
+  **Torche** porte la lampe, seize étapes du campement au Nexus, et l'espérance de l'échelle place le
+  d6 dans le noir au milieu du parcours, les d8 aux deux tiers, les d10 juste avant la fin — mot pour
+  mot ce que la source décrivait sans l'avoir chiffré.*
 
 ## Chroniques Oubliées Fantasy
 

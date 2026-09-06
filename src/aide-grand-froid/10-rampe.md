@@ -12,63 +12,24 @@ prise. Quatre ont déjà été prises — la dernière il y a deux heures, dans 
 :::
 
 ::: {.say}
-- L'histoire se passe à **Chicago**.
-- **Lundi 28 janvier 2019.** Dix heures du matin.
-- **Moins trente.**
-:::
-
-### Tout en haut — la vague
-
-::: {.say}
+- **Chicago.**
+- **Lundi 28 janvier 2019.**
+- Très froid, bien en dessous des **−30°**.
 - Une vague de froid descendue des terres canadiennes, sur tout le nord du continent.
-- Plusieurs villes plus froides que les pôles. Chicago dessous depuis quatre jours.
-:::
-
-### La ville, vue de haut
-
-::: {.say}
-- Trains annulés. Des rails qu'on brûle pour éviter la rupture.
-- Service postal arrêté. Consigne de rester chez soi.
-- Chasse-neige immobilisés : le froid enraye la mécanique.
-- Plus de rues dégagées.
-:::
-
-### Entre les gratte-ciel
-
-::: {.say}
-- La rivière charrie des plaques de glace, qui se cognent et tournent sur elles-mêmes.
-- Au bout, le lac Michigan, gelé jusqu'à l'horizon.
-- Voitures en travers, accidents mortels.
-- Et des morts de froid, malgré les centres de réchauffement ouverts.
-:::
-
-### Au ras du sol
-
-::: {.say}
-- Dans un hall d'immeuble, un poste de télévision. Un présentateur lit un tweet du président :
-- [« Que se passe-t-il donc avec le réchauffement climatique ? S'il te plaît, reviens vite, nous
-  avons besoin de toi ! »]{.q}
-- Personne ne rit. Les rues presque vides.
-- Presque. Sur Wacker Drive, une berline au pas, phares allumés en plein jour.
-:::
-
-
-:::
-
-::: {.unit}
-
-::: {.head}
-[À dire]{.use}
-
-## Dans la voiture
+- Plus froid encore à Chicago qu'ailleurs.
+- La ville paralysée.
+- Trains annulés, service postal arrêté.
+- Même le lac Michigan qui commence à geler. Des bateaux bloqués dans la glace. Rarement vu ça.
+- Police et pompiers en alerte jour et nuit.
+- Centres d'accueil pour sans-abri surpeuplés.
+- Consigne de rester chez soi. Rues quasiment désertes.
+- Sur **Wacker Drive**, en plein centre, une grosse berline noire au pas.
+- Dedans, l'agence **Alter Investigation** : vous.
 :::
 
 ::: {.say}
-- **Onze heures et quart.** La berline remonte Wacker Drive vers la tour Harold.
-- Chaufferette à fond, et insuffisante.
-- Le pare-brise regivré par l'intérieur, en bas, en dentelle.
-- Personne n'a quitté son manteau. La buée de cinq respirations.
-- Steven au volant, trente à l'heure, les deux mains dessus.
+- **Alter Investigation**, détectives privés.
+- Steven et Rosemary aux commandes ; les trois autres, prestataires.
 :::
 
 ::: {.obj lab="Chacun se présente après toi"}
@@ -99,15 +60,11 @@ s'arrête pas pour eux.**
 - [« Dans la vie il y a les chasseurs et les proies. Moi je suis un chasseur. »]{.q}
 :::
 
-### Ce qu'ils savent, et c'est tout ce qu'ils savent
-
 ::: {.say}
-- Un appel à l'agence il y a une heure. Une voix d'assistante, aucun nom.
-- Le client : **M. Harold**, président de la Harold Company.
-- Finance, gestion de fortunes, trentième étage.
-- Deux conditions : **tout de suite**, et **discrètement**.
-- Un montant qui a fait accepter Steven avant la fin de la phrase.
-- Ni pourquoi, ni qui est mort. Seulement : [« ce n'est pas au téléphone. »]{.q}
+- Un appel à l'agence il y a une heure. La **Harold Company**.
+- Un rendez-vous urgent, avec **M. Harold** en personne.
+- Sa secrétaire n'a pas voulu en dire plus.
+- La Harold Company, vous connaissez : grosse maison de finance. Ça ne se refuse pas.
 :::
 
 ::: {.mj lab="Pourquoi l'appel est arrivé ce matin, et pas hier"}
@@ -131,10 +88,8 @@ codirigent Alter Investigation, les trois autres ne sont pas salariés. Le dire 
 ### Le trottoir
 
 ::: {.say}
-- **Onze heures et demie.** Une tour de verre sans sommet visible.
-- Le brouillard de froid à partir du vingtième étage.
-- Un portier qui ouvre de l'extérieur et referme aussitôt. Muet.
-- Le choc de chaleur sur les joues.
+- **Onze heures et demie.**
+- Au pied d'une tour de verre sans sommet visible.
 - Les lunettes de Rosemary d'un coup opaques de buée.
 :::
 
@@ -149,9 +104,9 @@ codirigent Alter Investigation, les trois autres ne sont pas salariés. Le dire 
 ### L'ascenseur
 
 ::: {.say}
-- Une cabine pour douze, cinq passagers. Trente étages, aucune parole.
-- Une musique d'ambiance, très bas. Le chiffre qui monte au-dessus de la porte.
-- Au fond, un **miroir** du sol au plafond. Cinq silhouettes en manteau, un peu ridicules.
+- L'hôtesse les accompagne dans la cabine.
+- Les murs en **miroir**.
+- Jusqu'au trentième étage.
 :::
 
 ::: {.mj lab="Le miroir — un plant, à ne surtout pas appuyer"}
@@ -163,13 +118,11 @@ d'anormal aujourd'hui.
 ### Le trentième
 
 ::: {.say}
-- Un plateau silencieux. Des bureaux à moitié vides : beaucoup ont renoncé à venir.
-- Deux radiateurs d'appoint sous une table, les câbles en travers de l'allée.
-- Des écharpes sur les dossiers des chaises.
-- Au marqueur sur une vitre : **−31**.
-- Une secrétaire, quatre minutes d'attente debout devant une porte fermée.
-- Personne ici ne semble savoir que trois personnes sont mortes depuis samedi.
-- Puis la porte, ouverte de l'intérieur.
+- Un hall. Une secrétaire à son bureau.
+- Elle les voit, décroche son téléphone :
+- [« Ils sont là. »]{.q}
+- Elle raccroche.
+- [« M. Harold va vous recevoir immédiatement. »]{.q}
 :::
 
 :::
@@ -192,17 +145,14 @@ Donner la commande, les trois noms, et la lettre qui ouvre les portes. Obtenir q
 une question : *pourquoi trois personnes de la même société en trois jours ?*
 :::
 
-### En entrant — et c'est la dernière fois qu'on voit la ville
+### En entrant
 
 ::: {.say}
 - Un bureau au design épuré, des baies vitrées sur la moitié des murs.
-- Une moquette qui avale les pas. Aucun bruit de ville jusqu'ici.
-- Chicago sous la neige, du sol à l'horizon.
-- Le lac pris par la glace, **des navires immobilisés dedans**, orientés n'importe comment.
 - M. Harold : la soixantaine, grand, sec, cheveux gris coupés court.
 - Costume à mille dollars, chaussures impeccables. Pas rasé.
-- Col ouvert, cravate desserrée : la seule chose de travers dans la pièce.
-- Les mains serrées une par une, chaque regard une seconde de trop.
+- Col ouvert, cravate desserrée.
+- Les mains serrées, l'air nerveux. *Pas son habitude.*
 :::
 
 ### À portée de main

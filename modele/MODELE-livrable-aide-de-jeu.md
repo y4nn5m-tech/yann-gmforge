@@ -188,12 +188,24 @@ le titre est le seul repère quand le MJ feuillette.
   **Trois exceptions, et elles sont nettes.** Les **répliques** entre guillemets : un PNJ parle avec
   des verbes, et elles sont faites pour être prononcées mot pour mot. Les **consignes au MJ** glissées
   dans un bloc à dire (« Comptez-les devant eux »), qui sont à l'impératif et s'adressent à lui. Et le
-  **premier vers d'une unité de rampe**, où l'on pose le lieu et l'heure — « L'histoire se passe à
-  Chicago » se dit ainsi et pas autrement.
+  **premier vers d'une unité de rampe**, où l'on pose le lieu et l'époque : « L'histoire se passe à
+  Strasbourg », « L'histoire se passe en Union soviétique ». **Permission, pas obligation** : la forme
+  nominale y va aussi bien — « Chicago. » · « Lundi 28 janvier 2019. » —, et c'est celle que Grand
+  froid a retenue au sixième passage.
 
   *Le contrôle du dépôt mesure la longueur en signes, pas le style : c'est le seul critère qu'une
   machine tranche sans se tromper, et une ligne rédigée est presque toujours longue. Il attrape la
   dérive franche ; c'est à la relecture de tenir le reste.*
+- **Une ligne décrit, elle ne conclut pas.** L'angle mort de la règle précédente *et* du contrôle :
+  une ligne peut être nominale, courte, et rester de l'écriture d'auteur. « Col ouvert, cravate
+  desserrée **: la seule chose de travers dans la pièce.** » — soixante-cinq signes, pas un verbe
+  conjugué, tous les contrôles passés. Ce qui cloche est ailleurs : la ligne **commente ce qu'elle
+  vient de décrire**. Même défaut quand elle **annonce son propre effet** — « Une moquette qui avale
+  les pas », ou un palier titré « En entrant — et c'est la dernière fois qu'on voit la ville ».
+  Une chute se lit à voix haute telle quelle, et surtout elle prend au MJ la remarque qu'il aurait
+  faite lui-même : décrire la cravate desserrée suffit, c'est à lui de voir qu'elle détonne.
+  **Aucune machine n'attrape celle-là** — ni par la longueur, ni par la syntaxe. C'est un point de
+  relecture, et les trois exemples ci-dessus tenaient sur la même page.
 - **Les répliques s'écrivent entre guillemets, prêtes à prononcer** (`.say .q`). Ne jamais décrire ce
   qu'un PNJ explique quand on peut écrire ce qu'il dit. Trois à cinq répliques valent mieux qu'un
   paragraphe de synthèse. Les scénarios en fournissent souvent d'excellentes : les recopier telles
@@ -257,16 +269,31 @@ en pied d'unité déclenche un avertissement, et les unités sans paliers en son
 ### Décrire — la descente par paliers
 
 Le socle interdit de découper une description par les sens. Dans l'aide de jeu, cela prend une forme
-précise, parce que les `h3` d'une unité **sont** les paliers de la descente :
+précise, parce que les `h3` d'une unité — **quand elle en porte** — sont les paliers de la descente :
 
-- **Trois ou quatre paliers, du plus loin au plus près**, et leur titre nomme la distance :
-  « Au loin — le ciel et les blocs » · « La rue » · « Le trottoir d'en face » · « À portée de main ».
-  Ou, dans un intérieur : « En arrivant sur l'avenue » · « La façade » · « Derrière les vitres ».
+- **Trois ou quatre paliers, du plus loin au plus près**, et leur titre nomme **le lieu ou le
+  moment**, jamais la distance : « En arrivant sur l'avenue » · « La façade » · « Derrière les
+  vitres » · « Le premier boyau » · « Ce soir, sur la route ».
+  *« Au loin », « Le plan large », « À portée de main » nomment notre procédé d'écriture et non ce que
+  le MJ va dire. À table, un titre de lieu se retrouve d'un coup d'œil ; un titre de distance oblige à
+  lire les lignes en dessous pour savoir où l'on est. Le chapitre a prescrit le contraire jusqu'au
+  sixième passage de Grand froid, alors que la pratique avait déjà tranché seule : zéro titre de
+  distance sur les quarante de L'Or de La Rochelle comme sur les vingt et un de La Citadelle perdue,
+  un sur les quatre-vingt-dix-neuf de Magnitogorsk — contre sept sur les cinquante-sept de Grand
+  froid, le plus ancien livret du dépôt.*
+- **Et parfois, pas de titre du tout.** Quand les paliers tiennent en deux ou trois lignes et que le
+  MJ ne change pas de lieu en descendant, les titres coupent plus qu'ils ne guident : la pile de
+  lignes descend toute seule. *Cas vécu : l'unité « Chicago », dont les quatre paliers — la vague, la
+  ville vue de haut, entre les gratte-ciel, au ras du sol — sont devenus une seule coulée du continent
+  à l'intérieur de la berline, treize lignes sans un titre.*
+  **À savoir avant de le faire :** une unité qui porte moins de deux `h3` sort du contrôle « encarts à
+  leur place », qui se repère sur eux. Ce qu'on gagne en fluidité, on le perd en filet — sur une unité
+  qui porte trois encarts ou plus, garder les titres.
 - **Deux ou trois lignes par palier**, chacune mêlant ce qu'on voit, entend, sent ou touche à cette
   distance-là. Une odeur qui porte loin est au palier lointain ; une odeur de ruelle est au palier
   proche.
 - **Ne pas écrire la consigne de lecture.** L'ordre des paliers est la consigne : des titres qui
-  nomment la distance, deux ou trois lignes chacun, et le MJ descend tout seul. S'il faut lui expliquer
+  nomment le lieu, deux ou trois lignes chacun, et le MJ descend tout seul. S'il faut lui expliquer
   qu'il ne doit pas remonter, c'est que les paliers sont mal découpés ou trop longs — **c'est le
   découpage qu'on corrige, jamais une phrase qu'on ajoute.**
 - Le dernier palier se termine sur **un détail à hauteur d'homme** — quelque chose qu'un PJ pourrait

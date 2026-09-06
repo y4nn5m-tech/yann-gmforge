@@ -102,7 +102,7 @@ def grouper(docs):
     # Les documents d'un scénario dans un ordre stable : la note se lit avant.
     ordre = {"annote": 0, "note": 1, "aide": 2}   # l'ordre de lecture réel
     for v in groupes.values():
-        v.sort(key=lambda d: (ordre.get(d["type"], 9), d["titre"]))
+        v.sort(key=lambda d: (ordre.get(d["type"], 9), d["soustitre"], d["titre"]))
     return sorted(groupes.items(), key=lambda kv: kv[0].lower())
 
 
@@ -127,7 +127,11 @@ def rendre(groupes):
         if jeu:
             h.append(f'<p class="jeu-src">{escape(jeu)}</p>')
         for d in docs:
-            quoi = LIBELLES.get(d["type"]) or d["soustitre"] or d["titre"]
+            # Le sous-titre nomme le document ; LIBELLES n'est qu'un repli.
+            # L'inverse confondait deux documents d'un même type sous un
+            # seul nom — « Les cinq prétirés », déclaré `aide` pour hériter
+            # du contrôle « une unité = une page », s'affichait « Aide de jeu ».
+            quoi = d["soustitre"] or LIBELLES.get(d["type"]) or d["titre"]
             h.append('<div class="doc">')
             h.append(f'<span class="quoi">{escape(quoi)}</span>')
             if d["pages"]:
@@ -162,7 +166,8 @@ def main():
     for scenario, ds in groupes:
         for d in ds:
             etat = "/".join(e for e, _ in d["sorties"]) or "—"
-            print(f"  {scenario} · {LIBELLES.get(d['type'], d['type'] or '?')} [{etat}]")
+            quoi = d["soustitre"] or LIBELLES.get(d["type"]) or d["type"] or "?"
+            print(f"  {scenario} · {quoi} [{etat}]")
     return 0
 
 

@@ -2141,3 +2141,20 @@ Défauts attrapés par les contrôles, tous réels :
   défini, pas que chaque numéro soit unique. **Auditer les `lab=` avant de livrer** ;
 - **une ligne à dire de 123 signes**, qui était en réalité une consigne au MJ rangée dans un bloc bleu.
   Elle est devenue un bloc violet.
+
+### Un quatrième livrable se heurte à la page d'accueil
+
+Repéré par Yannick sur le site déployé, après le push : **« L'Or de Maximilien » affichait deux fois
+« Aide de jeu »**. Les prétirés déclarent `type: aide` — délibérément, pour hériter du contrôle « une
+unité = une page », qui est exactement ce qu'il faut à un jeu de fiches — et `scripts/index.py`
+nommait chaque document par le libellé de son `type`, le sous-titre ne servant que de repli.
+
+Le modèle ne connaît que trois livrables ; dès qu'un quatrième document existe, `type` cesse de
+suffire à le nommer. **Retenu : c'est le sous-titre qui nomme le document, et `LIBELLES` n'est plus
+qu'un repli.** La correction ne change rien aux dix-huit documents antérieurs — le sous-titre de
+chacun est déjà, mot pour mot, le libellé de son type. Le tri à l'intérieur d'un scénario prend aussi
+le sous-titre en clé secondaire : sans lui, deux documents de même `type` et de même `title` étaient
+dans un ordre indéterminé.
+
+**Aucun contrôle ne pouvait l'attraper** — c'est une page d'accueil, pas un document. Comme l'ordre
+des fragments, ça ne se voit qu'en regardant.

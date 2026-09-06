@@ -459,6 +459,93 @@ Pièges de notation :
 
 ---
 
+## Tecumah Gulch
+
+Western historique, Mexique et sud des États-Unis, années 1860-70. **D6 System remanié** : le dé
+sauvage a disparu, les états de blessure sont remplacés par des points de vie chiffrés, et trois
+Défenses coexistent. *Chapitre né de « L'Or de Maximilien ».*
+
+- **Résolution** : on lance le **Code-Dés** de la Compétence — noté `XD+Y`, X dés à six faces plus Y
+  points fixes —, on **additionne**, et on compare au **Niveau de Difficulté**. **Égaler suffit.**
+  Sans compétence, on lance l'Attribut dont elle dépend.
+- **L'échelle de ND**, à écrire chiffrée avec le mot du jeu : 1-5 très facile · 6-10 facile ·
+  **11-15 moyen** · 16-20 difficile · 21-25 très difficile · 26-30 héroïque · 31+ légendaire.
+- **`3 pips = 1D`**, et une valeur de `+3` n'existe jamais sur une fiche : elle se convertit en dé
+  supplémentaire. Le signaler — c'est la faute d'écriture la plus fréquente quand on fabrique un profil.
+- **Actions multiples** : −1D par action supplémentaire du round, **sur toutes les actions**.
+- **Format d'un profil**, dans cet ordre exact, et il est long : six Attributs (Agilité, Coordination,
+  Vigueur, Savoir, Perception, Charisme) · compétences principales · **Initiative, Résistance fixe,
+  Points de Vie, Défense naturelle, Défense active, Défense totale, Mouvement, Points de Destin, Points
+  de Personnage, Dégâts naturels, Niveau de Ressources** · Matériel.
+- **Unité de temps** : le **round de 5 secondes**. **Initiative fixe, non tirée** — on compare des
+  nombres, l'ordre ne change pas d'un round à l'autre. Conséquence d'écriture : un personnage à haute
+  Initiative agit **toujours** avant les autres, et cela se dit une fois pour toutes au joueur plutôt
+  que de se rejouer à chaque tour.
+
+### Les formules, et pourquoi il faut les appliquer soi-même
+
+**Ce système publie ses formules de valeurs dérivées.** Tout profil est donc **recalculable**, et
+c'est le contrôle le plus rentable du chapitre — dix minutes qui trouvent ce qu'aucune relecture ne
+voit.
+
+- **Résistance fixe** = Vigueur ×3 + pips · **Points de Vie** = Vigueur ×3 + pips **+ 3**
+- **Défense active** = Esquive ×3 + pips (ou Agilité si le profil n'a pas d'Esquive)
+- **Défense naturelle** = **10**, plus 1 si Esquive ou Athlétisme est entre 4D+1 et 6D, plus 2 à partir
+  de 6D+1, plus 3 à partir de 8D+1 — **et moins 1 en dessous de 2D**. Ce bonus n'entre pas dans la
+  Défense active.
+- **Défense totale** = naturelle + active · **Initiative** = Perception ×3 + pips, ou **Réflexes
+  éclairs** ×3 + pips si le profil a cette compétence.
+- **Dégâts naturels : +2D pour un humain**, et il n'y a **aucune formule** — c'est la valeur des poings
+  nus. Ne pas en déduire une à partir des exemples.
+
+**Barèmes de PNJ**, à connaître pour fabriquer un profil manquant : figurant 12D d'attributs, 4D de
+compétences, **1 seul point de vie** · secondaire 15D et 5D, **la moitié des points de vie**, 0 Point
+de Destin · alter ego 18D et 7 à 12D, 1 PD et 5 PP · légende 18D et 15 à 18D, 3 à 5 PD, 20 PV.
+**Création d'un PJ : 18D d'attributs entre 1D et 4D, 7D de compétences — 10D en mode spaghetti — et
++2D au maximum par compétence.**
+
+Sous-systèmes qu'un scénario suppose connus :
+
+- **Les trois Défenses.** La naturelle est passive, l'active suppose qu'on se défend, la totale les
+  additionne. Un scénario ne dit jamais laquelle s'oppose à quoi : **trancher une fois pour la partie**
+  et l'écrire.
+- **Les Mains de Poker aux dégâts.** On regarde les dés du jet **d'attaque** : une paire = **+1D aux
+  dégâts**, un brelan = +1D et un membre visé (−1D à l'adversaire), un carré = tête ou cœur (+2D) ou une
+  attaque gratuite. Les combinaisons se cumulent. **Conséquence à chiffrer avant de mener :** sur
+  quatre ou cinq dés, une paire sort dans sept cas sur dix — **les dégâts réels d'une arme sont donc
+  ceux de sa ligne, plus 1D**, presque toujours.
+- **Le calcul des dégâts** : jet de dégâts **moins la Résistance fixe** = points de vie perdus. À 50 %
+  des PV perdus, **−1D sur tous les jets** ; à zéro, inconscient et **un test de Vigueur par minute
+  dont le ND égale le nombre de minutes écoulées** ; à moins deux fois les PV, mort.
+- **Points de Destin et Points de Personnage** sont deux monnaies distinctes. **Un Point de Destin fait
+  lancer le double de dés** : c'est un levier de pilotage majeur, et un PNJ qui en a trois peut le faire
+  trois fois. **Les compter et décider d'avance quand ils se dépensent** — un scénario les distribue
+  sans jamais dire quoi en faire.
+- **Le Niveau de Ressources** remplace l'argent compté. Il **ne descend jamais sous 1D**.
+- **Les modificateurs communautaires** : un colon subit **−10 aux jets sociaux face à un Mexicain**, un
+  Indien −10 face aux WASP, un métis −5 presque partout. **C'est la règle qui peut rendre un scénario
+  injouable** — un scénario entier situé au Mexique avec des personnages américains devient une suite
+  d'échecs. La signaler, et décider : l'appliquer telle quelle, l'adoucir, ou **donner au groupe un
+  personnage du pays qui l'annule**. La troisième solution est la meilleure : elle transforme une
+  soustraction en rôle.
+
+Pièges de notation :
+
+- **Pistolet est une compétence de Perception, Fusil une compétence de Coordination.** Contre-intuitif,
+  et cela contraint fortement la fabrication d'un profil : un tireur au revolver a besoin de Perception.
+- **« Carabine » ne veut rien dire tant qu'on n'a pas dit laquelle.** Les Springfield 1863 et Harpers
+  Ferry 1855 tirent **un coup** et se rechargent ; la Winchester en tire quinze. Un scénario qui écrit
+  « carabine » sans préciser laisse un écart de rythme énorme — et c'est souvent ce qui décide qu'une
+  scène d'évasion est jouable ou non.
+- **La carabine tue, le pistolet blesse.** 5D contre 3D, Main de Poker comprise : environ **11 points
+  de vie** contre 4, sur des personnages qui en ont 10 à 13. **Une seule balle de carabine au but couche
+  un personnage.** Le dire à la table avant la première fusillade : c'est le ton du genre, pas une
+  menace.
+- **Les fiches d'un scénario sont plus souvent fausses que celles du livre de base**, et le copier-coller
+  se démontre : une compétence qui dépasse +2D au-dessus de son attribut est impossible à la création.
+  *Cas vécu : le sergent Orqui de « L'Or de Maximilien » porte les six compétences d'un autre PNJ, et sa
+  Résistance fixe le rendait moins solide qu'un simple garde.*
+
 ## Comment créer un nouveau chapitre
 
 Pour un système non encore couvert, répondre à cinq questions et rien de plus :

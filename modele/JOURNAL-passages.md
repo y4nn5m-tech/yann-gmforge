@@ -2005,3 +2005,139 @@ Trois défauts attrapés par les contrôles, tous réels :
 
 Non corrigé, et assumé : **médiane des lignes à dire à 64 signes** pour un repère à 60. Le repère est un
 avertissement de facture, et le découpage scripté de Magnitogorsk n'aurait rien gagné ici.
+
+## L'Or de Maximilien
+
+*Tecumah Gulch (D6 System), nord du Mexique 1870. Source de 12 pages photographiées, sans couche
+texte, 32 200 signes. Scénario annoté (19 p.), cinq prétirés (7 p., 7 unités), aide de jeu (17 p.,
+16 unités). **Premier passage commandé pour une table de convention.***
+
+### Une source qu'aucun outil ne savait lire
+
+Le PDF est un livre photographié : `pdftotext` rend **zéro caractère** sur les douze pages, et
+`scripts/extraire.py` ne peut produire ni texte ni manifeste utile — il signale seulement que les
+douze pages sont à regarder en image. Aucun des dix passages précédents n'avait rencontré ça.
+
+Ce qui a marché, et qui mérite d'être connu : **`pdfimages -j -p` extrait les JPEG natifs**, ici à
+240 dpi, et un livre photographié à cette résolution se lit sans ambiguïté, fiches de PNJ en petit
+corps comprises. Le rendu à 110 dpi de `extraire.py --rendre` était, lui, à la limite du lisible.
+
+**La transcription n'était pas une option.** Toute la méthode repose sur des croisements que l'auteur
+n'a pas faits, et sans `grep` ils dépendent de ce qu'on se rappelle avoir lu vingt pages plus tôt. Les
+douze pages ont donc été transcrites à la main dans `sources/or-de-maximilien/texte.txt` avant
+l'analyse — et c'est ce fichier qui a produit les trois meilleures trouvailles du passage, toutes par
+`grep`.
+
+### Le titre promet un objet qui n'existe pas — deuxième occurrence consécutive
+
+Après *L'Or de La Rochelle*, un second scénario dont le titre nomme un or que le texte ne livre pas.
+Mais le cas n'est pas le même, et la différence vaut d'être notée : à La Rochelle, **l'auteur avait
+oublié son objet** ; ici, **il l'a écrit comme un mensonge et n'a pas tranché**.
+
+`grep -n "\bor\b\|trésor\|magot\|butin"` rend quatorze occurrences, dont le faisceau est net : « le
+"trésor" » entre guillemets, les hommes qui *« ne parlent jamais de l'or entre eux »*, l'épilogue où
+les personnages *« peuvent toujours croire en l'existence du trésor »* et où les deux officiers
+*« avoueront leur manipulation »*. Et la seule affirmation qu'il existe est immédiatement suivie de sa
+source : *« Lucas le confirme et Delval le soutient »* — les deux manipulateurs.
+
+Retenu : **il n'y a pas d'or**. Mais le vrai apport est ailleurs, et c'est un croisement gratuit : la
+source écrit dix pages plus tôt que le gouverneur *« a détourné la majorité du budget des
+administrations »*. Cet argent-là est réel, il est dans le bureau où tout le monde converge, et il
+suffisait de le nommer. **La table repart avec un butin, la révélation de la manipulation tombe quand
+même, et le titre garde son ironie.**
+
+Règle qui s'en dégage, et qui n'était nulle part : quand une source retire tout à la fin, **chercher
+d'abord ce qu'elle a déjà écrit ailleurs et qu'elle n'a pas vu**, avant d'inventer une compensation.
+
+### Deux fiches de PNJ sur quatre étaient fausses, et le contrôle est arithmétique
+
+Le chapitre `MODELE-systemes.md` demande de vérifier la cohérence entre fiches de prétirés et profils
+de PNJ. Ce passage a montré qu'il faut aller plus loin quand **le système publie ses formules** :
+Tecumah Gulch donne Résistance fixe = Vigueur ×3 + pips, PV = idem +3, Défense active = Esquive ×3 +
+pips, Défense naturelle = 10 modifiée par paliers d'Esquive. Toutes les fiches sont donc
+**recalculables**, et l'écart se mesure.
+
+Résultat, sur les quatre fiches du scénario : Delval, Pablo Arnigel et le *Soldat mexicain typique* du
+livre de base sont justes ; les deux fiches propres au scénario sont fausses.
+
+- **Le Garde** porte les valeurs secondaires du soldat régulier, copiées telles quelles, alors que ses
+  attributs sont bien plus bas : **Défense active 4 et non 13**, Résistance fixe 7 et non 10, 10 PV et
+  non 13. Le geôlier est trois fois plus facile à toucher que sa fiche ne l'annonce.
+- **Le sergent Orqui** porte les **six compétences de Christobald**, mot pour mot — et c'est
+  démontrable, pas seulement suspect : avec Agilité 1D+2, son Esquive 4D suppose +2D+1 d'achat quand la
+  création plafonne à +2D. Ses valeurs secondaires sont fausses dans l'autre sens : Résistance fixe 14
+  et non 8, ce qui le rendait moins résistant qu'un simple garde.
+
+**Leçon transposable :** dès qu'un système publie ses formules de valeurs dérivées, les recalculer
+toutes est un contrôle mécanique de dix minutes, et il trouve ce qu'aucune relecture ne voit.
+
+*Erreur commise en chemin, et corrigée :* les Dégâts naturels ont d'abord été signalés comme faux sur
+trois fiches, à partir d'une formule déduite des exemples. La page de création n'en donne aucune, et
+la page des dégâts fixe **+2D comme valeur humaine par défaut**. Une formule déduite n'est pas une
+formule.
+
+### Le scénario de convention — un cadre neuf pour le modèle
+
+Yannick a demandé d'en faire son scénario de festival, ce qui a changé trois choses que le modèle ne
+prévoyait pas.
+
+- **Un créneau ferme (4 h) devient une contrainte de découpage**, écrite dans l'annoté sous forme de
+  budget par acte. Le pic de charge — la fiesta — a reçu 1 h 30 sur 4, et tout le reste a été compressé
+  autour.
+- **L'acte I subi devait être tranché, pas documenté.** La source ouvre sur une bagarre imposée, une
+  arrestation et *« plusieurs jours »* de cellule dont elle écrit *« aucune occasion de fuite ne se
+  présente »* : une heure où les joueurs ne décident rien, soit le quart d'une table de convention.
+  Retenu : **trois nuits, chacune une scène courte avec une prise réelle.**
+- **Le scénario n'a pas de fin**, seulement quatre questions ouvertes de premier volume de campagne.
+  Une table de convention ne se lève pas sur une question : un tour de table d'une phrase par joueur, et
+  une image de clôture.
+
+### Cinq prétirés à créer — et le croisement se fait alors par construction
+
+Aucun prétiré dans la source, et le jeu n'en fournit que des archétypes. Le socle demande de croiser
+chaque trait avec les scènes ; quand on écrit les fiches soi-même, **le croisement précède la fiche au
+lieu de la suivre**, et le trou se voit avant d'exister.
+
+Il s'est vu : quatre des cinq personnages brillaient à l'acte IV, et l'éclaireur métis non — il ne peut
+pas entrer dans une réception d'hacendados. Traité par une contrepartie qui lui est propre (l'extérieur,
+les cochers, trois informations que lui seul rapporte) plutôt qu'en tordant la fiction.
+
+Deux décisions de conception qui ont bien tenu : **un personnage mexicain dans le groupe**, qui annule
+le malus communautaire du jeu et donne au joueur une fonction structurelle ; et **des secrets croisés
+plutôt que juxtaposés** — celui qui a tué l'employé de la banque, celui qui laisse croire que c'est
+lui, celle qui connaît la maîtresse du gouverneur.
+
+### Le contrôle des lignes à dire a attrapé une dérive réelle
+
+Médiane à **75 signes** au premier jet, contre 64 pour *L'Or de La Rochelle* et un repère à 60. La
+cause n'était pas le style ligne à ligne mais **deux idées par ligne** : « Les Français sont repartis.
+La République de Juárez gagne, lentement, mal. » Scinder ces lignes a ramené la médiane à **61** sans
+retirer un mot, et a rendu le document plus conforme à « une ligne = une idée ».
+
+**Mais la scission automatique a eu tort sur un type de bloc**, et il faut le savoir : les listes de
+personnes, une puce par PNJ. « **Pablo Arnigel** — le seul Mexicain. » / « Sauvé des gravats par
+Delval. » — la seconde ligne n'a plus de sujet quand on la pioche. Une puce nominative ne se coupe pas.
+
+### Un piège de fabrication : la numérotation des fragments à deux chiffres
+
+Seize unités, donc des fragments numérotés au-delà de 99 — et **`100-delval.md` passe avant
+`20-cantina.md` en ordre alphabétique**. Le livret est sorti avec l'acte IV en troisième position, et
+rien dans les contrôles ne le signale : le PDF est valide, seul l'ordre est faux.
+Repéré à la relecture visuelle d'une page au hasard. **Au-delà de dix fragments, numéroter sur trois
+chiffres.**
+
+### Ce que la production a coûté
+
+Annoté 19 p. (plafond 24), prétirés 7 p. pour 7 unités, livret 17 p. pour 16 unités — **aucune unité
+n'a débordé**. Les trois PDF sont reproductibles au bit près.
+
+Défauts attrapés par les contrôles, tous réels :
+
+- **trois pages à 12-15 %** dans l'annoté : le dernier bloc de trois sections tombait seul après un
+  saut de page. Le calcul du taux montre qu'il suffit de **deux lignes** pour repasser le seuil de
+  20 % — les blocs ont été étoffés plutôt que coupés, et ce qui a été ajouté était utile ;
+- **une collision d'identifiants d'arbitrage** : `A12` défini deux fois et `A9` employé pour deux
+  sujets. Le contrôle du dépôt ne l'attrape pas — il vérifie que les renvois pointent sur un arbitrage
+  défini, pas que chaque numéro soit unique. **Auditer les `lab=` avant de livrer** ;
+- **une ligne à dire de 123 signes**, qui était en réalité une consigne au MJ rangée dans un bloc bleu.
+  Elle est devenue un bloc violet.

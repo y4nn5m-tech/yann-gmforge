@@ -58,7 +58,7 @@ def meta(fs):
 
 
 def type_doc(m):
-    """`note` · `aide` · `annote` — déclaré, jamais deviné.
+    """`note` · `aide` · `annote` · `feuille` — déclaré, jamais deviné.
 
     Il l'a été un temps : le contrôle de volume reniflait le mot « note » dans
     le pied de page, si bien qu'un pied libellé autrement désactivait l'alarme
@@ -72,6 +72,8 @@ def type_doc(m):
         return "note"
     if t.startswith("aide"):
         return "aide"
+    if t.startswith("feuille"):
+        return "feuille"
     return "note" if "note" in m.get("pied", "").lower() else "aide"
 
 
@@ -79,15 +81,34 @@ def est_note(m):
     return type_doc(m) == "note"
 
 
+def est_feuille(m):
+    """La feuille de conduite : des tableaux, et rien à dire.
+
+    Quatrième livrable, et le seul qui ne porte aucune matière narrative — pas
+    une ligne à dire, pas un palier. Ce qu'on y cherche du doigt, c'est une
+    adresse, un jet, un nom : d'où les tableaux à colonnes fixes, et d'où
+    l'absence de la plupart des contrôles. Ils mesurent tous, d'une façon ou
+    d'une autre, un texte que celui-ci n'a pas.
+    """
+    return type_doc(m) == "feuille"
+
+
 def coule(m):
     """Les documents dont les sections coulent, par opposition au livret.
 
-    La note et le scénario annoté partagent le même régime de mise en page —
-    `h2.sec` et `.card` — donc les mêmes contrôles de remplissage et de renvois.
-    Ce qui les sépare est le volume : la note complète la source en huit à douze
-    pages, l'annoté la **remplace** et pèse forcément davantage.
+    La note, le scénario annoté et la feuille de conduite partagent le même
+    régime de mise en page — `h2.sec` et `.card` — et c'est tout ce que cette
+    fonction dit. Ce qui les sépare est le volume : la note complète la source
+    en huit à douze pages, l'annoté la **remplace** et pèse forcément
+    davantage, la feuille tient sur trois ou quatre pages de tableaux.
+
+    **Ne pas s'en servir pour dispatcher un contrôle sans vérifier qu'il vaut
+    pour les trois** : le régime de page et le régime de contrôle se
+    ressemblaient tant qu'il n'y avait que la note et l'annoté, et la feuille
+    les a séparés — elle coule, mais ses renvois d'arbitrage pointent vers
+    l'annoté, comme ceux du livret.
     """
-    return type_doc(m) in ("note", "annote")
+    return type_doc(m) in ("note", "annote", "feuille")
 
 
 def unites(corps_html):
@@ -467,6 +488,12 @@ def controles(rendu, corps_html, m):
     if type_doc(m) == "annote" and len(pages) > 24:
         échecs.append(f"le scénario annoté fait {len(pages)} pages : au-delà de 24, il ne remplace "
                       "plus la source, il la double")
+    # Grand froid, le premier du genre, tient en 4 pages de tableaux. Le plafond
+    # laisse une page et demie de marge : au-delà, ce n'est plus une feuille
+    # qu'on parcourt du doigt, c'est une note qui a repris du texte.
+    if est_feuille(m) and len(pages) > 6:
+        échecs.append(f"la feuille de conduite fait {len(pages)} pages : au-delà de 6, elle "
+                      "n'est plus consultable d'un coup d'œil")
 
     # 2 — pages presque vides. Seulement pour la note : dans le livret, une
     #     unité qui remplit la moitié de sa page est normale et souvent
@@ -479,7 +506,10 @@ def controles(rendu, corps_html, m):
                 continue
             taux = (b - 12) / (284 - 12) * 100
             if taux < 20:
-                échecs.append(f"p.{i} ne porte qu'une ou deux lignes ({taux:.0f} %)")
+                # une feuille de tableaux finit ses pages où le tableau finit :
+                # signalé, jamais bloquant
+                (avertis if est_feuille(m) else échecs).append(
+                    f"p.{i} ne porte qu'une ou deux lignes ({taux:.0f} %)")
             elif taux < 62 and i not in (1, len(pages)):
                 avertis.append(f"p.{i} remplie à {taux:.0f} % — fin de section ?")
 
@@ -490,6 +520,7 @@ def controles(rendu, corps_html, m):
     # 3 — renvois d'arbitrage dans le vide. Le livret, lui, renvoie à la note
     #     par un tiret (« on retient Y — A4 ») : ces numéros-là sont définis
     #     dans l'autre document, et les vérifier ici n'aurait aucun sens.
+    #     Même chose pour la feuille de conduite, qui renvoie à l'annoté.
     définis = set(re.findall(r'class="lab">([ABC]\d)\s*—', corps_html))
     définis |= set(re.findall(r"<strong>([ABC]\d)</strong>", corps_html))
     # les arbitrages de table sont groupés dans un seul bloc, chacun ouvert par
@@ -497,7 +528,7 @@ def controles(rendu, corps_html, m):
     définis |= set(re.findall(r"<strong>([ABC]\d)\s*—", corps_html))
     définis |= set(re.findall(r"\b([ABC]\d) ·", corps_html))
     cités = set(re.findall(r"\(([ABC]\d)\)", corps_html))
-    orphelins = (cités - définis) if coule(m) else set()
+    orphelins = (cités - définis) if coule(m) and not est_feuille(m) else set()
     if orphelins:
         échecs.append(f"renvois vers un arbitrage inexistant : {', '.join(sorted(orphelins))}")
 

@@ -136,3 +136,4 @@ td p, th p { margin:0; }
    socle les pose en style inline, on les nomme ici pour que le Markdown reste
    lisible. Mêmes valeurs que les `.lab` correspondants. */
 .lg-dire{color:#14507c} .lg-jeu{color:#1e5c30} .lg-mj{color:#8f1e17} .lg-obj{color:#4b3283}
+.lg-warn{color:#8a6d3b}

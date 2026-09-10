@@ -5,9 +5,7 @@
 ☐ **le feu** — cinq âmes, un cœur de glace\
 ☐ **Tahlia**, au lac Michigan
 
-## La matière {.sec}
-
-### Walter Nunez — samedi 20 h 04, ascenseur
+## Walter Nunez — samedi 20 h 04, ascenseur {.sec}
 
 ::: {.mj lab="Pourquoi il est sur la liste"}
 Manager de +200 employés (Alex Campbell) · ne l'a pas soutenu face à Sherlyn Moore
@@ -26,7 +24,7 @@ Manager de +200 employés (Alex Campbell) · ne l'a pas soutenu face à Sherlyn 
     - **Le miroir de l'ascenseur**
 :::
 
-### Dorothea Brickford — dimanche, déneigeuse
+## Dorothea Brickford — dimanche, déneigeuse {.sec}
 
 ::: {.mj lab="Pourquoi elle est sur la liste"}
 Statistiques, fournissait les rapports d'Alex · s'est amourachée de Tahlia, sa petite amie
@@ -46,7 +44,7 @@ Statistiques, fournissait les rapports d'Alex · s'est amourachée de Tahlia, sa
     - Terry s'était caché sur le siège arrière quelques heures plus tôt
 :::
 
-### Sherlyn Moore — lundi 8 h, piscine
+## Sherlyn Moore — lundi 8 h, piscine {.sec}
 
 ::: {.mj lab="Pourquoi elle est sur la liste"}
 Cliente millionnaire, portefeuille géré par Alex · l'a harcelé et menacé de procès après Max
@@ -68,7 +66,7 @@ Omnium · ignorait son suicide
     - **La surface de l'eau**
 :::
 
-### Stephen Barlow — mardi, métro. Meurt en direct
+## Stephen Barlow — mardi, métro. Meurt en direct {.sec}
 
 ::: {.mj lab="Pourquoi il est sur la liste"}
 Journaliste Reuters, ancien ami d'Alex · le tuyau Max Omnium venait de lui, puis l'article aussi ·
@@ -87,7 +85,7 @@ Alex l'a dénoncé, il a perdu son travail
     - **Une vitre du métro**
 :::
 
-### Alex Campbell — le pivot. Suicide le 6 janvier
+## Alex Campbell — le pivot. Suicide le 6 janvier {.sec}
 
 ::: {.mj lab="Pourquoi tout part de lui"}
 Conseiller de Sherlyn, ami des trois autres · a investi la fortune de Sherlyn sur le tuyau de
@@ -106,7 +104,7 @@ Stephen · a surpris Tahlia avec Dorothea, début janvier
 - **Le videur du bar a vu son nom sur sa carte : Tahlia Carodios**
 :::
 
-### Tahlia Carodios — la cinquième. Mercredi, au lac
+## Tahlia Carodios — la cinquième. Mercredi, au lac {.sec}
 
 ::: {.mj lab="Pourquoi elle est sur la liste"}
 Photographe, sa petite amie · l'a trompé avec Dorothea pendant des mois · s'est sentie
@@ -122,7 +120,7 @@ responsable · **ignore tout des quatre morts, et ne répond à rien : trop occu
 - Le magazine, si on explique qu'elle est en danger, donne sa localisation
 :::
 
-### Memengwaa Campbell — 5514 S Shield Avenue
+## Memengwaa Campbell — 5514 S Shield Avenue {.sec}
 
 ::: {.mj lab="Ce qu'elle a fait, et que personne ne sait"}
 Soixante-dix ans, ojibwée, mère d'Alex, membre du Midewiwin · c'est elle qui a appelé le Wendigo,
@@ -139,7 +137,7 @@ et donné la liste
 - **« Il en manque une. »**
 :::
 
-### L'inspecteur Davis, et Angen Tulo
+## L'inspecteur Davis, et Angen Tulo {.sec}
 
 ::: {.mj lab="Qui fait taire l'affaire"}
 On demande à Davis de boucler le dossier — **la demande vient du Midewiwin** · s'ils insistent,

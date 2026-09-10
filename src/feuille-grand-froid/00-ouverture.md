@@ -11,9 +11,10 @@ lang: fr
 # Grand froid
 
 ::: small
+[**Bleu — à donner.** Les indices]{.lg-dire}\
+[**Vert — mécanique.** Chiffres, profils, jets]{.lg-jeu}\
 [**Rouge — MJ seul.** La vérité, et pourquoi chacun est sur la liste. **Ne jamais lire à voix
 haute**]{.lg-mj}\
-[**Vert — mécanique.** Chiffres, profils, jets]{.lg-jeu}\
 [**Ambre — à trancher.** Les pièges, et ce que la source ne règle pas]{.lg-warn}
 :::
 

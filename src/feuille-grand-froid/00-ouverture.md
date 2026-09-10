@@ -10,6 +10,13 @@ lang: fr
 
 # Grand froid
 
+::: small
+[**Rouge — MJ seul.** La vérité, et pourquoi chacun est sur la liste. **Ne jamais lire à voix
+haute**]{.lg-mj}\
+[**Vert — mécanique.** Chiffres, profils, jets]{.lg-jeu}\
+[**Ambre — à trancher.** Les pièges, et ce que la source ne règle pas]{.lg-warn}
+:::
+
 ## Ouverture — lundi, 11 h 30 {.sec}
 
 **Chicago. Lundi 28 janvier 2019.**\

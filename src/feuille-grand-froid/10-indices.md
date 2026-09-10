@@ -9,7 +9,9 @@
 
 ### Walter Nunez — samedi 20 h 04, ascenseur
 
+::: {.mj lab="Pourquoi il est sur la liste"}
 Manager de +200 employés (Alex Campbell) · ne l'a pas soutenu face à Sherlyn Moore
+:::
 
 - Bureau : l'ordre, la réussite affichée, l'ébène, les diplômes dorés
 - Maison : 4540 S Union Ave, apt 504 · il vivait seul, fermé à clef
@@ -24,7 +26,9 @@ Manager de +200 employés (Alex Campbell) · ne l'a pas soutenu face à Sherlyn 
 
 ### Dorothea Brickford — dimanche, déneigeuse
 
+::: {.mj lab="Pourquoi elle est sur la liste"}
 Statistiques, fournissait les rapports d'Alex · s'est amourachée de Tahlia, sa petite amie
+:::
 
 - Bureau : la tempête permanente · pas d'ordinateur, elle l'avait pris
 - Chez ses parents : 1330 W Monroe St, apt 12 · ses affaires y ont été remises
@@ -40,8 +44,10 @@ Statistiques, fournissait les rapports d'Alex · s'est amourachée de Tahlia, sa
 
 ### Sherlyn Moore — lundi 8 h, piscine
 
+::: {.mj lab="Pourquoi elle est sur la liste"}
 Cliente millionnaire, portefeuille géré par Alex · l'a harcelé et menacé de procès après Max
 Omnium · ignorait son suicide
+:::
 
 - Villa avenue Nordica : briques, jardin boisé, la neige étouffe les sons · **le bassin sous la
   neige, en approchant**
@@ -58,8 +64,10 @@ Omnium · ignorait son suicide
 
 ### Stephen Barlow — mardi, métro. Meurt en direct
 
+::: {.mj lab="Pourquoi il est sur la liste"}
 Journaliste Reuters, ancien ami d'Alex · le tuyau Max Omnium venait de lui, puis l'article aussi ·
 Alex l'a dénoncé, il a perdu son travail
+:::
 
 - Station Austin · **après mardi, le métro ne donne plus rien**
 - Indices :
@@ -73,8 +81,10 @@ Alex l'a dénoncé, il a perdu son travail
 
 ### Alex Campbell — le pivot. Suicide le 6 janvier
 
+::: {.mj lab="Pourquoi tout part de lui"}
 Conseiller de Sherlyn, ami des trois autres · a investi la fortune de Sherlyn sur le tuyau de
 Stephen · a surpris Tahlia avec Dorothea, début janvier
+:::
 
 - Son appartement : quatre trouvailles, à distiller selon ce qui manque
 - Le Tropical Bar : c'est là qu'il a rencontré Tahlia
@@ -88,8 +98,10 @@ Stephen · a surpris Tahlia avec Dorothea, début janvier
 
 ### Tahlia Carodios — la cinquième. Mercredi, au lac
 
+::: {.mj lab="Pourquoi elle est sur la liste"}
 Photographe, sa petite amie · l'a trompé avec Dorothea pendant des mois · s'est sentie
 responsable · **ignore tout des quatre morts, et ne répond à rien : trop occupée**
+:::
 
 - Magazine *Marvelous World* : elle profite du climat pour des clichés mémorables
 - Chez elle : un calendrier au mur, ses lieux de shooting · **aujourd'hui, lac Michigan**
@@ -100,8 +112,10 @@ responsable · **ignore tout des quatre morts, et ne répond à rien : trop occu
 
 ### Memengwaa Campbell — 5514 S Shield Avenue
 
+::: {.mj lab="Ce qu'elle a fait, et que personne ne sait"}
 Soixante-dix ans, ojibwée, mère d'Alex, membre du Midewiwin · c'est elle qui a appelé le Wendigo,
 et donné la liste
+:::
 
 - Une maison mal entretenue, sud de Chicago · elle ouvre après quelques minutes, offre une tisane,
   demande qu'on ne parle pas fort : **Terry dort**
@@ -113,8 +127,10 @@ et donné la liste
 
 ### L'inspecteur Davis, et Angen Tulo
 
+::: {.mj lab="Qui fait taire l'affaire"}
 On demande à Davis de boucler le dossier — **la demande vient du Midewiwin** · s'ils insistent,
 Angen Tulo **vient à eux**
+:::
 
 - Indices :
     - Le Wendigo a été appelé · il soupçonne Memengwaa, qui ne donne plus de nouvelles

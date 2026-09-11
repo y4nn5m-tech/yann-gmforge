@@ -185,10 +185,11 @@ h2 { font-family: var(--display); font-optical-sizing: auto;
 h3 { font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.11em;
      color: var(--lien); font-weight: 700; margin: 2.2rem 0 0.5rem 0; }
 
-/* --- les trois livrables ------------------------------------------------- */
+/* --- les quatre livrables ------------------------------------------------ */
 
 .livrables { display: grid; gap: 1.1rem; grid-template-columns: 1fr; margin: 0; }
-@media (min-width: 46rem) { .livrables { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 46rem) { .livrables { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 68rem) { .livrables { grid-template-columns: repeat(4, 1fr); } }
 .livrable { background: var(--surface); border: 1px solid var(--filet);
             border-top: 3px solid var(--teinte); border-radius: 3px;
             padding: 1.2rem 1.25rem 1.35rem 1.25rem;
@@ -295,11 +296,11 @@ h3.sous { font-family: var(--display); font-optical-sizing: auto;
          qu'il faut en extraire, ce qu'il faut laisser, et sous quelle forme le rendre.
          Ce n'est pas « résume-moi ce scénario » — c'est un texte de consignes écrit au
          fil de sept scénarios menés à table.</p>
-      <p>En sortie, <strong>trois documents</strong>, et chacun répond à un moment
+      <p>En sortie, <strong>quatre documents</strong>, et chacun répond à un moment
          différent de votre préparation.</p>
     </div>
 
-    <h3 class="sous">Trois documents, trois moments</h3>
+    <h3 class="sous">Quatre documents, quatre moments</h3>
     <div class="livrables">
       <article class="livrable" style="--teinte: var(--warn-b)">
         <h3>Avant la séance</h3>
@@ -321,12 +322,23 @@ h3.sous { font-family: var(--display); font-optical-sizing: auto;
            la doubler — et il ne sert alors à rien.</p>
       </article>
       <article class="livrable" style="--teinte: var(--dire-b)">
-        <h3>Pendant la partie</h3>
+        <h3>Pendant — quand on dit</h3>
         <p class="nom">L'aide de jeu</p>
         <p class="mesure">1 unité = 1 point de consultation</p>
         <p>Le livret qu'on garde ouvert devant soi : les lignes à dire, les jets à
            demander, ce que les joueurs découvrent et à quel prix.</p>
         <p>On y va pour trouver une chose, jamais pour lire.</p>
+      </article>
+      <article class="livrable" style="--teinte: var(--jeu-b)">
+        <h3>Pendant — quand on vérifie</h3>
+        <p class="nom">La feuille de conduite</p>
+        <p class="mesure">6 pages au plus</p>
+        <p>Les indices et où les prendre, les adresses, les chiffres du final, les
+           pièges. Rangée par personne, jamais par lieu : un indice tombe de plusieurs
+           endroits.</p>
+        <p>Pas une ligne à dire — elle double le livret au lieu de le remplacer.
+           Chronométré sur une partie réelle, près de six dixièmes du temps de jeu se
+           passent à recouper, pas à décrire.</p>
       </article>
     </div>
 
@@ -360,7 +372,7 @@ h3.sous { font-family: var(--display); font-optical-sizing: auto;
       <span class="lab">Garantir le fond</span>
       <p>Les vérifications mesurent la forme : la longueur, le remplissage, la taille des
          lignes, la validité des renvois. <strong>Aucun ne compare le document à la
-         source.</strong> Un document peut passer les neuf et affirmer une chose que
+         source.</strong> Un document peut passer les dix et affirmer une chose que
          le scénario ne dit nulle part. C'est arrivé ici, sur une source pourtant
          relue. La vérification reste à vous.</p>
     </div>

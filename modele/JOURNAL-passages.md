@@ -26,7 +26,8 @@ entre la plaque du musée et le dossier militaire.
 
 ## Grand froid
 **Cthulhu Hack · source 23 p. · aide de jeu 18 p. puis 13 p. puis 22 p. · note d'arbitrage 8 p. puis
-9 p. puis 10 p. · scénario annoté 11 p.**
+9 p. puis 10 p. · scénario annoté 11 p. · sixième passage : une ligne ajoutée au livret après une
+partie réellement menée.**
 
 Scénario 5 de la campagne *Wendigo*. Chicago sous −30 °C, cinq victimes en cinq jours.
 
@@ -352,6 +353,48 @@ où elle ne sert à rien, et oubliée là où elle compte.
 *Confirmation du chapitre :* l'annoté se lit dans l'ordre de la source, et c'est ce qui le rend utile.
 Ce qu'il trouve, ce sont des **rapports de distance** — ce qui est posé loin de ce qui s'en sert. Une
 note ne peut pas les voir, parce qu'elle range par nature et non par ordre.
+
+### Sixième passage — ce qu'une partie menée révèle et qu'aucune relecture n'attrape
+
+Premier retour du livret **depuis une table**, et pas depuis une relecture. Le scénario a été mené
+avec `yann-gmtraining`, l'outil d'entraînement où le maître de jeu parle et où un modèle local tient
+les cinq prétirés. Cinq demandes de joueurs sont sorties du cadre prévu. **Trois étaient déjà dans la
+source, et absentes du livret.**
+
+La plus nette : **l'ordinateur du bureau de Walter**. La source écrit « en recherchant dans son
+ordinateur *et* dans les dossiers de son bureau » ; l'unité `20-walter.md` listait les diplômes, le
+bureau en ébène, les dossiers et la pile de notes de frais — pas l'ordinateur. Un joueur a demandé à
+l'examiner, et il n'y avait rien à répondre.
+
+**Pourquoi le tri l'a laissé tomber, et c'est la leçon.** L'unité a gardé ce qui déclenche son
+objectif — faire sortir le nom d'Alex Campbell — et écarté le reste comme du décor. Mais l'ordinateur
+n'était pas du décor : la source le donne comme **le second chemin vers le même maillon**. En
+écartant ce qui semblait redondant, le livret a supprimé un filet.
+
+Correction retenue, deux lignes : l'objet dans le palier *À portée de main*, et une phrase dans le
+bloc rouge disant que les deux chemins mènent au même nom. Pagination inchangée, PDF reproductible.
+
+**Ce que ça dit du contrôle de densité.** Aucun contrôle automatique ne pouvait l'attraper : le
+livret ne débordait pas, ses encarts étaient bien placés, ses lignes à dire dans les seuils. Le
+défaut n'était pas une faute de forme mais **un objet manquant**, et la seule mesure qui le révèle
+est une table qui le réclame. À ajouter aux contrôles avant livraison, sous une forme praticable :
+**relire l'unité en face du passage de la source dont elle sort, et compter les objets nommés de part
+et d'autre.** C'est fastidieux ; c'est aussi le seul moyen.
+
+Les deux autres omissions n'ont pas été corrigées, faute d'être des manques du même ordre : **la
+société d'entretien de la piscine** — que la source fait venir le mardi avec la preuve que « l'eau a
+gelé en quelques secondes, d'après les enregistrements du système » — vit dans la note et non dans le
+livret, ce qui est défendable ; et **les affaires de Dorothea chez ses parents** étaient bien dans le
+livret, mais la table ne les a pas cherchées. Un contenu présent qu'on ne trouve pas n'est pas un
+défaut de document.
+
+**Et deux demandes n'avaient aucune réponse dans la source** : les caméras de la tour Harold et les
+sans-abris du quartier des Moore. Elles se sont arbitrées en jeu à partir de ce que la source donne
+par ailleurs — le brouilleur de Harold, qui prouve qu'il se méfie des enregistrements ; le gel qui
+coupe l'électricité au moment de la mort, donc l'enregistrement qui s'arrête net ; et le témoignage
+de « quelqu'un qui rôdait autour de la maison, de taille moyenne, impossible à identifier », dont un
+sans-abri est exactement le témoin plausible. **Rien de tout cela n'a sa place dans un livret** : ce
+sont des improvisations que la source rend possibles, pas du contenu à écrire d'avance.
 
 ### Le chantier du calage CSS, et pourquoi il a duré si longtemps
 

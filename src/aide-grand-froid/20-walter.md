@@ -30,6 +30,7 @@ deux bouts de papier.
 ::: {.say}
 - Des dossiers alignés. Des dizaines de personnes gérées, aucune vraiment supervisée.
 - Une pile de justificatifs de notes de frais, à plat, la plus récente sur le dessus.
+- **Un ordinateur**, allumé, en veille. La souris posée droite, à côté du clavier.
 :::
 
 ::: {.obj lab="Le levier — Steven"}
@@ -41,6 +42,9 @@ de frais sur la table et attendre qu'il la retourne.
 **En fouillant** *(test de Torche)* : la dernière grosse dépense est **une gerbe de fleurs**, pour
 l'enterrement d'un dénommé **Alex Campbell** — et dans les papiers, un **brouillon de courrier
 manuscrit**, raturé, adressé à Madame Campbell, sa mère → **aide F02**.\
+**L'ordinateur mène au même nom** : la source dit « en recherchant dans son ordinateur *et* dans les
+dossiers ». Les dizaines de subordonnés qu'il gérait mal y sont, et Alex avec. **Deux chemins vers le
+même maillon** — prendre celui que la table ouvre.\
 C'est l'une des deux seules entrées vers les Campbell, l'autre étant l'idée de chercher les proches
 d'Alex.\
 Et c'est ce qui fait tomber l'hypothèse de Harold : un concurrent n'envoie pas de fleurs à

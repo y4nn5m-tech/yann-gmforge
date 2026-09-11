@@ -84,9 +84,9 @@ jobs:
           diff /tmp/premier /tmp/second && echo "PDF reproductible"
 
       # Le modèle mis à disposition — les deux formes de téléchargement, plus
-      # la page qui présente la démarche. Indépendant des documents : ne lit
-      # que modele/ et web/.
-      - name: Modèle et page de démarche
+      # les pages du site et leur feuille de style commune. Indépendant des
+      # documents : ne lit que modele/ et web/.
+      - name: Modèle et pages du site
         run: python3 scripts/modele.py
 
       # La page d'accueil se reconstruit entièrement à chaque passage : ajouter

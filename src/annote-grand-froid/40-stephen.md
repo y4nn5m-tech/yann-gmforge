@@ -63,6 +63,15 @@ des griffes géantes — ou une arme imitant des griffes.**\
 Il s'arrache les cheveux sur cette affaire. **Rapidement, on lui demande de boucler le dossier.**
 :::
 
+::: {.warn lab="A8 — Quand l'ordre de boucler tombe-t-il ?"}
+Davis est un **obstacle** : c'est sa fonction qui compte, pas son identité — n'importe quel policier
+qui ferme un dossier fait l'affaire, et le rencontrer n'est pas le problème. Ce que la source ne dit
+pas, et qui décide de tout : **la date de l'ordre**. Rencontré le lundi, il n'a rien à refuser — donc
+rien contre quoi insister, donc aucun signal pour Angen Tulo.\
+**Retenu : l'ordre tombe le mardi**, quand la quatrième mort rend la série trop voyante pour rester un
+fait divers. C'est là que la source le place.
+:::
+
 ::: {.mj lab="Qui le lui a demandé"}
 *« Il s'agit d'une demande en haut lieu, venue du **Midewiwin**, dont les membres ont utilisé leur
 influence pour faire taire l'affaire. »*\
@@ -81,24 +90,32 @@ primordial, qui gèlera toutes les terres alentour.\
 feu.**
 :::
 
-::: {.warn lab="A1 — Tout passe par lui, et il n'apparaît que si les joueurs insistent"}
-Le feu, le cœur de glace, les cinq âmes, la nature même de la menace : **tout est dans sa bouche**, et
-il n'arrive que « si les détectives insistent ou convainquent Davis ». **Un seul accès à la seule
-conclusion nécessaire du scénario.** Sans lui, la table arrive au lac et frappe un vieil homme
-invulnérable.\
-**Retenu : trois filets, tous déjà payés par la source.**\
-**(a) Rosemary.** Sa fiche la dit « passionnée de films et de livres d'horreur ». Un test de Torche
-après la première mention du mot Wendigo — elle rapporte le folklore, pas le rituel.\
-**(b) Manuel sur Davis.** Il « travaille la plupart du temps avec la police » : la scène du
-commissariat lui appartient, sans jet de groupe.\
-**(c) Memengwaa elle-même.** Elle n'a aucune raison de mentir : elle a gagné, elle est fière, et son
-fils est mort.\
-Angen Tulo reste le meilleur chemin, **le plus complet et le plus émouvant**. Ce sont des filets, pas
-des raccourcis : ne les tendre qu'à la troisième impasse.
+::: {.warn lab="A1 — Quatre informations doivent arriver, et la source ne les met que dans une bouche"}
+**Ce qui est indispensable, ce sont les quatre informations ci-dessus, pas l'homme qui les porte** :
+le Wendigo a été appelé · cinq âmes · le cœur de glace · le feu. Sans elles, la table se bat sans
+savoir ce qui blesse — non pas « invulnérable » mais **hors de portée** : 2 dégâts par Moment contre
+16 reçus.\
+Angen Tulo en reste le meilleur porteur, le plus complet et le plus émouvant. **Ce n'est pas lui qui
+est obligatoire.**\
+**Retenu : trois autres bouches, toutes déjà payées par la source.** Rosemary, « passionnée de films
+et de livres d'horreur », sur un test de Torche après la première mention du mot — le folklore, pas le
+rituel · la scène du commissariat, que Manuel tient sans jet de groupe · Memengwaa, qui n'a aucune
+raison de mentir. Ne les tendre qu'à la troisième impasse.
+:::
+
+::: {.obj lab="Le jouer : il trahit les siens"}
+La source ne dit pas qu'il est du Midewiwin — seulement « un homme d'une cinquantaine d'années,
+d'origine amérindienne ». Mais il connaît le rituel et il connaît Memengwaa, et dans l'option où il est
+le commanditaire elle écrit qu'il **« utilise son influence »**, le mot exact employé pour le Midewiwin
+qui étouffe l'affaire. Le jouer comme un membre qui trahit les siens : il ne vient pas renseigner, il
+vient se décharger.
 :::
 
 ::: {.obj lab="Ce qui le rend jouable, et la source le donne à la ligne d'avant"}
 L'ordre de boucler vient **du Midewiwin**. Angen Tulo trahit donc sa propre société. Il n'est pas un
 informateur : c'est un homme qui a choisi entre les siens et une ville.\
-**Il vient à eux.** Ils n'ont pas à le trouver — et il ne faut surtout pas les laisser le chercher.
+**Il vient à eux.** Ils n'ont pas à le trouver — et il ne faut surtout pas les laisser le chercher.\
+Et ce n'est pas leur agitation qui l'amène, **c'est le fait de continuer après le classement** : ils
+remuent depuis lundi sans que personne ne bouge. Une société capable de fermer un dossier surveille
+ce dossier.
 :::

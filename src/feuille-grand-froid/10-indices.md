@@ -140,9 +140,13 @@ et donné la liste
 ## L'inspecteur Davis, et Angen Tulo {.sec}
 
 ::: {.mj lab="Qui fait taire l'affaire"}
-On demande à Davis de boucler le dossier — **la demande vient du Midewiwin** · s'ils insistent,
-Angen Tulo **vient à eux**
+On demande à Davis de boucler le dossier — **la demande vient du Midewiwin**.\
+Angen Tulo **trahit les siens** en venant. Ce qui l'amène n'est pas leur agitation, c'est **qu'ils
+continuent après le classement** — alors il **vient à eux**, le soir même.
 :::
+
+- **L'ordre de boucler tombe le mardi** (A8) · avant, Davis n'a rien à refuser
+- Le porteur importe peu : ces quatre informations doivent arriver, par n'importe qui
 
 ::: {.dire lab="Indices"}
 - Le Wendigo a été appelé · il soupçonne Memengwaa, qui ne donne plus de nouvelles
@@ -154,7 +158,8 @@ Angen Tulo **vient à eux**
 ## Les quatre pièges {.sec}
 
 - **A1** — tout le point faible passe par Angen Tulo. Trois filets, à la troisième impasse
-  seulement : Rosemary et l'horreur · Manuel et Davis · Memengwaa, qui n'a aucune raison de mentir
+  seulement : Rosemary et l'horreur · Manuel et Davis · Memengwaa, qui n'a aucune raison de mentir.
+  **C'est l'information qui compte, pas le porteur**
 - **A3** — **Terry ne se réveille pas.** Qu'on le secoue, qu'on retire les lunettes : des yeux
   rouges, rien d'autre. Puis elle met tout le monde dehors
 - **A4** — **l'arrêter ne change rien.** Le rituel est fait, il reste un nom

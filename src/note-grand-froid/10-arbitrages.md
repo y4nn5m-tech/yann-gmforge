@@ -5,23 +5,18 @@ aussi pour l'aide de jeu.
 
 ### A — Bloquants : à trancher avant, sinon ça casse à table
 
-::: {.warn lab="A1 — Le point faible n'a qu'un seul accès"}
-Le feu, le cœur de glace, les cinq âmes, la nature même de la menace : tout est dans la bouche
-d'Angen Tulo, qui n'apparaît que « si les détectives insistent ou convainquent Davis de continuer
-l'enquête ». Un seul accès à la seule conclusion nécessaire du scénario. Sans lui, la table arrive au
-lac et frappe un vieil homme invulnérable.\
-**Retenu : trois filets, tous déjà payés par la source.**\
-**(a) Rosemary.** Sa fiche la dit « passionnée de films et de livres d'horreur ». Un test de Torche
-après la première mention du mot Wendigo. Le canal est libre — sa mémoire de lectrice, une
-bibliothèque, un ami qui collectionne ça : ce qui compte est ce qu'elle rapporte, et c'est le bloc
-bleu ci-dessous. Elle n'obtient ni le nom de Memengwaa ni le rituel.\
-**(b) Manuel sur Davis.** Il « travaille la plupart du temps avec la police » : la scène du
-commissariat lui appartient, sans jet de groupe.\
-**(c) Memengwaa.** Elle n'a aucune raison de mentir : elle a gagné, elle est fière, et son fils est
-mort. Si la conversation tient (A4), elle dit ce qu'elle a appelé et ce qui le renvoie. Elle ne dira
-jamais où il est.\
-Angen Tulo reste le meilleur chemin — **le plus complet et le plus émouvant**. Ce sont des filets,
-pas des raccourcis : ne les tendre qu'à la troisième impasse.
+::: {.warn lab="A1 — Quatre informations doivent arriver, et la source ne les met que dans une bouche"}
+**Ce qui est indispensable, ce sont les informations, pas l'homme qui les porte** : le Wendigo a été
+appelé · il lui faut **cinq âmes** · son **cœur est de glace** · **le feu** le détruit. Sans elles, la
+table arrive au lac et se bat sans savoir ce qui blesse — non pas « invulnérable » mais **hors de
+portée** : le profil se tue (34 puis 18 PV), à 2 par Moment contre 16 reçus.\
+La source les met toutes les quatre dans la bouche d'Angen Tulo, qui n'apparaît que « si les
+détectives insistent ou convainquent Davis de continuer l'enquête ». Il en reste le meilleur porteur —
+le plus complet et le plus émouvant — mais **ce n'est pas lui qui est obligatoire**.\
+**Retenu : trois autres bouches, toutes déjà payées par la source.** Rosemary, dont la fiche dit
+« passionnée de films et de livres d'horreur », sur un test de Torche après la première mention du mot
+— c'est le bloc bleu ci-dessous · la scène du commissariat, que Manuel tient sans jet de groupe ·
+Memengwaa elle-même, qui n'a aucune raison de mentir. Ne les tendre qu'à la troisième impasse.
 :::
 
 ::: {.dire lab="A1 — Ce que Rosemary rapporte : la matière à dire, à piocher"}
@@ -57,6 +52,8 @@ société. Il n'est pas un informateur, c'est un homme qui a choisi entre les si
 le reste en découle.\
 **Le déclencheur :** ils insistent auprès de Davis, ou Manuel le retourne (bloc *La planche trait × scène*). Aucun jet — **il
 vient à eux.** Ils n'ont pas à le trouver, et il ne faut surtout pas les laisser le chercher.\
+**Ce n'est pas leur agitation qui l'amène, c'est de continuer *après* le classement** — ils remuent
+depuis lundi sans que personne ne bouge, et une société qui fait fermer un dossier le surveille.\
 **Où :** un centre de réchauffement du sud de la ville, le soir, parmi les lits de camp et les
 gobelets de café — l'intro en installe partout. Variante si le groupe est déjà rentré : il attend
 dans le couloir de l'agence, sans être entré.\
@@ -196,8 +193,9 @@ Harold.\
 **B7 · Dire qu'il faut un reflet, avant le départ pour le lac.** Les cinq morts l'établissent — un
 miroir d'ascenseur, un rétroviseur, la surface d'un bassin, une vitre de métro, un objectif — mais si
 personne à table ne l'a formulé, une phrase de MJ au moment de partir : « vous remarquez que chacune
-des victimes regardait à travers quelque chose ». Sans miroir dans une poche, le final est un combat
-contre un vieillard.\
+des victimes regardait à travers quelque chose ». **Le décor du lac fournit déjà le filtre** — la
+source liste « une surface d'eau », et la scène se joue sur un lac gelé : l'objet emporté est un
+confort, pas une condition.\
 **B8 · Le Bagou de Virginia et de Gabriel saute un cran.** Leur piste de dés porte une **case
 noircie** à la place du d6 : de d8, ils tombent directement à d4. Retenu tel quel — leur Bagou
 s'épuise plus vite, **ils ne sont pas les interrogateurs du groupe**. À dire à la distribution des

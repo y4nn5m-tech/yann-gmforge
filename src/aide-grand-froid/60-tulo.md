@@ -10,15 +10,17 @@
 L'inspecteur **Davis** s'arrache les cheveux sur cette affaire, et on lui demande rapidement de
 boucler le dossier. C'est « une demande en haut lieu, venue du **Midewiwin** », dont les membres ont
 utilisé leur influence pour faire taire l'affaire.\
-Donc **Angen Tulo trahit sa propre société** en venant leur parler. La source pose les deux faits
-côte à côte et ne fait jamais le lien : c'est le moteur de la scène.
+Donc **Angen Tulo trahit sa propre société** en venant leur parler : c'est le moteur de la scène.
 :::
 
 ::: {.obj lab="Objectif — et c'est le passage obligé du scénario"}
-Obtenir que Davis n'enterre pas l'affaire. Sans ça, **Angen Tulo n'arrive pas**, et sans Angen Tulo
-la table arrive au lac et frappe un vieil homme invulnérable (A1).\
+Obtenir que Davis n'enterre pas l'affaire. Ce qui doit sortir de cette scène, **ce sont quatre
+informations et non un homme** : le Wendigo a été appelé · cinq âmes · le cœur de glace · le feu.
+Angen Tulo en est le meilleur porteur, pas le seul (A1).\
 Laisser la scène à **Manuel**, seul, sans jet de groupe : atout *Réseau*, CHA 14+, et il « travaille
-la plupart du temps avec la police ». **C'est le croisement le plus important des cinq fiches.**
+la plupart du temps avec la police ». **C'est le croisement le plus important des cinq fiches.**\
+**L'ordre de boucler tombe le mardi (A8)**, quand la quatrième mort rend la série trop voyante :
+rencontré avant, Davis n'a rien à refuser, et il n'y a rien contre quoi insister.
 :::
 
 ### Davis, au commissariat
@@ -35,6 +37,8 @@ la plupart du temps avec la police ». **C'est le croisement le plus important d
 ::: {.mj lab="Ce qui déclenche la suite"}
 Ils insistent, ou ils convainquent Davis de continuer. Dans les deux cas, **ils sont contactés** dans
 les heures qui suivent. Aucun jet pour trouver Angen Tulo : il se présente.\
+Pas leur agitation : **le fait de continuer après le classement.** Une société qui fait fermer un
+dossier surveille ce dossier.\
 Si Davis se ferme définitivement (deux échecs, ou le piratage raté de B5), Angen Tulo passe par
 Manuel : un flic lui transmet un mot.
 :::

@@ -65,8 +65,9 @@ l'apathie dure deux fois plus longtemps.*
 Les cinq morts l'établissent — un miroir d'ascenseur, un rétroviseur, la surface d'un bassin, une
 vitre de métro, un objectif. Mais si personne à table ne l'a formulé, **une phrase de MJ au moment de
 partir** : « vous remarquez que chacune des victimes regardait à travers quelque chose ».\
-**Sans miroir dans une poche, le final est un combat contre un vieillard** — et le cœur de glace reste
-invisible.
+**Le décor du lac fournit déjà le filtre** : la source liste « une surface d'eau » parmi eux, et la
+scène se joue sur un lac gelé, entre des vitres de voiture. L'objet emporté est un confort, pas une
+condition — ce qui reste dur, c'est d'y penser au moment où la créature approche.
 :::
 
 ::: {.jeu lab="Profil — le Wendigo"}

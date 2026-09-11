@@ -32,13 +32,13 @@ Statistiques, fournissait les rapports d'Alex · s'est amourachée de Tahlia, sa
 
 - Bureau : la tempête permanente · pas d'ordinateur, elle l'avait pris
 - Chez ses parents : 1330 W Monroe St, apt 12 · ses affaires y ont été remises
-- Son appartement : rien
+- Son appartement : rien · **la voiture, partie à la casse : rien non plus**
 
 ::: {.dire lab="Indices"}
 - Ordinateur portable **→ dimanche 23 h, à Tahlia** : « sois prudente, ne va pas dans des lieux
   dangereux » — elle meurt une heure plus tard
 - Rejetée par sa famille depuis dix ans, jamais revue
-- Mort :
+- Mort — par les données de police, l'hôpital ou les pompiers, les commerçants sur place :
     - Accélération brutale sur une ligne droite
     - Elle ne regardait pas la route, elle fixait **le rétroviseur intérieur**
     - Terry s'était caché sur le siège arrière quelques heures plus tôt
@@ -158,9 +158,10 @@ continuent après le classement** — alors il **vient à eux**, le soir même.
 
 ## Les quatre pièges {.sec}
 
-- **A1** — tout le point faible passe par Angen Tulo. Trois filets, à la troisième impasse
-  seulement : Rosemary et l'horreur · Manuel et Davis · Memengwaa, qui n'a aucune raison de mentir.
-  **C'est l'information qui compte, pas le porteur**
+- **A1** — **c'est l'information qui compte, pas le porteur** : le Wendigo a été appelé · cinq âmes ·
+  le cœur de glace · le feu. Angen Tulo les porte toutes, mais trois autres bouches existent, à la
+  troisième impasse seulement : Rosemary et l'horreur · Manuel et Davis · Memengwaa, qui n'a aucune
+  raison de mentir
 - **A3** — **Terry ne se réveille pas.** Qu'on le secoue, qu'on retire les lunettes : des yeux
   rouges, rien d'autre. Puis elle met tout le monde dehors
 - **A4** — **l'arrêter ne change rien.** Le rituel est fait, il reste un nom

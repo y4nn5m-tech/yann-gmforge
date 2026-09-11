@@ -27,7 +27,8 @@ entre la plaque du musée et le dossier militaire.
 ## Grand froid
 **Cthulhu Hack · source 23 p. · aide de jeu 18 p. puis 13 p. puis 22 p. · note d'arbitrage 8 p. puis
 9 p. puis 10 p. · scénario annoté 11 p. · sixième passage : une ligne ajoutée au livret après une
-partie réellement menée.**
+partie réellement menée · septième : une feuille de conduite, 5 p., et trois heures d'actual play
+écoutées.**
 
 Scénario 5 de la campagne *Wendigo*. Chicago sous −30 °C, cinq victimes en cinq jours.
 
@@ -395,6 +396,79 @@ coupe l'électricité au moment de la mort, donc l'enregistrement qui s'arrête 
 de « quelqu'un qui rôdait autour de la maison, de taille moyenne, impossible à identifier », dont un
 sans-abri est exactement le témoin plausible. **Rien de tout cela n'a sa place dans un livret** : ce
 sont des improvisations que la source rend possibles, pas du contenu à écrire d'avance.
+
+### Septième passage — un quatrième livrable, et ce qu'écouter une table apprend
+
+Trois semaines après le sixième, et sur une demande qui ne portait pas sur le scénario : *« quand je
+mène, même avec le livret sous les yeux, je n'arrive pas à sortir ce que je voudrais »*. Le passage a
+commencé par une relecture du livret et a fini par un livrable de plus.
+
+**Ce que la relecture a rendu au chapitre du livret.** Trois règles, et la première était en retard
+sur la pratique : *les titres de palier nomment le lieu ou le moment, jamais la distance*. Le chapitre
+prescrivait « Au loin », « Le plan large », « À portée de main » — des noms de procédé d'écriture — et
+la pratique avait déjà tranché seule : zéro titre de distance sur les quarante de *L'Or de La
+Rochelle* comme sur les vingt et un de *La Citadelle perdue*, un sur les quatre-vingt-dix-neuf de
+*Magnitogorsk*, contre sept sur les cinquante-sept de Grand froid, le plus ancien livret du dépôt.
+S'ajoute le cas **sans titre du tout**, avec son coût écrit : une unité de moins de deux `h3` sort du
+contrôle des grappes d'encarts.
+Deuxième règle, et c'est un angle mort de la précédente comme du contrôle : **une ligne décrit, elle
+ne conclut pas.** « Col ouvert, cravate desserrée **: la seule chose de travers dans la pièce.** » est
+nominale, fait soixante-cinq signes, passe tous les contrôles — et reste de l'écriture d'auteur. Une
+chute se récite, et surtout elle prend au MJ la remarque qu'il aurait faite lui-même. Aucune machine
+ne l'attrape.
+
+**Le quatrième livrable est né d'un constat d'usage, pas d'une idée.** Le livret restait difficile à
+exploiter : trop de matière rédigée sous les yeux au moment de parler. La **feuille de conduite** part
+de l'hypothèse inverse — ne rien donner à dire, tout donner à trouver. Huit reprises ont été
+nécessaires pour trouver sa forme, et chacune a coûté une leçon : les tableaux à colonnes fixes
+abandonnés au profit de listes · les jets d'enquête retirés · les « quatre verrous » réduits à quatre
+cases à cocher parce qu'un document de table qui demande une explication est disqualifié · le code
+couleur revenu après avoir disparu dans l'épure · et les sous-sections promues en sections, parce que
+le panneau du site se construit sur les `h2` et que huit PNJ regroupés sous un chapeau n'offrent
+qu'une entrée de navigation. Cinq pages. Le chapitre est dans `MODELE-livrable-feuille.md`.
+
+**Puis un actual play du même scénario a été écouté** — trois heures, transcrites en local avec
+whisper, découpées et mesurées. C'est la première fois qu'une partie qui n'est pas la nôtre sert de
+mesure, et ce qu'elle donne ne s'obtient pas autrement :
+
+- **58 % du temps de jeu est du recoupement entre joueurs.** Le MJ n'y décrit rien : il écoute,
+  confirme, vérifie. Les vingt-deux minutes qui ouvrent la seconde séance sont un récapitulatif suivi
+  d'une discussion. **C'est la justification de la feuille**, et elle est arrivée après elle ;
+- **l'unité Davis/Angen Tulo, 11 % du livret, n'a jamais servi.** Zéro occurrence d'Angen Tulo, du
+  Midewiwin, du cœur de glace sur trois heures ; le mot *Wendigo* n'apparaît qu'au débriefing. La
+  table a gagné sans jamais savoir comment tuer la créature ;
+- **les Campbell pèsent 14 % du livret pour 5 % du temps.** La visite chez la mère dure huit minutes,
+  dont trois avant qu'elle mette les PJ dehors. Le pivot du scénario est la scène la plus courte.
+
+**Ce que l'écoute a corrigé dans les arbitrages.** B7 se trompait : « sans miroir dans une poche, le
+final est un combat contre un vieillard » — mais la source liste « une surface d'eau » parmi les
+filtres et la scène se joue sur un lac gelé. L'objet emporté est un confort, pas une condition. Et
+« invulnérable » était faux : le profil se tue, 34 puis 18 PV ; le mot juste est **hors de portée**.
+
+**Deux arbitrages ont été écrits puis abandonnés**, et c'est la décision la plus instructive du
+passage. La table de l'actual play avait tué elle-même la cinquième victime, et réclamé les bandes de
+vidéosurveillance. Les deux ont été rédigés, puis retirés sur une règle de Yannick : **ce que la table
+invente relève de l'improvisation du moment, pas d'une note d'arbitrage.** Sans cette frontière, une
+note gonfle indéfiniment — on peut toujours imaginer une question de plus.
+
+**Et une règle a refait A1 de fond en comble**, celle-là aussi de Yannick : *dans une enquête, aucun
+PNJ n'est indispensable, sauf éventuellement le commanditaire. Seuls les indices le sont.* A1 disait
+« le point faible n'a qu'un seul accès » et répondait par trois chemins vers le même homme. Il dit
+maintenant : **quatre informations doivent arriver**, et la source ne les met que dans une bouche.
+Angen Tulo en reste le meilleur porteur, pas l'obligatoire. Dans la foulée, A8 s'est réduit à ce qui
+décide vraiment — la date de l'ordre de boucler — parce qu'un PNJ-obstacle compte par sa fonction et
+non par son identité, et B10 a cessé d'être un arbitrage pour devenir une manière de le jouer.
+
+**Deux prises annexes.** `.lg-warn` était utilisé par les quatre scénarios annotés sans avoir jamais
+été défini dans `print.css` : l'ambre de leur légende sortait en noir depuis le début, et rien ne
+pouvait le signaler — une classe inconnue ne produit aucun avertissement WeasyPrint. Et le croisement
+de la feuille avec l'annoté, fait après coup, a rapporté quatre écarts : une trouvaille sur quatre
+perdue, une fausse piste non signalée, les trois chemins d'une scène disparus, et une contradiction
+interne créée le matin même. **Une réécriture complète perd toujours quelque chose** ; seul un
+croisement systématique le retrouve.
+
+**Ce qui reste ouvert :** la feuille n'a pas été menée à table, et `web/demarche.html` annonce
+toujours trois livrables.
 
 ### Le chantier du calage CSS, et pourquoi il a duré si longtemps
 

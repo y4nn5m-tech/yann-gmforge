@@ -45,6 +45,7 @@ ORDRE = [
     "MODELE-livrable-dossier-prep.md",
     "MODELE-livrable-annote.md",
     "MODELE-livrable-aide-de-jeu.md",
+    "MODELE-livrable-feuille.md",
     "MODELE-formes.md",
     "MODELE-systemes.md",
 ]

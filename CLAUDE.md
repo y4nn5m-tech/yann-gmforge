@@ -83,17 +83,20 @@ L'en-tête YAML va dans le **premier** fragment, et lui seul :
 title: "Bun & Run"
 subtitle: "Note d'arbitrage"
 scenario: "Bun & Run"        # groupe les documents d'un même scénario sur l'index
-type: note                   # note | aide | annote — déclare le type, ne le laisse pas deviner
+type: note                   # note | aide | annote | feuille — déclaré, jamais deviné
 jeu: "Fevertown — kit de découverte v1.2"
 pied: "BUN & RUN — note d'arbitrage"
 lang: fr
 ---
 ```
 
-**Trois livrables, et `type:` décide des contrôles.** `aide` — le livret de table, une unité par page.
-`note` — huit à douze pages qui complètent la source. `annote` — **le scénario annoté**, la source
-ramenée à son ossature dans son ordre, qui **remplace** la note quand la source est de la prose dense.
-Le mesurer avant de l'écrire : sur une source déjà en mots-clés, il ne fait que doubler le scénario.
+**Quatre livrables, et `type:` décide des contrôles.** `aide` — le livret de table, une unité par
+page. `note` — huit à douze pages qui complètent la source. `annote` — **le scénario annoté**, la
+source ramenée à son ossature dans son ordre, qui **remplace** la note quand la source est de la prose
+dense. Le mesurer avant de l'écrire : sur une source déjà en mots-clés, il ne fait que doubler le
+scénario. `feuille` — **la feuille de conduite**, six pages au plus, sans une ligne à dire : ce qu'on
+cherche du doigt pendant que les joueurs recoupent. Elle **double** le livret, elle ne le remplace
+pas — voir `modele/MODELE-livrable-feuille.md`.
 
 **La note s'ouvre par une explication de texte**, d'une page au plus : elle ne raconte rien du
 scénario — le MJ vient de le lire — mais nomme son espèce, le verbe des joueurs, les compteurs à tenir
@@ -165,10 +168,14 @@ et les unités débordaient. WeasyPrint le disait en avertissement, et le build 
 | budget de densité | aide | une unité rendue seule qui tient sur deux pages : elle a enflé |
 | encarts à leur place | aide | plus de deux encarts avant le premier palier, ou en pied d'unité |
 | lignes à dire | aide | une ligne à dire de plus de 110 signes : elle est rédigée au lieu d'être notée |
+| volume | feuille | plus de 6 pages : ce n'est plus une feuille, c'est une note qui a repris du texte |
 
 **Les contrôles ne sont pas les mêmes selon `type:`.** Une aide de jeu n'est pas mesurée au
 remplissage — une unité à moitié pleine y est normale — et ses renvois `— A4` pointent vers la note,
 donc ils ne sont pas vérifiés. Ce qui s'y mesure, c'est le débordement, et lui seul.
+La feuille, elle, coule comme la note mais **échappe à tous les contrôles du livret** : ils mesurent
+un texte qu'elle n'a pas. Son remplissage est un avertissement, jamais un échec — une feuille de
+listes finit ses pages là où la liste finit.
 
 Un avertissement (`·`) n'arrête pas le build : une page à 27 % est souvent une fin de section
 légitime. Un `ÉCHEC` sort en code 1.

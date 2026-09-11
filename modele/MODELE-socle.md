@@ -14,8 +14,9 @@ Une conversation de ce projet suit toujours le même ordre. Ne pas sauter d'éta
    scènes, lieux, PNJ, événements, contexte, mécaniques, zones floues — et **répondre en conversation,
    sans produire aucun document**. La grille de lecture est dans `modele/MODELE-analyse.md`.
 3. **Demander le livrable.** Aide de jeu · **note d'arbitrage** (le « dossier de préparation » des
-   instructions) · **scénario annoté**, qui remplace la note quand la source est en prose dense · ou
-   plusieurs. **Ne jamais deviner.**
+   instructions) · **scénario annoté**, qui remplace la note quand la source est en prose dense ·
+   **feuille de conduite**, qui double le livret pour les moments où l'on vérifie au lieu de dire ·
+   ou plusieurs. **Ne jamais deviner.**
 4. **Produire.** Si plusieurs sont demandés, **ce qui se lit avant vient d'abord** — la note ou
    l'annoté —, parce que ses arbitrages déterminent le découpage du livret.
 
@@ -28,13 +29,14 @@ l'**explication de texte** en tête de note qui recueille cette part-là — voi
 
 ## Les deux livrables
 
-Le projet produit deux documents distincts, qui ne se remplacent pas.
+Le projet produit quatre documents distincts, qui ne se remplacent pas.
 
 | Livrable | À quoi il sert | Quand on l'ouvre | Chapitre |
 |---|---|---|---|
 | **Aide de jeu** | Mener la partie. Un point de consultation par page, la matière pour *dire* le scénario. | Pendant la séance, le doigt sur la page. | `modele/MODELE-livrable-aide-de-jeu.md` |
 | **Note d'arbitrage** | Trancher ce que la source ne tranche pas, rassembler ce qu'elle éparpille, croiser ce qu'elle n'a pas croisé. **Huit à douze pages.** | Une fois, avant la séance, **à côté du scénario**. | `modele/MODELE-livrable-dossier-prep.md` |
 | **Scénario annoté** | La source ramenée à son ossature, dans son ordre, avec ce qu'elle ne dit pas. **Il absorbe la note.** | Plusieurs fois avant la séance, **à la place du scénario**. | `modele/MODELE-livrable-annote.md` |
+| **Feuille de conduite** | Ce qu'on cherche du doigt pendant qu'on vérifie : les indices et où les prendre, les chiffres, les pièges. **Aucune matière à dire.** | Pendant la séance, **à côté du livret**, quand les joueurs recoupent. | `modele/MODELE-livrable-feuille.md` |
 
 **La frontière n'a pas deux côtés, mais trois : la source, le livret, la note.** Le MJ a le scénario
 sous les yeux — c'est le premier destinataire de tout ce qu'on n'écrit pas. Ce qui reste se répartit
@@ -54,6 +56,7 @@ parce que ce qui est dans la source n'y entre pas.
 | `modele/MODELE-livrable-aide-de-jeu.md` | Si l'aide de jeu est demandée. |
 | `modele/MODELE-livrable-dossier-prep.md` | Si la note d'arbitrage est demandée. |
 | `modele/MODELE-livrable-annote.md` | Si le scénario annoté est demandé. **Le mesurer d'abord** : sur une source déjà écrite en mots-clés, il n'apporte rien. |
+| `modele/MODELE-livrable-feuille.md` | Si la feuille de conduite est demandée. **La lire avec le chapitre du livret** : elle le double, elle ne le remplace pas. |
 | `modele/MODELE-formes.md` | Toujours, pour les deux livrables. Lire le ou les chapitres correspondant à la forme du scénario. **Un scénario cumule souvent plusieurs formes.** |
 | `modele/MODELE-systemes.md` | Toujours, pour les deux livrables. Lire le chapitre du système joué. |
 | `modele/JOURNAL-passages.md` | Seulement pour auditer l'historique. Aucune utilité au moment de rédiger. |

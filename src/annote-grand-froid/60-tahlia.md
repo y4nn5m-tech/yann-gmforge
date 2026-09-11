@@ -16,14 +16,17 @@ des clichés mémorables. **Elle ignore tout de la mort de Dorothea et des autre
 *Elle ne répond ni aux mails ni aux appels : elle est bien trop occupée.*
 :::
 
-::: {.dire lab="Quatre façons de la retrouver"}
+::: {.dire lab="Cinq façons de la retrouver — la source en donne quatre"}
 *Le fournisseur téléphonique — **test de Torche*** : son adresse. Sur place, un calendrier au mur
 indique ses lieux de shooting — **aujourd'hui, « Lac Michigan »**.\
 *Piratage de sa messagerie — **Sauvegarde d'Intelligence**, échec : le compte est bloqué* : elle
 annonçait à Marvelous World qu'elle irait au lac.\
 *Le videur du Tropical Bar* donne son nom complet, qui donne l'adresse.\
 *Une recherche Internet* la fait remonter sur le site du magazine ; en expliquant qu'elle est en
-danger, **on obtient sa localisation actuelle**.
+danger, **on obtient sa localisation actuelle**.\
+*Et la cinquième, que la source ne prévoit pas parce qu'elle n'y pense pas :* **géolocaliser son
+téléphone**. En 2019, une table le demandera avant les quatre autres. L'accorder — rien ne s'y oppose,
+et c'est le chemin le plus court vers les quais.
 :::
 
 ::: {.warn lab="A2 — Pas de compte à rebours : la scène finale se déclenche à l'arrivée"}

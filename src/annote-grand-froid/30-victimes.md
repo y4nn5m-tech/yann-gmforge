@@ -27,8 +27,9 @@ qu'on a son nom. **Tout le troisième acte passe par l'une ou l'autre.**
 :::
 
 ::: {.dire lab="Son appartement — 4540 S Union Avenue, appartement 504"}
-*Fermé à clef : Sauvegarde de Dextérité pour crocheter. En cas d'échec, les voisins appellent la
-police.*\
+*Fermé à clef : Sauvegarde de Dextérité pour crocheter. En cas d'échec, **les voisins viennent
+demander des comptes** — c'est ce que dit la source, et non qu'ils appellent. La lettre de Harold
+règle l'affaire ; ils n'appellent que si on la joue mal.*\
 Il vivait seul. Propre, ordonné. L'ordinateur fixe **n'a pas de mot de passe**.\
 *Test de Torche dans les mails :* il s'en voulait de n'avoir pas soutenu Alex, de n'avoir pas vu les
 signes de la dépression. **Il ne comprenait pas pourquoi Alex s'était suicidé.** Il s'était inscrit

@@ -25,6 +25,11 @@ faible** (A1), et le scénario ne le sait pas.
 | **Virginia Walker**  | Poings américains — **d8** · | Il faut être au contact, face à 16 dégâts par|
 | *boxeuse*            | plus de deux mètres          | Moment. **Ce n'est pas là qu'elle sert**     |
 +----------------------+------------------------------+----------------------------------------------+
+| **Virginia Walker**  | **Une croix au bout d'une    | **Au lac, quand le gel la prend.** Le seul   |
+| *(le trait qu'on ne  | chaîne** — sa fiche la donne | trait d'elle qui tombe dans le final : de la |
+| lit pas)*            | sans rien en dire            | fiction, pas une mécanique — ce à quoi elle  |
+|                      |                              | se raccroche pendant que le froid la gagne   |
++----------------------+------------------------------+----------------------------------------------+
 | **Steven Brooks**    | *Crochetage* · outils        | L'appartement de Walter sans réveiller les   |
 | *détective*          | (Avantage) · **aucune arme** | voisins. Ancien cambrioleur : c'est lui qui a|
 |                      |                              | décroché le contrat                          |

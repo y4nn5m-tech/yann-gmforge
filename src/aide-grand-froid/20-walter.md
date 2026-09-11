@@ -123,7 +123,8 @@ ouvre la porte ; c'est la bande vidéo qui fait le reste.
 **Le convaincre** : test de Bagou. Même résultat ; il reste sur le seuil et ne les quitte pas des
 yeux.\
 **Crocheter** : Sauvegarde de Dextérité, Steven a ses outils — **Avantage**. Échec : Ruben monte,
-appelle la police, patrouille en dix minutes. La lettre les sort d'affaire, mais Davis l'apprendra
+viennent demander des comptes ; on n'appelle la police que si ça tourne mal — patrouille en dix
+minutes. La lettre les sort d'affaire, mais Davis l'apprendra
 (B5).
 :::
 

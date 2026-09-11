@@ -119,6 +119,8 @@ responsable · **ignore tout des quatre morts, et ne répond à rien : trop occu
 - Le fournisseur téléphonique donne son adresse
 - Sa messagerie : elle annonçait le lac au magazine
 - Le magazine, si on explique qu'elle est en danger, donne sa localisation
+- Le videur du Tropical Bar donne son nom complet, qui donne l'adresse
+- **Géolocaliser son téléphone** — hors source, mais c'est ce qu'une table demandera d'abord
 :::
 
 ## Memengwaa Campbell — 5514 S Shield Avenue {.sec}
@@ -156,7 +158,7 @@ continuent après le classement** — alors il **vient à eux**, le soir même.
 - **Détruire le cœur de glace. Son point faible : le feu**
 :::
 
-## Les quatre pièges {.sec}
+## Les cinq pièges {.sec}
 
 - **A1** — **c'est l'information qui compte, pas le porteur** : le Wendigo a été appelé · cinq âmes ·
   le cœur de glace · le feu. Angen Tulo les porte toutes, mais trois autres bouches existent, à la
@@ -166,3 +168,5 @@ continuent après le classement** — alors il **vient à eux**, le soir même.
   rouges, rien d'autre. Puis elle met tout le monde dehors
 - **A4** — **l'arrêter ne change rien.** Le rituel est fait, il reste un nom
 - **B2** — Stephen n'est pas sauvable. Connaître un nom ne dit pas son rang
+- **B5** — piratage raté : **un cran de pression**, pas une garde à vue. Un inspecteur rappelle
+  l'agence ; au second échec, l'accès au dossier se coupe

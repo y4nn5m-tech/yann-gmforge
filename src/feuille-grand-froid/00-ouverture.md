@@ -22,7 +22,9 @@ haute**]{.lg-mj}\
 
 **Chicago. Lundi 28 janvier 2019.**\
 Très froid, bien en dessous des −30°.\
-La ville paralysée.
+La ville paralysée : trains annulés · poste arrêtée · chasse-neige en panne, le froid enraye la
+mécanique · consigne de rester chez soi · police et pompiers en alerte jour et nuit · accidents
+mortels, et des morts de froid malgré les centres de réchauffement.
 
 ::: {.jeu lab="Le froid"}
 **Décor et contrainte de fiction. Aucun jet, aucune usure** (B6). Le dire dès qu'ils sortent.

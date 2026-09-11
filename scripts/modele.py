@@ -113,13 +113,21 @@ def archive(fs):
 
 
 def page():
-    src = WEB / "demarche.html"
-    if not src.is_file():
-        print(f"  ÉCHEC page introuvable : {src}", file=sys.stderr)
+    """Les pages du site, copiées telles quelles depuis web/.
+
+    Il y en a eu une, puis deux ; la feuille de style leur est commune et vit
+    dans `web/page.css` — une page de plus ne recopie pas la charte.
+    `demarche.html` est obligatoire : c'est elle que l'index met en tête.
+    """
+    if not (WEB / "demarche.html").is_file():
+        print(f"  ÉCHEC page introuvable : {WEB / 'demarche.html'}", file=sys.stderr)
         raise SystemExit(1)
-    cible = OUT / "demarche.html"
-    cible.write_bytes(src.read_bytes())
-    return cible
+    copiees = []
+    for src in sorted(WEB.glob("*.html")) + sorted(WEB.glob("*.css")):
+        cible = OUT / src.name
+        cible.write_bytes(src.read_bytes())
+        copiees.append(cible)
+    return copiees
 
 
 def main():
@@ -127,9 +135,9 @@ def main():
     fs = chapitres()
     lignes = sum(f.read_text(encoding="utf-8").count("\n") for f in fs)
 
-    u, a, p = fichier_unique(fs), archive(fs), page()
+    u, a, pages = fichier_unique(fs), archive(fs), page()
     print(f"· modèle — {len(fs)} chapitres, {lignes} lignes")
-    for f in (p, u, a):
+    for f in pages + [u, a]:
         print(f"  {f.name:<20} {f.stat().st_size // 1024:4d} Ko")
     return 0
 

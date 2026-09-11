@@ -100,6 +100,7 @@ Stephen · a surpris Tahlia avec Dorothea, début janvier
 - Enregistrements du répondeur : **Sherlyn hurle**, en mots très durs · envoyés à Walter, jamais
   de réponse
 - SMS de Tahlia : « je suis désolée… »
+- Coupures Max Omnium — **la première signée Stephen**
 - Les serveurs du bar : Dorothea et Tahlia, plus proches que de simples amies
 - **Le videur du bar a vu son nom sur sa carte : Tahlia Carodios**
 :::

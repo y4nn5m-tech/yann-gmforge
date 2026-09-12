@@ -94,7 +94,7 @@ Puis, quand ils repartent : **s'assurer qu'ils comprennent qu'on peut l'emporter
 - Comptez-les devant eux. **Six.** Cinq invités — et un de plus.
 :::
 
-### À portée de main
+### Le coffre, à côté du cercle
 
 ::: {.say}
 - À côté du cercle, **un coffre en plomb**.

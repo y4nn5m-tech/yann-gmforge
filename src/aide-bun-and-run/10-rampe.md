@@ -89,7 +89,7 @@ Installer un quartier, pas un décor. Ils patrouillent depuis une semaine : ils 
 **Ne pas les laisser intervenir** — ce plan est à toi.
 :::
 
-### Le plan large
+### Westwood, quinze heures
 
 ::: {.say}
 - **Westwood**, donc. **Quinze heures.**
@@ -112,7 +112,7 @@ Installer un quartier, pas un décor. Ils patrouillent depuis une semaine : ils 
 - Et du boulot, toujours.
 :::
 
-### À portée de main
+### Dans la voiture, devant le Chibrolino
 
 ::: {.say}
 - Devant le **Chibrolino**, un food truck. Steak grillé et tabac froid.

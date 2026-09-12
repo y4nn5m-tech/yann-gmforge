@@ -48,10 +48,14 @@ Aucun lieu n'en exige un autre. Ils choisissent l'ordre.
 ### Le patron de l'atelier, si on l'interroge
 
 ::: {.say}
-- Tablier d'encre, doigts noirs jusqu'aux ongles. Il ne lève pas les yeux du travail.
-- [« Le père Simon ? Il est mort il y a trois ans. On l'a enterré à Saint-Sauveur. »]{.q}
+- Tablier d'encre, doigts noirs jusqu'aux ongles.
+- Il ne lève pas les yeux du travail.
+- [« Le père Simon ? Il est mort il y a trois ans.
+- On l'a enterré à Saint-Sauveur. »]{.q}
 - [« Il commandait des copies. Des vieux textes, du latin, autre chose aussi. »]{.q}
-- [« Son apprenti venait les chercher. Jacques. C'est de ma famille, ça, les Saint-Pierre. »]{.q}
+- [« Son apprenti venait les chercher.
+- Jacques.
+- C'est de ma famille, ça, les Saint-Pierre. »]{.q}
 - [« On ne les voit plus. Depuis l'enterrement, on ne les voit plus. »]{.q}
 :::
 

@@ -117,7 +117,8 @@ fatigués qui creusent sous une ville pour la faire tomber, et à qui les person
 ### Le chef d'équipe
 
 ::: {.say}
-- Torse nu sous la craie, malgré le froid. Des mains qui ne se ferment plus tout à fait.
+- Torse nu sous la craie, malgré le froid.
+- Des mains qui ne se ferment plus tout à fait.
 - [« Vous voulez creuser où ? De ce côté ? Y a rien, de ce côté. »]{.q}
 - [« Si vous m'ouvrez une poche d'eau, on y passe tous. »]{.q}
 :::

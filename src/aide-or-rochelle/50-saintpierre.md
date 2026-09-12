@@ -115,8 +115,10 @@ trois chemins échouent, un guetteur sort par la porte et elle reste ouverte tro
 ### La ruelle
 
 ::: {.say}
-- Deux pas de la cathédrale, et personne n'y passe. Un cul-de-sac qui n'en a pas l'air.
-- Une vieille porte de bois, dans un renfoncement. On ne la voit pas si on ne la cherche pas.
+- Deux pas de la cathédrale, et personne n'y passe.
+- Un cul-de-sac qui n'en a pas l'air.
+- Une vieille porte de bois, dans un renfoncement.
+- On ne la voit pas si on ne la cherche pas.
 - Pas de poignée. Une serrure ancienne, entretenue.
 - Le sol devant la porte est usé. Beaucoup d'allées et venues.
 :::
@@ -213,13 +215,14 @@ Et de très loin, dedans, on entend quelque chose qui ressemble à des voix qui 
 ::: {.obj lab="Objectif — leur faire comprendre à qui ils ont affaire"}
 Jacques n'est pas un cultiste. C'est **un érudit qui a trop bien lu**, un héritier légitime qui croit
 sauver la ville. Tout ce qui est dans cette pièce doit le dire : le travail, la méthode, l'obstination.\
-S'ils comprennent ça ici, la quatrième fin devient possible.
+S'ils comprennent ça ici, la quatrième fin devient possible.\
+**Rien n'est piégé** — il n'a jamais imaginé que quelqu'un viendrait.
 :::
 
 ### La pièce
 
 ::: {.say}
-- Petite, à l'écart, fermée par une porte simple. Pas de piège : personne ne vient ici.
+- Petite, à l'écart, fermée par une porte simple.
 - Un autel de pierre, des chandeliers usés jusqu'à la coupelle.
 - Des parchemins partout, empilés, annotés, raturés, recommencés.
 - Une écriture serrée qui devient de moins en moins nette au fil des pages.

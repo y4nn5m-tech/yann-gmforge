@@ -73,7 +73,8 @@ Ce qui doit passer : il est trop tard pour discuter, et pas encore trop tard pou
 
 ::: {.say}
 - Une trappe de service, et en dessous le vide du chœur, vingt mètres plus bas.
-- Les vitraux, à hauteur d'yeux. Souillés d'éclaboussures sombres, de l'intérieur.
+- Les vitraux, à hauteur d'yeux.
+- Souillés d'éclaboussures sombres, de l'intérieur.
 - L'odeur monte avant l'image.
 :::
 

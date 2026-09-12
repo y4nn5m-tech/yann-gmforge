@@ -11,7 +11,8 @@
 ::: {.say}
 - L'histoire se passe en France, à La Rochelle. Nous sommes à l'automne 1628.
 - Louis XIII est roi. Le cardinal de Richelieu gouverne à sa place.
-- La Rochelle est protestante dans un royaume catholique. Riche, fière, et jusqu'ici libre.
+- La Rochelle est protestante dans un royaume catholique.
+- Riche, fière, et jusqu'ici libre.
 :::
 
 ### Le siège, un an déjà
@@ -53,9 +54,11 @@ porte le mensonge dans sa poche.
 ::: {.say}
 - En tête, **le capitaine Geoffroy Leblanc**. Pas assuré, moustache soignée.
 - Déserteur de l'armée de Gascogne. Les faux ordres sont sur lui.
-- À ses côtés, **Guillaume de Montfaucon**. Grande stature, cicatrices, épée à la ceinture.
+- À ses côtés, **Guillaume de Montfaucon**.
+- Grande stature, cicatrices, épée à la ceinture.
 - Il regarde partout et ne dit rien.
-- Derrière, **le docteur Evrard Duprave**. Cheveux gris, marche courbée, air apaisant.
+- Derrière, **le docteur Evrard Duprave**.
+- Cheveux gris, marche courbée, air apaisant.
 - Puis **Thibault Deschamps**, une liasse de parchemins serrée contre lui.
 - Le regard perdu. Il calcule quelque chose depuis ce matin.
 - À l'arrière, **Remy Thibodeau**. Œil de verre, démarche chaloupée, tatouages de marin.
@@ -98,7 +101,8 @@ Ce qu'on cherche : que la table sente ce que coûte un mensonge, avant d'en dire
 ### La porte
 
 ::: {.say}
-- Une masse de pierre dans le soir. Deux fanaux, une herse relevée à mi-hauteur.
+- Une masse de pierre dans le soir.
+- Deux fanaux, une herse relevée à mi-hauteur.
 - Des hommes en armes qui ont froid et qui s'ennuient.
 - L'odeur des feux de camp, et celle de la vase du port.
 :::

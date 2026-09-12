@@ -23,7 +23,8 @@ Ne pas la donner d'office — la donner **dès qu'un joueur regarde un corps**.
 ### De la remise à pêche
 
 ::: {.say}
-- Une porte de bois qui donne sur un quai. Odeur de filets pourris et de goudron.
+- Une porte de bois qui donne sur un quai.
+- Odeur de filets pourris et de goudron.
 - La lumière du jour, après six étapes dans le noir.
 - Une ville en pierre claire, silencieuse, un dimanche qui n'en est pas un.
 :::
@@ -196,7 +197,8 @@ danger, Valois est la porte** — et le tunnel de la sape est la monnaie qui l'o
 - **Jean Guiton**, maire. Maison fortifiée, cour intérieure.
 - Il a posé son poignard sur la table du conseil.
 - [« Je le planterai dans le cœur du premier qui parlera de se rendre. »]{.q}
-- **Commandant Arnaud Valois**, chef des armes. Honorable, et souvent contre le maire.
+- **Commandant Arnaud Valois**, chef des armes.
+- Honorable, et souvent contre le maire.
 :::
 
 ### Ceux qu'on croise dans la rue

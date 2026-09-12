@@ -104,6 +104,8 @@ chercher. **C'est faux, et c'est mortel.**
 **4 et plus** : au centre, 1d4 Minutes · **3** : décalé de deux à trois mètres, qui s'en approche est
 happé — *Sauvegarde de Force* · **2** : la formule échoue, le sol tremble, un objet porté par chacun
 disparaît · **1** : quelques petits objets sur quelques mètres · **sans cercle** : rien.\
+**Le cas à trois est le plus probable, pas le plus rare** : Émile ne peut pas officier, et il suffit
+qu'un PJ soit à terre ou possédé. **C'est ce palier-là qu'il faut avoir en tête.**\
 Le « lieu consacré » qu'il exige n'est pas une règle — la source le fait officier dans une cabane
 forestière. **Ne pas leur faire traverser l'Alsace pour une chapelle.**
 :::

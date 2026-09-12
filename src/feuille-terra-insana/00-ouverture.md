@@ -36,13 +36,15 @@ qu'il fuie, et personne ne la signale** · **nuit 13→14** vers Obernai · **14
 heure de Barr · **nuit du 14** le puits.
 :::
 
-::: {.jeu lab="Les pertes permanentes — rien ne se récupère"}
+::: {.jeu lab="Les pertes permanentes — seulement si la pierre est libre et près d'eux"}
 **Une journée près d'elle, hors plomb** : **1 point sur chacune des six Sauvegardes** + test de Santé
 mentale. Les 13 et 14 juin.\
 **Dévitalisation** *(contact, Constitution ratée)* : 1 point sur chacune, **+ un niveau de Dé de
 Vie**, + test de Santé mentale. Une fois par jour.\
 **Plus une tentative de possession par heure.** Deux jours de retard = deux points sur chaque
-Sauvegarde, et les jets du final sont faux si personne ne les a comptés.
+Sauvegarde, et les jets du final sont faux si personne ne les a comptés.\
+**Ce compteur ne tourne pas tant qu'ils n'ont pas la pierre** — et il s'arrête net dès qu'elle est
+dans le plomb. L'horloge du 14, elle, tourne dans tous les cas.
 :::
 
 ## 12 juin au soir — le souper sans hôte {.sec}
@@ -64,12 +66,18 @@ les trois, ils comprendront qu'ils étaient **convoqués comme officiants**.
   en-tête : **« Mennonite »** *(aide T5)*
 - **La cave** : un grand cercle à la craie blanche, déformé par des ronds plus petits — **autant que
   d'invités, plus un**
-- À côté, **un coffre en plomb** · parois de trois à cinq centimètres, deux hommes pour le soulever ·
-  **fermé**
+- À côté, **un coffre en plomb** · parois de trois à cinq centimètres, deux hommes pour le soulever\
+  **Il est vide, propre, il n'a jamais servi** — Émile l'avait fait livrer pour y enfermer la pierre,
+  et elle l'a repris avant qu'il referme le couvercle
 :::
 
 ::: {.warn lab="A1 — le coffre est la solution, et la source ne le dit nulle part"}
 Deux phrases isolées, vingt pages plus loin : « à moins d'avoir neutralisé la météorite **en
 l'enfermant dans un coffre en plomb** ». Elle ne relie jamais les deux.\
-Faire durer la scène. **Demander qui pose la main dessus. Compter les ronds à voix haute.**
+Faire durer la scène. **Demander qui pose la main dessus. Compter les ronds à voix haute.**\
+**Puis leur mettre le coffre en main — trois occasions, ne pas laisser passer les trois :** ils
+l'emportent le premier soir · au retour, **Rose propose de le faire monter** · **Bruckheilig le
+réclame** avant de tracer le cercle.\
+*Sans coffre emporté, la pierre reste libre jusqu'au bout : plus de neutralisation possible, et c'est
+un PJ qu'elle prend au moment du rituel.*
 :::

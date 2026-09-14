@@ -28,7 +28,7 @@ entre la plaque du musée et le dossier militaire.
 **Cthulhu Hack · source 23 p. · aide de jeu 18 p. puis 13 p. puis 22 p. · note d'arbitrage 8 p. puis
 9 p. puis 10 p. · scénario annoté 11 p. · sixième passage : une ligne ajoutée au livret après une
 partie réellement menée · septième : une feuille de conduite, 5 p., et trois heures d'actual play
-écoutées.**
+écoutées · huitième : la feuille menée seule, sur un téléphone.**
 
 Scénario 5 de la campagne *Wendigo*. Chicago sous −30 °C, cinq victimes en cinq jours.
 
@@ -469,6 +469,57 @@ croisement systématique le retrouve.
 
 **Ce qui reste ouvert :** la feuille n'a pas été menée à table, et `web/demarche.html` annonce
 toujours trois livrables.
+
+### Huitième passage — la feuille menée seule, et la règle qui l'empêchera de grossir
+
+Première séance conduite **avec la feuille de conduite pour seul document, ouverte sur un téléphone**.
+Quatre joueurs, trois adultes et une adolescente, la moitié de l'acte I en une séance : l'ouverture,
+le bureau de Harold, les deux bureaux de la Harold Company, le commissariat, la villa Moore, et la
+station Austin en fin de séance.
+
+**Le pari du format tient, et c'est la seule chose que ni la relecture ni l'écoute d'une autre table
+ne pouvaient établir.** Les trois questions que le chapitre déclarait ouvertes ont leur réponse.
+*Connaître la source de mémoire libère-t-il la parole plutôt que de la priver de son filet ?* — « je
+connais vraiment bien le scénario », « j'étais plutôt à l'aise », « c'était assez fluide ».
+*L'absence de pilotage manque-t-elle ?* — non : les deux meilleurs moments de conduite de la séance
+ont été improvisés sans que rien ne les souffle. *Le rouge suffit-il ?* — aucun incident.
+
+Et la fonction déclarée est remplie : « elle m'a bien aidé pour savoir où j'en étais des indices ».
+
+**Les deux gestes réussis valent d'être notés, parce qu'ils ne sont écrits nulle part.** Quand une
+joueuse a commencé à parler à Harold avant la description du bureau, le maître de jeu n'a pas arrêté
+la table : il a fait dire au PNJ *« Attendez, attendez, nous allons discuter à l'intérieur »*, puis a
+décrit pendant qu'Harold fermait la porte et baissait les stores. **La description s'est récupérée par
+la fiction, sans casser l'élan.** Et la scène s'est fermée de la même façon, par Harold : *« Toutes
+ces questions, c'est justement pour ça que je vous ai fait venir. Allez faire votre travail. »*
+
+**Un seul manque de document, et il était connu.** L'ordinateur du bureau de Walter — celui-là même
+que le sixième passage avait ajouté au livret — n'avait pas été repris dans la feuille, écrite deux
+jours plus tôt. Deuxième table à buter sur le même objet. Corrigé, et les deux ordinateurs y sont
+désormais distingués : celui du bureau mène au nom d'Alex, celui de l'appartement donne le suicide.
+
+**Trois autres manques ont été relevés, et refusés — c'est le résultat le plus important du passage.**
+Une réserve de noms propres, deux lignes pour l'hôtesse et la secrétaire, une section pour suivre les
+trois jours. Tous auraient servi à cette séance : un psy improvisé sans nom, deux PNJ de passage joués
+à l'identique, et une journée franchie sans qu'on s'en aperçoive.
+
+Le refus de Yannick porte une règle que le modèle n'avait pas :
+
+> **Un document de table porte ce qui est propre au scénario. Ce qui relève du métier de maître de
+> jeu n'y entre pas** — même quand ça vient de manquer.
+
+Se donner des noms d'avance, faire exister un PNJ de passage en une réplique, sentir le temps qui
+passe entre deux scènes : ce sont des compétences, et les écrire dans un document revient à
+transformer chaque difficulté rencontrée en ligne supplémentaire. **C'est le pendant exact de la règle
+du septième passage** — *ce que la table invente relève de l'improvisation, pas d'une note.* Ensemble,
+les deux disent ce qu'un document n'a pas à faire : ni prévoir les joueurs, ni remplacer le MJ.
+
+**Deux points de conduite, hors document.** La séance a franchi un jour sans le dire — la station
+Austin est une scène du mardi, jouée un lundi ; le récapitulatif d'ouverture de la prochaine séance le
+rattrapera. Et **Davis a été joué en allié** dès le lundi, appelé par le contact de Manuel avant que
+l'ordre de boucler tombe : le verrou qui déclenche Angen Tulo ne s'est donc pas posé. C'est exactement
+ce qu'on avait mesuré sur l'actual play, où la même substitution avait privé la table de tout accès au
+point faible. À trancher avant la reprise, et la feuille porte de quoi le faire (A8, A1).
 
 ### Le chantier du calage CSS, et pourquoi il a duré si longtemps
 

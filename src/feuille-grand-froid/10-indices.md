@@ -11,13 +11,16 @@
 Manager de +200 employés (Alex Campbell) · ne l'a pas soutenu face à Sherlyn Moore
 :::
 
-- Bureau : l'ordre, la réussite affichée, l'ébène, les diplômes dorés
-- Maison : 4540 S Union Ave, apt 504 · il vivait seul, fermé à clef
+- Bureau : l'ordre, la réussite affichée, l'ébène, les diplômes dorés · **un ordinateur en veille**
+- Maison : 4540 S Union Ave, apt 504 · il vivait seul, fermé à clef · **l'ordinateur fixe, sans mot
+  de passe**
 
 ::: {.dire lab="Indices"}
 - Note de frais : une gerbe de fleurs pour un **Alex Campbell**
 - Brouillon manuscrit **→ F02** : nom et adresse de la mère d'Alex
-- Il ne comprenait pas le suicide d'Alex (ordinateur, forums d'aide)
+- **Son ordinateur de bureau mène au même nom** que les notes de frais — deux chemins, prendre celui
+  que la table ouvre
+- Chez lui : il ne comprenait pas le suicide d'Alex · forums d'aide psychologique
 - Mort :
     - Coupure de courant samedi 20 h · montre arrêtée à 20 h 04
     - Visage effroyable, comme s'il avait vu la mort

@@ -58,6 +58,31 @@ Deux exceptions, et elles ne contredisent pas la règle :
 *C'est de cette règle qu'est né le repère le plus utile de la feuille — la liste des quelques
 informations qui doivent arriver, sans nommer qui les apporte.*
 
+## Et la règle qui l'empêche de grossir
+
+**Un document de table porte ce qui est propre au scénario. Ce qui relève du métier de maître de jeu
+n'y entre pas — même quand ça vient de manquer.**
+
+Se donner des noms d'avance, faire exister un personnage de passage en une réplique, sentir le temps
+qui passe entre deux scènes : ce sont des compétences. Les écrire dans un document revient à
+transformer chaque difficulté rencontrée en ligne supplémentaire, et une feuille qui grossit à chaque
+séance cesse d'être une feuille.
+
+*Le cas qui a produit la règle : une première partie menée sur la feuille seule laisse trois manques
+apparents — pas de réserve de noms, rien sur deux personnages de passage joués à l'identique, aucun
+moyen de suivre les trois jours. Les trois auraient servi. Les trois ont été refusés, et le refus
+était juste : ce qui manquait n'était pas dans le document, il était dans la conduite.*
+
+**C'est le pendant de la règle du socle sur les imprévus** — *ce que la table invente relève de
+l'improvisation, pas d'une note d'arbitrage.* Ensemble, les deux disent ce qu'un document n'a pas à
+faire : **ni prévoir les joueurs, ni remplacer le maître de jeu.**
+
+**La frontière n'est pas toujours nette, et un exemple la tient.** Les horloges de certains scénarios
+— une marée, un dé de lumière, un compte à rebours posé sur la table — sont des **mécaniques de la
+source** : elles entrent. Les trois journées d'un scénario qui n'a aucun compteur sont de la
+**conduite** : elles n'entrent pas. Le test : *est-ce que la source la chiffre, ou est-ce que je dois
+seulement y penser ?*
+
 ## La forme d'une entrée
 
 ```
@@ -147,12 +172,23 @@ feuille qu'on parcourt du doigt, c'est une note qui a repris du texte.
 Le contrôle de remplissage y est un **avertissement** et non un échec : une feuille de listes finit
 ses pages là où la liste finit.
 
-## Ce qu'on ne sait pas encore
+## Ce que la table a répondu, et ce qui reste ouvert
 
-**Ce chapitre est écrit sur un seul document, et il n'a pas été mené à table.** Il tire ce qu'il sait
-de huit reprises successives de la feuille de Grand froid, de l'écoute d'un actual play et des
-mesures qu'elle a permises — pas d'une partie jouée sur la feuille elle-même.
+**Le format a été mené : une séance entière sur la feuille seule, ouverte sur un téléphone**, sans le
+livret ni la note. Les trois questions que ce chapitre posait ont leur réponse.
 
-Ce qui reste à vérifier en jouant : si l'absence de pilotage manque · si le rouge suffit à distinguer
-ce qui ne se dit pas · et si le pari du format tient, c'est-à-dire si connaître la source de mémoire
-libère vraiment la parole au lieu de la priver de son filet.
+**Le pari tient.** Connaître la source de mémoire libère la parole au lieu de la priver de son filet :
+« je connais vraiment bien le scénario », « j'étais plutôt à l'aise », « c'était assez fluide ». Et la
+fonction déclarée est remplie — « elle m'a bien aidé pour savoir où j'en étais des indices ».
+
+**L'absence de pilotage n'a pas manqué.** Les deux meilleurs moments de conduite de la séance ont été
+improvisés sans que rien ne les souffle : un personnage non joueur qui coupe la parole pour rendre au
+maître de jeu sa description, et le même qui ferme la scène à sa place. Un document qui les aurait
+écrits n'aurait rien ajouté.
+
+**Le rouge a suffi** : aucun incident de lecture.
+
+Ce qui reste ouvert, et qu'une seule séance ne peut pas dire : **le format sur un rail**. Un scénario
+sans enquête n'offre pas d'indice à recouper, et la feuille y recoupe la note au lieu de la compléter.
+Elle rend service — des chiffres éparpillés sur cinq fiches se retrouvent mal en trois secondes — mais
+ce n'est plus tout à fait le même objet.

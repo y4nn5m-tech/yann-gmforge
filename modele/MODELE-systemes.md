@@ -264,6 +264,17 @@ OSR moderne. Tout le jeu tient sur deux ressources : **la lumière** et **l'or**
   « difficulté », jamais « Sauvegarde ».
   Échelle observée : **9** facile · **12** normal · **15** difficile · **18** très difficile ·
   **20** extrême.
+- **Il n'y a ni grille ni mètres, et c'est une règle, pas une approximation.** Trois crans —
+  **courte · intermédiaire · longue** —, et le livre pose que « les monstres peuvent généralement se
+  déplacer à portée intermédiaire chaque tour ». Conséquence directe pour nos documents : **une scène
+  se décrit en positions nommées, jamais en rayons métriques.** Donner un mot à chaque position — la
+  lisière, le cercle, l'estrade, le pied de l'arbre —, dire ce qu'on y atteint et ce qui vous y
+  atteint, et poser que **changer de position coûte un round**. Un MJ à qui l'on donne des mètres
+  refait à chaque round une arithmétique que ses règles ne soutiennent pas.
+  Bénéfice constaté, et il ne se voit qu'en écrivant le tableau : **la géométrie distribue les
+  rôles.** Si l'adversaire ne porte qu'à une seule position, tout ce qui se joue ailleurs est hors de
+  son atteinte, et le groupe se scinde sans qu'on le lui demande. *Vu dans Les Racines du Chaos, dont
+  l'écran de MJ empilait quatre rayons métriques autour de la même créature.*
 - **Format d'un profil** : **CA · PV**, puis attaques et dégâts, puis les modificateurs de
   caractéristiques, puis niveau et alignement. Un objet peut avoir un profil (« émeraude : CA 20, 1 PV »).
 - **Les scénarios ne chiffrent presque jamais leurs créatures** : la gamme renvoie au bestiaire du

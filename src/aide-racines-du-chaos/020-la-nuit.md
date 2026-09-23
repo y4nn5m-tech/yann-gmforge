@@ -1,0 +1,62 @@
+::: {.unit}
+
+::: {.head}
+[À dire]{.use}
+
+## Mathilde Bower, et ce qu'elle paie
+:::
+
+::: {.mj lab="Ce qu'elle sait, et ce qu'elle ne sait pas"}
+Trois bûcherons manquent depuis deux jours, partis vers les coupes du sud. **Elle ignore tout du
+camp** : elle croit à un accident, ou aux loups. Ce qu'elle redoute vraiment, c'est la date — et
+là-dessus elle est superstitieuse et elle a raison (A5).
+:::
+
+::: {.obj lab="Objectif — qu'ils partent ce soir, et pas demain matin"}
+Ne pas les presser : laisser Mathilde le faire. Elle paie d'avance, ce qui rend le refus gênant, et
+elle dit la seule chose qui interdit d'attendre — demain, il sera trop tard pour les trois hommes.
+:::
+
+### Ce qu'elle dit
+
+::: {.say}
+- [« Torvald, Bren et le petit Hask. Partis lundi aux coupes du sud. »]{.q}
+- [« Quinze pièces chacun. Tout de suite, pas au retour. »]{.q}
+- [« Non, personne ne vous accompagne. Pas cette nuit. »]{.q}
+- [« Cette nuit, il n'y a pas de lune. Personne du village ne coupe de bois la nuit de lune noire. »]{.q}
+- Elle pousse la bourse au milieu de la table et retire sa main.
+:::
+
+::: {.jeu lab="Ce qu'ils obtiennent en cherchant"}
+**Les coupes du sud** sont à deux heures de marche. Un sentier large, puis les bois s'épaississent.\
+**Trois nuits de suite**, des lueurs vertes vues depuis la lisière sud — deux villageois le disent,
+personne n'y est allé *(SAG ND 9 pour que quelqu'un le mentionne seul)*.\
+**Le symbole au-dessus de la porte** : Elana en a un second dans un tiroir, et elle le donne (A4).
+:::
+
+::: {.mj lab="Ce que vaut le symbole, et ce qu'il ne fait pas"}
+Ce n'est pas une arme. Ce qu'il apporte, c'est la phrase qu'Elana prononce en le donnant : les
+chevaliers **brûlent** ces arbres, avec de l'huile qu'ils font bénir, et ils brûlent d'abord tout ce
+qu'il y a autour. C'est le premier des trois accès au savoir (A4).
+:::
+
+### Sur le pas de la porte
+
+::: {.say}
+- Dehors, il fait noir comme dans un four. Pas d'étoiles non plus.
+- La route du sud descend entre deux piles de grumes et disparaît.
+- Derrière eux, on tire le verrou. Pas brutalement — comme tous les soirs.
+:::
+
+::: {.jeu lab="À compter maintenant, devant eux — B5"}
+**Combien de torches.** Une brûle **une heure réelle**. Le trajet en demande deux, le camp une
+troisième. Le faire dire à voix haute par celui qui les porte.\
+Elana en vend, à 1 po les cinq. C'est la dernière occasion.
+:::
+
+::: {.obj lab="Le passage de main"}
+Dernière chose à dire, puis on attend : **« Il est dix heures. La route du sud est devant vous.
+Qu'est-ce que vous emportez ? »**
+:::
+
+:::

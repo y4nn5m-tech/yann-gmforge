@@ -29,6 +29,16 @@ Ce qui manque le plus souvent, par ordre de gravité :
 - **les fiches de prétirés**, quand le scénario les suppose ;
 - **les aides de jeu à distribuer**, citées par un code (« aide F02 ») sans être reproduites.
 
+**Cas extrême, et il existe : il n'y a pas de source du tout.** Ce qu'on livre est parfois un jeu
+d'aides **déjà dérivées** — un écran de MJ, des fiches de créatures, des descriptions de lieux — sans
+le scénario dont elles sortent. Le vérifier avant d'analyser : un dossier qui ne contient que des
+tableaux de synthèse n'est pas une source, et le demander est l'étape 1, pas une politesse.
+Conséquence, et elle commande tout le reste : **la frontière à trois côtés du socle n'en a plus que
+deux.** Ce que le livret cède d'ordinaire à la source n'a nulle part où aller — l'accroche, le
+répertoire des PNJ, le décor permanent, la conclusion —, donc **le livret les absorbe et devient le
+document principal**, pendant que la note se réduit à ce qu'elle seule sait faire : trancher,
+chiffrer, piloter. *Vu dans Les Racines du Chaos.*
+
 **Un plan est un document de règles, pas une illustration.** Sa légende porte régulièrement des valeurs
 qui n'existent nulle part dans le texte des zones — seuils pour crocheter ou forcer une porte,
 déclenchement d'un piège, comportement d'une porte secrète. Le dépouiller ligne à ligne, au même titre

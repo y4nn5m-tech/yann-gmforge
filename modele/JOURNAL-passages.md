@@ -2326,3 +2326,139 @@ dans un ordre indéterminé.
 
 **Aucun contrôle ne pouvait l'attraper** — c'est une page d'accueil, pas un document. Comme l'ordre
 des fragments, ça ne se voit qu'en regardant.
+
+---
+
+## Les Racines du Chaos
+**Shadowdark · aucune source — quatre pages d'écran MJ, six lignes de lore · rendu 8 + 12 + 3 p.**
+
+Premier passage, et le premier cas d'un scénario **qui n'avait jamais été écrit**. Le dossier livré ne
+contenait que des aides de jeu déjà dérivées : un écran MJ en quatre pages, en double `.txt` et
+`.html`, plus un fichier de descriptions de lieux. Aucun texte de scénario, aucune accroche, aucune
+conclusion. Le fond venait de six lignes du *Cursed Scroll 1* — les hexagones `307 – Gardebois` et
+`509. Camp des hors la loi`, plus la rumeur n° 8.
+
+Demandé à Yannick avant d'analyser, conformément à l'étape 1 : il a confirmé qu'il n'existait rien
+d'autre. La partie avait été menée une fois, mal, et le motif qu'il en donnait — « je ne retrouvais
+pas les infos » — s'est révélé exact mais pas pour la raison qu'on croyait.
+
+### La conséquence à tirer quand il n'y a pas de source
+
+**La frontière à trois côtés du socle — la source, le livret, la note — n'en a plus que deux.** Tout ce
+que le livret cède d'habitude au scénario n'a nulle part où aller : l'accroche, le répertoire des PNJ,
+le décor permanent, la conclusion. Le livret devient le document principal et les absorbe ; la note
+rétrécit à ce qu'elle seule sait faire — trancher, chiffrer, piloter.
+
+Vérifié au volume : note de 8 pages, livret de 12. Sans cette redistribution, la note aurait gonflé de
+tout ce qu'elle n'avait pas à porter.
+
+### Le lore contredisait l'écran MJ sur son propre antagoniste
+
+Le démon du camp 509 s'appelle **Unduluk** dans le zine. L'écran MJ l'avait remplacé par
+**Mugdulblub**, qui est un *mentor occulte* dont le lieu est le donjon de Rancemoisi, à l'autre bout
+des Bois — et il en restait une trace fossile dans une option du dilemme, « Rancemoisi le
+reconnaissent », phrase qui n'a de sens que dans l'autre hexagone.
+
+Le profil suivait la même confusion : les 58 PV donnés à la créature sont ceux de Mugdulblub, **niveau
+12**, amputés de ses attaques (3 × filaments +8 pour 2d8) et accompagnés d'une CA inventée. Contre le
+groupe de niveau 1 annoncé, c'était une exécution. Le trait *Caoutchouteux* avait glissé du démon aux
+**trente bandits**, où il rendait l'archer inutile sans raison.
+
+**Ce que le zine avait déjà écrit et que l'écran ignorait** : « Les bandits ne se doutent pas qu'ils
+sont destinés à remplir les deux fonctions » — protection contre les chevaliers, puis nourriture. Le
+seul levier social du scénario était là, gratuit, et la tactique « négocier » de l'écran pointait vers
+Grève, c'est-à-dire le seul personnage qui le savait déjà, et que le zine qualifie de « fieffé
+menteur ».
+
+### Shadowdark ne compte pas en mètres — et c'est ça qui avait cassé la scène finale
+
+Le vrai diagnostic n'était pas l'absence de plan. L'écran MJ **en avait un**, en ASCII, avec des
+flèches et des distances. Ce qu'il avait, c'était quatre rayons métriques empilés autour de l'arbre —
+20 m d'ichor, 15 m de tentacules, 10 m d'aura, un cercle de bandits « à 30-50 m » — dans un jeu qui
+n'a ni grille ni distances chiffrées. Le livre est net : « les monstres peuvent généralement se
+déplacer **à portée intermédiaire** chaque tour ». Trois crans, et rien d'autre.
+
+Un MJ qui lit des mètres dans Shadowdark fait, à chaque round, une arithmétique que ses règles ne
+soutiennent pas. **Retenu : quatre positions nommées, un mot chacune, et changer de position coûte un
+round.** Plus aucune distance dans les trois documents.
+
+Bénéfice non prévu, apparu en écrivant le tableau : **les tentacules ne portent qu'au pied de
+l'arbre**, donc trois prises sur cinq sont hors d'atteinte du démon. Le groupe se scinde tout seul
+entre ceux qui parlent et ceux qui sabotent. La géométrie, une fois posée en positions, *distribue les
+rôles* — ce qu'aucun rayon métrique ne faisait.
+
+*Promu dans le chapitre Shadowdark de `MODELE-systemes.md`.*
+
+### Trois versions du boss remplacées par un compteur
+
+L'écran donnait 30, 45 ou 58 PV selon l'heure d'arrivée — trois fiches à tenir prêtes pour un dilemme
+que son propre tableau résolvait d'avance (« laisser le blessé » y était la seule branche viable,
+« le ramener » étiquetée défaite probable).
+
+Remplacé par **un seul chiffre, le nombre de tentacules sortis** : +1 tous les 3 rounds, 6 et le démon
+émerge, 0 et le rituel casse, une prise détruite en rétracte un définitivement. L'heure d'arrivée ne
+fixe plus que le point de départ.
+
+Et le dilemme redevient un échange : ce qu'on paie en crans, on le récupère en **information**. Le
+blessé ramené au village parle devant témoins, ce qui fait passer le levier social de `ND 15` à
+`ND 12`. La branche la plus coûteuse mécaniquement est la plus généreuse humainement.
+
+Reprise au passage de la règle de la scène à otage inerte (`MODELE-analyse.md`) : **abattre un
+tentacule ne le rétracte pas, mais il ne frappe pas ce round-là.** Frapper achète du temps, et le
+personnage sans torche bénite ni beau discours a un rôle.
+
+### Le piège de numérotation, deuxième occurrence
+
+Consigné après *L'Or de Maximilien* — « au-delà de dix fragments, numéroter sur trois chiffres » — et
+commis quand même : le livret est sorti avec « Les trente » et « L'aube » en positions 2 et 3, parce
+que `100-` passe avant `20-`. **Aucun contrôle ne l'attrape**, le PDF est valide.
+
+Repéré uniquement parce que le journal a été relu avant d'être complété. La règle existait, elle était
+juste, et elle n'a servi qu'après coup. *Un contrôle automatique vaudrait mieux qu'une consigne :
+comparer l'ordre alphabétique des fragments à leur ordre numérique et refuser la divergence.*
+
+### Un faux positif du contrôle d'explication de texte
+
+`build.py` cherche `<h2 class="sec"` pour borner la tête de note. Un premier titre de section écrit
+`{.sec .brk}` produit `class="sec brk"`, que la recherche ne reconnaît pas : le contrôle mesure alors
+tout le document et sort « l'explication de texte fait 9 508 signes (max 3 000) ».
+
+Le message accuse le document alors que la cause est le balisage. Les `.brk` ont été retirés — le
+chapitre de la note les donne pour l'exception, pas la règle —, ce qui a fait tomber la note de 9 à
+8 pages sans qu'une ligne change. **La fragilité du contrôle demeure.**
+
+### Ce que la production a coûté
+
+Note 8 p. (fourchette 8-12), livret 12 p. pour 12 unités — **aucune unité n'a débordé** —, feuille 3 p.
+(plafond 6). Les trois PDF sont reproductibles au bit près.
+
+Défauts attrapés par les contrôles, tous réels :
+
+- **une ligne à dire de 118 signes**, qui empilait deux idées : coupée en deux, ce qui était la bonne
+  correction et non un raccourcissement ;
+- **trois unités avec trois encarts ou plus en pied** — Aldric, le rituel, Grève. Le profil du
+  tentacule est remonté sous le palier des prises, le carnet de Grève a rejoint son profil, un palier
+  a été ajouté avant le profil de Grève. Chaque fois, l'encart a trouvé la phrase à laquelle il
+  répondait ;
+- **la couverture sur deux pages** : le bloc de pilotage redisait la chaîne des unités, déjà donnée
+  par « ce qui va probablement se passer ». Doublon retiré ;
+- **médiane des lignes à dire à 72 signes** pour un repère à 60 : dix-sept lignes scindées en deux,
+  sans rien retirer. C'est l'avertissement le plus utile du lot — il signalait une facture qui glissait
+  vers le rédigé, ligne par ligne défendable.
+
+### La feuille sur un scénario sans enquête
+
+Son chapitre prévenait que le format n'avait été éprouvé que sur une enquête, et qu'« un scénario sans
+enquête n'offre pas d'indice à recouper ». Vérifié : la feuille n'a ici **aucun indice à ranger**, et
+ce qu'elle porte est autre chose — l'horloge, les quatre positions, les cinq prises, les profils, les
+pièges. Trois pages au lieu des cinq de *Grand froid*.
+
+Elle recoupe la note plutôt qu'elle ne la complète, comme annoncé. Reste à savoir si elle sert à
+table : **elle n'a pas encore été menée.**
+
+### Ce qui n'a pas été tranché
+
+La règle des **0 PV** de Shadowdark ne figure pas dans le quickstart du meneur, seul livre de règles
+disponible. L'écran MJ en donnait une version (« stabiliser : INT ND 15 ») qui ne correspond à rien :
+elle est listée en arbitrage cosmétique, **sans remplacement**, et le pense-bête du livret renvoie au
+livre de base. Préféré un renvoi honnête à une règle inventée.

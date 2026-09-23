@@ -2446,15 +2446,36 @@ Défauts attrapés par les contrôles, tous réels :
   sans rien retirer. C'est l'avertissement le plus utile du lot — il signalait une facture qui glissait
   vers le rédigé, ligne par ligne défendable.
 
-### La feuille sur un scénario sans enquête
+### La feuille, écrite deux fois — et la seconde sur pièces
 
-Son chapitre prévenait que le format n'avait été éprouvé que sur une enquête, et qu'« un scénario sans
-enquête n'offre pas d'indice à recouper ». Vérifié : la feuille n'a ici **aucun indice à ranger**, et
-ce qu'elle porte est autre chose — l'horloge, les quatre positions, les cinq prises, les profils, les
-pièges. Trois pages au lieu des cinq de *Grand froid*.
+La première version a été **renvoyée par Yannick** avec le mot juste : « elle ne suit pas du tout le
+pattern ». Vérifié contre les quatre feuilles du dépôt, et il avait raison sur deux points mesurables.
 
-Elle recoupe la note plutôt qu'elle ne la complète, comme annoncé. Reste à savoir si elle sert à
-table : **elle n'a pas encore été menée.**
+**Le texte nu avait disparu.** Le chapitre le dit pourtant — « le texte nu vaut *ça se donne*, les
+blocs marquent les exceptions ». La première version n'avait **pas une seule ligne hors bloc**, et
+quinze encarts verts pour huit sections, là où Grand froid en compte cinq. Quand tout est encadré,
+la couleur ne signale plus rien. *Comme pour la numérotation des fragments, la règle existait et
+n'a servi qu'après coup — parce que j'ai suivi l'exemple d'entrée du chapitre sans aller lire les
+feuilles réelles.*
+
+**Les sections étaient des rubriques, pas des points de partie.** Huit rubriques — l'horloge, le
+terrain, les prises, les profils, le savoir, les pièges, le butin, l'aube — sur un scénario dont le
+camp occupe les trois quarts de la séance : il fallait en ouvrir quatre pour tenir une scène. Grand
+froid range par ouverture, par victime, par final ; Bun & Run, qui est un rail comme celui-ci, range
+par scène. Aucun des deux ne range par catégorie de matière.
+
+Réécrite en neuf sections — sept points de partie, deux rubriques —, en texte nu par défaut. Mesures
+après coup : **37 % de lignes hors bloc, contre 35 % pour Grand froid** ; blocs 2 bleus, 8 verts,
+8 rouges, 4 ambre, contre 8/5/8/5. Quatre pages.
+
+Le peu de bleu est le seul écart qui reste, et il est structurel : le bleu porte les indices, et un
+scénario sans enquête n'en a presque pas. Les deux blocs bleus sont les deux savoirs — comment on
+casse un rituel, et ce que Grève a promis aux trente.
+
+*Promu dans `MODELE-livrable-feuille.md` : sur un scénario sans enquête, l'entrée est le moment de la
+partie, et une feuille dont les sections « points de partie » sont minoritaires est mal rangée.*
+
+Reste à savoir si elle sert à table : **elle n'a pas encore été menée.**
 
 ### Ce qui n'a pas été tranché
 

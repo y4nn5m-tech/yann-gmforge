@@ -44,6 +44,19 @@ final : personne n'improvise un rapport de force à un facteur cinq en pleine ba
 voisine qu'aucune source ne mentionne. Un document rangé par lieu oblige à chercher le même indice
 dans quatre unités différentes.
 
+**Sur un scénario sans enquête, l'entrée est le moment de la partie.** Il n'y a alors aucun indice à
+recouper, mais la règle de fond ne change pas : l'entrée est **ce qu'on cherche du doigt**, et sur un
+rail c'est la scène où l'on se trouve. *Bun & Run l'avait résolu ainsi sans que ce soit écrit — cinq
+sections de scène, quatre rubriques transversales.*
+**Ce qu'il ne faut pas faire, et l'erreur est facile : ranger par catégorie de matière.** Une feuille
+dont toutes les sections sont des rubriques — l'horloge, le terrain, les profils, les chiffres, les
+pièges — oblige à en ouvrir quatre pour tenir une seule scène, ce qui est exactement ce que le format
+existe pour éviter. *Cas vécu, rejeté à la relecture : la première feuille des Racines du Chaos, huit
+rubriques et pas un seul point de partie, sur un scénario dont le camp occupe les trois quarts de la
+séance.*
+**Le compte qui alerte :** une feuille où les sections « points de partie » sont minoritaires est mal
+rangée. Grand froid en a dix sur treize, Bun & Run cinq sur neuf.
+
 **Corollaire, et il vaut pour toute enquête : aucun PNJ n'est indispensable, sauf éventuellement le
 commanditaire.** Seuls les indices le sont. Ce qui est indispensable, ce sont les informations, pas
 les bouches qui les portent.
@@ -188,7 +201,11 @@ maître de jeu sa description, et le même qui ferme la scène à sa place. Un d
 
 **Le rouge a suffi** : aucun incident de lecture.
 
-Ce qui reste ouvert, et qu'une seule séance ne peut pas dire : **le format sur un rail**. Un scénario
-sans enquête n'offre pas d'indice à recouper, et la feuille y recoupe la note au lieu de la compléter.
-Elle rend service — des chiffres éparpillés sur cinq fiches se retrouvent mal en trois secondes — mais
-ce n'est plus tout à fait le même objet.
+**Le format sur un rail — première réponse, et elle est de forme.** Un scénario sans enquête n'offre
+pas d'indice à recouper, et la feuille y recoupe la note au lieu de la compléter : elle rend service
+— des chiffres éparpillés se retrouvent mal en trois secondes — mais ce n'est plus tout à fait le
+même objet. Ce qu'on sait maintenant, c'est que **l'objet reste le même tant qu'on range par moment
+de partie** (voir la règle de forme, plus haut) : c'est le rangement par rubriques qui le dénature,
+pas l'absence d'enquête.
+Reste ouvert, et une seule séance ne le dira pas : **est-ce qu'elle sert, à table, sur un rail ?**
+Celle des Racines du Chaos n'a pas encore été menée.

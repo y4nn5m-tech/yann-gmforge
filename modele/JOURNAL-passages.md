@@ -2483,3 +2483,96 @@ La règle des **0 PV** de Shadowdark ne figure pas dans le quickstart du meneur,
 disponible. L'écran MJ en donnait une version (« stabiliser : INT ND 15 ») qui ne correspond à rien :
 elle est listée en arbitrage cosmétique, **sans remplacement**, et le pense-bête du livret renvoie au
 livre de base. Préféré un renvoi honnête à une règle inventée.
+
+---
+
+## Le Toit rouge
+**Shadowdark · création originale à partir de six lignes du zine · 1 h 30 de jeu · rendu 4 + 9 + 3 p.**
+
+Suite directe des *Racines du Chaos*, écrite pour la même table — **des joueurs de 11 à 14 ans**, ce
+qu'on a appris trop tard au passage précédent. Le point de départ tient en six lignes du *Cursed
+Scroll 1* : une tour d'ivoire au toit rouge sur une île du lac Finimere, un sorcier elfe qui étudiait
+« les propriétés infernales des arbres ichoreux », sa disparition il y a un siècle, et des
+« expériences explosives laissées sans surveillance ».
+
+### Deux contraintes neuves, et elles ont tout commandé
+
+**1 h 30.** C'est la première fois qu'une durée est donnée d'avance, et elle décide plus que la forme :
+huit unités de jeu, une dizaine de minutes chacune, deux adversaires dans tout le site, et **aucun
+combat obligatoire**. La note, qui fait 4 pages, aurait été disproportionnée à 8.
+
+**L'âge des joueurs.** Le modèle n'a rien là-dessus : sa section « Écrire pour une table débutante »
+ne parle que du **MJ** qui débute. Ce qui a réellement changé l'écriture, ce n'est pas la difficulté
+mais **le rythme et le concret** — un whodunit en huis clos, envisagé d'abord, a été écarté pour une
+exploration de site, et le premier jet du scénario suivant (des enfants enlevés) a été abandonné parce
+que la table avait déjà joué un enlèvement d'enfants dans la boîte d'initiation de Chroniques
+Oubliées. *Aucune règle n'en sort encore : une occurrence ne fait pas un chapitre.*
+
+### Une exploration verticale n'a qu'un chemin
+
+Le chapitre G impose la **règle des deux accès** : tout lieu portant un butin majeur doit être
+atteignable par plus d'un chemin. Une tour n'a qu'un escalier.
+
+**Retenu : un monte-charge à poulie** qui relie la grève au laboratoire en sautant deux étages. Il
+sert trois fois — fuir, rattraper le retard quand l'heure tourne, et descendre le verre sans le
+casser. *Une contrainte de forme a produit le meilleur objet du scénario.*
+
+### L'objectif en trois morceaux, pour empêcher de s'arrêter au premier étage
+
+Le risque d'une exploration courte est qu'elle se termine à mi-hauteur. **Le principe** est dans le
+journal de la bibliothèque (« l'ichor se fige au contact du sel de lune »), **la substance** au
+laboratoire, et **la dose n'est écrite nulle part** : seul Haldrin la connaît, et il faut monter au
+sommet pour lui parler. Trois étages, trois morceaux, et personne n'a besoin de dire aux joueurs de
+continuer.
+
+### Ce que la demande de Yannick a corrigé, en cours de rédaction
+
+**Le décor n'entre pas dans la note** — question posée, et le chapitre tranche : « les descriptions
+n'ont pas leur place ici, sauf les deux ou trois lignes qui portent une note de jeu ». Mais la demande
+suivante était d'un autre ordre et elle était juste : **un rappel de campagne**. Les documents du
+dépôt sont tous des scénarios isolés ; c'est le premier qui reprend après un autre, et il a fallu une
+section « Où on en est » — ce qui a changé selon les choix de la séance précédente, en trois variantes.
+*Cas neuf : le modèle n'a rien sur la reprise de campagne.*
+
+**La rampe de lancement tient en une seule unité** quand la séance dure 1 h 30, là où le chapitre en
+prescrit trois à cinq. Les trois temps demandés — la forêt, les personnages, le rappel et l'amorce —
+y descendent comme des paliers, et le rappel du camp **se fait dire par les joueurs** plutôt que par
+le MJ : plus court, et plus juste.
+
+### Les tables à tirer, demandées, et ce qu'elles ont changé
+
+Quatre tables : le sable de la grève (d6), un rayonnage (d6), **une fiole du laboratoire (d8)**, un
+bruit dans la tour (d6). La table des fioles est le cœur du scénario — c'est elle qui fait exister le
+laboratoire, plus que la gelée ocre qui le garde.
+
+**Une table à tirer se range dans la zone qui la porte**, pas sur la couverture. La table des bruits,
+qui traverse tout le site, y avait été mise et faisait déborder la couverture sur deux pages ; elle
+est descendue dans l'atrium avec la mention « ici ou n'importe où au-dessus », selon le procédé que le
+chapitre du livret prévoit pour le PNJ flottant rattaché à un lieu naturel. Couverture revenue à une
+page.
+
+### Ce que la production a coûté
+
+Note 4 p., livret **9 unités pour 9 pages** — aucune n'a débordé —, feuille 3 p. Les trois PDF sont
+reproductibles au bit près.
+
+Défauts attrapés par les contrôles, tous réels :
+
+- **une page de note à 8 %**, puis 6 % après une première coupe. Le remède n'était pas de couper
+  encore mais de **fusionner un bloc de pilotage dans sa section** : 5 pages sont devenues 4 ;
+- **l'unité du sommet débordait**, avec quatre encarts en pied. Scindée en deux — la chambre, puis
+  Haldrin — selon la règle « un moment de parole mérite sa page ». C'est la bonne correction : la
+  rencontre est le climax, et elle était comprimée sous le décor ;
+- **trois unités à trois encarts en pied ou plus**, chaque fois pour la même raison : un bloc de
+  mécanique posé après le dernier palier. Un palier ajouté, et l'encart retrouve la phrase à laquelle
+  il répond.
+
+### La feuille, et son ratio
+
+27 % de lignes hors bloc, contre 35 % pour *Grand froid* et 37 % pour *Les Racines du Chaos*. L'écart
+est explicable et assumé : **quatre tables à tirer occupent une grande part de la feuille, et une
+table est un bloc mécanique par nature.** Le texte nu y porte ce qu'il doit porter — le décor de
+chaque étage, ce qui se trouve où, la dernière phrase de Haldrin.
+
+Le rangement, lui, suit la règle promue au passage précédent : **cinq points de partie, deux
+rubriques.**

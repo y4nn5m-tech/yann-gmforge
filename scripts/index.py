@@ -46,6 +46,7 @@ STYLE = """
                      letter-spacing: 0.09em; color: #8aa4b2; margin: 0 0 0.9rem 0; }
 .doc { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5rem 0.9rem;
        padding: 0.6rem 0; border-bottom: 1px solid #eef2f5; }
+.doc .rang { color: #8aa4b2; font-variant-numeric: tabular-nums; min-width: 1.1rem; }
 .doc .quoi { font-weight: bold; color: #132c3c; min-width: 11rem; }
 .doc .vol { font-size: 0.82rem; color: #8aa4b2; }
 .doc .liens { margin-left: auto; font-size: 0.88rem; }
@@ -60,6 +61,7 @@ STYLE = """
   .demarche a:hover { color: #cfe0ec; border-bottom-color: #4a6a80; }
   .scenario { border-top-color: #2c3a44; }
   .doc { border-bottom-color: #1d262c; }
+  .doc .rang { color: #6d8391; }
   .doc .quoi { color: #cfe0ec; }
   .doc .liens a { color: #8fc4e8; border-bottom-color: #2c3a44; }
   .doc .liens a:hover { color: #cfe0ec; border-bottom-color: #4a6a80; }
@@ -131,13 +133,14 @@ def rendre(groupes):
         h.append(f"<h2>{escape(scenario)}</h2>")
         if jeu:
             h.append(f'<p class="jeu-src">{escape(jeu)}</p>')
-        for d in docs:
+        for rang, d in enumerate(docs, 1):
             # Le sous-titre nomme le document ; LIBELLES n'est qu'un repli.
             # L'inverse confondait deux documents d'un même type sous un
             # seul nom — « Les cinq prétirés », déclaré `aide` pour hériter
             # du contrôle « une unité = une page », s'affichait « Aide de jeu ».
             quoi = d["soustitre"] or LIBELLES.get(d["type"]) or d["titre"]
             h.append('<div class="doc">')
+            h.append(f'<span class="rang">{rang}.</span>')
             h.append(f'<span class="quoi">{escape(quoi)}</span>')
             if d["pages"]:
                 h.append(f'<span class="vol">{d["pages"]} pages</span>')
@@ -169,10 +172,10 @@ def main():
     print(f"· index — {len(groupes)} scénario(s), {len(docs)} document(s), "
           f"{compiles} compilé(s)")
     for scenario, ds in groupes:
-        for d in ds:
+        for rang, d in enumerate(ds, 1):
             etat = "/".join(e for e, _ in d["sorties"]) or "—"
             quoi = d["soustitre"] or LIBELLES.get(d["type"]) or d["type"] or "?"
-            print(f"  {scenario} · {quoi} [{etat}]")
+            print(f"  {scenario} · {rang}. {quoi} [{etat}]")
     return 0
 
 

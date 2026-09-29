@@ -6,15 +6,15 @@
 ## Unité flottante — frère Aldric Pincendre
 :::
 
-::: {.obj lab="Objectif — leur donner la méthode sans leur donner un allié"}
+::: {.obj lab="Ce que tu veux obtenir ici"}
 **Sur la route, à n'importe quel moment avant l'approche.** Tôt s'ils n'ont rien tiré d'Elana, en
 réserve s'ils sont déjà équipés : c'est le joker de relance, il donne en deux minutes tout ce qu'il
-faut pour gagner (A4).\
+faut pour gagner.\
 Il parle vite, il donne tout, **et il part**. S'il reste, le final devient le sien. Sa hâte est
 l'argument : quarante chevaliers à prévenir, et eux ne sont que cinq.
 :::
 
-::: {.mj lab="Une chance sur six qu'il soit le traître — et ça ne change pas ce qu'il dit"}
+::: {.mj lab="Une chance sur six qu'il soit le traître"}
 Morvin soupçonne un traître parmi ses quarante. Si c'est lui, **il ne ment pas sur la méthode** : un
 démon sorti n'obéit plus à personne, et il y perdrait autant que le prieuré. Ce qu'il cache, c'est
 qu'il va prévenir **Grève**, pas Grisemuraille — et que les trente sauront qu'on vient.\
@@ -43,13 +43,14 @@ Effet à table : le compteur de départ monte de **1**. Rien d'autre.
 
 ### Ce qu'il laisse
 
-::: {.jeu lab="Dans la main, avant de repartir"}
-**Une fiole d'eau bénite** — détruit une prise à elle seule, ou fait reculer un tentacule d'un tour.\
+::: {.jeu lab="Ce qu'il leur laisse"}
+**Une fiole d'eau bénite.** Elle casse à elle seule une des cinq choses, ou fait reculer un
+tentacule d'un tour.\
 **Le nom du prieuré** — Grisemuraille, au fond des bois, et l'inquisitrice Justinia Morvin.\
 Il refuse de les accompagner, même contre de l'or.
 :::
 
-::: {.obj lab="La sortie"}
+::: {.obj lab="Pour passer à la suite"}
 Il remonte à cheval dès qu'il a fini et part dans l'autre sens. S'ils le suivent, il pousse sa
 monture : la scène ne se rattrape pas.
 :::

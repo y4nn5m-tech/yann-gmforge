@@ -1,77 +1,91 @@
-## Pilotage et checklist {.sec}
+## Mener les deux séances {.sec}
 
-### Tenir 1 h 30, et ce que ça implique
+::: {.jeu lab="Le découpage, minute par minute"}
+**Séance 1** — la place et l'enfant (10) · le combat (30) · frère Aldric (10) · la route (10) ·
+le lac et la porte (20). **Fin sur la porte fermée depuis cent ans.**\
+**Séance 2** — le rez-de-chaussée (12) · la bibliothèque (16) · le laboratoire (20) · la chambre
+(12) · Haldrin (15) · la redescente (10).
+:::
 
-Huit unités de jeu, quatre-vingt-dix minutes : **une dizaine de minutes chacune**. Ce qui fait déraper une
-exploration à cet âge n'est pas le combat mais la **fouille** — et le remède est d'**annoncer ce
-qu'une pièce contient** : cacher l'inventaire ne produit pas du suspense, ça produit de l'attente.
+Ce qui fait déborder la première séance, c'est le combat : à six joueurs qui découvrent, les cinq
+phases peuvent prendre quarante minutes. Si tu vois que ça glisse, **saute les radicelles** et passe
+directement à la grange.\
+Ce qui fait déborder la seconde, ce n'est pas le combat mais la **fouille**. Le remède est d'annoncer
+ce que la pièce contient. Cacher l'inventaire ne crée pas de suspense, ça crée de l'attente.
 
 ::: {.tight widths="24,38,38"}
 +------------------------+--------------------------------------+--------------------------------------+
-| Ce qu'on ne peut pas   | Ce qu'on peut alléger                | Ce qu'on peut oublier                |
-| poser                  |                                      |                                      |
+| À garder en tête       | À simplifier si besoin               | À ne pas suivre du tout              |
 +========================+======================================+======================================+
-| **Les torches.** C'est | **Les fioles** : une seule compte,   | **Le plan.** Cinq niveaux empilés,   |
-| la seule horloge, et   | les autres sont du décor à piocher   | un escalier, un monte-charge. Il n'y |
-| elle tourne en temps   | dans la table                        | a rien à mémoriser                   |
-| réel                   |                                      |                                      |
+| **Les torches.** Elles | **Les fioles** : une seule compte.   | **Le plan.** Quatre niveaux empilés, |
+| brûlent en temps réel, | Les autres servent à amuser la table | un escalier, un monte-charge. Il n'y |
+| pendant que tu parles  |                                      | a rien à retenir                     |
 +------------------------+--------------------------------------+--------------------------------------+
-| **Les trois morceaux   | **Les adversaires** : un par étage,  | **Les effectifs.** Trois créatures   |
-| de la réponse** (A2) : | et chacun a une sortie qui n'est pas | dans toute la tour, et elles ne se   |
-| savoir lequel ils ont  | l'épée                               | déplacent pas                        |
-| déjà                   |                                      |                                      |
+| **Ce qu'ils ont déjà   | **Les créatures** : une par étage,   | **Les effectifs.** Trois créatures   |
+| trouvé** des trois     | et chacune peut être évitée          | en tout, et elles ne bougent pas de  |
+| bouts de la réponse    |                                      | leur pièce                           |
 +------------------------+--------------------------------------+--------------------------------------+
 :::
 
-### Les risques
+### Ce qui peut mal tourner
 
 ::: {.tight widths="26,34,40"}
 +--------------------------+------------------------------------+------------------------------------------+
-| Le risque                | Le symptôme à table                | Le remède                                |
+| Le problème              | Comment tu le vois venir           | Quoi faire                               |
 +==========================+====================================+==========================================+
-| **La fouille sans fin**  | Trois jets pour la même étagère    | La table du rayonnage : **un tirage,     |
-|                          |                                    | une réponse, on passe** (unité           |
-|                          |                                    | *La bibliothèque*)                       |
+| **La fouille n'en finit  | Trois jets pour la même étagère    | Utilise la table du livret : un tirage,  |
+| plus**                   |                                    | une réponse, on passe à autre chose      |
 +--------------------------+------------------------------------+------------------------------------------+
-| **Ils s'arrêtent au      | « On a la réponse, on redescend »  | Le journal dit *sel de lune* et personne |
-| premier étage**          |                                    | ne sait ce que c'est. C'est écrit ainsi  |
-|                          |                                    | exprès (A2)                              |
+| **Ils redescendent après | « On a la réponse, on s'en va »    | Le journal parle de « sel de lune » et   |
+| le premier étage**       |                                    | personne ne sait ce que c'est. C'est     |
+|                          |                                    | voulu                                    |
 +--------------------------+------------------------------------+------------------------------------------+
-| **Ils tranchent la       | Deux gelées, puis quatre           | La règle est dans son profil : elle ne   |
-| gelée**                  |                                    | se divise **que** sur le tranchant. Le   |
-|                          |                                    | leur laisser découvrir une fois, puis    |
-|                          |                                    | le dire                                  |
+| **Ils coupent la gelée** | Deux gelées, puis quatre           | Laisse-les le découvrir une fois, puis   |
+|                          |                                    | dis-leur que le tranchant la divise      |
 +--------------------------+------------------------------------+------------------------------------------+
-| **Le noir complet**      | Plus une torche, et quatre         | Ce n'est pas une punition : **on peut    |
-|                          | joueurs qui ne voient rien         | redescendre** (B3), et le monte-charge   |
-|                          |                                    | va plus vite que l'escalier              |
+| **Plus aucune lumière**  | Quatre joueurs qui ne voient rien  | Ce n'est pas une punition. Ils peuvent   |
+|                          |                                    | redescendre, et le monte-charge va plus  |
+|                          |                                    | vite que l'escalier                      |
 +--------------------------+------------------------------------+------------------------------------------+
-| **Le temps déborde**     | 1 h passée, on est au premier      | Sauter le laboratoire : la gelée garde   |
-|                          | étage                              | les fioles, mais **le monte-charge y     |
-|                          |                                    | mène directement**, et Haldrin peut      |
-|                          |                                    | nommer la bonne fiole                    |
+| **Une heure est passée   | Ils sont encore au premier étage   | Saute le laboratoire. Le monte-charge y  |
+| et il reste deux         |                                    | mène directement, et Haldrin peut leur   |
+| étages**                 |                                    | nommer la bonne fiole                    |
 +--------------------------+------------------------------------+------------------------------------------+
 :::
 
-### Les deux qui portent la séance
+### Les deux choses qui portent la séance
 
-::: {.mj lab="Une ligne chacun"}
-**Haldrin** — *pas fou, mais seul depuis cent ans.* Il parle trop vite, il pose des questions sur le
-monde avant de répondre aux leurs, et il oublie de dire le principal. Ce n'est pas de la ruse.\
-**La tour elle-même** — *rien n'a bougé depuis un siècle, et tout est encore en place.* Le lit est
-fait. C'est ça qui met mal à l'aise, pas les toiles d'araignée.
+::: {.mj lab="Comment les jouer"}
+**Haldrin.** Il n'est pas fou. Il est seul depuis cent ans. Il parle trop vite, il pose trois
+questions avant d'en laisser poser une, et il oublie de dire l'essentiel.\
+**La tour.** Rien n'y a bougé depuis un siècle et tout est resté en place. Le lit est fait. C'est ça
+qui doit mettre mal à l'aise, pas les toiles d'araignée.
 :::
 
-### Checklist
+### À préparer
 
-::: {.jeu lab="À décider avant de commencer"}
-- **Le miroir**, si personne ne le prend : recommandé, il reste en place et Haldrin attend. La suite
-  est meilleure s'ils y retournent de leur plein gré.
-- **Si tu es en retard** : l'étage à sauter est le laboratoire, pas le sommet.
+::: {.jeu lab="Décide avant de commencer"}
+- **Suite ou scénario seul.** Si tes joueurs n'ont pas vécu la nuit du camp, prends la variante de la
+  page *Où on en est* : l'arbre est là depuis trois ans, Mathilde Bower les engage, et Gurney Tullins
+  n'existe pas.
+- **Ce que devient le miroir** si personne ne le prend. Conseil : il reste en place et Haldrin
+  attend. Le scénario suivant sera meilleur s'ils y retournent de leur plein gré.
+- **Quel étage sauter** si tu es en retard. C'est le laboratoire, jamais le sommet.
+- **Combien de torches** ils emportent. Fais-le compter à voix haute avant qu'ils quittent le
+  village.
 :::
 
-::: {.jeu lab="À ne pas oublier de dire"}
-- **Tout ce qui est en verre ici a cent ans** (B2), avant qu'ils remplissent leurs sacs · **on peut
-  redescendre quand on veut** (B3) · **ce qui vit là-dedans voit dans le noir, vous non** (B1) · **le
-  compte de l'or à voix haute**, à chaque trouvaille (B4).
+::: {.jeu lab="À avoir sous la main"}
+- Le **livre de base**, aux profils *vase ichoreuse*, *mante obscure*, *gelée ocre*.
+- Un **d8** pour les fioles du laboratoire.
+- Des **noms de villageois**, si l'un d'eux parle — *Torvald, Bren, Hask, Gurney, Carlin, Elana,
+  Mathilde.*
+:::
+
+::: {.jeu lab="Pense à leur dire"}
+- Tout ce qui est en verre ici a cent ans. Avant qu'ils remplissent leurs sacs.
+- On peut redescendre quand on veut.
+- Les créatures de la tour voient dans le noir. Eux, non.
+- Le compte de l'or, à voix haute, à chaque fois.
+- Qu'ils peuvent ouvrir autant de fioles qu'ils veulent au laboratoire.
 :::

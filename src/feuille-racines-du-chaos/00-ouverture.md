@@ -29,11 +29,11 @@ n'accompagne, et personne ne le discute — c'est la lune noire.
 **Elana**, au Foyer de Gede — joviale, fatiguée, trois garçons triplés, un mari alité. Elle vend des
 torches à 1 po les cinq.
 
-Le camp est à **deux heures de marche**. Une torche brûle **une heure réelle** (B5).
+Le camp est à **deux heures de marche**. Une torche brûle **une heure réelle** .
 
 ### Ce qui doit sortir avant qu'ils entrent dans les bois
 
-::: {.dire lab="Casser un rituel d'arbre — trois accès, aucun conditionnel"}
+::: {.dire lab="Casser un rituel — trois sources, aucune ne dépend d'un jet"}
 - **Elana** : les chevaliers brûlent ces arbres à l'huile bénite, et ils brûlent **d'abord tout ce
   qu'il y a autour**. Elle donne un second symbole de saint Ydris
 - **Frère Aldric Pincendre**, sur la route : offrandes, marques, voix — en couper une le fait
@@ -43,7 +43,7 @@ Le camp est à **deux heures de marche**. Une torche brûle **une heure réelle*
   le rituel est visible. Rien n'est caché
 :::
 
-::: {.mj lab="Aldric — une chance sur six qu'il soit le traître de Morvin"}
+::: {.mj lab="Aldric est-il le traître ? Une chance sur six"}
 Il ne ment pas sur la méthode : un démon sorti n'obéit plus à personne. Ce qu'il cache, c'est qu'il
 va prévenir **Grève**, pas le prieuré. **Effet, et c'est le seul : le compteur de départ monte de 1.**
 :::
@@ -61,13 +61,13 @@ s'étendent**.\
 Le réveiller : `SAG ND 12`, ou de l'eau sur le visage. Lire les marques : `INT ND 15`, ou n'importe
 qui ayant déjà vu un symbole de saint Ydris.
 
-::: {.dire lab="Ce qu'il donne, s'il parle"}
+::: {.dire lab="Ce qu'il dit s'il parle"}
 - L'or de trois comtés, juré sur la croix de Grève
 - Ce qui parle dans l'arbre ne demande pas de l'or : **il demande de la viande**
 - **Torvald est parmi les trente.** Il chante avec eux
 :::
 
-::: {.jeu lab="Les trois branches — le compteur de départ, et l'accès au levier"}
+::: {.jeu lab="Les trois choix, et le compteur de départ"}
 **Le laisser** — 23 h · **1 tentacule** · il ne parle jamais, le chant reste à `CHA ND 15`\
 **L'emmener** — 23 h 30 · **2 tentacules** · il parle à l'approche, le chant passe à `CHA ND 12`,
 mais Grève le réclame\

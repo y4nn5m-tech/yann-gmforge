@@ -6,15 +6,17 @@
 ## Mathilde Bower, et ce qu'elle paie
 :::
 
-::: {.mj lab="Ce qu'elle sait, et ce qu'elle ne sait pas"}
-Trois bûcherons manquent depuis deux jours, partis vers les coupes du sud. **Elle ignore tout du
-camp** : elle croit à un accident, ou aux loups. Ce qu'elle redoute vraiment, c'est la date — et
-là-dessus elle est superstitieuse et elle a raison (A5).
+::: {.mj lab="Ce que Mathilde Bower sait"}
+Trois bûcherons manquent depuis deux jours, partis vers les coupes du sud.\
+**Elle ignore tout du camp.** Elle croit à un accident, ou aux loups.\
+Ce qu'elle redoute vraiment, c'est la date. Elle est superstitieuse, et cette fois elle a raison.
 :::
 
-::: {.obj lab="Objectif — qu'ils partent ce soir, et pas demain matin"}
-Ne pas les presser : laisser Mathilde le faire. Elle paie d'avance, ce qui rend le refus gênant, et
-elle dit la seule chose qui interdit d'attendre — demain, il sera trop tard pour les trois hommes.
+::: {.obj lab="Ce que tu veux obtenir ici"}
+Qu'ils partent ce soir, pas demain matin.\
+Ne les presse pas toi-même, laisse Mathilde le faire. Elle paie d'avance, ce qui rend le refus
+gênant. Et elle dit la seule chose qui interdit d'attendre : demain, il sera trop tard pour les
+trois hommes.
 :::
 
 ### Ce qu'elle dit
@@ -31,13 +33,14 @@ elle dit la seule chose qui interdit d'attendre — demain, il sera trop tard po
 **Les coupes du sud** sont à deux heures de marche. Un sentier large, puis les bois s'épaississent.\
 **Trois nuits de suite**, des lueurs vertes vues depuis la lisière sud — deux villageois le disent,
 personne n'y est allé *(SAG ND 9 pour que quelqu'un le mentionne seul)*.\
-**Le symbole au-dessus de la porte** : Elana en a un second dans un tiroir, et elle le donne (A4).
+**Le symbole au-dessus de la porte** : Elana en a un second dans un tiroir, et elle le donne.
 :::
 
-::: {.mj lab="Ce que vaut le symbole, et ce qu'il ne fait pas"}
-Ce n'est pas une arme. Ce qu'il apporte, c'est la phrase qu'Elana prononce en le donnant : les
-chevaliers **brûlent** ces arbres, avec de l'huile qu'ils font bénir, et ils brûlent d'abord tout ce
-qu'il y a autour. C'est le premier des trois accès au savoir (A4).
+::: {.mj lab="Le symbole de saint Ydris"}
+Ce n'est pas une arme. Ce qui compte, c'est la phrase qu'Elana prononce en le donnant : les
+chevaliers **brûlent** ces arbres avec de l'huile bénite, et ils brûlent d'abord tout ce qu'il y a
+autour.\
+C'est la première des trois façons d'apprendre comment on gagne.
 :::
 
 ### Sur le pas de la porte
@@ -48,13 +51,13 @@ qu'il y a autour. C'est le premier des trois accès au savoir (A4).
 - Derrière eux, on tire le verrou. Pas brutalement — comme tous les soirs.
 :::
 
-::: {.jeu lab="À compter maintenant, devant eux — B5"}
+::: {.jeu lab="Faire compter les torches, devant eux"}
 **Combien de torches.** Une brûle **une heure réelle**. Le trajet en demande deux, le camp une
 troisième. Le faire dire à voix haute par celui qui les porte.\
 Elana en vend, à 1 po les cinq. C'est la dernière occasion.
 :::
 
-::: {.obj lab="Le passage de main"}
+::: {.obj lab="La phrase qui leur rend la main"}
 Dernière chose à dire, puis on attend : **« Il est dix heures. La route du sud est devant vous.
 Qu'est-ce que vous emportez ? »**
 :::

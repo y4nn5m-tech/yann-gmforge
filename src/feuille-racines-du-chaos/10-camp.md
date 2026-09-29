@@ -11,14 +11,14 @@ pieds. C'est d'ici qu'on parle.\
 cercle entend ce qui s'y dit.**\
 **Le pied de l'arbre** *(deux rounds)* — les offrandes, les marques, l'ichor, les tentacules.
 
-::: {.mj lab="La forme de la scène, et elle distribue les rôles toute seule"}
+::: {.mj lab="Le groupe se sépare tout seul"}
 **Les tentacules ne frappent qu'au pied de l'arbre** et ne poursuivent personne. Le cercle et
 l'estrade sont hors de leur portée.\
-Trois prises sur cinq sont donc hors d'atteinte du démon. Ceux qui parlent restent au large ; ceux
-qui sabotent s'avancent et ont besoin qu'on tienne les tentacules à leur place.
+Trois des cinq choses à casser sont donc hors d'atteinte du démon. Ceux qui parlent restent au large ; ceux
+qui sabotent s'avancent, et ils ont besoin qu'on tienne les tentacules à leur place.
 :::
 
-::: {.jeu lab="Le seul jet de zone — il découle de la position (B1)"}
+::: {.jeu lab="Le seul jet de danger, selon l'endroit"}
 Au **pied** : `CON ND 12` au début de son tour. **Partout ailleurs : rien.**\
 `DEX ND 12` seulement si l'on **court** vers le pied au lieu d'y marcher.\
 **La dissolution**, elle, porte partout : une cible, une fois par round.
@@ -26,15 +26,16 @@ Au **pied** : `CON ND 12` au début de son tour. **Partout ailleurs : rien.**\
 
 ## Le camp — l'horloge et les cinq prises {.sec}
 
-::: {.jeu lab="Le compteur — six dés posés devant soi"}
+::: {.jeu lab="Le compteur — six dés devant toi"}
 **+1 tentacule tous les 3 rounds.** À **6**, Unduluk émerge. À **0**, le rituel casse.\
-Une prise détruite : **−1**, définitivement, et le prochain est repoussé de 3 rounds.\
+**Casser une des cinq choses** fait rentrer un tentacule pour de bon, et repousse le prochain de
+3 tours.\
 Un tentacule abattu **repousse au round suivant**, mais il ne frappe pas ce round-ci.
 :::
 
 **Ne jamais l'annoncer en chiffres.** Il se dit en sol qui se fend, en racines qui gagnent du terrain.
 
-### Les cinq prises
+### Les cinq choses qui tiennent le rituel
 
 **Les offrandes** — au pied. Feu, eau bénite ou sel, **une action**. Pain, os bouillis, liquides
 noirs, or. **120 po brûlent avec.**\
@@ -47,7 +48,7 @@ Gurney, `ND 15` sans. **Il faut être sur l'estrade**, pas à la lisière.\
 **Le chant** — le cercle. **Dix bandits réveillés** et il tombe. `CHA ND 12` avec le savoir, `ND 15`
 sans ; réussite : **1d6** sortent de transe.
 
-::: {.jeu lab="Les trois autres façons de réveiller un bandit (B3)"}
+::: {.jeu lab="Les trois autres façons de réveiller un bandit"}
 On le frappe — **lui et ses deux voisins**.\
 Le chant casse — **tous ceux qui sont debout**.\
 Grève leur en donne l'ordre.
@@ -80,7 +81,7 @@ La clé du coffre de sa tente, et **son carnet** — des comptes, des dates, et 
 
 ## Les trente {.sec}
 
-::: {.mj lab="Ce qu'ils sont, et ils ne le savent pas"}
+::: {.mj lab="Ce qu'ils sont sans le savoir"}
 Des hommes recrutés avec de l'or, pas des fanatiques. Unduluk a besoin d'eux pour **deux** choses :
 faire écran aux chevaliers de Grisemuraille maintenant, **et le nourrir après**. Ils ignorent les
 deux.\

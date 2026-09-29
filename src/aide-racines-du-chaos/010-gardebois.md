@@ -6,10 +6,10 @@
 ## Gardebois, le soir de la lune noire
 :::
 
-::: {.obj lab="Objectif — leur faire accepter que la nuit est un lieu où l'on n'entre pas"}
-Tout ce qui suit repose là-dessus : dans ces bois, on rentre avant le noir. Faire dire aux gens du
-village qu'ils ne sortiront pas, et **ne jamais expliquer pourquoi**. C'est ce qui rendra leur propre
-départ coûteux.
+::: {.obj lab="Ce que tu veux obtenir ici"}
+Qu'ils sentent que dans ces bois, on rentre avant le noir.\
+Fais dire aux gens du village qu'ils ne sortiront pas cette nuit, et **n'explique jamais pourquoi**.
+Leur propre départ leur coûtera d'autant plus.
 :::
 
 ### Les Bois, depuis la route
@@ -43,7 +43,7 @@ départ coûteux.
 - Les conversations tombent d'un cran quand la porte s'ouvre.
 :::
 
-::: {.obj lab="Les personnages, sans arrêter la scène"}
+::: {.obj lab="Les présenter sans arrêter la scène"}
 C'est ici qu'ils se présentent, **assis, un bol devant eux**. Une phrase chacun : ce qui l'amène dans
 un village de bûcherons, et à qui, dans la salle, il a déjà adressé la parole.\
 Passer au suivant sans commenter. Elana repasse entre les tables pendant ce temps.
@@ -59,7 +59,7 @@ Passer au suivant sans commenter. Elana repasse entre les tables pendant ce temp
 - [« Ils sont toujours pas rentrés, Elana. Ça fait deux jours. »]{.q}
 :::
 
-::: {.obj lab="La sortie"}
+::: {.obj lab="Pour passer à la suite"}
 Elle attend qu'on vienne à elle. Si personne ne bouge, Elana pose un bol de trop sur leur table et
 dit que c'est Mathilde Bower qui paie.
 :::

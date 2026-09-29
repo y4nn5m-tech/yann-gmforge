@@ -1,75 +1,81 @@
-## Les chiffres à avoir en main {.sec}
+## Les chiffres {.sec}
 
-::: {.obj lab="D'où ils viennent"}
-Les trois profils sont **ceux du livre de base, inchangés**. Ce qui est de nous, c'est le **nombre**
-— un par étage —, la **sortie sans épée** de chacun, et le chiffrage du butin, que le zine ne donne
-pas.
+::: {.obj lab="D'où viennent ces chiffres"}
+Les trois créatures sont celles du livre de base, sans changement. Ce qui a été ajouté pour ce
+scénario : leur nombre, une façon d'éviter chacune sans se battre, et le prix du butin.
 :::
 
-### Les trois choses vivantes de la tour
+### La racine, au village
 
-::: {.jeu lab="Atrium — une vase ichoreuse"}
-**CA 12 · PV 15 · 2 × filaments +3 (1d6) · NV 3.**\
-*Caoutchouteuse* : perforant réduit de moitié. *Corrosive* : le métal ou le bois qui la touche est
-détruit **sur un 1 au d6**.\
-**La sortie sans épée, et elle est dans le zine : elle se coule vers la source de chaleur la plus
-proche.** Une torche jetée à l'autre bout de la salle la déplace. Les joueurs de cet âge trouvent ça
-tout seuls si on décrit qu'elle suit la lumière.
+::: {.jeu lab="Trois segments hors du puits"}
+**Chaque segment : CA 12 · PV 8.** Le détruire la fait reculer d'un pas et libère qui elle tenait.
+Les trois détruits, elle rentre.\
+**Étreinte** +3 : aucun dégât, mais la cible est soulevée et immobilisée. `FOR ND 12` pour se
+dégager, ou deux personnages ensemble sans jet. **1d4 par tour** à qui reste immobilisé.\
+**Radicelles ×3**, à partir de la troisième phase : CA 13 · PV 3 · fouet +2 (1d4).\
+**La grange** : sur eux, `DEX ND 12` sinon **2d6** et ensevelis. Sur elle, **deux segments d'un
+coup**.\
+*Profil créé pour ce scénario. Aucune créature du livre ne fait l'affaire : il fallait quelque chose
+qui fasse peur sans tuer (A5).*
 :::
 
-::: {.jeu lab="Bibliothèque — une mante obscure"}
-**CA 13 · PV 4 · 1 × morsure +3 (1d4) ou ténèbres · vol · NV 1.**\
-*Ténèbres* : **éteint toutes les sources de lumière à portée intermédiaire.**\
-**Ce n'est pas un adversaire, c'est une panne de courant qui vole.** Quatre points de vie : elle meurt
-du premier coup qui touche. Le danger n'est pas ses dégâts, c'est les trente secondes de noir complet
-dans une pièce pleine d'étagères — et le fait qu'il faut **rallumer**, ce qui coûte une torche (B1).
+### Les trois créatures
+
+::: {.jeu lab="Vase ichoreuse — au rez-de-chaussée"}
+**CA 12 · PV 15 · 2 × filaments +3 (1d6) · niveau 3.**\
+*Caoutchouteuse* : les armes perforantes ne font que la moitié des dégâts.\
+*Corrosive* : une arme ou un bouclier qui la touche est détruit sur un 1 au d6.\
+**Comment l'éviter :** le zine dit qu'elle va vers la source de chaleur la plus proche. Une torche
+jetée à l'autre bout de la salle l'attire, et l'escalier se libère. Aucun jet à faire.
 :::
 
-::: {.jeu lab="Laboratoire — une gelée ocre"}
-**CA 9 · PV 20 · 2 × tentacules +3 (1d6) · NV 4.**\
-*Scission* : **si on la tranche**, elle se divise en deux, PV partagés, jusqu'à quatre fois.\
-**CA 9 : tout le monde la touche.** Le piège est de la couper — chaque coup d'épée double le nombre
-d'adversaires.\
-**Les deux sorties :** le **contondant et le feu** ne divisent rien, la règle ne parle que de
-trancher. Et elle est lente : on peut simplement **passer à côté** pour atteindre les fioles.
+::: {.jeu lab="Mante obscure — à la bibliothèque"}
+**CA 13 · PV 4 · morsure +3 (1d4), ou ténèbres · vole · niveau 1.**\
+*Ténèbres* : éteint toutes les lumières à portée intermédiaire. Elle ne fait aucun dégât avec.\
+**Elle meurt du premier coup qui la touche.** Le danger n'est pas elle, c'est le noir : il faut
+rallumer, ce qui consomme une torche.
 :::
 
-### Le butin, et c'est l'expérience de la séance
+::: {.jeu lab="Gelée ocre — au laboratoire"}
+**CA 9 · PV 20 · 2 × tentacules +3 (1d6) · niveau 4.**\
+*Scission* : si on la coupe, elle se sépare en deux, PV partagés. Jusqu'à quatre fois.\
+**Comment l'éviter :** elle est lente et elle occupe l'allée du milieu. L'allée de droite est libre.\
+**Si on se bat quand même :** une masse ou une torche ne la divisent pas, seul le tranchant le fait.
+Sa CA de 9 veut dire que tout le monde la touche.
+:::
+
+### Le butin
 
 ::: {.tight widths="34,18,48"}
 +------------------------------------+------------+--------------------------------------------------+
 | Où                                 | Combien    | Remarque                                         |
 +====================================+============+==================================================+
-| Le sable de la grève               | 1d6 × 10   | Un seul tirage, en arrivant ou en repartant      |
+| Le sable de la plage               | 1d6 × 10   | Un seul tirage, à l'aller ou au retour           |
 +------------------------------------+------------+--------------------------------------------------+
-| Trois livres reliés d'argent       | **75 po**  | Lourds. Trois, pas un de plus                    |
+| Trois livres reliés d'argent       | **75 po**  | Lourds. Il y en a trois, pas plus                |
 +------------------------------------+------------+--------------------------------------------------+
-| La loupe de cristal                | **40 po**  | Bibliothèque. Sert aussi à lire le journal       |
+| La loupe de cristal                | **40 po**  | À la bibliothèque                                |
 +------------------------------------+------------+--------------------------------------------------+
-| Les instruments de cuivre et verre | **120 po** | **Seulement s'ils arrivent entiers en bas** (B2) |
+| Les instruments de cuivre et verre | **120 po** | Seulement s'ils arrivent entiers en bas          |
 +------------------------------------+------------+--------------------------------------------------+
-| Le cercle d'argent du sol          | **90 po**  | Sommet. Il faut le desceller, ce qui prend du    |
-|                                    |            | temps et fait du bruit                           |
+| Le cercle d'argent du sol          | **90 po**  | Au sommet. Il faut une demi-heure pour l'arracher|
 +------------------------------------+------------+--------------------------------------------------+
-| **Le miroir**                      | **150 po** | Et c'est le seul lien avec Haldrin. Le vendre,   |
-|                                    |            | c'est le condamner                               |
+| **Le miroir**                      | **150 po** | C'est aussi le seul moyen de parler à Haldrin    |
 +------------------------------------+------------+--------------------------------------------------+
 :::
 
-::: {.obj lab="Ce qu'il faut en dire"}
-Entre **350 et 450 po** selon ce qui sort entier de la tour, soit 70 à 110 par personnage. Compter à
-voix haute à chaque trouvaille (B4) : sur une séance d'une heure et demie, c'est la seule jauge de
-progression qu'ils voient bouger.\
-**Le miroir est le seul vrai choix du scénario.** Cent cinquante pièces, ou un homme enfermé depuis
-cent ans. Ne pas peser sur la décision, et ne pas la commenter après.
+::: {.obj lab="Ce qu'il faut en faire"}
+Le total va de 350 à 450 pièces d'or, soit 70 à 110 par personnage. Compte chaque somme à voix haute
+quand ils la trouvent : sur une heure et demie, c'est la seule chose qu'ils voient progresser.\
+**Le miroir est le seul vrai choix de la séance.** Cent cinquante pièces, ou un homme enfermé depuis
+cent ans. Ne pèse pas sur leur décision et ne la commente pas après.
 :::
 
-### La lumière, et c'est la seule horloge
+### Les torches
 
-::: {.jeu lab="À compter devant eux avant d'entrer — B1"}
-Une torche = **une heure réelle**. La séance en dure une et demie. **La tour est aveugle : aucune
-fenêtre avant le sommet.**\
-Deux torches suffisent tout juste. Trois donnent de l'air. Une seule, et la mante obscure finit le
-travail.\
-**Ce qui vit là-dedans voit sans lumière. Eux, non.**
+::: {.jeu lab="À compter devant eux avant d'entrer"}
+Une torche brûle **une heure réelle**. La séance dure une heure et demie. La tour n'a aucune fenêtre
+avant le sommet.\
+Deux torches suffisent tout juste. Trois donnent de la marge.\
+Les créatures de la tour voient sans lumière. Les personnages, non.
 :::

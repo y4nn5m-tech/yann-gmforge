@@ -2486,6 +2486,25 @@ livre de base. Préféré un renvoi honnête à une règle inventée.
 
 ---
 
+### Troisième passage — la même passe de forme
+
+Les mêmes six tics, mesurés puis corrigés : **54 étiquettes-phrases sur 107**, 51 tournures
+« X, et Y », **18 renvois codés** dans le livret, et surtout **33 occurrences du mot « prise »** —
+un mot que j'avais inventé pour nommer les cinq points d'ancrage du rituel, et qui ne veut rien dire
+pour qui ouvre le document.
+
+Partout, ce sont maintenant **les cinq choses qui tiennent le rituel**, et « casser une des cinq
+choses ». Après réécriture : 9 étiquettes-phrases (des énumérations), 34 tournures, 0 renvoi codé,
+0 « prise ».
+
+Le compteur de tournures est tombé moins bas que sur *Le Toit rouge* (34 contre 19). C'est le tic le
+plus difficile à voir dans son propre texte, et aucun compteur ne le distingue d'une énumération
+légitime.
+
+Ajouté aussi la page **Ce que chaque moment demande** — par capacité, jamais par personnage, pour la
+raison expliquée dans l'entrée du *Toit rouge*.
+
+
 ## Le Toit rouge
 **Shadowdark · création originale à partir de six lignes du zine · 1 h 30 de jeu · rendu 4 + 9 + 3 p.**
 
@@ -2567,12 +2586,90 @@ Défauts attrapés par les contrôles, tous réels :
   mécanique posé après le dernier palier. Un palier ajouté, et l'encart retrouve la phrase à laquelle
   il répond.
 
-### La feuille, et son ratio
+### La feuille de conduite, écrite puis supprimée
 
-27 % de lignes hors bloc, contre 35 % pour *Grand froid* et 37 % pour *Les Racines du Chaos*. L'écart
-est explicable et assumé : **quatre tables à tirer occupent une grande part de la feuille, et une
-table est un bloc mécanique par nature.** Le texte nu y porte ce qu'il doit porter — le décor de
-chaque étage, ce qui se trouve où, la dernière phrase de Haldrin.
+Trois documents avaient été demandés, avec la réserve posée avant rédaction : sur 1 h 30 sans
+enquête, une feuille n'a presque rien à porter. Elle a été écrite quand même — 27 % de lignes hors
+bloc contre 35 % pour *Grand froid*, l'écart venant des quatre tables à tirer, qui sont des blocs
+mécaniques par nature.
 
-Le rangement, lui, suit la règle promue au passage précédent : **cinq points de partie, deux
-rubriques.**
+**Yannick l'a supprimée après lecture**, et pour la bonne raison : en lisant les trois côte à côte,
+il a constaté que **le livret était le document du jour J** et que la feuille ne servait à rien à
+côté. C'est exactement ce que le chapitre de la feuille annonce — elle existe pour les moments où
+les joueurs recoupent entre eux et où le MJ vérifie au lieu de décrire. Une exploration n'en a
+aucun.
+
+*Confirmation par l'usage d'une règle déjà écrite. Rien à promouvoir.*
+
+
+### Deuxième passage — la forme, et une ouverture qui change tout
+
+**« On dirait que tu utilises un jargon technique qui t'est propre. »** Le reproche portait sur la
+forme, pas sur le fond, et il était mesurable. Compté sur les deux documents : **52 étiquettes de
+bloc sur 82 étaient des petites phrases** au lieu d'un titre, la tournure « X, et Y » revenait
+51 fois, 13 renvois codés de type `(A2)` envoyaient chercher ailleurs en pleine partie, et
+13 occurrences de mots inventés — « morceau », « la sortie », « le passage de main ».
+
+Après réécriture : 0 étiquette-phrase, 19 tournures, 0 renvoi codé, 0 mot inventé.
+
+**La cause est unique et vaut d'être retenue : j'ai écrit les livrables dans le style du modèle.**
+Le modèle est un texte de réflexion — il explique, il nuance, il raconte d'où viennent ses règles.
+Ce style est juste pour lui et faux pour un document qu'on tient en main pendant que six joueurs
+attendent. *Promu dans le socle.*
+
+**Le scénario doit se tenir seul.** Second reproche, et il était juste : les documents supposaient
+d'avoir mené *Les Racines du Chaos*. Ajouté une page *Ce qui s'est passé avant* — le premier
+scénario en six lignes, ce qu'est un arbre ichoreux, et une variante en trois changements pour un
+groupe qui découvre. Le livret porte les deux ouvertures dans sa rampe.
+
+**L'accroche était trop faible pour des joueurs de 11-14 ans**, et Yannick l'a vu avant moi. « Allez
+chercher comment tuer un arbre » est une quête d'adulte prévoyant : rien ne presse, personne n'est
+en danger. Sa proposition — *in media res* avec un enjeu fort — était la bonne ; sa seconde idée, un
+long texte d'exposition lu à voix haute, était son contraire exact, et elle a été écartée.
+
+Le scénario ouvre maintenant sur **une racine qui crève le puits du village et attrape un enfant**.
+Trois minutes de jeu avant toute explication. L'exposition arrive après, par un chevalier qui entre
+sur la place une fois le combat fini — et qui **refuse d'aider**, parce que le zine dit que son
+ordre est « affreusement en sous-effectif ». Tant qu'un adulte compétent peut régler le problème,
+les joueurs n'ont rien à faire.
+
+### Le combat-didacticiel, et la contrainte qu'il impose
+
+Cinq phases, chacune ouvrant une possibilité : un test hors combat, l'initiative, les cibles
+multiples, le décor comme arme, la fin. **La racine attrape au lieu de blesser** — elle soulève, elle
+immobilise, elle ne fait 1d4 qu'à qui reste pris. Perdre un personnage dans la première scène d'une
+campagne, à onze ans, ne produit rien de bon. Et elle rentre d'elle-même au sixième tour : le combat
+ne peut pas s'éterniser.
+
+**Conséquence non négociable : le scénario passe à deux séances.** Trente à quarante minutes de
+combat ne s'ajoutent pas gratuitement à une tour qui en demande soixante-dix. Séance 1 au village et
+sur la route, séance 2 dans la tour. La note porte le minutage des deux.
+
+### La correction la plus importante du passage : ne pas coller les personnages aux scènes
+
+Les six personnages de la table ayant été donnés, j'ai écrit une planche *qui sert où* dans les deux
+notes, en invoquant la règle du socle sur le croisement trait × scène.
+
+**Yannick l'a refusée :** « un scénario ne devrait pas être lié à des personnages, c'est rigide et
+non flexible ». Il avait raison, et le socle aussi — **j'avais sauté sa condition d'application.** La
+règle dit « quand **le scénario** fournit des prétirés ». Elle vise le cas où l'auteur a écrit les
+fiches et n'a pas dit où elles tombent. Elle ne vise pas les personnages permanents d'une table, que
+le scénario ne doit pas connaître.
+
+Les deux pages ont été retournées : elles s'appellent **Ce que chaque moment demande**, et elles
+listent la capacité appelée, jamais le nom de qui la porte. Trois colonnes, et c'est la troisième
+qui règle tout : **ce qu'on fait si personne ne l'a.** Chaque page se termine sur *ce qui ne demande
+aucune capacité* — les vraies décisions de la soirée, qui appartiennent à la table entière.
+
+Les six personnages ont leur document à eux, `pretires-bois-crepusculaires`, rattaché à la campagne
+et à aucun scénario : portraits en deux lignes, ce que chacun veut, et ce qui les lie. Aucun lieu,
+aucun PNJ, aucune scène n'y est nommé.
+
+*Promu dans le socle.*
+
+### La page d'accueil numérote les documents
+
+L'ordre de lecture existait dans le code de `scripts/index.py` sans être visible nulle part. Chaque
+document porte maintenant son rang — l'annoté, la note, le livret, la feuille —, du plus loin de la
+table au plus près. Demandé par Yannick après avoir hésité, en lisant, sur lequel des trois il devait
+avoir sous les yeux pendant la partie.

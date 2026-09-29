@@ -10,7 +10,7 @@ une clairière glacée. Certains courent, d'autres s'assoient et ne bougent plus
 
 ### Unduluk est sorti
 
-::: {.mj lab="Ce n'est pas un massacre — A6"}
+::: {.mj lab="Ce n'est pas un massacre"}
 Il va vers **le cercle**, pas vers les personnages. Il vient chercher ce qu'on lui a promis : de la
 chair, et un écran contre Grisemuraille. **Il ne poursuit personne.**\
 Perdus : les trente non réveillés, Torvald avec eux, et l'arbre devenu ancrage permanent. Sauvés :
@@ -23,6 +23,6 @@ tous ceux qu'ils ont sortis de transe.
 village.** Sinon la route reste vide.\
 **Dans la journée** — des cavaliers de Grisemuraille, qui n'attendent pas d'être invités.
 
-::: {.mj lab="Les trois plants, à ne pas commenter"}
+::: {.mj lab="Les trois choses semées pour la suite"}
 Le nom dans le carnet · le départ de frère Aldric, traître ou non · l'arbre qui n'est pas mort.
 :::

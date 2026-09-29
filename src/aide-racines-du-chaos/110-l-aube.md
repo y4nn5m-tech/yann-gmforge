@@ -6,7 +6,7 @@
 ## L'aube — les deux fins
 :::
 
-::: {.mj lab="Ce qui ne change pas, quelle que soit l'issue"}
+::: {.mj lab="Ce qui ne change pas, quoi qu'ils fassent"}
 **L'arbre est toujours debout.** Rituel cassé ou non, il fume encore au matin, et la terre est morte
 sur cent pas autour. Personne ne replantera ici.\
 Et dans les deux cas, quelqu'un à Grisemuraille apprendra que des étrangers étaient là.
@@ -24,12 +24,12 @@ Et dans les deux cas, quelqu'un à Grisemuraille apprendra que des étrangers é
 - Torvald, s'il est vivant, cherche quelqu'un des yeux. Il a reconnu un nom.
 :::
 
-::: {.jeu lab="Ce qu'ils emportent"}
+::: {.jeu lab="Ce qu'ils rapportent"}
 **Les offrandes**, si elles n'ont pas brûlé : 120 po en pièces et bijoux.\
 **Le coffre de la tente de Grève** : 240 po *(DEX ND 12, ou la clé sur lui)*.\
 **Son épée bâtarde** : 60 po, emblème limé.\
 **Les bourses des bandits** : 1d6 × 10 po par groupe de cinq fouillé.\
-En Shadowdark, l'or **est** l'expérience — et mille pièces séparent du niveau 2 (B6).
+En Shadowdark, l'or **vaut** de l'expérience, et il en faut mille pour le niveau 2.
 :::
 
 ### Si Unduluk est sorti
@@ -45,7 +45,7 @@ En Shadowdark, l'or **est** l'expérience — et mille pièces séparent du nive
 - L'arbre redevient un arbre. Il pulse doucement.
 :::
 
-::: {.mj lab="Ce qui se passe réellement, et ce n'est pas un massacre — A6"}
+::: {.mj lab="Ce n'est pas un massacre"}
 Il vient chercher **ce qu'on lui a promis** : de la chair, et un écran contre Grisemuraille. Cinq
 inconnus armés de haches ne l'intéressent pas. **Il ne poursuit personne.**\
 Ce qui est perdu : les trente qui n'ont pas été réveillés, Torvald avec eux, et l'arbre qui devient
@@ -62,7 +62,7 @@ un ancrage permanent. Ce qui est sauvé : tous ceux qu'ils ont sortis de transe,
 - Ils n'attendent pas qu'on les invite.
 :::
 
-::: {.obj lab="Ce qu'on sème, sans y appuyer"}
+::: {.obj lab="Ce qu'on sème pour la suite"}
 Le nom du carnet. Le départ de frère Aldric. Et l'arbre qui n'est pas mort.\
 Grisemuraille enverra chercher ceux qui ont vu : c'est une convocation, pas une invitation. Ne pas
 l'annoncer — la laisser arriver.

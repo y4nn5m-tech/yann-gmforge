@@ -6,7 +6,7 @@
 ## L'approche du camp
 :::
 
-::: {.obj lab="Objectif — ralentir, et leur laisser le temps de décider d'un plan"}
+::: {.obj lab="Ce que tu veux obtenir ici"}
 C'est le seul endroit du scénario où l'on décrit longuement. Descendre les trois paliers sans les
 interrompre, puis **s'arrêter et attendre**. Tout ce qu'ils décideront ici vaudra mieux que ce
 qu'ils improviseront au premier round.
@@ -45,13 +45,13 @@ qu'ils improviseront au premier round.
 - De la boue fraîche sur ses bottes.
 :::
 
-::: {.jeu lab="Ce que le compteur affiche à cet instant"}
+::: {.jeu lab="Où en est le compteur à cet instant"}
 Poser devant soi le nombre de tentacules correspondant à l'heure d'arrivée : **1** à 23 h · **2** à
-23 h 30 · **4** à 23 h 45 (A3). Ils sortent du sol autour du tronc, lents, épais comme un bras.\
+23 h 30 · **4** à 23 h 45. Ils sortent du sol autour du tronc, lents, épais comme un bras.\
 **À partir de maintenant : +1 tous les 3 rounds.**
 :::
 
-::: {.obj lab="Le passage de main"}
+::: {.obj lab="La phrase qui leur rend la main"}
 Dire la dernière ligne, puis attendre sans rien ajouter : **« Personne ne vous a vus. Qu'est-ce que
 vous faites ? »**
 :::

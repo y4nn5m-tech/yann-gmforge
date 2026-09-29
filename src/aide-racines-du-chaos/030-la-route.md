@@ -6,7 +6,7 @@
 ## La route du sud
 :::
 
-::: {.obj lab="Objectif — leur faire sentir le temps qui passe, sans compter devant eux"}
+::: {.obj lab="Ce que tu veux obtenir ici"}
 Deux heures de marche, et **rien** : c'est voulu. Ce vide est ce qui rendra le camp insupportable.
 Marquer le temps par la torche qui baisse et par le froid, jamais par une heure annoncée.
 :::
@@ -31,7 +31,7 @@ Marquer le temps par la torche qui baisse et par le froid, jamais par une heure 
   Traversée *[(DEX ND 12, sinon trempé et une torche perdue)]{.m}* ou détour d'une demi-heure.
 :::
 
-::: {.mj lab="Ce que ces deux endroits sont"}
+::: {.mj lab="Ce que sont ces deux endroits"}
 Des arbres ichoreux **plus anciens**, l'un brûlé par les chevaliers il y a des années, l'autre
 toujours vivant sous l'eau. Aucun des deux ne contient quoi que ce soit. Ils existent pour qu'on
 reconnaisse le troisième quand on le verra.

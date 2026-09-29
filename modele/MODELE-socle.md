@@ -81,6 +81,11 @@ Chaque bloc porte une **étiquette en petites capitales** qui dit à quoi il ser
 piocher », « Interroger — Bagou », « La vérité du trou », « Objectif de la scène ». L'étiquette est ce
 qui rend le document navigable ; ne jamais l'omettre.
 
+**Une étiquette nomme, elle n'explique pas.** C'est un titre de tiroir, pas une thèse. « Objectif —
+leur apprendre que la tour se traverse, pas se nettoie » oblige à lire la phrase pour savoir si c'est
+le bon tiroir ; « Ce que tu veux obtenir ici » se reconnaît d'un coup d'œil. *Mesuré sur deux
+documents avant correction : 52 étiquettes sur 82 étaient des petites phrases.*
+
 Un même paragraphe (PNJ, lieu, scène, événement) enchaîne librement plusieurs blocs de couleurs
 différentes.
 
@@ -92,6 +97,17 @@ doser les blocs.
 
 ## Règles de fond communes
 
+- **N'écris pas les livrables dans le style du modèle.** Le modèle explique, nuance et raconte d'où
+  viennent ses règles : c'est juste pour lui, et faux pour un document qu'on tient en main pendant
+  que la table attend. Trois dérives, toutes mesurables, toutes rencontrées deux fois :
+  **le vocabulaire inventé** — un mot forgé pour les besoins de l'analyse (« les cinq prises », « le
+  deuxième morceau », « le passage de main ») ne veut rien dire pour qui ouvre le document. Employer
+  les mots de tout le monde, quitte à être plus long : « les cinq choses qui tiennent le rituel » ;
+  **le commentaire de ses propres choix** — « c'est la vraie trouvaille de l'étage », « c'est le but
+  de la table, pas un échec ». C'est la règle « un document ne se commente pas lui-même », sous une
+  forme qui échappe à la relecture parce qu'elle se déguise en conseil ;
+  **le renvoi codé seul** — « tout ici a cent ans (B2) ». En pleine partie, personne n'ouvre la note
+  pour savoir ce qu'est B2. Donner l'information sur place, et garder le numéro pour la note.
 - **Ne jamais reformuler en prose ce que la source donne déjà en mots-clés** — le recopier tel quel.
 - **Un document ne se commente pas lui-même.** Ni encart « mode d'emploi », ni tableau qui explique ses
   propres étiquettes, ni « règle de ce document », ni note sur la version de la source, ni
@@ -118,6 +134,16 @@ doser les blocs.
   caractéristiques, ni équipement dans nos documents. Ce qui nous concerne, c'est ce que le
   *scénario* donne au PJ : son accroche du jour, ce qu'il sait que les autres ignorent, ses liens
   avec le groupe.
+- **Cette règle ne vaut que si les prétirés viennent du scénario**, et la condition n'est pas
+  décorative. Des **personnages permanents de la table** — ceux qui traversent une campagne — ne
+  doivent apparaître dans aucun document de scénario : un document qui nomme qui fait quoi devient
+  faux dès qu'un joueur manque, qu'un personnage meurt ou que la table change.
+  Ce qu'on écrit à la place : **ce que chaque moment demande**, en capacité et jamais en nom, avec
+  **ce qu'on fait si personne ne l'a**. C'est cette troisième colonne qui empêche un scénario de
+  dépendre d'une composition de groupe. Et l'on termine par *ce qui ne demande aucune capacité* : les
+  vraies décisions appartiennent à la table entière.
+  Les personnages de la table, eux, ont droit à leur propre document — portraits, ce que chacun veut,
+  ce qui les lie —, rattaché à la campagne et à aucun scénario. *Vu dans les Bois Crépusculaires.*
 - **Quand le scénario fournit des prétirés, croiser chaque trait avec les scènes.** Les fiches disent
   ce qu'un personnage sait faire ; elles ne disent jamais *où* ça tombe. C'est notre travail : pour
   chaque atout, chaque formation et chaque point faible, **nommer la scène qui le déclenche**, et dire

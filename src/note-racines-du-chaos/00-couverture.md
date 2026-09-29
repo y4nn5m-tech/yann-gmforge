@@ -21,52 +21,53 @@ Shadowdark · Bois Crépusculaires, hex 307 et 509 · une nuit de nouvelle lune 
 ::: rule
 :::
 
-::: {.obj lab="Ce que tu mènes"}
-**L'espèce.** Un rail d'une nuit qui se termine en set-piece. Pas d'enquête, rien à reconstituer : la
-menace est visible dès qu'on arrive, et le travail des joueurs est de la **démonter**, pas de la
-comprendre. Le verbe dominant est *saboter*, et c'est la première chose à leur faire sentir — une
-table qui croit devoir tuer quelque chose perd la partie en quatre rounds.\
-**La source, franchement.** Il n'y en a pas. Ce scénario n'a jamais été écrit : il n'existait qu'un
-écran de MJ en quatre pages, dérivé de six lignes du *Cursed Scroll 1* — le village de Gardebois
-(307) et le camp des hors-la-loi (509). Le livret qui accompagne cette note **est** le scénario ; le
-zine reste dessous pour les Bois, les rencontres et les profils.\
-**Ce que les joueurs vont faire.** Marcher deux heures, décider du sort d'un homme, puis casser un
-rituel à cinq prises. La décision du milieu est la seule qui coûte quelque chose, et elle est
-maintenant **payante des deux côtés** (A3).\
-**Ce que ça va te demander.** **Un seul compteur** — les tentacules sortis de terre. Il est à la fois
-l'horloge, le score et le décor : tu le poses en dés devant toi, et les joueurs voient l'aiguille
-avancer sans que tu l'annonces jamais.
+::: {.obj lab="Le scénario en bref"}
+**Une seule nuit, sur un chemin imposé, qui finit par une grande scène au camp.** Pas d'enquête, rien
+à deviner : la menace est visible dès qu'ils arrivent. Le travail des joueurs est de la **démonter**,
+pas de la comprendre.\
+**Fais-leur sentir ça dès le début.** Une table qui croit devoir tuer quelque chose perd la partie en
+quatre tours.\
+**Il n'existait aucun scénario écrit.** Seulement un écran de MJ en quatre pages, tiré de six lignes
+du *Cursed Scroll 1* : le village de Gardebois et le camp des hors-la-loi. Le livret qui accompagne
+cette note **est** le scénario. Le zine sert encore pour la forêt, les rencontres et les profils.\
+**Ce que les joueurs font :** marcher deux heures, décider du sort d'un blessé, puis casser un rituel
+en s'attaquant à cinq choses qui le tiennent.\
+**Ce que tu as à tenir :** un seul compteur, le nombre de tentacules sortis de terre. Il sert à la
+fois d'horloge et de score. Pose-le en dés devant toi. Les joueurs le voient monter sans que tu aies
+à l'annoncer.
 :::
 
-::: {.warn lab="Où ça casse"}
-**Le démon du camp n'est pas celui que l'écran MJ nommait** : le zine met Unduluk au 509, et
-Mugdulblub est un mentor occulte qui n'habite pas cette forêt (A1).\
-**L'antagoniste n'a aucun profil, et il ne doit pas en avoir un** : contre des PJ de niveau 1, tout
-chiffre qu'on lui donne est un arrêt de mort (A2).\
-**Rien, nulle part, ne dit aux joueurs comment on gagne.** Feu sacré, eau bénite, symboles de saint
-Ydris : trois moyens, zéro accès (A4).\
+::: {.warn lab="Les quatre pièges"}
+**Le démon du camp n'est pas celui que l'écran MJ nommait.** Le zine met Unduluk au camp. Mugdulblub
+est autre chose, et il n'habite pas cette forêt. Voir A1.\
+**L'antagoniste ne doit pas avoir de profil.** Contre des personnages de niveau 1, n'importe quel
+chiffre qu'on lui donne les tue. Voir A2.\
+**Rien ne dit aux joueurs comment on gagne.** Feu sacré, eau bénite, symboles de saint Ydris : trois
+moyens, et aucun moyen de les apprendre. Voir A4.\
 **Une défaite ne peut pas être un massacre.** Ce qui sort de l'arbre n'a aucune raison de s'occuper
-de cinq inconnus (A6).
+de cinq inconnus. Voir A6.
 :::
 
 ::: {.tight widths="38,62"}
 +----------------------------------------+----------------------------------------------------------+
-| Bloc                                   | Quand on l'ouvre                                         |
+| Partie                                 | Quand la lire                                            |
 +========================================+==========================================================+
-| **Ce que la source ne tranche pas**    | Avant la séance, en entier. Six décisions bloquantes,    |
-|                                        | dont trois décident du final                             |
+| **Les décisions à prendre**            | Avant la séance, en entier. Six décisions, dont trois    |
+|                                        | portent sur la scène finale                              |
 +----------------------------------------+----------------------------------------------------------+
-| **La liste d'annonces**                | À côté de toi pendant toute la partie                    |
+| **Ce qu'il faut leur dire**            | À côté de toi pendant toute la partie                    |
 +----------------------------------------+----------------------------------------------------------+
-| **Les chiffres à avoir en main**       | Avant le départ de Gardebois, et **impérativement**      |
-|                                        | avant le premier round au camp                           |
+| **Les chiffres**                       | Avant le départ de Gardebois, et surtout avant le        |
+|                                        | premier tour au camp                                     |
 +----------------------------------------+----------------------------------------------------------+
-| **Les trois accès, et ce qu'ils        | La veille. C'est le bloc qui remplace la planche         |
-| ouvrent**                              | trait × scène : ce jeu n'a pas de prétirés               |
+| **Comment ils apprennent à gagner**    | La veille                                                |
 +----------------------------------------+----------------------------------------------------------+
-| **Pilotage**                           | La veille. Les notes de jeu se relisent juste avant      |
-|                                        | l'approche du camp                                       |
+| **Ce que chaque moment demande**       | La veille, puis garde-la ouverte pendant la scène du     |
+|                                        | camp                                                     |
 +----------------------------------------+----------------------------------------------------------+
-| **Checklist**                          | Une heure avant                                          |
+| **Mener la partie**                    | La veille. Relis les notes sur les personnages juste     |
+|                                        | avant l'approche du camp                                 |
++----------------------------------------+----------------------------------------------------------+
+| **À préparer**                         | Une heure avant                                          |
 +----------------------------------------+----------------------------------------------------------+
 :::

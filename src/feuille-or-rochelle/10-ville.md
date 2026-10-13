@@ -36,11 +36,11 @@ uniforme rochelais.** L'argent ne vaut plus rien — on ne mange pas des écus.
   reconnaître ce qui n'est pas une maladie**
 :::
 
-::: {.obj lab="Comment les douze se lisent ensemble — ne jamais le faire à leur place"}
+::: {.obj lab="Comment les douze se lisent ensemble"}
 Du pain pour plus de bouches · des herbes pour dormir · des robes pour une cérémonie · une clé · des
 sacs pour emporter du lourd · des entrées de souterrains · des chants dessous.\
-**Trois témoignages suffisent.** C'est aux joueurs de le formuler — mais dire quand ils l'ont fait :
-le moment où la table prononce « ils sont sous la cathédrale » est la bascule du scénario.
+**Trois témoignages suffisent.** Ne jamais le faire à leur place : c'est aux joueurs de le formuler.
+Marquer le moment où la table prononce « ils sont sous la cathédrale ».
 :::
 
 ## Les trois jours — chaque événement amène quelqu'un qui parle {.sec}
@@ -60,9 +60,9 @@ le moment où la table prononce « ils sont sous la cathédrale » est la bascul
 - **Jour 3, la nuit** — **les créatures entourent la cathédrale**
 :::
 
-::: {.warn lab="A4 — les signes gravés sont ceux de nos textes"}
-Rien dans la source ne mène des noyés à Duval. **Deschamps et Élise reconnaissent les dessins sans
-jet** — c'est leur métier, ils ont étudié les copies de l'ordre.\
+::: {.warn lab="Les signes gravés sont ceux de nos textes"}
+Rien ne mène des noyés à Duval tant que personne ne regarde les dessins. **Deschamps et Élise les
+reconnaissent sans jet** : c'est leur métier, ils ont étudié les copies de l'ordre.\
 Ce que ça produit tout de suite : ils ne cherchent plus un prêtre disparu, ils cherchent **qui
 d'autre a lu leurs livres**.
 :::
@@ -81,7 +81,7 @@ d'autre a lu leurs livres**.
 - **Garde Yves Boulanger** · corrompu · **la seule porte qui s'ouvre encore avec de l'argent**
 :::
 
-::: {.warn lab="B6 — le tunnel est leur monnaie d'échange"}
+::: {.warn lab="Le tunnel est leur monnaie d'échange"}
 Prévenir Valois qu'une brèche existe sous le rempart nord-ouest achète **une audience, une escorte,
 et le droit de circuler la nuit**. Le prix : avouer par où ils sont entrés.
 :::

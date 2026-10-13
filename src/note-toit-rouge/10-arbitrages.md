@@ -25,6 +25,19 @@ minutes.\
 sommet pour lui parler.
 :::
 
+::: {.warn lab="A2 bis — Pourquoi personne n'y est allé depuis cent ans"}
+La question tombe à la première séance, et sans réponse l'accroche ne tient pas : si l'ordre connaît
+l'histoire et la solution, pourquoi la tour est-elle encore fermée ?\
+**Décision : on ne pouvait pas y aller.** La tour est sur une île, et **le lac est habité** — des
+poissons-chats mutants dont le barbillon paralyse le temps qu'on coule. On ne nage pas, on ne rame
+pas : la barque défoncée de la plage le dit.\
+Le lac est au plus bas depuis **quarante ans**. La langue de sable est apparue il y a trois semaines
+et les pluies d'automne l'effaceront dans quelques jours.\
+**Et l'ordre y est allé.** Frère Vedran est parti dès l'ouverture du passage. Il n'est pas revenu, et
+**la porte de la tour n'a jamais été ouverte** : sa trace s'arrête sur la plage. On ne saura pas ce
+qui lui est arrivé, pas cette séance.
+:::
+
 ::: {.warn lab="A3 — Haldrin n'est pas dans la tour"}
 Le zine est formel : il est prisonnier du Puits ignoble, ailleurs sur la carte, retenu par « un
 réseau de veines et de tendons qui le maintiennent dans un semblant de vie ». Le mettre ici

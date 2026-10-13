@@ -24,9 +24,11 @@ pas.\
 :::
 
 ::: {.jeu lab="L'arithmétique du final"}
-**Le groupe inflige environ 7 points de vie par Moment**, armure déduite et Sauvegardes manquées
-comprises — cinq personnages armés d'une épée, d'une rapière, d'une épée-canne et de deux lames
-courtes.\
+**Le groupe inflige environ 8 points de vie par Moment**, armure déduite et Sauvegardes manquées
+comprises. Les cinq qui frappent portent **d8, d6, d6, d4 et d4** — ce sont les dégâts de leurs
+archétypes, et ils ne dépendent pas de l'arme tenue.\
+**Élise n'ajoute rien au corps à corps** : elle inflige 1 point, que l'armure d'une créature absorbe
+entièrement. Sa scène est l'eau douce, et c'est pour ça qu'elle compte quand même.\
 **Trois créatures en infligent jusqu'à 13** si les trois touchent. Sur des personnages à 11 à 16 points
 de vie, **un personnage tombe par Moment**.\
 Conclusion à tenir avant la scène : **le corps à corps se gagne, mais il coûte quelqu'un.** L'eau douce

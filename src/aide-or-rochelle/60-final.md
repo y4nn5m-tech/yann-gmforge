@@ -6,11 +6,11 @@
 ## Les toits — monter jusqu'au chœur
 :::
 
-::: {.obj lab="Objectif — leur donner l'arme avant qu'ils en aient besoin"}
-**L'eau douce tue ces créatures.** Le dire ici, pendant la montée, pas au moment du combat (B9) : des
-cuves de pluie sur les toits, une citerne dans le cloître. Les faire passer à côté, les faire buter
-dedans.\
-C'est l'arme des personnages sans arme, et Élise n'en a aucune.
+::: {.obj lab="Ce que tu veux obtenir ici"}
+Leur donner l'arme avant qu'ils en aient besoin.\
+**L'eau douce tue ces créatures.** Dis-le ici, pendant la montée, pas au moment du combat : des cuves
+de pluie sur les toits, une citerne dans le cloître. Fais-les passer à côté, fais-les buter dedans.\
+C'est l'arme de ceux qui n'en ont pas — Élise n'en a aucune.
 :::
 
 ### En bas, avant de monter
@@ -22,14 +22,14 @@ C'est l'arme des personnages sans arme, et Élise n'en a aucune.
 - Odeur de sel et de vase, en plein centre-ville, à trois cents pas du port.
 :::
 
-::: {.jeu lab="Profil — Abîme de Khéopsie"}
+::: {.jeu lab="Abîme de Khéopsie"}
 **6 points de vie** *(elles sont déjà en train de mourir)* · **1 point d'armure** · aucun malus au
 toucher · **morsure d8**.\
 **Eau douce : d6, armure ignorée.** Deux seaux suffisent.\
 **Première vision : test de Santé mentale.**
 :::
 
-::: {.mj lab="Pourquoi elles sont si faibles"}
+::: {.mj lab="Elles sont déjà en train de mourir"}
 Dans les deux dernières heures du rituel, elles se sacrifient et se concentrent autour de la
 cathédrale. Elles sont à la moitié de leurs forces et **meurent d'asphyxie** hors de l'eau salée.\
 Ne pas le dire. Le montrer : elles sont lentes, elles halètent, l'une d'elles a cessé de bouger.
@@ -45,7 +45,7 @@ Ne pas le dire. Le montrer : elles sont lentes, elles halètent, l'une d'elles a
 - Une ou deux d'entre elles sur les faîtages, à plat, immobiles.
 :::
 
-::: {.jeu lab="La montée, et le matériel qui la résout"}
+::: {.jeu lab="La montée"}
 **Sauvegarde de Dextérité**, une par personnage. **La corde à crochet de Montfaucon** et **le grappin
 de Remy** : le premier qui monte assure les autres, qui passent **sans jet**.\
 **Sur un échec — on ne tombe pas**, on fait du bruit, et une créature de faîtage se retourne.\
@@ -63,9 +63,10 @@ distinguent pas un habit d'un autre — les soldats rochelais, si, et ils laisse
 ## Le chœur — la vision
 :::
 
-::: {.obj lab="Objectif — ne rien laisser faire pendant une minute entière"}
-C'est le seul moment du dernier acte où tu parles seul. **Ne répondre à aucune question tant que la
-déchirure n'est pas décrite**, puis lâcher la table d'un coup.\
+::: {.obj lab="Ce que tu veux obtenir ici"}
+Ne rien laisser faire pendant une minute entière.\
+C'est le seul moment du dernier acte où tu parles seul. **Ne réponds à aucune question tant que la
+déchirure n'est pas décrite**, puis lâche la table d'un coup.\
 Ce qui doit passer : il est trop tard pour discuter, et pas encore trop tard pour agir.
 :::
 
@@ -128,7 +129,7 @@ restants et **retirer chaque dé qui affiche 6**. Plus aucun dé : le rituel est
 Dextérité se lance **à Désavantage**. **Au dernier dé** : test de Santé mentale pour tout le monde.
 :::
 
-::: {.jeu lab="Profils — les trois hommes du chœur"}
+::: {.jeu lab="Les trois hommes du chœur"}
 **Anselme et Barthélemy** — 14 points de vie · **3 points d'armure tant que la fumée les entoure**, 1
 ensuite · épée longue **d6**. Ils ne quittent pas leur poste.\
 **Jacques de Saint-Pierre** — 13 points de vie · aucune armure · **il ne frappe jamais**. Pas d'arme,
@@ -136,7 +137,7 @@ pas d'attaque, aucune défense. Il continue de lire.\
 **Deux ou trois Abîmes** — 6 PV · armure 1 · morsure d8 · **eau douce d6, armure ignorée**.
 :::
 
-::: {.warn lab="A8 — Les trois voies de la source ne valent pas la même chose"}
+::: {.warn lab="Les trois façons d'arrêter le rituel"}
 **Les fils** — chacun neutralisé **rend un dé**. Nécessaire, jamais suffisant.\
 **Le livre** — seul **le feu** le détruit : il ne se déchire pas et ne brûle pas seul. Il faut une
 flamme au contact, donc quelqu'un à portée de l'autel **pendant un Moment entier**. La torche à huile
@@ -146,13 +147,12 @@ les mots. C'est ce que la table tentera d'abord, et ça coûte un tour pour rien
 l'annoncent** — pas après.
 :::
 
-::: {.obj lab="La quatrième voie, qui n'est pas dans la source"}
-**Le convaincre.** Il croit sauver la ville. Lui montrer ce qu'il y a derrière la déchirure, ou lui
-amener sa fille.\
+::: {.obj lab="La quatrième façon — le convaincre"}
+Il croit sauver la ville. Lui montrer ce qu'il y a derrière la déchirure, ou lui amener sa fille.\
 **Test de Bagou à Désavantage** — **sans Désavantage si Madelaine parle**. Il referme le livre
 lui-même.\
-C'est la seule fin où quelqu'un sort vivant de cette famille, et elle se gagne trois scènes plus tôt,
-au chevet d'un malade.
+C'est la seule fin où quelqu'un sort vivant de cette famille, et elle se gagne au chevet du malade
+que Madelaine soignait.
 :::
 
 ::: {.jeu lab="S'ils refusent l'affrontement"}
@@ -175,8 +175,8 @@ Compter cela comme deux tentatives d'action au compte à rebours.
 - **Jacques referme le livre lui-même.** Il s'assoit par terre et ne dit plus rien.
 :::
 
-::: {.mj lab="Et dans tous les cas — la dernière question appartient aux joueurs"}
-**L'or est toujours dans la cache**, sous une ville qui va se rendre le mois prochain (A1). Ils ne
+::: {.mj lab="La dernière question appartient aux joueurs"}
+**L'or est toujours dans la cache**, sous une ville qui va se rendre le mois prochain. Ils ne
 peuvent pas le sortir : la mer est barrée, la terre est prise.\
 Trois choix, et aucun n'est le bon : l'y laisser pour un autre siècle · tenter la sape et la brèche
 qu'ils ont ouverte · **ou le donner à la ville qui meurt de faim au-dessus.**

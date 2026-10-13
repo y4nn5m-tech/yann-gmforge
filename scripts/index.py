@@ -29,7 +29,8 @@ PAGES = [("demarche.html", "La démarche, et le modèle à récupérer"),
          ("mener.html", "Six gestes, relevés chez un maître de jeu qu'on écoutait")]
 
 LIBELLES = {"annote": "Le scénario annoté", "note": "Note d'arbitrage",
-            "aide": "Aide de jeu", "feuille": "Feuille de conduite"}
+            "aide": "Aide de jeu", "feuille": "Feuille de conduite",
+            "prep": "Préparation — ce qu'il reste à faire"}
 FORMATS = [("pdf", "PDF"), ("html", "Lire en ligne"), ("epub", "EPUB")]
 
 STYLE = """
@@ -105,8 +106,10 @@ def grouper(docs):
     groupes = {}
     for d in docs:
         groupes.setdefault(d["scenario"], []).append(d)
-    # Les documents d'un scénario dans un ordre stable : la note se lit avant.
-    ordre = {"annote": 0, "note": 1, "aide": 2, "feuille": 3}  # l'ordre de lecture réel
+    # Les documents d'un scénario dans un ordre stable, celui de la lecture
+    # réelle : la note se lit avant. Le suivi de préparation ferme la liste —
+    # c'est le seul qui ne se lit pas à la table.
+    ordre = {"annote": 0, "note": 1, "aide": 2, "feuille": 3, "prep": 4}
     for v in groupes.values():
         v.sort(key=lambda d: (ordre.get(d["type"], 9), d["soustitre"], d["titre"]))
     return sorted(groupes.items(), key=lambda kv: kv[0].lower())

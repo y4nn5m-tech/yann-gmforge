@@ -108,7 +108,9 @@ Une heuristique donne le point de départ, jamais le résultat : **un profil au-
 par deux**, et l'on vérifie ensuite par les trois étapes ci-dessus. Les humains de Cthulhu Hack tiennent
 **10 à 20 PV**, ce qui est aussi le plafond d'un adversaire ordinaire.
 
-Repères attestés dans ce dépôt : un PJ de Cthulhu Hack tient **10 à 13 PV** ; un groupe mal armé inflige
+Repères attestés dans ce dépôt : un PJ de Cthulhu Hack tient **10 à 16 PV** — le livre de base le
+chiffre, **Points de Vie = Dé de Vie + 8**, et les six archétypes vont de 10 (Savant, Dé de Vie d4)
+à 16 (Brute, d10) ; un groupe mal armé inflige
 **environ 2 PV par Moment** (*Grand froid*, cinq détectives dont un à mains nues — c'est un plancher,
 pas une moyenne) ; un adversaire de fin de scénario est à **26 PV et 3 d'armure** (la Couleur) ou
 **60 PV en deux phases** (le Wendigo).
@@ -163,10 +165,17 @@ d'usage n'en inflige pas.
 | Compétence Chance | **rien** | Refondre ou couper — §5 |
 | Bonus et malus en % | **Avantage / Désavantage** | Le seul modificateur du jeu cible |
 
-**Plafonner, toujours — la conversion donne l'ordre de grandeur, pas l'échelle.** Les Sauvegardes de
-Cthulhu Hack tiennent entre **8 et 15** : 11-12 pour un personnage moyen, 14-15 pour un point fort. Une
-conversion fidèle sort régulièrement au-dessus, et il faut l'y ramener — une Sauvegarde à 18 réussit
-neuf fois sur dix, ce qui retire au jeu son seul levier de tension.
+**Plafonner, et savoir que c'est notre choix.** Le livre de base ne plafonne pas : les Sauvegardes de
+Cthulhu Hack vont de **3 à 18**, et la création répartit **66 points** entre les six, la primaire
+devant dépasser les secondaires. Ce que nous ajoutons, c'est un plafond de conversion à **15**, parce
+qu'une Sauvegarde à 18 réussit neuf fois sur dix et retire au jeu son seul levier de tension. **Le
+dire comme un arbitrage, jamais comme une règle du jeu.**
+*Le chapitre a longtemps écrit « les Sauvegardes tiennent entre 8 et 15 » comme si le livre le
+disait. Il a fallu scanner la création de personnage pour voir que non. Une règle qu'on n'a pas lue
+dans le livre se présente comme un arbitrage, sinon elle se transmet comme une vérité.*
+**Et le total compte autant que le plafond :** une conversion fidèle dépasse régulièrement les
+66 points de la création — les six prétirés de *L'Or de La Rochelle* sortent entre 72 et 83. Des
+personnages plus forts que la norme, ce qui s'assume pour une table qui découvre, mais se mesure.
 *Cas vécu : les prétirés de* L'Or de La Rochelle *portent Force 18 et Éducation 20 — la seconde hors même
 de l'échelle 3-18 que la source utilise partout ailleurs. Éducation et Taille n'ayant pas de Sauvegarde,
 seule la Force pose question : elle descend à 15.*
@@ -210,6 +219,25 @@ dé. *Cas vécu : Montfaucon, Négocier 20 %, garde un Bagou d6 qu'il lance à D
   le chapitre C de `MODELE-formes.md`.
 - **Format d'un profil** : Dés de Vie · Points de Vie · Points d'Armure · Malus au toucher ·
   attaques et dégâts · capacités spéciales.
+- **Ce qu'un personnage joueur porte, et c'est l'archétype qui le fixe.** Six archétypes — Artiste,
+  Aventurier, Brute, Philanthrope, Savant, Voyou — donnent d'un coup Torche, Bagou, Dé de Vie,
+  Points de Vie, Richesse, Dé de Santé mentale et dégâts. Quatre conséquences qu'on ne devine pas
+  depuis un autre jeu, et qui ont produit six fiches fausses avant d'être lues :
+  **les dégâts appartiennent au personnage, pas à l'arme** — « d6 armé, d4 sans arme » est une ligne
+  d'archétype, et la rapière, l'arquebuse et le poing d'un même personnage font le même chiffre ;
+  **la Richesse est un dé** (d4 à d12), qui descend d'un cran quand un achat dépasse le train de
+  vie — elle remplace tout décompte de pièces ;
+  **l'équipement, c'est deux objets notables**, pris dans la liste du métier de l'archétype, et non
+  un inventaire ;
+  **Points de Vie = Dé de Vie + 8**, ce qui se vérifie mécaniquement sur toute fiche convertie.
+- **Les Points d'Armure réduisent les dégâts**, dé jeté puis armure déduite : **1** pour une armure
+  légère (vêtements renforcés, cuir), **2** pour une renforcée (mailles, gilet pare-balles), **3**
+  pour une lourde (plates).
+- **Les Capacités spéciales sont une liste du jeu**, pas un champ libre : un personnage en porte la
+  primaire de son archétype plus une secondaire, et **trois en tout pour un one-shot**. Ne pas y
+  ranger les règles maison d'un scénario : elles vont en notes de fiche.
+  *Les quatre points ci-dessus viennent de la réédition VF, lue page à page après qu'un passage
+  entier eut produit des fiches mi-Appel de Cthulhu, mi-Cthulhu Hack.*
 - **Ressource de dégâts** : les Dés de Vie servent de réserve ; un scénario peut ajouter des règles de
   blessures légères qui dégradent le DVie d'un cran.
 - **Usure permanente** : un scénario d'horreur cosmique fait perdre, en plus des PV, des **points de

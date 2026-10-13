@@ -32,48 +32,41 @@ n'est pas du sable.
 - Plus près de la tour : des éclats de verre dans le sable, par centaines.
 :::
 
+::: {.jeu lab="Poisson-chat mutant — pourquoi on ne nage pas"}
+**CA 11 · PV 11 · griffes +2 (1d6) ou barbillon (portée intermédiaire) +2 (1d4 + venin) · nage ·
+niveau 2.**\
+*Venin* : `CON ND 12` sinon **paralysie pendant 1d4 rounds**. Paralysé dans l'eau, on coule.\
+**Tant qu'ils passent à pied sec, ils ne les voient pas.** Au retour, l'eau sera remontée : s'ils
+pataugent, un ou deux remontent du fond.
+:::
+
 ::: {.jeu lab="Ce que le sable rend — d6, un seul tirage"}
 **1-2.** Rien que du verre brisé. `DEX ND 9` ou trois coupures. ·
 **3.** **1d6 × 10 po** en pièces anciennes, noircies. ·
 **4.** Un bocal intact, scellé à la cire. Dedans : un morceau d'écorce noire qui bouge encore. ·
 **5.** Un anneau d'argent gravé en elfique — *« pour revenir »* — **20 po**. ·
-**6.** Une chaussure. Puis l'autre. Puis un troisième soulier, dépareillé.
+**6.** Un carnet de cuir gonflé d'eau, illisible. Sur la couverture, une croix de saint Ydris gravée.
 :::
 
-### Au pied de la tour
+### À mi-chemin, dans le sable sec
 
 ::: {.say}
-- Ivoire lisse, sans joint, sans pierre. On dirait coulé d'un seul bloc.
-- Pas de mousse, pas de lierre. Rien ne pousse dessus.
-- Une porte de bois noir, cerclée de fer, sous un linteau gravé d'elfique.
-- Le bois est gonflé d'humidité. La serrure est rouillée jusqu'au cœur.
-- À hauteur d'épaule, dans le bois : quatre entailles parallèles, profondes, anciennes.
+- À mi-chemin, posées côte à côte sur le sable sec : **une paire de bottes de cavalier**.
+- Rangées. Pas perdues. Les lacets noués ensemble.
+- À côté, une croix de fer noirci, la même que celle d'Aldric.
+- Et rien d'autre. Pas de traces de pas autour, le sable est lisse.
 :::
 
-::: {.mj lab="L'inscription sur la porte"}
-Elle dit : *« Je reviens avant la nuit. »*\
-Elle n'est pas gravée dans le linteau. Elle est **écrite à la craie** sur le bois, et elle a tenu
-cent ans sous la pluie.\
-Les quatre entailles ont été faites de l'intérieur. Quelque chose a voulu sortir.
-:::
-
-### Entrer
-
-::: {.say}
-- Le bois a gonflé dans son cadre. La porte ne joue pas d'un pouce.
-- Personne n'a cloué de planches. On l'a simplement fermée, puis oubliée.
-:::
-
-::: {.jeu lab="Trois façons d'entrer, aucune ne demande de clé"}
-**Forcer** : `FOR ND 12`. Le bois gonflé cède d'un coup, dans un bruit énorme.\
-**Crocheter** : `DEX ND 15`. La serrure est en miettes à l'intérieur.\
-**Le monte-charge** : une gaine dans le flanc de la tour, une plateforme de bois posée au sol, une
-corde qui monte dans le noir. Grimper : `FOR ND 12`. Elle mène directement au laboratoire.
+::: {.mj lab="Frère Vedran — ne réponds pas, pas cette séance"}
+Ce sont ses bottes. Il les a retirées lui-même et il les a rangées.\
+**Tu ne sais pas pourquoi, et c'est volontaire.** S'ils fouillent, s'ils appellent, s'ils cherchent
+dans l'eau : rien. Le lac est immobile.\
+Ne laisse pas la table s'enliser plus de cinq minutes. La porte de la tour, elle, n'a **jamais été
+ouverte** — il n'est pas entré.
 :::
 
 ::: {.obj lab="Pour passer à la suite"}
-Par quelque porte qu'ils entrent, la même chose les accueille : **de l'air sec.** Après une journée
-de pluie et un lac, l'intérieur est parfaitement sec.
+Quand ils en ont fini avec la plage, ils arrivent au pied de la tour. Page suivante.
 :::
 
 :::

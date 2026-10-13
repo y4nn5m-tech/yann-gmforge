@@ -6,17 +6,22 @@
 ## Fort Louys — le lieutenant Bouchard
 :::
 
-::: {.mj lab="Ce qu'il est, et ce qu'il n'est pas"}
+::: {.mj lab="Qui est le lieutenant Bouchard"}
 Un officier royaliste chargé de les accueillir, pas de les démasquer. **Il ne les soupçonne pas** : il
 fait son métier, et son métier consiste à poser des questions.\
 Il n'a aucun moyen de vérifier quoi que ce soit. La seule chose qui peut le braquer, c'est une
 contradiction entre deux personnages.
 :::
 
-::: {.obj lab="Objectif — leur faire tenir un mensonge à plusieurs"}
-Adresser les questions à des personnages **différents**, coup sur coup, et laisser les joueurs se
-rattraper entre eux. C'est la scène qui installe le groupe comme groupe.\
-Aucun jet : ils réussissent s'ils s'accordent, ils s'enfoncent s'ils se contredisent.
+::: {.obj lab="Ce que tu veux obtenir ici"}
+Qu'ils tiennent un mensonge à plusieurs.\
+Adresse les questions à des personnages **différents**, coup sur coup, et laisse les joueurs se
+rattraper entre eux.\
+Aucun jet : ils réussissent s'ils s'accordent, ils s'enfoncent s'ils se contredisent.\
+**Si deux personnages se contredisent, Bouchard ne les démasque pas — il les accompagne trop loin.**
+Il les mène jusqu'au camp des tunneliers au lieu de s'arrêter au terrain découvert, reste pendant
+qu'ils parlent au chef d'équipe, et repart en ayant vu où ils creusent : **coche un cran de
+l'horloge du tunnel.**
 :::
 
 ### Le fort
@@ -25,7 +30,7 @@ Aucun jet : ils réussissent s'ils s'accordent, ils s'enfoncent s'ils se contred
 - Une masse de pierre grise couronnée de créneaux, prise aux Rochelais au début du siège.
 - Des volées de flèches tombent des remparts de la ville, par intervalles.
 - Des uniformes bleu et rouge. Des visages marqués par un an de tranchée.
-- Des hommes endurcis, et qui ne sourient pas.
+- Des hommes endurcis. Ils ne sourient pas.
 :::
 
 ### L'officier
@@ -37,13 +42,14 @@ Aucun jet : ils réussissent s'ils s'accordent, ils s'enfoncent s'ils se contred
 - [« Vous, le grand. Vous étiez à Ré ? »]{.q}
 :::
 
-::: {.jeu lab="Le levier de fiche — Leblanc"}
+::: {.jeu lab="Le métier de Leblanc répond ici"}
 *Stratège · Déterminé · Imperturbable*, et **officier de métier**. Il parle à un pair : il connaît les
-grades, les usages, le ton. **Annoncer au joueur, à cette seconde, que son métier répond sans jet** —
-et que c'est à lui de couvrir les autres.
+grades, les usages, le ton.\
+**Annonce-le au joueur à cette seconde-là : son métier répond sans jet**, et c'est à lui de couvrir
+les autres.
 :::
 
-::: {.obj lab="La sortie"}
+::: {.obj lab="Pour passer à la suite"}
 Bouchard les mène lui-même vers les tunneliers, et s'arrête au bord du terrain découvert.\
 [« À partir d'ici, vous courez. Ils tirent depuis les remparts, et ils tirent bien. »]{.q}
 :::
@@ -58,9 +64,10 @@ Bouchard les mène lui-même vers les tunneliers, et s'arrête au bord du terrai
 ## Le kilomètre à découvert
 :::
 
-::: {.obj lab="Objectif — le seul jet de l'acte, et il doit compter"}
-Trois obstacles de la source n'ont aucune conséquence d'échec écrite ; celui-ci en a une (B5). C'est
-donc **ici** qu'on lance les dés, et nulle part ailleurs avant la ville.
+::: {.obj lab="Ce que tu veux obtenir ici"}
+Le seul jet de l'acte, et il doit compter.\
+C'est **ici** qu'on lance les dés, et nulle part ailleurs avant la ville : c'est le seul obstacle de
+la route dont l'échec change quelque chose.
 :::
 
 ### Le terrain
@@ -91,15 +98,16 @@ groupe arrive avec l'aube qui monte, et la sape se fera **de jour, sous les yeux
 ## Le tunnel des terrassiers
 :::
 
-::: {.mj lab="Ce qui se joue ici, et ce qui ne s'y joue pas"}
+::: {.mj lab="Ce qui se joue pendant la sape"}
 La sape prend **deux heures** et ne demande aucun jet : les calculs de Deschamps sont justes, c'est son
 métier. Ce qui se joue pendant ces deux heures, c'est **la conversation avec les tunneliers** — personne
 ne creuse une galerie perpendiculaire sans qu'on demande pourquoi.
 :::
 
-::: {.obj lab="Objectif — une boîte fermée, et les joueurs cherchent la sortie"}
-Ne rien dérouler. Poser trois choses et laisser faire : des hommes qui écoutent la terre, un chef
-d'équipe qui veut savoir, et une paroi à percer.\
+::: {.obj lab="Ce que tu veux obtenir ici"}
+Une pièce fermée, et des joueurs qui cherchent par où elle s'ouvre.\
+Ne déroule rien. Pose trois choses et laisse faire : des hommes qui écoutent la terre, un chef
+d'équipe qui veut savoir, une paroi à percer.\
 Le ton se joue ici pour toute la partie : **les royalistes ne sont pas des méchants.** Des hommes
 fatigués qui creusent sous une ville pour la faire tomber, et à qui les personnages vont mentir.
 :::
@@ -107,7 +115,7 @@ fatigués qui creusent sous une ville pour la faire tomber, et à qui les person
 ### Sous terre
 
 ::: {.say}
-- Des poutres partout, qui étaient des parois qui veulent tomber.
+- Des poutres partout, contre des parois qui veulent tomber.
 - Air confiné, chargé de poussière. Quelques torches clairsemées.
 - Le bruit des pics, devant. Et parfois, plus loin, d'autres pics.
 - **Les Rochelais creusent en face**, pour faire tomber le tunnel sur eux.
@@ -123,7 +131,7 @@ fatigués qui creusent sous une ville pour la faire tomber, et à qui les person
 - [« Si vous m'ouvrez une poche d'eau, on y passe tous. »]{.q}
 :::
 
-::: {.warn lab="B6 — Le tunnel reste ouvert derrière eux"}
+::: {.warn lab="Le tunnel reste ouvert derrière eux"}
 La source pose le problème et ne le résout pas. **Retenu : le laisser ouvert**, avec une horloge de
 **quatre crans que tu coches seul** — un par journée, un de plus à chaque fois que le groupe fait du
 bruit dans la ville. Au quatrième, les royalistes trouvent la galerie.\
@@ -142,11 +150,11 @@ ils sont entrés.
 ## Les catacombes — six étapes dans le noir
 :::
 
-::: {.obj lab="Objectif — leur faire rationner la lumière"}
-**Deux personnages seulement portent une lumière** : la torche à huile de Duprave et la lanterne sourde
-de Remy. Les quatre autres n'ont rien (A3).\
-Le dire **avant qu'ils descendent**, sinon ils dépensent tout dans les deux premières étapes. C'est le
-vrai sujet de la scène, et c'est ce qui rend la suite effrayante.
+::: {.obj lab="Ce que tu veux obtenir ici"}
+Qu'ils rationnent la lumière.\
+**Deux personnages seulement en portent une** : la torche à huile de Duprave, la lanterne sourde de
+Remy. Les quatre autres n'ont rien.\
+Dis-le **avant qu'ils descendent**, sinon ils dépensent tout dans les deux premières étapes.
 :::
 
 ### Le premier boyau
@@ -189,7 +197,7 @@ de Sagesse **à Désavantage**. La marée gagne pendant ce temps.
 Un test pour ceux qui l'ont vue. **Ne pas la décrire entièrement** — trois détails, et on passe.
 :::
 
-::: {.obj lab="La sortie"}
+::: {.obj lab="Pour passer à la suite"}
 Une échelle de corde, et une remise à pêche qui sert d'atelier à filets. **Ils sont dans la ville.**
 :::
 

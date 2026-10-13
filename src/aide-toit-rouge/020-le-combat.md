@@ -13,14 +13,22 @@ pouvoir agir. **Donne-lui sa phrase à ce moment-là**, une seule fois, à voix 
 **Personne ne doit mourir ici.** La racine attrape et secoue. Elle ne tranche pas.
 :::
 
-::: {.jeu lab="La racine — trois segments hors du puits"}
+::: {.jeu lab="La racine — trois segments, tous là dès le premier round"}
+Les trois sortent du puits ensemble. On les voit tous, on peut les attaquer tous.\
 **Chaque segment : CA 12 · PV 8.** Détruire un segment la fait reculer d'un pas et libère qui elle
 tenait.\
 **Les trois segments détruits, elle rentre dans le puits.**\
 **Étreinte** +3 : pas de dégâts, mais la cible est **soulevée et immobilisée**. Se dégager :
 `FOR ND 12` à son tour. Un allié peut aider, à deux c'est automatique.\
 **Elle serre** : 1d4 par tour à qui est immobilisé. C'est tout ce qu'elle fait comme dégâts.\
-Elle ne quitte pas le puits et ne poursuit personne.
+Elle ne quitte pas le puits et ne poursuit personne.\
+\
+**Ce sont les segments qui font avancer la scène.** Une phase nouvelle entre en jeu chaque fois
+qu'un segment tombe — et si aucun ne tombe, au bout de deux rounds, pour que rien ne stagne.\
+**1ᵉʳ segment, ou round 3** → les radicelles · **2ᵉ segment, ou round 5** → la grange ·
+**3ᵉ segment** → elle rentre.\
+**Une phase n'est pas un tour** : entre deux, les rounds s'enchaînent normalement. Compte six à huit
+rounds en tout.
 :::
 
 ### Phase 1 — avant les dés
@@ -35,7 +43,7 @@ Elle ne quitte pas le puits et ne poursuit personne.
 **À un lanceur de sorts de soin :** *« La cheville du gamin est cassée. Toi, tu sais faire. »*
 :::
 
-### Phase 2 — elle se défend
+### Phase 2 — elle se défend · *dès l'initiative*
 
 ::: {.say}
 - Elle frappe de haut en bas, comme un fouet trop lourd.
@@ -53,7 +61,7 @@ mécanique en deux tours.
 *« De là où tu es, tu tires sans risque. Si tu avances au contact, tu perds ça. »*
 :::
 
-### Phase 3 — les radicelles
+### Phase 3 — les radicelles · *au premier segment tombé, ou round 3*
 
 ::: {.say}
 - Le sol se fend à trois endroits de la place, loin du puits.

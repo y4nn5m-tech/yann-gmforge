@@ -83,7 +83,7 @@ L'en-tête YAML va dans le **premier** fragment, et lui seul :
 title: "Bun & Run"
 subtitle: "Note d'arbitrage"
 scenario: "Bun & Run"        # groupe les documents d'un même scénario sur l'index
-type: note                   # note | aide | annote | feuille — déclaré, jamais deviné
+type: note                   # note | aide | annote | feuille | prep — déclaré, jamais deviné
 jeu: "Fevertown — kit de découverte v1.2"
 pied: "BUN & RUN — note d'arbitrage"
 lang: fr
@@ -97,6 +97,11 @@ dense. Le mesurer avant de l'écrire : sur une source déjà en mots-clés, il n
 scénario. `feuille` — **la feuille de conduite**, six pages au plus, sans une ligne à dire : ce qu'on
 cherche du doigt pendant que les joueurs recoupent. Elle **double** le livret, elle ne le remplace
 pas — voir `modele/MODELE-livrable-feuille.md`.
+
+**Un cinquième type, qui n'est pas un livrable.** `prep` — la page de suivi : ce qu'il reste à
+préparer pour une campagne, coché entre les séances. Rien n'y est à dire, rien ne s'y cherche en
+jeu ; elle vit sur le site parce qu'une ligne cochée se commite et se republie. Elle coule comme la
+note et **échappe à tous les contrôles**, volume compris.
 
 **La note s'ouvre par une explication de texte**, d'une page au plus : elle ne raconte rien du
 scénario — le MJ vient de le lire — mais nomme son espèce, le verbe des joueurs, les compteurs à tenir
@@ -173,9 +178,9 @@ et les unités débordaient. WeasyPrint le disait en avertissement, et le build 
 **Les contrôles ne sont pas les mêmes selon `type:`.** Une aide de jeu n'est pas mesurée au
 remplissage — une unité à moitié pleine y est normale — et ses renvois `— A4` pointent vers la note,
 donc ils ne sont pas vérifiés. Ce qui s'y mesure, c'est le débordement, et lui seul.
-La feuille, elle, coule comme la note mais **échappe à tous les contrôles du livret** : ils mesurent
-un texte qu'elle n'a pas. Son remplissage est un avertissement, jamais un échec — une feuille de
-listes finit ses pages là où la liste finit.
+La feuille et la page de suivi coulent comme la note mais **échappent à tous les contrôles du
+livret** : ils mesurent un texte qu'elles n'ont pas. Leur remplissage est un avertissement, jamais un
+échec — une feuille de listes finit ses pages là où la liste finit.
 
 Un avertissement (`·`) n'arrête pas le build : une page à 27 % est souvent une fin de section
 légitime. Un `ÉCHEC` sort en code 1.

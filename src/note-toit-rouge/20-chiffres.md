@@ -8,6 +8,8 @@ scénario : leur nombre, une façon d'éviter chacune sans se battre, et le prix
 ### La racine, au village
 
 ::: {.jeu lab="Trois segments hors du puits"}
+**Les trois sortent ensemble au premier round**, et ce sont eux qui font avancer la scène : une
+phase nouvelle entre en jeu à chaque segment tombé, ou au bout de deux rounds si aucun ne tombe.\
 **Chaque segment : CA 12 · PV 8.** Le détruire la fait reculer d'un pas et libère qui elle tenait.
 Les trois détruits, elle rentre.\
 **Étreinte** +3 : aucun dégât, mais la cible est soulevée et immobilisée. `FOR ND 12` pour se
@@ -17,6 +19,14 @@ dégager, ou deux personnages ensemble sans jet. **1d4 par tour** à qui reste i
 coup**.\
 *Profil créé pour ce scénario. Aucune créature du livre ne fait l'affaire : il fallait quelque chose
 qui fasse peur sans tuer (A5).*
+:::
+
+::: {.jeu lab="Poisson-chat mutant — le lac, au retour"}
+**CA 11 · PV 11 · griffes +2 (1d6) ou barbillon (intermédiaire) +2 (1d4 + venin) · nage ·
+niveau 2.** Profil du zine, inchangé.\
+*Venin* : `CON ND 12` sinon **paralysie 1d4 rounds**. Paralysé dans l'eau, on coule.\
+Ils ne servent que **si quelqu'un entre dans l'eau** — en traversant au retour, quand le niveau a
+monté. À pied sec, ils n'existent pas.
 :::
 
 ### Les trois créatures

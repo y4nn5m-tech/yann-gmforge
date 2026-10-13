@@ -2031,7 +2031,9 @@ plus facile à manquer, parce que ces documents sont bons et qu'on a envie de le
 ## L'Or de La Rochelle
 
 *L'Appel de Cthulhu transposé en Cthulhu Hack, La Rochelle assiégée 1628. Source de 25 pages,
-auto-éditée, 53 600 signes. Scénario annoté (13 p.) puis livret (22 p., 22 unités).*
+auto-éditée, 53 600 signes. Scénario annoté (13 p.), livret (22 p., 22 unités), feuille de
+conduite (5 p.). Puis, au deuxième passage, six fiches de personnage et une planche de
+chevalets — deux accessoires hors chaîne.*
 
 **Premier passage où le système joué n'est pas celui de la source.** Yannick a fourni un scénario écrit
 pour L'Appel de Cthulhu en demandant de le mener en Cthulhu Hack. Rien dans le modèle ne couvrait ce
@@ -2173,6 +2175,113 @@ Trois défauts attrapés par les contrôles, tous réels :
 
 Non corrigé, et assumé : **médiane des lignes à dire à 64 signes** pour un repère à 60. Le repère est un
 avertissement de facture, et le découpage scripté de Magnitogorsk n'aurait rien gagné ici.
+
+### Deuxième passage — la forme, puis six fiches qui mélangeaient deux jeux
+
+Deux chantiers sans rapport l'un avec l'autre, et c'est le second qui a appris le plus.
+
+**La reprise de forme.** Le scénario datait d'avant la règle du socle sur le jargon, et il la violait
+sur toute la ligne : **18 étiquettes « Objectif — … »** explicatives dans le livret, **31 renvois
+codés** dans le livret et la feuille, **9 mots inventés** — « La sortie », « Le passage de main », « Le
+levier », « Le moteur » —, dont deux que le socle cite nommément comme exemples à bannir. Après
+reprise : zéro des trois. La tournure « X, et Y » descend de 10,7 à 9,0 pour mille mots, contre 7,7 à
+8,6 sur les deux scénarios déjà repris. *Application d'une règle existante. Rien à promouvoir.*
+
+### Les fiches de personnage, et la leçon qui vaut pour tout le modèle
+
+Yannick a demandé six fiches remplies sur la fiche alternative de Cthulhu Hack VF. Elles ont été
+produites à partir de ce que le dépôt savait du jeu — et il a vu tout de suite qu'elles **mélangeaient
+L'Appel de Cthulhu et Cthulhu Hack**. Le reproche était juste, et il portait sur cinq points :
+
+- les **dégâts écrits par arme** (« épée d6 », « dague d4 »), alors qu'en Cthulhu Hack ils appartiennent
+  au personnage : « d6 armé, d4 sans arme » est une ligne d'archétype, et la rapière d'un officier, son
+  arquebuse et son poing font le même chiffre ;
+- la **richesse en pièces** — « 7 pièces d'argent », « 10 écus d'or » —, alors que c'est un **dé** qui
+  descend d'un cran quand un achat dépasse le train de vie ;
+- l'**équipement en inventaire** de quatre lignes, alors que le jeu en demande **deux objets notables** ;
+- le **Dé de Vie absent**, faute de savoir qu'il existait — et **Points de Vie = Dé de Vie + 8** ;
+- la case **Capacités spéciales** remplie avec les trois règles maison du scénario, alors que c'est une
+  liste du jeu, dont un personnage de one-shot porte **trois** entrées.
+
+Seuls les points d'Armure étaient justes, par chance.
+
+**La cause, et elle est plus grave que les cinq symptômes : le chapitre Cthulhu Hack du modèle avait
+été écrit sans le livre sous les yeux, et deux de ses affirmations étaient fausses.** « Les Sauvegardes
+de Cthulhu Hack tiennent entre 8 et 15 » : le livre dit **3 à 18**, et la création répartit **66
+points**. « Un PJ tient 10 à 13 PV » : les six archétypes vont de **10 à 16**. Le plafond à 15 était
+notre arbitrage de conversion — défendable — mais il était écrit comme une règle du jeu, et il s'est
+transmis comme telle pendant trois scénarios.
+
+**Règle promue dans `MODELE-systemes.md` : une règle qu'on n'a pas lue dans le livre se présente comme
+un arbitrage, jamais comme une règle du jeu.** La distinction ne coûte rien à écrire et elle évite
+qu'un raccourci devienne une vérité du dépôt. Le chapitre Cthulhu Hack porte maintenant ce que les
+scans ont établi — archétypes, dégâts, Richesse, équipement, armure, capacités — et le plafonnage y est
+déclaré comme ce qu'il est.
+
+**Ce que les six prétirés sont devenus.** Les Sauvegardes et les trois dés d'usage n'ont pas bougé :
+ils sont cités personnage par personnage dans le livret et la feuille, et les toucher aurait obligé à
+reprendre trois documents. Tout le reste vient du livre. L'attribution d'archétype ne s'est pas
+devinée : **les dés d'usage déjà convertis tombaient d'eux-mêmes sur un archétype** — Deschamps et
+Leblanc ont exactement ceux de l'Aventurier, Remy ceux de l'Artiste, Élise la Santé mentale d10 du
+Savant. La Richesse recoupe la source sans qu'on l'ait cherché : Duprave avait « plusieurs louis d'or »
+et sort à d10, Montfaucon « un sac de sous de cuivre » et sort à d4.
+
+Deux chiffres des documents ont dû suivre : Montfaucon passe de d6 à **d8** (Brute), et l'arquebuse de
+Leblanc cesse de porter son propre dé. Le débit du groupe passe de 7 à **8 points de vie par Moment**,
+recalculé dans l'annoté et la feuille. Et un constat qui ne se voyait pas avant : **Élise n'ajoute rien
+au corps à corps** — elle inflige 1 point, que l'armure d'une créature absorbe entièrement.
+
+### Deux accessoires hors chaîne, et le précédent tient
+
+Six fiches et une planche de chevalets, produites par `scripts/fiches-or-rochelle.py` et
+`scripts/chevalets-or-rochelle.py`, sur le patron de `cartes-sorts.py` : hors `build.py`, sans
+couverture ni charte ni contrôles, police embarquée et `SOURCE_DATE_EPOCH` repris de la chaîne pour
+rester reproductibles au bit près. **C'est la deuxième et la troisième occurrence du cas, et le patron
+n'a pas bougé** : un accessoire de table n'est pas un document de la collection.
+
+Leur matière — les six portraits tirés du PDF du commerce, le scan de la fiche vierge — vit dans
+`sources/`, que git ignore. **Le script est versionné, sa matière non** : les PDF ne se régénèrent que
+sur une machine où le scénario a été dépouillé, et les scripts échouent avec un message clair sinon.
+
+*Trois leçons promues : la règle de l'arbitrage déclaré, le chapitre Cthulhu Hack complété, le patron
+de l'accessoire hors chaîne confirmé.*
+
+### Une question de MJ sur une seule scène a trouvé deux défauts que trois relectures avaient ratés
+
+Yannick a commencé à préparer la partie en demandant, scène par scène, **« quel est l'enjeu ? »**.
+La première question portait sur l'arrivée à Fort Louys, avec cette remarque : *de toute façon ils
+vont les laisser passer, sinon le scénario est terminé.* Elle était juste — et elle a fait tomber
+deux choses que ni l'écriture, ni la reprise de forme, ni l'audit de transposition n'avaient vues.
+
+**Une conséquence d'échec écrite nulle part.** Le livret disait « ils s'enfoncent s'ils se
+contredisent » sans jamais dire ce que « s'enfoncer » coûte. C'est l'angle mort exact de l'arbitrage
+B5, qui avait pourtant été écrit *pour* traiter les défis sans conséquence : il avait supprimé les
+jets inutiles, et laissé une scène sans issue à leur place. **Supprimer un jet ne suffit pas ; il
+faut écrire ce qui arrive quand la scène tourne mal sans lui.** Retenu : Bouchard qui doute ne
+démasque pas, il accompagne trop loin, et coche un cran de l'horloge du tunnel — la conséquence
+réutilise le seul compteur de l'acte 1 au lieu d'en inventer un.
+
+**Une incohérence géographique de la source, recopiée sans la voir.** Le texte d'ouverture fait
+avancer les personnages vers « la Porte Royale de La Rochelle » puis les fait arriver à Fort Louys :
+la première appartient à la ville protestante, le second au camp royaliste, et leurs papiers sont
+signés de Richelieu. La source se contredit elle-même — sa liste de défis place les faux documents
+« à l'entrée de Fort Louys ». Nos trois documents avaient suivi le texte d'ouverture. Arbitré en
+**B12**, et le nom disparaît de la collection.
+
+*Leçon de méthode, et elle vaut pour tous les scénarios : **la grille d'analyse attrape ce qui
+manque, pas ce qui est faux.** Un MJ qui demande « quel est l'enjeu de cette scène ? » en trouve
+davantage en une question qu'une relecture complète, parce qu'il joue la scène au lieu de la lire.
+À faire une fois par scénario, sur les trois ou quatre scènes dont on croit l'enjeu évident.*
+
+### Ce que la transposition n'a toujours pas traité
+
+Relevé en auditant la source contre les documents, et laissé en l'état faute de décision :
+**l'écrasement et les attaques multiples** de la créature, coupés sans que personne l'écrive — le socle
+veut qu'une coupe se déclare ; les **traits qui donnent aussi des désavantages**, règle maison de la
+source dont seule la moitié a été reprise ; **Madelaine**, seul des quatre blocs chiffrés de la source
+à n'avoir aucune contrepartie ; et le **compte à rebours**, que la source propose en option et dont nos
+documents font le moteur du dernier acte sans le dire.
+
 
 ## L'Or de Maximilien
 

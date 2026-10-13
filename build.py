@@ -58,7 +58,7 @@ def meta(fs):
 
 
 def type_doc(m):
-    """`note` · `aide` · `annote` · `feuille` — déclaré, jamais deviné.
+    """`note` · `aide` · `annote` · `feuille` · `prep` — déclaré, jamais deviné.
 
     Il l'a été un temps : le contrôle de volume reniflait le mot « note » dans
     le pied de page, si bien qu'un pied libellé autrement désactivait l'alarme
@@ -74,6 +74,8 @@ def type_doc(m):
         return "aide"
     if t.startswith("feuille"):
         return "feuille"
+    if t.startswith("prep"):
+        return "prep"
     return "note" if "note" in m.get("pied", "").lower() else "aide"
 
 
@@ -84,8 +86,8 @@ def est_note(m):
 def est_feuille(m):
     """La feuille de conduite : des tableaux, et rien à dire.
 
-    Quatrième livrable, et le seul qui ne porte aucune matière narrative — pas
-    une ligne à dire, pas un palier. Ce qu'on y cherche du doigt, c'est une
+    Quatrième livrable, et le premier qui ne porte aucune matière narrative —
+    pas une ligne à dire, pas un palier. Ce qu'on y cherche du doigt, c'est une
     adresse, un jet, un nom : d'où les tableaux à colonnes fixes, et d'où
     l'absence de la plupart des contrôles. Ils mesurent tous, d'une façon ou
     d'une autre, un texte que celui-ci n'a pas.
@@ -93,22 +95,40 @@ def est_feuille(m):
     return type_doc(m) == "feuille"
 
 
+def sans_matiere(m):
+    """La feuille de conduite et la page de suivi : rien à dire, rien à mesurer.
+
+    La page de suivi (`prep`) n'est pas un document de table — rien n'y est à
+    dire, rien ne s'y cherche en jeu. C'est la liste des tâches d'une campagne,
+    qui vit entre les séances : une ligne se coche, on commite, la CI la
+    republie. Elle n'a donc ni volume attendu ni fin, et une page à trois
+    lignes y est une fin de liste, pas un défaut.
+
+    Les deux coulent comme la note, mais les contrôles qui mesurent un texte
+    n'ont rien à mesurer chez elles : ni remplissage de page, ni renvois
+    d'arbitrage — ceux de la feuille pointent vers l'annoté, ceux du suivi vers
+    la note.
+    """
+    return type_doc(m) in ("feuille", "prep")
+
+
 def coule(m):
     """Les documents dont les sections coulent, par opposition au livret.
 
-    La note, le scénario annoté et la feuille de conduite partagent le même
-    régime de mise en page — `h2.sec` et `.card` — et c'est tout ce que cette
-    fonction dit. Ce qui les sépare est le volume : la note complète la source
-    en huit à douze pages, l'annoté la **remplace** et pèse forcément
-    davantage, la feuille tient sur trois ou quatre pages de tableaux.
+    La note, le scénario annoté, la feuille de conduite et la page de suivi
+    partagent le même régime de mise en page — `h2.sec` et `.card` — et c'est
+    tout ce que cette fonction dit. Ce qui les sépare est le volume : la note
+    complète la source en huit à douze pages, l'annoté la **remplace** et pèse
+    forcément davantage, la feuille tient sur trois ou quatre pages de
+    tableaux, et le suivi n'en a aucun.
 
     **Ne pas s'en servir pour dispatcher un contrôle sans vérifier qu'il vaut
-    pour les trois** : le régime de page et le régime de contrôle se
+    pour les quatre** : le régime de page et le régime de contrôle se
     ressemblaient tant qu'il n'y avait que la note et l'annoté, et la feuille
     les a séparés — elle coule, mais ses renvois d'arbitrage pointent vers
     l'annoté, comme ceux du livret.
     """
-    return type_doc(m) in ("note", "annote", "feuille")
+    return type_doc(m) in ("note", "annote", "feuille", "prep")
 
 
 def unites(corps_html):
@@ -508,7 +528,7 @@ def controles(rendu, corps_html, m):
             if taux < 20:
                 # une feuille de tableaux finit ses pages où le tableau finit :
                 # signalé, jamais bloquant
-                (avertis if est_feuille(m) else échecs).append(
+                (avertis if sans_matiere(m) else échecs).append(
                     f"p.{i} ne porte qu'une ou deux lignes ({taux:.0f} %)")
             elif taux < 62 and i not in (1, len(pages)):
                 avertis.append(f"p.{i} remplie à {taux:.0f} % — fin de section ?")
@@ -528,7 +548,7 @@ def controles(rendu, corps_html, m):
     définis |= set(re.findall(r"<strong>([ABC]\d)\s*—", corps_html))
     définis |= set(re.findall(r"\b([ABC]\d) ·", corps_html))
     cités = set(re.findall(r"\(([ABC]\d)\)", corps_html))
-    orphelins = (cités - définis) if coule(m) and not est_feuille(m) else set()
+    orphelins = (cités - définis) if coule(m) and not sans_matiere(m) else set()
     if orphelins:
         échecs.append(f"renvois vers un arbitrage inexistant : {', '.join(sorted(orphelins))}")
 

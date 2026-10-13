@@ -39,5 +39,15 @@ aucun des quatre**. Transposés en quatre Sauvegardes, ils font une heure de dé
 **Retenu : un seul jet dans tout l'acte 1**, celui du terrain découvert, parce que c'est le seul dont
 l'échec a une suite jouable (on est vu, on se plaque, on attend, l'aube approche). Le reste se joue.
 Les faux papiers **fonctionnent** : c'est ce que la source a écrit, et un garde qui les refuse annule
-la mission avant qu'elle commence.
+la mission avant qu'elle commence.\
+**Mais « ça se joue » demandait une suite, et elle manquait.** Dire à un MJ que les joueurs
+« s'enfoncent s'ils se contredisent » sans écrire ce que ça coûte, c'est lui laisser une scène sans
+issue : Bouchard ne peut pas les démasquer — il n'a aucun moyen de vérifier quoi que ce soit — et il
+ne peut pas non plus ne rien faire.
+**Retenu : un Bouchard qui a un doute ne démasque pas, il accompagne trop loin.** Au lieu de
+s'arrêter au bord du terrain découvert, il les mène jusqu'au camp des tunneliers, reste pendant
+qu'ils parlent au chef d'équipe, et repart **en ayant vu où ils creusent**. Cela coche d'avance
+**un cran de l'horloge du tunnel** (B6) : les royalistes trouveront la galerie plus tôt.
+Le mensonge raté ne tue personne et ne bloque rien ; il raccourcit le temps dont ils disposeront
+dans la ville.
 :::

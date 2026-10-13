@@ -1,6 +1,6 @@
 ## Acte 1 — l'infiltration {.sec .brk}
 
-::: {.dire lab="La Porte Royale, au crépuscule"}
+::: {.dire lab="La porte du fort, au crépuscule"}
 Cinq silhouettes avancent vers la porte. Le martèlement lointain de l'artillerie royale ponctue la
 marche comme une horloge. Leblanc tend les faux ordres ; le garde lit ; le silence dure.\
 **Fort Louys** — murs de pierre grise couronnés de créneaux, balayés par des volées de flèches venues
@@ -9,6 +9,18 @@ an de tranchée.\
 **Le lieutenant Bouchard** les accueille sur ordre : yeux d'acier, voix rauque d'avoir hurlé sur des
 champs de bataille. C'est lui qui les mène aux terrassiers. Il pose des questions précises — sur
 l'état de la France, sur leurs ordres, sur qui les envoie.
+:::
+
+::: {.warn lab="B12 — La Porte Royale appartient à la ville assiégée, pas au camp royaliste"}
+Le texte d'ouverture fait avancer les personnages vers « la majestueuse **Porte Royale de La
+Rochelle** », puis écrit six lignes plus bas qu'ils « viennent d'arriver à **Fort Louys** ». Les deux
+ne peuvent pas être vrais : la Porte Royale est une porte de la ville protestante, et un garde
+rochelais ne laisse pas passer des ordres signés de Richelieu — il pend ceux qui les portent.\
+La source se contredit d'ailleurs elle-même : sa liste de défis dit « convaincre le soldat **à
+l'entrée de Fort Louys** — ils peuvent utiliser les faux documents ».\
+**Retenu : la scène des papiers se joue à la porte de Fort Louys**, et le nom « Porte Royale »
+disparaît de nos documents. Le découpage en deux moments ne change pas — le garde qui lit, puis
+l'officier qui interroge —, il devient seulement possible.
 :::
 
 ::: {.dire lab="Le tunnel des terrassiers"}

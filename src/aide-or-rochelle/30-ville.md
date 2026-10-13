@@ -6,18 +6,19 @@
 ## La Rochelle — la première heure
 :::
 
-::: {.mj lab="Le point de bascule du scénario"}
-Ils sont entrés pour une chasse au trésor. **Ici, le scénario change de genre.** Les noyés du port ne
-sont pas un décor : ce sont les premiers morts du rituel, et les signes gravés sur eux sont **ceux des
-textes que le groupe est venu chercher**.\
-Deschamps et Élise les reconnaissent **sans jet** — c'est leur métier, et l'ordre en conserve des
-copies (A4).
+::: {.mj lab="Ce que les noyés du port changent"}
+Ils sont entrés pour une chasse au trésor. Les noyés ne sont pas un décor : ce sont les premiers
+morts du rituel, et les signes gravés sur eux sont **ceux des textes que le groupe est venu
+chercher**.\
+Deschamps et Élise les reconnaissent **sans jet** : c'est leur métier, et l'ordre en conserve des
+copies.
 :::
 
-::: {.obj lab="Objectif — qu'ils cessent de chercher un prêtre"}
-La question doit passer de *où est Duval* à **qui d'autre a lu nos livres**. C'est ce basculement qui
-ouvre tout l'acte 3, et il tient à un seul fait : la reconnaissance des signes.\
-Ne pas la donner d'office — la donner **dès qu'un joueur regarde un corps**.
+::: {.obj lab="Ce que tu veux obtenir ici"}
+Qu'ils cessent de chercher un prêtre.\
+La question doit passer de *où est Duval* à **qui d'autre a lu nos livres**, et tout l'acte 3 en
+dépend. Un seul fait la fait tourner : la reconnaissance des signes.\
+Ne la donne pas d'office. Donne-la **dès qu'un joueur regarde un corps**.
 :::
 
 ### De la remise à pêche
@@ -47,13 +48,13 @@ Ne pas la donner d'office — la donner **dès qu'un joueur regarde un corps**.
 - Personne ne les a sortis de l'eau. Personne ne les regarde.
 :::
 
-::: {.jeu lab="Test de Santé mentale, et une reconnaissance gratuite"}
+::: {.jeu lab="Devant les corps"}
 Un test pour qui s'approche des corps.\
 **Deschamps et Élise reconnaissent les signes** : ce sont ceux des textes de l'Ordre des Justes.
 Aucun jet — le dire, et laisser la table en tirer les conséquences.
 :::
 
-::: {.obj lab="La sortie"}
+::: {.obj lab="Pour passer à la suite"}
 Un groupe de Rochelais s'est formé derrière eux pendant qu'ils regardaient l'eau. Ils ne sont pas d'ici,
 ils sont sortis de nulle part, et la ville cherche des espions depuis un an.
 :::
@@ -65,13 +66,12 @@ ils sont sortis de nulle part, et la ville cherche des espions depuis un an.
 ::: {.head}
 [À consulter]{.use}
 
-## Les trois jours — et qui chaque événement amène
+## Les trois jours — qui chaque événement amène
 :::
 
-::: {.obj lab="Le moteur — chaque événement amène quelqu'un qui parle"}
-Les neuf événements de la source sont de l'ambiance : **aucun ne livre d'indice** (A5). Ce qui les rend
-utiles, c'est le témoin qu'ils mettent devant les personnages — tous déjà écrits, aucun placé nulle
-part.\
+::: {.obj lab="Chaque événement amène quelqu'un qui parle"}
+Les neuf événements de la source sont de l'ambiance : **aucun ne livre d'indice.** Ce qui les rend
+utiles, c'est le témoin qu'ils mettent devant les personnages.\
 L'horloge tourne seule, un cran par journée, et déclenche le dernier acte à la nuit du jour 3.
 :::
 
@@ -82,12 +82,12 @@ L'horloge tourne seule, un cran par journée, et déclenche le dernier acte à l
 | **Jour 1**   | Des noyés gravés d'yeux flottent   | **Margot Dubois**, la poissonnière : elle|
 |              | dans le port                       | pêchait là cette nuit                    |
 +--------------+------------------------------------+------------------------------------------+
-|              | Des Rochelais les prennent à       | **Antoine Durand**, le marin — c'est lui,|
-|              | partie : espions de Richelieu      | « l'allié inattendu » que la source ne   |
-|              |                                    | nomme pas                                |
+|              | Des Rochelais les prennent à       | **Antoine Durand**, le marin. Il prend   |
+|              | partie : espions de Richelieu      | leur défense, et il connaît les quais    |
+|              |                                    |                                          |
 +--------------+------------------------------------+------------------------------------------+
-|              | La nuit, des bruits dans les       | Personne. C'est la seule entrée qu'on    |
-|              | ruelles et les canaux              | laisse vide                              |
+|              | La nuit, des bruits dans les       | Personne. On entend, on ne voit rien     |
+|              | ruelles et les canaux              |                                          |
 +--------------+------------------------------------+------------------------------------------+
 | **Jour 2**   | Assaut au nord. Canon, fumée       | **Leblanc** : son commandement sert, et  |
 |              |                                    | on le remarque                           |
@@ -119,18 +119,19 @@ L'horloge tourne seule, un cran par journée, et déclenche le dernier acte à l
 ## Faire parler la ville — les douze témoins
 :::
 
-::: {.obj lab="Objectif — ne jamais faire le recoupement à leur place"}
-Séparément, ce sont des rumeurs. Ensemble, elles décrivent **une famille nombreuse qui vit sous terre à
-côté de la cathédrale** : trop de pain, des herbes pour dormir, des robes de cérémonie, une clé, des
-sacs pour du lourd, des entrées de souterrains et des chants dessous.\
-**Trois témoignages suffisent.** Laisser la table le formuler — et marquer le moment où elle prononce
-« ils sont sous la cathédrale ». C'est la vraie bascule.
+::: {.obj lab="Ce que tu veux obtenir ici"}
+Ne jamais faire le recoupement à leur place.\
+Séparément, ce sont des rumeurs. Ensemble, elles décrivent **une famille nombreuse qui vit sous terre
+à côté de la cathédrale** : trop de pain, des herbes pour dormir, des robes de cérémonie, une clé,
+des sacs pour du lourd, des entrées de souterrains et des chants dessous.\
+**Trois témoignages suffisent.** Laisse la table le formuler, et marque le moment où elle prononce
+« ils sont sous la cathédrale ».
 :::
 
-::: {.jeu lab="Ce qui ouvre une porte, et ce qui ne l'ouvre pas"}
+::: {.jeu lab="Ce qui délie les langues"}
 **Un test de Bagou** par personne abordée — **sauf Remy**, dont c'est le métier de faire parler un
 quai.\
-Trois choses délient les langues, et il n'y en a pas d'autres : **de la nourriture**, **un service
+Trois choses y suffisent, et il n'y en a pas d'autres : **de la nourriture**, **un service
 rendu**, **un uniforme rochelais**. L'argent ne vaut plus rien ici — on ne mange pas des écus.
 :::
 
@@ -186,9 +187,11 @@ rendu**, **un uniforme rochelais**. L'argent ne vaut plus rien ici — on ne man
 ## Les autorités — cinq noms suffisent
 :::
 
-::: {.obj lab="Objectif — leur donner quelqu'un à qui parler, et quelqu'un à craindre"}
+::: {.obj lab="Ce que tu veux obtenir ici"}
+Leur donner quelqu'un à qui parler, et quelqu'un à craindre.\
 Les personnages sont entrés par le camp ennemi. Tôt ou tard, ils croiseront la garde. **Dumont est le
-danger, Valois est la porte** — et le tunnel de la sape est la monnaie qui l'ouvre (B6).
+danger, Valois est la porte**, et le tunnel qu'ils ont laissé ouvert sous le rempart nord-ouest est
+la monnaie qui l'ouvre.
 :::
 
 ### Ceux qui décident
@@ -210,7 +213,7 @@ danger, Valois est la porte** — et le tunnel de la sape est la monnaie qui l'o
 - **Garde Yves Boulanger.** Corrompu. La seule porte que l'argent ouvre encore.
 :::
 
-::: {.mj lab="Le levier gratuit"}
+::: {.mj lab="Ce que vaut une dénonciation"}
 Dénoncer Montfort à Valois vaut **un service rendu** — la monnaie qui délie les langues des douze
 témoins. Personne dans la source ne fait ce lien.
 :::

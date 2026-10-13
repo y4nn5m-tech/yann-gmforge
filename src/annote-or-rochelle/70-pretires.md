@@ -2,38 +2,53 @@
 
 ::: {.obj lab="Deux croisements faits par la source, sur six fiches"}
 Elle relie les calculs de Deschamps au creusement de la galerie, et les faux papiers de Leblanc à la
-Porte Royale. **C'est tout.** Le reste de ce que ces personnages portent — un kit de crochetage, deux
+porte du fort. **C'est tout.** Le reste de ce que ces personnages portent — un kit de crochetage, deux
 grappins, une lanterne, une fiole de chloroforme, deux habits religieux — tombe exactement sur les
 obstacles que le scénario dresse, sans qu'une seule ligne le remarque.
 :::
 
-::: {.tight widths="20,32,26,22"}
+::: {.tight widths="20,30,24,20"}
 +--------------------+------------------------------+------------------------+--------------------+
 | PJ                 | Sauvegardes                  | Dés d'usage            | Corps              |
 +====================+==============================+========================+====================+
-| **Thibault         | FOR 9 · DEX 13 · CON 10 ·    | Torche **d8** ·        | 12 PV · armure 1 · |
-| Deschamps**        | **INT 15** · SAG 14 · CHA 12 | Bagou d6 · Santé d8    | épée-canne d6      |
-| *ingénieur*        |                              |                        |                    |
+| **Thibault         | FOR 9 · DEX 13 · CON 10 ·    | Torche **d8** ·        | 12 PV · Vie d8     |
+| Deschamps**        | **INT 15** · SAG 14 · CHA 12 | Bagou d6 · Santé d8    | armure 1           |
+| *ingénieur*        |                              |                        | d6 armé · d4 sans  |
+| Aventurier         |                              |                        |                    |
 +--------------------+------------------------------+------------------------+--------------------+
-| **Evrard Duprave** | FOR 10 · DEX 12 · CON 14 ·   | Torche d6 · Bagou d6 · | 13 PV · armure 1 · |
-| *médecin*          | **INT 15** · SAG 14 · CHA 9  | Santé d8               | dague d4           |
+| **Evrard Duprave** | FOR 10 · DEX 12 · CON 14 ·   | Torche d6 · Bagou d6 · | 13 PV · Vie d6     |
+| *médecin*          | **INT 15** · SAG 14 · CHA 9  | Santé d8               | armure 1           |
+| Philanthrope       |                              |                        | d4 armé · 1 sans   |
 +--------------------+------------------------------+------------------------+--------------------+
-| **Guillaume de     | **FOR 15** · DEX 14 · CON 14 | Torche d6 · Bagou d6   | 16 PV · armure 2 · |
-| Montfaucon**       | · INT 14 · SAG 12 · CHA 11   | *(à Désavantage)* ·    | épée d6,           |
-| *chevalier*        |                              | **Santé d6**           | poignards d4       |
+| **Guillaume de     | **FOR 15** · DEX 14 · CON 14 | Torche d6 · Bagou d6   | 16 PV · Vie d10    |
+| Montfaucon**       | · INT 14 · SAG 12 · CHA 11   | *(à Désavantage)* ·    | armure 2           |
+| *chevalier*        |                              | **Santé d6**           | d8 armé · d6 sans  |
+| Brute              |                              |                        |                    |
 +--------------------+------------------------------+------------------------+--------------------+
-| **Geoffroy         | **DEX 15** · FOR 14 · CON 14 | Torche d8 · Bagou d8 · | 15 PV · armure 2 · |
-| Leblanc**          | · INT 14 · SAG 13 · CHA 13   | Santé d8               | rapière d6,        |
-| *officier*         |                              |                        | arquebuse d8       |
+| **Geoffroy         | **DEX 15** · FOR 14 · CON 14 | Torche d8 · Bagou d8 · | 15 PV · Vie d8     |
+| Leblanc**          | · INT 14 · SAG 13 · CHA 13   | Santé d8               | armure 2           |
+| *officier*         |                              |                        | d6 armé · d4 sans  |
+| Aventurier         |                              |                        |                    |
 +--------------------+------------------------------+------------------------+--------------------+
-| **Remy Thibodeau** | **DEX 15** · FOR 14 · CON 14 | Torche d8 ·            | 14 PV · armure 1 · |
-| *contrebandier*    | · SAG 13 · INT 12 · CHA 10   | **Bagou d10** ·        | couteau d4         |
-|                    |                              | Santé d8               |                    |
+| **Remy Thibodeau** | **DEX 15** · FOR 14 · CON 14 | Torche d8 ·            | 14 PV · Vie d6     |
+| *contrebandier*    | · SAG 13 · INT 12 · CHA 10   | **Bagou d10** ·        | armure 1           |
+| Artiste            |                              | Santé d8               | d4 armé · d4 sans  |
 +--------------------+------------------------------+------------------------+--------------------+
-| **Élise de         | **INT 15** · SAG 14 · CHA 12 | **Torche d10** ·       | 11 PV · aucune     |
-| Bellevue**         | · CON 11 · DEX 11 · FOR 9    | Bagou d8 ·             | armure ·           |
-| *femme de lettres* |                              | **Santé d10**          | **aucune arme**    |
+| **Élise de         | **INT 15** · SAG 14 · CHA 12 | **Torche d10** ·       | 11 PV · Vie d4     |
+| Bellevue**         | · CON 11 · DEX 11 · FOR 9    | Bagou d8 ·             | aucune armure      |
+| *femme de lettres* |                              | **Santé d10**          | 1 armé · 1 sans    |
+| Savant             |                              |                        |                    |
 +--------------------+------------------------------+------------------------+--------------------+
+:::
+
+::: {.warn lab="Les dégâts sont ceux du personnage, pas de l'arme"}
+C'est l'archétype qui les fixe, et il ne change pas d'une arme à l'autre : la rapière de
+Leblanc, son arquebuse et ses poings font tous **d6, d6 et d4**. Une arme sert à décrire ce
+qu'on fait, pas à chiffrer ce qu'on inflige.\
+**La Richesse est un dé**, qui descend d'un cran quand un achat dépasse le train de vie :
+*Deschamps d8 · Duprave d10 · Montfaucon d4 · Leblanc d8 · Remy d6 · Élise d6*. Elle remplace
+les écus et les deniers que la source comptait pièce par pièce.\
+**Points de Vie = Dé de Vie + 8**, et les six fiches respectent la règle.
 :::
 
 ::: {.jeu lab="Ce que chacun sait sans jeter — la règle du métier"}
@@ -62,7 +77,7 @@ obstacles que le scénario dresse, sans qu'une seule ligne le remarque.
 |                    | épée et bouclier             | Seul à tenir une créature au corps à corps.  |
 |                    |                              | **Santé d6 : il craque le premier**          |
 +--------------------+------------------------------+----------------------------------------------+
-| **Leblanc**        | **Papiers falsifiés** ·      | La Porte Royale. Puis l'uniforme et le       |
+| **Leblanc**        | **Papiers falsifiés** ·      | La porte du fort. Puis l'uniforme et le      |
 |                    | uniforme d'officier ·        | commandement : **l'émeute du jour 1 et les   |
 |                    | sifflet · arquebuse          | barricades du jour 3 sont ses scènes**       |
 +--------------------+------------------------------+----------------------------------------------+
@@ -77,7 +92,7 @@ obstacles que le scénario dresse, sans qu'une seule ligne le remarque.
 :::
 
 ::: {.warn lab="B11 — Élise n'est pas dans le texte d'ouverture"}
-La source fait entrer **cinq** silhouettes par la Porte Royale et les nomme une à une. La sixième fiche
+La source fait entrer **cinq** silhouettes par la porte et les nomme une à une. La sixième fiche
 est imprimée après, sans un mot.\
 **Retenu :** six fiches pour quatre à cinq joueurs, c'est un choix, pas un oubli — Élise est la fiche
 de rechange. **Si elle est jouée**, elle n'entre pas par la sape : bourgeoise de Bordeaux établie à La

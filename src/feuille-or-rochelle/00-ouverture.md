@@ -25,7 +25,7 @@ lang: fr
 ☐ **l'entrée de la cache** — la clé, le mécanisme, ou un souterrain\
 ☐ **l'eau douce tue les créatures · seul le feu détruit le livre**
 
-## Les horloges — aucune n'est écrite comme telle dans la source {.sec}
+## Les horloges {.sec}
 
 ::: {.jeu lab="Quatre tournent ensemble à partir de l'acte 2"}
 **Les trois jours** — toi, un cran par journée. Déclenche l'acte 4 à la nuit du jour 3, prêts ou
@@ -48,14 +48,16 @@ troisième soir. Les neuf événements restent, en touches d'ambiance.\
 
 ## Acte 1 — entrer {.sec}
 
-::: {.mj lab="Le ton se joue ici pour toute la partie"}
+::: {.mj lab="Le ton, pour toute la partie"}
 Les royalistes ne sont pas des méchants : des hommes fatigués qui creusent sous une ville pour la
 faire tomber. Les personnages sont des espions chez eux, et ils vont leur mentir.
 :::
 
-- La Porte Royale, au crépuscule · **les faux papiers fonctionnent** — un garde qui les refuse annule
+- La porte du fort, au crépuscule · **les faux papiers fonctionnent** — un garde qui les refuse annule
   la mission
-- Fort Louys · **lieutenant Bouchard**, yeux d'acier, pose des questions précises
+- Fort Louys · **lieutenant Bouchard**, yeux d'acier, pose des questions précises · aucun jet, mais
+  **deux personnages qui se contredisent = il accompagne jusqu'aux tunneliers et voit où ils creusent,
+  un cran de l'horloge du tunnel**
 - Le kilomètre à découvert · **le seul jet de l'acte** · échec = repéré, pas pris : on se plaque, on
   perd une heure, la sape se fera de jour
 - Le tunnel des terrassiers · deux heures de sape, et c'est **la conversation** qui se joue, pas le
@@ -67,7 +69,7 @@ faire tomber. Les personnages sont des espions chez eux, et ils vont leur mentir
   bougent chacune pour soi, **et pas de tête**
 :::
 
-::: {.warn lab="Le rationnement de la lumière est le sujet de l'acte — le dire avant qu'ils descendent"}
-Les deux dés épuisés, on avance à la main contre le mur de droite, une étape sur deux. Sinon ils
-dépensent tout dans les deux premières.
+::: {.warn lab="Le rationnement de la lumière"}
+**Le dire avant qu'ils descendent**, sinon ils dépensent tout dans les deux premières étapes.\
+Les deux dés épuisés, on avance à la main contre le mur de droite, une étape sur deux.
 :::

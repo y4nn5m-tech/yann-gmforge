@@ -9,14 +9,15 @@
 ::: {.mj lab="Ce que les cinq lieux disent ensemble"}
 Duval n'était pas un reclus : il enseignait, il faisait copier, il rencontrait des lettrés venus de
 loin. **Il cherchait quelqu'un à qui transmettre**, et il l'a trouvé.\
-**Il est mort il y a trois ans**, âgé, dans son lit — pas vingt ans, et **Jacques ne l'a pas tué**
-(A6). Trois endroits le disent : l'atelier d'écriture, les habitués de la taverne, le registre de
+**Il est mort il y a trois ans**, âgé, dans son lit, et **Jacques ne l'a pas tué.**
+Trois endroits le disent : l'atelier d'écriture, les habitués de la taverne, le registre de
 Saint-Sauveur.
 :::
 
-::: {.obj lab="Objectif — qu'un prénom ressorte cinq fois"}
-Le nom de **Jacques** doit tomber dans au moins deux lieux avant qu'ils cherchent la famille. C'est le
-seul fil qui traverse les cinq portes.\
+::: {.obj lab="Ce que tu veux obtenir ici"}
+Qu'un prénom ressorte cinq fois.\
+Le nom de **Jacques** doit tomber dans au moins deux lieux avant qu'ils cherchent la famille : c'est
+le seul fil qui traverse les cinq portes.\
 Aucun lieu n'en exige un autre. Ils choisissent l'ordre.
 :::
 
@@ -40,8 +41,8 @@ Aucun lieu n'en exige un autre. Ils choisissent l'ordre.
 | Saint-Pierre**             | activité. Le patron a connu les| prêtre.** Le patron est de la    |
 |                            | deux                           | famille                          |
 +----------------------------+--------------------------------+----------------------------------+
-| **Maison de la Ruelle des  | En ruine, occupée. **Un faux   | Sa page ci-après — c'est le seul |
-| Templiers**                | plancher**                     | lieu qui résiste                 |
+| **Maison de la Ruelle des  | En ruine, occupée. **Un faux   | **Le seul lieu qui résiste.**    |
+| Templiers**                | plancher**                     | Il a sa page                     |
 +----------------------------+--------------------------------+----------------------------------+
 :::
 
@@ -59,7 +60,7 @@ Aucun lieu n'en exige un autre. Ils choisissent l'ordre.
 - [« On ne les voit plus. Depuis l'enterrement, on ne les voit plus. »]{.q}
 :::
 
-::: {.mj lab="Ce que le patron ne dit pas, parce qu'il l'ignore"}
+::: {.mj lab="Ce que le patron ignore"}
 Il ne sait pas où ils sont. Il sait seulement qu'ils **payaient bien** et qu'ils **sortaient la nuit**.
 S'il est poussé, il donne le nom du marché où on les a vus faire des courses.
 :::
@@ -74,9 +75,10 @@ S'il est poussé, il donne le nom du marché où on les a vus faire des courses.
 ## La maison de la Ruelle des Templiers
 :::
 
-::: {.obj lab="Objectif — un obstacle qui cède, pour changer de rythme"}
-Après quatre lieux de conversation, celui-ci a des occupants. **Ils cèdent** — devant une lame tirée,
-un uniforme, ou de la nourriture. Ce n'est pas un combat, c'est une négociation avec des gens qui ont
+::: {.obj lab="Ce que tu veux obtenir ici"}
+Un obstacle qui cède, pour changer de rythme.\
+Après quatre lieux de conversation, celui-ci a des occupants. **Ils cèdent** devant une lame tirée,
+un uniforme ou de la nourriture. Ce n'est pas un combat : c'est une négociation avec des gens qui ont
 faim.
 :::
 
@@ -97,7 +99,7 @@ faim.
 - Des rayonnages vides. Quelqu'un est passé avant, et a tout pris.
 :::
 
-::: {.jeu lab="S'il faut se battre — et ça n'arrive presque jamais"}
+::: {.jeu lab="S'il faut se battre"}
 **René et Lucien** — 8 points de vie chacun · aucune armure · couteau **d4**.\
 Ils fuient dès que l'un des deux tombe.
 :::
@@ -111,9 +113,9 @@ Ils fuient dès que l'un des deux tombe.
 - Les mêmes signes que sur la peau des noyés.
 :::
 
-::: {.jeu lab="Trouver le faux plancher, et lire ce qu'il y a dessous"}
+::: {.jeu lab="Fouiller la chambre du fond"}
 **Test de Torche** dans la chambre du fond. *Élise d10 · Deschamps d8 · Remy d8 · Leblanc d8.*\
-**Deschamps et Élise lisent sans jet** — c'est leur métier, et ce sont les textes de leur propre
+**Deschamps et Élise lisent sans jet** : c'est leur métier, et ce sont les textes de leur propre
 ordre.
 :::
 

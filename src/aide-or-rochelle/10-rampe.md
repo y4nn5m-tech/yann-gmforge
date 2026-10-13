@@ -29,7 +29,7 @@
 ::: {.say}
 - Crépuscule rougeoyant. L'artillerie royale bat la mesure au loin.
 - Une horloge qui compte les dernières heures.
-- **Cinq silhouettes avancent vers la Porte Royale.**
+- **Cinq silhouettes avancent vers Fort Louys.**
 :::
 
 :::
@@ -42,8 +42,9 @@
 ## Sur la route — les cinq qui marchent
 :::
 
-::: {.obj lab="Objectif — les présenter en marchant, sans arrêter le film"}
-Deux lignes de toi, une phrase du joueur, au suivant. **Ne pas s'arrêter sur eux.** La caméra remonte
+::: {.obj lab="Ce que tu veux obtenir ici"}
+Les présenter en marchant, sans arrêter le film.\
+Deux lignes de toi, une phrase du joueur, au suivant. **Ne t'arrête pas sur eux.** La caméra remonte
 la colonne pendant qu'elle avance vers la porte.\
 Ce qui doit passer : ils sont ensemble depuis longtemps, ils s'apprêtent à mentir, et l'un d'eux
 porte le mensonge dans sa poche.
@@ -67,7 +68,7 @@ porte le mensonge dans sa poche.
 
 ::: {.mj lab="Si Élise de Bellevue est jouée"}
 Elle n'entre pas par ici : bourgeoise de Bordeaux établie à La Rochelle pour ses bibliothèques, **elle
-est déjà dans la ville**, et elle attendra le groupe à la sortie des catacombes (B11).
+est déjà dans la ville**. Elle attend le groupe à la remise à pêche, au bout des catacombes.
 :::
 
 ### Ce qu'ils savent tous
@@ -79,7 +80,7 @@ est déjà dans la ville**, et elle attendra le groupe à la sortie des catacomb
 - Le dernier gardien connu : **le père Simon Duval**, prêtre.
 - Discret, insaisissable. **Il ne répond plus depuis vingt ans.**
 - Personne ne sait s'il est vivant.
-- Devant, la Porte Royale grandit. Les fanaux viennent d'être allumés.
+- Devant, les murs du fort grandissent. Les fanaux viennent d'être allumés.
 :::
 
 :::
@@ -89,19 +90,19 @@ est déjà dans la ville**, et elle attendra le groupe à la sortie des catacomb
 ::: {.head}
 [À dire]{.use}
 
-## La Porte Royale — les faux papiers
+## La porte du fort — les faux papiers
 :::
 
-::: {.obj lab="Objectif — un silence, et le laisser durer"}
-La scène n'est pas un jet, c'est une attente. **Les papiers fonctionnent** — la source l'a écrit, et un
-garde qui les refuse annule la mission avant qu'elle commence (B5).\
-Ce qu'on cherche : que la table sente ce que coûte un mensonge, avant d'en dire cent autres.
+::: {.obj lab="Ce que tu veux obtenir ici"}
+Que la table sente ce que coûte un mensonge, avant d'en dire cent autres.\
+La scène n'est pas un jet, c'est une attente. **Les papiers fonctionnent.** Un garde qui les refuse
+annulerait la mission avant qu'elle commence : laisse le silence durer, mais laisse-les passer.
 :::
 
 ### La porte
 
 ::: {.say}
-- Une masse de pierre dans le soir.
+- Une masse de pierre grise dans le soir, couronnée de créneaux.
 - Deux fanaux, une herse relevée à mi-hauteur.
 - Des hommes en armes qui ont froid et qui s'ennuient.
 - L'odeur des feux de camp, et celle de la vase du port.
@@ -125,7 +126,7 @@ Ce qu'on cherche : que la table sente ce que coûte un mensonge, avant d'en dire
 - Puis il rend le papier, et il fait signe.
 :::
 
-::: {.obj lab="Le passage de main"}
+::: {.obj lab="La phrase qui leur rend la main"}
 Poser la question mot pour mot, et attendre :\
 **« Vous êtes dans le camp royaliste, avec des ordres qui vous mènent aux sapeurs. Qu'est-ce que vous
 faites en premier ? »**

@@ -45,7 +45,7 @@ Dans le **premier** fragment, et lui seul :
 title: "Bun & Run"
 subtitle: "Note d'arbitrage"
 scenario: "Bun & Run"        # groupe les documents d'un scénario sur l'index
-type: note                   # note | aide | annote — décide quels contrôles s'appliquent
+type: note                   # note | aide | annote | feuille | prep — décide des contrôles
 jeu: "Fevertown — kit de découverte v1.2"
 pied: "BUN & RUN — note d'arbitrage"
 lang: fr
@@ -158,10 +158,17 @@ simple compilateur.
 | **budget de densité** | **aide** | **une unité rendue seule qui tient sur deux pages : elle a enflé** |
 | **encarts à leur place** | **aide** | **plus de deux encarts avant le premier palier, ou en pied d'unité** |
 | **lignes à dire** | **aide** | **une ligne à dire trop longue : la description est rédigée au lieu d'être notée** |
+| volume de la feuille | feuille | plus de 6 pages : ce n'est plus une feuille, c'est une note qui a repris du texte |
 
 Les trois premiers ne s'appliquent **qu'à la note**, les trois derniers **qu'à l'aide de jeu** : dans un
 livret, une unité qui remplit la moitié de sa page est normale. C'est aussi pourquoi les renvois `— A4`
 du livret, qui pointent vers la note, ne sont pas vérifiés.
+
+**Deux types ne portent aucun texte à mesurer** : la feuille de conduite et la page de suivi (`prep`).
+Leur remplissage est un avertissement et jamais un échec — une feuille de listes finit ses pages où la
+liste finit —, et leurs renvois d'arbitrage pointent vers un autre document, donc ne sont pas
+vérifiés. Le suivi n'a même pas de plafond de volume : une campagne qui demande quatre pages de
+préparation en demande quatre.
 
 **Le budget de densité est un avertissement, et c'est une décision.** Les documents se mènent sur
 écran — ordinateur, tablette, téléphone —, où l'unité est une section et non une page. Ce qui reste

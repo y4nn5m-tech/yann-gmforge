@@ -27,8 +27,8 @@ Cthulhu Hack · La Rochelle assiégée, automne 1628 · six prétirés
 
 ::: {.tight widths="26,74"}
 +-------------------------------+---------------------------------------------------------------+
-| **Où sont les PJ ?**          | Sur la route de la Porte Royale, au crépuscule. **De faux    |
-|                               | ordres signés de Richelieu dans la poche de Leblanc.**        |
+| **Où sont les PJ ?**          | Sur la route de Fort Louys, au crépuscule. **De faux ordres  |
+|                               | signés de Richelieu dans la poche de Leblanc.**               |
 +-------------------------------+---------------------------------------------------------------+
 | **Que veulent-ils ?**         | Récupérer les textes et l'or que leur ordre a déposés à La    |
 |                               | Rochelle il y a quatre siècles.                               |
@@ -46,18 +46,18 @@ Cthulhu Hack · La Rochelle assiégée, automne 1628 · six prétirés
 
 ::: {.warn lab="Les cinq choses à ne pas oublier"}
 **1.** Jacques de Saint-Pierre **croit sauver la ville**, et il est l'héritier légitime du dépôt. Le
-tuer **n'arrête pas le rituel** — le livre est ouvert et ses fils connaissent les mots (A8).\
+tuer **n'arrête pas le rituel** — le livre est ouvert et ses fils connaissent les mots.\
 **2.** Ils doivent découvrir que **la famille vit sous la cathédrale**. Douze témoins peuvent le dire ;
 trois suffisent. Ne jamais faire le recoupement à leur place.\
 **3.** Ne pas bloquer la cache derrière sa serrure : **la clé forgée par Lucien Marchand**, le kit de
 crochetage de Deschamps ou les clés de Remy, ou un souterrain depuis les catacombes.\
 **4.** **L'eau douce tue les créatures** — d6, armure ignorée. Le dire au moment où ils montent sur les
-toits, pas après (B9).\
+toits, pas après.\
 **5.** Trois fins : **le livre brûlé** · **Jacques convaincu**, la seule où quelqu'un survit dans cette
 famille · **le compte à rebours à zéro**, qui reste jouable.
 :::
 
-::: {.obj lab="Avant de commencer — le pense-bête"}
+::: {.obj lab="À avoir sous la main"}
 ☐ **Cinq dés à six faces**, posés au centre de la table pour le dernier acte.\
 ☐ **Les six fiches converties** — aucun chiffre de la source ne s'utilise.\
 ☐ **La planche de Santé mentale**, six colonnes, une case par test.\
@@ -67,7 +67,7 @@ Josué, Mathurin, Jehan · Suzanne, Judith, Esther, Rachel, Marthe, Jeanne · Ga
 Rondeau, Thévenin, Salbert, Brémond, Chaillé.*
 :::
 
-::: {.jeu lab="Les règles qui reviennent toutes les cinq minutes"}
+::: {.jeu lab="Les règles dont tu auras besoin"}
 **Sauvegarde de caractéristique** — Force, Dextérité, Constitution, Sagesse, Intelligence, Charisme.
 Binaire : réussie ou ratée.\
 **Dés d'usage** — *Torche* pour repérer, chercher, se remémorer · *Bagou* pour convaincre et

@@ -6,16 +6,17 @@
 ## La famille de Saint-Pierre — quatre témoignages
 :::
 
-::: {.mj lab="Ce que la ville sait, et ce qu'elle ignore"}
+::: {.mj lab="Ce que la ville sait des Saint-Pierre"}
 Ils vivent la nuit, circulent par des passages hérités des Templiers, paient toujours généreusement et
 ne donnent jamais plus qu'un prénom. Ils évitent les églises.\
 Et la rumeur qu'ils entretiennent **leur propre réseau de guetteurs** n'est pas une rumeur : Nicolas
 en paie, et l'un d'eux suit les personnages dès le deuxième témoignage.
 :::
 
-::: {.obj lab="Objectif — que la table sente qu'on la regarde"}
-À partir d'ici, poser une silhouette au bout de chaque rue. Ne jamais la laisser se faire prendre, ne
-jamais la faire agir. **La famille sait qu'on la cherche**, et les personnages doivent le sentir avant
+::: {.obj lab="Ce que tu veux obtenir ici"}
+Que la table sente qu'on la regarde.\
+À partir d'ici, pose une silhouette au bout de chaque rue. Ne la laisse jamais se faire prendre, ne
+la fais jamais agir. **La famille sait qu'on la cherche**, et les personnages doivent le sentir avant
 de trouver la porte.
 :::
 
@@ -26,8 +27,8 @@ de trouver la porte.
 | **Jean et Anselme**      | De grandes quantités de  | Ils sont nombreux, et ils ne sortent   |
 | *Marché Central*         | nourriture, pressés      | plus assez souvent pour acheter petit  |
 +--------------------------+--------------------------+----------------------------------------+
-| **Nicolas**              | À voix basse avec un     | **C'est un guetteur qu'il paie.** La   |
-| *Taverne du Lion         | inconnu encapuchonné     | source ne dit pas qui c'est ; c'est ça |
+| **Nicolas**              | À voix basse avec un     | **C'est un guetteur qu'il paie**, et il|
+| *Taverne du Lion         | inconnu encapuchonné     | suivra les personnages                 |
 | d'Argent*                |                          |                                        |
 +--------------------------+--------------------------+----------------------------------------+
 | **Barthélemy**           | Instruments délicats et  | Les pièges et les alertes de la cache. |
@@ -39,7 +40,7 @@ de trouver la porte.
 +--------------------------+--------------------------+----------------------------------------+
 :::
 
-::: {.obj lab="La sortie"}
+::: {.obj lab="Pour passer à la suite"}
 Deux témoignages sur quatre suffisent pour que la famille devienne réelle. Le troisième amène la
 question qui compte : **où dorment-ils ?**
 :::
@@ -54,17 +55,16 @@ question qui compte : **où dorment-ils ?**
 ## Madelaine — la seule qui parle
 :::
 
-::: {.mj lab="Qui elle est, et pourquoi elle tient debout"}
-La fille de Jacques. La source lui donne une fiche complète et **aucun emploi** (B8). C'est pourtant la
-seule Saint-Pierre qu'un inconnu peut aborder : elle sort seule, la nuit, soigner des gens qui la
-laissent approcher.\
+::: {.mj lab="Qui est Madelaine"}
+La fille de Jacques, et **la seule Saint-Pierre qu'un inconnu peut aborder** : elle sort seule, la
+nuit, soigner des gens qui la laissent approcher.\
 Elle ne trahira pas sa famille. Elle ne sait pas qu'elle est en train de la donner.
 :::
 
-::: {.obj lab="Objectif — qu'ils la traitent bien, et qu'ils s'en souviennent"}
-C'est la scène qui décide de la fin du scénario. Une table qui la brusque perd la seule issue où
-quelqu'un survit dans cette famille.\
-Ne pas la nommer. Ne pas dire qui elle est. **Laisser les joueurs faire le lien plus tard.**
+::: {.obj lab="Ce que tu veux obtenir ici"}
+Qu'ils la traitent bien, et qu'ils s'en souviennent.\
+Une table qui la brusque perd la seule fin où quelqu'un survit dans cette famille.\
+Ne la nomme pas. Ne dis pas qui elle est. **Laisse les joueurs faire le lien plus tard.**
 :::
 
 ### Au chevet d'un malade
@@ -89,12 +89,12 @@ Ne pas la nommer. Ne pas dire qui elle est. **Laisser les joueurs faire le lien 
 ::: {.warn lab="Si on la brusque ou si on la suit"}
 Elle se referme, et **elle prévient les guetteurs**. La cache passe en alerte : les pièges sont armés,
 et les fils attendent derrière la porte au lieu d'être au chœur.\
-Ce n'est pas une punition — c'est une autre partie, plus dure, et il faut le savoir avant de la jouer.
+Ce n'est pas une punition : c'est une autre partie, plus dure.
 :::
 
-::: {.obj lab="Ce que cette rencontre ouvre, et qu'il faut noter"}
-Si elle est gagnée, **elle reparaît au dernier acte** : c'est elle, et elle seule, qui peut parler à
-Jacques. Le test de Bagou du final se fait alors **sans Désavantage** (A8).
+::: {.obj lab="Si elle est gagnée — à noter maintenant"}
+**Elle reparaît au dernier acte** : c'est elle, et elle seule, qui peut parler à Jacques. Le test de
+Bagou du final se fait alors **sans Désavantage**.
 :::
 
 :::
@@ -107,9 +107,10 @@ Jacques. Le test de Bagou du final se fait alors **sans Désavantage** (A8).
 ## La cache — entrer
 :::
 
-::: {.obj lab="Objectif — trois chemins, et aucun ne doit être le seul"}
-La source ne met qu'une porte et une serrure complexe. **Ne jamais bloquer la partie dessus.** Si les
-trois chemins échouent, un guetteur sort par la porte et elle reste ouverte trois secondes.
+::: {.obj lab="Ce que tu veux obtenir ici"}
+Trois chemins, et aucun ne doit être le seul.\
+Il y a une porte et une serrure complexe. **Ne bloque jamais la partie dessus.** Si les trois chemins
+échouent, un guetteur sort et la porte reste ouverte trois secondes.
 :::
 
 ### La ruelle
@@ -132,7 +133,7 @@ trois chemins échouent, un guetteur sort par la porte et elle reste ouverte tro
 entièrement**.
 :::
 
-::: {.jeu lab="Les pièges — trois, et ils alertent plus qu'ils ne tuent"}
+::: {.jeu lab="Les trois pièges"}
 Chacun est signalé à qui regarde : un fil, une dalle plus propre, une charnière huilée.\
 **Sauvegarde de Dextérité** pour qui avance sans regarder · **d6 de dégâts** · et **le bruit porte**.
 :::
@@ -148,15 +149,16 @@ Chacun est signalé à qui regarde : un fil, une dalle plus propre, une charniè
 :::
 
 ::: {.mj lab="Ce qu'ils viennent de trouver"}
-**C'est le dépôt de l'Ordre des Justes** — l'or et les textes qu'ils sont venus chercher, quatre
-siècles après (A1). Ils l'ont trouvé. C'est l'objectif de leur mission, atteint au milieu de la partie.\
+**C'est le dépôt de l'Ordre des Justes** : l'or et les textes qu'ils sont venus chercher, quatre
+siècles après. Ils l'ont trouvé, au milieu de la partie.\
 Et il **ne sortira pas** d'une ville bloquée par terre et par mer.
 :::
 
-::: {.obj lab="Objectif — leur donner ce qu'ils voulaient, et le rendre inutile"}
-Laisser le moment durer. Les faire compter, soupeser, calculer combien d'hommes il faudrait.\
-Puis laisser la question monter d'elle-même : **comment on sort ça d'ici ?** Ne pas y répondre. Elle
-reviendra à la dernière scène, et c'est là qu'elle vaut quelque chose.
+::: {.obj lab="Ce que tu veux obtenir ici"}
+Leur donner ce qu'ils voulaient, et le rendre inutile.\
+Laisse le moment durer. Fais-les compter, soupeser, calculer combien d'hommes il faudrait.\
+Puis laisse la question monter d'elle-même : **comment on sort ça d'ici ?** N'y réponds pas. Elle
+revient à la dernière scène.
 :::
 
 ### Le couloir
@@ -186,13 +188,13 @@ reviendra à la dernière scène, et c'est là qu'elle vaut quelque chose.
 - Ceux-là tiennent dans un sac.
 :::
 
-::: {.mj lab="Le sac existe déjà, et personne ne l'a vu"}
+::: {.mj lab="De quoi emporter les textes"}
 **Benjamin Girard**, le tanneur du Marché Noir, a été approché pour fabriquer *« une série de sacs
 spéciaux, pour transporter des objets précieux »*. Les Saint-Pierre les lui ont commandés.\
 Si les personnages ont parlé au tanneur, ils savent où trouver de quoi emporter les textes.
 :::
 
-::: {.obj lab="La sortie"}
+::: {.obj lab="Pour passer à la suite"}
 Depuis le hall, plusieurs souterrains partent. L'un d'eux **monte** : marches taillées, air plus sec.
 Et de très loin, dedans, on entend quelque chose qui ressemble à des voix qui comptent.
 :::
@@ -207,12 +209,13 @@ Et de très loin, dedans, on entend quelque chose qui ressemble à des voix qui 
 ## La cache — l'atelier du rituel
 :::
 
-::: {.mj lab="Ce que c'est, et ce que ce n'est pas"}
+::: {.mj lab="Ce qu'est cette pièce"}
 **Pas le lieu du rituel : son atelier.** C'est ici que Jacques a préparé, essayé, recopié. Le grand
-œuvre se tient au-dessus, dans le chœur de la cathédrale, et le souterrain qui monte y va (A7).
+œuvre se tient au-dessus, dans le chœur de la cathédrale, et le souterrain qui monte y va.
 :::
 
-::: {.obj lab="Objectif — leur faire comprendre à qui ils ont affaire"}
+::: {.obj lab="Ce que tu veux obtenir ici"}
+Qu'ils comprennent à qui ils ont affaire.\
 Jacques n'est pas un cultiste. C'est **un érudit qui a trop bien lu**, un héritier légitime qui croit
 sauver la ville. Tout ce qui est dans cette pièce doit le dire : le travail, la méthode, l'obstination.\
 S'ils comprennent ça ici, la quatrième fin devient possible.\
@@ -243,7 +246,7 @@ mettre fin au siège, et il est convaincu d'y être presque.\
 Rien dans ces pages ne dit ce qu'il y a derrière la porte. **Il ne le sait pas.**
 :::
 
-::: {.obj lab="La sortie"}
+::: {.obj lab="Pour passer à la suite"}
 Au-dessus, très loin, une cloche. Puis les voix qui comptent, plus nettes, dans le souterrain qui
 monte.
 :::

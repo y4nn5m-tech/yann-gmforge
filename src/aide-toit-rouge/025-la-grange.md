@@ -6,14 +6,16 @@
 ## Le combat — la grange, et la fin
 :::
 
-::: {.jeu lab="Rappel des chiffres"}
-**Segment de racine : CA 12 · PV 8.** Trois en tout. Le dernier détruit, elle rentre.\
+::: {.jeu lab="Rappel des chiffres, et du rythme"}
+**Segment de racine : CA 12 · PV 8.** Trois en tout, présents dès le premier round. Le dernier
+détruit, elle rentre.\
+**Cette phase entre en jeu au deuxième segment tombé, ou au round 5.**\
 **Radicelle : CA 13 · PV 3.**\
 **Étreinte** +3 : pas de dégâts, cible soulevée et immobilisée. `FOR ND 12` pour se dégager, ou deux
 personnages ensemble, sans jet. **1d4 par tour** à qui reste immobilisé.
 :::
 
-### Phase 4 — la grange
+### Phase 4 — la grange · *au deuxième segment tombé, ou round 5*
 
 ::: {.say}
 - La grande racine s'enroule autour du poteau d'angle de la grange à grain.
@@ -35,7 +37,7 @@ règle est là pour que ça marche.
 *« Tu peux soigner celui qui est en dessous, ou frapper le poteau. Pas les deux ce tour-ci. »*
 :::
 
-### Phase 5 — l'eau
+### Phase 5 — l'eau · *au dernier segment, ou round 6*
 
 ::: {.say}
 - Le puits déborde pour de bon. L'ichor pourpre coule en nappe sur la place.

@@ -31,14 +31,14 @@ niveau 1-2
 | **Où sont les PJ ?**          | Sur la place de Gardebois, en pleine nuit. Une racine noire   |
 |                               | vient de crever le puits, et un enfant est coincé dessous.    |
 +-------------------------------+---------------------------------------------------------------+
-| **Que veulent-ils ?**         | D'abord dégager l'enfant. Ensuite, trouver comment tuer       |
-|                               | l'arbre qui a envoyé cette racine, avant la prochaine.        |
+| **Que veulent-ils ?**         | D'abord dégager l'enfant. Ensuite : **tout ce qu'il y a dans  |
+|                               | la tour est à eux**, sauf de quoi tuer l'arbre.               |
 +-------------------------------+---------------------------------------------------------------+
 | **Que se passe-t-il           | Rien. La tour est fermée depuis cent ans. Trois créatures y   |
 | réellement ?**                | ont poussé pendant ce temps, et personne ne les attend.       |
 +-------------------------------+---------------------------------------------------------------+
-| **Ce qui va probablement      | **Séance 1** : la place, le combat, le chevalier, la route,   |
-| se passer**                   | la porte de la tour. **Séance 2** : les quatre étages.        |
+| **Ce qui va probablement      | **Séance 1** : la place, le combat, la dispute, le marché,    |
+| se passer**                   | la route, la porte. **Séance 2** : les quatre étages.         |
 +-------------------------------+---------------------------------------------------------------+
 | **À surveiller**              | Que personne ne meure dans le combat d'ouverture. La racine   |
 |                               | attrape et secoue, elle ne tranche pas.                       |

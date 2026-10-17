@@ -4,6 +4,11 @@
 couches qu'il ne faut pas confondre : le **modèle** (`modele/`, la doctrine éditoriale — ce qui dure),
 la **chaîne** (`build.py`, `filters/`, `assets/` — remplaçable), les **documents** (`src/`).
 
+`travail/<scénario>/` est en dehors des trois, et volontairement : des notes de travail en Markdown
+libre, versionnées et greppables, que `build.py` ne lit pas. Ni charte, ni contrôles, ni plafond de
+volume — elles cherchent l'exhaustivité, et les documents de `src/` s'en tirent ensuite. Un
+répertoire de travail ne se crée qu'à la demande ; il n'y en a pas pour la plupart des scénarios.
+
 Deux chemins, et ils n'ont presque rien en commun. Lis celui qui correspond à la demande.
 
 ---

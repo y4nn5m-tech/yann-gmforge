@@ -1,6 +1,6 @@
 ---
 title: "Magnitogorsk — acte 1"
-subtitle: "Aide de jeu"
+subtitle: "Aide de jeu acte 1 — première passe"
 scenario: "Magnitogorsk"
 type: aide
 jeu: "Cthulhu Hack — Tales of C., 2024"

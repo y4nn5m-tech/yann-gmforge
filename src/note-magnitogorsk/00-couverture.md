@@ -1,6 +1,6 @@
 ---
 title: "Magnitogorsk"
-subtitle: "Note d'arbitrage"
+subtitle: "Note d'arbitrage — première passe"
 scenario: "Magnitogorsk"
 type: note
 jeu: "Cthulhu Hack — Tales of C., 2024"

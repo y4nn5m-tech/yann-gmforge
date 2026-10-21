@@ -1617,11 +1617,20 @@ par le baraquement.**
 - Dès qu'on évoque le rapport ou Moscou, l'assurance tombe d'un coup :
 - [« …Naturellement. Naturellement. Tout ce qu'il vous faudra, camarades. »]
 
-> **Le faire céder — test de Bagou.** Un test par verrou, et le levier est toujours le même : une
-> ligne dans le rapport, ou un coup de téléphone à Moscou.
+> **Les cinq dossiers sont donnés quoi qu'il arrive.** Aucun jet ne les retient. Cacher un dossier
+> à Moscou serait pour lui le pire des aveux — c'est ce qui le définit, et c'est pour ça qu'il les
+> sort tous.
+
+> **Le faire céder — test de Bagou.** Ce qui se joue n'est pas l'accès aux dossiers, c'est **sa
+> coopération pour la suite**. Le levier est toujours le même : une ligne dans le rapport, ou un
+> coup de téléphone à Moscou.
 >
-> **Raté :** il garde un dossier pour lui, au choix du MJ — et il faudra qu'un autre PNJ le
-> mentionne pour que la table sache qu'il existe.
+> **Réussi :** il signe l'accréditation pour les archives séance tenante.
+>
+> **Raté :** il promet, il traîne, il n'a pas le temps. **Les archives passeront alors par la
+> signature du Directeur — une journée d'attente**, soit deux créneaux perdus sur huit.
+>
+> **L'échec ne ferme rien : il coûte du temps.** Et le temps est la seule monnaie de cet acte.
 >
 > *Petrenko a **Bagou d6**, le plus bas de la table. Le lui dire avant qu'il prenne la parole par
 > réflexe hiérarchique.*
@@ -1637,7 +1646,7 @@ par le baraquement.**
 - [« Ainsi, Moscou nous envoie des… renforts. Tout est sous contrôle, camarades. »]
 - [« Vous verrez : tout a été instruit dans les règles. Tout, sans exception. »]
 - [« Si quelqu'un vous dit autre chose, demandez-vous qui le dit. Et pourquoi. »]
-- [« J'ai écrit à Moscou. Deux fois. On ne m'a jamais répondu. »]
+- [« On a dû vous dire que la section manquait de moyens. C'est faux. »]
 - [« Le camarade Directeur a ses humeurs. Ça ne regarde pas le travail de la police. »]
 
 > **La dernière est celle qu'il ne faut pas rater** : il nomme le Directeur alors que personne ne
@@ -1664,9 +1673,15 @@ par le baraquement.**
 > **Celui des cinq qui compte : les sabotages.** C'est le seul vrai sabotage du lot, et il est noyé
 > dans quatre accidents. Igor le traite exactement comme les autres.
 
-> **La ligne qui dit tout de lui** : la déposition de Faddei Nikitine date d'un mois, et elle n'a
-> été enregistrée qu'il y a cinq jours. **Vingt-cinq jours dans un tiroir.** Ne pas le souligner —
-> c'est écrit sur la chemise, qu'ils le lisent ou non.
+> **La ligne qui dit tout de lui, et il faut être exact.** La déposition de Faddei Nikitine a été
+> faite **au palais administratif le 10 avril**, et n'est parvenue à la police que **le 29** —
+> dix-neuf jours de transmission administrative. **Ce retard-là n'est pas le sien.**
+>
+> Ce qui est le sien, et qu'il dira lui-même si on l'interroge : la déposition est arrivée en même
+> temps que la disparition de Pavel Tkachenko, et **il a choisi de prioriser l'autre problème**.
+>
+> C'est un arbitrage, pas une négligence — et c'est exactement le genre d'arbitrage qu'un rapport
+> sur sa fiabilité peut retenir. Ne pas le souligner : c'est écrit sur la chemise.
 
 ## E — L'avertissement qu'il donne sans le savoir (A3)
 

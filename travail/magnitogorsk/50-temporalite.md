@@ -114,6 +114,112 @@ C'est ça qu'on dit à la table quand on coche une case : *« La matinée y est 
 
 ---
 
+## Mener la mécanique — la fiche d'arbitrage
+
+**C'est la partie difficile.** La règle est simple ; ce qui casse une mécanique de temps, ce sont
+les cas limites qui tombent en direct, à 23 h, devant quatre joueurs qui attendent.
+
+### La règle unique
+
+> **Un créneau = un lieu, et tout ce qu'on peut y faire.**
+
+Pas « une action », pas « un dossier », pas « un interlocuteur ». **Un lieu.**
+
+C'est cette formulation qui rend le dispensaire rentable, les archives décisives, et qui récompense
+les joueurs qui pensent en déplacements plutôt qu'en questions.
+
+> **Le nombre d'entretiens ne compte pas.** Deux personnes au même endroit coûtent un créneau. Dix
+> aussi. **Ce qui limite n'est pas la règle, c'est la fiction** : les gens travaillent, certains
+> sont partis sur la route, d'autres sont à des kilomètres.
+>
+> Un créneau leur donne **ceux qui sont là à cette heure-là**. S'ils veulent les autres, ils
+> reviennent le soir — ou ils se séparent.
+
+### Pourquoi le lieu, et pas le dossier
+
+**La tentation est de compter en dossiers** — « ce matin, on bosse sur les sabotages ». C'est plus
+lisible à annoncer, et c'est comme ça que la préparation les chiffre. **Mais ça ne tient pas à la
+table, pour deux raisons.**
+
+**1. Les dossiers se croisent dans l'espace.** Ils vont au dispensaire pour l'empoisonnement, et le
+corps du pêcheur est sur sa banquette, sous leurs yeux. Dire « c'est un autre dossier, ça coûte un
+créneau » est absurde — le corps est là. Dire « c'est gratuit », c'est être revenu au lieu sans
+l'avouer. Même impasse au bloc 27 *(Sorokin et Kazakoff sont dans la même prison)* et aux archives
+*(deux dossiers y dorment)*.
+
+**2. Le coût cesse d'être justifiable.** Les disparitions coûtent trois créneaux **parce qu'elles
+sont éclatées** : Oleg aux mines à 5 km, le quai ouest, Berezki à 8 km. En comptant par dossier, il
+faut décréter « celui-là en vaut trois » sans pouvoir l'expliquer, et un joueur qui demande pourquoi
+n'obtient rien. **Avec le lieu, la réponse est sur la carte** — et le plan A3 retrouve son emploi.
+
+> **La charge mentale invoquée contre le lieu est une illusion : il n'y a que trois lieux à
+> connaître.**
+>
+> | Lieu | Ce qu'il porte |
+> |---|---|
+> | **Le dispensaire** | empoisonnement · noyé · autopsie de Zina · pêcheur · Igor |
+> | **Les archives** | disparitions · meurtre au Komsomol |
+> | **Le bloc 27** | la machine *(Sorokin, Malysheff)* · le meurtre *(Kazakoff)* |
+>
+> Partout ailleurs, un lieu = un dossier : les deux systèmes y donnent le même résultat. **Toute la
+> différence tient sur ces trois lignes.**
+
+**Les deux comptes coexistent, et ne s'adressent pas aux mêmes yeux.** Le tableau de
+`90-creneaux.md` chiffre les dossiers — *sabotages : 2, disparitions : 3* — et c'est la vue du MJ,
+celle qui sert à préparer et à savoir ce qu'on peut perdre. Les joueurs, eux, ne voient que la
+feuille de carnet et des cases qui se barrent.
+
+**On prépare en dossiers. On arbitre en lieux.**
+
+### Les six cas limites, et leur réponse
+
+| Ils… | Réponse | Pourquoi |
+|---|---|---|
+| **se séparent en deux groupes** | **deux lieux, un seul créneau** | le temps fictif ne double pas. **C'est le meilleur gain du jeu**, et il se paie en sécurité et en compétences |
+| veulent « juste passer demander un truc » | **gratuit si c'est sur le chemin**, sinon c'est un lieu | ne pas chipoter : une question posée en passant ne coûte rien |
+| retournent sur un lieu déjà visité | **un créneau plein** | ils y retournent parce qu'ils ont une nouvelle question. Ça se paie |
+| veulent faire deux lieux voisins | **un créneau si c'est le même bâtiment**, deux sinon | le bloc 27 et les bureaux de la Guépéou sont dans la même zone, pas dans le même bâtiment |
+| passent la journée entière sur un lieu | **deux créneaux**, et le dire avant qu'ils s'engagent | une journée, c'est deux demi-journées |
+| attendent quelque chose *(une signature, un corps)* | **le créneau est perdu**, et ils peuvent faire autre chose | ne pas les enfermer : l'attente se mène ailleurs |
+
+> **La séparation mérite d'être annoncée une fois, au jour 2**, quand ils sentent que le temps
+> manque : *« vous savez que vous pouvez vous séparer ? »* Une seule fois. Ensuite, c'est à eux d'y
+> penser.
+>
+> **Et ce qu'elle coûte doit se voir** : un PJ seul face à Igor n'a pas le Bagou du groupe, et un PJ
+> seul la nuit aux entrepôts est un PJ seul la nuit aux entrepôts.
+
+### Ce qu'on dit à voix haute
+
+- **Avant** : *« ça vous prendra la matinée »* — toujours, et avant qu'ils s'engagent.
+- **Après** : rien. **C'est un joueur qui coche la case.**
+
+### Ce qu'on ne dit jamais
+
+- Qu'ils n'auront pas assez de créneaux.
+- Qu'un lieu en vaut plusieurs.
+- Combien il leur en reste. **La feuille est sur la table, ils savent compter.**
+
+### Le rituel de fin de créneau — trois phrases, pas plus
+
+1. Ce qu'ils ont obtenu, en une phrase.
+2. **« Qui coche ? »** — et on attend que quelqu'un le fasse.
+3. *« Il est midi »* ou *« la nuit tombe »*. Puis : **« Et maintenant ? »**
+
+> **Ne jamais commenter la case cochée.** Pas de « plus que cinq », pas de « le temps presse ». La
+> feuille le dit mieux que toi, et elle le dit sans insister.
+
+### Le piège à éviter
+
+**Ne pas faire payer la bêtise.** Un groupe qui va au mauvais endroit parce qu'il a mal compris perd
+un créneau — c'est juste. Un groupe qui perd un créneau parce que **le MJ n'avait pas prévu que le
+lieu porte autre chose** est volé.
+
+D'où la table des lieux partagés dans `90-creneaux.md` : **l'avoir sous les yeux pendant la partie**,
+et répondre oui chaque fois qu'un joueur demande « est-ce qu'on peut aussi… » sur place.
+
+---
+
 ## La soirée
 
 Elle ne se coche pas. Elle ne sert qu'à trois choses, et il faut le dire aux joueurs dès le premier

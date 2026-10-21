@@ -437,8 +437,12 @@ débordé. **Il ne soupçonne personne.**
 
 ### Créneau 2 — l'équipe
 
-Sept personnes à voir en une demi-journée : **impossible**. Ils en verront trois ou quatre, et c'est
-le jeu.
+**Un créneau au secteur transport leur donne tous ceux qui s'y trouvent** — le nombre d'entretiens
+ne coûte rien. Mais ils n'y sont pas tous : **Timur Bakhytov est sur la route entre 8 h et 17 h**,
+et **Boris Shcherbakov est à des kilomètres sur les voies**.
+
+Le matin, ils attrapent Faddei, Moskalev, Udovenko, Plotnikova, Bondarenko, Vasyukova et Larissa.
+**Pas Bakhytov, pas Shcherbakov** — il faut revenir le soir, ou aller les chercher.
 
 - Pour les anonymes du secteur : **le générateur 1d10 par colonne** de la page 16.
 - Pour les nommés : les tensions font le travail. **Timur Bakhytov se plaint des quotas et de la

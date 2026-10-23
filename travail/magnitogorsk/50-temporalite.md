@@ -344,6 +344,12 @@ rien annoncé :
 - un autre patient : *« Le train de Moscou est passé avant-hier. »*
 - leur propre barbe, leur faim, l'état de leurs vêtements.
 
+> **Et la carte de repas, qui est l'outil le plus net des trois.** Elle porte *« valable du 3 au 10
+> mai 1932 »*. Au premier repas d'après, ils la tendent, l'agent la regarde, et **il la refuse**.
+>
+> **Le temps volé devient un objet qu'on leur rend.** Ne rien expliquer : il la repousse du doigt
+> et appelle le suivant.
+
 ### Ce que la ville a fait pendant cinq jours
 
 Ils ont disparu cinq jours. Le monde n'a pas attendu. **Préparer ça plutôt qu'un révélateur** : où

@@ -98,12 +98,18 @@ portion.
 | **Soir, jour de pénurie** | eau chaude avec quelques morceaux de pomme de terre, pain en quantité réduite |
 | **Jour de fête soviétique** | viande bouillie non identifiée, soupe plus épaisse, parfois un morceau de sucre |
 
-> **Question à trancher avant la séance 1 : ont-ils une carte de repas ?** Sans elle, ils ne mangent
-> pas au réfectoire. Avec elle, ils mangent comme les ouvriers — ce qui est en soi une information
-> sur le statut qu'on leur accorde.
+> **Tranché : ils ont une carte de cadres en mission, et c'est Kassym qui la leur remet** — avec
+> les clés des chambres, le premier jour. On la lui a confiée pour eux ; il n'en délivre pas.
 >
-> La réponse la plus intéressante : **oui, une carte ordinaire d'ouvrier**. Des envoyés de Moscou
-> qui font la queue avec une gamelle, c'est l'effondrement du statut prolongé.
+> **Elle permet de passer devant la file.** Kassym le dit platement, sans juger, parce que pour lui
+> c'est une information pratique comme une autre : *« Vous, vous n'attendez pas. »*
+>
+> **Le choix se repose chaque jour** : passer devant trois cents hommes qui attendent, ou faire la
+> queue avec eux. Personne ne commente dans les deux cas — **mais la salle commune du soir s'en
+> souvient.**
+>
+> **Et le détail d'atmosphère ci-dessous se retourne sur eux** : « un silence soudain quand un gradé
+> entre ». **Le gradé, c'est eux.**
 
 **L'atmosphère, à piocher** : des visages creusés qui mangent vite sans goûter · des mains gercées
 serrées autour des gamelles chaudes · un homme qui lèche le fond de sa gamelle sans honte · un autre

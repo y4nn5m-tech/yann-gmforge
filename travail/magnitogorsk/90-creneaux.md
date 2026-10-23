@@ -33,12 +33,12 @@ dossier, dit ce qui se groupe, et tranche ce qu'on peut perdre.
 | **L'empoisonnement** | **2** | 2 | le dispensaire · la Section D sur place |
 | **Les sabotages** | **2** | 2 | chez Faddei · l'équipe — *+ les soirées de veille* |
 | **Le meurtre au Komsomol** | **2** | 3 | le bloc 27 · le quartier du Komsomol · *(dossier et autopsie se groupent)* |
-| **Les disparitions** | **3** | 4 | Oleg aux mines **(5 km)** · le quai ouest · Berezki **(8 km)** · Yelena |
+| **Les disparitions** | **2** | 4 | les entrepôts · Oleg aux mines **(5 km)** — *puis la gare, Yelena et Berezki, tous partagés* |
 | **Le promeneur — Kelley** | 1 | 1 | **Berezki (8 km)** — le message arrive le soir, gratuit |
 | **Le pêcheur** | **0** | 1 | au dispensaire — *gratuit s'ils y sont déjà* |
 | **Le culte secret** | **0** | 0 | **une soirée**, jamais un créneau |
 | **Enquêter sur Igor** | **0** | 0 | **transversal** — se joue partout où ils passent déjà |
-| | **14** | **20** | |
+| | **13** | **20** | |
 
 ---
 
@@ -64,6 +64,12 @@ créneau.
 
 Les disparitions de matériel et le meurtre au Komsomol **n'existent pas avant d'y être allés**.
 C'est le créneau le plus rentable de l'acte, et le seul qui ait un péage.
+
+### La gare — deux dossiers, et c'est le même homme
+
+Sacha Orloff est le dernier maillon des **sabotages** *(les explosifs de Larissa)* et le pivot des
+**disparitions**. Même café, même homme, et **il se souvient de la première visite** : ce qu'on a
+dépensé sur un dossier sert ou coûte sur l'autre.
 
 ### Le bloc 27 — deux dossiers
 
@@ -95,7 +101,7 @@ même prison. **Une visite, deux dossiers.**
 |---|---|
 | **Les archives** | 1 créneau. Sans elles, deux dossiers n'existent pas |
 | **Les sabotages** | 2 créneaux. **Larissa est la monnaie de l'épilogue** — A6 |
-| **Les disparitions** | 3 créneaux. **Le dossier contre Igor**, l'autre monnaie d'échange |
+| **Les disparitions** | 2 créneaux. **Le dossier contre Igor**, l'autre monnaie d'échange |
 
 ### Plus un des trois incidents « aquatiques » — 1 à 2 créneaux
 
@@ -110,7 +116,9 @@ la bascule.
 ### Sacrifiables sans rien casser
 
 **Le culte secret** — fausse piste voulue, B7 dit qu'elle se referme en dix minutes.
-**Le pêcheur** — une image, aucune conséquence.
+**Le pêcheur** — mais **son autopsie ne l'est pas** : elle donne la substance, l'asphyxie sans
+noyade et le corps plié sans marques, **pour zéro créneau** s'ils sont déjà au dispensaire. Ce
+qu'on peut sacrifier, c'est l'enquête sur l'homme, pas le corps.
 **Kelley** — un témoignage vrai que personne ne peut croire. Coûteux (Berezki) pour ce qu'il donne.
 **Le déserteur** — un beau dilemme, aucune conséquence structurelle.
 **Les deux incidents aquatiques non retenus.**

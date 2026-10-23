@@ -45,18 +45,23 @@ réfectoire, le dispensaire, la gare, l'usine, Berezki, les yourtes, les berges 
 ## Né du travail de préparation {.sec}
 
 ::: {.jeu lab="Accessoires à fabriquer"}
-☐ La **feuille de carnet du temps** — sept jours, deux cases par jour, le jour 1 déjà barré\
-☐ Le **plan A3**, avec les deux distances qui coûtent un créneau\
-☐ Les **huit rapports de police**, refaits : fond blanc, sans tampon, avec des annotations
-d'Igor\
-☐ Le **carnet de Faddei**, trois pages, recopiées à la main\
-☐ L'**organigramme du secteur transport**, transposé aux vrais noms — pour le MJ seul
+*Chaque ligne renvoie à la note de travail qui dit quoi mettre dedans. La liste ne décrit rien :
+elle pointe.*
+
+☐ La **feuille de carnet du temps** — `50-temporalite.md`\
+☐ Le **plan A3** du site — `50-temporalite.md`, `25-lieux-et-presences.md`\
+☐ Les **huit rapports de police**, refaits — `70-rapports-imprimes.md`\
+☐ Le **carnet de Faddei**, à recopier à la main — `86-carnet-faddei.md`\
+☐ Le **tableau des affectations** de la zone ouest et le **carnet d'écarts de Gordeeva** —
+`87-disparitions.md`\
+☐ Le **plan de la Section D** — `88-empoisonnement.md`\
+☐ Les **cartes de repas**, dont celle de Kassym — `25-lieux-et-presences.md`\
+☐ L'**organigramme du secteur transport** — `85-secteur-transport.md` — *pour le MJ seul*
 :::
 
 ::: {.warn lab="Questions ouvertes"}
 ☐ **Ce qui tient l'acte 3**, puisque Kassym en PNJ ne peut pas porter la fuite\
 ☐ **Lesquelles des dix pistes peuvent tomber** sans casser l'épilogue\
-☐ **Ont-ils une carte de repas ?** Sans elle, ils ne mangent pas au réfectoire\
 ☐ **Relever les caractéristiques** de Krasnov·, Gusev· et Volkov· sur les fiches, et recontrôler
 les dés de Torche, Bagou et Santé mentale
 :::

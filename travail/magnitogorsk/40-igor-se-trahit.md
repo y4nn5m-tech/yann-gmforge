@@ -50,8 +50,9 @@ Igor sort tous ses dossiers pour ne rien avoir l'air de cacher.
 - [« J'ai écrit à Moscou. Deux fois. On ne m'a jamais répondu. »]
 - [« Le camarade Directeur a ses humeurs. Ça ne regarde pas le travail de la police. »]
 
-**La quatrième est la plus lourde**, et c'est elle qu'il ne faut pas rater : il nomme le Directeur
-alors que personne ne lui en a parlé. Il révèle qu'il sait d'où vient le coup.
+**La dernière — *« le camarade Directeur a ses humeurs »* — est la plus lourde**, et c'est elle
+qu'il ne faut pas rater : **il nomme le Directeur alors que personne ne lui en a parlé.** Il révèle
+qu'il sait d'où vient le coup.
 
 ### La question qu'il finit par poser
 

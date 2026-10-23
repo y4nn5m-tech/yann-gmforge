@@ -25,7 +25,8 @@ décès du noyé et des signatures datées du lendemain du briefing. Reste à co
 jour, **huit créneaux pour dix pistes**. Les trajets en ville sont gratuits ; seuls les mines et
 Berezki se paient. *La feuille de carnet reste à fabriquer*
 
-☐ **Acheter casquette + lampes frontales**
+☐ **Acheter casquette + lampes frontales**, et une **lampe tempête à bougie** pour le centre de
+table — *dispositif complet dans `100-acte2-cadrage.md`*
 
 ☑ ~~Travailler le dossier sur les sabotages~~ — deux chemins au lieu d'un : la flagrance, ou le
 registre qui ment. Dates arrêtées, équipe nommée, interviews écrites, carnet de Faddei prêt à
@@ -56,7 +57,22 @@ elle pointe.*
 `87-disparitions.md`\
 ☐ Le **plan de la Section D** — `88-empoisonnement.md`\
 ☐ Les **cartes de repas**, dont celle de Kassym — `25-lieux-et-presences.md`\
-☐ L'**organigramme du secteur transport** — `85-secteur-transport.md` — *pour le MJ seul*
+☐ L'**organigramme du secteur transport** — `85-secteur-transport.md` — *pour le MJ seul*\
+☐ Le **formulaire de rapport**, **remis au départ** et rempli à la fin — `105-epilogue-rapport.md`\
+☐ Le **second formulaire, celui de Gusev** — une demi-page, remplie en aparté — `105`
+:::
+
+::: {.mj lab="Aides MJ de l'acte 2 — à lire dans le noir"}
+*Gros caractères, à poser à plat, jamais à feuilleter. **Tester la lisibilité à la bougie avant de
+fabriquer.***
+
+☐ La **table des onze disparus** — qui, comment, lien Kassym, ce que ça déclenche —
+`100-acte2-cadrage.md`\
+☐ Le **fil de la descente** — les deux branches, les scènes dans l'ordre, les changements de
+bougie — `101` à `103`\
+☐ La **liste des effets à saupoudrer**, avec des cases à cocher — `102`, `103`\
+☐ Le **mémo de la créature** — ignore · nettoie · agression et ses trois issues — `103`\
+☐ Les **trois jets d'horreur**, et eux seuls — `101`, `102`
 :::
 
 ::: {.warn lab="Questions ouvertes"}

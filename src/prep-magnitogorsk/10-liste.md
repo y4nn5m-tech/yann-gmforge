@@ -25,8 +25,8 @@ décès du noyé et des signatures datées du lendemain du briefing. Reste à co
 jour, **huit créneaux pour dix pistes**. Les trajets en ville sont gratuits ; seuls les mines et
 Berezki se paient. *La feuille de carnet reste à fabriquer*
 
-☐ **Acheter casquette + lampes frontales**, et une **lampe tempête à bougie** pour le centre de
-table — *dispositif complet dans `100-acte2-cadrage.md`*
+☐ **Le matériel de l'acte 2** — casquette, frontales, lampe tempête à bougie. *Dispositif dans
+`100-acte2-cadrage.md`, quantités dans la liste de courses plus bas*
 
 ☑ ~~Travailler le dossier sur les sabotages~~ — deux chemins au lieu d'un : la flagrance, ou le
 registre qui ment. Dates arrêtées, équipe nommée, interviews écrites, carnet de Faddei prêt à
@@ -75,9 +75,66 @@ bougie — `101` à `103`\
 ☐ Les **trois jets d'horreur**, et eux seuls — `101`, `102`
 :::
 
+::: {.jeu lab="Liste de courses"}
+*Établie en supposant tous les documents imprimés **sur fond blanc** : c'est le papier qui porte la
+teinte. Plafond de l'imprimante : **160 g**.*
+
+**Papier**
+
+☐ **Bleu-gris clair, 120 à 160 g — une vingtaine de feuilles**\
+*Cinq utiles : les trois cartes du Parti, le livret militaire de Voronin·, le certificat de
+Petrenko. Le reste couvre les essais — papier jamais imprimé ici.*\
+☑ ~~Jauni 160 g~~ — **40 feuilles en stock, 18 utiles.** Les sept rapports (8 f.), la déposition de
+Faddei, l'ordre de mission, le dossier Gusev·, le tableau des affectations et le carnet Gordeeva,
+le plan de la Section D, les deux formulaires de rapport, les cartes de repas, la feuille du temps\
+☐ Blanc ordinaire 80 g — *les cinq aides de l'acte 2, l'organigramme du transport, les images
+d'époque. Le blanc est le bon choix : elles se lisent à la bougie*\
+☒ ~~Brun clair / chamois~~ — **ne pas acheter.** Une seule feuille utile, la couverture du billet
+de Kassym : une chute de kraft, un contrecollage, ou le jauni
+
+**Enveloppes et rangement**
+
+☐ **Enveloppes C5 kraft (162 × 229), un paquet de 25** — *et non du C4 : l'A4 se plie en deux, et
+le pli est un atout. Une par PJ au départ, une ou deux à la fin pour le rapport*\
+☐ **Une enveloppe-pochette à ficelle et rondelles**, ou une chemise kraft à rabats — *pour la liasse
+des sept dossiers. **Une seule** : le tri entre dossiers clos et ouverts appartient aux joueurs*
+
+**Papeterie**
+
+☐ **Un carnet à couverture rigide, petit format** — le carnet de Faddei se recopie à la main,
+il ne s'imprime pas\
+☐ **Un stylo à encre bleu-noir** — les ratures d'Igor portées après impression, et les mentions
+manuscrites\
+☐ **Pochettes de plastification A4** — les fiches de personnage, les cartes de repas
+
+**Acte 2**
+
+☑ ~~Une lampe tempête à bougie~~ — *vérifier qu'elle prend des bougies du commerce*\
+☐ **Une lampe frontale par joueur**\
+☐ **Des bougies de rechange** — *une par strate, et le changement de bougie est l'entracte*\
+☑ ~~Une casquette~~
+
+**Imprimerie — un seul motif**
+
+☐ **Le plan A3 du site**, un exemplaire. *Question de format, pas de grammage : rien d'autre ne
+justifie le déplacement*
+:::
+
 ::: {.warn lab="Questions ouvertes"}
 ☐ **Ce qui tient l'acte 3**, puisque Kassym en PNJ ne peut pas porter la fuite\
 ☐ **Lesquelles des dix pistes peuvent tomber** sans casser l'épilogue\
 ☐ **Relever les caractéristiques** de Krasnov·, Gusev· et Volkov· sur les fiches, et recontrôler
-les dés de Torche, Bagou et Santé mentale
+les dés de Torche, Bagou et Santé mentale — *planche dans `src/note-magnitogorsk/40-planche.md`*\
+☐ **Qui peut découvrir quoi** — chaque PJ a-t-il de quoi trouver ce que les autres ne peuvent pas ?
+*Gusev· est l'exception, c'est son métier*\
+☐ **L'agression d'une larve** — projection simple, démembrement, ou tout le monde figé pendant
+qu'elle s'éloigne\
+☐ **Le sort d'Akim et de Dmitri** s'ils les remontent\
+☐ **La cécité à la longue-vue** au Nexus — passagère ou définitive\
+☐ **La lumière quand les lampes meurent**, à la fin de la fuite — noir complet, ou on rallume\
+☐ **Le dîner chez Igor** — la seule porte gratuite vers Berezki\
+☐ **Ce qu'Igor fait s'ils le confrontent** ouvertement avant la descente\
+☐ **La rumeur sur Yelena** — la garder comme ce qui se dit dans son dos, ou la retirer\
+☐ **Les cinq cas légers de l'empoisonnement** — hors du rapport, ou en bas de page ?\
+☐ **Le délai d'effet de la condamnation du robinet** — proposé : deux jours
 :::

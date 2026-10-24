@@ -52,7 +52,8 @@ elle pointe.*
 ☐ La **feuille de carnet du temps** — `50-temporalite.md`\
 ☐ Le **plan A3** du site — `50-temporalite.md`, `25-lieux-et-presences.md`\
 ☐ Les **huit rapports de police**, refaits — `70-rapports-imprimes.md`\
-☐ **Réécrire les six signalements d'après les photos retenues** — *aucune ne correspond au texte actuel ; les signalements sont de nous, les photos non. À faire avant de générer* — `15-photographies.md`\
+☐ La **copie de l'autopsie de Zina Krylova** — *celle qui manque au dossier du Komsomol et dort au dispensaire* — `89-komsomol.md`\
+☑ ~~Vérifier les signalements contre les photos retenues~~ — *trois passent sans retouche ; la quatrième ne collait pas, et le dossier du déserteur se passera de portrait* — `15-photographies.md`\
 ☐ Le **carnet de Faddei**, à recopier à la main — `86-carnet-faddei.md`\
 ☐ Le **tableau des affectations** de la zone ouest et le **carnet d'écarts de Gordeeva** —
 `87-disparitions.md`\

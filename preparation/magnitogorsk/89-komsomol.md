@@ -273,7 +273,7 @@ lui**, c'est le témoin direct qui fait tomber Grigori.
 Les deux dates *(naissance 1912, jugement le 2 mai)*, les bandeaux retirés, fond blanc.
 **Garder le renvoi au rapport d'autopsie absent** : c'est l'indice.
 
-### 2. La copie de l'autopsie de Zina — **à créer**
+### 2. La copie de l'autopsie de Zina — `scripts/autopsie-zina.py`
 
 **Une page, format médical**, délivrée par le dispensaire. Elle porte les cinq constats ci-dessus,
 **dont le soupçon de complice**, rédigé comme une réserve professionnelle et non comme une

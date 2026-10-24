@@ -256,10 +256,14 @@ L'acte de 1934 montre comment un dactylographe résout chacun de ces problèmes.
 `А К Т` · `НАРУЖНЫЙ ОСМОТР:` · `Б. ВНУТРЕННИЙ ОСМОТР:` — lettres espacées d'un cran, et un
 soulignement frappé. Pas une once de gras dans tout le document.
 
-**2. Les corrections par surfrappe, et c'est le détail qui donne vie.**
-Le dactylographe tape par-dessus son erreur sans l'effacer : `Из брюшной полости ~~полости~~ особого
-запаха`, `ушш узлы`, `кб.ст.` corrigé en `кб.см.`. **Deux ou trois par document, pas plus** — un
-document criblé de fautes ne ferait plus administratif, il ferait négligé.
+**2. Les corrections par surfrappe — essayées, et abandonnées.**
+Le dactylographe de 1934 tape par-dessus son erreur sans l'effacer : `Из брюшной полости
+~~полости~~ особого запаха`, `ушш узлы`, `кб.ст.` corrigé en `кб.см.`.
+
+> **Ça ne passe pas en typographie numérique.** Deux rendus essayés — le mot correct décalé d'un
+> demi-millimètre, puis la rature en `xxxx` — et les deux se lisent comme un défaut d'impression,
+> pas comme une correction. Sur le papier, l'œil voit l'épaisseur d'encre et la profondeur de
+> frappe ; en PDF, deux textes superposés ne font que du moiré. **Retiré des trois documents.**
 
 **3. Les mots se coupent en fin de ligne.**
 `по-кровы`, `направ-лении`, `запачка-ны`, `мочеиспуска-тельного`. C'est la conséquence mécanique de

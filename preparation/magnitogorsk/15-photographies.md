@@ -31,21 +31,34 @@ description : elle est une pièce du document, et elle rend le dossier crédible
 | N° | Fichier | Dossier | Ce qu'on voit |
 |---:|---|---|---|
 | **69** | `archives photos/img36.jpg` | **1932-05/DEC** — Kurbanoff | homme en veste sombre à insigne, derrière une table, frontal. Un cadre du Parti photographié en fonction |
-| **65** | `archives photos/img33.jpg` | **1932-07/DIS** — Tkachenko | homme en manteau et sacoche devant une porte. Prise sur le chantier, pas en studio |
-| **30** | `archives photos/img118.jpg` | **1932-08/EMP** | femme âgée, cadrage serré, visage dur, fond noir. **C'est déjà une photo d'identité** |
-| **36** | `archives photos/img145.jpg` | **1932-06/MRT** — Zina Krylova | quatre jeunes femmes en tenue de travail. **À recadrer sur une seule** |
+| **—** | *aucune* | **1932-07/DIS** — Tkachenko | **pas de photo, et c'est l'information** — voir plus bas |
+| **30** | `archives photos/img118.jpg` | **1932-08/EMP** — N. Ignatieva, comptable principale | femme d'une cinquantaine d'années, cadrage serré, visage dur, fond clair. **C'est déjà une photo d'identité** |
+| **36** | `archives photos/img145.jpg` | **1932-06/MRT** — Zina Krylova | quatre jeunes gymnastes en maillot, souriantes. **Recadrer sur celle de gauche**, au bandeau blanc |
 | **31** | `archives photos/img122.jpg` | **1932-09/SAB** | wagonnet renversé sur la voie, grue. Une pièce jointe, pas un portrait |
 | **34** | `archives photos/img141.jpg` | **1932-03/ENT** | intérieur d'entrepôt, rayonnages, silhouette dans l'ombre |
 
-### Les signalements s'adaptent aux photos, pas l'inverse
+### Vérification faite, photo par photo — et une seule pose problème
 
-**Aucune de ces images ne correspond au signalement écrit.** Le dossier de Tkachenko porte
-*« Taille moyenne, cheveux bruns grisonnants, lunettes rondes »* (`rapports-police.py:304`) et
-l'homme de `img33` n'a pas de lunettes. Un joueur qui compare verrait la contradiction, et elle ne
-sert à rien.
+| | |
+|---|---|
+| **Kurbanoff** | né en 1888, donc 43 ans. `img36` montre un homme de quarante-cinq ans en veste de cadre, **insigne à la poitrine**, mains à plat sur une table. Sa fiche ne porte pas de signalement : rien à écrire |
+| **Zina Krylova** | née en 1912, gymnaste. `img145` montre quatre gymnastes en maillot. Rien à écrire |
+| **N. Ignatieva** | comptable principale, âge non précisé au dossier. `img118` passe sans retouche |
 
-**Les signalements sont de nous, pas de la source.** On les réécrit d'après les photos retenues, au
-moment de générer.
+**Et Tkachenko, non.** Sa fiche dit 42 ans, urbaniste, *« taille moyenne, cheveux bruns
+grisonnants, lunettes rondes »*. `img33` montre un ouvrier de vingt-cinq ans en casquette, avec une
+sacoche, dans un atelier. Ce n'est pas une question de lunettes : **c'est l'âge et le métier**. Et
+on ne rajeunit pas un homme dont la date de naissance est au dossier.
+
+Les autres candidats ne valent pas mieux : `img114` a les lunettes rondes mais c'est un médecin de
+soixante ans en blouse ; `img127` montre deux garçons devant un présentoir de brochures.
+
+> **Donc : pas de photo au dossier du déserteur.** Et c'est mieux qu'un compromis — **un dossier de
+> disparition sans portrait du disparu est un dossier bâclé**, et Igor cherche un homme dont il
+> n'a même pas le visage. La pile en dit une chose de plus sans qu'on ait rien à écrire.
+
+> **Les signalements restent donc inchangés.** C'était noté comme bloquant avant de générer :
+> ça ne l'est plus.
 
 ---
 

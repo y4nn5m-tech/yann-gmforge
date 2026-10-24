@@ -1,7 +1,8 @@
-# Les huit rapports de police
+# Les rapports de police
 
-**Sept dossiers que les joueurs manipulent toute la partie**, plus une pièce manuscrite agrafée au
-huitième. Ils se fabriquent par `scripts/rapports-police.py`, parce qu'ils partagent une mise en
+**Sept dossiers que les joueurs manipulent toute la partie**, plus deux pièces qui n'en sont pas :
+la déposition manuscrite de Faddei, agrafée au dossier des sabotages, et la copie de l'autopsie de
+Zina, qui ne vient pas du même bureau — elle dort au dispensaire, et c'est tout son sujet. Ils se fabriquent par `scripts/rapports-police.py`, parce qu'ils partagent une mise en
 page.
 
 > **Le texte de chacun est dans `71-rapports-textes.md`**, corrigé et prêt à composer.
@@ -78,9 +79,20 @@ signé.
 
 ## Les annotations d'Igor
 
-**Imprimées en Caveat**, d'un bleu d'encre, légèrement inclinées. Le script accepte
-`--sans-annotations` pour réserver le blanc et les porter au stylo sur l'épreuve jaunie : les deux
-rendus existent, c'est une décision d'impression, pas de contenu.
+**Imprimées en Caveat**, d'un bleu d'encre. Le script accepte `--sans-annotations` pour réserver le
+blanc et les porter au stylo sur l'épreuve jaunie : les deux rendus existent, c'est une décision
+d'impression, pas de contenu.
+
+> **Jamais à la même place.** Un homme pressé n'annote pas au même endroit, du même angle et de la
+> même taille sept fois de suite — posées toutes à la même hauteur, les notes faisaient mécanique.
+> Chaque dossier a donc sa position, en millimètres depuis le coin haut-gauche de la zone imprimée,
+> plus un angle et un corps : le tableau `MAIN` de `scripts/rapports-police.py`. **Les valeurs sont
+> fixes**, relevées une à une à l'œil — l'option `--grille` surimprime une règle graduée pour les
+> relever, et ne sort jamais à l'impression.
+
+> **L'annotation est hors du flux** : elle ne pousse pas le texte, elle se pose où on la met, quitte
+> à passer par-dessus — ce que fait une vraie note manuscrite sur un document tapé. Elle passe
+> **au-dessus** de la photo agrafée.
 
 | Dossier | À écrire à la main |
 |---|---|
@@ -106,6 +118,7 @@ rendus existent, c'est une décision d'impression, pas de contenu.
 | Les disparitions de matériel | **1932-03/ENT** |
 | **Le pêcheur** | **aucun** |
 | *Les sabotages — pièce jointe* | **déposition manuscrite de F. Nikitine** |
+| *Le meurtre — la page absente* | **copie de l'autopsie de Zina**, au dispensaire — `89-komsomol.md` |
 
 **Le pêcheur n'a pas de dossier, et c'est l'information.** Son corps est retrouvé *pendant* leur
 séjour, et c'est un koulak : Igor leur dit que « quelqu'un qui passe ses nerfs sur un koulak est

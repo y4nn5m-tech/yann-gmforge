@@ -41,7 +41,8 @@ sabotages. Voir plus bas.
 pile montre alors ce qu'Igor ferme vite et ce qu'il laisse en plan.
 
 Les annotations de sa main sont imprimées en Caveat. `--sans-annotations`
-réserve le blanc à la place, pour les porter au stylo.
+les omet, pour les porter au stylo sur l'épreuve : la note étant hors du
+flux, rien n'est à réserver — on écrit où l'on veut.
 
 Textes dans preparation/magnitogorsk/71-rapports-textes.md.
 Rendu par Chrome — voir scripts/rendu.py.
@@ -56,11 +57,16 @@ import rendu  # noqa: E402
 
 ARGS = [a for a in sys.argv[1:] if not a.startswith("--")]
 MANUSCRIT = "--sans-annotations" not in sys.argv
+GRILLE = "--grille" in sys.argv
 F = (RACINE / "assets" / "fonts").as_uri()
 
 
 def classe(date):
-    """Le cachet de classement : rectangulaire, encre mangée."""
+    """Le cachet de classement : rectangulaire, encre mangée.
+
+    **La date s'écrit en texte simple** : un `<sup>` dans un `<text>` SVG
+    n'est pas rendu, et Chrome rejette le morceau orphelin en pied de page.
+    """
     return f"""
 <svg class="classe" viewBox="0 0 300 108" xmlns="http://www.w3.org/2000/svg">
  <defs>
@@ -84,8 +90,30 @@ def classe(date):
 </svg>"""
 
 
-def doc(corps, tampon="", annot="", hauteur_annot="12mm", cotes=None, coupures=False):
-    bloc = (f'<div class="plume annot">{annot}</div>' if (MANUSCRIT and annot)
+def grille():
+    """Le quadrillage de --grille : abscisses en rouge, ordonnées en bleu,
+    un trait tous les 20 mm. Les repères vivent **dans** la page : la marge
+    de @page n'est pas rendue, un trait posé dedans serait invisible."""
+    if not GRILLE:
+        return ""
+    e = []
+    # Les ordonnées courent sur toute la hauteur du corps, pages suivantes
+    # comprises : un document de deux pages se repère jusqu'au bout.
+    for x in range(0, 180, 20):
+        e.append(f'<b style="left:{x}mm; top:0; width:.25mm; height:100%"></b>')
+        # l'abscisse se rappelle tous les 60 mm, sinon elle manque page 2
+        for rappel in range(0, 600, 60):
+            e.append(f'<i style="left:{x + .6}mm; top:{rappel + .5}mm">{x}</i>')
+    for y in range(0, 600, 20):
+        e.append(f'<b class="v" style="left:0; top:{y}mm; height:.25mm; width:100%"></b>')
+        e.append(f'<i class="v" style="left:.6mm; top:{y + .6}mm">{y}</i>')
+    return f'<div class="regle">{"".join(e)}</div>'
+
+
+def doc(corps, tampon="", annot="", hauteur_annot="12mm", cotes=None, coupures=False,
+        portrait="", main=""):
+    bloc = (f'<div class="plume annot" style="{main}">{annot}</div>'
+            if (MANUSCRIT and annot)
             else f'<div style="height:{hauteur_annot}"></div>' if annot else "")
     return f"""<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><style>
 @font-face {{ font-family: Machine; src: url({F}/SpecialElite-Regular.ttf); }}
@@ -119,6 +147,16 @@ h2 {{ font-family: Machine, serif; font-size: 8.3pt; font-weight: normal;
       letter-spacing: .22em; text-decoration: underline; text-underline-offset: 1.6px;
       text-decoration-thickness: .6px; margin: 3.8mm 0 1.9mm; }}
 p {{ margin: 0 0 2mm; text-align: justify; }}
+/* ── la photo collée, et le cachet qui mord dessus ──────────── */
+.photo {{ float: right; position: relative; z-index: 1; width: 29mm; margin: 0 0 2.5mm 5mm;
+          background: #fff; padding: 1.4mm 1.4mm 0; border: .4px solid #b9b2a6;
+          transform: rotate(1.4deg); }}
+.photo img {{ display: block; width: 100%; filter: contrast(1.06) brightness(.98); }}
+.photo .leg {{ font-family: PT, serif; font-size: 5.4pt; letter-spacing: .06em;
+               text-align: center; padding: .7mm 0 .9mm; color: #3a342c; }}
+svg.sceau {{ position: absolute; width: 17mm; height: 17mm; right: -4mm; bottom: -2mm;
+             mix-blend-mode: multiply; }}
+
 .fiche {{ margin: 0 0 2.4mm; line-height: 1.75; }}
 .fiche .k {{ display: inline-block; width: 44mm; }}
 .temoin {{ margin: 0 0 2.2mm 4mm; }}
@@ -135,30 +173,37 @@ td {{ padding: .8mm 2mm .8mm 0; vertical-align: top; }}
 .pied {{ margin-top: 4.5mm; border-top: .7px solid #1a1713; padding-top: 1.3mm;
          font-family: PT, serif; font-size: 6.4pt; letter-spacing: .07em; text-align: center; }}
 
-/* ── la surfrappe : le mot fautif reste dessous ────────────── */
-.sf {{ position: relative; display: inline-block; }}
-.sf::after {{ content: attr(data-sur); position: absolute; left: .55mm; top: -.12mm;
-              color: #0d0b09; white-space: nowrap; }}
-.xx {{ position: relative; display: inline-block; color: #4a443d; }}
-.xx::after {{ content: attr(data-xx); position: absolute; left: 0; top: .1mm;
-              color: #15120f; letter-spacing: -.02em; }}
-
 /* ── les deux cotes d'archive, deux inventaires successifs ──── */
+/* --grille : une règle sur les deux bords, pour relever une position
+   et la dicter. Pas un quadrillage : le document doit rester lisible. */
+.regle {{ position: absolute; inset: 0; pointer-events: none; }}
+.regle b {{ position: absolute; background: #d33; opacity: .33; }}
+.regle b.v {{ background: #39c; }}
+.regle i {{ position: absolute; font-family: PT, serif; font-size: 5.2pt; color: #d33;
+            font-style: normal; }}
+.regle i.v {{ color: #2a7fa8; }}
+
 .cotes {{ position: absolute; right: 0; top: -4.5mm; text-align: right; line-height: 1; }}
 .cotes .tampon {{ font-family: PT, serif; font-size: 13pt; font-weight: bold; color: #2a2724; }}
 .cotes .crayon {{ font-family: Plume, cursive; font-size: 13pt; color: #6b6356;
                   display: block; margin: .4mm -1.5mm 0 0; transform: rotate(-3deg); }}
 
 .plume {{ font-family: Plume, cursive; color: #233a66; }}
-.annot {{ font-size: 13pt; line-height: 1.25; margin: 3mm 0 3.5mm 52mm;
-          transform: rotate(-1.6deg); }}
+/* Hors du flux : une note manuscrite ne pousse pas le texte tapé, elle
+   se glisse dans un blanc ou passe par-dessus. Position donnée en
+   millimètres depuis le coin haut-gauche de la zone imprimée. */
+.annot {{ position: absolute; z-index: 9; font-size: 13pt; line-height: 1.25;
+          transform-origin: left center; white-space: nowrap; }}
 .registre {{ position: absolute; left: 1mm; top: -1mm; font-size: 11.5pt;
              transform: rotate(-2.5deg); white-space: nowrap; }}
 .registre small {{ font-size: 8.5pt; }}
 
+/* Le coin droit est pris par la photo et les cotes d'archive : le cachet
+   se pose à gauche, en travers du texte — ce qu'il fait de toute façon
+   sur un vrai dossier. */
 svg.classe {{ position: absolute; width: 52mm; height: 19mm;
-              right: 6mm; top: 40mm; transform: rotate(-7deg);
-              opacity: .58; mix-blend-mode: multiply; }}
+              left: 17mm; top: 96mm; transform: rotate(-6deg);
+              opacity: .55; mix-blend-mode: multiply; }}
 </style></head><body>
 
 <svg width="0" height="0" style="position:absolute">
@@ -169,13 +214,14 @@ svg.classe {{ position: absolute; width: 52mm; height: 19mm;
  </filter>
 </svg>
 
+{grille()}
 <div class="frappe">
 {cotes or ""}
 <div class="bandeau">
   <div class="ru">РАБОЧЕ-КРЕСТЬЯНСКАЯ МИЛИЦИЯ — МАГНИТОГОРСК</div>
   <div>SECTION DE POLICE DE MAGNITOGORSK — DOCUMENT DE SERVICE</div>
 </div>
-{corps.replace("<!--ANNOT-->", bloc)}
+{corps.replace("<!--ANNOT-->", bloc).replace("<!--PHOTO-->", portrait)}
 </div>
 {tampon}
 </body></html>"""
@@ -206,6 +252,77 @@ def capitales(corps):
     return re.sub(r"\x00(\d+)\x00", lambda m: garde[int(m.group(1))], corps)
 
 
+
+# ══════════════════════════════════════════════════════════════════
+#  Les photographies agrafées aux dossiers
+# ══════════════════════════════════════════════════════════════════
+#
+#  Trois portraits, tirés des images livrées avec le scénario et
+#  choisis dans preparation/magnitogorsk/15-photographies.md.
+#
+#  **Le dossier du déserteur n'en a pas, et c'est voulu** : aucune
+#  image ne colle à un urbaniste de quarante-deux ans, et un dossier
+#  de disparition sans portrait du disparu dit à lui seul le soin
+#  qu'on y a mis.
+#
+#  Les sources ne sont pas versionnées. Si elles manquent, la
+#  vignette est simplement absente et le document se compose quand
+#  même — on ne casse pas une génération pour une image.
+
+ARCHIVE = RACINE / "sources" / "magnitogorsk" / "Archive" / "archives photos"
+
+PORTRAITS = {
+    # dossier : (fichier, cadre de recadrage ou None, légende)
+    "dec": ("img36.jpg", (40, 20, 560, 700), "KURBANOFF, V. A."),
+    "emp": ("img118.jpg", None, "IGNATIEVA, N."),
+    "mrt": ("img145.jpg", (10, 20, 300, 504), "KRYLOVA, Z. P."),
+}
+
+
+def vignette(code):
+    """La photo collée au dossier, un peu de travers, sous son cachet.
+
+    Tirage noir et blanc à marge blanche, comme un vrai tirage d'époque
+    — c'est la marge qui fait l'objet collé plutôt que l'image imprimée.
+    """
+    if code not in PORTRAITS:
+        return ""
+    nom, cadre, legende = PORTRAITS[code]
+    src = ARCHIVE / nom
+    if not src.is_file():
+        print(f"  · {code} : {nom} absent, vignette omise")
+        return ""
+    try:
+        from PIL import Image
+    except ImportError:
+        print("  · Pillow absent, vignettes omises")
+        return ""
+    import base64
+    import io
+
+    im = Image.open(src).convert("L")
+    if cadre:
+        im = im.crop(cadre)
+    im.thumbnail((420, 560))
+    tampon = io.BytesIO()
+    im.save(tampon, format="JPEG", quality=88)
+    b64 = base64.b64encode(tampon.getvalue()).decode()
+    return f"""<div class="photo">
+  <img src="data:image/jpeg;base64,{b64}" alt="">
+  <div class="leg">{legende}</div>
+  <svg class="sceau" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+   <g filter="url(#frappe)" fill="none" stroke="#8c2b22" opacity=".55">
+     <circle cx="60" cy="60" r="52" stroke-width="2.4"/>
+     <circle cx="60" cy="60" r="44" stroke-width="1"/>
+   </g>
+   <text x="60" y="56" font-size="13" letter-spacing="1.4" text-anchor="middle"
+         font-family="PT" font-weight="bold" fill="#8c2b22" opacity=".5">МИЛИЦИЯ</text>
+   <text x="60" y="74" font-size="10" letter-spacing="1" text-anchor="middle"
+         font-family="PT" fill="#8c2b22" opacity=".5">МАГНИТОГОРСК</text>
+  </svg>
+</div>"""
+
+
 # ══════════════════════════════════════════════════════════════════
 #  Les sept dossiers
 # ══════════════════════════════════════════════════════════════════
@@ -222,6 +339,7 @@ MRT = """
   </div>
 </div>
 
+<!--PHOTO-->
 <h2>FICHE D'IDENTITÉ — VICTIME</h2>
 <div class="fiche">
 <span class="k">Nom :</span><b>KRYLOVA, Zinaïda Pavlovna</b><br>
@@ -377,9 +495,10 @@ EMP = """
 Synthèse établie pour transmission — état du dossier au 2 mai 1932.<br>
 Le dossier demeure ouvert. Les pièces originales restent au registre de la section.
 </div>
+<!--PHOTO-->
 <h2>I. OBJET</h2>
 <p>Depuis la fin du mois de mars 1932, plusieurs membres du personnel du complexe industriel ont été
-victimes d'une affection grave d'origine indéterminée. Les <span class="sf" data-sur="symptômes">symptomes</span>, signalés par le médecin-chef
+victimes d'une affection grave d'origine indéterminée. Les symptômes, signalés par le médecin-chef
 I. Nesteroff, consistent en des douleurs intestinales évoluant vers une incapacité totale à se
 nourrir, suivie d'une perte de connaissance. Trois décès ont été enregistrés à ce jour. La nature de
 l'affection — contamination alimentaire, empoisonnement volontaire ou simple maladie — n'a pas
@@ -487,6 +606,7 @@ DEC = """
   </div>
 </div>
 
+<!--PHOTO-->
 <h2>FICHE D'IDENTITÉ — PERSONNE DÉCÉDÉE</h2>
 <div class="fiche">
 <span class="k">Nom :</span><b>KURBANOFF, Venyamin Alexeïevitch</b><br>
@@ -500,7 +620,7 @@ Dr Nesteroff
 </div>
 
 <h2>I. CIRCONSTANCES — II. RAPPORT MÉDICO-LÉGAL</h2>
-<p>Le corps du camarade Kurbanoff a été <span class="sf" data-sur="découvert">decouvert</span> en soirée du 29 avril 1932 par des ouvriers de la
+<p>Le corps du camarade Kurbanoff a été découvert en soirée du 29 avril 1932 par des ouvriers de la
 station de pompage ouest qui regagnaient leurs baraquements. Le corps gisait sur la berge du lac
 artificiel n°2, en contrebas de la rive.</p>
 <p>L'examen du corps réalisé par le médecin-chef I. Nesteroff établit que la cause du décès est la
@@ -571,7 +691,7 @@ date.</p>
 <h2>III. ÉTAT DE L'ENQUÊTE</h2>
 <p>L'ingénieur Nikitine a indiqué conserver les pièces défectueuses issues des quatre incidents. Ces
 pièces n'ont pas encore été examinées par les services de police à la date de rédaction du présent
-rapport. L'enquête se <span class="xx" data-xx="concentre">xxxxxxxxx</span> à ce stade sur l'identification d'un éventuel saboteur extérieur au
+rapport. L'enquête se concentre à ce stade sur l'identification d'un éventuel saboteur extérieur au
 complexe, dont la présence sur le site resterait à établir. <b>Aucun suspect n'a été identifié ni
 interrogé à ce jour.</b></p>
 
@@ -636,7 +756,7 @@ investigation préliminaire, conformément aux procédures en vigueur au sein de
 <table>
 <colgroup><col style="width:4%"><col style="width:13%"><col style="width:22%"><col style="width:15%"><col style="width:30%"><col style="width:16%"></colgroup>
 <tr><th>N°</th><th>DATE</th><th>ENTREPÔT</th><th>RESPONSABLE</th><th>ÉCART CONSTATÉ</th><th>CONVOI</th></tr>
-PLAINTES
+<!--LIGNES-->
 </table>
 <p>Les plaintes n°1 et n°2 ont initialement été déposées auprès de l'administration du complexe —
 classées sans suite.</p>
@@ -684,7 +804,7 @@ cadre du rééquilibrage annuel des effectifs.</p></div>
 </div>
 <div class="pied">DOSSIER N° 1932-03/ENT — ARCHIVES DE LA SECTION DE POLICE — REPRODUCTION INTERDITE</div>
 <div class="plume registre">вх. 0287 · 14.III.32</div>
-""".replace("PLAINTES", "\n".join(
+""".replace("<!--LIGNES-->", "\n".join(
     f"<tr><td>{n}</td><td>{d}</td><td>{e}</td><td>{r}</td><td>{c}</td><td>{t}</td></tr>"
     for n, d, e, r, c, t in PLAINTES))
 
@@ -826,7 +946,7 @@ DOSSIERS = {
     "emp": (EMP, None, "Rien de tout cela ne relève de nos services.<br>"
                        "Constitutions faibles, rien de plus. — I. P."),
     "sab4": (SAB4, "22 avril 1932", "Négligence. Jugement sous quinzaine."),
-    "dec": (DEC, "1<sup>er</sup> mai 1932",
+    "dec": (DEC, "1er mai 1932",
             "Accident. J'ai prévenu le camarade<br>Directeur moi-même."),
     "sab9": (SAB9, None, "Priorité au dossier Tkachenko.<br>Reprendre ensuite."),
     "ent": (ENT, "28 mars 1932", "Belousoff — voir avec Nikitina<br>pour réaffectation."),
@@ -837,6 +957,28 @@ COTES = {"mrt": (112, 87), "dis": (134, 103), "emp": (141, 108), "sab4": (96, 74
          "dec": (147, 113), "sab9": (151, 116), "ent": (63, 49)}
 
 CLOS = {"mrt", "sab4", "dec", "ent"}  # on les parcourt : la césure y est sans coût
+
+# Igor annote où il trouve de la place, et il va vite : jamais à la même
+# hauteur, jamais du même angle, jamais tout à fait de la même taille.
+# **Les valeurs sont fixes par dossier** — déterministes, pas tirées au
+# sort : deux générations donnent le même document.
+MAIN = {
+    # code : (x mm, y mm depuis le haut de la zone imprimée, angle, corps en pt)
+    "mrt": (100, 30, -3.0, 12.4),
+    "dis": (90, 152, 1.3, 13.8),
+    "emp": (102, 35, 0.5, 12.4),
+    "sab4": (82, 50, 2.4, 13.2),
+    "dec": (40, 111, -2.1, 13.0),
+    "sab9": (100, 30, -3.6, 11.8),
+    "ent": (0, 340, 1.8, 13.6),
+}
+
+
+def main_de(code):
+    if code not in MAIN:
+        return ""
+    x, y, a, t = MAIN[code]
+    return (f"left:{x}mm; top:{y}mm; transform:rotate({a}deg); font-size:{t}pt")
 
 
 def cotes(code):
@@ -850,7 +992,9 @@ for code, (corps, date, annot) in DOSSIERS.items():
         continue
     cible = RACINE / "out" / f"rapport-{code}.pdf"
     rendu.pdf(doc(capitales(corps), classe(date) if date else "", annot,
-                  cotes=cotes(code), coupures=code in CLOS), cible, RACINE)
+                  cotes=cotes(code), coupures=code in CLOS, portrait=vignette(code),
+                  main=main_de(code)),
+              cible, RACINE)
     print(f"· {cible.relative_to(RACINE)}")
 
 if not ARGS or "dep" in ARGS:

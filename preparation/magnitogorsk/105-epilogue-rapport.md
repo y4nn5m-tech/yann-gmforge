@@ -13,7 +13,7 @@ réserver une bonne heure.**
 | | |
 |---|---|
 | **Le rapport se rend en main propre** au responsable de la Guépéou, **dans deux jours** | |
-| **Il faut cinq jours pour aller à Moscou** | |
+| **Il faut sept jours pour aller à Moscou** | |
 | **Ils ne peuvent pas se dérober** sans prendre des risques considérables | |
 
 **Et c'est pire si certains sont blessés, morts, ou devenus fous.**

@@ -145,10 +145,10 @@ créneau » est absurde — le corps est là. Dire « c'est gratuit », c'est ê
 l'avouer. Même impasse au bloc 27 *(Sorokin et Kazakoff sont dans la même prison)* et aux archives
 *(deux dossiers y dorment)*.
 
-**2. Le coût cesse d'être justifiable.** Les disparitions coûtent trois créneaux **parce qu'elles
-sont éclatées** : Oleg aux mines à 5 km, le quai ouest, Berezki à 8 km. En comptant par dossier, il
-faut décréter « celui-là en vaut trois » sans pouvoir l'expliquer, et un joueur qui demande pourquoi
-n'obtient rien. **Avec le lieu, la réponse est sur la carte** — et le plan A3 retrouve son emploi.
+**2. Le coût cesse d'être justifiable.** Les disparitions coûtent **de deux à quatre créneaux**
+*(`90-creneaux.md`)* **parce qu'elles sont éclatées** : les entrepôts, Oleg aux mines à 5 km, puis
+la gare et Berezki à 8 km. En comptant par dossier, il faut décréter « celui-là en vaut plusieurs »
+sans pouvoir l'expliquer, et un joueur qui demande pourquoi n'obtient rien. **Avec le lieu, la réponse est sur la carte** — et le plan A3 retrouve son emploi.
 
 > **La charge mentale invoquée contre le lieu est une illusion : il n'y a que trois lieux à
 > connaître.**

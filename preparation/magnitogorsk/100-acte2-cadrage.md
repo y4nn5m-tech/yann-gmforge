@@ -13,7 +13,7 @@ aller jusqu'au bout** sinon la curiosité des joueurs.
 
 ---
 
-## Les onze disparus — et six d'entre eux sont la famille de Kassym
+## Les onze disparus — et quatre d'entre eux sont la famille de Kassym
 
 | # | Nom | Lien Kassym | Sort |
 |---|---|---|---|

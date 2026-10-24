@@ -10,7 +10,7 @@ dossier, dit ce qui se groupe, et tranche ce qu'on peut perdre.
 | | |
 |---|---|
 | Créneaux disponibles | **8** — quatre jours pleins, le jour 1 étant consommé |
-| Demandés au minimum | **14** |
+| Demandés au minimum | **13** |
 | Demandés pour tout boucler | **20** |
 
 **Ce n'est donc pas « deux pistes tombent ». C'est la moitié de l'acte 1 qui ne sera pas jouée.**
@@ -95,7 +95,7 @@ même prison. **Une visite, deux dossiers.**
 
 ## Ce qu'on peut perdre, et ce qu'on ne peut pas
 
-### Les trois indispensables — 6 créneaux
+### Les trois indispensables — 5 créneaux
 
 | Dossier | Pourquoi |
 |---|---|

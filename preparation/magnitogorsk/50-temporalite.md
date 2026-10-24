@@ -240,18 +240,27 @@ Une page de carnet jauni, posée au centre, cochée **ensemble** à chaque fois 
 
 ### Ce qu'elle montre
 
-- **Les sept jours sur place**, du 3 au 9 mai, chacun coupé en deux cases : *matin* et *après-midi*.
-- **Le jour 1 déjà barré** — arrivée et briefing. Ils commencent avec une journée en moins, et ils le
-  voient.
-- **Une bande « déblaiement »** qui court du 3 au 7 mai, pour que la réouverture de la galerie soit
-  lisible comme une échéance qui approche et non comme une surprise.
-- **La ligne du retour** : départ le 10 mai au soir, arrivée le 17. L'échéance est écrite dessus.
+- **Les huit jours sur place**, du 3 au 10 mai, chacun coupé en deux cases : *matin* et
+  *après-midi* — **sauf le 10, qui n'a que sa matinée.** Le train part le soir, et l'après-midi se
+  passe à rejoindre la gare et à charger : on ne part pas en expédition le jour du départ.
+- **La ligne du retour** : le train le 10 au soir, Moscou le 17. L'échéance est écrite dessus.
+
+
+**Et rien d'autre. La feuille arrive vierge.**
+
+> **Aucune case n'est cochée d'avance, pas même le 3 mai** : le premier jour se coche à la table,
+> avec eux, comme tous les autres.
+>
+> **Rien n'y nomme le déblaiement.** Il se dit en jeu, au moment où il les concerne.
 
 ### Ce qu'elle ne montre pas
 
 - Aucune mention de la descente, ni de ce qui se passe sous terre. La feuille s'arrête au 10 mai.
-- Aucune des dates de l'après — 13 mai, 17 mai, 20 mai. **Les cinq jours volés ne doivent pas être
-  prévisibles.**
+- Aucune des dates de l'après — 13 mai, 20 mai. **Les cinq jours volés ne doivent pas être
+  prévisibles.** *(Le 17 y figure, mais comme échéance : c'est leur mandat, ils le connaissent.)*
+- **Les cases des 8 et 9 mai restent vides**, comme les autres. Les griser annoncerait que ces jours
+  sont pris — donc qu'il va se passer quelque chose. **Descendre doit rester leur décision**, et ces
+  deux jours sont réellement disponibles s'ils ne descendent pas.
 
 ### Pourquoi la cocher ensemble
 

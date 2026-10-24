@@ -37,28 +37,14 @@ description : elle est une pièce du document, et elle rend le dossier crédible
 | **31** | `archives photos/img122.jpg` | **1932-09/SAB** | wagonnet renversé sur la voie, grue. Une pièce jointe, pas un portrait |
 | **34** | `archives photos/img141.jpg` | **1932-03/ENT** | intérieur d'entrepôt, rayonnages, silhouette dans l'ombre |
 
-### Vérification faite, photo par photo — et une seule pose problème
+### Les signalements n'ont rien à changer
 
-| | |
-|---|---|
-| **Kurbanoff** | né en 1888, donc 43 ans. `img36` montre un homme de quarante-cinq ans en veste de cadre, **insigne à la poitrine**, mains à plat sur une table. Sa fiche ne porte pas de signalement : rien à écrire |
-| **Zina Krylova** | née en 1912, gymnaste. `img145` montre quatre gymnastes en maillot. Rien à écrire |
-| **N. Ignatieva** | comptable principale, âge non précisé au dossier. `img118` passe sans retouche |
+Kurbanoff et Zina n'ont pas de champ « signalement » à leur fiche. Celui d'Ignatieva ne donne pas
+son âge. Les trois photos passent telles quelles.
 
-**Et Tkachenko, non.** Sa fiche dit 42 ans, urbaniste, *« taille moyenne, cheveux bruns
-grisonnants, lunettes rondes »*. `img33` montre un ouvrier de vingt-cinq ans en casquette, avec une
-sacoche, dans un atelier. Ce n'est pas une question de lunettes : **c'est l'âge et le métier**. Et
-on ne rajeunit pas un homme dont la date de naissance est au dossier.
-
-Les autres candidats ne valent pas mieux : `img114` a les lunettes rondes mais c'est un médecin de
-soixante ans en blouse ; `img127` montre deux garçons devant un présentoir de brochures.
-
-> **Donc : pas de photo au dossier du déserteur.** Et c'est mieux qu'un compromis — **un dossier de
-> disparition sans portrait du disparu est un dossier bâclé**, et Igor cherche un homme dont il
-> n'a même pas le visage. La pile en dit une chose de plus sans qu'on ait rien à écrire.
-
-> **Les signalements restent donc inchangés.** C'était noté comme bloquant avant de générer :
-> ça ne l'est plus.
+**Le déserteur n'a pas de photo, et c'est l'information.** Un dossier de disparition sans portrait
+du disparu est un dossier bâclé : Igor cherche un homme dont il n'a même pas le visage. La pile en
+dit une chose de plus sans qu'on ait rien à écrire.
 
 ---
 

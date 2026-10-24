@@ -84,11 +84,10 @@ blanc et les porter au stylo sur l'épreuve jaunie : les deux rendus existent, c
 d'impression, pas de contenu.
 
 > **Jamais à la même place.** Un homme pressé n'annote pas au même endroit, du même angle et de la
-> même taille sept fois de suite — posées toutes à la même hauteur, les notes faisaient mécanique.
-> Chaque dossier a donc sa position, en millimètres depuis le coin haut-gauche de la zone imprimée,
-> plus un angle et un corps : le tableau `MAIN` de `scripts/rapports-police.py`. **Les valeurs sont
-> fixes**, relevées une à une à l'œil — l'option `--grille` surimprime une règle graduée pour les
-> relever, et ne sort jamais à l'impression.
+> même taille sept fois de suite. Chaque dossier a sa position, en millimètres depuis le coin
+> haut-gauche de la zone imprimée, plus un angle et un corps : le tableau `MAIN` de
+> `scripts/rapports-police.py`. **Les valeurs sont fixes** — l'option `--grille` surimprime une
+> règle graduée pour les relever, et ne sort jamais à l'impression.
 
 > **L'annotation est hors du flux** : elle ne pousse pas le texte, elle se pose où on la met, quitte
 > à passer par-dessus — ce que fait une vraie note manuscrite sur un document tapé. Elle passe

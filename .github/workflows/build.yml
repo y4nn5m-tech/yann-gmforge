@@ -91,6 +91,11 @@ jobs:
 
       # La page d'accueil se reconstruit entièrement à chaque passage : ajouter
       # un scénario, c'est ajouter un répertoire dans src/, rien de plus.
+      # Les pages de révision : un outil, pas un document. Hors de la chaîne
+      # pandoc, et sans contrôle de pagination — elles n'ont pas de pages.
+      - name: Pages de révision
+        run: python3 scripts/revision.py
+
       - name: Index du site
         run: python3 scripts/index.py
 

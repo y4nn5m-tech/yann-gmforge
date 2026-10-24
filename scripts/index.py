@@ -28,6 +28,12 @@ CHAPEAU = ("Scénarios du commerce transformés en documents menables : une note
 PAGES = [("demarche.html", "La démarche, et le modèle à récupérer"),
          ("mener.html", "Six gestes, relevés chez un maître de jeu qu'on écoutait")]
 
+# Les outils rattachés à un scénario, rendus dans son bloc et non en tête :
+# ce ne sont pas des documents de table — ils se lisent avant, sur un
+# téléphone. La clé est le `scenario` de l'en-tête YAML.
+OUTILS = {"Magnitogorsk": [("revision-magnitogorsk.html",
+                            "Réviser — fiches, questions et schémas")]}
+
 LIBELLES = {"annote": "Le scénario annoté", "note": "Note d'arbitrage",
             "aide": "Aide de jeu", "feuille": "Feuille de conduite",
             "prep": "Préparation — ce qu'il reste à faire"}
@@ -136,6 +142,11 @@ def rendre(groupes):
         h.append(f"<h2>{escape(scenario)}</h2>")
         if jeu:
             h.append(f'<p class="jeu-src">{escape(jeu)}</p>')
+        for fichier, libelle in OUTILS.get(scenario, []):
+            if (OUT / fichier).is_file():
+                h.append(f'<div class="doc"><span class="rang">·</span>'
+                         f'<span class="quoi">{escape(libelle)}</span>'
+                         f'<span class="liens"><a href="{fichier}">Ouvrir</a></span></div>')
         for rang, d in enumerate(docs, 1):
             # Le sous-titre nomme le document ; LIBELLES n'est qu'un repli.
             # L'inverse confondait deux documents d'un même type sous un

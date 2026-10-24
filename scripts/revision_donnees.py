@@ -490,6 +490,223 @@ GENS = [
          "ou": "89-komsomol.md:110"}]},
 ]
 
+# ── Les seconds rôles ─────────────────────────────────────────────
+#
+#  Fiche courte : où on le trouve, ce qu'il donne, sa phrase s'il en a
+#  une, le piège s'il y en a un. Ils n'ont pas besoin du même appareil
+#  qu'Igor ou Nesteroff — mais **l'équipe du transport est sept
+#  personnes**, et c'est là qu'on se mélange.
+
+
+def _c(id, nom, role, lieu, donne, phrase=None, piege=None, q=None):
+    f = {"id": id, "nom": nom, "role": role, "lieuLabel": "Où on le trouve", "lieu": lieu,
+         "sait": donne}
+    if phrase:
+        f["replique"] = phrase
+    if piege:
+        f["piege"] = piege
+    if q:
+        f["questions"] = q
+    return f
+
+
+GENS += [
+    # ── l'équipe du transport — sept personnes à ne pas confondre ──
+    _c("moskalev", "Grigori Moskalev", "contremaître des convois",
+       "la zone de stockage, un registre à la main — <b>il ne lève pas les yeux</b>. "
+       "Il compte pendant qu'on lui parle, perd le fil, recommence.",
+       ["<b>Il croit à un saboteur venu de l'extérieur</b> — c'est sa thèse et il la ressort "
+        "à chaque fois. Aucun fait derrière.",
+        "Agacé qu'on l'interrompe, pas hostile."],
+       piege="Ne pas le confondre avec <b>Grigori Novikoff</b>, du Komsomol. "
+             "Deux Grigori, et l'un est un meurtrier."),
+
+    _c("udovenko", "Stepan Udovenko", "responsable du hangar aux wagonnets",
+       "sous un wagonnet, ou accroupi devant une roue. Il sort pour répondre, "
+       "les mains noires, puis il y retourne.",
+       ["Professionnel, précis, méfiant qu'on touche à son matériel. "
+        "Faddei lui fait confiance.",
+        "<b>Il tient à la réputation de l'équipe — donc il minimise, par loyauté "
+        "et non par calcul.</b>"]),
+
+    _c("anna", "Anna Vasyukova", "ouvrière administrative",
+       "assise au bureau, <b>à côté de Larissa</b>. Elle recopie des colonnes, "
+       "de l'encre sur les doigts.",
+       ["<b>C'est elle qui a écrit la fausse entrée au registre</b>, de sa propre initiative, "
+        "pour couvrir ce qu'elle croyait être une visite au carré des tombes.",
+        "Polie, nerveuse — <b>elle cherche l'approbation de quelqu'un en répondant</b>. "
+        "Et elle sait de quoi il s'agit dès qu'on aborde le sujet."],
+       phrase="« Elle m'a rien demandé. Je l'ai fait. »",
+       q=[{"q": "Qui a écrit la fausse entrée du registre au 27 avril ?",
+           "choix": ["Anna Vasyukova, de sa propre initiative",
+                     "Larissa Kazakova elle-même",
+                     "Boris Shcherbakov, chargé des présences",
+                     "Faddei Nikitine, pour couvrir son équipe"],
+           "bonne": 0,
+           "pourquoi": "Elle croyait couvrir une visite au carré des tombes. "
+                       "<b>C'est le premier élément qui désigne Larissa</b> — "
+                       "et personne ne l'y a vue, aux tombes.",
+           "ou": "85-secteur-transport.md:258"}]),
+
+    _c("timur", "Timur Bakhytov", "conducteur de convoi",
+       "<b>introuvable entre 8 h et 17 h</b> — il est sur la route. On ne l'attrape qu'au "
+       "petit matin pendant l'attelage, ou le soir au retour, épuisé.",
+       ["Il se plaint : des quotas, de la sécurité, de Faddei qui pousse.",
+        "<b>Il est le suspect évident et il est innocent</b> — et il ne se rend pas compte "
+        "qu'il se désigne."],
+       piege="Une table qui cherche un mécontent le trouve en dix minutes et perd un créneau. "
+             "<b>S'ils l'accusent, Igor est ravi, Timur part au bloc 27 — et un sabotage "
+             "de plus tombe pendant qu'il y est.</b>",
+       q=[{"q": "Les joueurs font arrêter Timur Bakhytov. Que se passe-t-il ?",
+           "choix": ["Un sabotage de plus tombe pendant qu'il est au bloc 27",
+                     "Il avoue sous la pression",
+                     "Larissa prend peur et s'arrête",
+                     "Igor refuse de l'incarcérer"],
+           "bonne": 0,
+           "pourquoi": "<b>C'est la preuve de son innocence, et elle coûte cher.</b> "
+                       "Igor, lui, est ravi d'avoir un coupable.",
+           "ou": "85-secteur-transport.md:321"}]),
+
+    _c("zinaida", "Zinaida Plotnikova", "entretien des bêtes de somme",
+       "au hangar, en train de panser un cheval ou de curer une stalle. "
+       "Elle parle en travaillant, <b>sans se retourner</b>.",
+       ["<b>C'est elle qui a vu Larissa partir vers les écuries</b> le 27 au matin — "
+        "et elle le dira si on pose la question, <b>sans y attacher d'importance</b>.",
+        "Directe, concrète, pas impressionnée par des gens de Moscou."]),
+
+    _c("boris", "Boris Shcherbakov", "entretien des voies",
+       "dehors, sur les voies, à plusieurs kilomètres. <b>Le plus difficile à trouver</b> : "
+       "une demi-journée pour aller le chercher, ou l'attendre le soir.",
+       ["<b>C'est lui que Faddei avait chargé de noter les présences</b> — et il dira qu'il "
+        "ne l'a pas fait, <b>sans comprendre que c'est important</b>.",
+        "Taciturne. Il répond par phrases courtes."],
+       q=[{"q": "Boris Shcherbakov est le plus dur à atteindre. Combien coûte-t-il ?",
+           "choix": ["Une demi-journée si on va le chercher, gratuit le soir",
+                     "Un créneau entier", "Rien, il est au hangar",
+                     "Deux créneaux, il est à 8 km"],
+           "bonne": 0,
+           "pourquoi": "Il est sur les voies à plusieurs kilomètres. "
+                       "<b>L'attendre le soir ne coûte rien.</b>",
+           "ou": "25-lieux-et-presences.md:66"}]),
+
+    _c("bondarenko", "Yuri Bondarenko", "chargement et déchargement",
+       "<b>en train de porter quelque chose, toujours.</b> Il ne peut pas s'arrêter sans que "
+       "la chaîne s'arrête. Il répond entre deux charges, essoufflé.",
+       ["Fataliste, amical. Proche de Zinaida Plotnikova.",
+        "<b>Il a peur de perdre son poste</b> si on le retient trop longtemps."]),
+
+    # ── le Komsomol ───────────────────────────────────────────────
+    _c("avdotya", "Avdotya Kuzmina", "komsomolka, à l'entraînement",
+       "le gymnase. <b>Détenue quatre jours pour rien</b> par Vinogradoff, qui l'avait "
+       "imaginée rivale parce que c'était commode.",
+       ["Elle dément la rivalité, et son alibi est confirmé par Messelier.",
+        "<b>Elle donne la clé</b> : Zina s'était absentée en début d'après-midi et comptait "
+        "s'entraîner plus tard que d'habitude ce soir-là."],
+       piege="<b>Il faut lui parler en premier.</b> Interroger les komsomoltsy sans cette "
+             "préparation ne donne rien : ils partent sur l'espionnage et l'agent de l'Ouest.",
+       q=[{"q": "Par qui faut-il commencer, au Komsomol ?",
+           "choix": ["Avdotya Kuzmina", "Grigori Novikoff, qui vient au-devant d'eux",
+                     "Les responsables", "Macha Fenenka"],
+           "bonne": 0,
+           "pourquoi": "Sans elle, les komsomoltsy partent sur l'espionnage et l'agent de "
+                       "l'Ouest. <b>L'ordre des créneaux compte.</b>",
+           "ou": "25-lieux-et-presences.md:699"}]),
+
+    _c("sofia", "Sofia Lysenka", "komsomolka",
+       "au réfectoire ou au bâtiment principal",
+       ["<b>L'échange d'horaires</b> : elle a parlé à Zina cet après-midi-là. Deuxième maillon "
+        "de la reconstitution, entre Maxim et Grigori."]),
+
+    _c("maxim", "Maxim Kazakoff", "le condamné du meurtre — et il est innocent",
+       "le bloc 27. <b>Il part au goulag le 9 mai.</b>",
+       ["Handicapé mental, <b>maltraité par les gardes</b>, et sa détresse est manifeste.",
+        "Il réfute sa culpabilité et <b>il est incapable de formuler une défense</b> ou de "
+        "donner la moindre piste.",
+        "Il aimait bien Zina, <b>qui le défendait contre les brimades</b> — la photo et la "
+        "mèche trouvées chez lui sont vraies et innocentes."],
+       piege="<b>La scène la plus dure du scénario, et elle ne demande aucun jet.</b> "
+             "Ne pas la jouer pour arracher une larme : platement, un homme qui ne comprend "
+             "pas, des gardes qui s'en amusent, <b>et un quart d'heure qui ne donne rien</b>.",
+       q=[{"q": "Que rapporte la visite à Maxim Kazakoff, au bloc 27 ?",
+           "choix": ["Rien — et il faut la laisser ne rien rapporter",
+                     "Il désigne Grigori Novikoff",
+                     "Il décrit la cordelette",
+                     "Il donne un alibi vérifiable"],
+           "bonne": 0,
+           "pourquoi": "Il ne comprend pas ce qu'on lui reproche, et il a signé. "
+                       "<b>C'est à eux de décider s'ils ont un créneau à dépenser pour ça.</b>",
+           "ou": "25-lieux-et-presences.md:605"}]),
+
+    _c("ingenieurs", "Sorokin et Malysheff", "les deux ingénieurs de la machine",
+       "le bloc 27, inculpés de négligence, en attente de jugement",
+       ["Leur explication : quelque chose est entré dans les canalisations, un bouchon, "
+        "montée en pression. <b>Du limon autour d'une branche</b> — le fleuve sert de "
+        "décharge en amont.",
+        "<b>Mais les grilles sont en place</b>, et une vérification le confirme.",
+        "Sur les bruits suraigus : du métal sous pression, de la paréidolie — "
+        "<b>ils n'étaient pas présents et ne les ont pas entendus</b>."],
+       piege="<b>Ne pas les jouer en imbéciles.</b> Deux hommes compétents et honnêtes qui "
+             "construisent la meilleure explication possible à partir de données incomplètes — "
+             "exactement comme Nesteroff. Montrez-leur les résidus : ils regardent, ils "
+             "réfléchissent, et ils disent qu'ils ne savent pas. <b>C'est la réponse d'un bon "
+             "ingénieur.</b>"),
+
+    # ── les étrangers, le culte, l'acte 2 ─────────────────────────
+    _c("may", "Ernst May", "l'architecte du bureau d'études",
+       "son bureau, des plans partout — <b>il reçoit volontiers</b>",
+       ["Le portrait de Pavel Tkachenko : intelligent, compétent, réservé et anxieux.",
+        "<b>Et un détail qu'il ne mesure pas</b> : « Je l'ai engagé moi-même, pour ses travaux "
+        "à Petrograd » — il dit <b>« pour le gouvernement tsariste »</b> sans y penser."],
+       piege="<b>Il livre une pièce à charge en croyant faire un éloge.</b> Avoir travaillé "
+             "pour le gouvernement tsariste, en 1932, c'est un dossier — et un étranger ne "
+             "mesure pas ce que ça pèse.",
+       q=[{"q": "Qu'est-ce qu'Ernst May livre sans s'en rendre compte ?",
+           "choix": ["Que Pavel a travaillé pour le gouvernement tsariste",
+                     "Que Pavel préparait sa fuite",
+                     "Que Pavel était en contact avec l'étranger",
+                     "Que Pavel détestait Igor"],
+           "bonne": 0,
+           "pourquoi": "Il le dit en faisant son éloge. <b>En 1932, c'est un dossier</b>, "
+                       "et c'est aux joueurs de décider ce qu'ils en font.",
+           "ou": "25-lieux-et-presences.md:877"}]),
+
+    _c("kelley", "Matthew Kelley", "un étranger de Berezki",
+       "chez lui, <b>et il a bu</b> — c'est son état par défaut. Son message arrive devant "
+       "leur baraquement le soir, gratuitement ; aller le voir coûte le créneau.",
+       ["<b>Il a vu la créature.</b> Il ne sait plus exactement où, sa description est floue — "
+        "parce qu'il était ivre, <b>et parce que la chose n'a pas de forme stable</b>.",
+        "Sur place, rien : le sol est meuble à cause du dégel, piétiné toute la journée."],
+       piege="<b>C'est le seul témoignage exact de tout l'acte 1, et il est inutilisable.</b> "
+             "Les étrangers disent « il boit, il a toujours bu » — et c'est vrai, et ça ne "
+             "suffit pas. Garder ça pour l'acte 2 : quand ils auront vu, <b>c'est Kelley "
+             "qu'ils se rappelleront</b>.",
+       q=[{"q": "À quoi sert le témoignage de Matthew Kelley ?",
+           "choix": ["À rien dans l'acte 1 — il servira à l'acte 2, de mémoire",
+                     "À localiser la créature",
+                     "À prouver que les étrangers mentent",
+                     "À obtenir la substance noire"],
+           "bonne": 0,
+           "pourquoi": "<b>Le seul témoignage exact de l'acte 1, et personne ne peut le "
+                       "croire.</b> Quand ils auront vu, c'est lui qu'ils se rappelleront.",
+           "ou": "25-lieux-et-presences.md:1011"}]),
+
+    _c("akmaral", "Akmaral", "la très vieille femme du hangar zéro",
+       "le hangar zéro, la nuit, avec une poignée de familles kazakhes et bachkires",
+       ["Respectée, héritière de savoirs ancestraux. <b>Du tengrisme — un chamanisme "
+        "turco-mongol.</b>",
+        "<b>Il n'y a rien de surnaturel</b> : des rituels qui paraîtront étranges à des Russes "
+        "élevés dans la modernité."],
+       piege="<b>Elle et ses familles sont la réponse facile</b> au moment de rédiger le "
+             "rapport, et elle est à portée de main. Ne jamais le proposer. "
+             "Ne jamais l'empêcher."),
+
+    _c("survivants", "Akim Korolyoff et Dmitri Volkoff", "les deux survivants de l'acte 2",
+       "sous terre. <b>Akim</b> au fond du puits, jambe cassée, fou de douleur, mutique de "
+       "longues minutes. <b>Dmitri</b>, le frère de Kassym, dans la troisième strate.",
+       ["Akim remonte seul au petit matin du 9 mai <b>s'ils ne sont pas descendus</b>.",
+        "Dmitri est <b>vivant, fou, et connecté aux créatures</b>. Il meurt en une dizaine "
+        "de secondes."]),
+]
 
 # ══════════════════════════════════════════════════════════════════
 #  2. Les pistes — la version d'Igor, la vérité, la bascule
@@ -1182,7 +1399,69 @@ def _frise():
     return "".join(el)
 
 
+_CHAINE = [
+    ("Zinaida Plotnikova", "entretien des bêtes",
+     "« Elle n'était pas au dépôt ce matin-là.", "Je l'ai vue partir vers les écuries. »"),
+    ("Boris Shcherbakov", "entretien des voies",
+     "« C'est Faddei qui m'a demandé de noter", "les présences. Je ne l'ai pas fait. »"),
+    ("Anna Vasyukova", "ouvrière administrative",
+     "« Elle m'a rien demandé.", "Je l'ai fait. »"),
+    ("Le carré des tombes", "personne ne l'y a vue",
+     "Une matinée entière", "inexpliquée."),
+    ("Sacha Orloff", "à la gare",
+     "« Une femme du transport.", "Elle demandait des explosifs. »"),
+]
+
+
+def _chaine():
+    """La chaîne du registre, dans l'ordre — quatre témoins et une preuve.
+
+    C'est le seul endroit du scénario où l'ordre des interrogatoires
+    compte autant, et c'est ce qu'un diagramme tient mieux que sept fiches.
+    """
+    H, x = 104, 16
+    haut = 44 + H * len(_CHAINE)
+    el = [f'<svg viewBox="0 0 330 {haut}" xmlns="http://www.w3.org/2000/svg" '
+          f'font-family="system-ui, sans-serif" role="img" '
+          f'aria-label="La chaîne des témoignages du registre">',
+          f'<text x="{x}" y="22" font-size="12.5" font-weight="600" fill="#132c3c">'
+          f'LE 27 AVRIL — ce que dit le registre, et ce qu\'il ne dit pas</text>']
+    for i, (nom, role, l1, l2) in enumerate(_CHAINE):
+        y = 44 + H * i
+        dernier = i == len(_CHAINE) - 1
+        c = "#b3271e" if dernier else "#34566b"
+        el.append(f'<circle cx="{x + 10}" cy="{y + 14}" r="9" fill="{c}"/>')
+        el.append(f'<text x="{x + 10}" y="{y + 18}" font-size="11" fill="#fff" '
+                  f'text-anchor="middle" font-weight="600">{i + 1}</text>')
+        el.append(f'<text x="{x + 30}" y="{y + 12}" font-size="13" font-weight="600" '
+                  f'fill="#132c3c">{nom}</text>')
+        el.append(f'<text x="{x + 30}" y="{y + 28}" font-size="10.5" fill="#8aa4b2">'
+                  f'{role}</text>')
+        el.append(f'<text x="{x + 30}" y="{y + 48}" font-size="11.5" fill="#46555f">'
+                  f'{l1}</text>')
+        el.append(f'<text x="{x + 30}" y="{y + 63}" font-size="11.5" fill="#46555f">'
+                  f'{l2}</text>')
+        if not dernier:
+            el.append(f'<line x1="{x + 10}" y1="{y + 25}" x2="{x + 10}" y2="{y + H - 12}" '
+                      f'stroke="#c3cfd7" stroke-width="1.6"/>')
+            el.append(f'<path d="M {x + 6} {y + H - 18} L {x + 10} {y + H - 11} '
+                      f'L {x + 14} {y + H - 18}" fill="none" stroke="#c3cfd7" '
+                      f'stroke-width="1.6"/>')
+    el.append(f'<text x="{x}" y="{haut - 8}" font-size="11" fill="#b3271e" '
+              f'font-style="italic">On ne prend jamais Larissa en défaut. '
+              f'On prend le document en défaut.</text>')
+    el.append("</svg>")
+    return "".join(el)
+
+
 SCHEMAS = {
+    "gens": [
+        {"titre": "La chaîne du registre",
+         "leg": "Les quatre témoignages qui démontent la fausse entrée du 27 avril, dans "
+                "l'ordre où il faut les obtenir — puis la seule preuve matérielle de toute "
+                "l'enquête. Chacun est sincère, et aucun ne désigne personne tout seul.",
+         "svg": _chaine()},
+    ],
     "comptes": [
         {"titre": "Les huit jours",
          "leg": "Les points rouges sont les échéances qu'on ne déplace pas. "

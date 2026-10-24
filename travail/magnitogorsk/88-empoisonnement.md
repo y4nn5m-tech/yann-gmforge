@@ -242,6 +242,16 @@ réfectoires B et C »* — montre une police prête à punir des cuisiniers inn
 | **« ÉTAT AU 4 MAI 1932 »** | **impossible** : le briefing est le 3 mai. → **2 mai** |
 | **Les bandeaux** « ENQUÊTE EN COURS », « PRIORITÉ HAUTE » | **à retirer**, comme tous les tampons |
 | Fond | **blanc**, pour impression sur papier jauni |
+| **L'annotation d'Igor** | **pas imprimée.** Un blanc réservé entre la piste privilégiée et la conclusion, et le texte porté **au stylo** sur l'épreuve jaunie |
+
+> **Fait** — `scripts/rapport-empoisonnement.py`, une page. **À écrire à la main**, penché, décalé
+> vers la droite :
+>
+> *« Rien de tout cela ne relève de nos services. Constitutions faibles, rien de plus. — I. P. »*
+>
+> **Le principe vaut pour les sept autres rapports** : une annotation manuscrite composée en
+> italique ne trompe personne. Écrite à la main, c'est elle qui donne à la pile l'air d'avoir été
+> manipulée par un homme.
 
 > **Ne jamais y ajouter la colonne d'affectation.** C'est le trou qui fait le dossier : la bonne
 > question est *« où travaillent-elles »*, et elle doit se poser, pas se lire. **Sur le papier, le

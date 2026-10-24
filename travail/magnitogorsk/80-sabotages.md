@@ -225,8 +225,8 @@ de pas, un harnachement sorti puis remis en place.
 Le jour du rail : le registre dit le dépôt, deux témoins disent les écuries, et **personne ne sait
 qui a rempli l'entrée**.
 
-En creusant : **Guennadi** l'a inscrite pour couvrir une absence de Larissa — sans rapport avec les
-sabotages, et il ne sait rien. C'est **Zakhar** qui l'a vue aux écuries ce matin-là.
+En creusant : **Anna Vasyukova** l'a inscrite pour couvrir une absence sans rapport avec les
+sabotages, et elle ne sait rien. C'est **Zinaida Plotnikova** qui l'a vue partir vers les écuries.
 
 **Ce n'est pas une preuve. C'est une raison de la confronter.**
 

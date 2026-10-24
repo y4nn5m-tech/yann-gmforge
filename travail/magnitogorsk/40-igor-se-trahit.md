@@ -47,7 +47,7 @@ Igor sort tous ses dossiers pour ne rien avoir l'air de cacher.
   *(déjà écrite — c'est le départ)*
 - [« Vous verrez : tout a été instruit dans les règles. Tout, sans exception. »]
 - [« Si quelqu'un vous dit autre chose, demandez-vous qui le dit. Et pourquoi. »]
-- [« J'ai écrit à Moscou. Deux fois. On ne m'a jamais répondu. »]
+- [« On a dû vous dire que la section manquait de moyens. C'est faux. »]
 - [« Le camarade Directeur a ses humeurs. Ça ne regarde pas le travail de la police. »]
 
 **La dernière — *« le camarade Directeur a ses humeurs »* — est la plus lourde**, et c'est elle

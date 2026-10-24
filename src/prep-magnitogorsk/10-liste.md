@@ -16,7 +16,7 @@ apartés sont écrits ; les fiches à distribuer ne le sont pas*\
 ☐ **Plan du site en A3** — *tranché : le plan de l'auteur en entier, plus les deux distances qui
 coûtent un créneau. Reste à fabriquer*
 
-☐ **Imprimer des images d'époque**
+☐ **Imprimer des images d'époque** — *sélection faite : six photos agrafées aux dossiers, dix de lieu, cinq de mine pour l'acte 2. Papier photo mat, format carte postale. `15-photographies.md`*
 
 ☐ **Vérifier la cohérence des dossiers imprimés** — *audit fait : six anomalies, dont la cause du
 décès du noyé et des signatures datées du lendemain du briefing. Reste à corriger*
@@ -52,6 +52,7 @@ elle pointe.*
 ☐ La **feuille de carnet du temps** — `50-temporalite.md`\
 ☐ Le **plan A3** du site — `50-temporalite.md`, `25-lieux-et-presences.md`\
 ☐ Les **huit rapports de police**, refaits — `70-rapports-imprimes.md`\
+☐ **Réécrire les six signalements d'après les photos retenues** — *aucune ne correspond au texte actuel ; les signalements sont de nous, les photos non. À faire avant de générer* — `15-photographies.md`\
 ☐ Le **carnet de Faddei**, à recopier à la main — `86-carnet-faddei.md`\
 ☐ Le **tableau des affectations** de la zone ouest et le **carnet d'écarts de Gordeeva** —
 `87-disparitions.md`\

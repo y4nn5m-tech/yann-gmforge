@@ -40,6 +40,7 @@ from pathlib import Path
 RACINE = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RACINE / "scripts"))
 import rendu  # noqa: E402
+from plume import FILTRES, ecrire  # noqa: E402
 
 F = (RACINE / "assets" / "fonts").as_uri()
 
@@ -80,8 +81,8 @@ def lignes():
     for i, m in enumerate(MOIS):
         if i < len(SECRETAIRES):
             out.append(f"""<tr><td class="m">{m}</td>
- <td class="p">{SALAIRE} р.</td><td class="p">{cotisation(SALAIRE)}</td>
- <td class="p sec">{SECRETAIRES[i]}</td></tr>""")
+ <td class="p">{ecrire(f"{SALAIRE} р.", graine=410 + i)}</td><td class="p">{ecrire(cotisation(SALAIRE), graine=420 + i)}</td>
+ <td class="p sec">{ecrire(SECRETAIRES[i], graine=430 + i, encre=True, amplitude=1.4)}</td></tr>""")
         else:
             out.append(f'<tr><td class="m">{m}</td><td></td><td></td><td></td></tr>')
     return "\n".join(out)
@@ -160,6 +161,7 @@ svg.cachet {{ position: absolute; width: 27mm; height: 27mm;
               left: 17mm; bottom: 5mm; transform: rotate(-9deg);
               opacity: .5; mix-blend-mode: multiply; }}
 </style></head><body>
+{FILTRES}
 
 <svg width="0" height="0" style="position:absolute">
  <defs>
@@ -209,19 +211,19 @@ ou se garde séparée.
     <div class="num">№ {NUM}</div>
 
     <div class="champ"><span class="lab">Фамилия</span>
-      <span class="val">{NOM}</span></div>
+      <span class="val">{ecrire(NOM, graine=401, encre=True)}</span></div>
     <div class="champ"><span class="lab">Имя и отчество</span>
-      <span class="val">{PRENOM}</span></div>
+      <span class="val">{ecrire(PRENOM, graine=402, encre=True)}</span></div>
     <div class="champ"><span class="lab">Год рождения</span>
-      <span class="val">{NE}</span></div>
+      <span class="val">{ecrire(NE, graine=403, encre=True)}</span></div>
     <div class="champ"><span class="lab">Время вступления в партию</span>
-      <span class="val">{ENTRE}</span></div>
+      <span class="val">{ecrire(ENTRE, graine=404, encre=True)}</span></div>
     <div class="champ"><span class="lab">Наименование организации, выдавшей билет</span>
-      <span class="val deux">{ORG}</span></div>
+      <span class="val deux">{ecrire(ORG, graine=405, encre=True)}</span></div>
 
     <div class="signes">
-      <div><span class="plume">{SIGNE}</span>личная подпись</div>
-      <div><span class="plume">Ильин</span>Секретарь Райкома</div>
+      <div><span class="plume">{ecrire(SIGNE, graine=406, encre=True, amplitude=1.5)}</span>личная подпись</div>
+      <div><span class="plume">{ecrire("Ильин", graine=407, encre=True, amplitude=1.5)}</span>Секретарь Райкома</div>
     </div>
   </div></div>
 

@@ -42,6 +42,7 @@ from pathlib import Path
 RACINE = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RACINE / "scripts"))
 import rendu  # noqa: E402
+from plume import FILTRES, ecrire  # noqa: E402
 
 GRILLE = "--grille" in sys.argv
 MANUSCRIT = "--sans-annotations" not in sys.argv
@@ -79,7 +80,8 @@ def regle():
 
 x, y, a, t = MAIN
 note = (f'<div class="plume annot" style="left:{x}mm; top:{y}mm; '
-        f'transform:rotate({a}deg); font-size:{t}pt">{ANNOT}</div>' if MANUSCRIT else "")
+        f'transform:rotate({a}deg); font-size:{t}pt">'
+        f'{ecrire(ANNOT, graine=61, encre=True, amplitude=.95)}</div>' if MANUSCRIT else "")
 
 HTML = f"""<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><style>
 @font-face {{ font-family: Machine; src: url({F}/SpecialElite-Regular.ttf); }}
@@ -147,8 +149,9 @@ svg.copie {{ position: absolute; width: 34mm; height: 34mm;
  </filter>
 </svg>
 {regle()}
+{FILTRES}
 
-<div class="cotes"><span class="tampon">31</span><span class="crayon">24</span></div>
+<div class="cotes"><span class="tampon">31</span><span class="crayon">{ecrire("24", graine=62, amplitude=1.3)}</span></div>
 
 <div class="frappe">
 <div class="service">

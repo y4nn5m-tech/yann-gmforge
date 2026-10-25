@@ -46,6 +46,7 @@ from pathlib import Path
 RACINE = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RACINE / "scripts"))
 import rendu  # noqa: E402
+from plume import FILTRES, ecrire  # noqa: E402
 
 A = sys.argv[1:]
 F_VOR = "--feminin" in A or "--voronina" in A
@@ -172,6 +173,7 @@ svg.tampon {{ position: absolute; width: 40mm; height: 40mm;
 .pied {{ margin-top: 5mm; border-top: .7px solid #1a1713; padding-top: 1.3mm;
          font-family: PT, serif; font-size: 6.6pt; letter-spacing: .08em; text-align: right; }}
 </style></head><body>
+{FILTRES}
 
 <svg width="0" height="0" style="position:absolute">
  <filter id="frappe">
@@ -258,7 +260,7 @@ sans autorisation expresse.</li>
     Pour la Direction Politique<br>d'État Unifiée,<br>
     <b>G. G. IAGODA</b><br>
     Chef adjoint de l'OGPU
-    <div class="plume paraphe">Ягода</div>
+    <div class="plume paraphe">{ecrire("Ягода", graine=201, encre=True, amplitude=1.4)}</div>
   </div>
 </div>
 
@@ -266,8 +268,8 @@ sans autorisation expresse.</li>
 
 </div>
 
-<div class="plume registre">вх. 1147<br><small>24.IV.32</small></div>
-<div class="plume remisle">Remis le 24.IV.32 — <i>Тихонов</i></div>
+<div class="plume registre">{ecrire("вх. 1147", graine=202, amplitude=1.2)}<br><small>{ecrire("24.IV.32", graine=203, amplitude=1.2)}</small></div>
+<div class="plume remisle">{ecrire("Remis le 24.IV.32 —", graine=204)} <i>{ecrire("Тихонов", graine=205, encre=True, amplitude=1.3)}</i></div>
 
 {TAMPON}
 

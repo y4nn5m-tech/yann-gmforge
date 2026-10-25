@@ -13,17 +13,17 @@ apartés sont écrits ; les fiches à distribuer ne le sont pas*\
 ☐ Plastifier les fiches
 :::
 
-☐ **Plan du site en A3** — *tranché : le plan de l'auteur en entier, plus les deux distances qui
-coûtent un créneau. Reste à fabriquer*
+☑ ~~Plan du site en A3~~ — la planche des joueurs de l'auteur, agrandie, plus la légende
+recopiée à la main et les deux distances qui coûtent un créneau
 
 ☐ **Imprimer des images d'époque** — *sélection faite : six photos agrafées aux dossiers, dix de lieu, cinq de mine pour l'acte 2. Papier photo mat, format carte postale. `15-photographies.md`*
 
-☐ **Vérifier la cohérence des dossiers imprimés** — *audit fait : six anomalies, dont la cause du
-décès du noyé et des signatures datées du lendemain du briefing. Reste à corriger*
+☑ ~~Vérifier la cohérence des dossiers imprimés~~ — six anomalies corrigées, dont la cause du
+décès du noyé et des signatures datées du lendemain du briefing
 
 ☑ ~~Mettre en place la gestion du temps qui passe~~ — sept jours sur place, deux demi-journées par
 jour, **huit créneaux pour dix pistes**. Les trajets en ville sont gratuits ; seuls les mines et
-Berezki se paient. *La feuille de carnet reste à fabriquer*
+Berezki se paient
 
 ☐ **Le matériel de l'acte 2** — casquette, frontales, lampe tempête à bougie. *Dispositif dans
 `100-acte2-cadrage.md`, quantités dans la liste de courses plus bas*
@@ -49,19 +49,21 @@ réfectoire, le dispensaire, la gare, l'usine, Berezki, les yourtes, les berges 
 *Chaque ligne renvoie à la note de travail qui dit quoi mettre dedans. La liste ne décrit rien :
 elle pointe.*
 
-☐ La **feuille de carnet du temps** — `50-temporalite.md`\
-☐ Le **plan A3** du site — `50-temporalite.md`, `25-lieux-et-presences.md`\
-☐ Les **huit rapports de police**, refaits — `70-rapports-imprimes.md`\
-☐ La **copie de l'autopsie de Zina Krylova** — *celle qui manque au dossier du Komsomol et dort au dispensaire* — `89-komsomol.md`\
+☑ ~~La feuille du temps~~ — vierge : pas même le premier jour coché d'avance\
+☑ ~~Le plan A3 du site~~ — aucun lieu nommé, seulement les quartiers\
+☑ ~~Les sept dossiers de police et les deux dépositions de Faddei~~ — annotations d'Igor au stylo
+sur l'épreuve\
+☑ ~~La copie de l'autopsie de Zina Krylova~~ — *celle qui manque au dossier du Komsomol et dort au dispensaire*\
 ☑ ~~Vérifier les signalements contre les photos retenues~~ — *trois passent sans retouche ; la quatrième ne collait pas, et le dossier du déserteur se passera de portrait* — `15-photographies.md`\
 ☐ Le **carnet de Faddei**, à recopier à la main — `86-carnet-faddei.md`\
-☐ Le **tableau des affectations** de la zone ouest et le **carnet d'écarts de Gordeeva** —
-`87-disparitions.md`\
-☐ Le **plan de la Section D** — `88-empoisonnement.md`\
-☐ Les **cartes de repas**, dont celle de Kassym — `25-lieux-et-presences.md`\
+☑ ~~Le tableau des affectations de la zone ouest et le carnet d'écarts de Gordeeva~~ — la grille
+s'imprime vierge, les noms se portent à la main\
+☒ ~~Le plan de la Section D~~ — **supprimé.** Un seul passage commun avec un robinet dessus donnait
+la réponse, et la source ne connaît ni le couloir ni la halle. Le robinet se montre du doigt\
+☑ ~~Les cartes de repas~~ — six cartons, le nom à écrire\
 ☐ L'**organigramme du secteur transport** — `85-secteur-transport.md` — *pour le MJ seul*\
-☐ Le **formulaire de rapport**, **remis au départ** et rempli à la fin — `105-epilogue-rapport.md`\
-☐ Le **second formulaire, celui de Gusev** — une demi-page, remplie en aparté — `105`
+☑ ~~Le rapport de mission~~ — **remis au départ** et rempli à la fin\
+☑ ~~Le rapport particulier de Gusev·~~ — du papier à en-tête, pas un formulaire
 :::
 
 ::: {.mj lab="Aides MJ de l'acte 2 — à lire dans le noir"}
@@ -78,17 +80,20 @@ bougie — `101` à `103`\
 :::
 
 ::: {.jeu lab="Liste de courses"}
-*Établie en supposant tous les documents imprimés **sur fond blanc** : c'est le papier qui porte la
-teinte. Plafond de l'imprimante : **160 g**.*
+*Tous les documents s'impriment **sur fond blanc** : c'est le papier qui porte la teinte.
+`python3 scripts/papiers.py` sort le détail, document par document — chaque script déclare le sien.
+**La Brother plafonne à 163 g**, fente manuelle comprise, et son recto-verso automatique à 105.*
 
-**Papier**
+**Papier — 24 feuilles, dont 10 à se procurer**
 
+☑ ~~Jauni 160 g~~ — **en stock, 14 feuilles utiles.** Les sept dossiers (8 f.), les deux
+dépositions de Faddei, l'autopsie, le tableau des affectations, le carnet Gordeeva, la feuille du
+temps. *À passer feuille à feuille : à trois grammes du plafond, le bac en prend deux*\
+☐ **Blanc ordinaire, 80 à 100 g — 4 feuilles** — l'ordre de mission, le dossier Gusev·, les deux
+formulaires de l'épilogue. *Pas de jauni : ces papiers-là ont neuf jours*\
 ☐ **Bleu-gris clair, 120 à 160 g — une vingtaine de feuilles**\
 *Cinq utiles : les trois cartes du Parti, le livret militaire de Voronin·, le certificat de
 Petrenko. Le reste couvre les essais — papier jamais imprimé ici.*\
-☑ ~~Jauni 160 g~~ — **40 feuilles en stock, 18 utiles.** Les sept rapports (8 f.), la déposition de
-Faddei, l'ordre de mission, le dossier Gusev·, le tableau des affectations et le carnet Gordeeva,
-le plan de la Section D, les deux formulaires de rapport, les cartes de repas, la feuille du temps\
 ☐ Blanc ordinaire 80 g — *les cinq aides de l'acte 2, l'organigramme du transport, les images
 d'époque. Le blanc est le bon choix : elles se lisent à la bougie*\
 ☒ ~~Brun clair / chamois~~ — **ne pas acheter.** Une seule feuille utile, la couverture du billet
@@ -116,10 +121,15 @@ manuscrites\
 ☐ **Des bougies de rechange** — *une par strate, et le changement de bougie est l'entracte*\
 ☑ ~~Une casquette~~
 
-**Imprimerie — un seul motif**
+**Imprimerie — six feuilles, et c'est tout**
 
-☐ **Le plan A3 du site**, un exemplaire. *Question de format, pas de grammage : rien d'autre ne
-justifie le déplacement*
+*Ce que la Brother ne peut pas sortir : au-delà de 163 g, ou en A3.*
+
+☐ **Le plan A3 du site**, un exemplaire — *sur leur crème : le jauni du stock n'existe pas en A3*\
+☐ **Les cartes de repas** — bristol **vert pâle** 250 g, une feuille. *La teinte dit la catégorie,
+c'est le seul document où la couleur porte du sens*\
+☐ **La carte du Parti** — bristol crème 250 g, une feuille\
+☐ **Les cinq chevalets** — bristol blanc 250 g, trois feuilles
 :::
 
 ::: {.warn lab="Questions ouvertes"}

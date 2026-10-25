@@ -16,7 +16,10 @@ apartés sont écrits ; les fiches à distribuer ne le sont pas*\
 ☑ ~~Plan du site en A3~~ — la planche des joueurs de l'auteur, agrandie, plus la légende
 recopiée à la main et les deux distances qui coûtent un créneau
 
-☐ **Imprimer des images d'époque** — *sélection faite : six photos agrafées aux dossiers, dix de lieu, cinq de mine pour l'acte 2. Papier photo mat, format carte postale. `15-photographies.md`*
+☑ ~~Imprimer des images d'époque~~ — `scripts/planches-photos.py` : **dix de lieu et six de
+mine**, trois par feuille. Les portraits agrafés aux dossiers sortent avec eux, ceux des PJ sont
+sur les chevalets. *Papier photo mat 160 g — **pas de bleu-gris**, il mangerait les hautes
+lumières*
 
 ☑ ~~Vérifier la cohérence des dossiers imprimés~~ — six anomalies corrigées, dont la cause du
 décès du noyé et des signatures datées du lendemain du briefing

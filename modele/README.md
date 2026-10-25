@@ -1,6 +1,6 @@
 # Le modèle
 
-Les dix fichiers de ce répertoire **sont** le modèle. Ils ne sont pas chargés par la chaîne de
+Les onze fichiers de ce répertoire **sont** le modèle. Ils ne sont pas chargés par la chaîne de
 fabrication : ils sont ce que la chaîne applique, et ce qu'on lit avant d'écrire un document.
 
 ```
@@ -13,6 +13,7 @@ MODELE-livrable-aide-de-jeu.md    le chapitre du livret de table
 MODELE-livrable-dossier-prep.md   le chapitre de la note d'arbitrage
 MODELE-livrable-annote.md         le chapitre du scénario annoté
 MODELE-livrable-feuille.md        le chapitre de la feuille de conduite
+MODELE-accessoires.md             les objets qu'on pose sur la table — hors chaîne
 JOURNAL-passages.md               le retour d'expérience, scénario par scénario
 ```
 

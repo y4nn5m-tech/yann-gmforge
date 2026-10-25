@@ -31,7 +31,8 @@ Dans l'ordre :
    et les typologies servent dès l'analyse ;
 4. puis, selon le cas : `modele/MODELE-livrable-aide-de-jeu.md` ou
    `modele/MODELE-livrable-dossier-prep.md`, `modele/MODELE-formes.md` (selon la forme d'intrigue),
-   `modele/MODELE-systemes.md` (selon le jeu).
+   `modele/MODELE-systemes.md` (selon le jeu), `modele/MODELE-accessoires.md` (si la demande porte
+   sur un objet de table — rapport, lettre, carnet, formulaire, plan).
 
 Après un scénario traité, le retour d'expérience se consigne dans `modele/JOURNAL-passages.md` —
 jamais dans le socle. **Cette entrée s'écrit d'office, sans la demander** : dès que le dernier

@@ -57,6 +57,7 @@ parce que ce qui est dans la source n'y entre pas.
 | `modele/MODELE-livrable-dossier-prep.md` | Si la note d'arbitrage est demandée. |
 | `modele/MODELE-livrable-annote.md` | Si le scénario annoté est demandé. **Le mesurer d'abord** : sur une source déjà écrite en mots-clés, il n'apporte rien. |
 | `modele/MODELE-livrable-feuille.md` | Si la feuille de conduite est demandée. **La lire avec le chapitre du livret** : elle le double, elle ne le remplace pas. |
+| `modele/MODELE-accessoires.md` | Si la demande porte sur un **objet de table** — rapport, lettre, carnet, formulaire, plan. Ce n'est pas un livrable : il sort de `scripts/`, pas de `src/`, et ne passe par aucun contrôle. |
 | `modele/MODELE-formes.md` | Toujours, pour les deux livrables. Lire le ou les chapitres correspondant à la forme du scénario. **Un scénario cumule souvent plusieurs formes.** |
 | `modele/MODELE-systemes.md` | Toujours, pour les deux livrables. Lire le chapitre du système joué. |
 | `modele/JOURNAL-passages.md` | Seulement pour auditer l'historique. Aucune utilité au moment de rédiger. |

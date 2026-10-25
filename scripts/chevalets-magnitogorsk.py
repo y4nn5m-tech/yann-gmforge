@@ -40,6 +40,15 @@ os.environ.setdefault("SOURCE_DATE_EPOCH", "1700000000")
 
 from weasyprint import HTML  # noqa: E402  (après SOURCE_DATE_EPOCH)
 
+# Sur quoi ça s'imprime, et où. `python3 scripts/papiers.py` en fait la
+# liste de courses — il lit cette constante sans exécuter le script.
+PAPIER = [
+    {"doc": "Les cinq chevalets de prétirés",
+     "papier": "bristol blanc", "grammage": "250 g", "ou": "imprimerie",
+     "format": "A4", "feuilles": 3,
+     "note": "à l'italienne · à découper et plier, ils tiennent debout"},
+]
+
 RACINE = Path(__file__).resolve().parent.parent
 ASSETS = RACINE / "assets"
 OUT = RACINE / "out"

@@ -65,6 +65,19 @@ from plume import FILTRES, ecrire  # noqa: E402
 REMPLI = "--rempli" in sys.argv
 F = (RACINE / "assets" / "fonts").as_uri()
 
+# Sur quoi ça s'imprime, et où. `python3 scripts/papiers.py` en fait la
+# liste de courses — il lit cette constante sans exécuter le script.
+PAPIER = [
+    {"doc": "Le tableau des affectations",
+     "papier": "papier jauni", "grammage": "160 g", "ou": "maison", "stock": True,
+     "format": "A4", "feuilles": 1,
+     "note": "à l'italienne · se remplit à la main au crayon"},
+    {"doc": "Le carnet d'écarts de Gordeeva",
+     "papier": "papier jauni", "grammage": "160 g", "ou": "maison", "stock": True,
+     "format": "A4", "feuilles": 1,
+     "note": "recto seul"},
+]
+
 # ══════════════════════════════════════════════════════════════════
 #  Le tableau
 # ══════════════════════════════════════════════════════════════════

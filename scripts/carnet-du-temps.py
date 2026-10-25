@@ -59,6 +59,15 @@ import rendu  # noqa: E402
 
 F = (RACINE / "assets" / "fonts").as_uri()
 
+# Sur quoi ça s'imprime, et où. `python3 scripts/papiers.py` en fait la
+# liste de courses — il lit cette constante sans exécuter le script.
+PAPIER = [
+    {"doc": "La feuille du temps",
+     "papier": "papier jauni", "grammage": "160 g", "ou": "maison", "stock": True,
+     "format": "A4", "feuilles": 1,
+     "note": "à l'italienne · **cochée au crayon cinq séances**, d'où le grammage"},
+]
+
 # (quantième, jour de la semaine, demi-journées disponibles)
 #
 # Le 10 n'a que sa matinée : le train part le soir, et l'après-midi se

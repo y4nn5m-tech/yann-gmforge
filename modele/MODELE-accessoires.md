@@ -189,12 +189,21 @@ leur objet.
 
 ## La fabrication
 
+**Le papier n'est pas un détail de fin de chaîne, c'est une famille.**
+Trois suffisent, et elles font que l'œil classe les documents à la table sans qu'on explique rien :
+le **jauni** pour ce qui a vieilli en archive, le **blanc cassé** pour ce qui vient d'arriver et a
+quelques jours, le **bristol** pour ce qui se manipule tous les jours ou se découpe. **Un document
+posé sur le mauvais papier se fond dans la pile voisine et cesse d'être un objet** — c'est le
+défaut le plus coûteux de la fabrication, parce qu'il ne se voit pas à l'écran.
+
 | | |
 |---|---|
 | **le rendu** | `scripts/rendu.py` — Chrome en `--headless=new --print-to-pdf`. Un accessoire ne passe pas par `build.py` : il n'a ni en-tête YAML, ni contrôles, ni index |
 | **le fond** | **blanc, toujours.** La teinte vient du papier — papier à dessin teinté vendu à la feuille. Imprimer un fond coûte cher et se voit |
 | **la reproductibilité** | le PDF n'est pas identique au bit près — Chrome horodate — mais **le rendu l'est au pixel**. C'est ce qui compte : un accessoire ne se compare pas par empreinte |
 | **la vérification** | rendre en image et la regarder. Un PDF qu'on n'a pas vu n'est pas fini |
+| **le papier** | **chaque script déclare le sien**, dans une constante `PAPIER` lue sans exécution — teinte, grammage, format, nombre de feuilles, et **où ça s'imprime**. `scripts/papiers.py` les regroupe et sort la liste de courses ; il n'y a aucune liste à tenir à jour |
+| **la limite de la machine** | elle se déclare une fois et décide du reste. Un laser domestique plafonne vers 160 g, et son recto-verso automatique bien plus bas — **ce qui doit être rigide part donc chez un imprimeur**, et ne représente qu'une poignée de feuilles |
 
 **Vérifier le nombre de pages** d'un PDF se fait sur `/Type /Pages … /Count` — compter les
 `/Type /Page` donne un résultat faux.

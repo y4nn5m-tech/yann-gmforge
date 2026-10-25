@@ -57,6 +57,15 @@ pet_f = "--petrenko-f" in sys.argv
 
 F = (RACINE / "assets" / "fonts").as_uri()
 
+# Sur quoi ça s'imprime, et où. `python3 scripts/papiers.py` en fait la
+# liste de courses — il lit cette constante sans exécuter le script.
+PAPIER = [
+    {"doc": "Le dossier remis à Gusev·",
+     "papier": "papier blanc", "grammage": "100 g", "ou": "maison",
+     "format": "A4", "feuilles": 1,
+     "note": "**pas de jauni** · une seule des deux variantes s'imprime"},
+]
+
 HTML = f"""<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><style>
 @font-face {{ font-family: Mono; src: url({F}/CourierPrime-Regular.ttf); }}
 @font-face {{ font-family: PT; src: url({F}/PTSerif-Regular.ttf); }}

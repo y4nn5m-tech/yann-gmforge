@@ -48,6 +48,15 @@ GRILLE = "--grille" in sys.argv
 MANUSCRIT = "--sans-annotations" not in sys.argv
 F = (RACINE / "assets" / "fonts").as_uri()
 
+# Sur quoi ça s'imprime, et où. `python3 scripts/papiers.py` en fait la
+# liste de courses — il lit cette constante sans exécuter le script.
+PAPIER = [
+    {"doc": "La copie de l'autopsie de Zina",
+     "papier": "papier jauni", "grammage": "160 g", "ou": "maison", "stock": True,
+     "format": "A4", "feuilles": 1,
+     "note": "recto seul"},
+]
+
 # La main de Nesteroff, pas celle d'Igor : il annote sa propre copie,
 # en bas, là où il reste de la place. Position fixe — voir rapports-police.py.
 #

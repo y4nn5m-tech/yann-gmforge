@@ -44,6 +44,15 @@ from plume import FILTRES, ecrire  # noqa: E402
 
 F = (RACINE / "assets" / "fonts").as_uri()
 
+# Sur quoi ça s'imprime, et où. `python3 scripts/papiers.py` en fait la
+# liste de courses — il lit cette constante sans exécuter le script.
+PAPIER = [
+    {"doc": "La carte du Parti de Petrenko",
+     "papier": "bristol crème", "grammage": "250 g", "ou": "imprimerie",
+     "format": "A4", "feuilles": 1,
+     "note": "à découper et plier · la couverture se colle dos à dos"},
+]
+
 # ══════════════════════════════════════════════════════════════════
 #  Les porteurs
 # ══════════════════════════════════════════════════════════════════

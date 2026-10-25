@@ -61,6 +61,19 @@ MANUSCRIT = "--sans-annotations" not in sys.argv
 GRILLE = "--grille" in sys.argv
 F = (RACINE / "assets" / "fonts").as_uri()
 
+# Sur quoi ça s'imprime, et où. `python3 scripts/papiers.py` en fait la
+# liste de courses — il lit cette constante sans exécuter le script.
+PAPIER = [
+    {"doc": "Les sept dossiers de police",
+     "papier": "papier jauni", "grammage": "160 g", "ou": "maison", "stock": True,
+     "format": "A4", "feuilles": 8,
+     "note": "recto seul · 1932-03/ENT fait deux feuillets"},
+    {"doc": "Les deux dépositions de Faddei",
+     "papier": "papier jauni", "grammage": "160 g", "ou": "maison", "stock": True,
+     "format": "A4", "feuilles": 2,
+     "note": "recto seul"},
+]
+
 
 def classe(date):
     """Le cachet de classement : rectangulaire, encre mangée.

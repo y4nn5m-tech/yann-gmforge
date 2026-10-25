@@ -102,22 +102,47 @@ officiels attestant de la mission sont confiés au militaire.**
 
 ### Les rubriques
 
-> **RAPPORT D'ENQUÊTE — mission Magnitogorsk**
-> *Échéance : trois semaines, aller-retour compris*
+**C'est un blanc de série, pas un imprimé fait pour eux.** Une administration tire un modèle à des
+milliers d'exemplaires et le bureau qui le délivre tape les champs variables. Seul le **rappel de
+saisine** est dactylographié ; tout le reste est composé — jusqu'au pavé d'imprimerie en pied,
+`Форма № 12-С · Тип. ОГПУ, зак. 4418, тир. 25 000 · 1931 г.`, dont l'année est **antérieure à la
+mission**.
+
+> **RAPPORT DE MISSION** — recto-verso
+> *Dossier n° · Rapport n° · Destinataire · Rédigé par · Fait à, le*
 >
-> Incidents examinés ·
-> Conclusion retenue pour chacun — **une ligne** ·
-> Personnes mises en cause ·
-> **Observations sur la conduite des services locaux** ·
-> **Pertes et incidents affectant l'équipe d'enquête** ·
-> Signatures
+> I. **Objet de la mission — rappel de la saisine** *(tapé à la machine)* ·
+> II. Faits examinés et **conclusion retenue pour chacun — une ligne** ·
+> III. Éléments recueillis ·
+> IV. Personnes concernées ·
+> V. Mesures prises et propositions ·
+> VI. **Exécution de la mission** — *concours et obstacles rencontrés auprès des services
+> locaux* · *incidents survenus en cours de mission* ·
+> VII. Pièces jointes · VIII. Signatures ·
+> **Cadre réservé à l'autorité saisie — ne rien y inscrire**
+
+**Les rubriques ne posent aucune question.** Un formulaire administratif réclame des pièces dans un
+ordre codifié — saisine, faits, éléments, personnes, mesures, exécution ; il n'interroge pas, parce
+que les enquêtes sont trop diverses pour ça.
+
+> **Le rappel de saisine est la pièce maîtresse.** Il dit ce que Moscou croyait — *des sabotages*.
+> Le document porte en haut le postulat et en bas ce qu'ils ont trouvé : **l'écart entre les deux
+> est l'épilogue**, et il est sous leurs yeux depuis le premier jour.
+
+> **Et le cadre réservé à l'autorité est la meilleure preuve que l'imprimé ne leur appartient pas** :
+> une zone qu'ils n'ont pas le droit de remplir, et où quelqu'un d'autre écrira leur sort.
+
+> **« Exécution de la mission » est la rubrique la plus générique du document**, et c'est elle qui
+> porte les deux cases qui travaillent. Tout rapport de mission sépare ce qu'on a trouvé de la
+> façon dont la mission s'est déroulée : celle-ci accueillerait un train en retard aussi bien
+> qu'un mort.
 
 ### Les deux rubriques qui travaillent toutes seules
 
 | | |
 |---|---|
-| **« Observations sur la conduite des services locaux »** | **elle ne nomme personne, et c'est capital.** La mission est présentée comme une enquête sur des sabotages **précisément pour ne pas révéler le manque de confiance entre la direction et le chef de la police.** Un formulaire qui nommerait Pavlenko vendrait la mèche avant l'arrivée |
-| **« Pertes et incidents affectant l'équipe d'enquête »** | **inutile le premier jour.** Après la mine, c'est autre chose |
+| **« Concours et obstacles rencontrés auprès des services locaux »** | **elle ne nomme personne, et c'est capital.** La mission est présentée comme une enquête sur des sabotages **précisément pour ne pas révéler le manque de confiance entre la direction et le chef de la police.** Un formulaire qui nommerait Pavlenko vendrait la mèche avant l'arrivée |
+| **« Incidents survenus en cours de mission »** | **inutile le premier jour.** Après la mine, c'est autre chose |
 
 > **Et c'est là que le formulaire devient meilleur qu'une feuille sortie à la fin.** Igor se trahit
 > au briefing — **et la case change de sens sans qu'on y ait touché.** Un joueur la relit et comprend
@@ -142,6 +167,19 @@ pas écrire ça »***, ce qui vaut mieux que si le MJ le dit.
 ### Le second formulaire — celui de Gusev
 
 **Une demi-page, qu'il remplit seul pendant que tu t'isoles avec lui.**
+
+**Ce n'est pas un formulaire, et ça ne doit pas l'être.** Une administration ne fait pas tirer
+vingt-cinq mille exemplaires d'un imprimé destiné à ce qu'un agent contredise ses coéquipiers :
+l'existence d'un modèle banaliserait le geste, alors que tout son poids vient de ce qu'il n'est
+**pas prévu**. Et des rubriques le trahiraient — *« le rapport collectif rend-il compte des
+faits ? »* n'a de sens que s'il existe un rapport collectif à contredire.
+
+**C'est donc du papier à en-tête réglé**, ce que toute administration fournit : l'en-tête du
+service, le mot `РАПОРТ`, trois champs d'identification, et douze lignes vides.
+
+> **Le guidage est oral, pas imprimé.** Tu poses les questions en aparté, il écrit. **Une feuille
+> sans case est plus lourde à remplir que trois rubriques qui disent quoi répondre** — et c'est
+> exactement l'effet recherché.
 
 > **C'est ce qui rend sa décision tangible** au lieu d'être une phrase échangée à l'écart : **il
 > écrit quelque chose que les autres ne verront jamais**, pendant qu'ils attendent à côté.

@@ -129,8 +129,9 @@ En Section D, en interrogeant largement ouvriers et contremaîtres :
 2. **Il y a un robinet dessus**, et tout le monde y boit.
 3. Untel se souvient d'y avoir bu dans les jours qui ont précédé.
 
-**L'analyse de l'eau ne donne rien.** Il faut **faire démonter la tuyauterie** — et sur les parois
-intérieures, les résidus.
+**L'analyse de l'eau ne donne rien, et c'est voulu** : la créature est partie, l'eau est propre,
+les résidus sont restés sur les parois. Ce qu'il faut, c'est **ouvrir la conduite** — et personne
+n'a à le demander : voir plus bas, *« Comment on arrive au dépôt »*.
 
 ---
 
@@ -144,7 +145,7 @@ mesure · chaufferie · chargement · bureau de contrôle · **le couloir de lia
 |---|---|
 | **Les contremaîtres** | ils savent qui est tombé malade et quand. **Ils tiennent des listes de présence** |
 | **Les ouvriers, au travail** | réponses courtes. Mais **ils montrent le robinet sans y penser** |
-| **Le poste de mesure** | des gens habitués à relever des chiffres : **ils ont remarqué les absences** |
+| **Le poste de mesure** | des gens habitués à relever des chiffres : **ils ont remarqué les absences**, et **la baisse de débit sur l'antenne du couloir** depuis le début d'avril |
 | **Un convalescent** | revenu du dispensaire, pâle. **Il a bu, et il s'en souvient** |
 | **Les koulaks de l'entretien** | malades aussi, **et jamais comptés** |
 
@@ -189,6 +190,38 @@ suffit qu'ils aient fait le lien Section D → couloir → robinet.
 
 ---
 
+## Comment on arrive au dépôt
+
+**Le geste qui sauve est le geste qui prouve.** Condamner un robinet, c'est le déposer : un homme de
+l'entretien monte avec une clé, dévisse — et **le filetage et l'intérieur du corps sont tapissés
+d'un dépôt gélatineux**, le même qu'à la machine et sur le corps du pêcheur. Personne n'a demandé de
+démonter une tuyauterie. On a demandé de fermer un robinet, et c'est ainsi qu'on le ferme.
+
+> **C'est la bonne forme parce qu'elle récompense la décision morale par l'indice.** Les joueurs ne
+> doivent pas avoir une intuition de plombier : ils décident de protéger des gens, et le réel leur
+> répond.
+
+**Un groupe qui a déjà fait la machine n'a besoin de rien.** Les deux ingénieurs du Bloc 27 disent
+*« quelque chose s'est retrouvé dans le réseau de canalisations et a été emporté par le flux »*, et
+sur le site de l'explosion les résidus se ramassent à la fouille — les tuyaux ont éclaté, il n'y a
+rien à ouvrir. **Arrivés en Section D, ils ne trouvent pas une idée : ils reproduisent une
+observation.**
+
+Si l'empoisonnement vient en premier, trois appuis — **et aucun ne dit d'ouvrir le tuyau** :
+
+| | |
+|---|---|
+| **Nesteroff** | il a fait analyser l'eau : **elle est propre.** Il ferme une porte au lieu d'en ouvrir une — si l'eau est pure et que ceux qui la boivent meurent, ce n'est pas l'eau, c'est ce qu'elle traverse |
+| **Le poste de mesure** | des gens dont le métier est de relever des chiffres. **Le débit de cette antenne a baissé depuis le début d'avril** — avant les premiers cas du 12. Matériel, vérifiable, et ça ne nomme jamais le tuyau |
+| **Les koulaks de l'entretien** | ce sont eux qui ouvrent. L'un a curé une conduite pleine de dépôt ailleurs sur le site le mois dernier : **il offre le geste sans qu'on le lui réclame** |
+
+> **Ne pas pousser, et ne pas s'inquiéter si ça ne vient pas.** Les résidus ne servent qu'au
+> troisième point du recoupement. **L'action qui sauve n'en a pas besoin** : un groupe qui n'ouvre
+> jamais la conduite perd une confirmation, pas le dossier. Un meneur qui force ici abîme plus que
+> ce qu'il rattrape.
+
+---
+
 ## L'horloge
 
 | | |
@@ -229,9 +262,13 @@ suffit qu'ils aient fait le lien Section D → couloir → robinet.
 
 ---
 
-## Les documents à produire — cahier des charges
+## Le document du dossier
 
-### 1. Le rapport `1932-xx` — **existe, à corriger, pas à refaire**
+**Le dossier en a un seul, et il existe déjà.** Ce qui se découvre ici se découvre en parlant aux
+gens : l'affectation des victimes au bureau de section, le robinet montré du doigt par un ouvrier
+qui ne sait pas ce qu'il montre.
+
+### Le rapport `1932-xx` — **existe, à corriger, pas à refaire**
 
 Il est bon : le tableau se contredit tout seul, et la section V — *« interroger les responsables des
 réfectoires B et C »* — montre une police prête à punir des cuisiniers innocents.
@@ -256,22 +293,3 @@ réfectoires B et C »* — montre une police prête à punir des cuisiniers inn
 > **Ne jamais y ajouter la colonne d'affectation.** C'est le trou qui fait le dossier : la bonne
 > question est *« où travaillent-elles »*, et elle doit se poser, pas se lire. **Sur le papier, le
 > dossier se résout en trente secondes.**
-
-### 2. Le plan de la Section D — **à créer**
-
-**Format technique, A5.** Obtenu au bureau de contrôle de section, ou affiché au mur.
-
-Ce qu'il montre : la halle de fonderie · l'atelier de moulage · la chaufferie · le poste de mesure ·
-le chargement · **et le couloir de liaison, seul passage commun, avec le robinet dessus.**
-
-> **Il ne donne pas la réponse : il la rend trouvable.** Les joueurs voient qu'il n'y a qu'un
-> passage que tout le monde emprunte, et demandent ce qu'il y a dessus.
->
-> **Et c'est un plan, pas une liste** — ce qui évite de répéter le procédé des disparitions, où le
-> document à demander est déjà un tableau d'affectations.
-
-### 3. Le bulletin d'autopsie — **à ne pas faire**
-
-Ce que Nesteroff découvre — **tout le système digestif noirci, nécrosé, et aucune trace de la
-substance** — est beaucoup plus fort dit à voix haute par un homme qui ne comprend pas ce qu'il a
-sous les yeux. **Sur un papier, ça devient une donnée de plus.**

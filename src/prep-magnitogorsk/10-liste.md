@@ -67,16 +67,16 @@ la réponse, et la source ne connaît ni le couloir ni la halle. Le robinet se m
 :::
 
 ::: {.mj lab="Aides MJ de l'acte 2 — à lire dans le noir"}
-*Gros caractères, à poser à plat, jamais à feuilleter. **Tester la lisibilité à la bougie avant de
-fabriquer.***
+*Cinq cartons A5 à l'italienne, à poser à plat, jamais à feuilleter. Noir pur, corps de 13 à 26
+points.*
 
-☐ La **table des onze disparus** — qui, comment, lien Kassym, ce que ça déclenche —
-`100-acte2-cadrage.md`\
-☐ Le **fil de la descente** — les deux branches, les scènes dans l'ordre, les changements de
-bougie — `101` à `103`\
-☐ La **liste des effets à saupoudrer**, avec des cases à cocher — `102`, `103`\
-☐ Le **mémo de la créature** — ignore · nettoie · agression et ses trois issues — `103`\
-☐ Les **trois jets d'horreur**, et eux seuls — `101`, `102`
+☑ ~~La table des onze disparus~~ — les quatre Volkoff tramés\
+☑ ~~Le fil de la descente~~ — les deux branches, les sept temps, les bougies\
+☑ ~~Les effets à saupoudrer~~ — sept cases, pour ne pas répéter le même\
+☑ ~~Le mémo de la créature~~ — ignore · nettoie · agression et ses trois issues\
+☑ ~~Les trois jets d'horreur~~ — *et le troisième est dans l'acte 3*\
+☐ **Tester la lisibilité à la bougie** — une page, la vraie bougie, la vraie distance. Le corps se
+règle par la constante `CORPS` en tête de `scripts/aides-acte2.py`
 :::
 
 ::: {.jeu lab="Liste de courses"}
@@ -94,8 +94,9 @@ formulaires de l'épilogue. *Pas de jauni : ces papiers-là ont neuf jours*\
 ☐ **Bleu-gris clair, 120 à 160 g — une vingtaine de feuilles**\
 *Cinq utiles : les trois cartes du Parti, le livret militaire de Voronin·, le certificat de
 Petrenko. Le reste couvre les essais — papier jamais imprimé ici.*\
-☐ Blanc ordinaire 80 g — *les cinq aides de l'acte 2, l'organigramme du transport, les images
-d'époque. Le blanc est le bon choix : elles se lisent à la bougie*\
+☐ **Blanc ordinaire 80 g — 3 feuilles** pour les cinq aides de l'acte 2, deux A5 par feuille.
+*Plus l'organigramme du transport et les images d'époque. Le blanc est le bon choix : elles se
+lisent à la bougie*\
 ☒ ~~Brun clair / chamois~~ — **ne pas acheter.** Une seule feuille utile, la couverture du billet
 de Kassym : une chute de kraft, un contrecollage, ou le jauni
 

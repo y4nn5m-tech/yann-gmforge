@@ -1360,6 +1360,24 @@ Ils sortent de la zone de triage. Le bruit tombe d'un cran. Devant eux, la ville
 > **Un A3 imprimé, posé sur la table.** Pas un croquis fait en direct : tu aurais à dessiner vite
 > devant quatre personnes, et le résultat devrait rester lisible pendant cinq séances.
 
+> **Ce n'est pas lui qui l'a tracé : c'est un tirage de la direction des travaux qu'il a annoté au
+> crayon.** Magnitogorsk est un chantier planifié qui emploie des milliers de spécialistes
+> étrangers ; un guide affecté aux visiteurs a un plan, c'est son outil.
+>
+> **La planche est celle de la source**, agrandie en A3 et laissée intacte — aucun texte imprimé
+> par-dessus. S'y ajoutent seulement un cartouche, *DIRECTION DES TRAVAUX · TIRAGE N° 214 —
+> II.1932*, et la colonne de droite.
+>
+> **Un tirage de service n'emporte pas sa légende** : elle est sur une autre planche, restée au
+> bureau. Kassym l'a donc recopiée à la main dans la marge — A à G, puis les quatre voies —, et
+> **les deux trajets qui se paient y sont notés en temps de marche** : *route de Berezki — une
+> journée*, *chemin du mont — une demi-journée*. Un guide compte en journées, pas en kilomètres.
+>
+> Sur la planche elle-même, **deux mentions au crayon et rien de plus** : *chez moi* dans la zone
+> des yourtes, *vous* sur leur baraquement. C'est tout ce qu'un guide a à écrire pour des gens
+> qu'il va conduire lui-même — le bureau de police, il les y mène ; la prison est le lieu d'un
+> dossier, et son adresse se demande.
+
 > **Comment il arrive dans la fiction.** Sa fiche dit qu'il est « capable de tracer rapidement un
 > plan de Magnitogorsk pour indiquer les principaux points d'intérêt ». **Il l'a fait pendant qu'il
 > attendait** — il était là depuis l'aube, le train avait des heures de retard, et il voulait être
@@ -1368,9 +1386,13 @@ Ils sortent de la zone de triage. Le bruit tombe d'un cran. Devant eux, la ville
 > C'est ce qu'il avait « préparé à leur montrer » et qu'il n'osait pas proposer. **Il le sort quand
 > on lui demande où on va.**
 
-> **Il porte les dix-sept lieux et l'échelle de l'auteur**, et c'était un faux débat d'en retirer
-> ceux que Kassym ne connaît pas : dans notre système, les trajets en ville sont gratuits, donc
-> chercher une adresse ne coûte rien. L'incomplétude aurait été du réalisme sans effet.
+> **Il ne porte aucun lieu — seulement les quartiers, les voies et le fleuve.** La source a deux
+> cartes : celle du meneur porte les dix-sept lieux numérotés, **celle des joueurs ne porte que les
+> zones A à G**. Un nom écrit sur un plan est une invitation : un joueur qui lit « Section D » au
+> premier créneau y va, et la voie des affectations de l'empoisonnement tombe avec.
+>
+> **Les trajets en ville restent gratuits** — chercher une adresse ne coûte toujours rien. Mais il
+> faut la chercher, et c'est le métier de Kassym d'y répondre.
 
 > **Ce qu'il doit porter en plus, et qui sert la mécanique :** les deux seuls trajets qui se paient.
 > *Mines du mont Magnitnaïa — 5 km — un créneau.* *Berezki — 8 km — un créneau.* Tout le reste est

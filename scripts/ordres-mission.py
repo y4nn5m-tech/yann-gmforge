@@ -1,28 +1,39 @@
-#!/usr/bin/env python3
 """
-ordre-mission-voronin.py — l'ordre de détachement n° 112 / DMM.
+ordres-mission.py — les quatre ordres de détachement.
 
-    python3 scripts/ordre-mission-voronin.py              # Voronin, capitaine
-    python3 scripts/ordre-mission-voronin.py --feminin    # Voronina, sans grade
+    python3 scripts/ordres-mission.py                     # les quatre
+    python3 scripts/ordres-mission.py --voronina          # Voronina, sans grade
+    python3 scripts/ordres-mission.py --petrenko-f --krasnova --guseva
 
-Produit out/ordre-mission-voronin[-feminin].pdf : une page A4, remise
-**en mains propres par le commandant Tikhonoff**, qui sert aussi de
-laissez-passer.
+Produit quatre A4, **une par personnage** : chacun reçoit le sien dans sa
+scène d'ouverture, et c'est le premier objet de la campagne.
 
-Deux versions, parce que le genre du militaire change le document en
-profondeur et non à la marge :
+    ordre-mission-petrenko.pdf   remis chez lui, la nuit, par deux hommes
+                                 en manteau. **C'est lui qui retourne la
+                                 scène** : il n'est pas arrêté, il est
+                                 convoqué — et personne ne le lui a dit
+    ordre-mission-krasnov.pdf    remis à l'institut, en plein jour,
+                                 devant témoins
+    ordre-mission-gusev.pdf      n° 0447 / L.I., remis **devant toute la
+                                 table** : tout le monde voit qu'il a des
+                                 papiers, c'est banal. Sa vraie mission
+                                 est ailleurs — voir dossier-gusev.py
+    ordre-mission-voronin.pdf    n° 112 / DMM, remis en mains propres par
+                                 le commandant Tikhonoff
 
-    masculin   capitaine, garnison de Reoutov. **Il commande le groupe**,
-               et le document le dit noir sur blanc.
-    féminin    ni grade, ni garnison, ni supérieur militaire. Le
-               paragraphe d'autorité disparaît — **personne ne commande**,
-               et c'est l'absence de cette phrase qui le produit.
+**Celui de Voronin est le seul qui commande.** Au masculin, le paragraphe
+d'autorité hiérarchique y figure noir sur blanc ; au féminin il
+disparaît — ni grade, ni garnison, ni supérieur militaire —, et c'est
+l'absence de cette phrase qui produit l'effet. Tikhonoff remet le
+document dans les deux cas : il a fait la guerre civile avec elle comme
+avec lui.
 
-Tikhonoff remet le document dans les deux cas : il a fait la guerre
-civile avec elle comme avec lui.
+Les quatre genres se règlent indépendamment : --voronina, --petrenko-f,
+--krasnova, --guseva. Les listes d'équipe de chaque document suivent.
 
-Les trois accompagnateurs peuvent être féminins indépendamment :
---petrenko-f, --krasnova, --guseva.
+**Celui de Petrenko sera relu pendant sept jours de train** — la note le
+dit, et c'est l'argument qui justifie un accessoire plutôt qu'une
+description : un papier qu'on reprend vingt fois dans la main.
 
 Rendu par Chrome et non par WeasyPrint (voir scripts/rendu.py) : le
 tampon a besoin de textPath pour que son texte suive l'arc, et de
@@ -54,23 +65,57 @@ F_PET = "--petrenko-f" in A
 F_KRA = "--krasnova" in A
 F_GUS = "--guseva" in A
 
-vor_nom = "VORONINA, Maria Andreïevna" if F_VOR else "VORONIN, Mikhaïl Andreïevitch"
-vor_qual = ("Instructrice de culture physique — Institut central, Moscou"
-            if F_VOR else "Capitaine, garnison de Reoutov")
-camarade = "À la camarade" if F_VOR else "Au camarade"
-appel = "Camarade instructrice," if F_VOR else "Camarade capitaine,"
-detache = "détachée" if F_VOR else "détaché"
-affecte = "affectée" if F_VOR else "affecté"
+# (clé, nom, qualité, appel, remise, référence, accords)
+EQUIPE = {
+    "petrenko": (
+        "PETRENKO, Bogdana" if F_PET else "PETRENKO, Borislav",
+        "Service des affectations — Leningrad",
+        "Camarade," if F_PET else "Camarade,",
+        "— remis à domicile le 25 avril 1932 —",
+        "Ordre n° 1204 / ADM-L",
+        F_PET),
+    "krasnov": (
+        "KRASNOVA, Svetlana" if F_KRA else "KRASNOFF, Sergeï",
+        "Institut polytechnique — génie mécanique, Leningrad",
+        "Camarade,",
+        "— remis à l'institut le 25 avril 1932 —",
+        "Ordre n° 0863 / INST-L",
+        F_KRA),
+    "gusev": (
+        "GUSEVA, Alina" if F_GUS else "GUSEV, Alekseï",
+        "Bureau de la Logistique Industrielle — Moscou",
+        "Camarade,",
+        "— remis au bureau 320 le 25 avril 1932 —",
+        "Ordre n° 0447 / L.I.",
+        F_GUS),
+    "voronin": (
+        "VORONINA, Maria Andreïevna" if F_VOR else "VORONIN, Mikhaïl Andreïevitch",
+        ("Instructrice de culture physique — Institut central, Moscou"
+         if F_VOR else "Capitaine, garnison de Reoutov"),
+        "Camarade instructrice," if F_VOR else "Camarade capitaine,",
+        "— remis en mains propres par le commandant TIKHONOFF —",
+        "Mission n° 112 / DMM",
+        F_VOR),
+}
 
-pet = "PETRENKO, Bogdana" if F_PET else "PETRENKO, Borislav"
-kra = "KRASNOVA, Svetlana" if F_KRA else "KRASNOFF, Sergeï"
-gus = "GUSEVA, Alina" if F_GUS else "GUSEV, Alekseï"
+# Le numéro d'arrivée au registre : quatre documents émis le même jour
+# par le même service se suivent, ils ne portent pas le même.
+ENTREES = {"petrenko": "вх. 1144", "krasnov": "вх. 1145",
+           "gusev": "вх. 1146", "voronin": "вх. 1147"}
 
-AUTORITE = ("""<p>Vous veillerez à la bonne tenue du groupe, à la sécurité des personnes et à la
-transmission du rapport final à Moscou.</p>""" if F_VOR else """<p>En qualité d'officier de l'Armée
-Rouge, vous exercez sur cette équipe <b>l'autorité hiérarchique</b>. Vous portez la responsabilité
-de la discipline du groupe, de la sécurité des personnes, et de la transmission du rapport final à
-Moscou.</p>""")
+ROLES = {"petrenko": "bureaucrate (Leningrad)",
+         "krasnov": "universitaire, génie mécanique (Leningrad)",
+         "gusev": "Bureau de la Logistique Industrielle (Moscou)",
+         "voronin": "officier de l'Armée Rouge (Reoutov)"}
+
+# **Le paragraphe qui commande, et il n'existe qu'une fois.** Au
+# masculin il désigne Voronin comme chef ; au féminin il s'efface, et
+# personne ne commande. Les trois autres ne l'ont jamais.
+AUTORITE_H = """<p>En qualité d'officier de l'Armée Rouge, vous exercez sur cette équipe
+<b>l'autorité hiérarchique</b>. Vous portez la responsabilité de la discipline du groupe, de la
+sécurité des personnes, et de la transmission du rapport final à Moscou.</p>"""
+AUTORITE_F = """<p>Vous veillerez à la bonne tenue du groupe, à la sécurité des personnes et à la
+transmission du rapport final à Moscou.</p>"""
 
 # ── le cachet : textPath pour l'arc, feTurbulence pour l'encre ──────
 TAMPON = """
@@ -115,13 +160,35 @@ F = (RACINE / "assets" / "fonts").as_uri()
 # Sur quoi ça s'imprime, et où. `python3 scripts/papiers.py` en fait la
 # liste de courses — il lit cette constante sans exécuter le script.
 PAPIER = [
-    {"doc": "L'ordre de détachement",
+    {"doc": "Les quatre ordres de détachement",
      "papier": "papier blanc", "grammage": "100 g", "ou": "maison",
-     "format": "A4", "feuilles": 1,
-     "note": "**pas de jauni** : délivré le 24 avril, il a neuf jours"},
+     "format": "A4", "feuilles": 4,
+     "note": "un par personnage, remis dans sa scène d'ouverture · **pas de jauni** : "
+             "délivrés le 24 avril, ils ont neuf jours"},
 ]
 
-HTML = f"""<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><style>
+def document(cle):
+    """Le même formulaire pour les quatre, le destinataire en moins."""
+    nom, qual, appel, remise, ref, fem = EQUIPE[cle]
+    camarade = "À la camarade" if fem else "Au camarade"
+    detache = "détachée" if fem else "détaché"
+    affecte = "affectée" if fem else "affecté"
+    autorite = ((AUTORITE_F if fem else AUTORITE_H) if cle == "voronin" else "")
+    # chacun ne lit que les trois autres dans la liste d'équipe
+    autres = "<br>".join(
+        f'<span class="n">— {EQUIPE[k][0]}</span> {ROLES[k]}'
+        for k in EQUIPE if k != cle)
+    verbe = ("accompagnerez l'équipe" if cle == "voronin"
+             else "rejoindrez l'équipe")
+    rang = list(EQUIPE).index(cle)
+    entree = ENTREES[cle]
+    # **Seul Voronin reçoit son ordre de la main d'un homme nommé.** Les
+    # trois autres se le voient remettre par un service, et la mention de
+    # transmission manuscrite n'aurait personne pour la signer.
+    remisle = (f'<div class="plume remisle">{ecrire("Remis le 24.IV.32 —", graine=204)} '
+               f'<i>{ecrire("Тихонов", graine=205, encre=True, amplitude=1.3)}</i></div>'
+               if cle == "voronin" else "")
+    return f"""<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><style>
 @font-face {{ font-family: Machine; src: url({F}/SpecialElite-Regular.ttf); }}
 @font-face {{ font-family: PT; src: url({F}/PTSerif-Regular.ttf); }}
 @font-face {{ font-family: PT; src: url({F}/PTSerif-Bold.ttf); font-weight: bold; }}
@@ -157,7 +224,7 @@ p {{ margin: 0 0 2.2mm; text-align: justify; }}
 ol {{ margin: 0 0 2.2mm; padding-left: 6mm; }}
 li {{ margin-bottom: 1.5mm; }}
 .equipe {{ margin: 1.8mm 0 2.2mm 8mm; line-height: 1.6; }}
-.equipe .n {{ display: inline-block; width: 50mm; }}
+.equipe .n {{ display: inline-block; width: 58mm; }}
 .echeance {{ margin-left: 8mm; line-height: 1.65; }}
 
 /* ── la main du fonctionnaire ────────────────────────────────── */
@@ -206,16 +273,16 @@ svg.tampon {{ position: absolute; width: 40mm; height: 40mm;
 
 <div class="ref">
   Moscou, le 24 avril 1932<br>
-  Mission n° 112 / DMM<br>
+  {ref}<br>
   Exemplaire personnel
 </div>
 
 <h1>ORDRE DE DÉTACHEMENT</h1>
 
 <div class="dest">
-  {camarade} <b>{vor_nom}</b><br>
-  {vor_qual}<br>
-  <span class="remis">— remis en mains propres par le commandant TIKHONOFF —</span>
+  {camarade} <b>{nom}</b><br>
+  {qual}<br>
+  <span class="remis">{remise}</span>
 </div>
 
 <p>{appel}</p>
@@ -233,17 +300,15 @@ de <b>trois (3) semaines</b>, à compter du 26 avril 1932.</p>
 <p>Une équipe interdisciplinaire vous accompagnera. Sa composition est la suivante :</p>
 
 <div class="equipe">
-  <span class="n">— {pet}</span> bureaucrate (Leningrad)<br>
-  <span class="n">— {kra}</span> universitaire, génie mécanique (Leningrad)<br>
-  <span class="n">— {gus}</span> Bureau de la Logistique Industrielle (Moscou)
+  {autres}
 </div>
 
-{AUTORITE}
+{autorite}
 
 <h2>VOS INSTRUCTIONS</h2>
 
 <ol>
-<li><b>Conduite de la mission.</b> Vous accompagnerez l'équipe jusqu'à Magnitogorsk et veillerez au
+<li><b>Conduite de la mission.</b> Vous {verbe} jusqu'à Magnitogorsk et veillerez au
 bon déroulement de l'enquête sur place.</li>
 <li><b>Coordination locale.</b> Un guide vous attendra en gare de Magnitogorsk. Il vous mettra en
 relation avec les organes compétents de la police politique locale, placés sous l'autorité du
@@ -273,17 +338,19 @@ sans autorisation expresse.</li>
   </div>
 </div>
 
-<div class="pied">Mission n° 112 / DMM</div>
+<div class="pied">{ref}</div>
 
 </div>
 
-<div class="plume registre">{ecrire("вх. 1147", graine=202, amplitude=1.2)}<br><small>{ecrire("24.IV.32", graine=203, amplitude=1.2)}</small></div>
-<div class="plume remisle">{ecrire("Remis le 24.IV.32 —", graine=204)} <i>{ecrire("Тихонов", graine=205, encre=True, amplitude=1.3)}</i></div>
+<div class="plume registre">{ecrire(entree, graine=202 + rang, amplitude=1.2)}<br><small>{ecrire("24.IV.32", graine=203 + rang, amplitude=1.2)}</small></div>
+{remisle}
 
 {TAMPON}
 
 </body></html>"""
 
-cible = RACINE / "out" / f"ordre-mission-voronin{'-feminin' if F_VOR else ''}.pdf"
-rendu.pdf(HTML, cible, RACINE)
-print(f"· {cible.relative_to(RACINE)}")
+
+for _cle in EQUIPE:
+    _cible = RACINE / "out" / f"ordre-mission-{_cle}.pdf"
+    rendu.pdf(document(_cle), _cible, RACINE)
+    print(f"· {_cible.relative_to(RACINE)}")

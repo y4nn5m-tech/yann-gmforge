@@ -1,8 +1,8 @@
 # Les rapports de police
 
 **Sept dossiers que les joueurs manipulent toute la partie**, plus deux pièces qui n'en sont pas :
-la déposition manuscrite de Faddei, agrafée au dossier des sabotages, et la copie de l'autopsie de
-Zina, qui ne vient pas du même bureau — elle dort au dispensaire, et c'est tout son sujet. Ils se fabriquent par `scripts/rapports-police.py`, parce qu'ils partagent une mise en
+les deux dépositions manuscrites de Faddei, agrafées au dossier des sabotages, et la copie de
+l'autopsie de Zina, qui ne vient pas du même bureau — elle dort au dispensaire, et c'est tout son sujet. Ils se fabriquent par `scripts/rapports-police.py`, parce qu'ils partagent une mise en
 page.
 
 > **Le texte de chacun est dans `71-rapports-textes.md`**, corrigé et prêt à composer.
@@ -69,7 +69,7 @@ signé.
 | La machine | **CLASSÉ** | accident établi, ingénieurs en attente de jugement |
 | L'empoisonnement | — | on attend les analyses |
 | Le déserteur | — | ses hommes sondent encore les lacs |
-| Les sabotages | — | déposition reçue il y a cinq jours, pas ouverte |
+| Les sabotages | — | dépositions reçues il y a quatre jours, pas ouvertes |
 
 > **Quatre fermés vite, trois laissés en plan.** En étalant la pile, les joueurs lisent le caractère
 > d'Igor sans qu'on leur dise rien. **Et le tampon des disparitions affirme une clôture sur un
@@ -116,7 +116,7 @@ d'impression, pas de contenu.
 | Les sabotages | **1932-09/SAB** |
 | Les disparitions de matériel | **1932-03/ENT** |
 | **Le pêcheur** | **aucun** |
-| *Les sabotages — pièce jointe* | **déposition manuscrite de F. Nikitine** |
+| *Les sabotages — pièce jointe* | **deux dépositions manuscrites de F. Nikitine**, 10 et 28 avril |
 | *Le meurtre — la page absente* | **copie de l'autopsie de Zina**, au dispensaire — `89-komsomol.md` |
 
 **Le pêcheur n'a pas de dossier, et c'est l'information.** Son corps est retrouvé *pendant* leur
@@ -137,7 +137,7 @@ plutôt à ranger du côté des Amis de la Révolution ».
 | **La machine** | explosion le **16 avril** |
 | **L'empoisonnement** | depuis **le 12 avril** · dossier ouvert le 18 avril · état au **2 mai** |
 | **Le déserteur** | absent depuis le **mardi 26 avril** |
-| **Les sabotages** | déposition au palais le **10 avril**, parvenue à la police le **29** |
+| **Les sabotages** | dépositions au palais les **10** et **28 avril**, parvenues à la police le **29** |
 | **Les disparitions** | ouvert le **14 mars**, classé le **28 mars** |
 | **Le meurtre** | victime née en **1912** · jugement le **2 mai** |
 
@@ -167,24 +167,35 @@ Krylova, dans un autre dossier.
 disparition de Tkachenko, et il a priorisé l'autre problème. **Seul le second lui est imputable, et
 il l'assume ouvertement.**
 
-### La déposition manuscrite de Faddei — la seule pièce qui ne sorte pas d'une machine
+### Les deux dépositions de Faddei — les seules pièces qui ne sortent pas d'une machine
 
-Un feuillet agrafé au dossier **1932-09/SAB**, de la main de Faddei : un ingénieur qui écrit au
+Deux feuillets agrafés au dossier **1932-09/SAB**, de la main de Faddei : un ingénieur qui écrit au
 palais administratif n'a pas de dactylographe.
 
-**Elle ne porte que deux incidents** — le 2 et le 8 avril. Le 10 avril, les deux autres n'avaient
+**Le premier, du 10 avril, ne porte que deux incidents** — le 2 et le 8. Les deux autres n'avaient
 pas eu lieu. Les joueurs qui comparent la pièce et le dossier le voient tout de suite.
 
-**Et un post-scriptum daté du 28 avril, d'une autre encre et d'une main plus pressée**, apporte les
-deux derniers : *« Personne n'est venu. — F.N. »* Il est revenu déposer, et **le dossier part à la
+**Le second, du 28 avril, apporte les deux derniers** et s'ouvre sur une phrase : *« Je complète
+mon rapport du 10 avril. Personne n'est venu. »* Il est revenu déposer, et **le dossier part à la
 police le lendemain**.
+
+> **Deux feuillets, et pas un seul annoté.** La première lettre est au palais depuis le 10 ; Faddei
+> ne l'a plus en main et ne peut rien y ajouter. Un post-scriptum du 28 sur la feuille du 10 serait
+> un document impossible.
 
 > **C'est ce qui rend les dix-neuf jours lisibles** : ce n'est pas l'administration qui a fini par
 > aboutir, c'est un homme qui est revenu taper du poing. Et ça explique, sans trou, comment le
 > dossier de police porte quatre incidents alors qu'Igor n'a interrogé personne.
 
-Deux cachets d'arrivée la datent : **УПРАВЛЕНИЕ КОМБИНАТА · 10.IV.32** en bleu, **МИЛИЦИЯ ·
-29.IV.32** en rouge. Les dix-neuf jours sont sur la feuille, en toutes lettres.
+**Les deux suivent le formulaire russe**, pas la lettre à la française : le coin supérieur droit
+porte la « chapka » — *à qui*, puis *de qui et en quelle qualité* —, le mot **RAPPORT** vient centré
+en capitales, et la date se pose en pied à gauche, la signature à droite. Il n'y a **pas de
+« Magnitogorsk, le … » en tête** : cette formule est occidentale.
+
+**Quatre cachets d'arrivée les datent** : **УПРАВЛЕНИЕ КОМБИНАТА** en bleu, le **10.IV** sur l'un et
+le **28.IV** sur l'autre, puis **МИЛИЦИЯ · 29.IV.32** en rouge sur les deux, **вх. 0912 et 0913**.
+Deux numéros qui se suivent : le palais a transmis le paquet d'un coup, le lendemain du jour où
+Faddei est revenu.
 
 > **Pas de pièce manuscrite pour Belousoff.** La tentation est forte — ses notes de terrain seraient
 > le document le plus parlant de la pile. Mais `87-disparitions.md` tranche l'inverse : **il ne

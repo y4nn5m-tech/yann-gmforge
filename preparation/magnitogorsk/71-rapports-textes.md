@@ -215,12 +215,13 @@ classée sans suite.
 > *Ouvert le 29 avril 1932*
 
 **I. ORIGINE DU SIGNALEMENT**
-Le présent dossier fait suite à une déposition de l'ingénieur F. Nikitine, responsable de
-l'acheminement des ressources minières, concernant une série d'incidents survenus sur les voies de
-transport entre le mont Magnitnaïa et le complexe industriel. Cette déposition, **initialement
-déposée auprès du palais administratif le 10 avril 1932**, n'est parvenue aux services de police que
-**le 29 avril 1932** en raison d'un délai de transmission administratif. L'enquête a été ouverte à
-cette date.
+Le présent dossier fait suite à deux dépositions successives de l'ingénieur F. Nikitine,
+responsable de l'acheminement des ressources minières, concernant une série d'incidents survenus
+sur les voies de transport entre le mont Magnitnaïa et le complexe industriel. La première,
+**déposée auprès du palais administratif le 10 avril 1932**, signalait deux incidents ; la seconde,
+**déposée le 28 avril**, en signalait deux autres. Les deux pièces ne sont parvenues aux services de
+police que **le 29 avril 1932** en raison d'un délai de transmission administratif. L'enquête a été
+ouverte à cette date.
 
 **II. RÉCAPITULATIF DES INCIDENTS SIGNALÉS**
 

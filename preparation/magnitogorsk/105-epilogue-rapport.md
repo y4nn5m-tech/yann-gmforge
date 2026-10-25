@@ -67,11 +67,10 @@ réserver une bonne heure.**
 
 **Quatre de ces incidents sont ceux qui ont motivé le signalement** — le noyé *(Kurbanoff)*, le
 déserteur *(Tkachenko)*, la machine, l'empoisonnement. **Le cinquième, les sabotages, est ajouté par
-Igor** : la déposition de Faddei est arrivée dans ses services cinq jours plus tôt, et il n'a « pas
+Igor** : les dépositions de Faddei sont arrivées dans ses services quatre jours plus tôt, et il n'a « pas
 eu le temps de s'y pencher ».
 
-> **Le seul dossier qu'il ajoute de son propre chef est celui qu'il avait laissé vingt-cinq jours
-> dans un tiroir.**
+> **Le seul dossier qu'il ajoute de son propre chef est le seul qu'il n'avait pas ouvert.**
 
 **Et rien ne les oblige à mentionner les cinq autres**, découverts en route : les disparitions de
 matériel, le meurtre au Komsomol, le pêcheur, Kelley, le culte. **C'est à eux de décider s'ils

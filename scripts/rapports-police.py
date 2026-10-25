@@ -33,9 +33,9 @@ du briefing, pour être remis. C'est ce qui justifie qu'un dossier où
 personne n'a été interrogé existe en version dactylographiée — et ce
 qui dit, sans le dire, que ces pages ont été préparées pour eux.
 
-Un huitième document échappe à la règle : la **déposition manuscrite
-de Faddei** (`rapport-dep-faddei.pdf`), agrafée au dossier des
-sabotages. Voir plus bas.
+Un huitième document échappe à la règle : les **deux dépositions
+manuscrites de Faddei** (`rapport-dep-faddei.pdf`, deux feuillets),
+agrafées au dossier des sabotages. Voir plus bas.
 
 **Quatre dossiers sur sept portent CLASSÉ**, et quatre seulement : la
 pile montre alors ce qu'Igor ferme vite et ce qu'il laisse en plan.
@@ -54,6 +54,7 @@ from pathlib import Path
 RACINE = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RACINE / "scripts"))
 import rendu  # noqa: E402
+from plume import FILTRES, ecrire  # noqa: E402
 
 ARGS = [a for a in sys.argv[1:] if not a.startswith("--")]
 MANUSCRIT = "--sans-annotations" not in sys.argv
@@ -112,7 +113,10 @@ def grille():
 
 def doc(corps, tampon="", annot="", hauteur_annot="12mm", cotes=None, coupures=False,
         portrait="", main=""):
-    bloc = (f'<div class="plume annot" style="{main}">{annot}</div>'
+    # Igor écrit au stylo, en vitesse : pas d'encre mangée, mais la main
+    # tremble un peu plus que pour un document qu'on soigne.
+    bloc = (f'<div class="plume annot" style="{main}">'
+            f'{ecrire(annot, graine=abs(hash(annot)) % 997, amplitude=1.15)}</div>'
             if (MANUSCRIT and annot)
             else f'<div style="height:{hauteur_annot}"></div>' if annot else "")
     return f"""<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><style>
@@ -206,6 +210,7 @@ svg.classe {{ position: absolute; width: 52mm; height: 19mm;
               opacity: .55; mix-blend-mode: multiply; }}
 </style></head><body>
 
+{FILTRES}
 <svg width="0" height="0" style="position:absolute">
  <filter id="frappe">
    <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" seed="3" result="n"/>
@@ -669,10 +674,11 @@ Synthèse établie pour transmission — état du dossier au 2 mai 1932.<br>
 Le dossier demeure ouvert. Les pièces originales restent au registre de la section.
 </div>
 <h2>I. ORIGINE DU SIGNALEMENT</h2>
-<p>Le présent dossier fait suite à une déposition de l'ingénieur F. Nikitine, responsable de
-l'acheminement des ressources minières, concernant une série d'incidents survenus sur les voies de
-transport entre le mont Magnitnaïa et le complexe industriel. Cette déposition, initialement déposée
-auprès du palais administratif le 10 avril 1932, n'est parvenue aux services de police que le
+<p>Le présent dossier fait suite à deux dépositions successives de l'ingénieur F. Nikitine,
+responsable de l'acheminement des ressources minières, concernant une série d'incidents survenus
+sur les voies de transport entre le mont Magnitnaïa et le complexe industriel. La première, déposée
+auprès du palais administratif le 10 avril 1932, signalait deux incidents ; la seconde, déposée le
+28 avril, en signalait deux autres. Les deux pièces ne sont parvenues aux services de police que le
 29 avril 1932 en raison d'un délai de transmission administratif. L'enquête a été ouverte à cette
 date.</p>
 
@@ -811,21 +817,120 @@ cadre du rééquilibrage annuel des effectifs.</p></div>
 
 
 # ══════════════════════════════════════════════════════════════════
-#  La pièce manuscrite — la déposition de Faddei Nikitine
+#  La pièce manuscrite — les deux dépositions de Faddei Nikitine
 # ══════════════════════════════════════════════════════════════════
 #
-#  Elle s'agrafe au dossier 1932-09/SAB et c'est la seule pièce de
-#  la pile qui ne sorte pas d'une machine à écrire : un ingénieur
-#  qui écrit au palais administratif n'a pas de dactylographe.
+#  Elles s'agrafent au dossier 1932-09/SAB et ce sont les seules
+#  pièces de la pile qui ne sortent pas d'une machine à écrire : un
+#  ingénieur qui écrit au palais administratif n'a pas de
+#  dactylographe.
 #
-#  Elle porte **deux incidents, pas quatre** — le 10 avril, les
-#  autres n'avaient pas eu lieu. Les deux derniers sont ajoutés en
-#  pied, d'une autre encre, le 28 avril, quand il revient taper du
-#  poing. Le dossier part à la police le lendemain.
+#  **Deux feuillets, pas un.** La lettre du 10 avril porte deux
+#  incidents — les deux autres n'avaient pas eu lieu. Elle part le
+#  jour même au palais, et elle y reste : Faddei ne l'a plus en main
+#  et ne peut rien y ajouter. Le 28 avril il revient en déposer une
+#  seconde, qui porte les deux derniers incidents. Le palais transmet
+#  le tout à la police **le lendemain** — deux numéros d'arrivée qui
+#  se suivent, вх. 0912 et 0913.
 #
 #  Les dix-neuf jours cessent alors d'être une lenteur abstraite :
 #  ce n'est pas l'administration qui a fini par aboutir, c'est un
 #  homme qui est revenu.
+#
+#  Les cachets se posent dans le blanc, sous la signature. Un commis
+#  qui tamponne cherche la place libre — et un tampon en travers des
+#  lignes se lit comme une maladresse de fabrication, pas comme une
+#  trace de greffe.
+
+
+def cachet(i, couleur, seed, titre, lieu, arrivee, haut, gauche, angle, corps=22):
+    """Un cachet d'arrivée : cadre, service, date et numéro d'entrée."""
+    return f"""
+<svg class="recu" viewBox="0 0 320 124" xmlns="http://www.w3.org/2000/svg"
+     style="top:{haut}mm; left:{gauche}mm; transform:rotate({angle}deg)">
+ <defs><filter id="r{i}" x="-15%" y="-25%" width="130%" height="150%">
+   <feTurbulence type="fractalNoise" baseFrequency="{1.0 + i * .08}" numOctaves="3"
+                 seed="{seed}" result="b"/>
+   <feDisplacementMap in="SourceGraphic" in2="b" scale="{2.2 + i * .15}"
+                      xChannelSelector="R" yChannelSelector="G" result="d"/>
+   <feTurbulence type="fractalNoise" baseFrequency="0.085" numOctaves="2"
+                 seed="{seed + 23}" result="t"/>
+   <feColorMatrix in="t" type="matrix"
+     values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  1.7 0 0 0 -0.3" result="m"/>
+   <feComposite in="d" in2="m" operator="out"/>
+ </filter></defs>
+ <g filter="url(#r{i})" fill="{couleur}">
+  <rect x="5" y="5" width="310" height="114" fill="none" stroke="{couleur}" stroke-width="4"/>
+  <text x="160" y="40" font-size="{corps}" letter-spacing="3.4" text-anchor="middle"
+        font-family="PT" font-weight="bold">{titre}</text>
+  <text x="160" y="68" font-size="15" letter-spacing="1.6" text-anchor="middle"
+        font-family="PT">{lieu}</text>
+  <text x="160" y="100" font-size="20" letter-spacing="2.4" text-anchor="middle"
+        font-family="PT" font-weight="bold">{arrivee}</text>
+ </g>
+</svg>"""
+
+
+PALAIS = ("#2f3f6b", "ПОЛУЧЕНО", "УПРАВЛЕНИЕ КОМБИНАТА")
+POLICE = ("#8c2b22", "МИЛИЦИЯ · ПОЛУЧЕНО", "МАГНИТОГОРСК")
+
+
+def feuillet(date, corps, cachets, graine):
+    """Un feuillet au formulaire russe.
+
+    Pas de « lieu, le date » en tête : cette formule est occidentale.
+    Le coin supérieur droit porte la **шапка** — à qui, puis de qui et
+    en quelle qualité —, le nom du document vient centré en capitales,
+    et la date se pose en pied à gauche, la signature à droite.
+    """
+    paras = "\n".join(
+        f'<p>{ecrire(t, graine=graine + i, encre=True, amplitude=.85)}</p>'
+        for i, t in enumerate(corps))
+    return f"""
+<div class="feuillet">
+{cachets}
+<div class="shapka">
+  <div>{ecrire("À l'administration du combinat", graine=graine + 80,
+                encre=True, amplitude=.8)}</div>
+  <div>{ecrire("de l'ingénieur F. Nikitine,", graine=graine + 81,
+                encre=True, amplitude=.8)}</div>
+  <div>{ecrire("responsable du transport du minerai", graine=graine + 82,
+                encre=True, amplitude=.8)}</div>
+</div>
+
+<div class="titre">{ecrire("RAPPORT", graine=graine + 83, encre=True, amplitude=.75)}</div>
+
+{paras}
+
+<div class="pied">
+  <span class="d">{ecrire(date, graine=graine + 90, encre=True, amplitude=.8)}</span>
+  <span class="n">{ecrire("F. Nikitine", graine=graine + 91, encre=True, amplitude=.7)}</span>
+</div>
+</div>"""
+
+
+PREMIER = [
+    """Je porte à votre connaissance les faits suivants, survenus sur la voie de transport du
+minerai du mont Magnitnaïa.""",
+    """Le 2 avril, au kilomètre 2 de la voie, le moyeu d'une roue de wagonnet s'est désolidarisé
+en charge. Le convoi a été arrêté deux heures. J'ai conservé le moyeu et son axe.""",
+    """Le 8 avril, à la sortie du hangar, le harnachement d'une bête de somme a cédé. Le wagonnet
+s'est renversé et le chargement est perdu. J'ai conservé la lanière.""",
+    """Je ne me prononce pas sur les causes, ce n'est pas mon métier. Je dis seulement qu'en quatre
+ans sur cette voie je n'ai pas vu deux avaries de cette nature en six jours, et que les deux
+pièces sont à la disposition de qui voudra les examiner.""",
+    "Je demande qu'un agent se déplace. Je ne demande rien d'autre.",
+]
+
+SECOND = [
+    """Je complète mon rapport du 10 avril. Personne n'est venu.""",
+    """Le 19 avril, au départ du hangar, l'axe d'un wagonnet s'est rompu en charge. Le convoi est
+resté immobilisé plusieurs heures.""",
+    """Le 27 avril, au virage du kilomètre 3,5, un rail s'est trouvé déformé. La voie a été bloquée
+une journée entière. Les deux pièces sont conservées avec les premières.""",
+    """Cela fait quatre avaries en vingt-cinq jours. Je redemande qu'un agent se déplace.""",
+]
+
 
 def manuscrit():
     return f"""<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><style>
@@ -836,104 +941,43 @@ def manuscrit():
 @page {{ size: A4; margin: 16mm 20mm; }}
 html, body {{ margin: 0; padding: 0; }}
 body {{ font-family: Plume, cursive; font-size: 14.6pt; line-height: 1.68;
-        color: #1d2430; position: relative; }}
+        color: #1d2430; }}
 
-.greffe {{ font-family: PT, serif; font-size: 6.6pt; letter-spacing: .12em; color: #5a5349;
-           text-align: right; margin-bottom: 5mm; }}
+/* Deux feuilles séparées : la seconde est déposée dix-huit jours plus
+   tard, elle n'a jamais été sur la même page que la première. */
+.feuillet {{ position: relative; }}
+.feuillet + .feuillet {{ break-before: page; }}
 
-.lieu {{ text-align: right; margin-bottom: 4mm; }}
+/* La « шапка » : un bloc décalé vers la droite, mais ferré à gauche —
+   on ne centre pas et on n'aligne pas à droite, on décale. */
+.shapka {{ margin-left: 86mm; line-height: 1.42; margin-bottom: 9mm; }}
+.titre {{ text-align: center; font-size: 18pt; letter-spacing: .14em;
+          margin-bottom: 7mm; }}
 p {{ margin: 0 0 3.2mm; text-align: justify; }}
-.sign {{ text-align: right; margin-top: 6mm; line-height: 1.35; }}
-.sign .n {{ font-size: 17pt; }}
-.sign .q {{ font-size: 11.4pt; color: #3a4250; }}
+/* La date à gauche, la signature à droite, sur la même ligne. */
+.pied {{ display: flex; justify-content: space-between; align-items: baseline;
+         margin-top: 9mm; }}
+.pied .n {{ font-size: 17pt; }}
 
-/* ── l'ajout du 28 avril : autre encre, main plus pressée ───── */
-.ajout {{ margin-top: 11mm; padding-top: 3mm; border-top: .8px dotted #9a9183;
-          color: #2b2620; font-size: 13.4pt; line-height: 1.5;
-          transform: rotate(-.5deg); }}
-.ajout p {{ margin: 0 0 2.2mm; }}
-
-/* ── les deux cachets d'arrivée ──────────────────────────────── */
+/* Les cachets d'arrivée, posés dans le blanc sous la signature. */
 svg.recu {{ position: absolute; width: 44mm; height: 17mm;
-            opacity: .6; mix-blend-mode: multiply; }}
-svg.palais {{ right: 2mm; top: 6mm; transform: rotate(-4deg); }}
-svg.police {{ right: 16mm; top: 29mm; transform: rotate(3.5deg); }}
+            opacity: .62; mix-blend-mode: multiply; }}
 </style></head><body>
+{FILTRES}
 
-<svg class="recu palais" viewBox="0 0 320 124" xmlns="http://www.w3.org/2000/svg">
- <defs><filter id="r1" x="-15%" y="-25%" width="130%" height="150%">
-   <feTurbulence type="fractalNoise" baseFrequency="1.05" numOctaves="3" seed="17" result="b"/>
-   <feDisplacementMap in="SourceGraphic" in2="b" scale="2.2"
-                      xChannelSelector="R" yChannelSelector="G" result="d"/>
-   <feTurbulence type="fractalNoise" baseFrequency="0.08" numOctaves="2" seed="9" result="t"/>
-   <feColorMatrix in="t" type="matrix"
-     values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  1.6 0 0 0 -0.28" result="m"/>
-   <feComposite in="d" in2="m" operator="out"/>
- </filter></defs>
- <g filter="url(#r1)" fill="#2f3f6b">
-  <rect x="5" y="5" width="310" height="114" fill="none" stroke="#2f3f6b" stroke-width="4"/>
-  <text x="160" y="40" font-size="22" letter-spacing="4" text-anchor="middle"
-        font-family="PT" font-weight="bold">ПОЛУЧЕНО</text>
-  <text x="160" y="68" font-size="15" letter-spacing="1.6" text-anchor="middle"
-        font-family="PT">УПРАВЛЕНИЕ КОМБИНАТА</text>
-  <text x="160" y="100" font-size="20" letter-spacing="2.4" text-anchor="middle"
-        font-family="PT" font-weight="bold">10.IV.32 · вх. 318</text>
- </g>
-</svg>
+{feuillet("Le 10 avril 1932.", PREMIER,
+          cachet(1, PALAIS[0], 17, PALAIS[1], PALAIS[2], "10.IV.32 · вх. 318",
+                 haut=182, gauche=4, angle=-3.4)
+          + cachet(2, POLICE[0], 31, POLICE[1], POLICE[2], "29.IV.32 · вх. 0912",
+                   haut=198, gauche=56, angle=2.6, corps=20),
+          graine=440)}
 
-<svg class="recu police" viewBox="0 0 320 124" xmlns="http://www.w3.org/2000/svg">
- <defs><filter id="r2" x="-15%" y="-25%" width="130%" height="150%">
-   <feTurbulence type="fractalNoise" baseFrequency="1.25" numOctaves="3" seed="31" result="b"/>
-   <feDisplacementMap in="SourceGraphic" in2="b" scale="2.6"
-                      xChannelSelector="R" yChannelSelector="G" result="d"/>
-   <feTurbulence type="fractalNoise" baseFrequency="0.09" numOctaves="2" seed="52" result="t"/>
-   <feColorMatrix in="t" type="matrix"
-     values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  1.8 0 0 0 -0.32" result="m"/>
-   <feComposite in="d" in2="m" operator="out"/>
- </filter></defs>
- <g filter="url(#r2)" fill="#8c2b22">
-  <rect x="5" y="5" width="310" height="114" fill="none" stroke="#8c2b22" stroke-width="4"/>
-  <text x="160" y="40" font-size="20" letter-spacing="3" text-anchor="middle"
-        font-family="PT" font-weight="bold">МИЛИЦИЯ · ПОЛУЧЕНО</text>
-  <text x="160" y="68" font-size="15" letter-spacing="1.6" text-anchor="middle"
-        font-family="PT">МАГНИТОГОРСК</text>
-  <text x="160" y="100" font-size="20" letter-spacing="2.4" text-anchor="middle"
-        font-family="PT" font-weight="bold">29.IV.32 · вх. 0912</text>
- </g>
-</svg>
-
-<div class="greffe">PIÈCE JOINTE AU DOSSIER 1932-09/SAB — 1 FEUILLET</div>
-
-<div class="lieu">Magnitogorsk, le 10 avril 1932</div>
-
-<p>Au bureau de l'administration du complexe,</p>
-
-<p>Je soussigné Faddei Nikitine, ingénieur, responsable de l'acheminement des ressources
-minières du mont Magnitnaïa, porte à votre connaissance les faits suivants.</p>
-
-<p>Le 2 avril, au kilomètre 2 de la voie, le moyeu d'une roue de wagonnet s'est désolidarisé
-en charge. Le convoi a été arrêté deux heures. J'ai conservé le moyeu et son axe.</p>
-
-<p>Le 8 avril, à la sortie du hangar, le harnachement d'une bête de somme a cédé. Le wagonnet
-s'est renversé et le chargement est perdu. J'ai conservé la lanière.</p>
-
-<p>Je ne me prononce pas sur les causes, ce n'est pas mon métier. Je dis seulement qu'en quatre
-ans sur cette voie je n'ai pas vu deux avaries de cette nature en six jours, et que les deux
-pièces sont à la disposition de qui voudra les examiner.</p>
-
-<p>Je demande qu'un agent se déplace. Je ne demande rien d'autre.</p>
-
-<div class="sign">
-  <div class="n">F. Nikitine</div>
-  <div class="q">Ingénieur — secteur transport</div>
-</div>
-
-<div class="ajout">
-<p>28/IV-32. Je reviens déposer. Depuis ma lettre : le 19/IV, un axe de wagonnet rompu au
-départ du hangar ; le 27/IV, un rail déformé au virage du kilomètre 3,5 — la voie bloquée une
-journée entière. Les pièces sont conservées comme les autres.</p>
-<p>Personne n'est venu. &nbsp;— F.N.</p>
-</div>
+{feuillet("Le 28 avril 1932.", SECOND,
+          cachet(3, PALAIS[0], 44, PALAIS[1], PALAIS[2], "28.IV.32 · вх. 471",
+                 haut=136, gauche=8, angle=2.2)
+          + cachet(4, POLICE[0], 58, POLICE[1], POLICE[2], "29.IV.32 · вх. 0913",
+                   haut=151, gauche=61, angle=-1.8, corps=20),
+          graine=640)}
 
 </body></html>"""
 

@@ -30,7 +30,7 @@ l'ordre des choix au sort à chaque affichage.
 
 TITRE = "Réviser Magnitogorsk"
 CHAPEAU = ("Ce qu'il faut avoir en tête avant de mener, parce que ça ne se cherche pas "
-           "en pleine scène. Trois modules, à parcourir ou à réviser par questions.")
+           "en pleine scène. Neuf modules, à parcourir ou à réviser par questions.")
 
 # ══════════════════════════════════════════════════════════════════
 #  1. Les gens
@@ -1342,16 +1342,834 @@ COMPTES = [
 ]
 
 
+# ══════════════════════════════════════════════════════════════════
+#  0. Le socle — ce qui tient tout le reste
+# ══════════════════════════════════════════════════════════════════
+
+SOCLE = [
+    {"id": "mission", "nom": "La mission", "role": "trois niveaux, à ne pas confondre",
+     "lieuLabel": "Ce qu'on leur dit à Moscou",
+     "lieu": "<i>« Enquêter sur des incidents récents susceptibles d'être liés à des actes "
+             "de sabotage. »</i> Une mission contre <b>les ennemis du peuple</b>, "
+             "<b>trois semaines aller-retour compris</b> — et <b>aucun incident n'est "
+             "nommé</b>.",
+     "sait": ["<b>La vraie raison, qu'ils ignorent</b> : les doutes du Directeur sur "
+              "l'efficacité et la fidélité d'Igor Pavlenko. La Guépéou, jugeant peu probable "
+              "qu'il soit un traître, <b>profite de l'occasion pour tester un groupe "
+              "d'éléments extérieurs en cours d'évaluation</b>.",
+              "<b>Ce qu'ils trouvent en arrivant</b> : cinq dossiers sur la table d'Igor. "
+              "C'est leur première information concrète.",
+              "Quatre de ces cinq ont motivé le signalement — le noyé, le déserteur, la "
+              "machine, l'empoisonnement. <b>Le cinquième, les sabotages, Igor l'ajoute "
+              "lui-même</b> : c'est le seul qu'il n'avait pas ouvert."],
+     "cache": ["Cinq autres pistes se découvrent en route et ne sont dans aucun dossier : "
+               "les disparitions de matériel, le meurtre au Komsomol, le pêcheur, Kelley, "
+               "le culte. <b>Rien ne les oblige à les mentionner au rapport.</b>"],
+     "piege": "Ne jamais laisser entendre que la mission vise Igor. Les joueurs doivent le "
+              "déduire de ce qu'il dit, pas l'apprendre d'une confidence.",
+     "questions": [
+        {"q": "Pourquoi la Guépéou envoie-t-elle vraiment cette équipe ?",
+         "choix": ["Pour tester le groupe, en profitant des doutes du Directeur sur Igor",
+                   "Parce qu'elle soupçonne un réseau de saboteurs étrangers",
+                   "Parce qu'Igor a demandé des renforts",
+                   "Pour enquêter sur la disparition de Pavel Tkachenko"],
+         "bonne": 0,
+         "pourquoi": "Deux choses à la fois : <b>les doutes du Directeur sur Igor</b>, et "
+                     "l'occasion d'évaluer des éléments extérieurs. <b>Les PJ ignorent les "
+                     "deux.</b>",
+         "ou": "105-epilogue-rapport.md"},
+        {"q": "Combien de dossiers les attendent sur la table d'Igor au briefing ?",
+         "choix": ["Cinq", "Sept", "Trois", "Dix"],
+         "bonne": 0,
+         "pourquoi": "Cinq. <b>Sept existent</b> — les deux autres dorment aux archives. Et "
+                     "le cinquième, les sabotages, est celui qu'Igor ajoute de son propre chef.",
+         "ou": "105-epilogue-rapport.md · 70-rapports-imprimes.md"},
+        {"q": "Que sait l'équipe des incidents avant d'arriver ?",
+         "choix": ["Rien : aucun incident n'est nommé dans l'ordre de mission",
+                   "Les cinq dossiers lui ont été transmis à Moscou",
+                   "Elle connaît les sabotages, pas le reste",
+                   "Le Directeur l'a briefée en détail avant le départ"],
+         "bonne": 0,
+         "pourquoi": "<b>Rien.</b> Ils découvrent la matière de leur mission dans le bureau "
+                     "de l'homme sur lequel ils enquêtent sans le savoir — <b>c'est tout le "
+                     "dispositif de l'acte 1</b>.",
+         "ou": "105-epilogue-rapport.md"}]},
+
+    {"id": "dispositif", "nom": "Le dispositif", "role": "pourquoi l'acte 1 fonctionne",
+     "lieuLabel": "En une phrase",
+     "lieu": "Ils enquêtent sur des incidents <b>dans le bureau de l'homme sur lequel ils "
+             "enquêtent sans le savoir</b>, et c'est lui qui leur tend les dossiers.",
+     "sait": ["<b>Igor se trahit tout seul, au briefing, dès le premier jour.</b> Un homme "
+              "qui se défend d'une accusation que personne n'a portée dit tout.",
+              "Cinq répliques, <b>espacées, jamais dans la même minute</b>. La plus lourde : "
+              "<i>« Le camarade Directeur a ses humeurs. »</i> — <b>il nomme le Directeur "
+              "alors que personne ne lui en a parlé.</b>",
+              "S'ils n'ont pas réagi, il pose la question lui-même sur le pas de la porte : "
+              "<i>« On vous a parlé de moi, à Moscou ? »</i>"],
+     "cache": ["<b>Le dossier Igor n'a ni lieu ni créneau</b> : il se construit avec ce que "
+               "disent les autres, gratuitement, et il décide de l'épilogue."],
+     "piege": "Ne pas le rendre lucide. <b>Igor ne sait pas que sa fiabilité est l'objet "
+              "d'un rapport</b> — il craint seulement qu'on ait parlé de lui.",
+     "questions": [
+        {"q": "Comment le groupe apprend-il qu'il y a une seconde mission ?",
+         "choix": ["Igor se défend d'une accusation que personne n'a portée",
+                   "Une lettre scellée remise par Voronin· à l'arrivée",
+                   "Le Directeur les convoque le deuxième jour",
+                   "Gusev· finit par le leur dire"],
+         "bonne": 0,
+         "pourquoi": "Cinq répliques au briefing, et la dernière <b>nomme le Directeur</b> "
+                     "sans que personne l'ait évoqué. Aucune scène supplémentaire.",
+         "ou": "40-igor-se-trahit.md"},
+        {"q": "Combien de créneaux coûte le dossier sur Igor ?",
+         "choix": ["Aucun : il se construit avec ce que disent les autres",
+                   "Un créneau aux archives", "Deux, comme les disparitions",
+                   "Un créneau par source interrogée"],
+         "bonne": 0,
+         "pourquoi": "<b>Ni lieu ni créneau.</b> Six sources en parlent gratuitement, et "
+                     "c'est ce dossier-là qui décide de l'épilogue.",
+         "ou": "91-dossier-igor.md"}]},
+
+    {"id": "verite", "nom": "La vérité", "role": "ce que les joueurs ne sauront peut-être jamais",
+     "lieuLabel": "Le phénomène",
+     "lieu": "Des <b>larves amorphes</b> vivent sous le site. Elles ne veulent pas la surface : "
+             "les humains sont <b>des nuisibles un peu gênants</b>. Rien de ce qui arrive "
+             "n'est dirigé contre quiconque.",
+     "sait": ["<b>Trois incidents, un seul phénomène</b> : la machine, l'empoisonnement, le "
+              "corps du pêcheur. La même substance sur les trois — <b>c'est le seul "
+              "recoupement qui ouvre le fond du scénario</b>.",
+              "L'empoisonnement : une larve s'est infiltrée <b>volontairement</b> dans une "
+              "conduite d'eau potable et y a laissé des résidus. <b>Elle est repartie.</b>",
+              "La machine : une larve emportée par le courant, ébouillantée, coincée dans un "
+              "coude — <b>la montée en pression a fait exploser les tuyaux</b>."],
+     "cache": ["<b>Et la vérité ne les aidera pas.</b> Leur mission est un rapport à la "
+               "Guépéou, <i>« celle-ci ne goûtant guère aux élucubrations des illuminés »</i>. "
+               "<b>Plus ils descendent, moins leur rapport est crédible.</b>"],
+     "piege": "Les trois incidents ne se recoupent que si les joueurs le font. <b>Ne jamais "
+              "poser le rapprochement à leur place.</b>",
+     "questions": [
+        {"q": "Quels incidents partagent la même substance ?",
+         "choix": ["La machine, l'empoisonnement et le corps du pêcheur",
+                   "La machine, les sabotages et le noyé",
+                   "L'empoisonnement, le meurtre au Komsomol et le noyé",
+                   "Les quatre incidents du carnet de Faddei"],
+         "bonne": 0,
+         "pourquoi": "<b>Trois incidents, un seul phénomène.</b> Les sabotages sont humains "
+                     "— c'est Larissa — et le noyé est un accident.",
+         "ou": "88-empoisonnement.md"},
+        {"q": "Que veulent les larves ?",
+         "choix": ["Rien des humains : ce sont des nuisibles un peu gênants",
+                   "Coloniser la surface", "Se venger de l'exploitation de la mine",
+                   "Être découvertes et comprises"],
+         "bonne": 0,
+         "pourquoi": "Elles ne veulent pas la surface. <b>Ils ne sont pas des ennemis. "
+                     "Ils ne sont rien du tout.</b>",
+         "ou": "103-acte2-strate3.md · 105-epilogue-rapport.md"}]},
+]
+
+
+# ══════════════════════════════════════════════════════════════════
+#  5. Les actes
+# ══════════════════════════════════════════════════════════════════
+
+ACTES = [
+    {"id": "acte1", "nom": "Acte 1 — l'enquête", "role": "quatre jours, huit créneaux",
+     "lieuLabel": "Le régime",
+     "lieu": "On choisit où aller, <b>on paie un créneau par lieu</b>, on recoupe. "
+             "Investigation 5/5.",
+     "sait": ["<b>Huit créneaux pour dix pistes.</b> Le jour 1 part en arrivée et briefing ; "
+              "restent quatre jours pleins à deux demi-journées.",
+              "<b>On prépare en dossiers, on arbitre en lieux.</b> Trois lieux seulement "
+              "portent plusieurs dossiers : le dispensaire, les archives, le bloc 27.",
+              "<b>Ce qui le termine</b> : la galerie est rouverte le 7 au soir, et Kassym "
+              "demande à descendre. La descente a lieu le 8."],
+     "cache": ["<b>Le minimum vital est de treize créneaux</b> pour tout faire — ils en ont "
+               "huit. <b>Le scénario est conçu pour qu'ils n'aillent pas partout.</b>"],
+     "questions": [
+        {"q": "Qu'est-ce qui met fin à l'acte 1 ?",
+         "choix": ["La galerie rouverte le 7 au soir, et Kassym qui demande à descendre",
+                   "L'épuisement des huit créneaux",
+                   "Igor qui les convoque une seconde fois",
+                   "L'arrestation de Larissa Kazakova"],
+         "bonne": 0,
+         "pourquoi": "Quatre jours de déblaiement, galerie rouverte le 7 au soir. "
+                     "<b>Kassym demande une fois, et part seul si on refuse.</b>",
+         "ou": "100-acte2-cadrage.md · 50-temporalite.md"}]},
+
+    {"id": "acte2", "nom": "Acte 2 — la descente", "role": "trois à cinq heures, trois strates",
+     "lieuLabel": "Le régime",
+     "lieu": "<b>Une descente linéaire</b>, et aucun des principes de l'acte 1 ne s'y "
+             "applique : pas de choix de lieu, pas de créneau. Exploration 4/5, "
+             "fantastique 4/5.",
+     "sait": ["<b>Rien ne les pousse à aller jusqu'au bout</b> sinon la curiosité des joueurs.",
+              "<b>Strate 1, les disparus</b> — la seule où l'horreur est concrète. Deux "
+              "branches depuis le campement : A ne mène nulle part et porte tout l'enjeu "
+              "humain, B descend.",
+              "<b>Strate 2, le déphasage</b> — les tubes en trois phases, le bassin, les "
+              "effets de Mœbius, l'attaque du double temporel. Intercaler, jamais enchaîner.",
+              "<b>Strate 3, la Grande Galerie</b> — le point de non-retour, Dmitri, la "
+              "première larve, le Nexus, puis l'alerte."],
+     "cache": ["<b>C'est l'enterrement de la famille de Kassym, un corps à la fois</b>, et "
+               "les PJ sont ceux qui les trouvent. Il y perd six personnes.",
+               "<b>Tous les accessoires quittent la table</b> : illisibles dans le noir, et "
+               "ils sont tous de l'acte 1."],
+     "piege": "Ne pas orienter vers l'une ou l'autre branche. <b>Kassym prend celle qu'on lui "
+              "indique</b> — il n'en sait pas plus qu'eux.",
+     "questions": [
+        {"q": "Que trouve-t-on dans la branche A de la première strate ?",
+         "choix": ["Les deux morts de l'éboulement et Akim vivant — et c'est un cul-de-sac",
+                   "La peinture, puis la corniche",
+                   "Le conduit qui mène à la strate 2",
+                   "Le bassin et le double d'Aksinia"],
+         "bonne": 0,
+         "pourquoi": "<b>Elle ne mène nulle part, et c'est elle qui porte presque tout "
+                     "l'enjeu humain.</b> Un groupe pressé la saute et perd Akim, le père de "
+                     "Kassym et son oncle.",
+         "ou": "101-acte2-strate1.md"},
+        {"q": "Combien de proches Kassym perd-il dans l'acte 2 ?",
+         "choix": ["Six", "Quatre", "Deux", "Toute sa famille, soit onze personnes"],
+         "bonne": 0,
+         "pourquoi": "Son père, son oncle, sa mère, deux frères, sa sœur. <b>Il ne lui reste "
+                     "rien.</b> Quatre sont parmi les onze disparus, deux sont morts dans "
+                     "l'effondrement lui-même.",
+         "ou": "100-acte2-cadrage.md"},
+        {"q": "Dans quel ordre jouer les trois phases des tubes ?",
+         "choix": ["L'ouïe, la vue, le toucher — en intercalant d'autres scènes entre elles",
+                   "Les trois à la suite, pour l'effet de montée",
+                   "Le toucher d'abord, c'est le plus marquant",
+                   "L'ordre n'a pas d'importance"],
+         "bonne": 0,
+         "pourquoi": "<b>On l'entend avant de la voir, on la voit avant de la subir.</b> "
+                     "Et les enchaîner gâche le dosage : il faut d'autres scènes entre elles.",
+         "ou": "102-acte2-strate2.md"}]},
+
+    {"id": "acte3", "nom": "Acte 3 — la fuite", "role": "une heure, et il est facultatif",
+     "lieuLabel": "Le régime",
+     "lieu": "<b>Cinématique et QTE</b> : des descriptions entrecoupées de très courtes "
+             "phases d'action — un ou deux jets, ou une décision en quelques secondes. "
+             "Action 5/5.",
+     "sait": ["<b>Il se joue dans la continuité du précédent</b> : pas de pause, pas de "
+              "changement de séance.",
+              "<b>Un groupe qui remonte avant le point de non-retour ne le joue jamais.</b>",
+              "Les larves ont <b>une minute d'avance en moyenne</b>.",
+              "Le dernier des trois jets d'horreur de la campagne est ici : <b>la vision</b>, "
+              "la salle à la Escher."],
+     "questions": [
+        {"q": "Qu'est-ce qui rend l'acte 3 facultatif ?",
+         "choix": ["Un groupe qui remonte avant le point de non-retour ne le joue pas",
+                   "Il ne se joue que si un PJ est mort dans l'acte 2",
+                   "Il dépend du choix de Gusev·",
+                   "Il remplace l'épilogue si le rapport n'est pas rendu"],
+         "bonne": 0,
+         "pourquoi": "Le point de non-retour <b>ne s'annonce pas</b> : il se constate quand "
+                     "ils cherchent le conduit et qu'il n'y est plus.",
+         "ou": "104-acte3-fuite.md · 103-acte2-strate3.md"}]},
+
+    {"id": "epilogue", "nom": "L'épilogue — le rapport", "role": "une bonne heure, autour d'une table",
+     "lieuLabel": "L'étau",
+     "lieu": "Le rapport se rend <b>en main propre, dans deux jours</b>. Il faut "
+             "<b>sept jours</b> pour aller à Moscou. <b>Les cinq jours volés ne coûtent pas "
+             "du temps d'enquête : ils coûtent le délai.</b>",
+     "sait": ["<b>Tout le reste n'a servi qu'à décider de ce qu'ils vont écrire dedans.</b>",
+              "Trois stratégies : révéler la vérité <i>(une des pires solutions)</i> · des "
+              "incidents sans rapport entre eux <i>(le piège)</i> · de faux coupables "
+              "<i>(moralement douteux, et ça marche)</i>.",
+              "<b>Un seul scribe : Petrenko.</b> Les autres discutent, il écrit — et c'est "
+              "lui qui dira <i>« je ne peux pas écrire ça »</i>."],
+     "cache": ["<b>Gusev· rédige son propre rapport, et sa crédibilité est supérieure.</b> "
+               "S'il soutient la même version, leur sort est commun. S'il prétend qu'ils ont "
+               "menti et propose mieux, <b>il s'en sort avec les honneurs et ils sont "
+               "condamnés</b>.",
+               "Sa décision se prend <b>en aparté, après les discussions</b>. Jamais devant "
+               "les autres."],
+     "questions": [
+        {"q": "Pourquoi les cinq jours volés sont-ils graves ?",
+         "choix": ["Ils coûtent le délai du rapport, pas du temps d'enquête",
+                   "Ils réduisent le nombre de créneaux de l'acte 1",
+                   "Ils font manquer le train du 10 mai",
+                   "Ils laissent Larissa s'enfuir"],
+         "bonne": 0,
+         "pourquoi": "Rapport dû dans deux jours, sept jours de train. <b>C'est maintenant "
+                     "que la mécanique du temps rend son verdict, et il n'y a rien à faire "
+                     "contre.</b>",
+         "ou": "105-epilogue-rapport.md"},
+        {"q": "Que se passe-t-il si Gusev· prétend que les autres ont menti ?",
+         "choix": ["Il s'en sort avec les honneurs, et ils sont condamnés",
+                   "Personne ne le croit : sa parole vaut la leur",
+                   "Une contre-enquête vérifie les deux versions",
+                   "Il est mis à l'écart avec condescendance"],
+         "bonne": 0,
+         "pourquoi": "<b>Sa crédibilité est supérieure à la leur.</b> La mise à l'écart "
+                     "condescendante, c'est l'autre cas : quand il révèle le surnaturel.",
+         "ou": "105-epilogue-rapport.md"}]},
+]
+
+
+# ══════════════════════════════════════════════════════════════════
+#  3 bis. Les noms — l'appariement, et il se génère
+# ══════════════════════════════════════════════════════════════════
+#
+#  **Rien ne s'écrit ici à la main.** Les questions se construisent à
+#  partir des fiches de GENS : le nom et le rôle y sont déjà, et les
+#  recopier serait se condamner à les désynchroniser.
+#
+#  **Les leurres viennent du même groupe.** Proposer « Isidor Nesteroff »
+#  comme contremaître des convois n'apprend rien ; proposer Moskalev,
+#  Udovenko et Bondarenko oblige à distinguer les neuf du transport entre
+#  eux, ce qui est le vrai travail.
+#
+#  **Les deux sens.** Du rôle vers le nom *(« qui est le contremaître ? »)*
+#  et du nom vers le rôle *(« Moskalev, c'est qui ? »)* — on retient mal
+#  dans un seul sens.
+
+import random as _rnd  # noqa: E402  — le tirage des leurres, à graine fixe
+import re as _re  # noqa: E402
+
+GROUPES = [
+    ("La police", "igor yelena oleg vinogradoff",
+     "<b>Yelena Nikitina</b> n'a rien à voir avec <b>Faddei Nikitine</b>, du transport."),
+    ("Le secteur transport", "faddei larissa moskalev udovenko anna timur zinaida boris "
+     "bondarenko",
+     "<b>Grigori Moskalev</b> est le contremaître. <b>Grigori Novikoff</b>, au Komsomol, est "
+     "le meurtrier — <b>deux Grigori, et l'un des deux tue</b>."),
+    ("Les entrepôts de l'ouest", "zykov nikiforov gordeeva",
+     "<b>Zykov et Nikiforov sont les deux qui ne bougent jamais</b> du tableau des "
+     "affectations. Gordeeva tient l'entrepôt n°7 et son carnet d'écarts."),
+    ("Le Komsomol", "kassym grigori tolia macha avdotya sofia maxim",
+     "<b>Maxim Kazakoff</b> est le condamné innocent. <b>Larissa Kazakova</b>, au transport, "
+     "est la vraie coupable des sabotages — <b>aucun lien entre eux</b>."),
+    ("Les autres", "nesteroff orloff cheskov may kelley akmaral ingenieurs survivants", ""),
+]
+
+
+def _court(role):
+    """Le rôle sans son âge : « 16 ans, komsomolets » → « komsomolets ».
+
+    L'âge est une information de fiche, pas un métier : le laisser
+    rendrait la question « 16 ans, komsomolets — qui est-ce ? », qui se
+    répond sans rien savoir.
+    """
+    return _re.sub(r"^\d+ ans, ", "", role)
+
+
+def _noms():
+    par_id = {g["id"]: g for g in GENS}
+    tirage = _rnd.Random(1932)
+    fiches = []
+    for titre, ids, piege in GROUPES:
+        membres = [par_id[i] for i in ids.split() if i in par_id]
+        autres = [g for g in GENS if g not in membres]
+        questions = []
+        for m in membres:
+            role = _court(m["role"])
+            pool = [x for x in membres if x is not m] or autres
+            leurres = tirage.sample(pool, min(3, len(pool)))
+            while len(leurres) < 3:
+                leurres.append(tirage.choice(autres))
+            questions.append(
+                {"q": f"{role[0].upper() + role[1:]} — qui est-ce ?",
+                 "choix": [m["nom"]] + [x["nom"] for x in leurres],
+                 "bonne": 0, "pourquoi": f"<b>{m['nom']}</b> — {role}.",
+                 "ou": "module Les gens"})
+            questions.append(
+                {"q": f"{m['nom']}, c'est qui ?",
+                 "choix": [role] + [_court(x["role"]) for x in leurres],
+                 "bonne": 0, "pourquoi": f"<b>{m['nom']}</b> — {role}.",
+                 "ou": "module Les gens"})
+        fiches.append(
+            {"id": "n-" + titre.lower().split()[-1], "nom": titre,
+             "role": f"{len(membres)} personnes",
+             "lieuLabel": "Qui est qui",
+             "lieu": " · ".join(f"<b>{m['nom']}</b> — {_court(m['role'])}" for m in membres),
+             "sait": [piege] if piege else [],
+             "questions": questions})
+    return fiches
+
+
+NOMS = _noms()
+
+
+# ══════════════════════════════════════════════════════════════════
+#  4 bis. Les lieux — l'unité d'arbitrage
+# ══════════════════════════════════════════════════════════════════
+#
+#  **On prépare en dossiers, on arbitre en lieux.** C'est la règle de
+#  `50-temporalite.md`, et elle décide de tout le tempo : un créneau se
+#  paie pour un lieu, jamais pour un dossier, une action ou un
+#  interlocuteur. D'où ce module, qui double celui des pistes.
+
+LIEUX = [
+    {"id": "baraquements", "nom": "Les baraquements", "role": "lieu 11 — leur base",
+     "lieuLabel": "Le coût",
+     "lieu": "<b>Jamais un créneau : ils y dorment.</b> Et c'est d'ici qu'on mesure toutes "
+             "les distances.",
+     "sait": ["<b>Dossiers : tous, et aucun.</b> C'est le point de départ de chaque "
+              "demi-journée.",
+              "<b>Le réfectoire</b> — un repas par jour, sur présentation de la carte. "
+              "Leur carte permet de passer devant la file : <b>un petit choix social qui se "
+              "repose chaque jour</b>.",
+              "<b>La salle commune, le soir</b>, et c'est le cœur : la rumeur y circule plus "
+              "vite qu'eux. Ce qu'ils ont demandé dans la journée, quelqu'un l'a répété ici."],
+     "cache": ["Ce qui y arrive sans qu'ils fassent rien : <b>le message de Kelley</b> déposé "
+               "devant leur porte · <b>Kassym qui ne vient pas</b>, au matin du jour 2."],
+     "questions": [
+        {"q": "Combien coûte une soirée à la salle commune des baraquements ?",
+         "choix": ["Rien : les trois soirées sont gratuites",
+                   "Un créneau, comme tout lieu travaillé",
+                   "Un demi-créneau", "Un créneau la première fois seulement"],
+         "bonne": 0,
+         "pourquoi": "<b>Ils y dorment.</b> Les soirées, les trajets en ville et le pêcheur "
+                     "si on est déjà au dispensaire ne coûtent rien.",
+         "ou": "90-creneaux.md · 25-lieux-et-presences.md"}]},
+
+    {"id": "dispensaire", "nom": "Le dispensaire", "role": "trois minutes, le plus proche",
+     "lieuLabel": "Le coût",
+     "lieu": "<b>Un créneau — mais il porte quatre dossiers.</b> C'est le meilleur rapport "
+             "de tout l'acte 1.",
+     "sait": ["<b>Dossiers : l'empoisonnement · le noyé · l'autopsie de Zina · le corps du "
+              "pêcheur.</b> Plus Igor, qu'on peut y croiser.",
+              "<b>Isidor Nesteroff</b>, médecin-chef : il penche pour une contamination "
+              "alimentaire, et il ne cache pas qu'il ne comprend pas ce qu'il voit.",
+              "<b>Le corps du pêcheur est sur sa banquette</b>, sous leurs yeux. Dire « c'est "
+              "un autre dossier, ça coûte un créneau » serait absurde."],
+     "piege": "C'est <b>le</b> lieu qui justifie d'arbitrer en lieux et non en dossiers. "
+              "Quatre pistes pour une demi-journée.",
+     "questions": [
+        {"q": "Combien de dossiers vivent au dispensaire ?",
+         "choix": ["Quatre — l'empoisonnement, le noyé, l'autopsie de Zina, le pêcheur",
+                   "Un seul : l'empoisonnement",
+                   "Deux : l'empoisonnement et le noyé",
+                   "Trois, plus le meurtre au Komsomol"],
+         "bonne": 0,
+         "pourquoi": "<b>Trois lieux seulement portent plusieurs dossiers</b> : le "
+                     "dispensaire, les archives et le bloc 27. Le dispensaire est le plus "
+                     "chargé des trois.",
+         "ou": "25-lieux-et-presences.md · 90-creneaux.md"}]},
+
+    {"id": "police", "nom": "Le bureau de police", "role": "en ville — chez Igor",
+     "lieuLabel": "Le coût",
+     "lieu": "Un créneau. <b>Les archives s'y trouvent, et elles ont leur propre prix</b> : "
+             "par la voie officielle, un créneau <i>plus</i> une journée d'attente.",
+     "sait": ["<b>Dossiers : les archives (deux dossiers y dorment) · Yelena Nikitina · "
+              "Igor lui-même.</b>",
+              "Un secteur à part, entouré de barbelés, des casernes à côté, et derrière "
+              "<b>de grandes tentes où sont parqués les prisonniers de droit commun</b>."],
+     "questions": [
+        {"q": "Que coûte la consultation des archives par la voie officielle ?",
+         "choix": ["Un créneau, plus une journée d'attente",
+                   "Un créneau", "Rien, Igor donne tout", "Deux créneaux consécutifs"],
+         "bonne": 0,
+         "pourquoi": "C'est l'une des <b>quatre seules actions qui coûtent plus d'un "
+                     "créneau</b>, avec Berezki, les mines et l'exhumation du noyé.",
+         "ou": "90-creneaux.md"}]},
+
+    {"id": "entrepots", "nom": "Les entrepôts de l'ouest", "role": "1,4 km — le plus loin en ville",
+     "lieuLabel": "Le coût",
+     "lieu": "Un créneau, et <b>dix-sept minutes de marche qui ne se paient pas</b> : aucun "
+             "trajet en ville n'est facturé.",
+     "sait": ["<b>Dossiers : les disparitions de matériel · les sabotages · tout ce qui se "
+              "vend.</b>",
+              "<b>Margarita Gordeeva</b> tient l'entrepôt n°7 et <b>ne propose jamais "
+              "rien</b> : le tableau des affectations et son carnet d'écarts, il faut les "
+              "lui demander.",
+              "Le matin elle compte des bobines et répond entre deux chiffres ; "
+              "<b>l'après-midi, assise, elle sort son carnet d'elle-même</b>."],
+     "questions": [
+        {"q": "Comment obtient-on le tableau des affectations de Gordeeva ?",
+         "choix": ["Il faut le lui demander : elle ne propose jamais rien",
+                   "Elle le sort spontanément dès qu'on parle des vols",
+                   "Il est affiché au mur de l'entrepôt",
+                   "Il faut passer par le palais administratif"],
+         "bonne": 0,
+         "pourquoi": "Elle réclame du monde chaque semaine et tient ce tableau <b>pour "
+                     "elle</b>. Le carnet d'écarts, en revanche, elle le sort de son propre "
+                     "chef — mais l'après-midi seulement.",
+         "ou": "87-disparitions.md"}]},
+
+    {"id": "bloc27", "nom": "Le bloc 27 — la prison", "role": "650 m, huit minutes",
+     "lieuLabel": "Le coût",
+     "lieu": "Un créneau, <b>deux dossiers</b> : les deux ingénieurs de la machine, et "
+             "Maxim Kazakoff, le condamné du meurtre.",
+     "sait": ["<b>Sorokin et Malysheff</b> partagent la même version : quelque chose s'est "
+              "retrouvé dans le réseau de canalisations et a été emporté par le flux. "
+              "<b>C'est l'aiguillage vers la conduite</b>.",
+              "Il faut <b>faire pression sur la police</b> pour les interroger."],
+     "questions": [
+        {"q": "Qui est enfermé au bloc 27 ?",
+         "choix": ["Les deux ingénieurs de la machine, et Maxim Kazakoff",
+                   "Larissa Kazakova", "Pavel Tkachenko, le déserteur",
+                   "Les deux ingénieurs seulement"],
+         "bonne": 0,
+         "pourquoi": "Deux dossiers pour un créneau. Et les ingénieurs donnent la phrase qui "
+                     "mène à la conduite d'eau.",
+         "ou": "25-lieux-et-presences.md"}]},
+
+    {"id": "komsomol", "nom": "Le quartier du Komsomol", "role": "600-700 m, huit minutes",
+     "lieuLabel": "Le coût",
+     "lieu": "Un créneau. <b>Dossier : le meurtre de Zina Krylova</b> — et la page qui "
+             "manque au dossier dort au dispensaire.",
+     "sait": ["<b>Grigori Novikoff</b>, komsomolets modèle, est le meurtrier. "
+              "<b>Tolia Zaïtsev</b> est le complice.",
+              "<b>Maxim Kazakoff est condamné, et il est innocent</b> — jugement rendu le "
+              "2 mai, la veille de leur arrivée."],
+     "questions": [
+        {"q": "Où se trouve la pièce qui détruit l'enquête sur le meurtre de Zina ?",
+         "choix": ["Au dispensaire : la copie de l'autopsie, que personne n'est venu chercher",
+                   "Aux archives de la police", "Dans le dossier d'Igor",
+                   "Au gymnase du Komsomol"],
+         "bonne": 0,
+         "pourquoi": "<b>Elle dormait dans un tiroir à deux cents mètres de Vinogradoff.</b> "
+                     "Le dossier de police porte le renvoi à un rapport d'autopsie absent : "
+                     "c'est ça, l'indice.",
+         "ou": "89-komsomol.md"}]},
+
+    {"id": "mines", "nom": "Le mont Magnitnaïa — les mines", "role": "5 km à l'est",
+     "lieuLabel": "Le coût",
+     "lieu": "<b>Un créneau entier, aller-retour compris, et rien d'autre dans la "
+             "demi-journée.</b> L'un des deux seuls trajets qui se paient.",
+     "sait": ["<b>Dossiers : les disparitions de matériel</b> — c'est là qu'Oleg Belousoff a "
+              "été muté après avoir voulu insister."],
+     "questions": [
+        {"q": "Quels sont les deux seuls trajets qui coûtent un créneau entier ?",
+         "choix": ["Les mines du mont Magnitnaïa (5 km) et Berezki (8 km)",
+                   "Les entrepôts et les mines",
+                   "Berezki et le bureau d'études",
+                   "Les mines et le hangar zéro"],
+         "bonne": 0,
+         "pourquoi": "Tout le reste est à moins de vingt minutes à pied et <b>ne se paie "
+                     "pas</b>. C'est écrit sur le plan que Kassym leur donne.",
+         "ou": "50-temporalite.md"}]},
+
+    {"id": "berezki", "nom": "Berezki", "role": "8 km — le village des étrangers",
+     "lieuLabel": "Le coût",
+     "lieu": "<b>Un créneau entier — sauf par la porte d'entrée, qui est gratuite</b> : "
+             "le dîner chez Igor.",
+     "sait": ["<b>Dossiers : enquêter sur Igor · le promeneur (Kelley).</b>",
+              "<b>Matthew Kelley</b>, un étranger, dépose un message devant leur porte sans "
+              "qu'ils aient rien demandé."],
+     "questions": [
+        {"q": "Comment aller à Berezki sans payer un créneau entier ?",
+         "choix": ["Le dîner chez Igor : c'est la porte gratuite",
+                   "Y passer en revenant des mines",
+                   "Envoyer Kassym seul", "Ce n'est pas possible"],
+         "bonne": 0,
+         "pourquoi": "<b>La seule porte gratuite vers Berezki</b>, et c'est aussi une "
+                     "occasion de voir Igor hors de son bureau.",
+         "ou": "25-lieux-et-presences.md · 90-creneaux.md"}]},
+
+    {"id": "fouiller", "nom": "Les six lieux à fouiller", "role": "personne dedans",
+     "lieuLabel": "La règle commune",
+     "lieu": "<b>L'absence d'indice est l'indice.</b> Une berge qui ne s'est pas effondrée, "
+             "des grilles intactes, une eau dont l'analyse est négative. <b>Chaque fois, la "
+             "bonne explication est écartée par un fait matériel</b> — et il n'en reste "
+             "aucune.",
+     "sait": ["<b>Le lac artificiel</b> <i>(le noyé)</i> — 870 m · <b>la berge de l'Oural</b> "
+              "<i>(le pêcheur)</i> — 400 m · <b>le lieu de l'explosion</b> <i>(la machine)</i> "
+              "— 750 m · <b>la Section D</b> <i>(l'empoisonnement)</i> — 600 m · "
+              "<b>le logement de Tkachenko</b> <i>(le déserteur)</i> — 250 m · "
+              "<b>le hangar zéro</b> <i>(le culte)</i> — 1,2 km",
+              "<b>Le hangar zéro ne coûte jamais un créneau</b> : c'est une soirée, et on y "
+              "arrive par une rumeur ou par une filature improvisée."],
+     "piege": "Ne jamais souligner. <b>Donner le fait, platement, et passer.</b>",
+     "questions": [
+        {"q": "Qu'ont en commun les six lieux à fouiller ?",
+         "choix": ["L'absence d'indice est l'indice : un fait matériel écarte chaque "
+                   "explication raisonnable",
+                   "Ils portent tous la même substance",
+                   "Ils sont tous à moins de dix minutes",
+                   "Ils ne coûtent aucun créneau"],
+         "bonne": 0,
+         "pourquoi": "Une berge qui ne s'est pas effondrée, des grilles intactes, une analyse "
+                     "d'eau négative. <b>Il ne reste aucune explication — et c'est ça, "
+                     "l'information.</b>",
+         "ou": "25-lieux-et-presences.md"},
+        {"q": "Que coûte le hangar zéro ?",
+         "choix": ["Une soirée, jamais un créneau", "Un créneau",
+                   "Un créneau entier, comme les mines", "Deux créneaux : il faut y revenir"],
+         "bonne": 0,
+         "pourquoi": "On y arrive par une rumeur sur « des individus louches qui se déplacent "
+                     "la nuit », ou par hasard en se promenant. <b>Les trois soirées sont "
+                     "gratuites.</b>",
+         "ou": "25-lieux-et-presences.md · 90-creneaux.md"}]},
+]
+
+
+# ══════════════════════════════════════════════════════════════════
+#  6. Les PJ
+# ══════════════════════════════════════════════════════════════════
+#
+#  **Les dix fiches sont des copies carbone** : mêmes caractéristiques,
+#  mêmes dés, mêmes capacités au mot près. Seul l'accord change, et
+#  l'équipement de Voronin·. Le genre se choisit à la table.
+
+PJ = [
+    {"id": "aparte", "nom": "Les quatre apartés", "role": "deux minutes chacun, montre en main",
+     "lieuLabel": "Le dispositif",
+     "lieu": "<b>Chaque personnage a son aparté, et les quatre durent le même temps.</b> "
+             "C'est ce qui permet de donner sa mission à Gusev· <b>sans que la table "
+             "remarque qu'il s'est passé quelque chose de particulier avec lui</b>.",
+     "sait": ["<b>Petrenko</b> — il a déposé sa candidature à la Guépéou. Cette mission est "
+              "le test.",
+              "<b>Krasnov·</b> — la mission est un test de fidélité, et son association "
+              "savante en dépend.",
+              "<b>Voronin·</b> — la vraie mission, dite de vive voix, absente des ordres "
+              "écrits.",
+              "<b>Gusev·</b> — surveiller les trois autres et écrire un second rapport."],
+     "cache": ["Les quatre ont la même forme : <b>une chose que le personnage sait, qu'il ne "
+               "peut pas dire, et qui ne l'oblige à rien.</b> Aucun ne pèse plus que les "
+               "autres."],
+     "piege": "Volkov· n'a pas d'aparté : le cinquième personnage est le komsomolets, et "
+              "Kassym joue à côté de lui.",
+     "questions": [
+        {"q": "Pourquoi les quatre apartés durent-ils exactement le même temps ?",
+         "choix": ["Pour que celui de Gusev· ne se remarque pas",
+                   "Pour tenir le rythme de la séance d'introduction",
+                   "Parce qu'ils contiennent la même quantité d'information",
+                   "Pour que chaque joueur ait son moment seul avec le meneur"],
+         "bonne": 0,
+         "pourquoi": "Deux minutes, montre en main, et toujours le même rituel. <b>Si celui "
+                     "de Gusev· durait plus longtemps, la table le saurait.</b>",
+         "ou": "30-scenes-introduction.md"}]},
+
+    {"id": "petrenko", "nom": "Petrenko", "role": "bureaucrate — 10 PV (d8)",
+     "lieuLabel": "Capacités",
+     "lieu": "Notes de frais · Jargon juridique · Méticuleux·se",
+     "sait": ["<b>Bureaucrate, pas ingénieur</b> : droit à l'Université d'État de Moscou, "
+              "« un talent certain pour la compréhension et la mémorisation des "
+              "réglementations ».",
+              "FOR 12 · DEX 13 · INT 14 · CON 10 · SAG 8 · CHA 12",
+              "Porte <i>Nouvelles procédures administratives en vigueur au 1er mai 1932</i>, "
+              "312 pages. Et <b>une réserve de tabac (d6)</b> — une monnaie d'échange dans "
+              "une ville où tout manque.",
+              "<b>C'est le scribe du rapport final</b>, et c'est lui qui dira « je ne peux "
+              "pas écrire ça »."],
+     "questions": [
+        {"q": "Quel est le métier de Petrenko ?",
+         "choix": ["Bureaucrate — droit, pas ingénierie", "Ingénieur",
+                   "Juriste militaire", "Comptable du combinat"],
+         "bonne": 0,
+         "pourquoi": "<b>Bureaucrate, pas ingénieur.</b> Sa compétence est la réglementation, "
+                     "et c'est elle qui fait de lui le scribe de l'épilogue.",
+         "ou": "10-personnages.md"}]},
+
+    {"id": "krasnov", "nom": "Krasnov·", "role": "scientifique — 10 PV (d8)",
+     "lieuLabel": "Capacités",
+     "lieu": "Érudit·e · Déduction · Naturaliste",
+     "sait": ["Porte les <i>Souvenirs entomologiques</i> de J.-H. Fabre, <b>édition "
+              "anglaise</b>, 396 pages — <b>un livre étranger dans une valise qu'on peut "
+              "fouiller</b>.",
+              "<b>L'anglais tient dans les deux cas</b>, quel que soit le genre choisi : "
+              "c'est ce qui permet de parler à Kelley."],
+     "questions": [
+        {"q": "Qu'est-ce qui rend le livre de Krasnov· dangereux ?",
+         "choix": ["C'est une édition anglaise, dans une valise qu'on peut fouiller",
+                   "Il est dédicacé", "Il traite de biologie non soviétique",
+                   "Il est interdit depuis 1930"],
+         "bonne": 0,
+         "pourquoi": "<b>Un livre étranger</b> en 1932. Le Staline de Gusev· est dédicacé, "
+                     "ce qui est un autre genre de problème — et une autre question.",
+         "ou": "10-personnages.md"}]},
+
+    {"id": "voronin", "nom": "Voronin·", "role": "militaire / gymnaste — 12 PV (d8)",
+     "lieuLabel": "Capacités",
+     "lieu": "Entraîné·e · Athlète · Artiste (chant)",
+     "sait": ["FOR 14 · DEX 14 · INT 10 · CON 12 · SAG 9 · CHA 10",
+              "<b>C'est lui qui reçoit les documents officiels de la mission</b> — l'ordre "
+              "de détachement, le formulaire de rapport. <b>Petrenko les réclame.</b>",
+              "<b>La médaille des Spartakiades</b>, si Voronina remplace la montre : c'est "
+              "la seule différence d'équipement entre les deux versions."],
+     "questions": [
+        {"q": "Qui porte les documents officiels de la mission ?",
+         "choix": ["Voronin·, parce que c'est l'officier",
+                   "Petrenko, parce que le rapport est son métier",
+                   "Gusev·, parce qu'il est de la Guépéou",
+                   "Personne : ils sont remis à Igor à l'arrivée"],
+         "bonne": 0,
+         "pourquoi": "<b>Les documents officiels sont confiés au militaire.</b> Petrenko les "
+                     "réclame — petite friction d'ouverture, gratuite, et en caractère pour "
+                     "les deux.",
+         "ou": "105-epilogue-rapport.md"}]},
+
+    {"id": "gusev", "nom": "Gusev·", "role": "agent·e officieux·se — 12 PV (d8)",
+     "lieuLabel": "Capacités",
+     "lieu": "Prudent·e · Cartésien·ne · Inquisiteur·rice",
+     "sait": ["Porte les <i>Fondations du Léninisme</i> de Staline, 164 pages, "
+              "<b>dédicacé</b> — par qui, et ce que ça dit de ses relations, reste ouvert.",
+              "<b>Sa mission : surveiller les trois autres et écrire un second rapport.</b> "
+              "Les autres joueurs l'ignorent.",
+              "<b>Sa crédibilité est supérieure à la leur à l'épilogue.</b> S'il les "
+              "dénonce, il s'en sort avec les honneurs et ils sont condamnés."],
+     "piege": "<b>C'est l'exception de la règle « chaque PJ trouve ce que les autres ne "
+              "peuvent pas »</b> — c'est son métier, pas un privilège de joueur.",
+     "questions": [
+        {"q": "Quelle est la vraie mission de Gusev· ?",
+         "choix": ["Surveiller les trois autres et écrire un second rapport",
+                   "Vérifier la fidélité d'Igor Pavlenko",
+                   "Rapporter directement au Directeur du combinat",
+                   "S'assurer que le surnaturel ne figure pas au rapport"],
+         "bonne": 0,
+         "pourquoi": "Dite en aparté, de la même durée que les trois autres — <b>pour que la "
+                     "table ne remarque rien</b>.",
+         "ou": "30-scenes-introduction.md · 105-epilogue-rapport.md"}]},
+
+    {"id": "volkov", "nom": "Volkov·", "role": "komsomolets / komsomolka — 10 PV (d6)",
+     "lieuLabel": "Capacités",
+     "lieu": "Crochetage — et c'est la seule, mais elle ouvre les portes fermées.",
+     "sait": ["<b>Des outils de crochetage et une bobine de ficelle.</b> Le gamin du "
+              "Komsomol entre là où les autres frappent.",
+              "<b>Le d6 de vie</b> est le plus bas du groupe : c'est le personnage le plus "
+              "fragile de l'acte 2."],
+     "questions": [
+        {"q": "Lequel des cinq a le dé de vie le plus bas ?",
+         "choix": ["Volkov·, avec un d6", "Petrenko, avec un d6",
+                   "Krasnov·, avec un d6", "Ils ont tous un d8"],
+         "bonne": 0,
+         "pourquoi": "Volkov· — 10 PV, <b>mais un d6</b>. Petrenko et Krasnov· ont 10 PV "
+                     "avec un d8 ; Voronin· et Gusev· ont 12.",
+         "ou": "10-personnages.md"}]},
+]
+
+
+# ══════════════════════════════════════════════════════════════════
+#  7. La table — quel papier sort quand
+# ══════════════════════════════════════════════════════════════════
+#
+#  Quinze documents ont été fabriqués. Savoir lequel donner à quel
+#  moment est exactement le genre de chose qui se cherche mal en pleine
+#  scène — et en donner un trop tôt coûte une scène entière.
+
+TABLE = [
+    {"id": "depart", "nom": "Au départ", "role": "avant même d'arriver",
+     "lieuLabel": "Ce qui est déjà dans leurs mains",
+     "lieu": "<b>L'ordre de détachement</b> — remis à Voronin· à Moscou, le 24 avril. "
+             "<b>Le formulaire de rapport</b> — même paquet, et il reste sur la table "
+             "jusqu'à la dernière heure. <b>Le dossier de Gusev·</b>, à son aparté.",
+     "sait": ["<b>Les cases vides du formulaire font le travail pendant six jours.</b> "
+              "L'échéance est posée, pas annoncée, et chaque découverte pose d'elle-même la "
+              "question « est-ce que ça va dans le rapport ? »",
+              "<b>Les chevalets</b> se posent devant chaque joueur dès la première scène."],
+     "questions": [
+        {"q": "Quand le formulaire de rapport arrive-t-il sur la table ?",
+         "choix": ["Dès le départ : ils l'ont depuis Moscou",
+                   "À l'épilogue, quand il faut le remplir",
+                   "Au briefing, remis par Igor",
+                   "Au retour, dans le train"],
+         "bonne": 0,
+         "pourquoi": "<b>C'est ce qui le rend meilleur qu'une feuille sortie à la fin</b> : "
+                     "Igor se trahit au briefing, et la case « conduite des services locaux » "
+                     "change de sens sans qu'on y ait touché.",
+         "ou": "105-epilogue-rapport.md"}]},
+
+    {"id": "jour1", "nom": "Le premier jour", "role": "arrivée, briefing",
+     "lieuLabel": "Ce que Kassym remet",
+     "lieu": "<b>Les clés des chambres, les cartes de repas, et le plan du combinat</b> — "
+             "qu'il sort <b>quand on lui demande où on va</b>, pas avant.",
+     "sait": ["<b>Ce qu'Igor remet au briefing</b> : cinq dossiers sur les sept. Les deux "
+              "autres dorment aux archives.",
+              "<b>La feuille du temps</b> se pose au centre, vierge. <b>Rien n'y est coché "
+              "d'avance, pas même le 3 mai</b> : une case cochée par le meneur est une "
+              "annonce, une case cochée par un joueur est une décision.",
+              "<b>Les deux dépositions de Faddei</b> sont agrafées au dossier des sabotages."],
+     "piege": "Le plan ne porte <b>aucun lieu nommé</b>, seulement les quartiers. Les "
+              "adresses se demandent — c'est le métier de Kassym.",
+     "questions": [
+        {"q": "Combien de dossiers Igor remet-il au briefing, sur les sept qui existent ?",
+         "choix": ["Cinq", "Sept", "Quatre", "Six"],
+         "bonne": 0,
+         "pourquoi": "Deux dorment aux archives. Et le cinquième, les sabotages, <b>c'est "
+                     "Igor qui l'ajoute de son propre chef</b> — le seul qu'il n'avait pas "
+                     "ouvert.",
+         "ou": "105-epilogue-rapport.md · 70-rapports-imprimes.md"},
+        {"q": "Que porte la feuille du temps quand elle arrive sur la table ?",
+         "choix": ["Rien : elle est entièrement vierge, même le 3 mai",
+                   "Le premier jour est déjà coché",
+                   "Les 8 et 9 mai sont grisés",
+                   "La bande de déblaiement est marquée"],
+         "bonne": 0,
+         "pourquoi": "<b>Une case cochée d'avance est une annonce du meneur.</b> Et le "
+                     "déblaiement nommerait un chantier dont ils n'ont pas entendu parler.",
+         "ou": "50-temporalite.md"}]},
+
+    {"id": "demande", "nom": "Sur demande, pendant l'acte 1", "role": "il faut aller les chercher",
+     "lieuLabel": "Ce qui ne vient pas tout seul",
+     "lieu": "<b>Le carnet de Faddei</b>, trois pages données séparément · <b>le tableau des "
+             "affectations</b> et <b>le carnet d'écarts de Gordeeva</b>, aux entrepôts · "
+             "<b>la copie de l'autopsie de Zina</b>, au dispensaire.",
+     "sait": ["<b>Les trois pages du carnet de Faddei ne se donnent pas ensemble</b> : la "
+              "première quand ils demandent ce qu'il sait, la deuxième sur l'équipe, la "
+              "troisième sur les horaires ou leurs soupçons.",
+              "<b>Gordeeva ne propose jamais rien</b> : le tableau se demande. Le carnet "
+              "d'écarts, elle le sort d'elle-même — mais l'après-midi seulement.",
+              "<b>L'autopsie n'a jamais quitté le dispensaire.</b> « Section de police "
+              "prévenue le 7.IV. Personne n'est venu le chercher. »"],
+     "piege": "Les pages 1 et 2 du carnet de Faddei portent le croisement du dossier, et "
+              "<b>elles ne se rencontrent nulle part</b> : les incidents sont sur l'une, les "
+              "convois lourds sur l'autre. <b>Ne jamais faire le rapprochement à leur "
+              "place.</b>",
+     "questions": [
+        {"q": "Pourquoi les pages 1 et 2 du carnet de Faddei sont-elles séparées ?",
+         "choix": ["Les incidents sont sur l'une, les convois lourds sur l'autre : le "
+                   "croisement appartient aux joueurs",
+                   "Parce que Faddei les a écrites à deux moments différents",
+                   "Pour qu'on puisse en donner une sans l'autre selon le temps",
+                   "La page 2 est une pièce du dossier de police"],
+         "bonne": 0,
+         "pourquoi": "Quatre des cinq convois lourds du mois ont été frappés. <b>Un seul est "
+                     "passé sans rien</b>, et ce convoi épargné est volontaire : un motif "
+                     "parfait se repère trop vite.",
+         "ou": "86-carnet-faddei.md"}]},
+
+    {"id": "jamais", "nom": "Ce qui ne sort jamais", "role": "et l'acte 2 vide la table",
+     "lieuLabel": "Pour le meneur seul",
+     "lieu": "<b>L'organigramme du secteur transport</b> · <b>les cinq aides de l'acte 2</b> "
+             "· <b>le tableau des affectations en version remplie</b>, qui dit quoi écrire "
+             "dans chaque case.",
+     "sait": ["<b>À l'acte 2, tous les accessoires quittent la table.</b> Rapports, plan, "
+              "carnet, cartes de repas : illisibles dans le noir, et <b>ils sont tous de "
+              "l'acte 1</b>. La descente est le moment où les documents disparaissent.",
+              "<b>Le rapport particulier de Gusev·</b> ne sort qu'à l'aparté final, pendant "
+              "que les autres attendent à côté."],
+     "questions": [
+        {"q": "Que deviennent les accessoires pendant l'acte 2 ?",
+         "choix": ["Ils quittent tous la table : ils sont de l'acte 1 et illisibles dans le noir",
+                   "Seul le plan reste, pour s'orienter dans la mine",
+                   "On garde les dossiers, au cas où",
+                   "Ils restent, mais on allume une lampe pour les lire"],
+         "bonne": 0,
+         "pourquoi": "<b>La descente est le moment où les documents disparaissent.</b> "
+                     "Ne restent que les cinq cartons du meneur, en gros caractères.",
+         "ou": "100-acte2-cadrage.md"}]},
+]
+
+
 MODULES = {
+    "socle": {"titre": "Le socle",
+              "quoi": "La mission, le dispositif, la vérité. Se lit une fois, tient tout le reste.",
+              "fiches": SOCLE},
+    "actes": {"titre": "Les actes",
+              "quoi": "La structure d'ensemble : les régimes, les durées, ce qui bascule.",
+              "fiches": ACTES},
+    "noms": {"titre": "Les noms",
+             "quoi": "Qui fait quoi — l'appariement pur, dans les deux sens, "
+                     "par secteur. Pour cesser de les confondre.",
+             "fiches": NOMS},
     "gens": {"titre": "Les gens",
              "quoi": "Qui est qui, ce qu'il sait, ce qu'il tait, et ce qu'il dit des autres.",
              "fiches": GENS},
+    "lieux": {"titre": "Les lieux",
+              "quoi": "L'unité d'arbitrage : ce que chacun coûte, et quels dossiers y vivent.",
+              "fiches": LIEUX},
     "pistes": {"titre": "Les pistes",
                "quoi": "Pour chacune : la version d'Igor, la vérité, et ce qui fait basculer.",
                "fiches": PISTES},
+    "pj": {"titre": "Les PJ",
+           "quoi": "Les cinq prétirés, leurs capacités, leurs objets, et les quatre apartés.",
+           "fiches": PJ},
     "comptes": {"titre": "Les comptes",
                 "quoi": "Le calendrier, les créneaux, les distances, ce qui se compte.",
                 "fiches": COMPTES},
+    "table": {"titre": "La table",
+              "quoi": "Quel papier sort quand, et lequel ne sort jamais.",
+              "fiches": TABLE},
 }
 
 # ══════════════════════════════════════════════════════════════════

@@ -61,7 +61,7 @@ s'imprime vierge, les noms se portent à la main\
 ☒ ~~Le plan de la Section D~~ — **supprimé.** Un seul passage commun avec un robinet dessus donnait
 la réponse, et la source ne connaît ni le couloir ni la halle. Le robinet se montre du doigt\
 ☑ ~~Les cartes de repas~~ — six cartons, le nom à écrire\
-☐ L'**organigramme du secteur transport** — `85-secteur-transport.md` — *pour le MJ seul*\
+☑ ~~L'organigramme du secteur transport~~ — neuf personnes, **ce qui les distingue est où on les trouve**, plus la chaîne du registre en schéma. *Pour le MJ seul*\
 ☑ ~~Le rapport de mission~~ — **remis au départ** et rempli à la fin\
 ☑ ~~Le rapport particulier de Gusev·~~ — du papier à en-tête, pas un formulaire
 :::

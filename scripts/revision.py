@@ -7,9 +7,15 @@ revision.py — les pages de révision, à lire sur un téléphone.
 Ce n'est pas un document de table : c'est un outil pour **apprendre avant**
 la séance. Il se consulte dans les transports, debout, une main.
 
-Trois modules, et le découpage vient de ce qu'un MJ doit avoir en tête
-parce que ça ne se cherche pas en pleine scène :
+Cinq modules, et le découpage vient de ce qu'un MJ doit avoir en tête
+parce que ça ne se cherche pas en pleine scène. **L'ordre est celui de
+l'apprentissage**, pas celui du scénario : sans la structure, les dix
+pistes sont dix choses à mémoriser au lieu d'une arborescence.
 
+    le socle      la mission à trois niveaux, le dispositif de l'acte 1,
+                  la vérité du phénomène. **Se lit une fois**
+    les actes     les quatre régimes de jeu, leurs durées, et ce qui
+                  fait basculer de l'un à l'autre
     les gens      une trentaine de PNJ — poste, ce qu'ils savent, ce
                   qu'ils cachent, et surtout **ce qu'ils disent des
                   autres**, qui est ce qui se perd le plus vite

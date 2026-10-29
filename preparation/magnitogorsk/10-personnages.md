@@ -68,6 +68,9 @@ l'étranger « sont source de méfiance dans une URSS qui tend à se refermer »
 - **Le Staline dédicacé de Gusev·.** *Fondations du Léninisme*, 164 pages, **dédicacé**. L'agent·e
   de la Guépéou porte un livre signé. Par qui, et ce que ça dit de ses relations, reste ouvert.
 - **Le Fabre anglais de Krasnov·** — un livre étranger dans une valise qu'on peut fouiller.
+  **Il reste à Leningrad** : la fiche imprimée est annotée au stylo *« resté à Leningrad »* sous la
+  ligne d'équipement, le titre n'est pas biffé. L'anglophonie est sur la fiche, pas dans le livre —
+  Kelley se confie quand même, l'appel à Peterson passe quand même.
 - **Les outils de crochetage de Volkov·**, avec la capacité *Crochetage* et une bobine de ficelle.
   **Le gamin du Komsomol ouvre les portes fermées.**
 - **La réserve de tabac (d6) de Petrenko** — une monnaie d'échange, dans une ville où tout manque.

@@ -37,6 +37,25 @@ quelque chose de particulier avec lui.
 Les quatre ont la même forme : **une chose que le personnage sait, qu'il ne peut pas dire, et qui ne
 l'oblige à rien.** Aucun ne pèse plus que les autres.
 
+### Le rituel, en pratique
+
+**C'est toi qui sors avec le joueur, pas l'inverse.** Faire sortir les trois autres coupe la table
+quatre fois dans la séance ; les laisser assis à se regarder pendant deux minutes la coupe aussi.
+La seule version qui ne coûte rien : **les trois autres ont quelque chose à faire pendant ce
+temps** — remplir leur fiche, choisir ce qu'ils emportent, lire leur paragraphe de background.
+Le distribuer **avant** de sortir, pas après.
+
+**Trois sur quatre sont des transmissions, pas des scènes.** Petrenko, Krasnov· et Gusev· : tu
+énonces un fait de background, trente secondes, et il reste du silence. **Voronin· est
+l'exception** — Tikhonoff ferme la porte et le lui dit de vive voix, donc c'est une scène jouée.
+Si elle dure trois minutes quand les autres en durent une, la table verra qu'il se passe quelque
+chose de particulier **chez Voronin·** — ce qui est sans danger, puisque le camouflage ne protège
+que Gusev·. Mais tu auras trois joueurs qui attendent : **l'écourter**.
+
+**L'irrégularité de place ne se corrige pas.** L'aparté de Voronin· tombe au milieu de sa scène
+(il reste le paquetage et le départ), les trois autres en fin de scène. Gusev· est donc placé comme
+Petrenko et Krasnov·, et rien ne le distingue — c'est tout ce qu'on demande.
+
 ---
 
 # 1. Petrenko — les bottes dans l'escalier
@@ -481,11 +500,29 @@ dire · le livre, pris ou laissé.
 > rien, et c'est pour ça qu'il feuillette sans lire. Le seul qui sait, dans la pièce, est l'homme
 > debout contre le mur.
 
-## C — Le couloir, puis chez lui
+## C — Le guichet des frais, puis chez lui
 
-- Un collègue lève le nez : [« Magnitogorsk ? Une prime de déplacement — veinard. »]
-- Un temps. Le sourire se fige. [« …En cette saison, remarque. Couvre-toi bien. »]
+Un détachement de trois semaines ouvre droit à une avance de frais, et on ne la lui apporte pas :
+il descend la chercher au deuxième et présente son ordre.
+
+- Une porte avec un guichet découpé dedans, un banc en bois en face. Deux personnes attendent.
+- L'homme du guichet tourne l'ordre vers lui, suit la ligne du doigt, sort un barème cartonné.
+- [« Magnitogorsk. »] Il compare deux colonnes, recopie un chiffre.
+- [« Trois semaines. Zone 4. »] Il lève les yeux une seconde. [« Prime de déplacement — veinard. »]
+- Il compte les billets deux fois, pousse un bordereau à signer, et pendant qu'il signe :
+  [« …En cette saison, remarque. Couvre-toi bien. »]
 - Rien d'autre. Personne ne le raccompagne.
+
+> **Pourquoi le guichet et pas un collègue de couloir.** Les deux répliques sont de la note de
+> première passe et elles sont bonnes ; ce qui ne tenait pas, c'est qu'un collègue **sache**. Rien
+> ne lui avait appris le détachement, et une information confidentielle commentée dans un couloir
+> trente secondes après avoir été reçue cesse d'en être une. L'homme du guichet, lui, a le papier
+> sous les yeux — et il ne sait rien d'autre. Voir `35-repetitions.md`, *un PNJ ne sait que ce
+> qu'une bouche ou un papier lui a donné*.
+
+> **Si Zoïa a été prise comme crochet**, il peut la croiser en remontant — mais **elle ne sait
+> rien**, et c'est lui qui décide s'il le lui dit. C'est le premier mensonge qu'il choisit ;
+> le lui laisser.
 
 > **Main au joueur — la valise, et c'est le seul moment calme des quatre scènes.** Les trois autres
 > font leur valise sous surveillance, dans l'urgence, devant leur famille. Lui a **deux jours**,
@@ -505,18 +542,37 @@ dire · le livre, pris ou laissé.
 
 ## D — La gare de Iaroslavski
 
-- Deux jours plus tard, le soir.
+- Deux jours plus tard, en fin d'après-midi, **on frappe à sa porte** : un homme en casquette de
+  service, dans le couloir, qui ne cherche pas à entrer. [« Camarade Gousseff ? La voiture est en
+  bas. »]
+- Il a le temps de prendre son manteau et sa valise, et **de fermer à clé lui-même**.
+- Une voiture de service, pas neuve. **Personne ne monte derrière avec lui.**
+- Elle le dépose devant l'entrée principale, dans le flot, et **elle repart**.
 - Charpente de fer, haut-parleurs qui grésillent.
-- **Il présente son billet lui-même. Personne ne l'encadre.**
+- **Il présente son billet lui-même**, et on le laisse passer sans rien lui demander.
 - Un quai qui grouille : ballots, soldats en permission, une babouchka et ses pirojki.
 - Seconde classe, une couchette, une lampe à abat-jour.
 - **Il ne se presse pas.** Il regarde le quai avant de monter : qui attend, qui est encadré.
 - Il entrera dans le compartiment **en dernier**, quand les trois autres y seront déjà.
 
-> **Le détail qui dit tout, et qu'il ne faut pas souligner.** Les trois autres sont arrivés
-> encadrés, par une grille latérale ou sous escorte. Lui marche sur le quai avec son billet à la
-> main. **Un joueur attentif le remarquera dans le compartiment** — et c'est exactement ce qu'on
-> veut : un soupçon, pas une preuve.
+> **Transporté, pas escorté — et c'est toute la différence.** Les trois autres ont été cueillis
+> sans préavis, par des hommes qui entrent ; Krasnov· n'a même pas eu le droit de se servir de sa
+> clé. Lui est prévenu deux heures avant par un chauffeur qui attend en bas, il ferme sa porte, et
+> **il traverse le quai seul avec sa valise.**
+>
+> De loin, les quatre arrivées se ressemblent, ce qui règle la question qu'un joueur poserait
+> autrement — *pourquoi lui seul ?* De près, personne ne monte avec lui et personne ne l'attend sur
+> le trottoir. **Un joueur attentif le remarquera dans le compartiment**, et c'est exactement ce
+> qu'on veut : un soupçon, pas une preuve.
+
+> **Ce qu'il voit du quai, s'il prend le temps de regarder** — et il le prendra. Les trois arrivées,
+> chacune lisible : celui qui porte sa valise entre deux civils aux mains libres · celui qui entre
+> par la grille latérale, plus âgé, la valise tenue à deux mains devant lui, et que trois hommes
+> lâchent au marchepied · le militaire qui arrive seul et à l'heure, que deux permissionnaires
+> saluent sans y penser.
+>
+> **Décrire trois hommes, jamais dire qu'il les reconnaît.** Le meneur montre ce que n'importe qui
+> verrait d'un quai ; c'est le joueur qui sait.
 
 > **Pourquoi il entre en dernier, et c'est son métier.** Un agent qui doit juger trois hommes
 > commence par les regarder sans être vu. Arriver le dernier, c'est entrer dans une pièce dont on
@@ -773,6 +829,30 @@ Remplacer les lignes de la section D qui portent l'uniforme, l'arme et la montre
 > escorter trois subordonnés. Gusev· sait tout et ne dit rien. Personne ne corrige personne, parce
 > que personne ne pose la question.
 
+## Les heures qui manquent, et ce qu'on en fait
+
+Les scènes de Petrenko et de Krasnov· se passent le **25 à Leningrad**, le train part de Moscou le
+**26 au soir**. Il leur manque une nuit et une journée. **Ça reste une ellipse** — il n'y a pas de
+scène à jouer là-dedans —, mais deux choses doivent être arrêtées, parce qu'elles se voient à
+l'arrivée.
+
+**Où ils étaient.** Pris à Leningrad le 25, arrivés à Moscou l'un le soir même, l'autre au matin,
+ils ont passé les heures restantes dans une **salle de service** : un banc, une fenêtre haute, une
+porte qui n'est pas fermée à clé mais devant laquelle il y a quelqu'un. Personne ne les a
+interrogés, personne ne leur a rien expliqué, on leur a donné à manger une fois.
+
+**La réponse tient en une phrase**, si un joueur demande : [« Vous avez attendu. On ne vous a rien
+dit. »] Ne pas développer, ne pas s'excuser de l'ellipse.
+
+> **Ce qu'il faut en retenir pour le compartiment : ils sont usés d'avoir attendu, pas d'avoir
+> voyagé.** C'est une fatigue différente — hostile sans que personne ait été brutal — et elle
+> explique qu'un homme à qui on n'a rien demandé pendant dix heures **parle plus facilement au
+> premier qui lui adresse la parole**. C'est exactement ce dont la scène a besoin.
+>
+> **Voronin· vient de Reoutov le jour même et n'a rien subi.** Il arrive frais, et ça se voit.
+> Gusev· a eu deux jours chez lui ; lui aussi arrive reposé, et **c'est le second écart qu'un
+> joueur attentif peut relever** — après la voiture qui l'a déposé sans que personne ne monte.
+
 ## A — Petrenko, le premier
 
 - Compartiment vide. Quatre couchettes, une table sous la fenêtre, une lampe à abat-jour.
@@ -935,6 +1015,114 @@ sous terre, et seulement si la montre est en jeu.
 >
 > Les trois sont **purement des déclencheurs de conversation**. Aucun ne resservira à Magnitogorsk,
 > aucun n'a de secret, aucun n'est un agent. Ne pas les charger.
+
+## L'intendance, pour couler le voyage sans l'écrire
+
+**C'est la matière qui manquait.** Avec elle, n'importe quelle journée se raconte en trois phrases
+et on saute au moment qui compte.
+
+### Le wagon, et qui le tient
+
+Une **conductrice de wagon** vit à bord, dans la logette près de l'entrée. Elle tient tout : elle
+loue les draps, alimente le poêle à charbon, passe le thé, **verrouille les toilettes à l'approche
+des gares**, réveille ceux qui descendent. C'est à elle qu'on demande quoi que ce soit.
+
+Le **poêle** est à un bout du wagon : près de lui on étouffe, à l'autre bout on dort en manteau.
+Le compartiment 4 est au milieu, donc c'est supportable.
+
+L'air sent le **charbon** — la fumée rabat sur le toit et rentre par les joints. Au bout de trois
+jours les cols de chemise sont gris, et plus personne ne le remarque.
+
+### L'eau bouillante, qui est le centre de tout
+
+**Le titan**, réservoir d'eau bouillante au bout du wagon, coule toute la journée et c'est gratuit.
+En gare, une borne marquée `КИПЯТОК` sur le quai, avec une file.
+
+Tout tourne autour : le thé, la soupe sèche, le rasage, la toilette. **Celui qui a un verre vit
+mieux que celui qui n'en a pas** — c'est pour ça que Zinaïda en parle avant les bottes.
+
+### Manger
+
+**On ne mange pas au wagon-restaurant.** Il existe, en tête, il ouvre à sept heures, et il est
+cher, à demi vide, soupe et gruau. Un fonctionnaire en mission peut y aller ; les autres regardent
+le prix. Trois sources réelles :
+
+| | |
+|---|---|
+| **ce qu'on a emporté** | pain, lard, oignons, œufs durs, poisson séché, sucre. Ça se partage ou ça ne se partage pas, **et ça se voit** |
+| **les quais** | à chaque arrêt, des femmes du pays vendent le long du train : pommes de terre chaudes dans un linge, lait caillé, œufs, pirojki, kvas. Selon la gare c'est abondant ou il n'y a personne — **et quand il n'y a personne, c'est une information** |
+| **le thé** | la conductrice passe deux à trois fois par jour. C'est le seul repas commun, donc le repas social du voyage |
+
+Les grosses gares font **vingt à quarante minutes** : on descend, on achète, on remonte au coup de
+cloche.
+
+### Se laver, dormir
+
+**Toilettes** aux deux extrémités : cuvette donnant sur la voie, robinet à poussoir, eau froide,
+pas de papier. **Fermées en gare et à l'approche des villes** — d'où la file du matin et les
+conversations dans le couloir.
+
+On se lave au robinet avec son propre savon, et le savon manque partout : on en garde un bout dans
+sa poche. On se rase à l'eau du titan, dans un verre.
+
+**Draps** loués à la conductrice, matelas mince, traversin dur. Les couchettes du haut sont plus
+chaudes et n'ont pas de rangement : la valise reste en bas, **chez quelqu'un d'autre**.
+
+**On dort énormément** — dix, douze heures — et on somnole assis le reste du temps.
+
+### Le temps qui ne passe pas
+
+Le train est lent. Il s'arrête pour croiser, pour charger du charbon, pour une raison qu'on
+ignore, en pleine campagne, parfois quarante minutes. **Personne n'explique jamais rien, et
+personne ne demande.**
+
+On regarde par la fenêtre, on relit le même journal, on fume dans le soufflet, on joue aux
+dominos, on écoute le wagon d'à côté.
+
+> **Trois phrases couchent une journée entière.** *« Le troisième jour, le train s'arrête deux
+> heures en pleine voie sans que personne ne dise pourquoi. À midi, la conductrice repasse avec le
+> thé. »* Puis on joue le moment qui compte.
+
+### Les deux endroits où quelque chose peut se passer
+
+**Le soufflet** — entre deux wagons, debout, dans le bruit, hors de portée d'oreille. C'est le seul
+endroit du train où l'on peut dire quelque chose. **Si deux joueurs veulent se parler vraiment,
+c'est là qu'il faut les envoyer** — et les autres voient qui sort avec qui.
+
+**Le couloir** — l'inverse : tout le monde passe, tout le monde entend. L'homme du compartiment 4
+s'y tient souvent.
+
+## Si on ne joue aucune de ces scènes
+
+**C'est une option légitime, et il faut savoir ce qu'on perd.** Les sept jours peuvent se raconter
+d'un bloc ; trois choses doivent alors arriver autrement.
+
+| Ce qu'on perd | Où le récupérer |
+|---|---|
+| **le premier mensonge public des deux civils** — ils s'entendent mentir devant les autres | nulle part. C'est ce qui fonde leur complicité muette, et ça ne se raconte pas |
+| **la vérité pratique sur Magnitogorsk** (la boue, l'eau à faire bouillir, le verre) | se dit en une phrase dans le récit, ou par Kassym à l'arrivée |
+| **le mot « saboteur »** vu en première page de la *Pravda* | poser le journal sur la table à l'arrivée, sans scène |
+
+> **Si tu n'en joues qu'une seule, joue Pavel Ilitch.** C'est la seule qui fasse jouer les joueurs
+> **entre eux** et dont le contenu dépende d'eux. Zinaïda se raconte très bien, la *Pravda* est un
+> objet, l'Oural est un paysage. La question *« Et vous, camarades ? Qu'est-ce que vous allez y
+> faire ? »* ne se raconte pas : il faut que quelqu'un réponde.
+
+**Le récit de transition, prêt à dire :**
+
+> [« Sept jours. Vous apprenez le train comme on apprend une maison : l'eau bouillante au bout du
+> wagon, la conductrice qui ferme les toilettes avant chaque gare, le poêle trop chaud d'un côté
+> et le froid de l'autre. Vous mangez ce que vous avez, et ce que des femmes vendent le long des
+> quais aux arrêts — des pommes de terre chaudes dans un linge, du lait caillé, des œufs. Certaines
+> gares en ont plein. D'autres, personne. »]
+>
+> [« Vous dormez beaucoup. Vous parlez de travail, parce que c'est le seul sujet qui n'engage à
+> rien. Une femme qui rentre là-bas pour son quatrième hiver vous explique qu'il faut faire bouillir
+> l'eau, toujours, et qu'il vous faut chacun un verre et une cuillère. Un garçon de vingt-deux ans
+> qui y va volontairement vous demande ce que vous allez y faire, et vous répondez quelque chose. »]
+>
+> [« Le sixième jour, le train monte dans les contreforts. Il y a une borne de marbre blanc au bord
+> de la voie. De l'autre côté, c'est l'Asie, et le paysage devient plus vide. »]
 
 ## Les trois voyageurs
 
@@ -1150,17 +1338,24 @@ Sept jours, **deux ou trois moments joués, pas plus**. Le reste s'élide.
 - Les voyageurs sont déposés à un quai improvisé. Freins, chocs, cris.
 - Les portes s'ouvrent. Des centaines d'ouvriers se précipitent.
 - Sacs, balluchons, valises de carton.
-- Des familles qui crient pour ne pas se perdre. Une vieille femme tombe, on la relève.
+- Des familles qui crient pour ne pas se perdre. Une vieille femme tombe en descendant le
+  marchepied, **et personne ne s'arrête** — le flot la contourne.
 - Des sifflets, des ordres criés en plusieurs langues.
 - En trois minutes, le sol piétiné devient une mare de boue.
 - **Aucun porteur. Personne pour les accueillir.**
 
-> **Main au joueur — la cohue.** Trois questions rapides, une par joueur, sans laisser réfléchir :
-> *qui porte sa valise lui-même ?* · *qui aide la vieille femme ?* · *qui garde une main sur ses
-> papiers ?*
+> **Ne rien demander ici.** La version précédente posait trois questions — *qui porte sa valise ?*
+> *qui garde une main sur ses papiers ?* *qui aide la vieille femme ?* — et les deux premières
+> n'en sont pas : les quatre répondent pareil. Une question dont la réponse est commune est du
+> décor déguisé en choix, et elle apprend aux joueurs que les questions du meneur ne pèsent rien.
 >
-> Pas d'enjeu, pas de jet. Ça sert à une chose : **qu'ils agissent avant de parler**, après une
-> séquence de train où ils n'ont fait que discuter.
+> Les deux premières se disent donc **dans la narration** : ils portent leurs valises, ils ont la
+> main sur leurs papiers, ils avancent.
+>
+> **La vieille femme reste à genoux dans la boue et le flot la contourne.** On ne la désigne pas,
+> on ne demande rien. Quelqu'un remonte le courant avec sa valise à la main, ou personne ne bouge —
+> et les trois autres voient lequel des deux s'est produit. **Pas d'enjeu, pas de jet, aucun
+> commentaire.**
 
 > **Si un joueur tient à sa tenue** — et Petrenko y tient, c'est dans son background —, le mettre
 > en décalage total. Les bottes qui s'enfoncent, la boue jusqu'au mollet, et personne autour pour
@@ -1245,8 +1440,23 @@ Sept jours, **deux ou trois moments joués, pas plus**. Le reste s'élide.
 
 - Au milieu du désordre, un garçon debout, une pancarte tenue à deux mains.
 - Seize ans. Bousculé par la foule, **il ne bouge pas de sa place**.
-- La pancarte : leurs quatre noms, écrits à la main, avec application. Grandes lettres.
-- **Une faute à l'un des noms**, soigneusement corrigée par-dessus.
+- La pancarte : **un seul nom**, celui de Voronin·, avec le grade, écrit à la main en grandes
+  lettres et avec application.
+- **Le nom a été écorché et repris par-dessus**, soigneusement.
+
+> **Pourquoi un seul nom, et c'est un choix de conduite.** On a donné au Komsomol l'officier et
+> rien d'autre — c'est ce qu'une administration transmet à un garçon de seize ans qu'elle envoie
+> à la gare. Conséquence : **l'accueil local désigne Voronin· comme l'interlocuteur**, ce qui
+> confirme en public la prétention qu'il a énoncée dans le compartiment, alors qu'aucun des quatre
+> ordres ne nomme de chef (`scripts/ordres-mission.py`, `INSTR_OGPU`). Le quiproquo se durcit sans
+> qu'on ait rien dit, et il aura eu trois jours pour s'installer quand quelqu'un relira son papier.
+>
+> **Et il ne connaît pas les trois autres** — ni leurs noms, ni leurs fonctions. On lui a donné
+> un officier et « trois camarades ». Lui prêter la liste par la bouche après l'avoir retirée du
+> carton serait la même faute : *un PNJ ne sait que ce qu'une bouche ou un papier lui a donné.*
+>
+> **Son zèle se montre autrement, et mieux** : il demande leurs noms, il les répète à voix haute
+> pour les retenir, et il les redira sans se tromper pendant cinq séances.
 - Il est là **depuis l'aube**. Le train avait des heures de retard et il n'a pas bougé.
 - Sa meilleure chemise, lavée pour l'occasion. Elle est usée aux coudes et il le sait.
 - Il tente de se recoiffer, d'essuyer la boue sur ses chaussures avec le dos du mollet.
@@ -1254,8 +1464,10 @@ Sept jours, **deux ou trois moments joués, pas plus**. Le reste s'élide.
 ### Ce qu'il fait quand il les reconnaît
 
 - Il se redresse d'un coup. Il range la pancarte derrière son dos, comme si elle était de trop.
-- [« Camarades ! Camarade Petrenko ? Camarade Krasnoff ? »]
-- **Il connaît leurs noms et leurs fonctions par cœur.** Il les a appris. Il ne se trompe pas.
+- [« Camarade capitaine Voronin ? »] — à lui seul, parce que c'est le seul nom qu'il ait.
+- Puis, aux trois autres : [« Et vous êtes les camarades de Moscou. On m'a dit : quatre. »]
+- **Il demande leurs noms** et les répète après chacun, à voix basse, pour les retenir.
+- À partir de là il ne se trompera plus jamais, pendant cinq séances.
 - Il récite ce qu'il a préparé : il est Kassym Volkoff, du Komsomol, il a été désigné pour les
   guider, il connaît la ville, il est à leur entière disposition.
 - Russe imparfait, accent kazakh. Il cherche ses mots — **et il s'excuse de les chercher**.
@@ -1403,16 +1615,29 @@ Ils sortent de la zone de triage. Le bruit tombe d'un cran. Devant eux, la ville
 > `sources/magnitogorsk/plan-74.png` : le plan de l'auteur, sa légende, et les deux mentions de
 > distance sur les routes qui sortent de la carte.
 
-### La feuille du temps, posée dans la foulée
+### Le calendrier, posé dans la foulée
 
 > **Le compteur démarre ici, et ce doit être un geste.**
 >
-> Sortir la feuille de carnet, la poser au centre de la table à côté du plan, et **barrer le jour 1
-> devant eux**.
+> Sortir le calendrier de mai 1932, le poser au centre de la table à côté du plan, et **barrer le
+> jour 1 devant eux**.
 >
 > Leur dire la règle une fois, en clair : **sept jours sur place, deux demi-journées par jour, et le
 > train du retour part le 10 au soir.** Ne pas dire combien de pistes les attendent — ils le
 > découvriront au briefing, et le calcul se fera tout seul.
+
+> **La feuille ne porte aucune de ces informations, et c'est voulu** : ni échéance, ni légende, ni
+> mode d'emploi. C'est un calendrier de bureau, pas une fiche de règles — le meneur dit la règle
+> une fois, et le papier ne fait que garder la trace de ce qu'ils dépensent.
+>
+> **Il montre le mois entier, en six-jours.** Depuis fin 1931, l'URSS vit sous la *chestidnevka* :
+> cinq jours de travail, un de repos aux **6, 12, 18, 24 et 30**, et plus de dimanche. Les trente
+> et un jours portent chacun deux cases — n'en mettre que sur les huit du séjour annoncerait qu'il
+> s'arrête le 10.
+>
+> **Le 6 mai tombe donc en jour de repos, au milieu de leur séjour, et ça ne coûte aucun créneau** :
+> le combinat tourne en continu. C'est de la couleur — bureaux en effectif réduit, réfectoire plein
+> à une autre heure, du monde dehors — jamais une porte fermée.
 
 > **Pourquoi ici et pas plus tard.** Le calendrier arrive juste avant leur premier arbitrage :
 > baraquement ou police. Posé après l'installation, il ne serait qu'une information. Posé
@@ -1611,6 +1836,65 @@ par le baraquement.**
 > Leur choix de la sortie de gare produit son effet ici, sans que personne le commente.
 
 ## B — Comment il parle
+
+> **Le piège de conduite, tombé en répétition : le jouer aimable.** La note dit que les cinq
+> dossiers sont donnés quoi qu'il arrive, et la conduite en a conclu qu'il les donnait **de bonne
+> grâce** — un bureaucrate onctueux qui sert ses chemises comme des plats. C'est l'inverse du
+> personnage.
+>
+> La source : *« un gradé incompétent mais persuadé de sa valeur »*, il *« digère assez mal »*
+> qu'on envoie une équipe de Moscou, il *« a tendance à minimiser »* et il *« ne collabore que si
+> on lui rappelle clairement et régulièrement »* d'où viennent les ordres. Et `25` : **profondément
+> antipathique**.
+>
+> **Il donne tout parce qu'il a peur, en faisant sentir que c'est une perte de temps.**
+
+### Son mépris ne vise jamais les PJ
+
+C'est un lâche devant sa hiérarchie : avec eux, il est correct, et il se recompose dès qu'on
+prononce Moscou. **Son mépris se déverse sur tous les autres** — et c'est ce qui le rend odieux
+sans qu'il entrave rien.
+
+| Sur qui | Ce qu'il en dit |
+|---|---|
+| **les ouvriers** | [« Vous savez combien d'entre eux savent lire un tableau de charge ? Deux sur dix. »] |
+| **les intellectuels** | [« La faible constitution des intellectuels urbains. On nous envoie des hommes qui n'ont jamais travaillé de leurs mains et on s'étonne qu'ils tombent. »] |
+| **les étrangers** | [« On nous en a mis partout, avec leurs maisons et leurs primes en devises — et il faudrait croire que tout ce beau monde est venu par amour du socialisme. »] |
+| **le palais administratif** | [« Si vous voulez enquêter sur quelqu'un, enquêtez sur eux. Nous, ici, on travaille. »] |
+| **Kassym** | sur le pas de la porte, en regardant par la fenêtre : [« C'est le petit Kazakh qu'on vous a donné ? Ils sont dociles, ceux-là. Ne lui parlez pas devant les autres, ça lui monte à la tête. »] |
+
+> **La ligne sur Kassym est la plus rentable des cinq**, et elle est gratuite : il attend dehors
+> sous la pluie pendant tout le briefing. En une phrase, Igor devient détestable **et** la relation
+> des joueurs à leur guide se charge. Ne pas la commenter.
+
+### Le registre : il parle en militant, pas en fonctionnaire
+
+C'est un stalinien convaincu, et c'est ce qui lui permet de trouver son mépris vertueux. Ses
+phrases passent par **le Plan, les chiffres de production, la vigilance, les ennemis de classe**.
+
+- [« Quatre. Pour un chantier qui a dépassé son objectif de fonte au premier trimestre. Enfin. On
+  fera avec. »]
+- [« Il y a un mal pour un bien, quand la nature trie le bon grain de l'ivraie. »]
+
+> **Attention à la date.** En mai 1932, le registre est *le socialisme*, *la classe ouvrière*, *le
+> Plan*, *les ennemis du peuple*, *les koulaks*. Le vocabulaire patriotique russe — « la Patrie »,
+> « la Mère-Patrie » — se généralise plutôt à partir de 1934 : s'en tenir au lexique de classe.
+
+### La vantardise de Berezki, au jour 1 — et rien de plus
+
+L'invitation chez lui reste fixée au **soir du jour 2 ou 3** (`25-lieux-et-presences.md`), quand il
+sent que l'enquête déborde des cinq dossiers. Au jour 1, il n'a encore aucune raison d'amadouer qui
+que ce soit.
+
+**Mais il ne peut pas s'empêcher de montrer ce qu'il a**, et une phrase suffit à planter le décor :
+
+- [« Si vous voulez voir ce qu'on a bâti ici, venez du côté de Berezki un soir. On y vit
+  correctement. Il y a l'électricité. »]
+
+> **Ce n'est pas une invitation, c'est de la vantardise** — et c'est ce qui rendra l'invitation
+> naturelle quand elle viendra, au lieu de tomber de nulle part.
+
+## B bis — Les répliques de base
 
 - [« Ainsi, Moscou nous envoie des… renforts. Rassurez-vous, camarades : tout est sous contrôle. »]
 - [« Des accidents. Le chantier est immense, les hommes sont frustes, l'alcool circule. »]

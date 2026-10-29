@@ -52,7 +52,7 @@ réfectoire, le dispensaire, la gare, l'usine, Berezki, les yourtes, les berges 
 *Chaque ligne renvoie à la note de travail qui dit quoi mettre dedans. La liste ne décrit rien :
 elle pointe.*
 
-☑ ~~La feuille du temps~~ — vierge : pas même le premier jour coché d'avance\
+☑ ~~Le calendrier de mai 1932~~ — le mois entier en six-jours, vierge : pas même le premier jour coché d'avance\
 ☑ ~~Le plan A3 du site~~ — aucun lieu nommé, seulement les quartiers\
 ☑ ~~Les sept dossiers de police et les deux dépositions de Faddei~~ — annotations d'Igor au stylo
 sur l'épreuve\

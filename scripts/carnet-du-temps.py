@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-carnet-du-temps.py — la feuille qui se coche à la table.
+carnet-du-temps.py — le calendrier de mai 1932, qui se coche à la table.
 
     python3 scripts/carnet-du-temps.py
 
@@ -12,40 +12,60 @@ fin de créneau se termine par *« Qui coche ? »*, et on attend que
 quelqu'un le fasse : une case cochée par le MJ est une annonce, une case
 cochée par un joueur est une décision.
 
-Ce qu'elle montre, et rien d'autre (`50-temporalite.md`) :
+**Un seul papier, qui est à la fois l'outil et un objet d'époque.** La
+version précédente ne montrait que les huit jours du séjour : c'était
+lisible, et ça ne ressemblait à aucun calendrier — or un calendrier se
+présente par mois.
 
-    les huit jours     du 3 au 10 mai, chacun coupé en matin et après-midi
-                       — **sauf le 10, qui n'a que sa matinée** : le train
-                       part le soir, et l'après-midi se passe à rejoindre
-                       la gare
-    le retour          départ le 10 au soir, échéance le 17
+**Le mois est en six-jours, et c'est exact.** Depuis fin 1931, l'URSS vit
+sous la *chestidnevka* : cinq jours de travail, un de repos, et les jours
+chômés tombent aux **6, 12, 18, 24 et 30** de chaque mois. Plus de
+dimanche, plus de semaine de sept jours. Un calendrier imprimé en 1932 a
+donc six colonnes, pas sept, et les jours du six-jours n'ont pas de nom :
+on dit le premier, le deuxième… Le 31 est hors cycle, travaillé.
+
+    Le 6 mai tombe donc en jour de repos, au milieu de leur séjour.
+    **Ça ne coûte aucun créneau** : le combinat tourne en continu, les
+    équipes se relaient, les hauts-fourneaux ne s'arrêtent pas. C'est de
+    la couleur — bureaux en effectif réduit, réfectoire plein à une autre
+    heure, du monde dehors — et jamais une porte fermée.
+
+**Les deux cases sont sur les trente et un jours**, pas seulement sur les
+huit. N'en mettre que sur le séjour annoncerait qu'il s'arrête le 10, et
+une feuille qui annonce quelque chose cesse d'être leur objet.
+
+**Aucun mode d'emploi sur la feuille.** Ni sous-titre qui dit à quoi
+servent les cases, ni légende « matin · après-midi » : un calendrier
+d'époque n'explique pas comment on l'utilise, et le meneur le dit une
+fois à la table. Il ne reste que le mois, le lieu et les jours.
+
+**Et pas de bandeau d'échéance en pied.** Il portait le départ du train
+et la date de remise du rapport : un calendrier de bureau ne dit pas ce
+qui attend celui qui le regarde, et deux dates imprimées annoncent la fin
+du séjour avant qu'elle arrive. Les deux se savent — elles sont sur leurs
+ordres de mission — et se redisent en jeu.
 
 **Rien n'y est coché d'avance, pas même le 3 mai.** La feuille arrive
 vierge et le premier jour se barre à la table, avec eux, comme tous les
-autres : une case cochée d'avance est une annonce du meneur.
+autres.
 
 **Et pas de bande de déblaiement.** Elle nommait un chantier dont ils
-n'ont pas encore entendu parler, et une feuille qui annonce quelque chose
-cesse d'être leur objet. Le déblaiement se dit en jeu, quand il les
-concerne.
+n'ont pas encore entendu parler. Le déblaiement se dit en jeu, quand il
+les concerne. Les 8 et 9 mai ne sont pas grisés non plus : les griser
+annoncerait que ces jours sont déjà pris, or descendre doit rester leur
+décision.
 
-Ce qu'elle ne montre pas, et c'est aussi important : **ni la descente, ni
-le 13, ni le 20 mai.** Les cinq jours volés ne doivent pas être
-prévisibles.
+Deux contraintes de fabrication, parce qu'elle vit au centre d'une table :
 
-**Les cases des 8 et 9 mai restent vides.** Les griser annoncerait que ces
-jours sont déjà pris, donc qu'il va se passer quelque chose — or descendre
-doit rester leur décision. Ils croient disposer de douze demi-journées, ils
-en ont huit, et la bande de déblaiement les rattrape tard.
-
-Trois contraintes de fabrication, parce qu'elle vit au centre d'une table :
-
-    dans les quatre sens   les jours sont répétés en haut et en bas,
-                           pour ceux d'en face
-    on écrit dessus        cases de 20 mm, papier mat et épais : la croix
-                           se trace au crayon et elle reste cinq séances
+    on écrit dessus        deux cases de 17 × 11 mm par jour, papier mat
+                           et épais : la croix se trace au crayon et elle
+                           reste cinq séances
     aucune information     rien que le MJ saurait et qu'eux ignorent
     du meneur
+
+La répétition des en-têtes en haut et en bas, qui servait à ceux d'en
+face, n'a plus lieu d'être : le quantième est écrit dans chaque case et
+un chiffre se lit de tous les côtés.
 
 Fond blanc : l'impression se fait sur papier déjà jauni.
 Rendu par Chrome — voir scripts/rendu.py.
@@ -62,103 +82,70 @@ F = (RACINE / "assets" / "fonts").as_uri()
 # Sur quoi ça s'imprime, et où. `python3 scripts/papiers.py` en fait la
 # liste de courses — il lit cette constante sans exécuter le script.
 PAPIER = [
-    {"doc": "La feuille du temps",
+    {"doc": "Le calendrier de mai 1932",
      "papier": "papier jauni", "grammage": "160 g", "ou": "maison", "stock": True,
      "format": "A4", "feuilles": 1,
-     "note": "à l'italienne · **cochée au crayon cinq séances**, d'où le grammage"},
+     "note": "à l'italienne · **coché au crayon cinq séances**, d'où le grammage"},
 ]
 
-# (quantième, jour de la semaine, demi-journées disponibles)
-#
-# Le 10 n'a que sa matinée : le train part le soir, et l'après-midi se
-# passe à rejoindre la gare et à charger. On ne part pas en expédition
-# le jour du départ — mais on a bien cette dernière demi-journée, et
-# c'est un choix serré de plus.
-JOURS = [("3", "mardi", 2), ("4", "mercredi", 2), ("5", "jeudi", 2),
-         ("6", "vendredi", 2), ("7", "samedi", 2), ("8", "dimanche", 2),
-         ("9", "lundi", 2), ("10", "mardi", 1)]
+REPOS = {6, 12, 18, 24, 30}
+COLONNES = ["PREMIER", "DEUXIÈME", "TROISIÈME", "QUATRIÈME", "CINQUIÈME", "REPOS"]
 
 
+def case(q):
+    """Un jour : son quantième, et deux cases à cocher."""
+    cls = " repos" if q in REPOS else ""
+    mention = '<span class="mention">repos</span>' if q in REPOS else ""
+    return (f'<div class="jour{cls}"><span class="q">{q}</span>{mention}'
+            f'<div class="demis"><div class="d"></div><div class="d"></div></div></div>')
 
-def entetes(bas=False):
-    cls = " bas" if bas else ""
-    return "".join(
-        f'<div class="jour{cls}">'
-        f'<span class="q">{q}</span><span class="s">{sem}</span></div>'
-        for q, sem, _ in JOURS)
 
-
-def cases(rang, moment):
-    """Une rangée. Le 10 mai n'a pas d'après-midi : le train part le soir."""
-    out = []
-    for i, (q, _, demis) in enumerate(JOURS):
-        if rang >= demis:
-            out.append('<div class="case absente"></div>')
-        elif i == 0:
-            out.append(f'<div class="case"><span class="moment">{moment}</span></div>')
-        else:
-            out.append('<div class="case"></div>')
-    return f'<div class="bande"><div class="quand"></div>{"".join(out)}</div>'
-
+grille = "".join(
+    f'<div class="rang">{"".join(case(q) for q in range(d, d + 6))}</div>'
+    for d in range(1, 31, 6))
 
 HTML = f"""<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><style>
 @font-face {{ font-family: PT; src: url({F}/PTSerif-Regular.ttf); }}
 @font-face {{ font-family: PT; src: url({F}/PTSerif-Bold.ttf); font-weight: bold; }}
 
-@page {{ size: A4 landscape; margin: 14mm 16mm; }}
+@page {{ size: A4 landscape; margin: 10mm 14mm; }}
 *, *::before, *::after {{ box-sizing: border-box; }}
 html, body {{ margin: 0; padding: 0; }}
 body {{ font-family: PT, serif; color: #241f1a; }}
 
-h1 {{ font-size: 13pt; font-weight: bold; letter-spacing: .26em; text-align: center;
-      margin: 0 0 1mm; }}
-.sous {{ text-align: center; font-size: 8pt; color: #6b6356; letter-spacing: .08em;
-         margin: 0 0 6mm; }}
+h1 {{ font-size: 17pt; font-weight: bold; letter-spacing: .3em; text-align: center;
+      margin: 0; }}
+.sous {{ text-align: center; font-size: 8.4pt; color: #6b6356; letter-spacing: .14em;
+         margin: .8mm 0 3.4mm; }}
 
-/* ── la grille : une colonne de libellé, sept colonnes de jours ── */
-.bande {{ display: flex; align-items: stretch; }}
-.quand {{ width: 4mm; flex: none; }}
-/* Le moment se dit une fois, dans la première case, et pas en colonne :
-   il compte — Gordeeva ne parle que l'après-midi, Nesteroff aussi — mais
-   une colonne de libellés faisait grille administrative. */
-.case .moment {{ position: absolute; left: 1.6mm; top: 1.2mm; font-size: 6.4pt;
-                 letter-spacing: .1em; color: #a9a194; }}
-.jour, .case {{ flex: 1; }}
+/* ── en-tête des six colonnes : les jours du six-jours n'ont pas de nom ── */
+.tete {{ display: flex; border-bottom: 1px solid #4a443c; padding-bottom: 1.4mm;
+         margin-bottom: 1.8mm; }}
+.tete div {{ flex: 1; text-align: center; font-size: 6.6pt; letter-spacing: .16em;
+             color: #8a8276; }}
+.tete div:last-child {{ color: #4a443c; }}
 
-.jour {{ text-align: center; padding: 0 0 1.6mm; }}
-.jour.bas {{ padding: 1.6mm 0 0; }}
-.jour .q {{ display: block; font-size: 15pt; font-weight: bold; line-height: 1; }}
-.jour .s {{ display: block; font-size: 7pt; letter-spacing: .1em; color: #8a8276;
-            margin-top: .6mm; }}
-.jour.barre .q, .jour.barre .s {{ color: #a9a194; }}
+.rang {{ display: flex; }}
+.jour {{ flex: 1; margin: 0 1mm 2mm; padding: 1.2mm 1.4mm 1.4mm;
+         border: .9px solid #4a443c; background: #fff; }}
+.jour .q {{ font-size: 13pt; font-weight: bold; line-height: 1; }}
+.jour .mention {{ font-size: 5.8pt; letter-spacing: .12em; color: #8a8276;
+                  margin-left: 1.6mm; }}
+.jour.repos {{ border-style: dashed; }}
 
-.case {{ height: 20mm; border: .9px solid #4a443c; margin: 0 1mm 2mm;
-         background: #fff; position: relative; }}
-.case.absente {{ border: none; background: none; }}
+.demis {{ display: flex; gap: 1.4mm; margin-top: 1.4mm; }}
+.demis .d {{ flex: 1; height: 11mm; border: .7px solid #8a8276; }}
 
-
-/* ── le retour, en pied ───────────────────────────────────────── */
-.retour {{ display: flex; align-items: baseline; gap: 4mm; margin-top: 10mm;
-           border-top: 1px solid #4a443c; padding-top: 2.4mm;
-           font-size: 9pt; letter-spacing: .04em; }}
-.retour b {{ letter-spacing: .1em; }}
-.retour .pointille {{ flex: 1; border-bottom: .7px dotted #a9a194; }}
 </style></head><body>
 
-<h1>MAGNITOGORSK — MAI 1932</h1>
-<div class="sous">une croix par demi-journée employée</div>
+<h1>МАЙ 1932</h1>
+<div class="sous">MAGNITOGORSK</div>
 
-<div class="bande"><div class="quand"></div>{entetes()}</div>
-{cases(0, "matin")}
-{cases(1, "après-midi")}
-<div class="bande"><div class="quand"></div>{entetes(bas=True)}</div>
-
-
-<div class="retour">
-  <span><b>LE TRAIN</b> — 10 mai au soir</span>
-  <span class="pointille"></span>
-  <span><b>MOSCOU</b> — 17 mai</span>
-</div>
+<div class="tete">{"".join(f"<div>{c}</div>" for c in COLONNES)}</div>
+{grille}
+<div class="rang">{case(31)}<div class="jour vide" style="border:none"></div>
+<div class="jour vide" style="border:none"></div><div class="jour vide" style="border:none"></div>
+<div class="jour vide" style="border:none"></div><div class="jour vide" style="border:none"></div></div>
 
 </body></html>"""
 

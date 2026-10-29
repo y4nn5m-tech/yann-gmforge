@@ -1404,16 +1404,29 @@ Ils sortent de la zone de triage. Le bruit tombe d'un cran. Devant eux, la ville
 > `sources/magnitogorsk/plan-74.png` : le plan de l'auteur, sa légende, et les deux mentions de
 > distance sur les routes qui sortent de la carte.
 
-### La feuille du temps, posée dans la foulée
+### Le calendrier, posé dans la foulée
 
 > **Le compteur démarre ici, et ce doit être un geste.**
 >
-> Sortir la feuille de carnet, la poser au centre de la table à côté du plan, et **barrer le jour 1
-> devant eux**.
+> Sortir le calendrier de mai 1932, le poser au centre de la table à côté du plan, et **barrer le
+> jour 1 devant eux**.
 >
 > Leur dire la règle une fois, en clair : **sept jours sur place, deux demi-journées par jour, et le
 > train du retour part le 10 au soir.** Ne pas dire combien de pistes les attendent — ils le
 > découvriront au briefing, et le calcul se fera tout seul.
+
+> **La feuille ne porte aucune de ces informations, et c'est voulu** : ni échéance, ni légende, ni
+> mode d'emploi. C'est un calendrier de bureau, pas une fiche de règles — le meneur dit la règle
+> une fois, et le papier ne fait que garder la trace de ce qu'ils dépensent.
+>
+> **Il montre le mois entier, en six-jours.** Depuis fin 1931, l'URSS vit sous la *chestidnevka* :
+> cinq jours de travail, un de repos aux **6, 12, 18, 24 et 30**, et plus de dimanche. Les trente
+> et un jours portent chacun deux cases — n'en mettre que sur les huit du séjour annoncerait qu'il
+> s'arrête le 10.
+>
+> **Le 6 mai tombe donc en jour de repos, au milieu de leur séjour, et ça ne coûte aucun créneau** :
+> le combinat tourne en continu. C'est de la couleur — bureaux en effectif réduit, réfectoire plein
+> à une autre heure, du monde dehors — jamais une porte fermée.
 
 > **Pourquoi ici et pas plus tard.** Le calendrier arrive juste avant leur premier arbitrage :
 > baraquement ou police. Posé après l'installation, il ne serait qu'une information. Posé

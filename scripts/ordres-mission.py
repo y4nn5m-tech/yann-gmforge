@@ -85,7 +85,7 @@ EQUIPE = {
         "GUSEVA, Alina" if F_GUS else "GUSEV, Alekseï",
         "Bureau de la Logistique Industrielle — Moscou",
         "Camarade,",
-        "— remis au bureau 320 le 25 avril 1932 —",
+        "— remis au bureau 320 le 24 avril 1932 —",
         "Ordre n° 0447 / L.I.",
         F_GUS),
     "voronin": (
@@ -116,6 +116,91 @@ AUTORITE_H = """<p>En qualité d'officier de l'Armée Rouge, vous exercez sur ce
 sécurité des personnes, et de la transmission du rapport final à Moscou.</p>"""
 AUTORITE_F = """<p>Vous veillerez à la bonne tenue du groupe, à la sécurité des personnes et à la
 transmission du rapport final à Moscou.</p>"""
+
+# ══ Les deux maisons ══════════════════════════════════════════════
+#
+#  Trois des quatre documents viennent de la police politique : leurs
+#  destinataires ont été convoqués par des hommes en manteau, et
+#  l'en-tête ne leur apprend rien qu'ils ne sachent déjà.
+#
+#  **Celui de Gusev· vient de sa couverture.** Rien n'y est secret,
+#  personne n'y est nommé, et il ne parle ni d'enquête ni de sabotage :
+#  c'est un détachement de coordination logistique, et c'est tout ce que
+#  son directeur adjoint doit pouvoir y lire.
+
+ORGANE_OGPU = """    DIRECTION POLITIQUE D'ÉTAT UNIFIÉE (OGPU)<br>
+    AUPRÈS DU CONSEIL DES COMMISSAIRES DU PEUPLE
+    <div class="sec">SECTION SPÉCIALE — AFFAIRES INDUSTRIELLES</div>"""
+
+ORGANE_LI = """    COMMISSARIAT DU PEUPLE À L'INDUSTRIE LOURDE<br>
+    BUREAU DE LA LOGISTIQUE INDUSTRIELLE
+    <div class="sec">SECTION DES DÉTACHEMENTS ET MISSIONS</div>"""
+
+VERTU_OGPU = """<p>En vertu de la décision conjointe du Commissariat du Peuple à la Défense et de la
+Direction Politique d'État Unifiée (OGPU), vous êtes par la présente {detache} de votre poste pour
+une durée de <b>trois (3) semaines</b>, à compter du 26 avril 1932.</p>"""
+
+VERTU_LI = """<p>Par décision du directeur du Bureau, vous êtes {detache} de votre poste pour une
+durée de <b>trois (3) semaines</b>, à compter du 26 avril 1932.</p>"""
+
+OBJET_OGPU = """<p>Vous êtes {affecte} à une mission conjointe sur le complexe métallurgique de
+Magnitogorsk (district de Tcheliabinsk), dans le cadre d'une enquête portant sur des faits présumés
+de <b>sabotage et de haute trahison</b>.</p>"""
+
+# **La couverture ne nomme pas la commission, et c'est ce qui la tient.** Un
+# ordre qui enverrait Gusev· « faire de la logistique » n'expliquerait pas
+# pourquoi il ne quitte pas trois enquêteurs pendant trois semaines. Un
+# détachement sur réquisition, lui, l'explique sans rien dire de l'enquête —
+# et Lévine, qui signe sans savoir à qui il prête un homme, est crédible.
+OBJET_LI = """<p>Vous êtes {affecte} au complexe métallurgique de Magnitogorsk (district de
+Tcheliabinsk) et mis à la disposition de la commission qui s'y rend, au titre de la
+<b>coordination des approvisionnements</b>. Le présent détachement fait suite à la demande
+n° 2187 du 21 avril 1932.</p>"""
+
+EQUIPE_BLOC = """<p>Une équipe interdisciplinaire vous accompagnera. Sa composition est la
+suivante :</p>
+
+<div class="equipe">
+  {autres}
+</div>"""
+
+INSTR_OGPU = """<ol>
+<li><b>Conduite de la mission.</b> Vous {verbe} jusqu'à Magnitogorsk et veillerez au
+bon déroulement de l'enquête sur place.</li>
+<li><b>Coordination locale.</b> Un guide vous attendra en gare de Magnitogorsk. Il vous mettra en
+relation avec les organes compétents de la police politique locale, placés sous l'autorité du
+camarade Igor PAVLENKO.</li>
+<li><b>Rapport.</b> Un rapport final sera remis à votre retour, dans un délai de
+<b>quarante-huit (48) heures</b>.</li>
+<li><b>Discipline.</b> Toute initiative dépassant le cadre des présentes instructions devra faire
+l'objet d'une demande préalable. Aucun engagement ni promesse ne pourra être fait au nom de l'État
+sans autorisation expresse.</li>
+</ol>"""
+
+# Trois lignes, et la dernière est la seule qui compte : elle ne veut
+# rien dire, ou elle veut tout dire. On la trouve sur un détachement
+# sur deux.
+INSTR_LI = """<ol>
+<li><b>Rattachement.</b> Vous accompagnerez la commission pour la durée de sa mission et lui
+apporterez votre concours pour toute question d'approvisionnement.</li>
+<li><b>Relevés.</b> Vous établirez l'état des approvisionnements parvenus au complexe depuis le
+1er janvier 1932, par poste et par convoi.</li>
+<li><b>Compte rendu.</b> Un compte rendu sera remis au Bureau à votre retour.</li>
+<li><b>Disposition.</b> L'intéressé se tiendra à la disposition des organes compétents pour toute
+question relevant de leur ressort.</li>
+</ol>"""
+
+SIGN_OGPU = """    Pour la Direction Politique<br>d'État Unifiée,<br>
+    <b>G. G. IAGODA</b><br>
+    Chef adjoint de l'OGPU
+    <div class="plume paraphe">{paraphe}</div>"""
+
+SIGN_LI = """    Pour le Bureau de la<br>Logistique Industrielle,<br>
+    <b>M. S. LÉVINE</b><br>
+    Directeur adjoint"""
+
+LAISSEZ = """<div class="laissez">Vous présenterez le présent document à toute autorité militaire ou
+  administrative qui en ferait la demande, en guise de laissez-passer.</div>"""
 
 # ── le cachet : textPath pour l'arc, feTurbulence pour l'encre ──────
 TAMPON = """
@@ -182,6 +267,24 @@ def document(cle):
              else "rejoindrez l'équipe")
     rang = list(EQUIPE).index(cle)
     entree = ENTREES[cle]
+    # **Celui de Gusev· ne vient pas de la même maison.** Son numéro le
+    # dit — *0447 / L.I.*, Logistique Industrielle — et toute sa scène
+    # repose là-dessus : Lévine, qui le lui fait signer, **ne sait
+    # rien**. Un imprimé de la police politique estampillé SECRET dans
+    # les mains d'un directeur adjoint d'un bureau d'approvisionnement
+    # tuerait la couverture avant qu'elle existe.
+    couv = cle == "gusev"
+    organe = (ORGANE_LI if couv else ORGANE_OGPU)
+    secret = "" if couv else '<div class="secret">SECRET</div>'
+    vertu = (VERTU_LI if couv else VERTU_OGPU).format(detache=detache)
+    objet = (OBJET_LI if couv else OBJET_OGPU).format(affecte=affecte)
+    equipe = ("" if couv else EQUIPE_BLOC.format(autres=autres))
+    instructions = (INSTR_LI if couv else INSTR_OGPU.format(verbe=verbe))
+    signature = (SIGN_LI if couv else SIGN_OGPU.format(
+        paraphe=ecrire("Ягода", graine=201, encre=True, amplitude=1.4)))
+    laissez = ("" if couv else LAISSEZ)
+    tampon = ("" if couv else TAMPON)
+
     # **Seul Voronin reçoit son ordre de la main d'un homme nommé.** Les
     # trois autres se le voient remettre par un service, et la mention de
     # transmission manuscrite n'aurait personne pour la signer.
@@ -240,7 +343,10 @@ li {{ margin-bottom: 1.5mm; }}
 .bas {{ display: flex; justify-content: space-between; align-items: flex-start;
         margin-top: 4mm; gap: 8mm; }}
 .bas .laissez {{ width: 52%; text-align: justify; }}
-.sign {{ width: 44%; text-align: center; font-size: 8.3pt; line-height: 1.6; }}
+/* `margin-left: auto` : sans laissez-passer à sa gauche — le document
+   de couverture n'en a pas — la signature glisserait au bord gauche. */
+.sign {{ width: 44%; margin-left: auto; text-align: center;
+         font-size: 8.3pt; line-height: 1.6; }}
 
 svg.tampon {{ position: absolute; width: 40mm; height: 40mm;
               right: 6mm; bottom: 11mm; transform: rotate(-12deg);
@@ -263,11 +369,9 @@ svg.tampon {{ position: absolute; width: 40mm; height: 40mm;
 
 <div class="haut">
   <div class="organe">
-    DIRECTION POLITIQUE D'ÉTAT UNIFIÉE (OGPU)<br>
-    AUPRÈS DU CONSEIL DES COMMISSAIRES DU PEUPLE
-    <div class="sec">SECTION SPÉCIALE — AFFAIRES INDUSTRIELLES</div>
+{organe}
   </div>
-  <div class="secret">SECRET</div>
+  {secret}
 </div>
 <div class="filet"></div>
 
@@ -287,38 +391,19 @@ svg.tampon {{ position: absolute; width: 40mm; height: 40mm;
 
 <p>{appel}</p>
 
-<p>En vertu de la décision conjointe du Commissariat du Peuple à la Défense et de la Direction
-Politique d'État Unifiée (OGPU), vous êtes par la présente {detache} de votre poste pour une durée
-de <b>trois (3) semaines</b>, à compter du 26 avril 1932.</p>
+{vertu}
 
 <h2>OBJET DU DÉTACHEMENT</h2>
 
-<p>Vous êtes {affecte} à une mission conjointe sur le complexe métallurgique de Magnitogorsk
-(district de Tcheliabinsk), dans le cadre d'une enquête portant sur des faits présumés de
-<b>sabotage et de haute trahison</b>.</p>
+{objet}
 
-<p>Une équipe interdisciplinaire vous accompagnera. Sa composition est la suivante :</p>
-
-<div class="equipe">
-  {autres}
-</div>
+{equipe}
 
 {autorite}
 
 <h2>VOS INSTRUCTIONS</h2>
 
-<ol>
-<li><b>Conduite de la mission.</b> Vous {verbe} jusqu'à Magnitogorsk et veillerez au
-bon déroulement de l'enquête sur place.</li>
-<li><b>Coordination locale.</b> Un guide vous attendra en gare de Magnitogorsk. Il vous mettra en
-relation avec les organes compétents de la police politique locale, placés sous l'autorité du
-camarade Igor PAVLENKO.</li>
-<li><b>Rapport.</b> Un rapport final sera remis à votre retour, dans un délai de
-<b>quarante-huit (48) heures</b>.</li>
-<li><b>Discipline.</b> Toute initiative dépassant le cadre des présentes instructions devra faire
-l'objet d'une demande préalable. Aucun engagement ni promesse ne pourra être fait au nom de l'État
-sans autorisation expresse.</li>
-</ol>
+{instructions}
 
 <h2>DURÉE ET ÉCHÉANCE</h2>
 
@@ -328,13 +413,9 @@ sans autorisation expresse.</li>
 </div>
 
 <div class="bas">
-  <div class="laissez">Vous présenterez le présent document à toute autorité militaire ou
-  administrative qui en ferait la demande, en guise de laissez-passer.</div>
+  {laissez}
   <div class="sign">
-    Pour la Direction Politique<br>d'État Unifiée,<br>
-    <b>G. G. IAGODA</b><br>
-    Chef adjoint de l'OGPU
-    <div class="plume paraphe">{ecrire("Ягода", graine=201, encre=True, amplitude=1.4)}</div>
+{signature}
   </div>
 </div>
 
@@ -345,7 +426,7 @@ sans autorisation expresse.</li>
 <div class="plume registre">{ecrire(entree, graine=202 + rang, amplitude=1.2)}<br><small>{ecrire("24.IV.32", graine=203 + rang, amplitude=1.2)}</small></div>
 {remisle}
 
-{TAMPON}
+{tampon}
 
 </body></html>"""
 

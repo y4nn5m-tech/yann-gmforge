@@ -87,7 +87,14 @@ def declaration(fichier):
 
 
 TITRES = {"maison": "CHEZ SOI — la Brother plafonne à 163 g, duplex à 105",
-          "imprimerie": "À L'IMPRIMERIE — rigide ou grand format"}
+          "imprimerie": "À L'IMPRIMERIE — rigide ou grand format",
+          "papeterie": "EN PAPETERIE — ce qui ne s'imprime pas"}
+
+# Le troisième groupe ne compte pas dans le total de feuilles : des
+# chemises cartonnées ne sont pas du papier d'impression, et les
+# mélanger fausserait les deux chiffres qui servent — ce qui passe dans
+# la Brother, et ce qu'il faut acheter en ramette.
+HORS_RAME = {"papeterie"}
 
 
 def main():
@@ -105,16 +112,19 @@ def main():
 
     total = 0
     print("\nLISTE DE COURSES — les accessoires")
-    for ou in ("maison", "imprimerie"):
+    for ou in ("maison", "imprimerie", "papeterie"):
         if ou not in lots:
             continue
         sous = sum(d["feuilles"] for g in lots[ou].values() for _, d in g)
-        total += sous
-        print(f"\n{TITRES[ou]}  ({sous} feuilles)\n")
+        if ou not in HORS_RAME:
+            total += sous
+        unite = "pièces" if ou in HORS_RAME else "feuilles"
+        print(f"\n{TITRES[ou]}  ({sous} {unite})\n")
         for (papier, grammage, fmt), docs in sorted(lots[ou].items()):
             n = sum(d["feuilles"] for _, d in docs)
             stock = " — DÉJÀ EN STOCK" if all(d.get("stock") for _, d in docs) else ""
-            print(f"  ▸ {papier}, {grammage} — {fmt} — {n} feuille"
+            mot = "pièce" if ou in HORS_RAME else "feuille"
+            print(f"  ▸ {papier}, {grammage} — {fmt} — {n} {mot}"
                   f"{'s' if n > 1 else ''}{stock}")
             for script, d in docs:
                 print(f"      {d['feuilles']}×  {d['doc']}")
@@ -122,8 +132,8 @@ def main():
                     print(f"          {d['note']}")
                 print(f"          scripts/{script}")
             print()
-    acheter = sum(d["feuilles"] for g in lots.values() for c in g.values()
-                  for _, d in c if not d.get("stock"))
+    acheter = sum(d["feuilles"] for ou, g in lots.items() if ou not in HORS_RAME
+                  for c in g.values() for _, d in c if not d.get("stock"))
     print(f"  {total} feuilles en tout, dont {acheter} à se procurer. "
           f"Sans compter les ratés.\n")
     return 0

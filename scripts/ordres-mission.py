@@ -164,12 +164,23 @@ suivante :</p>
   {autres}
 </div>"""
 
+# **Pavlenko dirige la milice, pas l'OGPU**, et l'ordre doit le dire :
+# les sept rapports de `rapports-police.py` portent РАБОЧЕ-КРЕСТЬЯНСКАЯ
+# МИЛИЦИЯ, et la source parle du « responsable de la cellule locale de
+# la police » — ses dossiers sont des affaires ordinaires. Écrire
+# « police politique locale » faisait de lui un chef d'OGPU sur un
+# papier que les joueurs ont en main depuis Moscou.
+#
+# Et c'est plus fort ainsi : on envoie quatre personnes, dont un officier
+# de l'Armée rouge, auditer un chef de milice. Rien là-dedans n'est
+# normal, et c'est exactement ce que la scène du compartiment demande
+# qu'on laisse passer sans le souligner.
 INSTR_OGPU = """<ol>
 <li><b>Conduite de la mission.</b> Vous {verbe} jusqu'à Magnitogorsk et veillerez au
 bon déroulement de l'enquête sur place.</li>
 <li><b>Coordination locale.</b> Un guide vous attendra en gare de Magnitogorsk. Il vous mettra en
-relation avec les organes compétents de la police politique locale, placés sous l'autorité du
-camarade Igor PAVLENKO.</li>
+relation avec les services de la <b>milice ouvrière et paysanne</b> de Magnitogorsk, placés sous
+l'autorité du camarade Igor PAVLENKO.</li>
 <li><b>Rapport.</b> Un rapport final sera remis à votre retour, dans un délai de
 <b>quarante-huit (48) heures</b>.</li>
 <li><b>Discipline.</b> Toute initiative dépassant le cadre des présentes instructions devra faire

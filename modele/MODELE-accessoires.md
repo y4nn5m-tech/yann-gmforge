@@ -83,6 +83,54 @@ tient.** Si la réponse est « ailleurs », la mention va sur une autre feuille.
 
 ---
 
+## Le contenant fait partie du document
+
+**Une pièce administrative n'arrive jamais seule : elle arrive dans quelque chose.** Chemise
+cartonnée, enveloppe, sous-chemise, parapheur — et ce contenant n'est pas un emballage, c'est
+**le support de ce que le document lui-même ne peut pas porter**.
+
+Un rapport d'une feuille posé nu sur une table n'est pas un dossier, c'est une photocopie. La même
+feuille dans une chemise écrite à la main devient un objet qu'on ouvre, qu'on referme, qu'on
+repousse vers quelqu'un.
+
+Ce que le contenant porte, et qui n'a pas d'autre endroit où aller :
+
+| | |
+|---|---|
+| **les dates de circulation** | déposé le 10, reçu le 29 — au crayon dans un coin. Sur le document, elles n'auraient pas de place ; sur la chemise, elles sont à leur place |
+| **la cote** | elle classe, elle date, et **elle se suit d'une chemise à l'autre** |
+| **l'épaisseur** | deux dossiers côte à côte, l'un gros et l'autre mince, disent le soin qu'on a mis à chacun **avant d'être ouverts** |
+| **ce qui s'ajoute en cours de partie** | une pièce rapportée, une note, une copie. Un dossier qui grossit pendant la partie est un objet vivant |
+
+> **Le contenant s'achète, il ne s'imprime pas.** Une chemise ordinaire en kraft ou en gris-beige,
+> sans rabat ni élastique, coûte quelques centimes. L'imiter en impression coûte cher et se voit.
+
+**Et on n'imprime rien dessus.** Le titre, la cote et les annotations se portent **à la main, au
+même stylo, d'une seule traite** : c'est ce qui donne à une pile l'air d'avoir été tenue par un
+greffier. Une étiquette imprimée bien droite fait exactement l'inverse — voir *le manuscrit*.
+
+### Épaissir sans rien dire
+
+La tentation, une fois la chemise achetée, est de la remplir. **Elle est à surveiller**, parce
+qu'elle entre en collision frontale avec la règle qui prime sur tout : une pièce de plus est une
+occasion de plus de donner la réponse.
+
+**La sortie est dans la nature des pièces ajoutées.** Un dossier administratif réel est gros de
+procédure et pauvre d'information : bordereau de transmission, accusé de réception, feuille de
+couverture avec des cases, convocation sans suite, demande de pièce restée lettre morte. Ces
+pièces-là **épaississent sans rien apprendre** — et elles disent quelque chose de juste sur le
+service qui a monté le dossier.
+
+> **Vérifier la source avant d'épaissir.** Si elle décrit une police qui travaille mal et des
+> dossiers « clos de manière prématurée », alors **un dossier épais de vraies pièces la
+> contredit**. L'épaisseur doit être de la paperasse, et la minceur de l'enquête doit rester
+> visible.
+
+**Et l'asymétrie est l'information** : le dossier que l'auteur du dossier prenait au sérieux est
+le seul qui contienne de la matière. Les autres sont des chemises bien tenues autour de rien.
+
+---
+
 ## Le régime historique
 
 **La forme peut glisser dans le temps. Le contenu, non.**

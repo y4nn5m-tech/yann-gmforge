@@ -72,6 +72,12 @@ PAPIER = [
      "papier": "papier jauni", "grammage": "160 g", "ou": "maison", "stock": True,
      "format": "A4", "feuilles": 2,
      "note": "recto seul"},
+    {"doc": "Les chemises des dossiers",
+     "papier": "chemise cartonnée kraft ou gris-beige", "grammage": "~250 g",
+     "ou": "papeterie", "format": "A4", "feuilles": 10,
+     "note": "**rien d'imprimé dessus** : le titre, la cote et les dates se portent "
+             "à la main, même stylo pour les huit · sans rabat ni élastique · "
+             "huit en service, deux de rab"},
 ]
 
 

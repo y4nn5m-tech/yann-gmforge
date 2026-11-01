@@ -230,6 +230,10 @@ sabotages, et elle ne sait rien. C'est **Zinaida Plotnikova** qui l'a vue partir
 
 **Ce n'est pas une preuve. C'est une raison de la confronter.**
 
+> **Le détail du mercredi est tranché en répétition** — comment la feuille se lit, pourquoi le
+> prévisionnel n'existe pas sur papier, ce qu'Anna risque vraiment, et la fausse déduction à ne
+> pas encourager. Voir `preparation/magnitogorsk/80-sabotages.md`, *Le mercredi d'Anna*.
+
 ### Étape 5 — la veille nocturne, ou la confrontation
 
 Les deux chemins restent ouverts, et c'est le gain de la refonte :

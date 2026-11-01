@@ -87,6 +87,89 @@ n'obtient plus rien.
 **La friction vient de l'activité du lieu, jamais du mauvais vouloir des gens.** Sinon l'enquête
 devient une série de serrures.
 
+**Une fausse piste doit pouvoir se refermer.** Sinon ce n'est pas une piste, c'est une fuite : les
+joueurs y versent des créneaux et n'en rapportent rien, pas même une certitude négative.
+
+Le test : **qui peut dire non, et comment ?** La négligence se referme en une question à Moskalev.
+Le grief de Bakhytov se referme en vérifiant où il était. En revanche, *« sept ou huit manœuvres
+sont passés au hangar depuis février, dont deux qui ne parlaient pas russe et qui sont repartis »*
+ne se referme jamais — on ne peut pas prouver que des inconnus introuvables n'ont rien fait.
+
+**Improvisé en séance pour élargir le cercle, et retiré pour ça.** Même sort pour *« la nuit, des
+gens coupent par le dépôt »* : ça ouvrait l'enquête à toute la ville.
+
+> **Ce qu'on garde de l'intention : élargir sans ouvrir.** L'outillage qui traîne depuis février —
+> des limes et des scies sous les bâches — explique que n'importe qui **de l'équipe** ait eu l'outil
+> sous la main. Ça lève une objection sans créer un seul suspect de plus.
+>
+> **L'équipe reste close à neuf.** C'est ce qui rendra la contradiction du 27 avril décisive au
+> lieu de la noyer — et c'est déjà ce que Faddei a dit : *« si c'est volontaire, c'est quelqu'un
+> d'ici. »*
+
+**Une porte qui s'ouvre sur un travail que la table ne peut pas faire se supprime à la source.**
+Pas « se referme plus tard », pas « se décourage » : **elle n'existe pas.**
+
+Improvisé en séance : *« à six heures, l'équipe change »*. Une équipe du soir, c'est neuf
+interrogatoires de plus et zéro information — et c'était en plus une contradiction, puisque
+Shcherbakov venait de dire que *personne ne travaille de nuit ici, sauf la mine et les fourneaux*.
+
+> **Et la suppression rend le dossier meilleur**, ce qui est la marque d'un bon correctif. Le
+> secteur transport s'arrête avec le jour : vers six heures on rentre les wagonnets, Udovenko met
+> la barre, et **il n'y a plus personne jusqu'à cinq heures du matin** — pas même un gardien, qui
+> serait une porte de plus et un alibi de moins.
+>
+> Onze heures de secteur désert, un hangar fermé par une barre sans cadenas : c'est ce qui rend
+> les nuits possibles pour n'importe lequel des neuf, et c'est ce qu'on veut qu'ils comprennent.
+
+**Une réplique de PNJ ne se relit pas.** À la table, personne ne peut demander « explique-moi cette
+phrase » : elle passe, ou elle est perdue. Et dans un interrogatoire, une phrase perdue coûte une
+piste.
+
+Celle qui a raté : *« Donc il est sorti de chez moi dans cet état-là, ou il y est entré après. Je
+ne peux pas vous dire lequel. »* Le contenu était juste — le wagonnet a été saboté soit au hangar,
+soit dehors après sa sortie — mais il fallait tenir trois dates en tête et dénouer un « ou… ou »
+pour l'entendre.
+
+**Le remède est mécanique : deux temps.** Les faits nus d'abord, courts, dans l'ordre. La
+conclusion ensuite, dans une phrase séparée.
+
+> *« Entré chez moi le 26. Ressorti le 27 au soir. Déraillé le 29 au matin. »*
+>
+> *« Alors ou on l'a limé chez moi. Ou on l'a limé dehors, après le 27. »*
+>
+> *« Les deux nuits où il était dehors, il était sur la voie de garage avec les autres —
+> n'importe qui pouvait l'atteindre. Les six jours où il était chez moi, il n'y avait que moi et
+> mes deux gars. »*
+
+**Lire les gens est un fait de fiche, et un fait de fiche ne rend jamais de verdict.**
+
+Question posée en séance : *un jet de Bagou avec Avantage pour savoir si elle ment ?* Non — **ce
+jet n'existe pas dans ce système.** Cthulhu Hack n'a que deux dés d'usage : Torche pour ce qui se
+cherche dans le monde physique, Bagou pour ce qui s'obtient de quelqu'un. Et le modèle tranche :
+*la compétence dit-elle ce que le personnage **sait**, ou ce qu'il **tente** ?* Pour un agent
+d'infiltration de quinze ans de métier, lire une attitude est un savoir. **On ne jette pas.**
+
+**Mais le fait de fiche donne ce que le personnage perçoit, jamais ce qu'il faut en conclure** —
+sinon l'enquête se termine et le joueur perd le seul plaisir qu'il y a à jouer un professionnel.
+
+| Ce que le meneur dit | Ce qu'il ne dit pas |
+|---|---|
+| le registre et les bons étaient **déjà sortis** sur sa table | « elle était prête » |
+| elle a donné l'écart du 26 **sans ouvrir le registre** | « c'est anormal » |
+| avant de répondre sur les écuries, **elle a regardé la fenêtre** | « elle calcule ce qu'on peut savoir » |
+
+Trois faits, et le meneur s'arrête. C'est au joueur de dire *« elle était prête »* — ou de ne rien
+dire.
+
+> **Où les dés reviennent vraiment** : si un joueur veut la **pousser**, l'amener à dire ce qu'elle
+> ne veut pas dire, c'est un test de Bagou — et à **Désavantage**, parce qu'elle est chez elle,
+> debout, avec une collègue dans la pièce et son chef derrière la cloison.
+
+**Le test d'écriture** : une réplique qui contient *« ou… ou »*, *« soit… soit »*, une
+subordonnée relative et une date dans la même phrase est à couper en trois. Un PNJ qui parle
+clairement n'est pas un PNJ qui dit tout — Udovenko se met lui-même dans la liste des suspects, et
+c'est précisément parce que c'est clair que ça pèse.
+
 **Un PNJ ne sait que ce qu'une bouche ou un papier lui a donné.** La faute se reconnaît à sa
 forme : *le PNJ sait ce que le joueur vient d'apprendre*. Un collègue de couloir qui lance
 « Magnitogorsk ? » trente secondes après la remise d'un ordre renvoie au joueur l'information
@@ -812,6 +895,106 @@ c'est une perte de temps.
 `25-lieux-et-presences.md` la fixe au **soir du jour 2 ou 3**, quand il sent que l'enquête déborde
 des cinq dossiers — et c'est ce qui la motive. L'avancer au jour 1 la viderait : il n'a encore
 aucune raison d'amadouer qui que ce soit.
+
+---
+
+## Révision 2 — ce qu'on rejouera autrement
+
+**À ressortir au moment de refaire une passe.** Ce qui suit n'est pas une correction de la note :
+c'est une liste de choses à essayer différemment, décidées en révision 1 et laissées en attente.
+
+### Interroger les PNJ à leur poste, pas dans la cabane
+
+**Révision 1 les a fait venir un par un** chez Faddei : Moskalev, Udovenko, Vasyukova. Ça marche,
+c'est rapide, et ça a trois défauts.
+
+| | |
+|---|---|
+| **Faddei est dans la pièce** | il inhibe tout le monde. Vasyukova n'a parlé qu'une fois sortie, et il a fallu qu'un joueur l'y emmène |
+| **on ne voit aucun lieu** | le hangar aux wagonnets, les écuries, le quai de chargement restent des mots. Or le hangar à barre et les soixante mètres qui le séparent des écuries sont de l'information |
+| **personne ne travaille** | la règle *un PNJ qui travaille ne s'arrête pas pour répondre* ne peut pas jouer : ils sont debout, les mains vides, à attendre la question |
+
+**En révision 2** : les joueurs vont les trouver. Udovenko sous un wagonnet, Plotnikova à l'écurie,
+Moskalev qui crie sur le quai, Vasyukova derrière sa cloison — **et Kazakova à côté d'elle**, ce
+qui change tout, puisqu'on ne peut plus parler de l'une sans que l'autre entende.
+
+> **Ce qu'on perd et qu'il faut compenser** : le rythme. Six déplacements coûtent du temps de
+> table. Prévoir de grouper par zone — dépôt, hangar, écuries — et d'élider les trajets en une
+> phrase.
+
+### À vérifier aussi en révision 2
+
+- **Les quatre pièces** se sont jouées dans la cabane, posées sur une table. Au hangar, Udovenko
+  les aurait reconnues au milieu de son outillage — c'est plus fort.
+- **Le tableau de service à la craie** n'a été qu'une mention. Le montrer, effacé et réécrit, en
+  passant devant la porte du dépôt.
+- **Gusev· a recruté Vasyukova comme informatrice** en révision 1, dehors, sans témoin. Vérifier ce
+  que ça coûte : elle est maladroite, elle a peur, et elle travaille à côté de la coupable.
+
+### Annexe — la visite au km 3,5
+
+**Scène non jouée en révision 1, et déjà survenue à une vraie table** : des joueurs débutants ont
+voulu aller voir la voie sur le chemin du Mont. Voilà de quoi la mener.
+
+**Ne pas refuser : annoncer le prix.** C'est la seule règle qui vaille pour les créneaux — on ne
+dit jamais non, on dit combien. *« Le km 3,5, c'est une heure de marche depuis le dépôt. Aller,
+chercher, revenir : vous y passez la demi-journée. Vous y allez ? »* Un groupe qui accepte en
+sachant a joué ; un groupe qu'on laisse partir sans savoir se sent volé.
+
+**Ce qu'ils trouvent est presque rien, et il faut l'assumer.** Le rail est remplacé depuis six
+jours, la voie roule, le ballast a été repris. La section déformée n'est même pas là — Faddei l'a
+dans sa caisse. Restent les traces du dégagement : le remblai en contrebas où trente tonnes de
+minerai sont tombées et où il en reste, une dizaine de mètres de traverses neuves, plus claires
+que les autres.
+
+> **Ne jamais y mettre un indice qui désigne** — pas de trace de pas, pas d'objet perdu, pas de
+> tissu accroché. Ce serait la réponse posée dans l'herbe, et c'est la règle qui prime du chapitre
+> des accessoires.
+
+**La récompense est technique, et elle est réelle.** Krasnov· sur place, sans jet : **on ne tord
+pas un rail.** C'est impossible à la main et il n'y a pas de machine. Ce qu'on fait, c'est
+desserrer les **éclisses** — les plaques boulonnées qui tiennent deux rails bout à bout — et
+déplacer l'about de quelques centimètres. Le rail n'est pas déformé, il est **désaligné**, et sous
+charge il chasse.
+
+| Ce que ça apprend | Ce que ça ferme ou ouvre |
+|---|---|
+| il faut une **clé à éclisses** — longue, lourde, spécifique | il y en a dans les caisses du secteur **depuis février**, Moskalev l'a dit |
+| **dix minutes** suffisent, seul | pas besoin de complicité |
+| **aucune force particulière** | ferme la piste du costaud, **rouvre le cercle entier** |
+| il faut **savoir où desserrer** | donc être du secteur |
+
+**Et le vrai gain est la géographie** : on atteint le km 3,5 à pied depuis le dépôt en moins d'une
+heure, sans clôture, sans éclairage, sans poste de garde sur tout le trajet, et de nuit personne
+ne voit personne. **C'est ce qui rend la veille nocturne jouable**, et c'est ce qu'ils payent avec
+leur demi-journée.
+
+---
+
+## Le soir du jour 1 — trois défauts d'écriture, dont une récidive
+
+**Rendre la main explicitement, à chaque fois.** La description s'était arrêtée sur *« il
+repart »*, et rien ne disait si le meneur avait fini. Quatre joueurs attendent alors de savoir si
+c'est à eux. **Terminer par une phrase qui rend la main**, et qui pose la situation telle qu'elle
+leur arrive : *« Vous êtes dehors, en pleine nuit, à huit kilomètres de la montagne, et tout le
+monde court. Qu'est-ce que vous faites ? »*
+
+**Récidive : la phrase sans verbe.** *« Vers dix heures et demie, la sirène. »* La règle est
+consignée depuis la répétition de Petrenko. → *« Vers dix heures et demie, une sirène se met à
+sonner. »*
+
+**La description qui oublie les joueurs.** La salle commune avait été écrite comme une notice de
+lieu — un poêle, trois lampes, quarante hommes. **Les joueurs doivent y entrer** : *« vous poussez
+la porte »*, *« quand vous entrez, les conversations baissent »*, *« vous avez vos manteaux de
+ville et quarante hommes qui savent d'où vous venez »*.
+
+**Et dire les choses en entier.** *« Une quarantaine d'hommes qui sortent de douze heures »* —
+douze heures de quoi ? *« Le réfectoire a fermé à deux heures. Il reste du pain. »* — ce qui
+voulait dire : vous ne mangerez pas ce soir, il n'y a que du pain. Une ellipse que le meneur
+comprend n'est pas une ellipse que la table comprend.
+
+> **Le repas n'est pas une incitation.** Le meneur dit ce qu'il y a et s'arrête. S'ils veulent
+> aller se coucher, ils vont se coucher : la soirée ne coûte rien et n'oblige à rien.
 
 ---
 

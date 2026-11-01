@@ -1566,3 +1566,48 @@ bras et une accréditation signée.
 Il est midi passé.
 
 *— la maquette s'arrête ici —*
+
+
+# Le soir du jour 1
+
+**MJ** — Le réfectoire a fermé à deux heures de l'après-midi : vous n'y mangerez pas ce soir. Une
+femme vous donne du pain à l'entrée du baraquement, deux tranches chacun, et c'est tout ce qu'il y
+aura.
+
+Vous poussez la porte de la salle commune parce que c'est la seule pièce chauffée du bâtiment. Il y
+a un poêle au milieu, trois lampes à huile, des bancs, et une quarantaine d'hommes qui rentrent de
+douze heures de travail et qui ne sont pas pressés d'aller dormir. Certains jouent aux cartes, un
+autre recoud une botte, ça fume et ça parle fort.
+
+Quand vous entrez, les conversations baissent dans un rayon de deux mètres autour de vous, et elles
+reprennent plus loin.
+
+Vous avez vos manteaux de ville, cinq chemises de la police sous le bras, et quarante hommes qui
+savent exactement d'où vous venez.
+
+C'est votre première soirée et elle ne coûte rien. Qu'est-ce que vous en faites ?
+
+*(…)*
+
+**MJ** — Vers dix heures et demie, une sirène se met à sonner.
+
+Ce n'est pas celle de l'usine : elle vient de l'est, du côté de la montagne, et elle est plus
+grave. Elle tient une note longue, s'arrête, reprend.
+
+Dans la salle commune, tout le monde se lève en même temps. Quelqu'un dit un mot que vous ne
+comprenez pas et la pièce se vide par la porte en une trentaine de secondes.
+
+Si vous sortez, voilà ce que vous trouvez : il fait noir, il fait froid, des camions démarrent
+quelque part vers le nord, et des hommes courent entre les baraquements, tous dans la même
+direction. Il en sort de partout.
+
+Un ouvrier s'arrête en vous voyant, parce que vous êtes les seuls à ne pas courir.
+
+*« La mine. Au mont. Une galerie. »*
+
+Il repart sans attendre votre réponse.
+
+Vous êtes dehors, en pleine nuit, à huit kilomètres de la montagne, et tout le monde court.
+Qu'est-ce que vous faites ?
+
+*— fin du jour 1 —*

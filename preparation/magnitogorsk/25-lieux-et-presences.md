@@ -1089,7 +1089,9 @@ Les repas se prennent sur présentation d'une **carte donnant droit à un repas 
 ## Ce qui arrive ici sans qu'ils fassent rien
 
 - **Le message de Kelley**, déposé devant leur porte un soir.
-- **Kassym qui ne vient pas**, au matin du jour 2.
+- **Kassym qui ne vient pas**, au matin du jour 2 — **seulement s'ils ne sont pas montés à la mine
+  pendant la nuit.** S'ils y sont allés et qu'ils savent pour sa famille, il est là à l'heure et
+  c'est lui qui explique pourquoi il vient. Voir `50-temporalite.md`, *les deux entrées du jour 2*.
 - **La rumeur**, qui circule plus vite qu'eux : ce qu'ils ont demandé dans la journée, quelqu'un
   l'a répété ici le soir.
 

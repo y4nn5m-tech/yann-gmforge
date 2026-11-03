@@ -87,6 +87,106 @@ n'obtient plus rien.
 **La friction vient de l'activité du lieu, jamais du mauvais vouloir des gens.** Sinon l'enquête
 devient une série de serrures.
 
+**Interroger ensemble fait gagner du temps et change les réponses.** C'est un vrai arbitrage, et
+il est invisible : les joueurs voient ce qu'ils économisent, jamais ce qu'ils perdent.
+
+Un homme devant son collègue ne se plaint pas de sa hiérarchie, ne signale pas une négligence et ne
+raconte pas ce qu'il a vu si ça met quelqu'un en cause. **Ce qu'ils gagnent en créneaux, ils le
+payent en franchise.**
+
+> **Ne jamais l'annoncer.** Le jour où ils interrogeront quelqu'un seul, la différence sautera aux
+> yeux — et c'est alors eux qui l'auront trouvée. Le signe à donner en séance : un témoin qui
+> **commence une phrase et la referme** en regardant l'autre.
+
+**Et la menace marche, en 1932, devant un capitaine.** Elle se paie aussi, et plus cher : celui qui
+assiste à la menace la racontera. Le soir, la salle commune du baraquement saura que les quatre de
+Moscou font parler les gens en leur rappelant ce qu'ils risquent — ce qui est exactement ce qui
+ferme les bouches là-bas, où se trouve le seul endroit de la ville où les ouvriers parlent.
+
+**La dureté du régime se dit par une conséquence administrative, jamais par une cruauté.**
+
+Le logement est attribué au travailleur, pas à la famille : le mari mort, la veuve doit libérer la
+chambre. *« On m'a dit qu'on verrait. C'était il y a dix jours. »* Personne n'a été méchant.
+C'est le règlement, et il n'y a personne à qui en vouloir — **c'est précisément ce qui fait
+l'effet.**
+
+Trois conditions, et elles vont ensemble :
+
+| | |
+|---|---|
+| **c'est dit par celui qui la subit** | en passant, au milieu d'autre chose, **sans se plaindre** |
+| **le meneur ne commente pas** | pas de temps après la phrase, pas de regard appuyé, on enchaîne |
+| **ça ne sert à rien pour l'enquête** | une dureté qui fait avancer le dossier est un ressort, pas un monde |
+
+> **Et le meilleur usage est celui qui ouvre un geste.** Quatre envoyés de Moscou peuvent faire
+> qu'on réponde à cette femme — gratuitement, et sans rapport avec leur mission. Le décor devient
+> un choix. Même mécanique que le bois pour l'ingénieur de la mine.
+
+**La réserve, pour en placer une de temps en temps** — déjà employées en répétition, ou
+disponibles :
+
+- la carte de ravitaillement est liée à l'emploi : plus d'emploi, plus de carte ;
+- un garçon de quatorze ans inscrit comme porteur au fond, et c'est régulier ;
+- les koulaks de l'entretien, malades aussi, **et jamais comptés dans les listes** ;
+- le tableau de rendement à l'entrée du dépôt, les derniers noms écrits en rouge ;
+- la carte qui permet de passer devant trois cents hommes qui font la queue ;
+- un ouvrier qui s'excuse d'avoir été malade ;
+- des hommes qui descendent à la mine sans être inscrits, parce qu'on leur a demandé.
+
+> **Une par scène au plus.** Empilées, elles deviennent un discours — et un discours sur la dureté
+> d'un régime est exactement ce qui empêche de la ressentir.
+
+**Se séparer double les lieux, et ça se paie ailleurs qu'en créneaux.**
+
+Il faut l'autoriser : les joueurs y penseront, et refuser serait arbitraire. Mais quatre coupés en
+deux ne valent pas deux fois deux.
+
+| | |
+|---|---|
+| **le poids** | quatre envoyés de Moscou dont un officier font céder une administration. Deux civils seuls, beaucoup moins — **Désavantage sur le Bagou** quand le groupe est coupé |
+| **les compétences** | chaque moitié devient aveugle à ce que l'autre aurait vu |
+| **le recoupement** | **c'est le coût réel** : l'information arrive en deux récits le soir au lieu d'arriver dans la même pièce. Le croisement convois lourds / incidents s'est fait parce qu'ils étaient quatre autour d'une table |
+| **le guide** | Kassym ne peut mener qu'un groupe. L'autre se perd et arrive en retard |
+
+> **Et pour un joueur, se séparer est un problème personnel** : Gusev· est là pour surveiller les
+> trois autres. Dispersés, il ne peut en suivre qu'un — **et il devra choisir lequel**, ce qui est
+> une information sur lui que la table peut lire.
+
+**On ne joue pas une tâche, on joue ce qu'on y rencontre.** Recenser trois cents personnes une par
+une, fouiller un entrepôt, relire une liasse de bons : la tâche se décrit en deux phrases, et le
+meneur ne joue que les **rencontres** qu'elle provoque — une famille, un nom qui manque, quelqu'un
+qu'on reconnaît.
+
+> **Le test** : si la deuxième itération ressemble à la première, elle ne se joue pas. Trois
+> moments suffisent à faire sentir une nuit entière.
+
+**Décrire ce qui est, jamais ce qui n'est pas.** *« Personne ne proteste »*, *« ça ne crie pas »*,
+*« personne ne vous demande rien »* : une description négative ne décrit pas la scène, **elle
+décrit l'attente du meneur** — et elle la pose dans la tête des joueurs à la place de ce qu'ils
+auraient ressenti.
+
+Les versions positives disent la même chose et laissent le jugement au joueur :
+
+| Négatif | Positif |
+|---|---|
+| personne ne proteste | à chaque trou, tout le monde part d'un bloc d'un côté puis de l'autre, et se rattrape |
+| ça ne crie pas | les voix sont basses, et on s'écarte quand un brancard passe |
+| personne ne vous arrête | les gardes regardent passer l'uniforme et reviennent à la foule |
+
+> **Le cas limite où le négatif est légitime** : quand l'absence est elle-même l'information et que
+> les joueurs l'ont cherchée. *« Il n'y a pas de date de remise sur la convocation. »* Là, le vide
+> est un fait du monde, pas un commentaire.
+
+**Récidive du jargon non traduit.** La règle est consignée depuis le linoléum et Kitaï-Gorod, et
+la nuit de l'effondrement en a empilé six d'un coup : *carreau*, *niveau quatre*, *étais*,
+*poche*, *bouchon*, *capote*. Un garde de vingt ans qui n'est pas mineur ne parle pas comme ça —
+et même s'il le faisait, la table ne suivrait pas.
+
+> **Le test** : si le meneur doit expliquer un mot après coup, la phrase était à réécrire avant.
+> *« L'esplanade au pied de la montagne »* vaut *carreau* · *« les débris bouchent le tunnel, et
+> derrière il y a peut-être un espace où des hommes sont vivants »* vaut *poche derrière le
+> bouchon*.
+
 **Une fausse piste doit pouvoir se refermer.** Sinon ce n'est pas une piste, c'est une fuite : les
 joueurs y versent des créneaux et n'en rapportent rien, pas même une certitude négative.
 

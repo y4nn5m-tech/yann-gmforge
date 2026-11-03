@@ -120,7 +120,143 @@ travaillent-elles »**.
 > palais administratif. **C'est le moment de bascule du dossier**, et il tient en une colonne
 > manquante.
 
+#### Le bout de papier de Nesteroff — ce qu'il remet le lendemain
+
+**Un bout de papier déchiré, écrit debout, à l'encre.** Pas de titre, pas de mise en page : il
+l'a griffonné en sortant du registre. **À écrire à la main avant la partie, sur un vrai morceau de
+papier** — pas une feuille entière.
+
+```
+Vu le registre. 5 autres, même tableau.
+
+Krivine P.    chaufferie     14.IV   revenu 18.IV
+Soutyrine M.  chaufferie     21.IV   revenu 24.IV
+Lapine G.     manutention    23.IV
+Oussatchev    manutention    27.IV   revenu 30.IV
+(koulak, br. 9)              30.IV
+
+Les 3 revenus sont les mêmes douleurs, en pire.
+Les 2 autres je ne les ai pas revus. Partis ou morts, je ne sais pas.
+
+Même mal que les sept. Je le confirme.
+```
+
+> **Ça ne désigne rien et ça change tout.** Chaufferie et manutention ne recoupent ni la fonderie
+> ni la comptabilité : **le service n'est pas le point commun.** Mais le compte passe de sept à
+> douze, et **un koulak sans nom** y figure — celui que personne n'aurait compté.
+>
+> **Et la Section D contient une chaufferie et un poste de chargement.** Le papier pointe déjà
+> dessus sans le dire. Ne jamais le faire remarquer.
+
+#### Les deux chemins vers les victimes
+
+**Le dossier ne se ferme pas sur une information difficile à obtenir : il se ferme sur une question
+à laquelle personne n'a pensé.** Les deux chemins mènent au même endroit, et ils ne coûtent pas la
+même chose.
+
+##### Le palais administratif — gratuit, une question
+
+Au bureau du personnel, premier étage. L'accréditation d'Igor suffit, et l'employé sort les fiches
+une par une.
+
+> *« Lebedev, Konstantin Pavlovitch. Ingénieur en chef, fonderie. **Affecté secteur D** depuis le
+> 2 mars. »* · *« Ignatieva, Nina. Comptable principale. **Bureau de contrôle, secteur D.** »* ·
+> *« Blokhin. Contremaître fonderie. **Secteur D.** »* …
+
+**Il dit « secteur D » sept fois en moins d'une minute et il n'a aucune idée de ce qu'il donne.**
+Il ne relève rien, il ne commente rien : pour lui, c'est une suite de fiches.
+
+> **Pas d'accessoire pour ça, et c'est un cas où il faut résister.** Une liste écrite
+> *« nom → bureau »* donnerait le point commun **d'un bloc**, en silence : c'est la colonne de trop
+> que le chapitre des accessoires interdit. L'information se dit **oralement, nom par nom**, et
+> c'est en entendant le même secteur pour la quatrième fois que quelqu'un relève la tête. Ce
+> moment-là ne se fabrique pas sur du papier.
+
+**Ne pas confondre avec les archives administratives**, qui coûtent un créneau. Ici, c'est une
+question posée à un guichet.
+
+##### Les familles — un créneau, et elles ferment une porte
+
+Trois adresses, trois côtés de la ville. **En jouer une, raconter les deux autres.**
+
+Celle qu'on joue : la veuve de Blokhin, dans une chambre de baraquement avec deux enfants et sa
+belle-mère. Elle sert du thé qu'elle n'a pas les moyens de servir, et elle raconte dans le
+désordre : les premières douleurs, les trois jours où il y est allé quand même, le soir où il n'a
+pas pu monter l'escalier, le cinquième jour.
+
+**Quand on lui demande ce qu'il mangeait :**
+
+> *« À la maison. Le matin et le soir. Il n'aimait pas le réfectoire, il disait que la queue
+> mangeait la moitié de la pause. Il emportait sa gamelle. C'est moi qui la préparais. »*
+
+Les deux autres visites donnent la même chose autrement : l'un des sept mangeait au réfectoire tous
+les jours, un autre n'y allait jamais, un troisième alternait.
+
+> **Ce que la demi-journée produit : l'hypothèse alimentaire tombe.** Ils ne mangeaient pas au même
+> endroit, et deux d'entre eux ne mangeaient que ce que leur femme avait préparé.
+>
+> **Les familles servent à éliminer, pas à désigner.** Ne rien y mettre qui pointe vers l'eau —
+> pas de gourde vide, pas de détail trop commode. C'est une flèche déguisée en souvenir.
+
+> **Et il y a un geste à leur portée, qui ne sert à rien pour l'enquête.** Le logement est attribué
+> au travailleur, pas à la famille : son mari mort, la veuve doit libérer la chambre.
+> *« On m'a dit qu'on verrait. C'était il y a dix jours. »* Quatre envoyés de Moscou peuvent faire
+> en sorte qu'on lui réponde — gratuitement, et ça se saura dans les baraquements. Même mécanique
+> que le bois pour l'ingénieur de la mine.
+
+##### Les réfectoires — ils n'apprennent rien, et c'est déjà sur leur papier
+
+Le rapport de police porte une colonne `RÉFECTOIRE HABITUEL` : **B, B, C, B, C, D, C**. Trois
+cantines. **Un joueur qui relit le dossier le voit sans sortir.**
+
+Aller sur place ne fait que confirmer. **Ne pas les prévenir** — le papier est entre leurs mains,
+et c'est comme ça qu'on apprend à relire ses dossiers avant de marcher.
+
+| | |
+|---|---|
+| **le coût** | une heure, pas un créneau. Ça se raconte |
+| **avec les familles** | **ça ne se cumule pas.** Les deux ferment l'alimentation, et le dossier n'a que deux créneaux. Qui a fait les familles paie une seconde fois pour la même chose |
+
+**La scène, si on la joue** — quarante minutes de marche, un détour parce qu'un camion est
+embourbé, et sur place c'est l'heure creuse : les cuisines sont fermées jusqu'au soir, un homme
+passe la serpillière entre les tables, et il faut attendre vingt minutes que le responsable
+revienne d'ailleurs.
+
+Quand il arrive, il est serviable et il répond à tout :
+
+> *« Lebedev, oui. Il mangeait ici tous les midis, à la même table, avec les gens du bureau de
+> contrôle. La camarade Ignatieva aussi. »*
+>
+> *« Blokhin ? Non, pas ici. Lui c'est le C, je crois, ou le D. Il n'y a que les cadres du bureau
+> qui viennent ici. »*
+
+Il propose de vérifier sur ses listes de cartes, ce qui prendra encore un quart d'heure.
+
+> **À dire quand ils en reviennent** : *« Vous avez marché quarante minutes et attendu vingt pour
+> qu'un homme en tablier vous confirme ce qui est écrit à la quatrième colonne du rapport que vous
+> avez sous le bras depuis hier. »* **Une fois. Sans ironie, et sans y revenir.**
+
 ### Voie 3 — par le terrain : le robinet
+
+#### Comment on amène l'eau — on ne dirige pas, on met dans le champ
+
+**Le robinet ne se désigne pas : il se montre par un geste, et jamais par une réponse.**
+
+**À chaque fois que quelqu'un du secteur D parle aux joueurs, il boit.** Sans commentaire, sans
+temps d'arrêt, au milieu d'autre chose :
+
+- le contremaître s'interrompt en pleine phrase — *« Attendez. »* — va au robinet, boit à la main,
+  revient et reprend où il en était ;
+- un ouvrier interrogé a une tasse de fer-blanc posée sur une caisse à côté de lui ;
+- un autre répond en s'essuyant la bouche du revers de la manche ;
+- deux hommes se croisent dans le couloir et l'un attend que l'autre ait fini.
+
+**Trois ou quatre fois dans l'après-midi, sans jamais appuyer.** Quelqu'un à la table finira par le
+dire. C'est ce que veut la ligne : *« ils montrent le robinet sans y penser »*.
+
+**Deux filets, si ça ne prend pas** : le poste de mesure, dont le métier est de relever des
+chiffres et qui a noté la baisse de débit · le convalescent, qui a eu une semaine couché pour y
+penser et qui se souvient d'avoir bu.
 
 En Section D, en interrogeant largement ouvriers et contremaîtres :
 
@@ -151,6 +287,26 @@ mesure · chaufferie · chargement · bureau de contrôle · **le couloir de lia
 
 > **Le générateur de PNJ de `sources/magnitogorsk-aides-ia/` sert ici**, exactement comme aux entrepôts : **les
 > noms du rapport font foi**, le dé fabrique les figurants.
+
+---
+
+## Le registre des entrées — ce que la feuille de carnet appelle
+
+**La feuille de carnet de Nesteroff porte la ligne** *« Ouvriers venus pour le ventre ce mois-ci :
+voir registre d'entrées »*. Les joueurs le demanderont, et il faut une réponse.
+
+**C'est un cahier d'entrées du dispensaire** : une ligne par personne — nom, date, motif en trois
+mots, ce qu'on a donné. Trente à cinquante entrées par jour, sept jours sur sept. **Avril fait une
+centaine de pages.**
+
+| | |
+|---|---|
+| **Nesteroff le fait** | quelques heures, résultat le lendemain matin. **Gratuit** — c'est lui qui le propose |
+| **ils le font eux-mêmes** | **un créneau**, même résultat |
+
+> **La différence, et elle ne se dit pas** : ils trouveront les entrées, pas les visages. Nesteroff
+> se souvient lesquels sont **revenus** — et c'est ce qui distingue un mal de ventre d'un
+> empoisonnement lent.
 
 ---
 
@@ -187,6 +343,51 @@ suffit qu'ils aient fait le lien Section D → couloir → robinet.
 >
 > **Ne jamais la suggérer. Et si elle vient, ne pas la minimiser** — dire, deux jours plus tard,
 > qu'il n'y a pas eu de nouveau cas en Section D.
+
+---
+
+## Faire analyser la substance — et le résultat négatif qui informe
+
+**C'est la demande la plus naturelle du monde, et elle arrive toujours.**
+
+**Où** : le laboratoire du contrôle qualité, dans le **bureau de contrôle du secteur D** — donc à
+soixante mètres, et gratuit s'ils sont déjà sur place. Ce sont des chimistes de la fonte : ils
+dosent le carbone, le soufre, le phosphore. Ils savent chercher l'arsenic et le plomb, et c'est
+tout.
+
+**Le chimiste accepte, et il dit d'emblée ce qu'il ne sait pas faire** :
+
+> *« Je fais du métal, camarade. Je vous dose un acier en quatre heures et je vous dis d'où vient
+> le défaut. Ça, ce n'est pas du métal. Je peux vous le brûler et vous dire ce qu'il en reste.
+> Au-delà, je ne saurai pas nommer ce que je vois. »*
+
+**Deux jours.** Le résultat tombe donc le 6 ou le 7 au matin.
+
+### Ce que ça donne : rien — et c'est le résultat
+
+**L'échantillon ne survit pas.** Dans le bocal, en deux jours, la substance se rétracte en séchant.
+Il reste au fond une pellicule grise et craquelée qui se réduit en poudre quand on remue.
+
+> *« Vous voyez. J'ai travaillé sur ça, pas sur ce que vous m'avez donné. »*
+
+L'analyse donne du carbone, de l'eau, des traces de fer et de cuivre qui viennent du tuyau. **Pas
+d'arsenic, pas de plomb, rien de toxique, rien d'identifiable.**
+
+> **Et c'est cohérent avec l'autopsie**, qui tombe le même matin : un corps entièrement nécrosé et
+> **aucune trace de la substance**. Les deux résultats disent la même chose par deux chemins
+> différents — et c'est bien plus inquiétant qu'un poison identifié.
+
+### La règle, et elle vaut pour tout le scénario
+
+**Un résultat négatif n'est pas une porte fermée : c'est une information — à condition que le PNJ
+qui le rend dise pourquoi ce négatif est anormal.**
+
+> *« Je vous rends ce que j'ai trouvé, et ça ne vaut rien. Mais je vais vous dire ce qui m'embête.
+> Une matière organique laisse toujours quelque chose. Des sels, des graisses, de l'azote. Il y a
+> toujours un reste. Celle-là n'a rien laissé du tout. Je ne sais pas quoi en faire. »*
+
+**Le PNJ doit être intrigué, pas fermé.** Un bureaucrate qui refuse l'analyse frustre ; un
+professionnel honnête qui ne comprend pas son propre résultat fait exactement le contraire.
 
 ---
 

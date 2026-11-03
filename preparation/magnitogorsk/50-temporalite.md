@@ -39,6 +39,140 @@ jour.
 **Le déblaiement dure quatre jours** — du soir du 3 mai au soir du 7. **C'est lui qui fixe la
 longueur de l'acte 1.**
 
+### La nuit du 3 — ce qu'on peut leur demander, et ce que ça change
+
+**Né en répétition, quand les joueurs sont montés à la mine la nuit même.** Deux demandes leur
+tombent dessus, et aucune ne vient d'eux.
+
+#### Le bois — et c'est un piège qui n'en a pas l'air
+
+L'ingénieur qui dirige le dégagement a besoin de **deux wagons de rondins** pour étayer au fur et à
+mesure : sans bois, on n'avance pas, parce que chaque mètre dégagé doit être soutenu. Il les a
+demandés au combinat, et on lui répond qu'ils sont **affectés à la cokerie** — l'atelier qui cuit
+le charbon pour les hauts-fourneaux, donc intouchable.
+
+**Les wagons existent et sont à la gare de marchandises.** Pour les détourner, il faut une
+signature au-dessus du service des approvisionnements : **le palais administratif, de nuit**, où
+il y a quelqu'un de permanence.
+
+| | |
+|---|---|
+| **ce que ça coûte** | la nuit, donc le **matin du jour 2** — un créneau sur huit |
+| **ce que ça rapporte, en apparence** | une journée gagnée : la galerie rouverte le **6 au soir** au lieu du 7 |
+| **ce que ça rapporte vraiment** | **rien.** Il n'y a personne de vivant derrière, et ils ne le sauront jamais |
+| **ce que ça rapporte en fait** | trois cents personnes les ont vus le faire, et ça se dit dans la salle commune avant qu'ils y rentrent |
+
+> **Ne jamais souligner que l'effort était vain.** Le scénario sait qu'il n'y a pas de survivants ;
+> les personnages, non. Un meneur qui le fait sentir transforme un geste en leçon.
+>
+> **Et l'effet réel n'est pas rien** : c'est le seul moyen, dans tout l'acte 1, d'obtenir des
+> ouvriers autre chose que de la peur. Voir le baraquement, salle commune — *« s'ils pensent à les
+> approcher en se faisant passer pour leurs égaux »*.
+
+**Si la galerie est rouverte le 6 au soir**, tout l'acte 2 avance d'une journée : la descente
+devient possible le 7, et les jours 5 à 7 du calendrier se décalent. **Compter un créneau
+d'enquête en moins, pas deux.**
+
+#### Le compte des hommes — gratuit, et il donne des noms
+
+Les feuilles de descente disent **trente et un**. Les contremaîtres disent plus de quarante : il y
+a toujours des hommes qui descendent à la place d'un autre, en plus, ou pour finir un travail.
+Personne n'a quatre bras disponibles pour reprendre la liste.
+
+C'est la deuxième demande, et elle ne coûte pas de créneau — elle occupe la nuit, comme le bois,
+et les deux ne se cumulent pas.
+
+> **Ce qu'elle produit, et c'est beaucoup** : il faut prendre les contremaîtres un par un, **et les
+> familles une par une**. Les joueurs passent donc la nuit à remonter la foule en demandant des
+> noms.
+
+##### Les six noms de Kassym
+
+**Il ne le dira pas de lui-même.** Il est au premier rang depuis des heures, en chemise, sans
+manteau, couvert de poussière. Quand les joueurs arrivent devant lui avec leur crayon, il se
+redresse comme sur le quai de la gare le matin même — et il attend la question.
+
+Puis il répond, droit, sans s'interrompre, en attendant que le crayon ait fini avant de donner le
+suivant. **Il épelle quand il voit qu'on hésite.**
+
+> *« Mon père. Volkoff, Askar. Il est chef de poste à la troisième. »*
+> *« Mon oncle. Volkoff, Bulat. »*
+> *« Ma mère. Volkova, Saule. »*
+> *« Ma sœur. Volkova, Aksinia. Elle a dix-neuf ans. »*
+> *« Mes frères. Volkoff, Dmitri. Volkoff, Timour. Timour a quatorze ans, il est inscrit comme
+> porteur. »*
+>
+> *« Ils sont tous en bas. »*
+
+**Six noms, sans une erreur.** Puis il demande à voir la liste de ce qui est écrit, pour savoir
+s'ils y sont.
+
+> **Ne rien souligner, et surtout pas ceci** : il leur a dit lui-même, le matin, qu'il ne descendait
+> pas cette semaine **parce qu'on l'avait mis avec eux**. La table fera le rapprochement toute
+> seule, ou ne le fera pas — mais le meneur ne le fait jamais à sa place.
+
+> **S'il n'est pas trouvé cette nuit**, il donne les mêmes six noms au matin du jour 2, quand on
+> finit par apprendre pourquoi il n'est pas venu. **Rien ne change, sauf qui pose la question.**
+>
+> **C'est là qu'ils trouvent Kassym**, s'ils ne l'ont pas vu avant. Et c'est lui qui leur donnera
+> les noms de sa propre famille.
+
+#### Ne pas jouer la collecte — jouer ce qu'on y rencontre
+
+Demander trois cents fois *« qui attendez-vous ? »* n'a aucun intérêt. Le meneur décrit le travail
+en deux phrases — *vous passez la nuit à remonter la file, un crayon dans une main, une feuille
+dans l'autre* — et il joue **trois moments, pas un de plus** :
+
+- une famille qui donne un nom qui n'est sur aucune liste ;
+- **Kassym**, qui donne les siens ;
+- vers quatre heures du matin, le moment où le compte tombe : **quarante-trois, peut-être
+  quarante-quatre.**
+
+#### La permanence de nuit ne décide rien — elle réveille quelqu'un
+
+Le palais administratif a un officier de service la nuit : un combinat qui tourne jour et nuit en
+a forcément un. **Il tient un registre, il répond au téléphone, et il n'a aucun pouvoir de
+signature.**
+
+Ce qu'il peut faire, c'est réveiller un cadre. **Et c'est ça, l'acte d'autorité** : faire tirer du
+lit un responsable à une heure du matin pour détourner deux wagons affectés à la cokerie. Seuls
+des envoyés de Moscou peuvent se le permettre.
+
+> **Ça marche, et ça se paie.** Celui qu'on réveille s'en souviendra, et le combinat saura dès le
+> matin que les quatre de Moscou donnent des ordres à l'approvisionnement.
+
+**S'ils y vont le matin au lieu de la nuit, ils payent deux fois** : un créneau sur huit, **et** la
+journée de dégagement qu'ils voulaient gagner — du bois arrivé à midi ne sert plus pour la journée
+en cours. Tarasov l'a dit : *« si j'ai le bois cette nuit »*. Les moyens de le comprendre leur ont
+été donnés.
+
+#### Les deux entrées du jour 2, et aucune n'est la bonne
+
+**Monter à la mine la nuit est un choix, pas un passage obligé.** Rester au baraquement en est un
+autre, entier, et c'est probablement le plus fréquent — ils n'ont aucune fonction là-haut et on
+vient de leur dire que ça va durer des jours.
+
+| | Ce que le matin du jour 2 doit porter |
+|---|---|
+| **ils sont montés** | ils ont vu l'ampleur, ils ont des noms, ils ont peut-être déjà croisé Kassym. Le matin apporte surtout **la fatigue** et ce que la nuit a coûté |
+| **ils sont restés** | ils apprennent tout par la rumeur du baraquement : le nombre, le tunnel, la durée. **Kassym ne vient pas au rendez-vous**, et c'est leur seule information directe — ils ne savent pas encore pourquoi |
+
+> **Et c'est la présence ou l'absence de Kassym qui fait la différence** — elle n'est pas fixée
+> d'avance, elle découle de ce qu'ils ont fait de leur nuit.
+
+| | Kassym, au matin du jour 2 |
+|---|---|
+| **ils sont montés et ils savent** | **il est là, à l'heure.** Il explique lui-même : le dégagement continue, on le préviendra, il ne peut rien faire là-bas — alors autant qu'il soit avec eux |
+| **ils ne sont pas montés** | **il n'est pas là.** C'est leur première information de la journée, et c'est par elle qu'ils apprendront que la nuit le touche directement |
+
+> **Un Kassym présent est plus dur qu'un Kassym absent**, et c'est pour ça que cette version vaut
+> mieux : un garçon de seize ans qui guide quatre enquêteurs pendant que sa famille est sous la
+> roche installe tout de suite ce que l'acte 2 cherche. Son absence ne fait que le retarder d'une
+> journée.
+>
+> **Il n'a pas dormi non plus.** Ne pas le dire — le montrer : il se trompe deux fois de chemin
+> dans la journée, lui qui connaît la ville.
+
 ---
 
 ## L'unité : la demi-journée

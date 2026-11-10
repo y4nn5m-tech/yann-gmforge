@@ -48,6 +48,7 @@ ORDRE = [
     "MODELE-livrable-feuille.md",
     "MODELE-formes.md",
     "MODELE-systemes.md",
+    "MODELE-accessoires.md",
 ]
 
 # Le retour d'expérience du dépôt : daté, nominatif, sans portée générale.
